@@ -2,17 +2,41 @@
 title: System Requirements
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 The Gantry framework does have some system requirements. Listed below are those requirements broken down into their distinct groups:
 
 Joomla Requirements
 -------------------
-It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **2.5.6** is the latest stable version of Joomla. We encourage you to update your Joomla install if you are running anything less than this version. We maintain a Joomla 1.5 version of Gantry, but only in a maintenance mode.
+
+{% set tab1 %}
+
+**Joomla 2.5, 3.x**
+
+It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.3** is the latest stable version of Joomla. We encourage you to update your Joomla install if you are running anything less than this version.
+
+Joomla **2.5** is supported in Gantry 4, however it has been deprecated by Joomla and no longer officially supported. We maintain a Joomla 1.5 version of Gantry, but only in a maintenance mode.
+
+{% endset %}
+{% set tab2 %}
+
+**WordPress 3.5.1+**
+
+It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.0.1** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
+
+{% endset %}
+
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 
 Server Requirements
 -------------------
+
 We try to ensure that Gantry templates (and specifically the Gantry Library) will work with any modern and secure server environment. The recommended minimum requirements are:
 
 * PHP 5.2.17+ (5.3+ recommended)
@@ -25,6 +49,7 @@ We try to ensure that Gantry templates (and specifically the Gantry Library) wil
 
 Browser Requirements
 --------------------
+
 The back-end administration requirements of Gantry in order of preference are as follows:
 
 * Firefox 4+
@@ -40,12 +65,12 @@ Development Environments
 Local development is the preferred method of working with any Gantry based template as it allows for the fastest development iterations due to flat out performance and convenience. The following is a list of suitable server setups that can be installed locally on your computer:
 
 
-| Mac OS X                              | Windows                               | Linux                                 |
-|:--------------------------------------|:--------------------------------------|:--------------------------------------|
+|                Mac OS X               |                Windows                |                 Linux                 |
+| :------------------------------------ | :------------------------------------ | :------------------------------------ |
 | [MAMP & MAMP Pro][mamp]               | [EasyPHP][easyphp]                    | [LAMP Bundle][lamp]                   |
 | [XAMPP for Mac OS X][xampm]           | [WampServer][wamp]                    | [XAMPP for Linux][xampl]              |
 | [Zend Server Community Edition][zend] | [Zend Server Community Edition][zend] | [Zend Server Community Edition][zend] |
-| [Mac Port][macport]                   | [XAMPP for Windows][xampw]            |
+| [Mac Port][macport]                   | [XAMPP for Windows][xampw]            |                                       |
 
 
 

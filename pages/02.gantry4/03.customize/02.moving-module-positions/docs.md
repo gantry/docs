@@ -2,18 +2,34 @@
 title: Moving Module Positions
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 This section covers moving a set of module positions within your Gantry-enabled template.
 
-http://youtube.com/embed/snZSUSWMnpM
+{% set tab1 %}
+
+http://youtu.be/snZSUSWMnpM
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
+
+{% endset %}
+{% set tab2 %}
+
+http://youtu.be/xYsB2VKmkFU
+
+>>> Check out this quick screencast on Widget Positions to get an overview of how this feature works within WordPress and the Gantry Framework.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Step 1: Planning
 ----------------
 Determine which module you want to move, and where it needs to go within the `index.php` file of the template.
-
 
 Step 2: Moving Module
 ---------------------

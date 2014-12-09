@@ -1,16 +1,25 @@
 ---
-title: Features
+title: Features (Joomla)
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
+
+The **Features** tab in Gantry for Joomla gives you access to module-like features that enhance the look and functionality of your site. This includes things like the copyright notice at the bottom of the page, date display, and a place for you to put the **Google Analytics** code used to track analytical data for your site.
+
+For WordPress, the equivalent tab is called **Gizmos**. Many of the features used in Joomla are represented by Widgets on WordPress. You can find out more about WordPress gizmos by visiting the [Gizmos guide](../gizmos).
 
 http://youtube.com/embed/CiSkV5QVyhY
  
 >>> A quick way to see the power of Gantry features is to check out this short screencast. It covers some of the basics of features and how they work and how they can be easily integrated into your design.
 
-
 Date
 ----
+
 The **Date** feature controls the output of the current date display. From this option, you can enable/disable the display of the date, enable/disable the use of client-side date, choose from several different date format options, and select a location for the date to display using any of the available module positions in the template.
 
 ![](features-date.jpg)

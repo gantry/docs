@@ -2,14 +2,30 @@
 title: Adding Module Positions
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 This section covers how to add a new row of module positions to the Gantry Framework and to your Gantry-enabled template.
 
-http://youtube.com/embed/snZSUSWMnpM
+{% set tab1 %}
+
+http://youtu.be/snZSUSWMnpM
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
+{% endset %}
+{% set tab2 %}
+
+http://youtu.be/xYsB2VKmkFU
+
+>>> Check out this quick screencast on *Widget Positions* to get an overview of how widget positions work within WordPress and the Gantry Framework.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Step 1: Getting Ready
 ---------------------
@@ -18,7 +34,10 @@ Determine the position name and location on your template where you would like y
 
 Step 2: Adding Position to index.php
 ------------------------------------
-Open your template `index.php` file and go to where you would like to add your new "row module" position. Using `$gantry`, we will make a call to the object using the function `displayModules(positionname, modulelayouttype, modulechromelayout);` This call will need to be echoed.
+
+{% set tab1 %}
+
+Open your template `index.php` file and go to where you would like to add your new row position. Using `$gantry`, we will make a call to the object using the function: `displayModules(positionname, widgetlayouttype, widgetchromelayout);`. This call will need to be echoed.
 
 Example:
 
@@ -29,11 +48,32 @@ Example:
 </div>
 ```
 
-The position now will appear after we have configured the Gantry portion to recognize it. Until then, it will not work properly.
+The new position now will appear after we have configured the Gantry portion to recognize it. Until then, it will not work properly.
 
+{% endset %}
+{% set tab2 %}
+
+Open your template `index.php` file and go to where you would like to add your new position. Using `$gantry`, we will make a call to the object using the function: `displayModules(positionname, widgetlayouttype, widgetchromelayout);`. This call will need to be echoed.
+
+Example:
+
+```html
+<div id="rt-exampleposition">
+  <?php echo $gantry->displayModules('example','standard','standard'); ?>
+  <div class="clear"></div>
+</div>
+```
+
+The new position now will appear after we have configured the Gantry portion to recognize it. Until then, it will not work properly.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Step 3: Adding Position to Gantry Framework
 -------------------------------------------
+
+{% set tab1 %}
+
 Open `templateDetails.xml` and scroll down to the "positions" tag where the default Gantry positions are listed. Under here we will need to add our "row module" positions a through f, as in the example below:
 
 ```xml
@@ -51,6 +91,26 @@ Next, open `template-options.xml` and scroll down to the line which says this:
 <fieldset name="layouts" label="LAYOUTS">
 ```
 
+{% endset %}
+{% set tab2 %}
+
+Open `templateDetails.xml` and scroll down to the "positions" tag where the default Gantry positions are listed. Under here, we will need to add our "row module" positions a through f.
+
+Example:
+
+```xml
+<position id="example" name="Example" max_positions="6">Example</position>
+```
+
+Next: Scroll down to the line which says:
+
+```xml
+<fieldset name="layouts" label="LAYOUTS">
+```
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
 This is where we add our new position layout slider. We need to add the following xml block to make this appear in the Template Manager:
 
 ```xml
@@ -64,13 +124,16 @@ This is where we add our new position layout slider. We need to add the followin
 </fields>
 ```
 
-| Attribute    | Description                                                                    |
-|:-------------|:-------------------------------------------------------------------------------|
-|        name  | name of position                                                               |
-|        type  | must always be "position"                                                      |
-|     default  | default layout for the "row module" any combination of 12 separated by commas. |
-|       label  | Label in Template Manager for this module.                                     |
-| description  | description of what this area is used for.                                     |
+|  Attribute  |                                  Description                                   |
+| :---------- | :----------------------------------------------------------------------------- |
+| name        | name of position                                                               |
+| type        | must always be "position"                                                      |
+| default     | default layout for the "row module" any combination of 12 separated by commas. |
+| label       | Label in Template Manager for this module.                                     |
+| description | description of what this area is used for.                                     |
+
+Joomla
+=====
 
 Note: Creating a New Module
 ---------------------------

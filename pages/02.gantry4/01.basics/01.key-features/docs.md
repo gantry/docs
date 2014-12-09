@@ -13,7 +13,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Joomla and WordPress Support__
 
-The responsive Gantry 4 framework is available for Joomla 2.5 and 3.x, and WordPress 3.2+ and 4.0.
+  The responsive Gantry 4 framework is available for Joomla 2.5 and 3.x, and WordPress 3.2+ and 4.0.
 
 
 * __Stunning new administrator interface__

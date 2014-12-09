@@ -1,63 +1,62 @@
 ---
-title: Creating a New Feature
+title: Creating a New Feature (Joomla)
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 In the Gantry framework, we use the term **Feature** to mean a specific bit of functionality. Features are flexible enough that they can be used to perform almost any type of logic you would need. The base **GantryFeature** class contains methods that can be implemented to control how your feature functions. Those methods are:
 
-| `isEnabled()`
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------
-| By default, this gets its state from the enabled toggle in the admin. You can override this to force the enabling of a feature without any UI interaction.
-| Returns `boolean` [true | false]
+>>> For WordPress, the equivalent tab is called **Gizmos**. Many of the features used in Joomla are represented by Widgets on WordPress. You can find out more about WordPress gizmos by visiting the [Creating a New Gizmo guide](../creating-a-new-gizmo).
 
+### `isEnabled()`
 
-| `getPosition()`
-|:------------------------------------------------------------------------------------------------------------------------------------------------------
-| This gets its position from the position element in the admin by default. Again, you can override this to force a position without any UI interaction.
-| Returns `string` [current position name]
+* By default, this gets its state from the enabled toggle in the admin. You can override this to force the enabling of a feature without any UI interaction.
+* Returns `boolean` (true / false)                                                                                                                         
 
+### `getPosition()`     
 
-| `isInPosition([string $position])`
-|:-----------------------------------------------------------------------------------------------------
-| This is a method to determine if the feature is located in a specified position.
-| Argument [optional] `string` [position name to get compared with the current position of the feature]
-| Returns `boolean` [true | false] if the current position is the same as the argument
+* This gets its position from the position element in the admin by default. Again, you can override this to force a position without any UI interaction.
+* Returns `string` [current position name]                                                                                                             
 
+### `isInPosition([string $position])`                                
 
-| `isOrderable()`
-|:----------------------------------------------------------------------------------------------------
-| A method that defaults to true, but can be overriden if the order of this position is not important.
-| Returns `boolean` [true | false]
+* This is a method to determine if the feature is located in a specified position.                    
+* Argument (optional) `string` (position name to get compared with the current position of the feature).
+* Returns `boolean` (true / false) if the current position is the same as the argument.          
 
+### `isOrderable()`         
 
-| `setPrefix(string $prefix)`
-|:--------------------------------------------------------------------------
-| This sets a prefix for handling prefixed fields such as chained elements.
-| Argument `string` [prefix name - usually the name of the main chain param]
+* A method that defaults to true, but can be overriden if the order of this position is not important.
+* Returns `boolean` (true / false)                                                                   
 
+### `setPrefix(string $prefix)`    
 
-| `get($param [, $prefixed = true])`
-|:------------------------------------------------------------------------------------------
-| This gets a param from the feature's configuration. It can also take a prefix for more specificity.
-| Argument `string` [field name]
-| Argument [optional] `boolean` [true | false]
-| Returns `mixed` [the current value of the field]
+* This sets a prefix for handling prefixed fields such as chained elements.
+* Argument `string` (prefix name - usually the name of the main chain param)
 
+### `get($param [, $prefixed = true])` 
 
-| `init()`
-|:-------------------------------------------------------------------------------------------------------------
-| Empty by default. It's the first method called on initialization of a feature. Used for setup or initialization
+* This gets a param from the feature's configuration. It can also take a prefix for more specificity.
+* Argument `string` (field name)                                                                    
+* Argument [optional] `boolean` (true / false)                                                      
+* Returns `mixed` (the current value of the field)                                                 
 
+### `init()`        
 
-| `render()`
-|:----------------------------------------------------------------
-| This is used to render output in a particular position. It is empty by default.
+* Empty by default. It's the first method called on initialization of a feature. Used for setup or initialization.
 
+### `render()`
 
-| `finalize()`
-|:--------------------------------------------------
-| Empty by default, this is called at the end of the feature.
+* This is used to render output in a particular position. It is empty by default.
+
+### `finalize()`
+
+* Empty by default, this is called at the end of the feature.
 
 All core features, and any custom feature you create, should extend this **GantryFeature** class. To create a new feature of your own, you would just have to create a new file in your  `features/` folder that extended the `libraries/gantry/core/gantryfeature.class.php` class. It will automatically get picked up by the Gantry framework and be processed. The best way to see what a feature can do for you is to examine a few of the core features located in the `libraries/gantry/features/` folder.
 

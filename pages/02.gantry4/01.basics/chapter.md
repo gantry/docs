@@ -8,4 +8,4 @@ taxonomy:
 
 # Basics
 
-Discover what **Gantry** is all about, and the core-concepts behind it.
+Discover what **Gantry** is all about, and the core concepts behind it.
