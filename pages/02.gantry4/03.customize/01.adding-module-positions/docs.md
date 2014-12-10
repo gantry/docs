@@ -27,6 +27,8 @@ http://youtu.be/xYsB2VKmkFU
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
+>>>>> NOTE: The term **Module** in Joomla and **Widget** in WordPress mean essentially the same thing. They are blocks of data which can be placed throughout your site. For the purpose of simplifying this guide, consider the terms interchangeable, except when used to describe specific file names or functions.
+
 Step 1: Getting Ready
 ---------------------
 Determine the position name and location on your template where you would like your new "row module" position to appear. In our example we will use "example."

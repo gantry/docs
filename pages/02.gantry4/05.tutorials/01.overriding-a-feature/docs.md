@@ -1,5 +1,5 @@
 ---
-title: Overriding a Feature
+title: Overriding a Feature (Joomla)
 taxonomy:
     category: docs
 ---

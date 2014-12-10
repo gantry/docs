@@ -2,11 +2,28 @@
 title: Adding a Custom Mainbody Layout
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 The Gantry framework ships with 38 possible layout combinations for the mainbody area. The mainbody is comprised of the mainbody itself (where the article or component is displayed) along with up to three additional sidebars for other modules.
 
+{% set tab1 %}
+
 For the 12-column layout variation, these layouts are controlled by two variables called `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` that are found in the `libraries/gantry/gantry.config.php`. The 12-column portion of this file looks like this:
+
+{% endset %}
+{% set tab2 %}
+
+For the 12-column layout variation, these layouts are controlled by two variables called `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` which are found in `wp-content/plugins/gantry/gantry.config.php`. The 12-column portion of this file looks like this:
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+
 
 ```php
 $gantry_default_pushpullschemas = array(
@@ -132,6 +149,9 @@ Again, this is pretty easy to break down. The key in the associative array relat
 
 Adding A new Custom Layout Combo
 --------------------------------
+
+{% set tab1 %}
+
 We assume that you have a specific need for a new layout combination that is not provided in these variables, and therefore not available to you in the template administrator. Let's say for some reason you want a really large body on the right, and a very skinny sidebar-a on the left. That would translate into a sidebar-a of **2 columns**, and the mainbody with **10 columns** of space.
 
 Rather than adding these values directly into the Gantry framework core files, we can override these variables as you can with most things in Gantry. To do this, simply open up your `gantry.config.php` file in your Gantry-powered template. In the case of the Gantry core template, this would be located at `templates/[YOUR_TEMPLATE]/gantry.config.php`. Then merely copy the Gantry-core `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` variables into the template's `gantry.config.php` file at the bottom.
@@ -169,4 +189,49 @@ $gantry_default_mainbodyschemascombos = array(
         .....snip....
 ```
 
-Save the file and your done! Now when you visit the template administrator, you will have a new option in your mainbody layout slider.
+{% endset %}
+{% set tab2 %}
+
+For the pupose of this document, we'll assume that you have a specific need for a new layout combination that is not provided in these variables, and therefore not available to you in the template settings. Let's say for some reason you want a really large body on the right, and a very skinny sidebar-a on the left. That would translate into a sidebar-a of **2 columns**, and the mainbody with **10 columns** of space.
+
+Rather than adding these values directly into the Gantry framework core files, we can override these variables as you can with most things in Gantry. 
+
+To do this, simply open up your `gantry.config.php` file in your Gantry-powered template. In the case of the Gantry core template, this would be located at `wp-content/themes/[YOUR_TEMPLATE]/gantry.config.php`. Then, copy the Gantry-core `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` variables into the template's `gantry.config.php` file at the bottom.
+
+Next, we'll need to edit the two variables in order to add the appropriate layout:
+
+```php
+$gantry_default_pushpullschemas = array(
+    ....snip....
+    'sa6-mb6' => array ('rt-push-6','rt-pull-6'),
+    'sa5-mb7' => array ('rt-push-5','rt-pull-7'),
+    'sa4-mb8' => array ('rt-push-4','rt-pull-8'),
+    'sa3-mb9' => array ('rt-push-3','rt-pull-9'),
+    'sa2-mb10' => array ('rt-push-2','rt-pull-10'),
+    ....snip....
+```
+
+and...
+
+```php
+$gantry_default_mainbodyschemascombos = array(
+    ....snip....
+    12 => array(
+        1 => array(
+                array('mb'=>12)
+        ),
+        2 => array(
+        ....snip....
+                array('sa'=>6, 'mb'=>6),
+                array('sa'=>5, 'mb'=>7),
+                array('sa'=>4, 'mb'=>8),
+                array('sa'=>3, 'mb'=>9),
+                array('sa'=>2, 'mb'=>10)
+        ),
+        .....snip....
+```
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+Save the file and you're done! Now, when you visit the template settings, you will have a new option in your mainbody layout slider.

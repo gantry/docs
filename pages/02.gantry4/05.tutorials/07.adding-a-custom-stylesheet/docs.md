@@ -2,12 +2,14 @@
 title: Adding a Custom Stylesheet
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
-Adding a Custom Stylesheet
-==========================
 This tutorial will take you through the steps needed to add a custom stylesheet to your Gantry template, without worrying about lost changes when the template or Gantry framework are updated. We don't need to change any of the template files, so our custom stylesheet will not be overridden by any updates.
-
 
 Custom Stylesheet with CSS
 --------------------------
@@ -18,10 +20,19 @@ Step 1: Adding Your Custom CSS File
 -----------------------------------
 To create a custom CSS file, you just have to create a new css file at `/templates/[TEMPLATE]/css/` and name it **[TEMPLATE]-custom.css**. The new custom CSS file will automatically get loaded by the Gantry framework.
 
+{% set tab1 %}
+
 ![](template-custom-css.jpg)
 
->> NOTE: The use of [TEMPLATE] in this guide is intended as a placeholder for the name of the template's primary directory. Replace [TEMPLATE] with the template directory name in order for these instructions to work with your site.
+{% endset %}
+{% set tab2 %}
 
+![](template-custom-css_wp.jpg)
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+>>>>> NOTE: The use of **[TEMPLATE]** in this guide is intended as a placeholder for the name of the template's primary directory. Replace **[TEMPLATE]** with the template directory name in order for these instructions to work with your site.
 
 Step 2: Adding Your Custom Rules and Properties
 -----------------------------------------------
@@ -50,7 +61,18 @@ If we want to override the bottom padding and margin, we **can not** just put th
 
 There are many elements in the template that utilize `rt-block`, and these custom rules will affect them. Another possibility is, the custom rule will not work at all if your custom CSS file is loaded before the template CSS file that contains the existing rule.
 
+{% set tab1 %}
+
 Hence, we need to put the rule with more specific selectors. We need to create a blank file `css/gantry-custom.css`. As `rt-block` is wrapped inside `rt-showcase`, we can put the following rule inside `css/gantry-custom.css`.
+
+{% endset %}
+{% set tab2 %}
+
+Hence, we need to put the rule with more specific selectors. We need to create a blank file `css/rt_gantry_wp-custom.css`. Since `rt-block` is wrapped inside `rt-showcase`, we can put the following rule inside `css/rt_gantry_wp-custom.css`.
+
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 ```css
 #rt-showcase .rt-block {padding: 15px 15px 0; margin: 10px 10px 0;}
@@ -63,7 +85,10 @@ Now, we can check the result with the Developer Tools again to confirm that our 
 
 Example 2: Per-Browser Specific Custom Stylesheet
 -------------------------------------------------
-The Gantry Framework has the ability to load specific CSS file based on which browser and operating system is viewing the template. This ability can be also applied for our custom CSS file. You just need to create a new CSS file at `/templates/[TEMPLATE]/css/` and name it `[TEMPLATE]-custom-[BROWSER].css`. Please check the [Per-Browser Specific Control](../advanced/per_browser_control.md) page for possible name combinations.
+
+{% set tab1 %}
+
+The Gantry Framework has the ability to load specific CSS file based on which browser and operating system is viewing the template. This ability can be also applied for our custom CSS file. You just need to create a new CSS file at `/templates/[TEMPLATE]/css/` and name it `[TEMPLATE]-custom-[BROWSER].css`. Please check the [Per-Browser Specific Control](../advanced/per-browser-control) page for possible name combinations.
 
 In this example, we will explain how to hide a specific module when viewed with Firefox, while keeping it visible on other browsers. In the case of the **gantry default template**, we need to create `/templates/[TEMPLATE]/css/gantry-custom-firefox.css`.
 
@@ -85,9 +110,41 @@ Click the **Save & Close** button and confirm the result in Firefox and other br
 
 Per-Browser Specific Custom Stylesheet is not just limited to showing or hiding a specific module only, but we can also use this ability to create a new rule or to override some existing rules just for a specific browser, like Internet Explorer. Anything in CSS can be overridden on a per-browser basis.
 
+{% endset %}
+{% set tab2 %}
+
+*Gantry Framework* has the ability to load specific CSS file based on which browser and operating system is viewing the template. This ability can be also applied to our custom CSS file. You just need to create a new CSS file at `/wp-content/themes/[TEMPLATE]/css/` and name it `[TEMPLATE]-custom-[BROWSER].css`. Please check the [Per-Browser Specific Control](../advanced/per-browser-control) page for possible name combinations.
+
+In this example, we will explain how to hide a specific widget viewed with Firefox, while keeping it visible on other browsers. In the case of the **gantry default template**, we need to create `/wp-content/themes/[TEMPLATE]/css/rt_gantry_wp-custom-firefox.css`.
+
+![](hide-on-firefox_wp.jpg)
+
+Next, we need to put the custom rule inside `/wp-content/themes/[TEMPLATE]/css/rt_gantry_wp-custom-firefox.css`.
+
+Here's an example:
+
+```css
+.rt-hidden-firefox {display: none;}
+```
+
+Now, we can put `rt-hidden-firefox` in the **Custom Variations** of the widget we want to hide on Firefox.
+
+![](hidden-module-class-suffix_wp.jpg)
+
+Click the **Save** button before confirming the result in Firefox, as well as other browsers. The widget should be successfully hidden on Firefox, and remain visible on other browsers.
+
+![](hide-on-firefox-result_wp.jpg)
+
+**Per-Browser Specific Custom Stylesheet** is not just limited to showing or hiding a specific widget. We can also use this ability, for example, to create a new rule or override existing rules just for specific browser, such as Internet Explorer. Any in CSS can be overridden on a per-browser basis using this method.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Custom Stylesheet with LESS
 ---------------------------
+
+{% set tab1 %}
+
 Another way to add the custom style to the Gantry template is by adding a custom LESS file inside `/templates/[TEMPLATE]/less`. The custom LESS file name is formatted as  `[LESS_FILE_NAME]-custom.less` and will be compiled into the main compiled CSS file.
 
 ![](less-file-name.jpg)
@@ -97,3 +154,21 @@ For example, in the default Gantry template, there is a file `less/template.less
 ![](custom-less-files.jpg)
 
 The only limitation with Custom LESS file is, that we **can not** use Per-Browser Specific Custom Stylesheet, such as `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file described previously.
+
+{% endset %}
+{% set tab2 %}
+
+Another way to add the custom style to the Gantry template is to create a custom LESS file inside `/wp-content/themes/[TEMPLATE]/less`. The custom LESS file name should be formatted as `[LESS_FILE_NAME]-custom.less`. This file will be compiled in the main CSS file.
+
+![](less-file-name_wp.jpg)
+
+For example, in the default Gantry template, there is a file called `less/template.less`. We can add a custom LESS file named `less/template-custom.less` and add our custom LESS elements. Gantry will pick up the elements and compile it. You may also use other file names such as `less/style-custom.less`, `less/typography-custom.less`, and so on.
+
+![](custom-less-files_wp.jpg)
+
+The only limitation with Custom LESS file is that we **can not** use **Per-Browser Specific Custom Stylesheet**. Such is the case with `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file as described previously.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+

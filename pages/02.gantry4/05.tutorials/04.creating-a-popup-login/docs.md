@@ -1,14 +1,21 @@
 ---
-title: Creating a Popup Login Feature
+title: Creating a Popup Login Feature (Joomla)
 taxonomy:
     category: docs
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
 
 This tutorial details how to create a custom feature that utilizes RokBox to present a module position inside a modal popup box that will be triggered by a link/button on the front end. For this tutorial, we will be making a login module popup.
 
 ![](popup-login.jpg)
 
->>> NOTE: The login popup functionality requires the [RokBox Plugin][rokbox-details] to be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox][rokbox-download]
+>>> NOTE: The login popup functionality requires the [RokBox Plugin](http://www.rockettheme.com/joomla/extensions/rokbox) to be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/joomla/extensions/rokbox).
+
+>>>>> NOTE: The Popup Login process is slightly different in Joomla and WordPress. In Joomla, this is treated as a **Feature** while it is a **Widget** in WordPress. This guide covers the Joomla method. For the WordPress method, see [our guide](../creating-a-popup-login-widget).
 
 
 Step 1: Creating the Custom Feature
@@ -205,5 +212,3 @@ Now, all of our logic and core items are in place. We are ready to publish the l
 
 Next, go to **Extensions → Template Manager → YOUR_TEMPLATE → Features**. The login feature will appear at the top of this tab. Modify the settings to match your personal preferences then **Save**. Refresh your site to review the changes.
 
-[rokbox-details]: http://www.rockettheme.com/extensions-joomla/rokbox
-[rokbox-download]: http://www.rockettheme.com/extensions-downloads/free/1005-rokbox
