@@ -67,7 +67,7 @@ Installing Gantry
 
 Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
 
-![](install-upload_joomla.jpg)
+![](install-template_joomla.jpeg)
 
 The Gantry template will appear in the **Template Manager**, the Gantry plugins will appear in the **Plugin Manager**, and RokNavMenu will be available from the **Module Manager** (Click **New** to create a new instant of RokNavMenu). The component/library will be hidden, and only accessible from the **Extensions Manager** for uninstallation/upgrading purposes.
 
@@ -90,7 +90,7 @@ Setting the Gantry Template as Default
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
 
-![](install-template_joomla.jpg)
+![](install-upload_joomla.jpeg)
 
 {% endset %}
 {% set tab2 %}
