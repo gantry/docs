@@ -1,11 +1,11 @@
 ---
-title: Customization
+title: Particles
 taxonomy:
     category: docs
 ---
 
 ### Chapter 3
 
-# Customization
+# Particles
 
 Discover how to customize your **Gantry-powered** template or theme.
