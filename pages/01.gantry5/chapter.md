@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-### Section 1
+### Version 5.0
 
 # Gantry5
 

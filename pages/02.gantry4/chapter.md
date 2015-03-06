@@ -1,11 +1,11 @@
 ---
-title: Gantry 4
+title: Gantry4
 taxonomy:
     category: docs
 ---
 
-### Section 1
+### Version 4.2
 
-# General
+# Gantry4
 
 Discover what **Gantry 4** is all about, and the core-concepts behind it.
