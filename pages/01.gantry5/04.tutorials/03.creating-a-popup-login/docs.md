@@ -2,6 +2,7 @@
 title: Creating a Popup Login Feature
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 This tutorial details how to create a custom feature that utilizes RokBox to present a module position inside a modal popup box that will be triggered by a link/button on the front end. For this tutorial, we will be making a login module popup.

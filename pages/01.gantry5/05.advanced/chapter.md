@@ -2,6 +2,7 @@
 title: Advanced
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 ### Chapter 4

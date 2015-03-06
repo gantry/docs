@@ -2,6 +2,7 @@
 title: License & Usage
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 Please make sure you have read and understand the license and usage requirements before deploying a template based on Gantry Framework.

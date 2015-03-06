@@ -2,6 +2,7 @@
 title: Adding a Custom Mainbody Layout
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 

@@ -2,6 +2,7 @@
 title: Overriding a Gizmo (WordPress)
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 A fundamental principle of *Gantry Framework* is its ability to be overridden so it can be as flexible as possible to suit the needs of an individual site or template. Gantry allows you to override Widget Layouts, Widget Chromes, Layouts, and provides a platform for extension overrides. The area of focus in this tutorial is that of *Gizmos*.

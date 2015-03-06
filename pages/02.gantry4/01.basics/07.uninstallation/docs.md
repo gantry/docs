@@ -2,6 +2,7 @@
 title: Uninstallation
 taxonomy:
     category: docs
+    tag: [gantry4]
 gravui:
     enabled: true
     tabs: true

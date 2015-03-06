@@ -2,6 +2,7 @@
 title: RTL Support and Limitations
 taxonomy:
     category: docs
+    tag: [gantry4]
 gravui:
     enabled: true
     tabs: true

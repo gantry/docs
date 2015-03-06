@@ -2,6 +2,7 @@
 title: Basic structure
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 ## Content Pages

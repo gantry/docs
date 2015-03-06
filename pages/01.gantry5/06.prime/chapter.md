@@ -2,6 +2,7 @@
 title: Prime
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 ### Chapter 5

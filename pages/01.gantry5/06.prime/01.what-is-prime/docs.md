@@ -2,6 +2,7 @@
 title: What is Gantry Prime?
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 Gantry Prime is a standalone Gantry5 installation which allows developers and testers to access all the features in both administration and the site without the overhead and quirks of installing and running a CMS.

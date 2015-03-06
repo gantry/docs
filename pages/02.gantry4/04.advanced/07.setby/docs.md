@@ -2,6 +2,7 @@
 title: Session/Cookie/URL
 taxonomy:
     category: docs
+    tag: [gantry4]
 gravui:
     enabled: true
     tabs: true

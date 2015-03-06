@@ -2,6 +2,7 @@
 title: Customize the Error Page
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 Customize the Error Page

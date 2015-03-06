@@ -2,6 +2,7 @@
 title: Installation
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 You can install Gantry Prime by cloning the Gantry Playground project to your projects directory:

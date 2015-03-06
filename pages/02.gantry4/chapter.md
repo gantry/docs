@@ -2,6 +2,7 @@
 title: Gantry4
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 ### Version 4.2

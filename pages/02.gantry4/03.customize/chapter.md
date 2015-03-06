@@ -2,6 +2,7 @@
 title: Customization
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 ### Chapter 3

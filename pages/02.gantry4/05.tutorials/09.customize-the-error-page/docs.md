@@ -2,6 +2,7 @@
 title: Customize the Error Page
 taxonomy:
     category: docs
+    tag: [gantry4]
 gravui:
     enabled: true
     tabs: true

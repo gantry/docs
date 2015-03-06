@@ -2,6 +2,8 @@
 title: Gantry5
 taxonomy:
     category: docs
+    tag: [gantry5]
+    tag: gantry5
 ---
 
 ### Version 5.0

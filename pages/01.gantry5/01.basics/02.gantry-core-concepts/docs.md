@@ -2,6 +2,7 @@
 title: Gantry Core Concepts
 taxonomy:
     category: docs
+    tag: [gantry5]
 gravui:
     enabled: true
     tabs: true

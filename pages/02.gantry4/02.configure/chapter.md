@@ -2,6 +2,7 @@
 title: Configuration
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 ### Chapter 2

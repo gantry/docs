@@ -2,6 +2,7 @@
 title: Adding a Custom Font
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 This tutorial will take you through the steps needed to add a custom font to your Gantry template and make it available on the Font Settings dropdown in the template parameters.

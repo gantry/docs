@@ -2,6 +2,7 @@
 title: Creating New Layout
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 

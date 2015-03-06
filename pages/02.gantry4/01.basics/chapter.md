@@ -2,6 +2,7 @@
 title: Basics
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 ### Chapter 1

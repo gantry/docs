@@ -2,6 +2,7 @@
 title: Adding a Custom Stylesheet
 taxonomy:
     category: docs
+    tag: [gantry5]
 ---
 
 Adding a Custom Stylesheet

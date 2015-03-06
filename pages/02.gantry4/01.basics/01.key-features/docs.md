@@ -2,6 +2,7 @@
 title: Key Features
 taxonomy:
     category: docs
+    tag: [gantry4]
 ---
 
 Gantry is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
