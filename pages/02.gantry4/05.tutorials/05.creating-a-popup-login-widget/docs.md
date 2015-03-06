@@ -14,7 +14,7 @@ This tutorial details how to create a custom widget that will utilize RokBox to 
 
 ![](popup-login.jpg)
 
->> NOTE: The login popup functionality requires that the [RokBox Plugin](http://www.rockettheme.com/wordpress/plugins/rokbox) be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/wordpress/plugins/rokbox).
+>>>>> The login popup functionality requires that the [RokBox Plugin](http://www.rockettheme.com/wordpress/plugins/rokbox) be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/wordpress/plugins/rokbox).
 
 
 Step 1: Creating the Custom Widget

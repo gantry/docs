@@ -16,14 +16,14 @@ The Gantry framework itself is independent of any template. Each Gantry-enabled 
 
 http://youtu.be/KOOuBQpSZDM
 
->>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
+>>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
 
 {% endset %}
 {% set tab2 %}
 
 http://youtu.be/W1GmZB2dgNE
 
->>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
+>>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -51,7 +51,7 @@ The installation process is exactly the same for all three. The only difference 
 
 The package you choose to install makes a difference in terms of where you'll be installing the files. **Gantry Framework for WordPress** should be installed like a standard WordPress plugin. The **Gantry Default Theme for WordPress** should be installed the same way you would install any other theme. 
 
->> Keep in mind that you will need the Gantry framework installed for any Gantry themes to work.
+>>>>> Keep in mind that you will need the Gantry framework installed for any Gantry themes to work.
 
 If you don't have WordPress installed on your server yet, you can use the **RocketLauncher** package. It contains the full pre-configured Gantry environment, and is essentially a complete WordPress installation. Choose whichever download option is best for you. We recommend the **RocketLauncher** for first-time WordPress installations.
 

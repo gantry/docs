@@ -14,9 +14,9 @@ This tutorial details how to create a custom feature that utilizes RokBox to pre
 
 ![](popup-login.jpg)
 
->>> NOTE: The login popup functionality requires the [RokBox Plugin](http://www.rockettheme.com/joomla/extensions/rokbox) to be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/joomla/extensions/rokbox).
+>>>>> The login popup functionality requires the [RokBox Plugin](http://www.rockettheme.com/joomla/extensions/rokbox) to be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/joomla/extensions/rokbox).
 
->>>>> NOTE: The Popup Login process is slightly different in Joomla and WordPress. In Joomla, this is treated as a **Feature** while it is a **Widget** in WordPress. This guide covers the Joomla method. For the WordPress method, see [our guide](../creating-a-popup-login-widget).
+>>>>> The Popup Login process is slightly different in Joomla and WordPress. In Joomla, this is treated as a **Feature** while it is a **Widget** in WordPress. This guide covers the Joomla method. For the WordPress method, see [our guide](../creating-a-popup-login-widget).
 
 
 Step 1: Creating the Custom Feature
