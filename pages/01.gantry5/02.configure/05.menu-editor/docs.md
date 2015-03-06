@@ -20,6 +20,8 @@ This panel is a Global panel, that is not specific to any Configuration. It's be
 Selecting a Menu
 -----
 
+![Selecting a Menu](selecting_a_menu.png)
+
 The first thing you will want to do is select the menu you wish to edit. This can be done using the dropdown located near the top of the **Menu Editor** administrative panel. These menus are sourced from your CMS' **Menu Manager**. If you want to create a new menu, you will need to do so using the Menu Manager for your particular CMS.
 
 When you have done this, simply select it in this dropdown and its contents will load, ready for you to work with.
@@ -29,7 +31,36 @@ Menu Settings
 
 ![Menu Settings](menu_settings.png)
 
-The menu itself has a settings icon (cogwheel) on the right-hand side which gives you the option to access settings that relate to the menu as a whole. These settings differ between content management systems (CMS).
+The menu itself has a settings icon (cogwheel) on the right-hand side which gives you the option to access settings that relate to the menu as a whole. These settings may differ between content management systems (CMS).
+
+One common setting is the **Base Path** which sets the base path by which the menu is rendered. For example, if you would like the menu to render on the front end from the `/blog` directory down, rather than the full menu as provided by the CMS, this is where you would set it.
+
+Keep in mind that within the Menu Particle, you can further refine this, setting a **Base Path** as well as the **Start Level** and **End Level** which comes in handy when creating a split menu.
+
+Menu Item Settings
+-----
+
+![Menu Item Settings](menu_item_settings.png)
+
+Each menu item has a set of settings which can be configured to meet your needs. These may vary slightly between CMS, but have the same basic functions. You can activate the **Menu Item** settings by selecting the cogwheel icon on the right-hand side of the menu item itself.
+
+Here is a breakdown of these settings, and a what they can do.
+
+| Menu Item Setting | Description                                                                                                                       |
+| :-----            | :-----                                                                                                                            |
+| Menu Item ID      | This is the ID specific to the menu item.                                                                                         |
+| Menu Item Type    | Sets the type of menu item, controlling how it behaves and the role it plays in the menu.                                         |
+| Link              | The link (relative or absolute) to which the menu item directs the user upon being selected.                                      |
+| Link Target       | Sets the target window behavior for the link. You can set it to either open the link in a new window, or the current one.         |
+| Dropdown Style    | Sets the style of dropdown for sub-menu items that appear under this particular menu item.                                        |
+| Icon              | Powered by FontAwesome, this feature gives you the ability to add a vector icon to your menu item as it is displayed in the menu. |
+| Subtext           | Enables you to enter a subtitle, displayed below the menu item's title.                                                           |
+
+Once you have set the settings as you prefer, simply select **Apply** to save the changes and close the pop-up.
+
+These settings expand on the capabilities of the CMS’ integrated menu system, enhancing them with additional functionality and customization options - but only in cases where the CMS does not already provide this feature and changing these options does not have an adverse affect on the menu's functionality. 
+
+In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** are provided by the CMS. Images can be as well, but overriding them in the Menu Editor is a visual change rather than a functional one, so you should be able to adjust this setting without issue.
 
 Menu Item Types
 -----
@@ -46,27 +77,7 @@ There are six types of menu items in the **Menu Editor**. Here is a breakdown of
 | Separator      | Non-clickable menu item that carries a name, usually used for top-level menus with one or more sub-menus. |
 | Heading        | A non-clickable menu item that contains text only.                                                        |
 
-The sixth type of menu item, which is added and configured in the **Menu Editor** are **Particles**. This will allow you to do things like create a block of information that appears in the menu. 
+The sixth type of menu item, which is added and configured in the **Menu Editor** are **Particles**. This will allow you to do things like create a block of information that appears in the menu.
 
-Menu Item Settings
------
+>>> In cases where the **Menu Item Type** is supplied by the CMS, this may not be editable via the **Menu Editor** as it would conflict with the CMS' settings.
 
-![Menu Item Settings](menu_item_settings.png)
-
-Each menu item has a set of settings which can be configured to meet your needs. These may vary slightly between CMS, but have the same basic functions. You can activate the **Menu Item** settings by selecting the cogwheel icon on the right-hand side of the menu item itself.
-
-Here is a breakdown of these settings, and a what they can do.
-
-| Menu Item Setting | Description                                                                                                                          |
-| :-----            | :-----                                                                                                                               |
-| Menu Item ID      | This is the ID specific to the menu item.                                                                                            |
-| Menu Item Type    | Sets the type of menu item, controlling how it behaves and the role it plays in the menu.                                            |
-| Link              | The link (relative or absolute) to which the menu item directs the user upon being selected.                                         |
-| Dropdown Style    | Sets the style of dropdown for sub-menu items that appear under this particualr menu item.                                           |
-| Target Window     | Sets the target window behavior for the link. This enables you to have links open in new tabs, or in the current one, for example.   |
-| Link CSS Style    | Enables you to assign a custom CSS style for the link.                                                                               |
-| Link Hover Title  | Gives you the ability to set a different title in when the cursor is hovering over the menu item.                                    |
-| Link Image        | Enables you to set an image in the menu item, preferred for photo-heavy visual menus where images serve as backgrounds to each item. |
-| Link Icon         | Powered by FontAwesome, this feature gives you the ability to add a vector icon to your menu item as it is displayed in the menu.    |
-
-Once you have set the settings as you prefer, simply select **Apply** to save the changes and close the pop-up.
