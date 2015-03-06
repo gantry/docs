@@ -1,0 +1,4 @@
+icon_divider_classes: 'fa fa-angle-double-right'
+icon_home: 'fa fa-angle-double-right'
+include_home: false
+link_trailing: false
