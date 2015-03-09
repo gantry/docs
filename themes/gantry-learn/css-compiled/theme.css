@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Roboto:300,400,600|Inconsolata);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700|Inconsolata);
 #top-github-link, #body #breadcrumbs {
   position: relative;
   top: 50%;
@@ -17,9 +17,7 @@
 
 body {
   background: #fff;
-  color: #666;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  color: #666; }
 
 a {
   color: #4D9C86; }
@@ -29,9 +27,6 @@ a {
 .bg {
   background: #fff;
   border: 1px solid #eaeaea; }
-
-b, strong, label, th {
-  font-weight: 600; }
 
 .default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
   -webkit-transition: all 0.5s ease;
@@ -319,12 +314,17 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
 body {
   font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   letter-spacing: -0.03rem;
-  font-weight: 400; }
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+b, strong, label, th {
+  font-weight: 700; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-  font-weight: 600;
-  text-rendering: optimizeLegibility;
+  font-weight: 700;
+  text-rendering: auto;
   line-height: 150%;
   letter-spacing: -0px; }
 
@@ -376,7 +376,7 @@ blockquote > blockquote > blockquote {
       top: 2px;
       color: #fff;
       left: 2rem;
-      font-weight: bold;
+      font-weight: 700;
       content: 'Info'; }
   blockquote > blockquote > blockquote > p {
     margin-left: -71px;
