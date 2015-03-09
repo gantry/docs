@@ -1,0 +1,16 @@
+enabled: true
+top_level_version: true
+home_url: http://gantry.org
+github:
+    enabled: true
+    position: top
+    tree: https://github.com/gantry/gantry-learn/blob/develop/
+    commits: https://github.com/gantry/gantry-learn/commits/develop/
+
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      paths:
+        - user/themes/gantry-learn
+        - user/themes/learn2

@@ -2,7 +2,7 @@ home:
   alias: '/gantry5'
 
 pages:
-  theme: learn2
+  theme: gantry-learn
   markdown_extra: true
   process:
     markdown: true
