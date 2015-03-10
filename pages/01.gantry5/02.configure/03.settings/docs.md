@@ -19,7 +19,7 @@ Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop
 Commands
 -----
 
-![Commands](atomsettings.png)
+![Commands](commands.png)
 
 The **Save Settings** button applies any changes you have made to the **Settings** administrative panel to its associated Configuration. These changes apply as the new default for the setting for that Configuration only, and will only become a global default if you are using the theme's assigned default Configuration.
 

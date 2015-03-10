@@ -29,22 +29,7 @@ Coming soon...
 Coming soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 
 XML Configuration
@@ -60,22 +45,7 @@ Coming soon...
 Coming soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Template Parameters
 -------------------
@@ -90,22 +60,7 @@ Coming soon...
 Coming soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Full coverage of the Gantry module layout configurations and how to set up different widths can be found in the [Layouts](../configure/layouts.md) section.
 

@@ -9,7 +9,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Responsive grid system__
 
-  Based on [Twitter Bootstrap](http://twitter.github.com/bootstrap/) [^1]
+  Based on [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 
 
 * __Cross-platform Support__
@@ -29,7 +29,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Powerful built-in fields__
 
-  Extended fields such as toggles, color-chooser, image-chooser [^1], sliders, google fonts, textplus with suffix and prefix labels [^1] and many more!
+  Extended fields such as toggles, color-chooser, image-chooser, sliders, google fonts, textplus with suffix and prefix labels and many more!
 
 
 * __Per menu-item level control over any configuration parameter__
@@ -49,12 +49,12 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __RTL language support__
 
-  Gantry makes it easier than ever to develop Right-to-Left (RTL) based designs for languages such as Arabic, Hebrew and Farsi [^2].
+  Gantry makes it easier than ever to develop Right-to-Left (RTL) based designs for languages such as Arabic, Hebrew and Farsi [^1].
 
 
 * __More with LESS__
 
-  Built-in [LESS CSS](http://lesscss.org/) compilation powered by [lessphp](http://leafo.net/lessphp/) reduces overall requests while making CSS development more powerful and intuitive thanks to the advanced powers of LESS [^1].
+  Built-in [LESS CSS](http://lesscss.org/) compilation powered by [lessphp](http://leafo.net/lessphp/) reduces overall requests while making CSS development more powerful and intuitive thanks to the advanced powers of LESS.
 
 
 * __Flexible grid layout system for unparalleled control over block sizes__
@@ -74,7 +74,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Responsive HTML5 base template__
 
-  Fully functional base template that shows off many Gantry framework features and typography. A great place to start building your own design [^1].
+  Fully functional base template that shows off many Gantry framework features and typography. A great place to start building your own design.
 
 
 * __65 base module positions__
@@ -92,7 +92,7 @@ Gantry is packed full of features created to empower the development of designs 
   With up to 3 total sidebars, Gantry allows you to achieve highly complex mainbody layout scenarios.
 
 
-* __Many built-in features such as font-sizer, Google PrettyPrint [^1], Google Analytics, to-top smooth slider, etc.__
+* __Many built-in features such as font-sizer, Google PrettyPrint, Google Analytics, to-top smooth slider, etc.__
 
   Easily add your own unique functionality with Gantry's feature support!
 
@@ -109,7 +109,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Advanced typography__
 
-  Powerful typography from Bootstrap provides styling for tables, forms, buttons, and other standard interface elements [^1].
+  Powerful typography from Bootstrap provides styling for tables, forms, buttons, and other standard interface elements.
 
 
 * __Joomla base styling__
@@ -119,7 +119,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Joomla ACL support__
 
-  Gantry can advantage of the great new ACL support in Joomla 2.5 [^1].
+  Gantry can advantage of the great new ACL support in Joomla 2.5.
 
 
 * __Automatic per-browser-level CSS and JS control__
@@ -127,5 +127,4 @@ Gantry is packed full of features created to empower the development of designs 
   Advanced control of CSS and JS for any specific browser version allows browser bugs and issues to be isolated and patched with a minimum of fuss.
 
 
-[^1]: Only available in Gantry5 for Joomla 2.5
-[^2]: Base support provided only
+[^1]: Base support provided only

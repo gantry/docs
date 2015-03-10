@@ -26,22 +26,7 @@ http://youtu.be/W1GmZB2dgNE
 >>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Downloading Gantry
 ------------------
@@ -61,6 +46,8 @@ The installation process is exactly the same for all three. The only difference 
 {% endset %}
 {% set tab2 %}
 
+>>> WordPress support is coming soon.
+
 * __Framework__: This contains only the Framework plugin.
 * __Theme__: This contains just the Gantry theme.
 * __RocketLauncher__: This includes the full WordPress installation, Framework (plugin) and the pre-configured Gantry template (only for NEW installations).
@@ -74,22 +61,7 @@ If you don't have WordPress installed on your server yet, you can use the **Rock
 [Download](http://www.gantry-framework.org/download#wordpress)
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Installing Gantry
 -----------------
@@ -105,6 +77,8 @@ The Gantry template will appear in the **Template Manager**, the Gantry plugins 
 {% endset %}
 {% set tab2 %}
 
+>>> WordPress support is coming soon.
+
 To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
 ![](install-upload_wp.jpg)
@@ -112,22 +86,7 @@ To install the Gantry template, you'll need to navigate to **Plugins → Add New
 The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Setting the Gantry Template as Default
 --------------------------------------
@@ -141,24 +100,11 @@ If you are using the Gantry template, you will want to set it as the default tem
 {% endset %}
 {% set tab2 %}
 
+>>> WordPress support is coming soon.
+
 If you are using the Gantry framework, you'll want to use a Gantry-compatible template. After uploading your template, simply go to the **Appearance → Themes** area in the admin area of WordPress and click **Activate** next to your template.
 
 ![](install-template_wp.jpg)
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

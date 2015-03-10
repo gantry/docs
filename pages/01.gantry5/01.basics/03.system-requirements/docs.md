@@ -27,29 +27,10 @@ It is strongly recommended that you always use the latest stable version of Joom
 
 It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.0.1** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
 
-{% endset %}
-{% set tab3 %}
-
-**phpBB 3.1**
-
-It is strongly recommended that you always use the latest stable version of phpBB to ensure all known bugs and security issues are addressed. At the time this document was written, **3.1.2** is the latest stable version of phpBB. We encourage you to update your phpBB install if you are running anything less than this version.
+>>> WordPress support is coming soon.
 
 {% endset %}
-{% set tab4 %}
-
-**Magento Community Edition (CE) 1.9.1**
-
-It is strongly recommended that you always use the latest stable version of Magento to ensure all known bugs and security issues are addressed. At the time this document was written, **1.9.1** is the latest stable version of Magento. We encourage you to update your Magento install if you are running anything less than this version.
-
-{% endset %}
-{% set tab5 %}
-
-**Grav 0.9.8+**
-
-It is strongly recommended that you always use the latest stable version of Grav to ensure all known bugs and security issues are addressed. At the time this document was written, **0.9.8** is the latest stable version of Grav. We encourage you to update your Grav install if you are running anything less than this version.
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 
 Server Requirements

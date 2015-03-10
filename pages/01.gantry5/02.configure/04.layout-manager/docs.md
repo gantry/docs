@@ -14,18 +14,22 @@ process:
 
 The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Configurations. 
 
-Choosing a Layout Preset
+Choosing a Layout Preset and Duplicating a Layout from Another Configuration
 -----
 
-![Choosing a Layout Preset](choosing.png)
+**Layout Presets** enable you to quickly switch between pre-configured layouts for your site. These layouts are included in the theme and feature a different set of sections. Some layout presets may include a sidebar, or multiple sidebars, and a number of sections intended to fit a specific page style.
 
-Your base layout is determined when you initially create a Configuration. By navigating to **Gantry Administrator > Configurations** and selecting the **Plus (+)** icon, you are presented with a list of layout presets to choose from. These presets are included with the theme, and include a variety of options included as part of the Gantry core.
+![Choosing a Layout Preset](choosing1.png)
 
-Once you have selected a **Layout Preset**, you can then either click **Edit** on the new Configuration from the **Configurations** administrative panel or navigate to the **Layout** administrative panel and select the Configuration you wish to customize from the drop-down list in the navigation bar.
+Each **Configuration** is assigned a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **Configurations**.
 
-You can not change Layout Presets on an existing Configuration, but you can always create a new one, as well as set it to **Default** if you prefer a different Layout to work with.
+If you select a **Preset**, your layout will be replaced with a preset one that comes with the theme. These presets act as starting points for your design, giving you a set of **Sections**, **Positions**, and/or pre-placed **Particles** to work with. The presets have been configured to cover a range of possible layouts a user would want to use on their design, as set by the theme creator. This includes layouts with and without sidebars, and range from incredibly simple to complex.
 
-These presets act as starting points for your design, giving you a set of Sections to work with. The presets have been configured to cover a vast amount of possible layouts users would want to use on their site. This includes layouts with and without sidebars, and range from incredibly simple to complex.
+![Choosing a Layout Preset](choosing2.png)
+
+Selecting on one of the **Configuration** options will copy the **Layout Manager** setup from the selected Configuration and load it into the one you are working in. This is a quick way to base your layout on another Configuration without having to manually duplicate it.
+
+>>>> In the initial beta, your Layout Preset will automatically replace any **Particles** or **Positions** you have assigned. In the future, we plan to have it keep your changes across presets as long as these Particles are placed in sections that exist across presets.
 
 Controls
 -----
@@ -34,11 +38,13 @@ Controls
 
 The **Layout Manager** has a number of useful controls to help you configure, save, import, and export your layouts. In this section, will we go over some of the things you will find in the **Layout** administrative panel.
 
-### Import and Export
+### Load
 
-The **Import** and **Export** buttons enable you to quickly import and export layouts, including placed particles, on your site. These settings are saved into a single file, which is generated and available to download upon selecting the **Export** button, and can be applied to the current Layout by uploading it after selecting the **Import** button.
+As covered in the above section, the **Load** button gives you the opportunity to load a **Layout Preset** based on pre-assembled presets included with the theme or on the **Layout** of another **Configuration**.
 
-This feature is especially useful if you are working with multiple sites and want to copy and paste the Layouts between them. Migrations between WordPress and Joomla, for example, would be a choice application for this feature.
+## Clear
+
+The **Clear** button wipes out the Particles (including Positions, Standard Particles, and Atoms) from the **Layout Manager** and gives you a blank slate with just the **Sections** kept.
 
 ### Save Layout
 

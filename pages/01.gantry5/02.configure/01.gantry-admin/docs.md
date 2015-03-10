@@ -23,27 +23,14 @@ Once this is done, navigate to **Administrator > Extensions > Template Manager**
 {% endset %}
 {% set tab2 %}
 
+>>> WordPress support is coming soon.
+
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
 Once this is done, navigate to **Administrator > (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
 
 {% endset %}
-{% set tab3 %}
-
-Coming soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming soon... 
-
-{% endset %}
-{% set tab5 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Admin Panels
 -----
@@ -61,6 +48,8 @@ A quick description of each of these panels can be found below.
 The **Global Admin Panels** do not affect a single Configuration, but have influence over the entire theme. These panels enable you to do things like switch between and edit individual Configurations, edit and configure the Menus, and find out more about the Gantry-powered theme. 
 
 #### Configurations
+
+>>>> The Configuration panel is not available in the initial beta release of Gantry5. We will update this documentation when available.
 
 ![Configurations](configurations.png)
 
