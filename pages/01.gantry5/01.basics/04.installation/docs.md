@@ -35,9 +35,9 @@ Gantry has three available download types:
 
 {% set tab1 %}
 
-* __Bundle__: This includes the Framework (library, component & plugins), the Gantry template and associated extensions such as RokNavMenu.
-* __Framework__: This contains only the Framework (library, component & plugins).
-* __Template__: This contains just the Gantry template.
+* **Bundle**: This includes the Framework (library, component & plugins), the Gantry template and associated extensions such as RokNavMenu.
+* **Framework**: This contains only the Framework (library, component & plugins).
+* **Template**: This contains just the Gantry template.
 
 The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
 
@@ -70,7 +70,7 @@ Installing Gantry
 
 Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
 
-![](install-template_joomla.jpeg)
+![Installation](install-template_joomla.jpeg) {.border .shadow}
 
 The Gantry template will appear in the **Template Manager**, the Gantry plugins will appear in the **Plugin Manager**, and RokNavMenu will be available from the **Module Manager** (Click **New** to create a new instant of RokNavMenu). The component/library will be hidden, and only accessible from the **Extensions Manager** for uninstallation/upgrading purposes.
 
@@ -81,7 +81,7 @@ The Gantry template will appear in the **Template Manager**, the Gantry plugins 
 
 To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
-![](install-upload_wp.jpg)
+![](install-upload_wp.jpg) {.border .shadow}
 
 The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
 
