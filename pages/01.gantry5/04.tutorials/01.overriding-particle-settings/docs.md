@@ -3,6 +3,8 @@ title: Overriding Particle Settings
 taxonomy:
     category: docs
     tag: [gantry5]
+process:
+    twig: true
 ---
 
 **Particles** are extremely flexible. You can access their settings on several levels, each determining how that Particle will be configured at a specific level.
@@ -38,6 +40,6 @@ Individual Particle Settings in Layout Manager
 
 ![Particle](particle_3.png) {.border .shadow}
 
-When you place a Particle in a Configuration's Layout Manager, you create an instance. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
+When you place a Particle in a Configuration's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
 
-You can access these instance-specific settings by selecting the 
+You can access these instance-specific settings by selecting the cogwheel on the right-hand side of the Particle within the Layout Manager.
