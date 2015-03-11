@@ -3,10 +3,17 @@ home:
 
 pages:
   theme: gantry-learn
-  markdown_extra: true
   process:
     markdown: true
     twig: false
+  markdown:
+    extra: true
+    auto_line_breaks: false
+    auto_url_links: false
+    escape_markup: false
+    special_chars:
+      '>': 'gt'
+      '<': 'lt'
 
 cache:
   enabled: true
