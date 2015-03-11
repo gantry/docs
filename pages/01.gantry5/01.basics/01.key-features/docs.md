@@ -5,126 +5,42 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
+Gantry5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
 
-* __Responsive grid system__
+#### Responsive grid system
 
-  Based on [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+Gantry5 uses the **Nucleus** grid system, built from scratch using Flexbox and tied in to the **Layout Manager** to generate classes.
 
+#### Cross-platform Support
 
-* __Cross-platform Support__
+The new responsive Gantry5 framework is available for **Joomla 3.4**, **WordPress 4.0+**, **phpBB 3.1+**, **Grav 1.0+**, and **Magento CE 1.9.1+**.
 
-  The new responsive Gantry5 framework is available for **Joomla 3.4**, **WordPress 4.0+**, **phpBB 3.1+**, **Grav 1.0+**, and **Magento CE 1.9.1+**.
+>>> Gantry5's initial beta launch will only be compatible with Joomla 3.4+. Additional platforms will be added as development continues.
 
+#### New Administrative Interface
 
-* __Stunning new administrator interface__
+Gantry5's administrative interface has been completely rebuilt from the ground up to meet the needs of tomorrow's developer, today.
 
-  Gantry provides a fast and uniquely intuitive interface to control all aspects of the design
+#### Infinitely Customizable
 
+Gantry5 is the most customizable and powerful version of the framework yet, featuring drag-and-drop customization controlling virtually every aspect of the site's layout and design.
 
-* __XML driven with overrides for unprecedented levels of customization__
+#### New Particles System
 
-  Gantry is easy to configure, customize and extend.
+Gantry5's new Particles system makes it easy to create, configure, and manage content blocks. Create new Particles in minutes, adjust their settings at multiple levels from global down to the individual block, and more!
 
+#### Flexible and Easy Layout Manager
 
-* __Powerful built-in fields__
+Set up and configure page layouts with Gantry5's new Layout Manager. Featuring drag-and-drop functionality that gives you the power to place content blocks, resize them, and configure their unique settings in seconds. Load layout presets or duplicate the layout of another Configuration with a click of the mouse, and customize virtually every aspect of the page layout without ever having to touch a text editor.
 
-  Extended fields such as toggles, color-chooser, image-chooser, sliders, google fonts, textplus with suffix and prefix labels and many more!
+#### No Programming Experience Necessary
 
+Adding and moving positions, resizing blocks, and more can be done with drag-and-drop simplicity in the new, powerful Layout Manager. Error pages and other areas of site design are also easily handled in Gantry5's administrative interface. You can change almost any aspect of a theme without breaking out a single text editor.
 
-* __Per menu-item level control over any configuration parameter__
+#### Powerful Menu Editor
 
-  Layouts, colors, features, etc. can all be different for any menu item.
+Change the way your site's menus look with Gantry5's powerful Menu Editor. Quickly insert Particles, rearrange menu items, and add icons in seconds.
 
+#### New Configurations System
 
-* __Preset any combination of configuration parameters, and save custom presets__
-
-  Creating custom presets allows you to easily save any combination of configuration settings for later use.
-
-
-* __Built-in extensible AJAX communication layer__
-
-  Our powerful AJAX system allows dynamic functionality in features as well as opening up AJAX to 3rd party extensions.
-
-
-* __RTL language support__
-
-  Gantry makes it easier than ever to develop Right-to-Left (RTL) based designs for languages such as Arabic, Hebrew and Farsi [^1].
-
-
-* __More with LESS__
-
-  Built-in [LESS CSS](http://lesscss.org/) compilation powered by [lessphp](http://leafo.net/lessphp/) reduces overall requests while making CSS development more powerful and intuitive thanks to the advanced powers of LESS.
-
-
-* __Flexible grid layout system for unparalleled control over block sizes__
-
-  Control the sizes of your blocks with our simple grid layout controls.
-
-
-* __Optimized codebase with speed, size, and reuse core tenets of the framework design__
-
-  Gantry is more than just unparalleled flexibility and control, it also provides a powerful basis to build professional quality designs.
-
-
-* __Growl-style event notifications__
-
-  AJAX-powered non-intrusive growl-style notifications for events such as save, cache clearing, etc.
-
-
-* __Responsive HTML5 base template__
-
-  Fully functional base template that shows off many Gantry framework features and typography. A great place to start building your own design.
-
-
-* __65 base module positions__
-
-  To get you started, we've included plenty of modules, but adding more is a simple process.
-
-
-* __38 possible layout combinations for mainbody and sidebars__
-
-  The mainbody and sidebars now have an unprecedented level of control. Gantry provides support for all kinds of layout options.
-
-
-* __4 Column Mainbody__
-
-  With up to 3 total sidebars, Gantry allows you to achieve highly complex mainbody layout scenarios.
-
-
-* __Many built-in features such as font-sizer, Google PrettyPrint, Google Analytics, to-top smooth slider, etc.__
-
-  Easily add your own unique functionality with Gantry's feature support!
-
-
-* __Ability to force 'blank' module positions for even more advanced layout customization__
-
-  Create layouts with blank spaces or complex alignment requirements with this functionality.
-
-
-* __Flexible parameter system with ability to set parameters via URL, Cookie, Session, Presets, etc.__
-
-  Any parameter can be configured via XML to be settable from a variety of mechanisms for complete customization.
-
-
-* __Advanced typography__
-
-  Powerful typography from Bootstrap provides styling for tables, forms, buttons, and other standard interface elements.
-
-
-* __Joomla base styling__
-
-  Great typographical features right out of the box.
-
-
-* __Joomla ACL support__
-
-  Gantry can advantage of the great new ACL support in Joomla 2.5.
-
-
-* __Automatic per-browser-level CSS and JS control__
-
-  Advanced control of CSS and JS for any specific browser version allows browser bugs and issues to be isolated and patched with a minimum of fuss.
-
-
-[^1]: Base support provided only
+Theme overrides are now part of Gantry5's Configurations system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed. 

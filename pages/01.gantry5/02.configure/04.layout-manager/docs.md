@@ -14,7 +14,7 @@ process:
 
 The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Configurations. 
 
-Choosing a Layout Preset and Duplicating a Layout from Another Configuration
+Using the Load Button
 -----
 
 **Layout Presets** enable you to quickly switch between pre-configured layouts for your site. These layouts are included in the theme and feature a different set of sections. Some layout presets may include a sidebar, or multiple sidebars, and a number of sections intended to fit a specific page style.
