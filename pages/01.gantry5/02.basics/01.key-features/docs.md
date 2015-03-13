@@ -7,7 +7,7 @@ taxonomy:
 
 Gantry5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
 
-#### Responsive grid system
+#### Responsive Layout System
 
 Gantry5 uses the **Nucleus** grid system, built from scratch using Flexbox and tied in to the **Layout Manager** to generate classes.
 
@@ -16,6 +16,14 @@ Gantry5 uses the **Nucleus** grid system, built from scratch using Flexbox and t
 The new responsive Gantry5 framework is available for **Joomla 3.4**, **WordPress 4.0+**, **phpBB 3.1+**, **Grav 1.0+**, and **Magento CE 1.9.1+**.
 
 >>> Gantry5's initial beta launch will only be compatible with Joomla 3.4+. Additional platforms will be added as development continues.
+
+#### Intuitive YAML-driven Configuration
+
+[YAML](http://yaml.org/) is a human-readable data serialization, making it easy to create and configure blueprints for back-end configuration options.
+
+#### Twig Templating
+
+Gantry5 utilizes [Twig](http://twig.sensiolabs.org/) to make creating powerful, dynamic themes quick and easy.
 
 #### New Administrative Interface
 
@@ -44,3 +52,7 @@ Change the way your site's menus look with Gantry5's powerful Menu Editor. Quick
 #### New Configurations System
 
 Theme overrides are now part of Gantry5's Configurations system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed. 
+
+#### Use SCSS, LESS or CSS
+
+Gantry5 has built-in support for SCSS and pure CSS, with the ability to support LESS.
