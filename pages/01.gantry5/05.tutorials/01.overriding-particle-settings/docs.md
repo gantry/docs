@@ -3,6 +3,9 @@ title: Overriding Particle Settings
 taxonomy:
     category: docs
     tag: [gantry5]
+gravui:
+    enabled: true
+    callouts: true
 process:
     twig: true
 ---
@@ -38,7 +41,16 @@ Now, every Particle placed in the Layout Manager for that particular Configurati
 Individual Particle Settings in Layout Manager
 ------------------------------
 
-![Particle](particle_3.png) {.border .shadow}
+{% set callout_items %}
+Cogwheel [68%, 45%, se]
+    : Selecting the cogwheel icon will bring up the **Settings** popup.
+
+Particle Settings [15%, 50%, se]
+    : The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
+
+{% endset %}
+
+{{ gravui_callout(page.media['particle_3.png'].url, callout_items, 'shadow border') }}
 
 When you place a Particle in a Configuration's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
 

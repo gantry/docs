@@ -6,6 +6,7 @@ taxonomy:
 gravui:
     enabled: true
     tabs: true
+    browser: true
 process:
     twig: true
 ---

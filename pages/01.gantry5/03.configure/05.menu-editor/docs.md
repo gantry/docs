@@ -78,7 +78,9 @@ There are six types of menu items in the **Menu Editor**. Here is a breakdown of
 | Separator      | Non-clickable menu item that carries a name, usually used for top-level menus with one or more sub-menus. |
 | Heading        | A non-clickable menu item that contains text only.                                                        |
 
+>>>> **Particle** injection is not supported in the initial beta release as it is still in development.
+
 The sixth type of menu item, which is added and configured in the **Menu Editor** are **Particles**. This will allow you to do things like create a block of information that appears in the menu.
 
->>>>> In cases where the **Menu Item Type** is supplied by the CMS, this may not be editable via the **Menu Editor** as it would conflict with the CMS' settings.
+>>> In cases where the **Menu Item Type** is supplied by the CMS, this may not be editable via the **Menu Editor** as it would conflict with the CMS' settings.
 
