@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-### Chapter 5
+### Chapter 6
 
 # Tutorials
 

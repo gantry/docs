@@ -5,8 +5,8 @@ taxonomy:
     tag: [gantry5]
 ---
 
-### Chapter 4
+### Chapter 5
 
 # Advanced
 
-Featuring some advanced customization and configuration options for **Gantry**.
+Featuring some advanced customization and configuration options for **Gantry5**.

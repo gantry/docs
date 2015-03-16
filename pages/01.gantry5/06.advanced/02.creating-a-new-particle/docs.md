@@ -12,7 +12,9 @@ process:
 
 Creating a new **Particle** in Gantry5 is a pretty straightforward process. You will need a text editor, as you will be **creating two files** for the Particle.
 
-For the interest of this guide, we will create a simple Particle that enables you to add custom HTML to your site. This Particle would be a basic substitute for the **Custom HTML** module in Joomla or **Text** widget in WordPress.
+![Particle](particle_1.png) {.border .shadow}
+
+For the interest of this guide, we will create a simple Particle for a page on a site. This Particle consists of three main parts. The **Title**, **Image**, and **Description**. Particles can be as simple or complex as you need them to be.
 
 Creating the YAML File
 -----
@@ -21,7 +23,9 @@ While creating your Particle, it may be easier to start with the YAML file as th
 
 {% set tab1 %}
 
-You will want to create this file in your template's folder structure by navigating to `(template directory)/common/particles` and creating a file with a name like `custom_html.yaml`. You can replace `custom_html` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
+![File Location](particle_3.png) {.border .shadow}
+
+You will want to create this file in your template's folder structure by navigating to `(template directory)/common/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
 {% endset %}
 {% set tab2 %}
@@ -31,11 +35,11 @@ Coming soon...
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-Here is the body of our Custom HTML YAML file:
+Here is the body of our example Particle's YAML file:
 
 ```yaml
-name: Custom HTML
-description: Displays Custom HTML on Frontend
+name: Example
+description: Displays a Title, Image, and Text on the front end.
 type: particle
 
 form:
@@ -46,15 +50,20 @@ form:
       description: Globally enable to the particles.
       default: true
 
-    content:
-      type: textarea.textarea
-      label: Text / HTML
-      description: Create or modify custom HTML.
-
     title:
       type: input.text
       label: Title
-      description: Customize the section title text.    
+      description: Customize the section title text.   
+
+    image:
+      type: input.imagepicker
+      label: Image
+      description: Select the main image.
+
+    description:
+      type: textarea.textarea
+      label: Text / HTML
+      description: Create or modify your description.
 
     css.class:
       type: input.text
@@ -64,11 +73,13 @@ form:
 
 This YAML is made up of two main parts. First, the head of the file which sets the **Name**, **Description**, and **Type**. The **Name** is what appears in the administrator as the title of the Particle in the **Settings** and **Layout Manager** panels. The **Type** being **Particle** tells Gantry that this YAML file is being used to create a **Particle**.
 
+![Particle](particle_2.png) {.border .shadow}
+
 The second section sets the forms/fields that appear in the administrator, as well as the default settings. These fields are what appear in the administrator and are accessible to your site managers. They give them the ability to do things like set custom text, titles, and toggle settings.
 
 The first field block (`enabled`) is required. It tells Gantry to put a switch on the backend that makes it possible to enable/disable the Particle.
 
-The rest of the fields here, `content`, `title`, and `css.class` provide fields site managers can use to configure the Particle without having to edit any files manually.
+The rest of the fields here, `title`, `image`, `description`, and `css.class` provide fields site managers can use to configure the Particle without having to edit any files manually.
 
 Here is a breakdown of the settings used in the example above and how they affect the file:
 
@@ -84,7 +95,7 @@ Creating the Twig File
 
 The next file you will need to create will sit in the same directory as the YAML file. We recommend naming it the same way as you did the YAML file, but in the (`name.html.twig`) format. Ending the file name with `html.twig` tells Gantry that this is a Twig file, which is basically the template of the file. It controls how Particles are rendered, states the HTML, and determines how variables defined in the YAML are used.
 
-Here is the content of the `custom_html.html.twig` file:
+Here is the content of the `example_particle.html.twig` file:
 
 {% verbatim %}
 
@@ -92,10 +103,13 @@ Here is the content of the `custom_html.html.twig` file:
 {% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block particle %}
-<div class="custom_html {{ particle.css.class }}">
-    <h2>{{ particle.header|raw }}</h2>
-    {{ particle.content|raw }}
-</div>
+<div class="example_particle {{ particle.css.class }}">
+            <div align="center">
+              <img src="{{ particle.image|raw }}" alt="image">
+              <h2>{{ particle.header|raw }}</h2>
+              <p>{{ particle.description|raw }}</p>
+            </div>
+        </div>
 {% endblock %}
 ```
 
@@ -105,7 +119,9 @@ The first part (`{% extends '@nucleus/partials/particle.html.twig' %}`) defines 
 
 The second part is the **Block** wrapper. `{% block particle %}` and `{% endblock %}` surround the block that contains the Particle. This is also a required component as your Particle will not render correctly without it.
 
-The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `g-custom_html`. This class tells Gantry that this twig file is working with information from the **custom_html.yaml** companion file.
+The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `example_particle`. This class tells Gantry that this twig file is working with information from the **custom_html.yaml** companion file.
+
+>>> The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
 
 The bits that are placed between curly brackets such as `{{ particle.header|raw }}` pull information from the fields set in the YAML and insert them into the Twig for rendering on the front end.
 
