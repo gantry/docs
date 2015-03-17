@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-![Layout Manager](layout_manager.png)
+![Layout Manager](layout_manager.png) {.border .shadow}
 
 The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Configurations. 
 
@@ -19,13 +19,13 @@ Using the Load Button
 
 **Layout Presets** enable you to quickly switch between pre-configured layouts for your site. These layouts are included in the theme and feature a different set of sections. Some layout presets may include a sidebar, or multiple sidebars, and a number of sections intended to fit a specific page style.
 
-![Choosing a Layout Preset](choosing1.png)
+![Choosing a Layout Preset](choosing1.png) {.border .shadow}
 
 Each **Configuration** is assigned a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **Configurations**.
 
 If you select a **Preset**, your layout will be replaced with a preset one that comes with the theme. These presets act as starting points for your design, giving you a set of **Sections**, **Positions**, and/or pre-placed **Particles** to work with. The presets have been configured to cover a range of possible layouts a user would want to use on their design, as set by the theme creator. This includes layouts with and without sidebars, and range from incredibly simple to complex.
 
-![Choosing a Layout Preset](choosing2.png)
+![Choosing a Layout Preset](choosing2.png) {.border .shadow}
 
 Selecting on one of the **Configuration** options will copy the **Layout Manager** setup from the selected Configuration and load it into the one you are working in. This is a quick way to base your layout on another Configuration without having to manually duplicate it.
 
@@ -34,7 +34,7 @@ Selecting on one of the **Configuration** options will copy the **Layout Manager
 Controls
 -----
 
-![Controls](controls.png)
+![Controls](controls.png) {.border .shadow}
 
 The **Layout Manager** has a number of useful controls to help you configure, save, import, and export your layouts. In this section, will we go over some of the things you will find in the **Layout** administrative panel.
 
@@ -59,7 +59,7 @@ You can even go back after hitting **Save Layout**, should one of your changes n
 Particles
 ------
 
-![Particles](particles.png)
+![Particles](particles.png) {.border .shadow}
 
 The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find click-and-dragable **Positions**, **Particles**, and **Atoms**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
 
@@ -74,7 +74,7 @@ The layout consists of several different sections, each with its own set of sett
 
 ### Sections
 
-![Sections](section.png)
+![Sections](section.png) {.border .shadow}
 
 For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles**, **Positions**, and **Atoms**.
 
@@ -82,7 +82,7 @@ You can add **Grids** by selecting the **plus (+)** icon in the upper-right corn
 
 #### Settings
 
-![Settings](section_settings.png)
+![Settings](section_settings.png) {.border .shadow}
 
 | Setting    | Description                                         |
 | :------    | :----------------------------------                 |
@@ -93,19 +93,19 @@ The **Section** settings give you the ability to change the way a particular sec
 
 ### Grids
 
-![Grids](grid.png)
+![Grids](grid.png) {.border .shadow}
 
 Grids are the horizontal rows in which Blocks live. In a Grid, you can place Particles, Positions, and Atoms. These items, when located in a Grid are called Blocks, and can be freely moved and resized.
 
 #### Settings
 
-![Settings](grid_settings.png)
+![Settings](grid_settings.png) {.border .shadow}
 
 Grids have very basic options. You can **move** them using the icon on the left-hand side or quickly **even out Block widths** by selecting the icon on the right-hand side.
 
 ### Blocks
 
-![Blocks](block.png)
+![Blocks](block.png) {.border .shadow}
 
 Blocks are the Lego bricks of the Layout Manager. These are your individual pieces which make up the individual parts of your page. Your Logo, for example, would be a **Particle** placed in a **Block**, which sits in a **Grid** within a **Section**.
 
@@ -115,28 +115,29 @@ The only type of Particle that can't be resized is the **Atom** which is a non-v
 
 #### Settings
 
-![Settings](block_settings_1.png)
+![Settings](block_settings_1.png) {.border .shadow}
 
 Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the left-hand side of the Particle. These settings override the default ones set in the **Settings** admin panel, and become unique to the single block. 
 
-These are **Particle** level settings, which exist in every type of Block. They enable you to rename the Particle as it appears on the Layout Manager, as well as to configure Particle-specific settings.
+These are **Particle** level settings, which exist in every type of Block. They enable you to rename the Particle as it appears on the Layout Manager, as well as to configure Particle-specific settings sourced from the Particle's **YAML** file.
 
-![Settings](block_settings_2.png)
+![Settings](block_settings_2.png) {.border .shadow}
 
-| Setting    | Description                                                                                                  |
-| :------    | :----------------------------------                                                                          |
-| ID         | Enables you to set an ID attribute.                                                                          |
-| Class      | This is where you would enter any CSS class you would like to have apply to the Block.                       |
-| Attributes | This field is where you would add any other HTML attributes to the Block.                                    |
-| Size       | This field gives you the ability to set a specific size (in percentage) the Block will take up horizontally. |
+| Setting         | Description                                                                                                  |
+| :------         | :----------------------------------                                                                          |
+| CSS ID          | Enables you to set an ID attribute.                                                                          |
+| CSS Classes     | This is where you would enter any CSS class you would like to have apply to the Block.                       |
+| Variations      | Enter theme-included variations for the block here.                                                          |
+| HTML Attributes | This field is where you would add any other HTML attributes to the Block.                                    |
+| Block Size      | This field gives you the ability to set a specific size (in percentage) the Block will take up horizontally. |
 
-The Block settings make it easy to change the way a particular block looks and behaves, as well as gives you the ability to set a specific width percentage for the Block.
+The **Block** settings make it easy to change the way a particular block looks and behaves, as well as gives you the ability to set a specific width percentage for the Block.
 
 ### Sidebar Blocks and Grids
 
-![Sidebar Grid](grid2.png)
+![Sidebar Grid](grid2.png) {.border .shadow}
 
-![Sidebar Blocks](block2.png)
+![Sidebar Blocks](block2.png) {.border .shadow}
 
 In the presence of a Sidebar, there is a unique situation. For the purposes of theme development, the sidebar and any horizontally-adjoining Sections are placed in a single Grid. Unlike the smaller Grids which exist inside sections, this Grid can't be freely moved. However, you can resize them using the divider bar between the Sidebar and its adjoining Sections.
 

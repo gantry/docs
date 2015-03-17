@@ -12,22 +12,6 @@ process:
 
 The Gantry framework itself is independent of any template. Each Gantry-enabled template relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered template does require the Gantry framework to work properly, Gantry is not inherently built in to the template, itself.
 
-{% set tab1 %}
-
-http://youtu.be/KOOuBQpSZDM
-
->>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
-
-{% endset %}
-{% set tab2 %}
-
-http://youtu.be/W1GmZB2dgNE
-
->>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
-
 Downloading Gantry
 ------------------
 

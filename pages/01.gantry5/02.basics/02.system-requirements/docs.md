@@ -49,11 +49,11 @@ Browser Requirements
 
 The back-end administration requirements of Gantry in order of preference are as follows:
 
-* Firefox 4+
-* Safari 5+
-* Google Chrome 10+
-* Opera 10+
-* Internet Explorer 8+
+* Google Chrome 41+
+* Firefox 36+
+* Safari 8+
+* Opera 28+
+* Internet Explorer 10+ (9 supported at limited capacity)
 
 Development Environments
 ------------------------
