@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-![Menu](menu.png)
+![Menu](menu.png) {.border .shadow}
 
 The **Menu** particle enables you to set the image and/or text you want to have appear as your logo in for the site. This particle gives you the ability to place menus and define how they appear on the frontned. 
 
@@ -30,15 +30,14 @@ As menus are handled differently by different platforms, the settings may vary. 
 
 {% set tab1 %}
 
-![Settings](menu_settings_j.png)
+![Settings](menu_settings_j.png) {.border .shadow}
 
-| Setting     | Description                                                    |
-| :------     | :----------------------------------                            |
-| ID          | Enables you to set a styling ID for the Particle.              |
-| Class       | Enables you to assign CSS classes.                             |
-| Menu        | Enter the name of the menu you wish to assign to the Particle. |
-| Base Path   | Set the base path for the menu.                                |
-| Start level | Sets the starting level for the menu.                          |
+| Setting     | Description                                                         |
+| :------     | :----------------------------------                                 |
+| Base Path   | Sets the base path for the menu Particle.                           |
+| Menu        | Enter the name of the menu you wish to assign to the Particle.      |
+| Start level | Sets the starting level for the menu.                               |
+| Max Levels  | Sets the deepest level at which the menu particle renders the menu. |
 
 {% endset %}
 {% set tab2 %}
@@ -46,20 +45,5 @@ As menus are handled differently by different platforms, the settings may vary. 
 Coming Soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 

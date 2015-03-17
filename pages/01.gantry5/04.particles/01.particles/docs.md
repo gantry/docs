@@ -25,7 +25,7 @@ There are three basic types of Particles. Here is a quick breakdown of what they
 Standard Particles
 -----
 
-![Particles](particles_1.png)
+![Particles](particles_1.png) {.border .shadow}
 
 For theme developers, particles can be created in minutes, and they can add functionality to your page in an environment that is easy for your clients to navigate and work with.
 
@@ -43,29 +43,14 @@ Positions can be both renamed for reference on the backend and rekeyed, allowing
 {% endset %}
 {% set tab2 %}
 
-Coming Soon...
+Coming soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Atoms
 -----
 
-![Particles](particles_2.png)
+![Particles](particles_2.png) {.border .shadow}
 
 Atoms, which are particles that do not render on the frontend in any visible fashion, make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can even arrange their order in their Section to determine the order in which they load during page rendering.

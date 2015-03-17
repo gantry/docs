@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-![Menu](menu.png)
+![Menu](menu.png) {.border .shadow}
 
 The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the frontend of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
 
@@ -21,7 +21,7 @@ This panel is a Global panel, that is not specific to any Configuration. It's be
 Selecting a Menu
 -----
 
-![Selecting a Menu](selecting_a_menu.png)
+![Selecting a Menu](selecting_a_menu.png) {.border .shadow}
 
 The first thing you will want to do is select the menu you wish to edit. This can be done using the dropdown located near the top of the **Menu Editor** administrative panel. These menus are sourced from your CMS' **Menu Manager**. If you want to create a new menu, you will need to do so using the Menu Manager for your particular CMS.
 
@@ -30,7 +30,7 @@ When you have done this, simply select it in this dropdown and its contents will
 Menu Settings
 -----
 
-![Menu Settings](menu_settings.png)
+![Menu Settings](menu_settings.png) {.border .shadow}
 
 The menu itself has a settings icon (cogwheel) on the right-hand side which gives you the option to access settings that relate to the menu as a whole. These settings may differ between content management systems (CMS).
 
@@ -41,7 +41,7 @@ Keep in mind that within the Menu Particle, you can further refine this, setting
 Menu Item Settings
 -----
 
-![Menu Item Settings](menu_item_settings.png)
+![Menu Item Settings](menu_item_settings.png) {.border .shadow}
 
 Each menu item has a set of settings which can be configured to meet your needs. These may vary slightly between CMS, but have the same basic functions. You can activate the **Menu Item** settings by selecting the cogwheel icon on the right-hand side of the menu item itself.
 
@@ -66,7 +66,7 @@ In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** a
 Menu Item Types
 -----
 
-![Menu Item Types](menu_item_types.png)
+![Menu Item Types](menu_item_types.png) {.border .shadow}
 
 There are six types of menu items in the **Menu Editor**. Here is a breakdown of what five of these types are, and the role they play in the menu.
 
