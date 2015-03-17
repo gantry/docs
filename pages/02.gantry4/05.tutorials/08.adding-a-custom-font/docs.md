@@ -16,12 +16,12 @@ In this example, we will explain how you can add the custom free font **Bloody**
 
 {% set tab1 %}
 
-![](custom-font-setting.jpg)
+![](custom-font-setting.jpg)  {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
-![](custom-font-setting_wp.jpg)
+![](custom-font-setting_wp.jpg)  {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -40,7 +40,7 @@ Unzip the package and move the following files to `/templates/[TEMPLATE]/fonts/`
 * BLOODY-webfont.ttf
 * BLOODY-webfont.woff
 
-![](custom-font-files.jpg)
+![](custom-font-files.jpg)  {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
@@ -54,7 +54,7 @@ Unzip the package, and move the following files to `/wp-content/themes/[TEMPLATE
 * BLOODY-webfont.ttf
 * BLOODY-webfont.woff
 
-![](custom-font-files_wp.jpg)
+![](custom-font-files_wp.jpg)  {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -138,15 +138,15 @@ With your text/code editor, open `/templates/[TEMPLATE]template-options.xml` and
 
 Go to your template manager and confirm that the new font option is available.
 
-![](custom-font-setting.jpg)
+![](custom-font-setting.jpg)  {.border .shadow}
 
 The Gantry template default font is **Helvetica** and the frontend will look like this:
 
-![](helvetica-font.jpg)
+![](helvetica-font.jpg)  {.border .shadow}
 
 Now, set the default font to **Bloody** in the Font Settings parameter and reload the front end to check the result.
 
-![](bloody-font.jpg)
+![](bloody-font.jpg)  {.border .shadow}
 
 You can add as many custom fonts as you wish, and set the multiple option in the font settings.
 
@@ -170,15 +170,15 @@ With your text/code editor, open `/wp-content/themes/[TEMPLATE]/templateDetails.
 
 Now, go to your template settings, and confirm that the new font option is available.
 
-![](custom-font-setting_wp.jpg)
+![](custom-font-setting_wp.jpg)  {.border .shadow}
 
 The Gantry template default font is **Helvetica**. The frontend will look like the following:
 
-![](helvetica-font_wp.jpg)
+![](helvetica-font_wp.jpg)  {.border .shadow}
 
 Now, set the default font to **Bloody** in the Font Settings parameter. Reload the frontend to check the result.
 
-![](bloody-font_wp.jpg)
+![](bloody-font_wp.jpg)  {.border .shadow}
 
 You can add as many custom fonts as you wish, and set the multiple option for the font settings.
 
@@ -211,4 +211,4 @@ In addition to adding the **Bloody** font, as outlined above, you can also add i
 
 Reload the front end and check the result. Only the component title and module title will use the `Bloody` font. The rest of the content will use the default font `Helvetica`.
 
-![](bloody-font-specific.jpg)
+![](bloody-font-specific.jpg)  {.border .shadow}

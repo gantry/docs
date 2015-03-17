@@ -25,7 +25,7 @@ While creating your Particle, it may be easier to start with the YAML file as th
 
 ![File Location](particle_3.png) {.border .shadow}
 
-You will want to create this file in your template's folder structure by navigating to `(template directory)/common/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
+You will want to create this file in your template's folder structure by navigating to `(template directory)/custom/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
 {% endset %}
 {% set tab2 %}

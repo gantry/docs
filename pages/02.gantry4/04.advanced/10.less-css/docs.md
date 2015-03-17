@@ -309,7 +309,7 @@ You can control CSS compression, Compile Wait Time and Debug Header, as well as 
 
 Additionally, CSS compression increases site performance and optimization by consolidating all the CSS into a single file, with little to no whitespace. This reduces the file size of the CSS file and making it quicker for a browser to load.
 
-![](advanced-less.jpg)
+![](advanced-less.jpg)  {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
@@ -318,7 +318,7 @@ You can control CSS compression, compile wait time and debug header, as well as 
 
 Additionally, CSS compression increases site performance and optimization by consolidating all the CSS into a single file, with none or negligible whitespace. This reduces the file size of the CSS file and reduces browser load time.
 
-![](advanced-less.jpg)
+![](advanced-less.jpg)  {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

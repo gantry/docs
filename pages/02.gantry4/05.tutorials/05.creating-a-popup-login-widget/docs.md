@@ -12,7 +12,7 @@ process:
 
 This tutorial details how to create a custom widget that will utilize RokBox to present a modal popup box triggered by a link/button on the frontend. For this tutorial, we will be making a login widget popup.
 
-![](popup-login.jpg)
+![](popup-login.jpg)  {.border .shadow}
 
 >>>>> The login popup functionality requires that the [RokBox Plugin](http://www.rockettheme.com/wordpress/plugins/rokbox) be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/wordpress/plugins/rokbox).
 

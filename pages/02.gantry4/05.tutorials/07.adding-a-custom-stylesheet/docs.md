@@ -23,12 +23,12 @@ To create a custom CSS file, you just have to create a new css file at `/templat
 
 {% set tab1 %}
 
-![](template-custom-css.jpg)
+![](template-custom-css.jpg)  {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
-![](template-custom-css_wp.jpg)
+![](template-custom-css_wp.jpg)  {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -46,7 +46,7 @@ Example 1: Override Existing Rules
 ----------------------------------
 In this example, we will explain how to reduce the bottom padding and margin in the **showcase** position of the **default gantry template** which inherits rules from the `rt-block` element inside `rt-showcase`.
 
-![](showcase-padding-margin.jpg)
+![](showcase-padding-margin.jpg)  {.border .shadow}
 
 With Chrome Developer Tools, we can see that the default margin and padding are:
 
@@ -81,7 +81,7 @@ Hence, we need to put the rule with more specific selectors. We need to create a
 
 Now, we can check the result with the Developer Tools again to confirm that our custom rule overrides the existing rule.
 
-![](custom-css-result.jpg)
+![](custom-css-result.jpg)  {.border .shadow}
 
 
 Example 2: Per-Browser Specific Custom Stylesheet
@@ -93,7 +93,7 @@ The Gantry Framework has the ability to load specific CSS file based on which br
 
 In this example, we will explain how to hide a specific module when viewed with Firefox, while keeping it visible on other browsers. In the case of the **gantry default template**, we need to create `/templates/[TEMPLATE]/css/gantry-custom-firefox.css`.
 
-![](hide-on-firefox.jpg)
+![](hide-on-firefox.jpg)  {.border .shadow}
 
 Next, we need to put the custom rule inside `/templates/[TEMPLATE]/css/gantry-custom-firefox.css` like this:
 
@@ -103,11 +103,11 @@ Next, we need to put the custom rule inside `/templates/[TEMPLATE]/css/gantry-cu
 
 Now, we can put `rt-hidden-firefox` in the Module Class Suffix of the module we want to hide on Firefox.
 
-![](hidden-module-class-suffix.jpg)
+![](hidden-module-class-suffix.jpg)  {.border .shadow}
 
 Click the **Save & Close** button and confirm the result in Firefox and other browsers. We will see that the module will be hidden only on Firefox.
 
-![](hide-on-firefox-result.jpg)
+![](hide-on-firefox-result.jpg)  {.border .shadow}
 
 Per-Browser Specific Custom Stylesheet is not just limited to showing or hiding a specific module only, but we can also use this ability to create a new rule or to override some existing rules just for a specific browser, like Internet Explorer. Anything in CSS can be overridden on a per-browser basis.
 
@@ -118,7 +118,7 @@ Per-Browser Specific Custom Stylesheet is not just limited to showing or hiding 
 
 In this example, we will explain how to hide a specific widget viewed with Firefox, while keeping it visible on other browsers. In the case of the **gantry default template**, we need to create `/wp-content/themes/[TEMPLATE]/css/rt_gantry_wp-custom-firefox.css`.
 
-![](hide-on-firefox_wp.jpg)
+![](hide-on-firefox_wp.jpg)  {.border .shadow}
 
 Next, we need to put the custom rule inside `/wp-content/themes/[TEMPLATE]/css/rt_gantry_wp-custom-firefox.css`.
 
@@ -130,11 +130,11 @@ Here's an example:
 
 Now, we can put `rt-hidden-firefox` in the **Custom Variations** of the widget we want to hide on Firefox.
 
-![](hidden-module-class-suffix_wp.jpg)
+![](hidden-module-class-suffix_wp.jpg)  {.border .shadow}
 
 Click the **Save** button before confirming the result in Firefox, as well as other browsers. The widget should be successfully hidden on Firefox, and remain visible on other browsers.
 
-![](hide-on-firefox-result_wp.jpg)
+![](hide-on-firefox-result_wp.jpg)  {.border .shadow}
 
 **Per-Browser Specific Custom Stylesheet** is not just limited to showing or hiding a specific widget. We can also use this ability, for example, to create a new rule or override existing rules just for specific browser, such as Internet Explorer. Any in CSS can be overridden on a per-browser basis using this method.
 
@@ -148,11 +148,11 @@ Custom Stylesheet with LESS
 
 Another way to add the custom style to the Gantry template is by adding a custom LESS file inside `/templates/[TEMPLATE]/less`. The custom LESS file name is formatted as  `[LESS_FILE_NAME]-custom.less` and will be compiled into the main compiled CSS file.
 
-![](less-file-name.jpg)
+![](less-file-name.jpg)  {.border .shadow}
 
 For example, in the default Gantry template, there is a file `less/template.less`. We can create a custom LESS file called `less/template-custom.less` and put our custom LESS elements in this file. Gantry will pick up the elements and compile it. You may also use other file names such as `less/style-custom.less`, `less/typography-custom.less`, and so on.
 
-![](custom-less-files.jpg)
+![](custom-less-files.jpg)  {.border .shadow}
 
 The only limitation with Custom LESS file is, that we **can not** use Per-Browser Specific Custom Stylesheet, such as `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file described previously.
 
@@ -161,11 +161,11 @@ The only limitation with Custom LESS file is, that we **can not** use Per-Browse
 
 Another way to add the custom style to the Gantry template is to create a custom LESS file inside `/wp-content/themes/[TEMPLATE]/less`. The custom LESS file name should be formatted as `[LESS_FILE_NAME]-custom.less`. This file will be compiled in the main CSS file.
 
-![](less-file-name_wp.jpg)
+![](less-file-name_wp.jpg)  {.border .shadow}
 
 For example, in the default Gantry template, there is a file called `less/template.less`. We can add a custom LESS file named `less/template-custom.less` and add our custom LESS elements. Gantry will pick up the elements and compile it. You may also use other file names such as `less/style-custom.less`, `less/typography-custom.less`, and so on.
 
-![](custom-less-files_wp.jpg)
+![](custom-less-files_wp.jpg)  {.border .shadow}
 
 The only limitation with Custom LESS file is that we **can not** use **Per-Browser Specific Custom Stylesheet**. Such is the case with `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file as described previously.
 

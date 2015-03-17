@@ -25,22 +25,7 @@ To uninstall the gantry template, you will first have to ensure that it is not s
 To uninstall the gantry theme, you will first have to ensure that it's not activated. Go to **Appearance → Themes** and click on the **Activate** on any other theme that is not gantry. After that, you can simply click on the **Delete** button next to the Gantry theme.
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Uninstall Gantry
 ----------------
@@ -57,23 +42,6 @@ There are two main parts to Gantry -- the framework and the theme. Therefore, th
 Uninstall the Gantry plugin and theme from **Plugins** admin page. Please search for **Gantry Template Framework** and **Deactivate** it first, then click **Delete** next to its name. Gantry will now be deleted.
 
 {% endset %}
-{% set tab3 %}
-
-**phpBB 3.1**
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 

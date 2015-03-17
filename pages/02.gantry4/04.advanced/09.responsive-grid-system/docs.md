@@ -88,4 +88,4 @@ The menu system for a smartphone device will be that of a select field. A select
 
 All other sizes will use the normal menu system build on **RokNavMenu**, such as **Fusion Menu** or **SplitMenu**.
 
-![](responsive3.jpg)
+![](responsive3.jpg)  {.border .shadow}

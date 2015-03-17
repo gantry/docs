@@ -24,7 +24,7 @@ Creating an Override
 
 There are two methods for creating a new set of assignable configurations. The first is the **Save as Copy** method, which involves you editing the Gantry template master at **Extensions → Template Manager → gantry — Default (Master)**. Configure your settings, change the **Style Name**, and select **Save as Copy** from the **Save** dropdown.
 
-![](template-override-save-as-copy.jpg)
+![](template-override-save-as-copy.jpg) {.border .shadow}
 
 Alternatively, from the **Template Manager**, you can select the checkbox for the Gantry template master and click **Duplicate** from the button toolbar. It will automatically create a copy and mark it as **Override**.
 
@@ -33,7 +33,7 @@ Alternatively, from the **Template Manager**, you can select the checkbox for th
 
 There are two methods of creating a new set of assignable configurations. The first is the **Save as Copy** method which involves you editing the Gantry theme at **Admin Dashboard → Theme Settings**. Configure your settings, select **Save as Copy** from the **Save** dropdown, and change the override name from **Duplicate Override** to your own.
 
-![](template-override-save-as-copy_wp.jpg)
+![](template-override-save-as-copy_wp.jpg) {.border .shadow}
 
 Alternatively, you can simply click on the **New Override** button, change the name of the newly created override and modify all of the parameters from scratch. Please note that when creating a new override, the beggining parameters are always the same as the ones set in the **Default Settings** override.
 
@@ -48,22 +48,22 @@ Configuring an Override
 
 Once an **Override** has been created, you simply need to open it and configure. Each tab will have greyed out parameters that can be activated via the checkbox.
 
-![](template-override-assigned-params.jpg)
+![](template-override-assigned-params.jpg) {.border .shadow}
 
 Configure items, then click on the **Assignments** tab. All menu items are listed here, so just check the items you wish this particular Override to apply to.
 
-![](template-override-assign-menus.jpg)
+![](template-override-assign-menus.jpg) {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
 Once an **Override** has been created, you simply need to switch to it (if you weren't automatically) and configure. Each tab will have greyed out parameters that can be activated via the checkbox.
 
-![](template-override-assigned-params_wp.jpg)
+![](template-override-assigned-params_wp.jpg) {.border .shadow}
 
 Configure items, then click on the **Assignments** tab. All content type items are listed here, so just check the items you want this particular Override to apply to.
 
-![](template-override-assign-menus_wp.jpg)
+![](template-override-assign-menus_wp.jpg) {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

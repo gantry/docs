@@ -19,22 +19,22 @@ Logo
 
 The Logo setting provides the ability to show/hide the logo, select its position, or changes its type. By default, this is **Gantry Template** which allows you to load three different style options for **Logo Style**.
 
-![](style-logo-type-gantry.jpg)
+![](style-logo-type-gantry.jpg) {.border .shadow}
 
 The second logo type option is **Custom**. This will load the **Custom Logo** field, where you can **Select** an image through the Media Manager.
 
-![](style-logo-type-custom.jpg)
+![](style-logo-type-custom.jpg) {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
 The *Logo* setting provides the ability to change its type. The default setting is **Gantry Template**, which loads the included template logo.
 
-![](style-logo-type-gantry_wp.jpg)
+![](style-logo-type-gantry_wp.jpg) {.border .shadow}
 
 The second logo type option is **Custom**. This will load the **Custom Logo** field, where you can **Select** an image through the *Media Manager*.
 
-![](style-logo-type-custom_wp.jpg)
+![](style-logo-type-custom_wp.jpg) {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -44,14 +44,14 @@ Link Color
 
 The Link Color setting provides the ability to easily change the main color for template links. Colors can be inputted via the color chooser popup selector, or manually using a hex code in the input field.
 
-![](style-link-color.jpg)
+![](style-link-color.jpg) {.border .shadow}
 
 Font Settings
 -------------
 
 The Font Settings option provides the ability to change the font size as well as the default font family used in the template. Many popular web fonts are included as options and some templates also include additional custom font options.
 
-![](style-font.jpg)
+![](style-font.jpg) {.border .shadow}
 
 WordPress Options
 =====
@@ -62,18 +62,18 @@ Pagination
 -------------------
 The *Pagination Settings* setting allows you to decide how the pagination between content pages should look. This parameter allows you to decide if user should be able to see total number of pages, and how many side pages should be displayed next to the current page.
 
-![](style-pagination-settings_wp.jpg)
+![](style-pagination-settings_wp.jpg) {.border .shadow}
 
 
 Use WordPress Comments
 -------------------
 The *Use WordPress Comments* setting gives you ability to disable the WordPress core comments on the front-end in case if you prefer to use a third-party solution.
 
-![](style-use-wordpress-comments_wp.jpg)
+![](style-use-wordpress-comments_wp.jpg) {.border .shadow}
 
 
 Custom CSS
 -------------------
 The *Custom CSS* setting allows you to input your own, custom CSS code that will be added inline to the head section of the page. This way you can add custom styling (globally or per-override) to your page without modifying any of the template files.
 
-![](style-custom-css_wp.jpg)
+![](style-custom-css_wp.jpg) {.border .shadow}

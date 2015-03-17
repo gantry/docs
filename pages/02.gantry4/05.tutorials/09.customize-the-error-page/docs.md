@@ -14,13 +14,13 @@ process:
 
 Joomla comes with a default 404 Error Page which Gantry can override at `/templates/[TEMPLATE]/error.php`.
 
-![](default-404.jpg)
+![](default-404.jpg)  {.border .shadow}
 
 We can customize the Gantry error page by directly editing the `error.php` file. In this tutorial, we will explain how to customize the error page with a simple design.
 
 In this example, we will customize the error page to look like the following.
 
-![](custom-404.jpg)
+![](custom-404.jpg)  {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
@@ -31,7 +31,7 @@ We can customize the Gantry error page by directly editing the `404.php` file. I
 
 In this example, we will create a custom error page with this design:
 
-![](custom-404_wp.jpg)
+![](custom-404_wp.jpg)  {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

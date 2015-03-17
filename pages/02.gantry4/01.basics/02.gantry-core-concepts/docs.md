@@ -233,7 +233,7 @@ Template Parameters
 
 At this point, if you don't touch anything, the default layout will be an equal size for the published modules. However, with Gantry, you can completely control how much room each module position has to work with and this is controlled via the Template Parameters user interface. Below, you see a screenshot of how this **topPosition** parameter element is rendered in the template parameters.
 
-![](layouts-top-position.jpg)
+![](layouts-top-position.jpg) {.border .shadow}
 
 Full coverage of the Gantry module layout configurations and how to set up different widths can be found in the [Layouts](../configure/layouts.md) section.
 

@@ -12,7 +12,7 @@ process:
 
 This tutorial details how to create a custom feature that utilizes RokBox to present a module position inside a modal popup box that will be triggered by a link/button on the front end. For this tutorial, we will be making a login module popup.
 
-![](popup-login.jpg)
+![](popup-login.jpg)  {.border .shadow}
 
 >>>>> The login popup functionality requires the [RokBox Plugin](http://www.rockettheme.com/joomla/extensions/rokbox) to be installed on your site. Before beginning, please ensure that you have downloaded and installed the [latest version of RokBox](http://www.rockettheme.com/joomla/extensions/rokbox).
 

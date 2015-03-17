@@ -25,30 +25,30 @@ Creating a new Preset
 
 To configure a new preset, go to **Extensions → Template Manager → gantry — Default (Master) → Style**. Configure any style settings for the template such as Link Color.
 
-![](presets-configure.jpg)
+![](presets-configure.jpg) {.border .shadow}
 
 Once configured, click **Save Preset** from the Save button dropdown.
 
-![](presets-save.jpg)
+![](presets-save.jpg) {.border .shadow}
 
 The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset Name**, and the **Key Name** will be generated automatically. Then click **Save**.
 
-![](presets-create.jpg)
+![](presets-create.jpg) {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
 
 To configure a new preset, go to **Admin Dashboard → Gantry Theme → Style**. From here, you can configure style settings for the template. In the example below, we'll change the link color.
 
-![](presets-configure_wp.jpg)
+![](presets-configure_wp.jpg) {.border .shadow}
 
 Once configured, click **Save Preset** from the Save button dropdown.
 
-![](presets-save_wp.jpg)
+![](presets-save_wp.jpg) {.border .shadow}
 
 The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset Name**, and the **Key Name** will be generated automatically. Then click **Save**.
 
-![](presets-create_wp.jpg)
+![](presets-create_wp.jpg) {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
@@ -60,4 +60,4 @@ Click on the **Presets** button to display all available presets. Your new prese
 
 After a preset is created, you can create a thumbnail image in the `admin/presets/` folder with the filename structure **keyname.png**, where keyname is the Keyname from the modal dialog box.
 
-![](presets-select.jpg)
+![](presets-select.jpg) {.border .shadow}
