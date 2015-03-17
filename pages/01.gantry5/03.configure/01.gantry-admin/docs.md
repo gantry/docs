@@ -51,7 +51,7 @@ The **Global Admin Panels** do not affect a single Configuration, but have influ
 
 >>>> The Configuration panel is not available in the initial beta release of Gantry5. We will update this documentation when available.
 
-![Configurations](configurations.png)
+![Configurations](configurations.png) {.border .shadow}
 
 This panel is where you can manage and create new configurations, each with its own set of layout, style, assignments, and particle settings. There are two types of configurations, Standard and System. 
 
@@ -63,7 +63,7 @@ You can switch to an individual Configuration in two ways. This panel will enabl
 
 #### Menu
 
-![Menu](menu.png)
+![Menu](menu.png) {.border .shadow}
 
 The **Menu Editor** makes it easy to configure and add information to menus as they appear on your site. Virtually every aspect of the menu's appearance and arrangement can be altered from this panel. 
 
@@ -71,7 +71,7 @@ The Gantry menu system grabs information from the CMS' own menu system, and crea
 
 #### About
 
-![About](about.png)
+![About](about.png) {.border .shadow}
 
 The **About** panel enables the theme developer to place information about the theme, such as a feature list and credits, as well as links to documentation and a reference screenshot. This is also where users can quickly find the currently-enabled theme name, version number, and developer information.
 
@@ -81,25 +81,25 @@ The **About** panel enables the theme developer to place information about the t
 
 #### Styles
 
-![Styles](styles.png)
+![Styles](styles.png) {.border .shadow}
 
 The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds.
 
 #### Settings
 
-![Settings](settings.png)
+![Settings](settings.png) {.border .shadow}
 
 The **Settings** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
 
 #### Layout
 
-![Layouts](layout.png)
+![Layouts](layout.png) {.border .shadow}
 
 This is the **Layout Manager** panel which enables you to arrange Particles, content, and widget/module positions for your theme. This panel is essentially where you set up how the page's elements will be arranged, and what they will include. Additionally, you can access individual settings for Particles, Blocks, Sections, and Grids. 
 
 #### Assignments
 
-![Assignments](assignments.png)
+![Assignments](assignments.png) {.border .shadow}
 
 The **Assignments** panel is your one-stop-shop for assigning Configurations to specific pages. For example, if you have a Configuration set up that you would like to apply specifically to your **About** page, you can do so here.
 
