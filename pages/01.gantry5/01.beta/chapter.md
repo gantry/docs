@@ -9,4 +9,4 @@ taxonomy:
 
 # Beta
 
-Introducing the Gantry5 Beta
+Introducing the Gantry 5 Beta

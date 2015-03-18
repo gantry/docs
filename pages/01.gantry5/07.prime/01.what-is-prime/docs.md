@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry Prime is a standalone Gantry5 installation which allows developers and testers to access all the features in both administration and the site without the overhead and quirks of installing and running a CMS.
+Gantry Prime is a standalone Gantry 5 installation which allows developers and testers to access all the features in both administration and the site without the overhead and quirks of installing and running a CMS.
 
 The platform consists of static pages, modules and common assets as well as default configuration and layouts do display those. Themes can then be installed to this platform allowing us to run through all the predefined content, thus making it ideal development and testing platform. New sample content can be included by just adding the files, so whenever there is a new issue, we could just include a new test case and make sure all the templates from both the past and the future will never have the same issue again.
 

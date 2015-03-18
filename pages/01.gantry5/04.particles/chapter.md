@@ -9,4 +9,4 @@ taxonomy:
 
 # Particles
 
-Discover Gantry5's core Particles, and how they work within the **Layout Manager** to make creating your site's **Layout** quick and easy.
+Discover Gantry 5's core Particles, and how they work within the **Layout Manager** to make creating your site's **Layout** quick and easy.

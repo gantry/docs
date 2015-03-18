@@ -19,7 +19,7 @@ Gantry has three available download types:
 
 {% set tab1 %}
 
-* **Bundle**: This includes the Framework (library, component & plugins), the Gantry template and associated extensions such as RokNavMenu.
+* **Bundle**: This includes the Framework (library, component & plugins), the Gantry template and associated extensions.
 * **Framework**: This contains only the Framework (library, component & plugins).
 * **Template**: This contains just the Gantry template.
 

@@ -112,7 +112,7 @@ Spacers
 
 We have created a new Spacer Particle which enables you to create a blank space between two Positions, a Particle and a Position, or two Particles.
 
-Gantry5 introduces many new features that are created to make life easier for developers, their clients, and ultimately the visitors of the site. With its new Layout Manager and this system for handling widget positions, it will undoubtedly be not only the most powerful version of Gantry yet, but also the easiest to use.
+Gantry 5 introduces many new features that are created to make life easier for developers, their clients, and ultimately the visitors of the site. With its new Layout Manager and this system for handling widget positions, it will undoubtedly be not only the most powerful version of Gantry yet, but also the easiest to use.
 
 Settings
 -----

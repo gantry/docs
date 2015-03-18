@@ -10,14 +10,14 @@ process:
     twig: true
 ---
 
-The **Error** page is considered a **System Page** in Gantry5, and editing it to meet your needs is as easy as switching Configurations in the **Gantry Administrator**.
+The **Error** page is considered a **System Page** in Gantry 5, and editing it to meet your needs is as easy as switching Configurations in the **Gantry Administrator**.
 
 You don't have to create a separate **Error** Configuration. It's actually included in the core of Gantry with its own **layout**, **settings**, and **styles** options.
 
 {% set tab1 %}
 
 
-The first step to customizing this page is to access the Gantry administrator by navigating to **Admin > Extensions > Template Manager** and selecting your active Gantry5 template. This will take you to the Gantry Administrator. 
+The first step to customizing this page is to access the Gantry administrator by navigating to **Admin > Extensions > Template Manager** and selecting your active Gantry 5 template. This will take you to the Gantry Administrator. 
 
 ![Error Page](errorpage_1.png) {.border .shadow}
 

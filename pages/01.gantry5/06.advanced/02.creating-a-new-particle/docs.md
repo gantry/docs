@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-Creating a new **Particle** in Gantry5 is a pretty straightforward process. You will need a text editor, as you will be **creating two files** for the Particle.
+Creating a new **Particle** in Gantry 5 is a pretty straightforward process. You will need a text editor, as you will be **creating two files** for the Particle.
 
 ![Particle](particle_1.png) {.border .shadow}
 
@@ -121,7 +121,7 @@ The second part is the **Block** wrapper. `{% block particle %}` and `{% endbloc
 
 The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `example_particle`. This class tells Gantry that this twig file is working with information from the **custom_html.yaml** companion file.
 
->>> The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
+>>> The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry 5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
 
 The bits that are placed between curly brackets such as `{{ particle.header|raw }}` pull information from the fields set in the YAML and insert them into the Twig for rendering on the front end.
 
@@ -129,4 +129,4 @@ The bits that are placed between curly brackets such as `{{ particle.header|raw 
 
 {% endverbatim %}
 
-Once you have created these files, you should see the Particle appear in the **Settings** and **Layout Manager** administrative panels in the Gantry5 administrator.
+Once you have created these files, you should see the Particle appear in the **Settings** and **Layout Manager** administrative panels in the Gantry 5 administrator.

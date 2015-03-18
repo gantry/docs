@@ -1,5 +1,5 @@
 ---
-title: Gantry5
+title: Gantry 5
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -8,6 +8,6 @@ taxonomy:
 
 ### Version 5.0
 
-# Gantry5
+# Gantry 5
 
-A Complete Guide to the Gantry5 Framework
+A Complete Guide to the Gantry 5 Framework

@@ -49,7 +49,7 @@ The **Global Admin Panels** do not affect a single Configuration, but have influ
 
 #### Configurations
 
->>>> The Configuration panel is not available in the initial beta release of Gantry5. We will update this documentation when available.
+>>>> The Configuration panel is not available in the initial beta release of Gantry 5. We will update this documentation when available.
 
 ![Configurations](configurations.png) {.border .shadow}
 

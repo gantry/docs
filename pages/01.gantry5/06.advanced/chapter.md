@@ -9,4 +9,4 @@ taxonomy:
 
 # Advanced
 
-Featuring some advanced customization and configuration options for **Gantry5**.
+Featuring some advanced customization and configuration options for **Gantry 5**.

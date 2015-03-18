@@ -9,4 +9,4 @@ taxonomy:
 
 # Tutorials
 
-This chapter includes information related to **Gantry Prime** development and testing platform in **Gantry5**.
+This chapter includes information related to **Gantry Prime** development and testing platform in **Gantry 5**.
