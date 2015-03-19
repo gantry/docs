@@ -73,6 +73,8 @@ form:
 
 This YAML is made up of two main parts. First, the head of the file which sets the **Name**, **Description**, and **Type**. The **Name** is what appears in the administrator as the title of the Particle in the **Settings** and **Layout Manager** panels. The **Type** being **Particle** tells Gantry that this YAML file is being used to create a **Particle**.
 
+>>>>> The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Positions** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
+
 ![Particle](particle_2.png) {.border .shadow}
 
 The second section sets the forms/fields that appear in the administrator, as well as the default settings. These fields are what appear in the administrator and are accessible to your site managers. They give them the ability to do things like set custom text, titles, and toggle settings.
