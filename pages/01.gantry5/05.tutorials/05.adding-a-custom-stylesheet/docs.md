@@ -3,10 +3,35 @@ title: Adding a Custom Stylesheet
 taxonomy:
     category: docs
     tag: [gantry5]
+gravui:
+    enabled: true
+    tabs: true
+process:
+    twig: true
 ---
+
+Adding a custom stylesheet is a fairly straightforward process. The first thing you should do is create the custom SCSS/CSS file. You can do so in just about any text editor.
 
 ![Custom File](custom.png) {.border .shadow}
 
-Adding a custom stylesheet is a fairly straightforward process. You just need to navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. This file will then be compiled as an override to the theme's core stylesheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
+{% set tab1 %}
+
+To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If it already does, just open it and make your additions/changes directly to the file.
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+This file will then be compiled as an override to the theme's core stylesheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
 
 You can format the file's content in either **SCSS** or **CSS**. Gantry will automatically pick it up and compile it properly.
+
+![Recompile CSS](custom_2.png) {.border .shadow}
+
+Once you have added this file, and put your custom CSS/SCSS within, you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the layouts you wish to have the custom styling apply for. 
+
+This will tell Gantry to take the new styling and apply it to the page(s). Once you have done this, you should be able to see your changes on the front end.
