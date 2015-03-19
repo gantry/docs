@@ -1,5 +1,5 @@
 ---
-title: Position
+title: Module Positions
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -10,9 +10,7 @@ process:
     twig: true
 ---
 
-![Position](positions.png)
-
-A **Position** particle plays an important role in the layout of a page. Each position Particle represents a position where widgets can be assigned.
+A **Module Positions** particle plays an important role in the layout of a page. Each position Particle represents a position where widgets can be assigned.
 
 Instead of breaking out your text editor to rename and/or create widget positions, you can do so with a few clicks of the mouse. This is also easier than going through the widgets and reassigning them to the new positions scheme one-by-one.
 
@@ -23,7 +21,7 @@ Creating, Deleting, and Moving Positions
 
 ![Positions](positions_6.png)
 
-If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Position Particle** and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign widgets to in order to have them appear in the position.
+If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Positions Particle** and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign widgets to in order to have them appear in the position.
 
 {% set tab1 %}
 
@@ -37,22 +35,7 @@ If you are migrating from an existing template, and you have widgets that have a
 Coming Soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Deleting a position is just as easy as creating one. Just drag-and-drop the position to the top of the **Layout Manager** to a section that appears with the label **Drop Here** to **Delete**. This will delete the position. If you change your mind, just click the **Back** arrow in the **History** tool to bring it back.
 
@@ -88,22 +71,7 @@ This frees you from standardized naming conventions that can be needlessly compl
 Coming Soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Spacers
 -----
@@ -135,19 +103,4 @@ There are two different sets of settings for a **Position**. The first is in the
 Coming Soon...
 
 {% endset %}
-{% set tab3 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab4 %}
-
-Coming Soon...
-
-{% endset %}
-{% set tab5 %}
-
-Coming Soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2, 'phpBB':tab3, 'Magento':tab4, 'Grav':tab5}) }}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

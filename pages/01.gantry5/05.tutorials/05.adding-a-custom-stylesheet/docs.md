@@ -5,32 +5,8 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Adding a Custom Stylesheet
-==========================
+![Custom File](custom.png) {.border .shadow}
 
+Adding a custom stylesheet is a fairly straightforward process. You just need to navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. This file will then be compiled as an override to the theme's core stylesheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
 
-Custom Stylesheet with CSS
---------------------------
-
-
-Step 1: Adding Your Custom CSS File
------------------------------------
-
-
-
-Step 2: Adding Your Custom Rules and Properties
------------------------------------------------
-
-
-
-Example 1: Override Existing Rules
-----------------------------------
-
-
-
-Example 2: Per-Browser Specific Custom Stylesheet
--------------------------------------------------
-
-
-Custom Stylesheet with LESS
----------------------------
+You can format the file's content in either **SCSS** or **CSS**. Gantry will automatically pick it up and compile it properly.

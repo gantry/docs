@@ -15,7 +15,7 @@ The **To Top** particle makes it easy to create and place a component on the fro
 Settings
 -----
 
-![Settings](totop_settings.png)
+![Settings](totop_settings.png) {.border .shadow}
 
 | Setting |             Description             |
 | :------ | :---------------------------------- |

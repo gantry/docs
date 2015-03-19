@@ -19,14 +19,14 @@ Atoms can be assigned in the **Layout Manager** using a special line set up for 
 Google Analytics
 -----
 
-![Google Analytics](analytics_settings.png)
+![Google Analytics](analytics_settings.png) {.border .shadow}
 
 The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
 
 Custom CSS / JS
 -----
 
-![Custom CSS / JS](custom_settings.png)
+![Custom CSS / JS](custom_settings.png) {.border .shadow}
 
 
 
