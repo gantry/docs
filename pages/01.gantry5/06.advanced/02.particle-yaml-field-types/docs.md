@@ -129,22 +129,22 @@ Using the `select.date` field type is very similar. The difference here is that 
 
 ```yaml
 date.formats:
-      type: select.date
-      label: Target
-      description: Select preferred date format.
-      default: l, F d, Y
-      placeholder: 'Select...'
-      selectize:
-          allowEmptyOption: true
-      options:
-          '': None
-          'l, F d, Y': Date1
-          'F d': Date2
-          'd M': Date3
-          'D, M d, Y': Date4
-          'D, M d, y': Date5
-          'l': Date6
-          'l j F Y': Date7
+      type: select.date
+      label: Target
+      description: Select preferred date format.
+      default: l, F d, Y
+      placeholder: 'Select...'
+      selectize:
+        allowEmptyOption: true
+      options:
+        '': None
+        'l, F d, Y': Date1
+        'F d': Date2
+        'd M': Date3
+        'D, M d, Y': Date4
+        'D, M d, y': Date5
+        'l': Date6
+        'l j F Y': Date7
 ```
 
 Below is how these YAML settings appear in the Gantry 5 administrator.
