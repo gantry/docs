@@ -1,11 +1,12 @@
 ---
-title: Upgrading
+title: Updating
 taxonomy:
     category: docs
     tag: [gantry5]
 gravui:
     enabled: true
     tabs: true
+    callouts: true
 process:
     twig: true
 ---
@@ -14,13 +15,26 @@ process:
 
 There are several parts to Gantry: The library, component, plugin, and template -- and each have a similar upgrading process.
 
-There are two methods of upgrading the Gantry Library. You can either do so via the Joomla Updater, or through an overriding reinstall. The first is the simplest and recommended method. Go to **Extensions → Extensions Manager → Update**, select **Find Updates** to load all available updates, if they are not already shown. Then, select Gantry and click **Update**.. Gantry will now be updated directly from the Web.
+{% set callout_items %}
+Gantry 5 Templates [75%, 8%, se]
+    : Select this item to go directly to the Gantry 5 Administrator.
 
-![](update_j.png) {.border .shadow}
+Gantry 5 - Update Now! [82%, 8%, se]
+    : Select this item to go to the Extensions Manager's Update page where you can quickly update Gantry extensions and templates.
 
-The alternative method is actually identical to installing Gantry in the first place, and necessary for upgrading the Gantry template. You would just need to download the latest Gantry files, and install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button and locate the downloaded ZIP and click **Upload & Install** to begin the update. There is no need to uninstall first as the files will be updated during the installation process.
+{% endset %}
 
-![](reinstall_j.jpg) {.border .shadow}
+{{ gravui_callout(page.media['gantry_update_1.png'].url, callout_items, 'shadow border') }}
+
+There are multiple methods to check for new updates, the first of which is available from the **Control Panel** in the Joomla administrator. Under the **Maintenance** section, the term `Gantry5 - Update now!` will appear, indicating that updates are available. Clicking this line will take you to the **Extension Manager's** Update page where you will see a filtered list of Gantry extensions that are available to update.
+
+You can also navigate to **Extensions → Extensions Manager → Update**, select **Find Updates** to load all available updates, if they are not already shown. You can then select Gantry and any Gantry-powered templates listed here and click **Update**. Gantry will now be updated directly from the Web.
+
+![Gantry Update](update_j.png) {.border .shadow}
+
+Another method of updating is similar to the process of installing Gantry in the first place. You would just need to download the latest Gantry files, and install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button and locate the downloaded ZIP and click **Upload & Install** to begin the update. There is no need to uninstall first as the files will be updated during the installation process. We don't recommend this method first if you have the more standard method available to you, but it will work.
+
+![Gantry Update](reinstall_j.jpg) {.border .shadow}
 
 You can check to see if the correct Gantry version has been installed by going to **Extensions → Extensions Manager → Manage**, and searching for Gantry. The version number will appear in the table.
 

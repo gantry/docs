@@ -43,7 +43,7 @@ Set up and configure page layouts with Gantry 5's new Layout Manager. Featuring 
 
 #### No Programming Experience Necessary
 
-Adding and moving positions, resizing blocks, and more can be done with drag-and-drop simplicity in the new, powerful Layout Manager. Error pages and other areas of site design are also easily handled in Gantry 5's administrative interface. You can change almost any aspect of a theme without breaking out a single text editor.
+Adding and moving positions, resizing blocks, and more can be done with drag-and-drop simplicity in the new, powerful Layout Manager. Error pages and other areas of site design are also easily handled in Gantry 5's administrative interface. You can change almost any aspect of a theme without breaking out a single editor.
 
 #### Powerful Menu Editor
 

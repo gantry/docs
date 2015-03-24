@@ -11,7 +11,7 @@ Welcome to the Gantry 5 beta! We are excited that you have made the choice to ta
 
 ## About the Beta
 
-Gantry 5's initial beta focuses on **Joomla**. This was done in order to allow us to work on any issues that arise with a single CMS first before adding additional CMS support. We plan to have a beta rollout for WordPress, and possibly other platforms as development continues.
+Gantry 5's initial beta focuses on **Joomla**. This was done in order to allow us to work on any issues that arise with a single CMS first before adding additional CMS support. We plan to have a beta rollout for WordPress, and possibly other platforms in the future.
 
 We have added as many features as possible into the beta, and plan to add more as development continues. You might notice several big differences between the beta and what we have covered in the [RocketTheme Blog](http://rockettheme.com/blog). We have temporarily removed several features, including the import/export functionality in the **Layout Manager** as these are still in early stages of development.
 

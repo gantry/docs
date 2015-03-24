@@ -12,8 +12,7 @@ process:
 
 There are two main parts to Gantry -- the framework and the template. Therefore, there are two main parts to the uninstallation process. If you intend to uninstall only the template portion, then follow the instructions for removing the template only. Keeping the Gantry library installed really does not cause any harm or reduced performance as it is only used by a Gantry-enabled template. If you wish to uninstall the library, you can follow those steps.
 
-Unsetting the Gantry Template as Default
-----------------------------------------
+## Unsetting the Gantry Template as Default
 
 {% set tab1 %}
 
@@ -27,8 +26,7 @@ To uninstall the gantry theme, you will first have to ensure that it's not activ
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-Uninstall Gantry
-----------------
+## Uninstall Gantry
 
 {% set tab1 %}
 

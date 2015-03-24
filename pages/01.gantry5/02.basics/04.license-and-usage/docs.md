@@ -10,7 +10,7 @@ Please make sure you have read and understand the license and usage requirements
 License
 -----
 
-Gantry Framework v5.0 or later is licensed under a dual license system ([MIT](http://www.opensource.org/licenses/mit-license.php) or [GPL version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)). This means you are free to choose which license (MIT or GPL version 2) is appropriate for your needs.
+Gantry Framework v5.0 or later is licensed under a dual license system ([MIT](http://www.opensource.org/licenses/mit-license.php) or [GPL version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)). This means you are free to choose which license (MIT or GPL version 2 or later) is appropriate for your needs.
 
 ### MIT License
 
@@ -49,7 +49,7 @@ Here is more information about the MIT license, according to [Wikipedia](http://
 
 >>> The MIT License is a free software license originating at the Massachusetts Institute of Technology (MIT). It is a permissive free software license, meaning that it permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice. Such proprietary software retains its proprietary nature even though it incorporates software under the MIT License. The license is also GPL-compatible, meaning that the GPL permits combination and redistribution with software that uses the MIT License.
 
-### GPLv2.0 or Later
+### GPL version 2 or Later
 
 The terms of the [GPLv2.0 license](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) are as follows:
 

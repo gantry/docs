@@ -10,8 +10,6 @@ process:
     twig: true
 ---
 
-![Social](social.png) {.border .shadow}
-
 The **Social** particle makes it easy to create and place a component on the frontend that add social elements to your pages. This particle can each be placed anywhere on the page to enable visitors to simply find and subscribe to your site's associated social media pages.
 
 Settings

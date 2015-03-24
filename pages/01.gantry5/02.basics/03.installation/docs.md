@@ -48,16 +48,19 @@ If you don't have WordPress installed on your server yet, you can use the **Rock
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-Installing Gantry
------------------
+## Installing the Gantry Framework
 
 {% set tab1 %}
 
-Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
+Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v5.0.0.zip`) by navigating to **Extensions → Extensions Manager → Install** and selecting the **Choose File** button. Locate the downloaded ZIP and click **Upload & Install** to begin the installation process.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}
 
-The Gantry template will appear in the **Template Manager**, the Gantry plugins will appear in the **Plugin Manager**, and RokNavMenu will be available from the **Module Manager** (Click **New** to create a new instant of RokNavMenu). The component/library will be hidden, and only accessible from the **Extensions Manager** for uninstallation/upgrading purposes.
+After installing the Gantry Framework package, all of the Gantry extensions will appear in the **Extensions Manager**.
+
+![Extensions](gantry_extensions.png) {.border .shadow}
+
+You will need to select all of them, and activate them by selecting the **Enable** button in the upper-left area of the **Extensions Manager**.
 
 {% endset %}
 {% set tab2 %}
@@ -73,8 +76,25 @@ The Gantry template will appear in **Themes**, the Gantry plugins will appear in
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-Setting the Gantry Template as Default
---------------------------------------
+## Installing a Gantry Template
+
+{% set tab1 %}
+
+Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
+
+![Installation](install-template_joomla.jpeg) {.border .shadow}
+
+The Gantry template will appear in the **Template Manager**, and all Gantry extensions will appear in the **Extensions Manager**.
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+## Setting a Gantry Template as Default
 
 {% set tab1 %}
 

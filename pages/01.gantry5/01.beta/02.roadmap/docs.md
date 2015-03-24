@@ -16,7 +16,6 @@ Beta 1 (Current Phase)
 | :-----                       | :----                                                                                                           | :-----:                                               |
 | Collections                  | Implement Collections including Hidden JSON field                                                               | <span style="color:green" class="fa fa-check"></span> |
 |                              | Parent Recognition when Editing Single Item                                                                     | <span style="color:green" class="fa fa-check"></span> |
-|                              | Implement Validations as it is in Layout Manager                                                                | <span style="color:green" class="fa fa-check"></span> |
 |                              | Make Content Savable Regardless of State                                                                        | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Form Fields with Values from POST Rather Than the Ones Saved                                             | <span style="color:green" class="fa fa-check"></span> |
 | Presets                      | Preset Images Loading                                                                                           | <span style="color:green" class="fa fa-check"></span> |
@@ -30,9 +29,9 @@ Beta 1 (Current Phase)
 | Updater                      | Hook Up Update Button in Joomla                                                                                 | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Button Implemented in Hydrogen Theme                                                                     | <span style="color:green" class="fa fa-check"></span> |
 | Language                     | Integrate Language Support Translations for Joomla                                                              | <span style="color:green" class="fa fa-check"></span> |
-|                              | Twig support                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|                              | Translations Support in Twig                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Hydrogen                     | Complete the Hydrogen Home Page, Serving as a Starting Point for Beta Testing                                   | <span style="color:green" class="fa fa-check"></span> |
-| Menu                         | Refine menu items settings to match what Gantry 5 will require, and what the user would need.                   | <span style="color:green" class="fa fa-check"></span> |
+| Menu                         | Refine Menu Item Settings to Meet Gantry 5 and User Requirements.                                               | <span style="color:green" class="fa fa-check"></span> |
 |                              | Rework the front-end menu JS                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Menu Structure to Following New Configuration Options                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Builder                      | Create a Builder for Gantry to Generate Packages for Platforms                                                  | <span style="color:green" class="fa fa-check"></span> |
@@ -45,23 +44,24 @@ Beta 1 (Current Phase)
 Beta 2
 -----
 
-| Category                            | Milestone                                                                                          | Completed |
-| :-----                              | :----                                                                                              | :-----:   |
-| Configurations Page                 | Enable configuration management within Gantry admin (admin, add, delete, rename, copy)             |           |
-| Menu Editor Particle/Module Support | Drag-and-drop support of Particle and Modules from Menu Editor and Deletion Capability             |           |
-| Layout Manager                      | Ratio grid calculations for adding/removing particle from grid                                     |           |
-| Dev/Prod                            | Hook up Dev and Prod Toggler                                                                       |           |
-| Performance Optimization            | Caching                                                                                            |           |
-| Menu                                | Base path should be a dropdown listing the menu items based on the Menu Type picked                |           |
-|                                     | Start Level should be dropdowns with the proper min/max limit                                      |           |
-| Security Spoofing                   | Protect admin actions                                                                              |           |
-| Style Management                    | Change styles from frontend by session/cookies (ala Gantry 4)                                      |           |
-| Revert to Default                   | Ability to reset a Configuration parameter to the main default value                               |           |
-| Language                            | Implement Language Support Across Joomla                                                           |           |
-| File Picker                         | Implement Improved Streams with Merged Folders/Files                                               |           |
-|                                     | Add Ability to Remove Uploaded Files                                                               |           |
-| HTML/Markdown Field and Particle    | Field that Inherits from textarea and adds HTML editor plus Markdown Editor - With a Live Preview  |           |
-|                                     | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) -  With a Live Preview |           |
+| Category                            | Milestone                                                                                         | Completed |
+| :-----                              | :----                                                                                             | :-----:   |
+| Configurations Page                 | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)    |           |
+| Menu Editor Particle/Module Support | Drag-and-drop Support of Particles and Modules from Menu Editor                                   |           |
+|                                     | Deletion Capability                                                                               |           |
+| Layout Manager                      | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
+| Dev/Prod                            | Hook up Dev and Prod Switch                                                                       |           |
+| Performance Optimization            | Caching                                                                                           |           |
+| Menu                                | Change Base Dropdown Listing so Menu Items are Based on the Menu Type Picked                      |           |
+|                                     | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
+| Security                            | Security Review                                                                                   |           |
+| Style Management                    | Change Styles from Front End by Session/Cookies                                                    |           |
+| Revert to Default                   | Ability to Reset a Configuration Parameter to the Main Default Value                              |           |
+| Language                            | Implement Language Support Across Joomla                                                          |           |
+| File Picker                         | Implement Improved Streams with Merged Folders/Files                                              |           |
+|                                     | Add Ability to Remove Uploaded Files                                                              |           |
+| HTML/Markdown Field and Particle    | Field that Inherits from textarea and Adds HTML editor plus Markdown Editor - With a Live Preview |           |
+|                                     | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) - With a Live Preview |           |
 
 
 Beta X
@@ -74,9 +74,9 @@ Beta X
 Release Candidate
 -----
 
-| Category      | Milestone                                                                                | Completed |
-| :-----        | :----                                                                                    | :-----:   |
-| Import/Export | Ability to Import/Export data across the whole admin setup (Layout, Menu, Settings, etc) |           |
-| Site and Docs | New Gantry website with Docs restyled accordingly                                        |           |
-| Builder       | We need a builder for Gantry to generate packages for platforms                          |           |
+| Category      | Milestone                                                                                      | Completed |
+| :-----        | :----                                                                                          | :-----:   |
+| Import/Export | Ability to Import/Export Data Across Entire Administrative Setup (Layout, Menu, Settings, etc) |           |
+| Site and Docs | New Gantry Website with Documentation                                                          |           |
+| Builder       | Create a Builder for Gantry to Generate Packages for Various Platforms                         |           |
 
