@@ -179,4 +179,28 @@ hr {
     a.anchor-link:hover { color: $core-accent; }
 }
 
+// License
+.license {
+    max-height: 400px;
+    background: lighten($pre-bg, 1%);
+    border: 1px solid darken($pre-bg, 2%);
+    border-radius: 2px;
+    padding: 0.1rem 1rem;
+    overflow-y: scroll;
+    margin: 3rem 0;
+
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.15rem;
+    }
+}
+
 

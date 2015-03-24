@@ -110,7 +110,6 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   width: 300px;
   bottom: 0;
   left: 0;
-  z-index: 200;
   font-weight: 500;
   font-size: 15px;
   overflow-y: auto; }
@@ -441,6 +440,23 @@ hr {
 #body a.anchor-link:hover {
   color: #4D9C86; }
 
+.license {
+  max-height: 400px;
+  background: #f9f9f9;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+  padding: 0.1rem 1rem;
+  overflow-y: scroll;
+  margin: 3rem 0; }
+  .license h1 {
+    font-size: 1.8rem; }
+  .license h2 {
+    font-size: 1.5rem; }
+  .license h3 {
+    font-size: 1.3rem; }
+  .license h4 {
+    font-size: 1.15rem; }
+
 table {
   border: 1px solid #eaeaea;
   table-layout: auto; }
@@ -533,6 +549,9 @@ td {
 
 #github-contrib i {
   vertical-align: middle; }
+
+.featherlight img {
+  margin: 0 !important; }
 
 .lifecycle #body-inner ul {
   list-style: none;
