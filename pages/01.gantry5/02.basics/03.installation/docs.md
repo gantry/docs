@@ -6,6 +6,7 @@ taxonomy:
 gravui:
     enabled: true
     tabs: true
+    callouts: true
 process:
     twig: true
 ---
@@ -25,7 +26,7 @@ Gantry has three available download types:
 
 The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
 
-[Download](http://www.gantry-framework.org/download#joomla)
+<a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
 
 {% endset %}
 {% set tab2 %}
@@ -42,7 +43,7 @@ The package you choose to install makes a difference in terms of where you'll be
 
 If you don't have WordPress installed on your server yet, you can use the **RocketLauncher** package. It contains the full pre-configured Gantry environment, and is essentially a complete WordPress installation. Choose whichever download option is best for you. We recommend the **RocketLauncher** for first-time WordPress installations.
 
-[Download](http://www.gantry-framework.org/download#wordpress)
+<a href="http://www.gantry-framework.org/download#wordpress" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
