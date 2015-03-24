@@ -18,7 +18,7 @@ pages:
 cache:
   enabled: true
   check:
-    method: folder
+    method: file
   driver: auto
   prefix: 'g'
 
