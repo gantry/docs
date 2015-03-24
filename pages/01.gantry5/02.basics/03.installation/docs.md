@@ -60,7 +60,13 @@ After installing the Gantry Framework package, all of the Gantry extensions will
 
 ![Extensions](gantry_extensions.png) {.border .shadow}
 
-You will need to select all of them, and activate them by selecting the **Enable** button in the upper-left area of the **Extensions Manager**.
+If you are having any issues, including the following error messages:
+
+* `Failed to load 'g5_hydrogen' template: Please install Gantry5 Framework!` 
+* `Error - Please install Gantry5 Framework!`
+* `Error - Gantry5 Templates: Please enable 'System - Gantry5 Framework' plugin!`
+
+You will want to make sure that all of Gantry's associated extensions are enabled. To do so, simply select any non-enabled extensions listed in the image above, and activate them by selecting the **Enable** button in the upper-left area of the **Extensions Manager**.
 
 {% endset %}
 {% set tab2 %}
@@ -100,7 +106,7 @@ Coming soon...
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
 
-![](install-upload_joomla.jpeg)
+![](gantry_default.png) {.border .shadow}
 
 {% endset %}
 {% set tab2 %}
@@ -109,7 +115,7 @@ If you are using the Gantry template, you will want to set it as the default tem
 
 If you are using the Gantry framework, you'll want to use a Gantry-compatible template. After uploading your template, simply go to the **Appearance → Themes** area in the admin area of WordPress and click **Activate** next to your template.
 
-![](install-template_wp.jpg)
+![](install-template_wp.jpg) {.border .shadow}
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
