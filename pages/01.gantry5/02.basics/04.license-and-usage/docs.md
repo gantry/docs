@@ -20,23 +20,11 @@ The terms of the [MIT license](http://www.opensource.org/licenses/mit-license.ph
 > 
 > Copyright © 2015 RocketTheme, LLC.
 > 
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-> of this software and associated documentation files (the "Software"), to deal
-> in the Software without restriction, including without limitation the rights
-> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-> copies of the Software, and to permit persons to whom the Software is
-> furnished to do so, subject to the following conditions:
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 > 
-> The above copyright notice and this permission notice shall be included in
-> all copies or substantial portions of the Software.
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 > 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-> THE SOFTWARE.
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Here is more information about the MIT license, according to [Wikipedia](http://en.wikipedia.org/wiki/MIT_License):
 
@@ -104,130 +92,37 @@ The terms of the [GPLv2.0 license](http://www.gnu.org/licenses/old-licenses/gpl-
 >  
 > c) Accompany it with the information you received as to the offer to distribute corresponding source code.  (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
 >  
-> The source code for a work means the preferred form of the work for
-> making modifications to it.  For an executable work, complete source
-> code means all the source code for all modules it contains, plus any
-> associated interface definition files, plus the scripts used to
-> control compilation and installation of the executable.  However, as a
-> special exception, the source code distributed need not include
-> anything that is normally distributed (in either source or binary
-> form) with the major components (compiler, kernel, and so on) of the
-> operating system on which the executable runs, unless that component
-> itself accompanies the executable.
+> The source code for a work means the preferred form of the work for making modifications to it.  For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable.  However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
 >  
-> If distribution of executable or object code is made by offering
-> access to copy from a designated place, then offering equivalent
-> access to copy the source code from the same place counts as
-> distribution of the source code, even though third parties are not
-> compelled to copy the source along with the object code.
+> If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
 >  
-> 4. You may not copy, modify, sublicense, or distribute the Program
-> except as expressly provided under this License.  Any attempt
-> otherwise to copy, modify, sublicense or distribute the Program is
-> void, and will automatically terminate your rights under this License.
-> However, parties who have received copies, or rights, from you under
-> this License will not have their licenses terminated so long as such
-> parties remain in full compliance.
+> 4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License.  Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
 >  
-> 5. You are not required to accept this License, since you have not
-> signed it.  However, nothing else grants you permission to modify or
-> distribute the Program or its derivative works.  These actions are
-> prohibited by law if you do not accept this License.  Therefore, by
-> modifying or distributing the Program (or any work based on the
-> Program), you indicate your acceptance of this License to do so, and
-> all its terms and conditions for copying, distributing or modifying
-> the Program or works based on it.
+> 5. You are not required to accept this License, since you have not signed it.  However, nothing else grants you permission to modify or distribute the Program or its derivative works.  These actions are prohibited by law if you do not accept this License.  Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
 >  
-> 6. Each time you redistribute the Program (or any work based on the
-> Program), the recipient automatically receives a license from the
-> original licensor to copy, distribute or modify the Program subject to
-> these terms and conditions.  You may not impose any further
-> restrictions on the recipients' exercise of the rights granted herein.
-> You are not responsible for enforcing compliance by third parties to
-> this License.
+> 6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions.  You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
 >  
-> 7. If, as a consequence of a court judgment or allegation of patent
-> infringement or for any other reason (not limited to patent issues),
-> conditions are imposed on you (whether by court order, agreement or
-> otherwise) that contradict the conditions of this License, they do not
-> excuse you from the conditions of this License.  If you cannot
-> distribute so as to satisfy simultaneously your obligations under this
-> License and any other pertinent obligations, then as a consequence you
-> may not distribute the Program at all.  For example, if a patent
-> license would not permit royalty-free redistribution of the Program by
-> all those who receive copies directly or indirectly through you, then
-> the only way you could satisfy both it and this License would be to
-> refrain entirely from distribution of the Program.
+> 7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License.  If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all.  For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
 >  
-> If any portion of this section is held invalid or unenforceable under
-> any particular circumstance, the balance of the section is intended to
-> apply and the section as a whole is intended to apply in other
-> circumstances.
+> If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
 >  
-> It is not the purpose of this section to induce you to infringe any
-> patents or other property right claims or to contest validity of any
-> such claims; this section has the sole purpose of protecting the
-> integrity of the free software distribution system, which is
-> implemented by public license practices.  Many people have made
-> generous contributions to the wide range of software distributed
-> through that system in reliance on consistent application of that
-> system; it is up to the author/donor to decide if he or she is willing
-> to distribute software through any other system and a licensee cannot
-> impose that choice.
+> It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices.  Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
 >  
-> This section is intended to make thoroughly clear what is believed to
-> be a consequence of the rest of this License.
+> This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
 >  
-> 8. If the distribution and/or use of the Program is restricted in
-> certain countries either by patents or by copyrighted interfaces, the
-> original copyright holder who places the Program under this License
-> may add an explicit geographical distribution limitation excluding
-> those countries, so that distribution is permitted only in or among
-> countries not thus excluded.  In such case, this License incorporates
-> the limitation as if written in the body of this License.
+> 8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded.  In such case, this License incorporates the limitation as if written in the body of this License.
 >  
-> 9. The Free Software Foundation may publish revised and/or new versions
-> of the General Public License from time to time.  Such new versions will
-> be similar in spirit to the present version, but may differ in detail to
-> address new problems or concerns.
+> 9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
 >  
-> Each version is given a distinguishing version number.  If the Program
-> specifies a version number of this License which applies to it and "any
-> later version", you have the option of following the terms and conditions
-> either of that version or of any later version published by the Free
-> Software Foundation.  If the Program does not specify a version number of
-> this License, you may choose any version ever published by the Free Software
-> Foundation.
+> Each version is given a distinguishing version number.  If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation.  If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
 >  
-> 10. If you wish to incorporate parts of the Program into other free
-> programs whose distribution conditions are different, write to the author
-> to ask for permission.  For software which is copyrighted by the Free
-> Software Foundation, write to the Free Software Foundation; we sometimes
-> make exceptions for this.  Our decision will be guided by the two goals
-> of preserving the free status of all derivatives of our free software and
-> of promoting the sharing and reuse of software generally.
+> 10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission.  For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this.  Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
 >  
 > NO WARRANTY
 >  
-> 11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
-> FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
-> OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
-> PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
-> OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-> MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
-> TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
-> PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
-> REPAIR OR CORRECTION.
+> 11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 >  
-> 12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-> WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
-> REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
-> INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
-> OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
-> TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
-> YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
-> PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
-> POSSIBILITY OF SUCH DAMAGES.
+> 12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 Here is more information about the GPLv2.0 license, according to [Wikipedia](http://en.wikipedia.org/wiki/GPL_License):
 
