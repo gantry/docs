@@ -16,6 +16,8 @@ There are two main parts to Gantry -- the framework and the template. Therefore,
 
 {% set tab1 %}
 
+![Setting Another Template as Default](uninstall_gantry_1.png) {.border .shadow}
+
 To uninstall the gantry template, you will first have to ensure that it is not set as the default template. Go to **Extensions → Template Manager**, select the checkbox to any other site template that is not gantry, and click **Default** in the button toolbar.
 
 {% endset %}
@@ -30,7 +32,9 @@ To uninstall the gantry theme, you will first have to ensure that it's not activ
 
 {% set tab1 %}
 
-Uninstall the Gantry component, library, plugin and template from **Extensions → Extensions Manager → Manage**. Insert **gantry** into the **Filter** and click **Search**. Select all Gantry elements you wish to uninstall, then click **Uninstall** in the button toolbar. Gantry will now be uninstalled.
+![Selecting All](../installation/gantry_extensions.png) {.border .shadow}
+
+Uninstall the Gantry component, library, plugin and template(s) from **Extensions → Extensions Manager → Manage**. Insert **gantry** into the **Filter** and click **Search**. Select all Gantry elements you wish to uninstall, then click **Uninstall** in the button toolbar. Gantry will now be uninstalled.
 
 {% endset %}
 {% set tab2 %}

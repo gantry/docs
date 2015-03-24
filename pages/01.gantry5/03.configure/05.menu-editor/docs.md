@@ -6,6 +6,7 @@ taxonomy:
 gravui:
     enabled: true
     tabs: true
+    callouts: true
 process:
     twig: true
 ---
@@ -66,7 +67,13 @@ In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** a
 Menu Item Types
 -----
 
-![Menu Item Types](menu_item_types.png) {.border .shadow}
+{% set callout_items %}
+Menu Item Types [27%, 38%, se]
+    : Indicated what type of menu item it is.
+
+{% endset %}
+
+{{ gravui_callout(page.media['menu_item_settings.png'].url, callout_items, 'shadow border') }}
 
 There are six types of menu items in the **Menu Editor**. Here is a breakdown of what five of these types are, and the role they play in the menu.
 

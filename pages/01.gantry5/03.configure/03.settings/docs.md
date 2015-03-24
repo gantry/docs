@@ -25,6 +25,15 @@ The **Save Settings** button applies any changes you have made to the **Settings
 
 When using an override Configuration, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated Configuration override. To revert this change back to its default setting, simply uncheck the checkbox.
 
+Particle Settings
+-----
+
+![Particle Settings](particlesettings.png) {.border .shadow}
+
+Particles are visual blocks that render where they have been assigned on the **Layout** administrative panel. This section of the **Settings** administrative panel enables you to set defaults which apply to the currently-selected Configuration. If you are using the default Configuration, these settings become the global default for those particles.
+
+These Particles can vary depending on the theme, but typically include things such as the Logo, Copyright, Menu, and Spacer.
+
 Atom Settings
 -----
 
@@ -34,11 +43,23 @@ Atoms are a lot like particles in that they are typically small, modular feature
 
 The **Atom Settings** area of the **Settings** administrative panel gives you the ability to quickly and easily manage and configure these atoms to meet your individual needs. For example, you could add your **UA Code** to the **Google Analytics** Atom which is then applied by default to Configurations you have placed the **Google Analytics** Atom in the **Layout** administrative panel for.
 
-Particle Settings
+Page Content
 -----
 
-![Particle Settings](particlesettings.png) {.border .shadow}
+![Page Content](page_content.png) {.border .shadow}
 
-Particles are visual blocks that render where they have been assigned on the **Layout** administrative panel. This section of the **Settings** administrative panel enables you to set defaults which apply to the currently-selected Configuration. If you are using the default Configuration, these settings become the global default for those particles.
+The **Page Content** setting area enables you to turn the Mainbody **on or off** for the Configuration. If you have the **Page Content** module already in place in the **Layout Manager** turning it off in the **Settings** administrative panel will disable it so it will not render on the front end.
 
-These Particles can vary depending on the theme, but typically include things such as the Logo, Copyright, Menu, and Spacer.
+Module Position
+-----
+
+![Module Position](module_position.png)
+
+The **Module Position** setting enables you to globally disable (or enable) module positions for the Configuration. Doing this when Module Position particles are in place will cause assigned modules not to appear the front end.
+
+Spacer
+-----
+
+![Spacer](spacer.png)
+
+The **Spacer** setting gives you the ability to globally disable (or enable) spacer Particles for the Configuration. Doing this when Spacer particles are in place will cause them not to affect the frontend.

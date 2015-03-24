@@ -111,11 +111,7 @@ If you are using the Gantry template, you will want to set it as the default tem
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
-
-If you are using the Gantry framework, you'll want to use a Gantry-compatible template. After uploading your template, simply go to the **Appearance → Themes** area in the admin area of WordPress and click **Activate** next to your template.
-
-![](install-template_wp.jpg) {.border .shadow}
+Coming soon...
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

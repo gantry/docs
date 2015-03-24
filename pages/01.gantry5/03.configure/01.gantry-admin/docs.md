@@ -18,9 +18,17 @@ You can reach the Gantry Admin by following these steps:
 
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled template is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
+![Control Panel Method](../../basics/installation/gantry_default.png) {.border .shadow}
+
 Once this is done, navigate to **Administrator > Extensions > Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
 
+![Control Panel Method](../../basics/updating/gantry_update_1.png) {.border .shadow}
+
 Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Templates** in the sidebar to the left under the **Extensions** section.
+
+![Components Method](admin_access_1.png) {.border .shadow}
+
+There is a third method, which is easily accomplished by navigating to **Components > Gantry 5 Templates** in the administration menu in the backend of Joomla.
 
 {% endset %}
 {% set tab2 %}
@@ -85,7 +93,7 @@ The **About** panel enables the theme developer to place information about the t
 
 ![Styles](styles.png) {.border .shadow}
 
-The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds.
+The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
 
 #### Settings
 

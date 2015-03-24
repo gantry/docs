@@ -22,7 +22,7 @@ Controls
 
 As you configure the commands in this panel, you may notice the **Recompile CSS** and **Save Styles** buttons at the top of the page. These buttons allow you to save your configuration Styles settings, as well as to recompile the CSS of the page so that you can preview your settings on an associated page.
 
-The **Recompile CSS** button compiles your adjusted settings to the CSS for the Configuration. This is a useful button if you are making changes to the Configuration's style and would like to check your work before locking in the changes and saving the Styles.
+<!-- The **Recompile CSS** button compiles your adjusted settings to the CSS for the Configuration. This is a useful button if you are making changes to the Configuration's style and would like to check your work before locking in the changes and saving the Styles. -->
 
 The **Save Styles** button saves your new style settings to the configuration and recompiles the CSS so that your changes appear on the frontend. If you select this button, you do not have to click **Recompile CSS** as this action is automatically performed.
 

@@ -44,7 +44,7 @@ As covered in the above section, the **Load** button gives you the opportunity t
 
 ## Clear
 
-The **Clear** button wipes out the Particles (including Positions, Standard Particles, and Atoms) from the **Layout Manager** and gives you a blank slate with just the **Sections** kept.
+The **Clear** button wipes out the Particles (including Positions, Standard Particles, and Atoms) from the **Layout Manager** and gives you a blank slate with just the [Sections](#sections) remaining.
 
 ### Save Layout
 
@@ -127,7 +127,7 @@ These are **Particle** level settings, which exist in every type of Block. They 
 | :------         | :----------------------------------                                                                          |
 | CSS ID          | Enables you to set an ID attribute.                                                                          |
 | CSS Classes     | This is where you would enter any CSS class you would like to have apply to the Block.                       |
-| Variations      | Enter theme-included variations for the block here.                                                          |
+| Variations      | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.              |
 | HTML Attributes | This field is where you would add any other HTML attributes to the Block.                                    |
 | Block Size      | This field gives you the ability to set a specific size (in percentage) the Block will take up horizontally. |
 
