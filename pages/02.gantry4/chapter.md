@@ -1,5 +1,5 @@
 ---
-title: Gantry4
+title: Gantry 4
 taxonomy:
     category: docs
     tag: [gantry4]
@@ -7,6 +7,6 @@ taxonomy:
 
 ### Version 4.2
 
-# Gantry4
+# Gantry 4
 
 Discover what **Gantry 4** is all about, and the core-concepts behind it.
