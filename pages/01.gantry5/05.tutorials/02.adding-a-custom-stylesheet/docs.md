@@ -18,6 +18,8 @@ Adding a custom stylesheet is a fairly straightforward process. The first thing 
 
 To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/css/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
+>>>> Joomla doesn't support creating SCSS files in its built-in template customization tool. For this reason, custom SCSS files would need to be added via FTP. This hurdle is being addressed during Gantry 5's beta.
+
 {% endset %}
 {% set tab2 %}
 
