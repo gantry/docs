@@ -54,14 +54,8 @@ Add the following to the custom SCSS file:
 ```css
 /* Adding Font BLOODY */
 
-@font-face {
-    font-family: 'BloodyNormal';
-    src: url('../fonts/BLOODY-webfont.eot');
-    src: url('../fonts/BLOODY-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BLOODY-webfont.woff') format('woff'),
-         url('../fonts/BLOODY-webfont.ttf') format('truetype'),
-         url('../fonts/BLOODY-webfont.svg#BloodyNormal') format('svg');
-}
+@import "vendor/bourbon/bourbon";
+@include font-face('BloodyNormal', 'gantry-theme://fonts/BLOODY-webfont');
 
 .font-family-bloody {
   font-family: 'BloodyNormal',Helvetica,Arial,sans-serif;
@@ -88,7 +82,7 @@ Once you have added the font to your theme's custom content directory, you can a
 {% verbatim %}
 
 ```twig
-{% if particle.headline %}<h1 style="font-family: BloodyNormal;">{{ particle.headline|raw }}</h1>{% endif %}
+{% if particle.headline %}<h1 class="font-family-bloody">{{ particle.headline|raw }}</h1>{% endif %}
 ```
 
 {% endverbatim %}
