@@ -20,13 +20,15 @@ Gantry has three available download types:
 
 {% set tab1 %}
 
-* **Bundle**: This includes the Framework (library, component & plugins), the Gantry template and associated extensions.
+* **Bundle**: This includes the Framework (library, component & plugins), the Hydrogen template and associated extensions.
 * **Framework**: This contains only the Framework (library, component & plugins).
-* **Template**: This contains just the Gantry template.
+* **Template**: This contains just the Hydrogen template.
 
 The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
 
 <a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
+
+>>> During the initial beta, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
 
 {% endset %}
 {% set tab2 %}
