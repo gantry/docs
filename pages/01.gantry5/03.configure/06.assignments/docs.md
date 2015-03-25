@@ -22,3 +22,5 @@ Settings
 The **Assignments** panel acts as a quick and easy on/off switchboard for assigning Configurations to Pages, Article Categories, etc. The assignment options that appear in this screen vary from CMS to CMS and even site to site, depending greatly on the types and availability of pages the Configuration can be assigned to.
 
 For a new website with only a home page, this may be the only available option until additional content is created.
+
+>>> Items in this page can exist in three different stages. They can be set to `On` which assigns the currently-selected Configuration to this item, `Off` which doesn't assign the current Configuration to the item, or an invalid state which can't be assigned as it isn't an assignable item. These items are typically non-assignable items such as aliases, external URLs, or text separators. Invalid items are marked with the <i class="fa fa-rocket"></i> icon.

@@ -16,7 +16,7 @@ Adding a custom stylesheet is a fairly straightforward process. The first thing 
 
 {% set tab1 %}
 
-To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If it already does, just open it and make your additions/changes directly to the file.
+To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/css/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
 {% endset %}
 {% set tab2 %}
