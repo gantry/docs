@@ -43,23 +43,19 @@ Atoms are a lot like particles in that they are typically small, modular feature
 
 The **Atom Settings** area of the **Settings** administrative panel gives you the ability to quickly and easily manage and configure these atoms to meet your individual needs. For example, you could add your **UA Code** to the **Google Analytics** Atom which is then applied by default to Configurations you have placed the **Google Analytics** Atom in the **Layout** administrative panel for.
 
-Page Content
+Position Settings
 -----
 
-![Page Content](page_content.png) {.border .shadow}
+![Position Settings](position_settings.png) {.border .shadow}
+
+### Spacer
+
+The **Spacer** setting gives you the ability to globally disable (or enable) spacer Particles for the Configuration. Doing this when Spacer particles are in place will cause them not to affect the frontend.
+
+### Page Content
 
 The **Page Content** setting area enables you to turn the Mainbody **on or off** for the Configuration. If you have the **Page Content** module already in place in the **Layout Manager** turning it off in the **Settings** administrative panel will disable it so it will not render on the front end.
 
-Module Position
------
-
-![Module Position](module_position.png)
+### Module Position
 
 The **Module Position** setting enables you to globally disable (or enable) module positions for the Configuration. Doing this when Module Position particles are in place will cause assigned modules not to appear the front end.
-
-Spacer
------
-
-![Spacer](spacer.png)
-
-The **Spacer** setting gives you the ability to globally disable (or enable) spacer Particles for the Configuration. Doing this when Spacer particles are in place will cause them not to affect the frontend.

@@ -16,7 +16,7 @@ Because Gantry 5 is so different from any version of Gantry before it, we came u
 
 A **Configuration** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Configuration.
 
-Each Configuration can have its own set of style, Particle, and layout settings and defaults. A Configuration can also be assigned to specific pages, such as the **Home** or **Contact** page, giving them a unique look that sits apart from the rest of your site.
+Each Configuration can have its own set of Style, Particle, and Layout settings. A Configuration can also be assigned to specific pages, such as the **Home** or **Contact** page, giving them a unique look that sits apart from the rest of your site.
 
 The **Base Configuration** acts as the global default by which all other Configurations are based. This Configuration can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Configurations.
 
@@ -49,3 +49,9 @@ An **Atom** is a type of **Particle** that does not render visually on the front
 An **Atom** can be placed in your page's layout using a special **Non-Visual Particles** section in the **Layout Manager** and can be created in very much the same way as any standard particle.
 
 <a href="../particles/particles#atoms" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
+
+### Position
+
+A **Position** in Gantry 5 can be a number of things. It is an umbrella term used to describe a variety of things including: module (Joomla) or widget (WordPress) positions, a page's main content body (**Page Content**), and **Spacers** used to create a space between **Particles** and/or **Positions**.
+
+<a href="../particles/particles#positions" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
