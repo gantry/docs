@@ -19,8 +19,9 @@ Settings
 
 ![Settings](logo_settings.png) {.border .shadow}
 
-| Setting | Description                                                            |
-| :-----  | :-----                                                                 |
-| URL     | Sets the URL the logo links to. If left blank, the home page is used.  |
-| Text    | Sets the text which appears along with, or instead of, the logo image. |
-| Image   | Sets the image that appears as the logo on the frontend.               |
+| Setting   | Description                                                            |
+| :-----    | :-----                                                                 |
+| URL       | Sets the URL the logo links to. If left blank, the home page is used.  |
+| Image     | Sets the image that appears as the logo on the frontend.               |
+| Text      | Sets the text which appears along with, or instead of, the logo image. |
+| CSS Class | Set a specific CSS class for custom styling                            |

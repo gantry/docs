@@ -63,6 +63,8 @@ This is a very quick and easy way to not only get a preview of what a block of t
 Adding the Font Picker to Your Site
 -----
 
+![Font Picker Fields](font_selector_field.png) {.border .shadow}
+
 The Font Picker is a Gantry 5 input. If you want to add it to your template or particle, you would do so by assigning the administrative input as `input.fonts` in the Particle's YAML file. 
 
 Here is an example of how this would look in the YAML file.
