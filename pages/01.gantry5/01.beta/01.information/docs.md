@@ -31,6 +31,6 @@ We highly recommend pulling the latest build before testing as changes are conti
 
 ## Where to Get Help
 
-A chatroom has been set up using [Gitter](https://gitter.im/) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
+A chatroom has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
 [Documentation](http://docs.gantry.org) is also available, and being continually added to as development progresses. Is something missing? You can contribute to the documentation through GitHub.

@@ -23,7 +23,7 @@ Gantry 5 is a framework by which Gantry-powered themes are made. In order for a 
 
 The first thing you need to do is download the latest build of Gantry 5 and Hydrogen. You can do so by clicking the buttons below, or via [GitHub](http://github.com).
 
-<div align="center"><a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
+<div align="center"><a href="https://github.com/gantry/gantry5/releases/tag/5.0.0-beta.1" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
 
 >>> During the initial beta, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
 
@@ -114,6 +114,6 @@ Because Gantry 5 is so different from any version of Gantry before it, we came u
 
 ## Where to Get Help
 
-A chatroom has been set up using [Gitter](https://gitter.im/) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
+A chatroom has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
 [Documentation](http://docs.gantry.org) is also available, and being continually added to as development progresses. Is something missing? You can contribute to the documentation through GitHub.
