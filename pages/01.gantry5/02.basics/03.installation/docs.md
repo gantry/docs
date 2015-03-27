@@ -26,7 +26,7 @@ Gantry has three available download types:
 
 The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
 
-<a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
+<div align="center"><a href="https://github.com/gantry/gantry5/releases/tag/5.0.0-beta.1" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="http://www.gantry-framework.org/download#joomla" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
 
 >>> During the initial beta, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
 
