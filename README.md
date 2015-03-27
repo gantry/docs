@@ -1,3 +1,5 @@
+[![Join the chat at https://gitter.im/gantry/gantry5](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gantry/gantry5?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Gantry Documentation
 
 This repository contains the source of the [Gantry](https://github.com/gantry/gantry5) documentation, currently accessible at [http://docs.gantry.org](http://docs.gantry.org).
