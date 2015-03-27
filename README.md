@@ -28,7 +28,7 @@ To get started with a local environment into the proper `staging` branch, you ca
 ~~~ .bash
 git clone git://github.com/gantry/docs gantry-docs
 cd gantry-docs
-git checkout -b staging origin/staging
+git checkout -b develop origin/develop
 ~~~
 
 
