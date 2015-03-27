@@ -1,6 +1,6 @@
 # Gantry Documentation
 
-This repository contains the source of the Gantry documentation, currently accessible at [http://docs.gantry.org](http://docs.gantry.org).
+This repository contains the source of the [Gantry](https://github.com/gantry/gantry5) documentation, currently accessible at [http://docs.gantry.org](http://docs.gantry.org).
 
 The documentation is contained in [Pages/](Pages) and is structured in folders (chapters), exactly as you see them on the main website. The entirety of the repo found here is intended to act as the `user/` folder in a [Grav](http://getgrav.org) install. This repo contains themes, configuration files, and settings that enable the documentation to be presented in the way they do on [the documentation site](http://docs.gantry.org).
 
