@@ -1,17 +1,15 @@
-title: Grav Documentation
+title: Gantry Documentation
 metadata:
-    description: 'Grav documentation'
+    description: 'Gantry Documentation'
 
 author:
-  name: Andy Miller
-  email: 'andy@getgrav.org'
+  name: RocketTheme
+  email: 'devs@gantry.org'
 
 taxonomies: [category,tag]
 summary:
   size: 300
 
-current_grav: 0.9.8
-
 github:
-  tree: https://github.com/getgrav/grav-learn/blob/develop/
-  commits: https://github.com/getgrav/grav-learn/commits/develop/
+  tree: https://github.com/gantry/docs/tree/develop
+  commits: https://github.com/gantry/docs/commits/develop/
