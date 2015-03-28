@@ -54,36 +54,36 @@ Here, you will see a list of any installed Gantry-powered themes. You can **Prev
 The Gantry Administrator has multiple administrative tools you can flip through to configure how your Gantry-powered theme looks and functions. Here is a quick breakdown of each of these tools, and what you can do with them.
 
 {% set callout_items %}
-Menu Editor [16%, 62%, se]
+Menu Editor [8%, 62%, se]
     : This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
 
-About (Pictured) [16%, 69%, se]
+About (Pictured) [8%, 69%, se]
     : This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
 
-Platform Settings [16%, 76%, se]
+Platform Settings [8%, 76%, se]
     : This button takes you to the CMS' settings page for Gantry 5. In Joomla, this is the **Permissions** configuration page.
 
-Clear Cache [16%, 88%, se]
+Clear Cache [8%, 88%, se]
     : This button clears the cache files related to Gantry. This includes all of the temporary files outside of CSS and configuration information.
 
-Configuration Dropdown [23%, 2%, se]
+Configuration Dropdown [17%, 2%, se]
     : This dropdown makes it easy to quickly switch between Configurations without having to leave the Gantry Administrator.
 
-Styles [23%, 23%, se]
+Styles [17%, 23%, se]
     : The **Styles** administrative panel gives you access to style related configuration settings. This includes things like theme colors, fonts, style presets, and more.
 
-Settings [23%, 31%, se]
+Settings [17%, 31%, se]
     : The **Settings** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
 
-Layout [23%, 39%, se]
+Layout [17%, 39%, se]
     : The **Layout** administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
 
 {% endset %}
 
 {{ gravui_callout(page.media['getting_started_1.png'].url, callout_items, 'shadow border') }}
 
-1. **Menu Editor**: This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.    
-    
+1. **Menu Editor**: This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
+
 2. **About (Pictured)**: This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
 
 3. **Platform Settings**: This button takes you to the CMS' settings page for Gantry 5. In Joomla, this is the **Permissions** configuration page.

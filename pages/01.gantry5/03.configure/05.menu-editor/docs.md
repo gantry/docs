@@ -60,7 +60,7 @@ Here is a breakdown of these settings, and a what they can do.
 
 Once you have set the settings as you prefer, simply select **Apply** to save the changes and close the pop-up.
 
-These settings expand on the capabilities of the CMS’ integrated menu system, enhancing them with additional functionality and customization options - but only in cases where the CMS does not already provide this feature and changing these options does not have an adverse affect on the menu's functionality. 
+These settings expand on the capabilities of the CMS’ integrated menu system, enhancing them with additional functionality and customization options - but only in cases where the CMS does not already provide this feature and changing these options does not have an adverse affect on the menu's functionality.
 
 In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** are provided by the CMS. Images can be as well, but overriding them in the Menu Editor is a visual change rather than a functional one, so you should be able to adjust this setting without issue.
 
@@ -68,7 +68,7 @@ Menu Item Types
 -----
 
 {% set callout_items %}
-Menu Item Types [27%, 38%, se]
+Menu Item Types [24%, 38%, se]
     : Indicated what type of menu item it is.
 
 {% endset %}

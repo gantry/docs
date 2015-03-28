@@ -21,22 +21,22 @@ Browsing Fonts
 -----
 
 {% set callout_items %}
-Test Text Field [10%, 1%, se]
+Test Text Field [3%, 1%, se]
     : Enter the text you would like to see in different fonts here.
 
-Search [10%, 83%, se]
+Search [3%, 83%, se]
     : Use this field to search for a font by name. The number in the upper-right corner of the field indicates how many matches there are to your current string.
 
-Font Browser [17%, 1%, se]
+Font Browser [10%, 1%, se]
     : Available fonts are listed in this area of the **Font Picker**. You can scroll down to see all of the different options, each displaying your test text in the associated font.
 
-Categories [85%, 1%, se]
+Categories [91%, 1%, se]
     : This setting enables you to filter fonts by category. This is a useful tool for refining your search by type of font, rather than scrolling through the entire library.
 
-Subsets [85%, 15%, se]
+Subsets [91%, 15%, se]
     : This setting gives you the ability to filter results by subset. For example, you could look for a font specifically in Latin characters.
 
-Select [85%, 86%, se]
+Select [91%, 86%, se]
     : Use the green **Select** button to lock in your font of choice (listed in the text directly to the left). To choose a font, simply select the checkbox in that font's listing in the font browser.
 
 {% endset %}
@@ -65,7 +65,7 @@ Adding the Font Picker to Your Site
 
 ![Font Picker Fields](font_selector_field.png) {.border .shadow}
 
-The Font Picker is a Gantry 5 input. If you want to add it to your template or particle, you would do so by assigning the administrative input as `input.fonts` in the Particle's YAML file. 
+The Font Picker is a Gantry 5 input. If you want to add it to your template or particle, you would do so by assigning the administrative input as `input.fonts` in the Particle's YAML file.
 
 Here is an example of how this would look in the YAML file.
 
