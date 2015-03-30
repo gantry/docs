@@ -18,3 +18,14 @@ a {
 .default-animation {
     @include transition(all 0.5s ease);
 }
+
+
+#body {
+    .callouts {
+        margin: 3rem auto;
+
+        img, .video-container {
+            margin: auto;
+        }
+    }
+}

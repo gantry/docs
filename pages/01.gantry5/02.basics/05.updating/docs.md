@@ -16,10 +16,10 @@ process:
 There are several parts to Gantry: The library, component, plugin, and template -- and each have a similar upgrading process.
 
 {% set callout_items %}
-Gantry 5 Templates [75%, 8%, se]
+Gantry 5 Templates [78%, 8%, se]
     : Select this item to go directly to the Gantry 5 Administrator.
 
-Gantry 5 - Update Now! [82%, 8%, se]
+Gantry 5 - Update Now! [87%, 8%, se]
     : Select this item to go to the Extensions Manager's Update page where you can quickly update Gantry extensions and templates.
 
 {% endset %}
