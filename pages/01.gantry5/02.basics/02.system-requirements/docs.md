@@ -41,6 +41,7 @@ We try to ensure that Gantry templates (and specifically the Gantry Library) wil
     * Curl
     * OpenSSL Libraries
     * Multibyte String Support
+    * [Fileinfo](https://pecl.php.net/package/Fileinfo)
 
 ## Browser Requirements
 
