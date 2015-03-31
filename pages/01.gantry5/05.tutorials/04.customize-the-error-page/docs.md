@@ -1,5 +1,5 @@
 ---
-title: How to Customize the Error Page
+title: Customizing the Error Page
 taxonomy:
     category: docs
     tag: [gantry5]
