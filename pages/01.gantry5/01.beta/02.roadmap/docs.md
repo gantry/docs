@@ -9,7 +9,7 @@ Gantry 5's beta, launching initially for the Joomla platform, is a multi-phase p
 
 >>> This information is fluid and subject to change as we receive feedback from open beta participants and discover additional opportunities for improvement.
 
-Beta 1 (Current Phase)
+Beta 1
 -----
 
 | Category                     | Milestone                                                                                                       | Completed                                             |
@@ -40,8 +40,21 @@ Beta 1 (Current Phase)
 |                              | Document How People Should Contribute                                                                           | <span style="color:green" class="fa fa-check"></span> |
 | File Picker                  | Basic File Picker Functionality with Upload                                                                     | <span style="color:green" class="fa fa-check"></span> |
 
+Beta 2 (Current Phase)
+-----
 
-Beta 2
+**[Beta 2 Changelog](https://github.com/gantry/gantry5/compare/5.0.0-beta.1...develop)** 
+
+| Category     | Milestone                                                   | Completed                                             |
+| :-----       | :-----                                                      | :-----                                                |
+| jQuery       | Remove Built-in jQuery                                      | <span style="color:green" class="fa fa-check"></span> |
+| Fixes        | Miscellanious Bug Fixes from Reports by Beta Testers        | <span style="color:green" class="fa fa-check"></span> |
+| Image Picker | Add Support for SVG Files                                   | <span style="color:green" class="fa fa-check"></span> |
+| Hydrogen     | Add Additional Hydrogen Color Hookups for Bootstrap Classes | <span style="color:green" class="fa fa-check"></span> |
+|              | Updat Hydrogen Preset Images                                | <span style="color:green" class="fa fa-check"></span> |
+| Nucleus      | Add atom block type to nucleus                              | <span style="color:green" class="fa fa-check"></span> |
+
+Beta 3
 -----
 
 | Category                            | Milestone                                                                                         | Completed |
