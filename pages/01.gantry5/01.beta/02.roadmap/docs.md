@@ -43,16 +43,17 @@ Beta 1
 Beta 2 (Current Phase)
 -----
 
-| Category       | Milestone                                                                  | Completed                                             |
-| :-----         | :-----                                                                     | :-----                                                |
-| Optimization   | Set Joomla JS/CSS Assets to Not Load Where Not Required                    | <span style="color:green" class="fa fa-check"></span> |
-| Fixes          | Miscellaneous Bug Fixes from Reports by Beta Testers                       | <span style="color:green" class="fa fa-check"></span> |
-| Image Picker   | Add Support for SVG Files                                                  | <span style="color:green" class="fa fa-check"></span> |
-| Hydrogen       | Add Additional Hydrogen Color Hookups for Bootstrap Classes                | <span style="color:green" class="fa fa-check"></span> |
-|                | Update Hydrogen Preset Images                                              | <span style="color:green" class="fa fa-check"></span> |
-| Nucleus        | Add atom block type to nucleus                                             | <span style="color:green" class="fa fa-check"></span> |
-| KeyValue Field | Implement KeyValue Field for Things Like Tag Attributes, Meta Values, etc. | <span style="color:green" class="fa fa-check"></span> |
-|                | Updated Sections and Blocks to Use KeyValue Field                          | <span style="color:green" class="fa fa-check"></span> |
+| Category       | Milestone                                                                                                                               | Completed                                             |
+| :-----         | :-----                                                                                                                                  | :-----                                                |
+| Optimization   | Set Joomla JS/CSS Assets to Not Load Where Not Required                                                                                 | <span style="color:green" class="fa fa-check"></span> |
+| Fixes          | [Miscellaneous Bug Fixes from Reports by Beta Testers](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+2%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
+| Image Picker   | Add Support for SVG Files                                                                                                               | <span style="color:green" class="fa fa-check"></span> |
+| Hydrogen       | Add Additional Hydrogen Color Hookups for Bootstrap Classes                                                                             | <span style="color:green" class="fa fa-check"></span> |
+|                | Update Hydrogen Preset Images                                                                                                           | <span style="color:green" class="fa fa-check"></span> |
+| Nucleus        | Add atom block type to nucleus                                                                                                          | <span style="color:green" class="fa fa-check"></span> |
+| KeyValue Field | Implement KeyValue Field for Things Like Tag Attributes, Meta Values, etc.                                                              | <span style="color:green" class="fa fa-check"></span> |
+|                | Updated Sections and Blocks to Use KeyValue Field                                                                                       | <span style="color:green" class="fa fa-check"></span> |
+| PHP            | Removed `fileinfo` Dependency                                                                                                           | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.1/joomla-pkg_gantry5_v5.0.0-beta.1.zip" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
 
