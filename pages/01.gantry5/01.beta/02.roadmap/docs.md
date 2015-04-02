@@ -45,14 +45,16 @@ Beta 2 (Current Phase)
 
 **[Beta 2 Changelog](https://github.com/gantry/gantry5/compare/5.0.0-beta.1...develop)** 
 
-| Category     | Milestone                                                   | Completed                                             |
-| :-----       | :-----                                                      | :-----                                                |
-| jQuery       | Remove Built-in jQuery                                      | <span style="color:green" class="fa fa-check"></span> |
-| Fixes        | Miscellanious Bug Fixes from Reports by Beta Testers        | <span style="color:green" class="fa fa-check"></span> |
-| Image Picker | Add Support for SVG Files                                   | <span style="color:green" class="fa fa-check"></span> |
-| Hydrogen     | Add Additional Hydrogen Color Hookups for Bootstrap Classes | <span style="color:green" class="fa fa-check"></span> |
-|              | Updat Hydrogen Preset Images                                | <span style="color:green" class="fa fa-check"></span> |
-| Nucleus      | Add atom block type to nucleus                              | <span style="color:green" class="fa fa-check"></span> |
+| Category       | Milestone                                                                  | Completed                                             |
+| :-----         | :-----                                                                     | :-----                                                |
+| Optimization   | Set Joomla JS/CSS Assets to Not Load Where Not Required                    | <span style="color:green" class="fa fa-check"></span> |
+| Fixes          | Miscellaneous Bug Fixes from Reports by Beta Testers                       | <span style="color:green" class="fa fa-check"></span> |
+| Image Picker   | Add Support for SVG Files                                                  | <span style="color:green" class="fa fa-check"></span> |
+| Hydrogen       | Add Additional Hydrogen Color Hookups for Bootstrap Classes                | <span style="color:green" class="fa fa-check"></span> |
+|                | Update Hydrogen Preset Images                                              | <span style="color:green" class="fa fa-check"></span> |
+| Nucleus        | Add atom block type to nucleus                                             | <span style="color:green" class="fa fa-check"></span> |
+| KeyValue Field | Implement KeyValue Field for Things Like Tag Attributes, Meta Values, etc. | <span style="color:green" class="fa fa-check"></span> |
+|                | Updated Sections and Blocks to Use KeyValue Field                          | <span style="color:green" class="fa fa-check"></span> |
 
 Beta 3
 -----
