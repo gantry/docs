@@ -43,8 +43,6 @@ Beta 1
 Beta 2 (Current Phase)
 -----
 
-**[Beta 2 Changelog](https://github.com/gantry/gantry5/compare/5.0.0-beta.1...develop)** 
-
 | Category       | Milestone                                                                  | Completed                                             |
 | :-----         | :-----                                                                     | :-----                                                |
 | Optimization   | Set Joomla JS/CSS Assets to Not Load Where Not Required                    | <span style="color:green" class="fa fa-check"></span> |
@@ -55,6 +53,8 @@ Beta 2 (Current Phase)
 | Nucleus        | Add atom block type to nucleus                                             | <span style="color:green" class="fa fa-check"></span> |
 | KeyValue Field | Implement KeyValue Field for Things Like Tag Attributes, Meta Values, etc. | <span style="color:green" class="fa fa-check"></span> |
 |                | Updated Sections and Blocks to Use KeyValue Field                          | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.1/joomla-pkg_gantry5_v5.0.0-beta.1.zip" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
 
 Beta 3
 -----
