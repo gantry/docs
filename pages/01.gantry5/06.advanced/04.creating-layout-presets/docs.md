@@ -22,6 +22,8 @@ It's important to note that this is an advanced action, and Gantry 5 themes gene
 
 ## Creating a New Layout Preset
 
+![Preset](sections_3.png) {.border .shadow}
+
 Creating a new **Layout Preset** is pretty simple. The first thing you will need to do is create a new YAML file in `TEMPLATE_DIR/custom/layouts`. For our example, we will name this file `example1.yaml`.
 
 Here is the example code that will be in our new YAML file:
@@ -46,6 +48,8 @@ footer:
     - position-footer
     - [particle-copyright 40, spacer 30, particle-branding 30]
 ```
+
+![Preset](sections_2.png) {.border .shadow}
 
 This is a basic layout preset, featuring three sections included in the theme's original styling (`header`, `main`, and `footer`) with one additional section being added (`mainbottom`) that is not included with the original theme. We don't recommend adding new sections if you don't have to, but doing so can be done by adding it in a custom Layout Preset.
 
@@ -95,5 +99,5 @@ The `1:` in the example above indicates that the three child sections are inside
 
 This is a very simple Layout Preset, giving the user **Header**, **Main**, and **Footer** sections in addition to two independent **Sidebar** sections. Each section gets its own base styling that provides the base by which added **Particles** and **Positions** are placed.
 
->>> Each horizontal row needs to equal 100% width. In the example above, you will notice that `main` has a width set of 60%, followed by two sidebars each at 20% width.
+>>> Each horizontal row needs to equal 100% width. In the example above, you will notice that `main` has a width set of 60%, followed by two sidebars each at 20% width. It's also very important to remember that YAML files only support spaces divisible by 2, and not tabs.
 
