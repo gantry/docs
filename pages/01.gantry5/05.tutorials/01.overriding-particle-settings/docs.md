@@ -109,7 +109,7 @@ This creates the fields that appear in the Gantry Administrator's **Settings** p
 We can create the link field by adding the following to the bottom of the YAML file.
 
 ```yaml
-    owner.link:
+    site:
       type: input.url
       label: Copyright Link
       description: Add the link to the copyright owner's site.
@@ -132,7 +132,9 @@ The `copyright.html.twig` file also needs to be changed, in order to incorporate
 Copyright &copy;
 {% if (start_date != end_date) %}{{ start_date|e }} - {% endif %}
 {{ end_date|e }}
-{{ particle.owner|e }}
+{% if particle.site %}<a href="{{ particle.site | default(gantry_base) }}">{% endif %}
+{{ particle.owner }}
+{% if particle.site %}</a>{% endif %}
 {% endblock %}
 ```
 
