@@ -132,9 +132,7 @@ The `copyright.html.twig` file also needs to be changed, in order to incorporate
 Copyright &copy;
 {% if (start_date != end_date) %}{{ start_date|e }} - {% endif %}
 {{ end_date|e }}
-{% if particle.site %}<a href="{{ particle.site | default(gantry_base) }}">{% endif %}
-{{ particle.owner }}
-{% if particle.site %}</a>{% endif %}
+{{ particle.owner|e }}
 {% endblock %}
 ```
 
