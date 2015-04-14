@@ -24,6 +24,10 @@ a {
     .callouts {
         margin: 3rem auto;
 
+        dt {
+            width: 100%;
+        }
+
         img, .video-container {
             margin: auto;
         }
