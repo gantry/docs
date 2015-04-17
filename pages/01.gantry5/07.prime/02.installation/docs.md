@@ -7,10 +7,12 @@ taxonomy:
 
 You can install Gantry Prime by cloning the Gantry Playground project to your projects directory:
 
-    git clone git@bitbucket.org:rockettheme/gantry-playground.git
-    cd gantry-playground
+    git clone git@github.com:gantry/gantry5.git
+    cd gantry5
     git checkout develop
+    cd src
     composer install
+    cd ..
 
 After this you need to go to your web root and create a new directory:
 
@@ -20,6 +22,6 @@ After this you need to go to your web root and create a new directory:
 
 Now you just need to install prime to your web root by running the following command (pointing to your projects directory):
 
-    ~/MyProjects/gantry-playground/bin/install.sh
+    ~/MyProjects/gantry5/bin/install.sh
 
 And you're set up!
