@@ -73,7 +73,7 @@ You can switch to an individual Configuration in two ways. This panel will enabl
 
 #### Menu
 
-![Menu](menu.png) {.border .shadow}
+![Menu](menu_module_1.png) {.border .shadow}
 
 The **Menu Editor** makes it easy to configure and add information to menus as they appear on your site. Virtually every aspect of the menu's appearance and arrangement can be altered from this panel. 
 

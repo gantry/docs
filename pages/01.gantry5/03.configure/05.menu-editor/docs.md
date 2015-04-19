@@ -11,16 +11,15 @@ process:
     twig: true
 ---
 
-![Menu](menu.png) {.border .shadow}
+![Menu](menu_module_1.png) {.border .shadow}
 
-The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the frontend of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
+The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the front end of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
 
 The **Menu Editor** administrative panel takes what your CMS' built-in Menu Manager has and enables you to override it. Changes you make in this panel do not in any way affect the way the CMS handles Menu items.
 
 This panel is a Global panel, that is not specific to any Configuration. It's because of this that the changes you make here will affect all instances of a particular menu as it appears in any Configuration.
 
-Selecting a Menu
------
+## Selecting a Menu
 
 ![Selecting a Menu](selecting_a_menu.png) {.border .shadow}
 
@@ -28,8 +27,7 @@ The first thing you will want to do is select the menu you wish to edit. This ca
 
 When you have done this, simply select it in this dropdown and its contents will load, ready for you to work with.
 
-Menu Settings
------
+## Menu Settings
 
 ![Menu Settings](menu_settings.png) {.border .shadow}
 
@@ -39,8 +37,7 @@ One common setting is the **Base Path** which sets the base path by which the me
 
 Keep in mind that within the Menu Particle, you can further refine this, setting a **Base Path** as well as the **Start Level** and **End Level** which comes in handy when creating a split menu.
 
-Menu Item Settings
------
+## Menu Item Settings
 
 ![Menu Item Settings](menu_item_settings.png) {.border .shadow}
 
@@ -64,11 +61,10 @@ These settings expand on the capabilities of the CMS’ integrated menu system, 
 
 In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** are provided by the CMS. Images can be as well, but overriding them in the Menu Editor is a visual change rather than a functional one, so you should be able to adjust this setting without issue.
 
-Menu Item Types
------
+## Menu Item Types
 
 {% set callout_items %}
-Menu Item Types [24%, 38%, se]
+Menu Item Types [24%, 25%, se]
     : Indicated what type of menu item it is.
 
 {% endset %}
@@ -91,3 +87,60 @@ The sixth type of menu item, which is added and configured in the **Menu Editor*
 
 >>> In cases where the **Menu Item Type** is supplied by the CMS, this may not be editable via the **Menu Editor** as it would conflict with the CMS' settings.
 
+## Module/Widget Injection
+
+{% set tab1 %}
+
+![Module Injection](menu_module_1.png) {.border .shadow}
+
+Injecting modules into your menus is easy with Gantry's **Menu Editor**. Above the menu in the editor are two buttons. One labeled **Module** and the other **Particle**. The **Module** tool can be clicked and dragged to your menu, bringing up a popup (pictured below) that enables you to select from your site's modules and have one appear within the menu.
+
+![Module Injection](menu_module_2.png) {.border .shadow}
+
+This popup has a lot of useful information to help you find the module you are looking for. A search bar located at the top enables you to quickly narrow down your search while the module buttons themselves provide you with information on the module's **name**, **published status**, **type**, and **assigned position**.
+
+You do not have to assign your modules to any positions to make them work in the menu. By adding the module using the Menu Editor, the module is rendered on the front end as though the module has been assigned to a position within the menu.
+
+### Practical Example
+
+![Module Injection](menu_module_5.png) {.border .shadow}
+
+In this example, we will add a **RokAjaxSearch** module to the menu. You will need to have RokAjaxSearch installed on your Joomla instance, as well as a module created using Joomla's **Module Manager**. You do not have to have the module assigned to any specific position for this to work.
+
+![Module Injection](menu_module_7.png) {.border .shadow}
+
+Then, from the **Gantry Menu Editor**, click and drag the **Module** item to your menu where you would like to have it appear in the menu. You can always adjust its positioning later on by clicking and dragging the menu item.
+
+![Module Injection](menu_module_3.png) {.border .shadow}
+
+At this point, you can further refine this module in a popup that appears, giving you access to adjust the module's **Module ID** and **Chrome** settings. You also have access to the same **Block** settings found in **Particles**, including **CSS Classes** and **Tag Attributes**.
+
+![Module Injection](menu_module_6.png) {.border .shadow}
+
+Once you have configured your module and set up any additional styling (if required) to make it look great with your menu, you can save your menu and take a look at it on the front end.
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+## Particle Injection
+
+![Particle Injection](menu_module_1.png) {.border .shadow}
+
+Particle injection is possible in the Gantry Menu Editor, enabling you to add Particles to your menu with the same simplicity you can experience from the Layout Manager. The first step involves clicking the **Particle** button and dragging it to your menu where you would like it to appear. Just like any menu item, its position can be changed at any point by clicking and dragging it.
+
+![Particle Injection](menu_particle_3.png) {.border .shadow}
+
+The popup that appears enables you to both search for and select a particle to use in your menu. Simply click the particle and **Select** it. 
+
+![Particle Injection](menu_particle_4.png) {.border .shadow}
+
+From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the Configuration's **Settings** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
+
+![Particle Injection](menu_particle_2.png) {.border .shadow}
+
+Once you have set up the Particle as desired, simply save your menu and check the front end to see the Particle in your menu.
