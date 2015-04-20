@@ -40,11 +40,11 @@ Beta 1
 |                              | Document How People Should Contribute                                                                           | <span style="color:green" class="fa fa-check"></span> |
 | File Picker                  | Basic File Picker Functionality with Upload                                                                     | <span style="color:green" class="fa fa-check"></span> |
 
-Beta 2 (Current Phase)
+Beta 2
 -----
 
 | Category       | Milestone                                                                                                                               | Completed                                             |
-| :-----         | :-----                                                                                                                                  | :-----                                                |
+| :-----         | :-----                                                                                                                                  | :-----:                                                |
 | Optimization   | Set Joomla JS/CSS Assets to Not Load Where Not Required                                                                                 | <span style="color:green" class="fa fa-check"></span> |
 | Fixes          | [Miscellaneous Bug Fixes from Reports by Beta Testers](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+2%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
 | Image Picker   | Add Support for SVG Files                                                                                                               | <span style="color:green" class="fa fa-check"></span> |
@@ -57,35 +57,55 @@ Beta 2 (Current Phase)
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.1...release/5.0.0-beta.2" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
 
-Beta 3
+Beta 3 (Current Phase)
 -----
 
-| Category                            | Milestone                                                                                         | Completed |
-| :-----                              | :----                                                                                             | :-----:   |
-| Configurations Page                 | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)    |           |
-| Menu Editor Particle/Module Support | Drag-and-drop Support of Particles and Modules from Menu Editor                                   |           |
-|                                     | Deletion Capability                                                                               |           |
-| Layout Manager                      | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
-| Dev/Prod                            | Hook up Dev and Prod Switch                                                                       |           |
-| Performance Optimization            | Caching                                                                                           |           |
-| Menu                                | Change Base Dropdown Listing so Menu Items are Based on the Menu Type Picked                      |           |
-|                                     | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
-| Security                            | Security Review                                                                                   |           |
-| Style Management                    | Change Styles from Front End by Session/Cookies                                                    |           |
-| Revert to Default                   | Ability to Reset a Configuration Parameter to the Main Default Value                              |           |
-| Language                            | Implement Language Support Across Joomla                                                          |           |
-| File Picker                         | Implement Improved Streams with Merged Folders/Files                                              |           |
-|                                     | Add Ability to Remove Uploaded Files                                                              |           |
-| HTML/Markdown Field and Particle    | Field that Inherits from textarea and Adds HTML editor plus Markdown Editor - With a Live Preview |           |
-|                                     | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) - With a Live Preview |           |
+| Category                 | Milestone                                                                | Completed                                             |
+| :-----                   | :----                                                                    | :-----:                                               |
+| Reworked Menu Editor     | Drag-and-drop Support of Particles and Modules from Menu Editor          | <span style="color:green" class="fa fa-check"></span> |
+|                          | Deletion Capability                                                      | <span style="color:green" class="fa fa-check"></span> |
+|                          | It is Now Possible to Add Modules and Particles in the Menu              | <span style="color:green" class="fa fa-check"></span> |
+|                          | Menu on the Front End is Now Fully Touch and Desktop Compatible          | <span style="color:green" class="fa fa-check"></span> |
+|                          | Enhanced the Fullwidth Menu with Slideouts Animation                     | <span style="color:green" class="fa fa-check"></span> |
+|                          | Support for Images in Menu Items                                         | <span style="color:green" class="fa fa-check"></span> |
+|                          | Support for Subtitles in Menu Items                                      | <span style="color:green" class="fa fa-check"></span> |
+| Offcanvas Section        | Offcanvas Section Added                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                          | Enable any Module or Particle to Reside Within                           | <span style="color:green" class="fa fa-check"></span> |
+| Mobile Menu Particle     | Created Mobile Menu Particle for the Offcanvas Section                   | <span style="color:green" class="fa fa-check"></span> |
+|                          | Default Layouts Now Come with the Mobile Menu Particle Built-in          | <span style="color:green" class="fa fa-check"></span> |
+| Bugs                     | Many Hydrogen and Gantry Bug Fixes                                       | <span style="color:green" class="fa fa-check"></span> |
+| Platform Settings Button | Added Platform Settings Button to Available Themes List                  | <span style="color:green" class="fa fa-check"></span> |
+| JS and CSS               | JS and CSS are Now Minified and Without Source Maps in the Packages      | <span style="color:green" class="fa fa-check"></span> |
+| Joomla                   | Joomla Manifest is Now Being Updated with All of the Available Positions | <span style="color:green" class="fa fa-check"></span> |
+| Installer                | Fixed Joomla Post Installation Issues                                    | <span style="color:green" class="fa fa-check"></span> |
 
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.2...release/5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
+
+Beta 4
+-----
+
+| Category                         | Milestone                                                                                         | Completed |
+| :-----                           | :----                                                                                             | :-----:   |
+| Menu Editor                      | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
+| Security                         | Security Review                                                                                   |           |
+| Configurations Page              | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)    |           |
+| Layout Manager                   | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
+| Dev/Prod                         | Hook up Dev and Prod Switch                                                                       |           |
+| Performance Optimization         | Caching                                                                                           |           |
+| Style Management                 | Change Styles from Front End by Session/Cookies                                                   |           |
+| Revert to Default                | Ability to Reset a Configuration Parameter to the Main Default Value                              |           |
+| Language                         | Implement Language Support Across Joomla                                                          |           |
+| File Picker                      | Implement Improved Streams with Merged Folders/Files                                              |           |
+|                                  | Add Ability to Remove Uploaded Files                                                              |           |
+| HTML/Markdown Field and Particle | Field that Inherits from textarea and Adds HTML editor plus Markdown Editor - With a Live Preview |           |
+|                                  | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) - With a Live Preview |           |
 
 Beta X
 -----
 
-| Category | Milestone                      | Completed |
-| :-----   | :----                          | :-----:   |
+
 | Testing  | Test until comfortable with RC |           |
+
 
 Release Candidate
 -----
