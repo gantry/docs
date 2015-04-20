@@ -103,9 +103,9 @@ Beta 4
 Beta X
 -----
 
-
+| Category | Milestone                      | Completed |
+| :-----   | :----                          | :-----:   |
 | Testing  | Test until comfortable with RC |           |
-
 
 Release Candidate
 -----
