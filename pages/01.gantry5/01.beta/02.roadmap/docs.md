@@ -60,26 +60,26 @@ Beta 2
 Beta 3 (Current Phase)
 -----
 
-| Category                 | Milestone                                                                | Completed                                             |
-| :-----                   | :----                                                                    | :-----:                                               |
-| Reworked Menu Editor     | Drag-and-drop Support of Particles and Modules from Menu Editor          | <span style="color:green" class="fa fa-check"></span> |
-|                          | Deletion Capability                                                      | <span style="color:green" class="fa fa-check"></span> |
-|                          | It is Now Possible to Add Modules and Particles in the Menu              | <span style="color:green" class="fa fa-check"></span> |
-|                          | Menu on the Front End is Now Fully Touch and Desktop Compatible          | <span style="color:green" class="fa fa-check"></span> |
-|                          | Enhanced the Fullwidth Menu with Slideouts Animation                     | <span style="color:green" class="fa fa-check"></span> |
-|                          | Support for Images in Menu Items                                         | <span style="color:green" class="fa fa-check"></span> |
-|                          | Support for Subtitles in Menu Items                                      | <span style="color:green" class="fa fa-check"></span> |
-| Offcanvas Section        | Offcanvas Section Added                                                  | <span style="color:green" class="fa fa-check"></span> |
-|                          | Enable any Module or Particle to Reside Within                           | <span style="color:green" class="fa fa-check"></span> |
-| Mobile Menu Particle     | Created Mobile Menu Particle for the Offcanvas Section                   | <span style="color:green" class="fa fa-check"></span> |
-|                          | Default Layouts Now Come with the Mobile Menu Particle Built-in          | <span style="color:green" class="fa fa-check"></span> |
-| Bugs                     | Many Hydrogen and Gantry Bug Fixes                                       | <span style="color:green" class="fa fa-check"></span> |
-| Platform Settings Button | Added Platform Settings Button to Available Themes List                  | <span style="color:green" class="fa fa-check"></span> |
-| JS and CSS               | JS and CSS are Now Minified and Without Source Maps in the Packages      | <span style="color:green" class="fa fa-check"></span> |
-| Joomla                   | Joomla Manifest is Now Being Updated with All of the Available Positions | <span style="color:green" class="fa fa-check"></span> |
-| Installer                | Fixed Joomla Post Installation Issues                                    | <span style="color:green" class="fa fa-check"></span> |
+| Category                 | Milestone                                                                                                 | Completed                                             |
+| :-----                   | :----                                                                                                     | :-----:                                               |
+| Reworked Menu Editor     | Drag-and-drop Support of Particles and Modules from Menu Editor                                           | <span style="color:green" class="fa fa-check"></span> |
+|                          | Deletion Capability                                                                                       | <span style="color:green" class="fa fa-check"></span> |
+|                          | It is Now Possible to Add Modules and Particles in the Menu                                               | <span style="color:green" class="fa fa-check"></span> |
+|                          | Menu on the Front End is Now Fully Touch and Desktop Compatible                                           | <span style="color:green" class="fa fa-check"></span> |
+|                          | Enhanced the Fullwidth Menu with Slideouts Animation                                                      | <span style="color:green" class="fa fa-check"></span> |
+|                          | Support for Images in Menu Items                                                                          | <span style="color:green" class="fa fa-check"></span> |
+|                          | Support for Subtitles in Menu Items                                                                       | <span style="color:green" class="fa fa-check"></span> |
+| Offcanvas Section        | Offcanvas Section Added                                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|                          | Enable any Module or Particle to Reside Within                                                            | <span style="color:green" class="fa fa-check"></span> |
+| Mobile Menu Particle     | Created Mobile Menu Particle for the Offcanvas Section                                                    | <span style="color:green" class="fa fa-check"></span> |
+|                          | Default Layouts Now Come with the Mobile Menu Particle Built-in                                           | <span style="color:green" class="fa fa-check"></span> |
+| Bugs                     | [Many Hydrogen and Gantry Bug Fixes](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+3%22) | <span style="color:green" class="fa fa-check"></span> |
+| Platform Settings Button | Added Platform Settings Button to Available Themes List                                                   | <span style="color:green" class="fa fa-check"></span> |
+| JS and CSS               | JS and CSS are Now Minified and Without Source Maps in the Packages                                       | <span style="color:green" class="fa fa-check"></span> |
+| Joomla                   | Joomla Manifest is Now Being Updated with All of the Available Positions                                  | <span style="color:green" class="fa fa-check"></span> |
+| Installer                | Fixed Joomla Post Installation Issues                                                                     | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.2...release/5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.2...5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
 
 Beta 4
 -----
