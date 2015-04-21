@@ -159,6 +159,10 @@ The **Mobile Menu** Particle is exclusively made for the **Offcanvas** section, 
 
 One interesting note about the Offcanvas Section is in its settings. You can set the **Position** where the Offcanvas section appears on the front end. This enables you to decide if you want the sections' menu button and content to come in from the right or left side of the page.
 
+![Offcanvas](offcanvas_5.png) {.border .shadow}
+
+In the **Styles** administrative panel the **Dropdown Width** field sets the width of the panel (in pixels) enabling you to set how much of the screen becomes the panel when it is active.
+
 ## Atoms Section
 
 ![Atoms](particles_2.png) {.border .shadow}
