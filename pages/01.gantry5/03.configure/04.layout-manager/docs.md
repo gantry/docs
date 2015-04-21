@@ -142,3 +142,27 @@ The **Block** settings make it easy to change the way a particular block looks a
 In the presence of a Sidebar, there is a unique situation. For the purposes of theme development, the sidebar and any horizontally-adjoining Sections are placed in a single Grid. Unlike the smaller Grids which exist inside sections, this Grid can't be freely moved. However, you can resize them using the divider bar between the Sidebar and its adjoining Sections.
 
 The Sections next to the sidebar are all within a single Block, as is the Sidebar section itself.
+
+## Offcanvas Section
+
+![Offcanvas](offcanvas_1.png) {.border .shadow}
+
+The **Offcanvas** section is intended to enable you to place modules and positions in a special hidden-until-opened sidebar. This sidebar houses the **Mobile Menu** Particle, a specialized Particle that loads the designated main menu in a way that is easy for mobile users to open and utilize.
+
+![Offcanvas](offcanvas_2.png) {.border .shadow}
+
+![Offcanvas](offcanvas_3.png) {.border .shadow}
+
+The **Mobile Menu** Particle is exclusively made for the **Offcanvas** section, though it is not the only item that can be placed here. Arranged vertically on the front end, Particles and Modules can be placed in the Offcanvas section that you would like to have appear in this area of the page. Any Particle or Module other than the Mobile Menu will be available on both mobile and desktop devices, unless designated in the item's CSS.
+
+![Offcanvas](offcanvas_4.png) {.border .shadow}
+
+One interesting note about the Offcanvas Section is in its settings. You can set the **Position** where the Offcanvas section appears on the front end. This enables you to decide if you want the sections' menu button and content to come in from the right or left side of the page.
+
+## Atoms Section
+
+![Atoms](particles_2.png) {.border .shadow}
+
+One important detail to note about this section is that it is only available for Atoms, and it is the only section in which Atoms can reside. You can order the Atoms from left to right in the order you want them to load. This is handy in cases where you have scripts you want to fire in a specific order.
+
+
