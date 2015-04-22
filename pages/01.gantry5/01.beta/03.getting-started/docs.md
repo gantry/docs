@@ -23,7 +23,7 @@ Gantry 5 is a framework by which Gantry-powered themes are made. In order for a 
 
 The first thing you need to do is download the latest build of Gantry 5 and Hydrogen. You can do so by clicking the buttons below, or via [GitHub](http://github.com/gantry/gantry5).
 
-<div align="center"><a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.1/joomla-pkg_gantry5_v5.0.0-beta.1.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.1/joomla-tpl_g5_hydrogen_v5.0.0-beta.1.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
+<div align="center"><a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.3/joomla-pkg_gantry5_v5.0.0-beta.3.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.3/joomla-tpl_g5_hydrogen_v5.0.0-beta.3.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
 
 >>> During the initial beta, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
 
