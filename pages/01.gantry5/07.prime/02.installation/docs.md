@@ -7,7 +7,7 @@ taxonomy:
 
 You can install Gantry Prime by cloning the Gantry Playground project to your projects directory:
 
-    git clone git@github.com:gantry/gantry5.git
+    git clone https://github.com/gantry/gantry5.git
     cd gantry5
     git checkout develop
     cd src
