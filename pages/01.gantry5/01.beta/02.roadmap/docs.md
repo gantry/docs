@@ -57,7 +57,7 @@ Beta 2
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.1...release/5.0.0-beta.2" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
 
-Beta 3 (Current Phase)
+Beta 3
 -----
 
 | Category                 | Milestone                                                                                                 | Completed                                             |
@@ -81,7 +81,22 @@ Beta 3 (Current Phase)
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.2...5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
 
-Beta 4
+Beta 4 (Current Phase)
+-----
+
+| Category                           | Milestone                                                                                                                              | Completed                                             |
+| :-----                             | :----                                                                                                                                  | :-----:                                               |
+| Collapsed Particles                | Sidebar is Now Fully Collapsing on the Front End ([#54](https://github.com/gantry/gantry5/issues/54))                                  | <span style="color:green" class="fa fa-check"></span> |
+| Smart Warnings                     | Smart Warnings on Pending Changes ([#106](https://github.com/gantry/gantry5/issues/106))                                               | <span style="color:green" class="fa fa-check"></span> |
+| Menu Editor and About Admin Panels | Configuration Bar Hidden in Global Panels ([#99](https://github.com/gantry/gantry5/issues/99))                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                    | Reduced Height of Module List for Smaller Screens ([#113](https://github.com/gantry/gantry5/issues/113))                               | <span style="color:green" class="fa fa-check"></span> |
+| Assignments Admin Panel            | Implemented Filtering and All On/Off Toggle ([#71](https://github.com/gantry/gantry5/issues/71))                                       | <span style="color:green" class="fa fa-check"></span> |
+| Bug Fixes                          | [Many Bug Fixes for Menu, Offcanvas, and Menu Editor](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+4%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
+| Presets                            | Recompiling Presets from Base Configuration Now Recompiles All Configurations Styles                                                   | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.3...5.0.0-beta.4" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 4 Changelog</a>
+
+Beta 5
 -----
 
 | Category                         | Milestone                                                                                         | Completed |
