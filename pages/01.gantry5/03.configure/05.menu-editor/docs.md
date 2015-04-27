@@ -27,6 +27,8 @@ The first thing you will want to do is select the menu you wish to edit. This ca
 
 When you have done this, simply select it in this dropdown and its contents will load, ready for you to work with.
 
+>>> If you would like to **change which menu loads** in a **Menu Particle** on the frontend, you will need to set this in the menu **Particle's settings**. Switching between menus here only enables you to access the menu's settings, and does not assign the menu to any particular Particle.
+
 ## Menu Settings
 
 ![Menu Settings](menu_settings.png) {.border .shadow}
