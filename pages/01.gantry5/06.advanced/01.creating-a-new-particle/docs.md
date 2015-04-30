@@ -132,3 +132,28 @@ The bits that are placed between curly brackets such as `{{ particle.header|e }}
 {% endverbatim %}
 
 Once you have created these files, you should see the Particle appear in the **Settings** and **Layout Manager** administrative panels in the Gantry 5 administrator.
+
+Customizing an Existing Particle
+-----
+
+{% set tab1 %}
+
+![File Location](customizing_1.png) {.border .shadow}
+
+If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `TEMPLATE_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.
+
+Here is a table to help you figure out where to place the duplicate **YAML** and **Twig** files.
+
+| Original File Directory                   | Duplicate File Directory        | Alternate Duplicate File Directory      |
+| :-----                                    | :-----                          | :-----                                  |
+| `media/gantry5/engines/nucleus/particles` | `TEMPLATE_DIR/custom/particles` | `TEMPLATE_DIR/custom/engines/particles` |
+| `TEMPLATE_DIR/particles`                  | `TEMPLATE_DIR/custom/particles` |                                         |
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
