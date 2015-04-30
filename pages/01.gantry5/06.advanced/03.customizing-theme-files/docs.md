@@ -46,10 +46,12 @@ form:
       default:
 
     extra:
-      type: input.text
-      label: HTML Attributes
-      description: Extra HTML attributes.
-      default:
+      type: collection.keyvalue
+      label: Tag Attributes
+      description: Extra Tag attributes.
+      key_placeholder: Key (data-*, style, ...)
+      value_placeholder: Value
+      exclude: ['id', 'class']
 ```
 
 To add the background option, we just need to create an `input.imagepicker` field. You can see our edited copy of the file below.
@@ -68,10 +70,12 @@ form:
       default:
 
     extra:
-      type: input.text
-      label: HTML Attributes
-      description: Extra HTML attributes.
-      default:
+      type: collection.keyvalue
+      label: Tag Attributes
+      description: Extra Tag attributes.
+      key_placeholder: Key (data-*, style, ...)
+      value_placeholder: Value
+      exclude: ['id', 'class']
 
     background:
       type: input.imagepicker
