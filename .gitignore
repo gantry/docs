@@ -16,3 +16,4 @@ Thumbs.db
 # phpstorm
 .idea/*
 themes/learn2
+*.css.map
