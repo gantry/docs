@@ -26,13 +26,13 @@ Gantry installs 6 extensions. We have detailed these extensions, including examp
 
 For the sake of simplicity, we have included a quick-reference table below of the information in the sections below.
 
-| Extension                      | Installed Directory Path                | Custom Directory Path                              |
-| :-----                         | :-----                                  | :-----                                             |
-| Gantry 5 Framework (Library)   | `/libraries/gantry5`                    | `/templates/TEMPLATE_DIR/custom` (see notes below) |
-|                                | `/media/gantry5/assets`                 | `/templates/TEMPLATE_DIR/custom`                   |
-| Gantry 5 Nucleus Engine (File) | `/media/gantry5/engines/nucleus`        | `/templates/TEMPLATE_DIR/custom/engine`            |
-| Gantry 5 Themes (Component)    | `/administrator/components/com_gantry5` | `/templates/TEMPLATE_DIR/custom/admin`             |
-|                                | `/components/com_gantry5`               | `/templates/TEMPLATE_DIR/custom/admin`             |
+| Extension                      | Installed Directory Path                | Custom Directory Path                   |
+| :-----                         | :-----                                  | :-----                                  |
+| Gantry 5 Framework (Library)   | `/libraries/gantry5`                    | (see notes below)                       |
+|                                | `/media/gantry5/assets`                 | `/templates/TEMPLATE_DIR/custom`        |
+| Gantry 5 Nucleus Engine (File) | `/media/gantry5/engines/nucleus`        | `/templates/TEMPLATE_DIR/custom/engine` |
+| Gantry 5 Themes (Component)    | `/administrator/components/com_gantry5` | `/templates/TEMPLATE_DIR/custom/admin`  |
+|                                | `/components/com_gantry5`               | `/templates/TEMPLATE_DIR/custom/admin`  |
 
 >>> PHP classes found in `/libraries/gantry5` can also be overridden, but as they need to be autoloaded, this requires some additional manual intervention involving adding a loader for classes.
 
