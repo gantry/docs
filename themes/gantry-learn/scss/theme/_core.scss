@@ -33,3 +33,21 @@ a {
         }
     }
 }
+
+.tab {
+    table, td {
+        border: 1px solid #ddd;
+    }
+
+    table {
+        background-color: $white;
+    }
+
+    thead th {
+        background-color: #fdfdfd;
+    }
+}
+
+#body .callouts dt {
+    width: auto;
+}

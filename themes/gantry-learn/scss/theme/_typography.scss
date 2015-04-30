@@ -138,8 +138,9 @@ samp {
 }
 
 code {
-    background: $code-bg;
+    //background: $code-bg;
     color: darken($code-text,10%);
+    word-break: break-word;
 }
 
 pre {

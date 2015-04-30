@@ -40,6 +40,16 @@ a {
   #body .callouts img, #body .callouts .video-container {
     margin: auto; }
 
+.tab table, .tab td {
+  border: 1px solid #ddd; }
+.tab table {
+  background-color: #fff; }
+.tab thead th {
+  background-color: #fdfdfd; }
+
+#body .callouts dt {
+  width: auto; }
+
 fieldset {
   border: 1px solid #ddd; }
 
@@ -415,8 +425,8 @@ samp {
   font-family: "Inconsolata", monospace; }
 
 code {
-  background: #f9f2f4;
-  color: #9c1d3d; }
+  color: #9c1d3d;
+  word-break: break-word; }
 
 pre {
   padding: 1rem;
