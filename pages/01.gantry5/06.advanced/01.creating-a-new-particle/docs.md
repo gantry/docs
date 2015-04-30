@@ -138,8 +138,6 @@ Customizing an Existing Particle
 
 {% set tab1 %}
 
-![File Location](customizing_1.png) {.border .shadow}
-
 If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `TEMPLATE_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.
 
 Here is a table to help you figure out where to place the duplicate **YAML** and **Twig** files.
