@@ -26,13 +26,13 @@ Gantry installs 6 extensions. We have detailed these extensions, including examp
 
 For the sake of simplicity, we have included a quick-reference table below of the information in the sections below.
 
-| Extension                      | Installed Directory Path                | Custom Directory Path                   |
-| :-----                         | :-----                                  | :-----                                  |
-| Gantry 5 Framework (Library)   | `/libraries/gantry5`                    | `/templates/TEMPLATE_DIR/custom`        |
-|                                | `/media/gantry5/assets`                 | `/templates/TEMPLATE_DIR/custom`        |
-| Gantry 5 Nucleus Engine (File) | `/media/gantry5/engines/nucleus`        | `/templates/TEMPLATE_DIR/custom/engine` |
-| Gantry 5 Themes (Component)    | `/administrator/components/com_gantry5` | `/templates/TEMPLATE_DIR/custom/admin`  |
-|                                | `/components/com_gantry5`               | `/templates/TEMPLATE_DIR/custom/admin`  |
+| Extension                      | Installed Directory Path                | Custom Directory Path                              |
+| :-----                         | :-----                                  | :-----                                             |
+| Gantry 5 Framework (Library)   | `/libraries/gantry5`                    | `/templates/TEMPLATE_DIR/custom` (see notes below) |
+|                                | `/media/gantry5/assets`                 | `/templates/TEMPLATE_DIR/custom`                   |
+| Gantry 5 Nucleus Engine (File) | `/media/gantry5/engines/nucleus`        | `/templates/TEMPLATE_DIR/custom/engine`            |
+| Gantry 5 Themes (Component)    | `/administrator/components/com_gantry5` | `/templates/TEMPLATE_DIR/custom/admin`             |
+|                                | `/components/com_gantry5`               | `/templates/TEMPLATE_DIR/custom/admin`             |
 
 >>> PHP classes found in `/libraries/gantry5` can also be overridden, but as they need to be autoloaded, this requires some additional manual intervention involving adding a loader for classes.
 
@@ -89,9 +89,9 @@ All templates are located in the `/templates` folder. Do not change or add any f
 
 Here is an example of where the source file and customized duplicate file would be located:
 
-| Example File                             | Example Custom File                                                           |
-| :-----                                   | :-----                                                                        |
-| `/templates/pages/about/about.html.twig` | `/templates/[MY_TEMPLATE]/custom/admin/templates/pages/about/about.html.twig` |
+| Example File                              | Example Custom File                              |
+| :-----                                    | :-----                                           |
+| `/templates/TEMPLATE_DIR/images/ipad.png` | `/templates/TEMPLATE_DIR/custom/images/ipad.png` |
 
 This doesn't just apply to customizing existing files, but adding new ones such as Particle files. We detail this process in our previous guides on [Customizing Theme Files](../customizing-theme-files) and [Creating a New Particle](../creating-a-new-particle/). You can also customize common assets, the rendering engine, or even parts of the administrator.
 
