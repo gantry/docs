@@ -99,28 +99,28 @@ Beta 4
 Beta 5 (Current Phase)
 -----
 
-| Category               | Milestone                                                                                         | Completed                                             |
-| :-----                 | :----                                                                                             | :-----:                                               |
-| Font Support           | Fonts are Supported in the Styles Panel Including Local Font Support                              | <span style="color:green" class="fa fa-check"></span> |
-| Form Validation        | Added HTML5 Fields Validation for Styles, Settings, Menu Item, Collections, and Particle Settings | <span style="color:green" class="fa fa-check"></span> |
-| Hydrogen Theme         | Many Hydrogen Style Enhancements and Fixes                                                        | <span style="color:green" class="fa fa-check"></span> |
-|                        | Implemented Customizable Style for Hamburger Icon                                                 | <span style="color:green" class="fa fa-check"></span> |
-|                        | Added Hydrogen Layout Presets (2 Column - Left - Right, 3 Column, 3 Column - Left - Right)        | <span style="color:green" class="fa fa-check"></span> |
-| Bug Fixes              | Many Bug Fixes for IE                                                                             | <span style="color:green" class="fa fa-check"></span> |
-|                        | Back End Menu Bug Fixes                                                                           | <span style="color:green" class="fa fa-check"></span> |
-|                        | Fixed Issue When Offline Page Mode Enabled                                                        | <span style="color:green" class="fa fa-check"></span> |
-|                        | Fixed Layout Manager Issues When Using Trackpad                                                   | <span style="color:green" class="fa fa-check"></span> |
-|                        | Icon Picker, Image Picker Fixes and Enhancements                                                  | <span style="color:green" class="fa fa-check"></span> |
-|                        | Many Front End Menu Enhancements and fixes                                                        | <span style="color:green" class="fa fa-check"></span> |
-|                        | Gantry Installer / Updater Fixes                                                                  | <span style="color:green" class="fa fa-check"></span> |
-| Module Output          | Implemented Custom `gantry` Module Chrome and Using it By Default                                 | <span style="color:green" class="fa fa-check"></span> |
-| Gantry 5 Administrator | Consolidated Action Tools Under Extra Tab in Administrator                                        | <span style="color:green" class="fa fa-check"></span> |
-|                        | Added Joomla - Gantry 4 Preset (thanks @Omegatcu)                                                 | <span style="color:green" class="fa fa-check"></span> |
-|                        | Implemented Reset Field Icon to Clear Out the Field with a Click                                  | <span style="color:green" class="fa fa-check"></span> |
-|                        | Back to Configurations Now Keeps Track of Your Most Recent Active Tab                             | <span style="color:green" class="fa fa-check"></span> |
-|                        | Implemented Preset Matcher, Detecting When a Combination of Styles Matches a Preset               | <span style="color:green" class="fa fa-check"></span> |
-|                        | Added Configurations page (Work in Progress)                                                      | <span style="color:green" class="fa fa-check"></span> |
-| Particles              | Extended Google Analytics Particle (thanks @Omegatcu)                                             | <span style="color:green" class="fa fa-check"></span> |
+| Category                                                                         | Milestone                                                                                         | Completed                                             |
+| :-----                                                                           | :----                                                                                             | :-----:                                               |
+| Font Support                                                                     | Fonts are Supported in the Styles Panel Including Local Font Support                              | <span style="color:green" class="fa fa-check"></span> |
+| Form Validation                                                                  | Added HTML5 Fields Validation for Styles, Settings, Menu Item, Collections, and Particle Settings | <span style="color:green" class="fa fa-check"></span> |
+| Hydrogen Theme                                                                   | Many Hydrogen Style Enhancements and Fixes                                                        | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Implemented Customizable Style for Hamburger Icon                                                 | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Added Hydrogen Layout Presets (2 Column - Left - Right, 3 Column, 3 Column - Left - Right)        | <span style="color:green" class="fa fa-check"></span> |
+| [Bug Fixes](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+5%22) | Many Bug Fixes for IE                                                                             | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Back End Menu Bug Fixes                                                                           | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Fixed Issue When Offline Page Mode Enabled                                                        | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Fixed Layout Manager Issues When Using Trackpad                                                   | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Icon Picker, Image Picker Fixes and Enhancements                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Many Front End Menu Enhancements and fixes                                                        | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Gantry Installer / Updater Fixes                                                                  | <span style="color:green" class="fa fa-check"></span> |
+| Module Output                                                                    | Implemented Custom `gantry` Module Chrome and Using it By Default                                 | <span style="color:green" class="fa fa-check"></span> |
+| Gantry 5 Administrator                                                           | Consolidated Action Tools Under Extra Tab in Administrator                                        | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Added Joomla - Gantry 4 Preset (thanks [@Omegatcu](https://github.com/Omegatcu))                  | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Implemented Reset Field Icon to Clear Out the Field with a Click                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Back to Configurations Now Keeps Track of Your Most Recent Active Tab                             | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Implemented Preset Matcher, Detecting When a Combination of Styles Matches a Preset               | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Added Configurations page (Work in Progress)                                                      | <span style="color:green" class="fa fa-check"></span> |
+| Particles                                                                        | Extended Google Analytics Particle (thanks [@Omegatcu](https://github.com/Omegatcu))              | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
