@@ -31,7 +31,7 @@ Beta 1
 | Language                     | Integrate Language Support Translations for Joomla                                                              | <span style="color:green" class="fa fa-check"></span> |
 |                              | Translations Support in Twig                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Hydrogen                     | Complete the Hydrogen Home Page, Serving as a Starting Point for Beta Testing                                   | <span style="color:green" class="fa fa-check"></span> |
-| Menu                         | Refine Menu Item Settings to Meet Gantry 5 and User Requirements.                                               | <span style="color:green" class="fa fa-check"></span> |
+| Menu                         | Refine Menu Item Settings to Meet Gantry 5 and User Requirements                                               | <span style="color:green" class="fa fa-check"></span> |
 |                              | Rework the front-end menu JS                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Menu Structure to Following New Configuration Options                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Builder                      | Create a Builder for Gantry to Generate Packages for Platforms                                                  | <span style="color:green" class="fa fa-check"></span> |
