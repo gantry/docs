@@ -15,6 +15,8 @@ process:
 
 The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the front end of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
 
+[plugin:youtube](https://www.youtube.com/watch?v=Ny0KgUz5JH8)
+
 The **Menu Editor** administrative panel takes what your CMS' built-in Menu Manager has and enables you to override it. Changes you make in this panel do not in any way affect the way the CMS handles Menu items.
 
 This panel is a Global panel, that is not specific to any Configuration. It's because of this that the changes you make here will affect all instances of a particular menu as it appears in any Configuration.

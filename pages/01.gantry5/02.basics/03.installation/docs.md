@@ -54,6 +54,8 @@ If you don't have WordPress installed on your server yet, you can use the **Rock
 
 {% set tab1 %}
 
+[plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
+
 Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v5.0.0.zip`) by navigating to **Extensions → Extensions Manager → Install** and selecting the **Choose File** button. Locate the downloaded ZIP and click **Upload & Install** to begin the installation process.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}

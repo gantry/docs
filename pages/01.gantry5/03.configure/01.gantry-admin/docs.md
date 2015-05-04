@@ -16,6 +16,8 @@ You can reach the Gantry Admin by following these steps:
 
 {% set tab1 %}
 
+[plugin:youtube](https://www.youtube.com/watch?v=JWKpeFRqcDI)
+
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled template is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
 ![Control Panel Method](../../basics/installation/gantry_default.png) {.border .shadow}

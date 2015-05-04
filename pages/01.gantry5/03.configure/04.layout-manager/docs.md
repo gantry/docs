@@ -12,7 +12,7 @@ process:
 
 The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Configurations. 
 
-<div align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/DN_U_W7LT_c" frameborder="0" allowfullscreen></iframe></div>
+[plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
 Using the Load Button
 -----

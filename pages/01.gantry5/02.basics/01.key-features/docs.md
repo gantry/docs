@@ -7,6 +7,8 @@ taxonomy:
 
 Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
 
+[plugin:youtube](https://www.youtube.com/watch?v=H0RCz-ziJoo)
+
 #### Responsive Layout System
 
 Gantry 5 uses the **Nucleus** grid system, built from scratch using Flexbox and tied in to the **Layout Manager** to generate classes.
