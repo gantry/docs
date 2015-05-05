@@ -27,7 +27,7 @@ Alternatively you can use `hebe` which is a RocketTheme Tool that helps symbolic
 
 Once you have hebe the first step is to register Gantry 5, to do so go in the Gantry 5 project you cloned and run hebe from there.
 
-    $ git /location/where/you/cloned/gantry5
+    $ cd /location/where/you/cloned/gantry5
     $ hebe register .
 
 You should get a successful notice that says Gantry 5 has been registered. Now all you have to do is link it:
