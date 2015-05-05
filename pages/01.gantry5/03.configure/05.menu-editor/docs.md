@@ -47,7 +47,7 @@ Keep in mind that within the Menu Particle, you can further refine this, setting
 
 Each menu item has a set of settings which can be configured to meet your needs. These may vary slightly between CMS, but have the same basic functions. You can activate the **Menu Item** settings by selecting the cogwheel icon on the right-hand side of the menu item itself.
 
-Here is a breakdown of these settings, and a what they can do.
+Here is a breakdown of these settings and what they can do.
 
 | Menu Item Setting | Description                                                                                                                       |
 | :-----            | :-----                                                                                                                            |
