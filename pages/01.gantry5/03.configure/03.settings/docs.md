@@ -14,14 +14,14 @@ The **Settings** panel gives you the ability to turn particle types **on** or **
 
 Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop for enabling and disabling particles such as the **Logo**, **Date**, and **Google Analytics**. We have a full breakdown of Gantry's included particles [in the next chapter](../../particles).
 
-Commands
+Controls
 -----
 
-![Commands](commands.png) {.border .shadow}
+![Controls](commands.png) {.border .shadow}
 
 The **Save Settings** button applies any changes you have made to the **Settings** administrative panel to its associated Configuration. These changes apply as the new default for the setting for that Configuration only, and will only become a global default if you are using the theme's assigned default Configuration.
 
-![Commands](commands_2.png) {.border .shadow}
+![Controls](commands_2.png) {.border .shadow}
 
 When using an override Configuration, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated Configuration override. To revert this change back to its default setting, simply uncheck the checkbox.
 
