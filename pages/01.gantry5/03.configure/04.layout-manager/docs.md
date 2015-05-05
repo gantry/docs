@@ -27,7 +27,7 @@ If you select a **Preset**, your layout will be replaced with a preset one that 
 
 ![Choosing a Layout Preset](choosing2.png) {.border .shadow}
 
-Selecting on one of the **Configuration** options will copy the **Layout Manager** setup from the selected Configuration and load it into the one you are working in. This is a quick way to base your layout on another Configuration without having to manually duplicate it.
+Selecting one of the **Configuration** options will copy the **Layout Manager** setup from the selected Configuration and load it into the one you are working in. This is a quick way to base your layout on another Configuration without having to manually duplicate it.
 
 >>>> In the initial beta, your Layout Preset will automatically replace any **Particles** or **Positions** you have assigned. In the future, we plan to have it keep your changes across presets as long as these Particles are placed in sections that exist across presets.
 
@@ -36,7 +36,7 @@ Controls
 
 ![Controls](controls.png) {.border .shadow}
 
-The **Layout Manager** has a number of useful controls to help you configure, save, import, and export your layouts. In this section, will we go over some of the things you will find in the **Layout** administrative panel.
+The **Layout Manager** has a number of useful controls to help you configure, save, import, and export your layouts. In this section, we will go over some of the things you will find in the **Layout** administrative panel.
 
 ### Load
 
@@ -48,11 +48,11 @@ The **Clear** button wipes out the Particles (including Positions, Standard Part
 
 ### Save Layout
 
-The **Save Layout** button is a quick and easy way to save the current layout, its particle, and settings to the active Configuration. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
+The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active Configuration. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
 
 ### History
 
-The **History** buttons give you the ability to go back and forth between changes you have made in your Layout. This history is persistent through the current session, and make it easy to go backwards and forwards, saving once you have reached a point you are happy with.
+The **History** buttons give you the ability to go back and forth between changes you have made in your Layout. This history is persistent through the current session, and makes it easy to go backwards and forwards, saving once you have reached a point you are happy with.
 
 You can even go back after hitting **Save Layout**, should one of your changes not come out the way you expected after checking the frontend.
 
