@@ -24,7 +24,7 @@ The first thing you will need to do is ensure that the Gantry Framework and a Ga
 
 Once this is done, navigate to **Administrator > Extensions > Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
 
-![Control Panel Method](../../basics/updating/gantry_update_1.png) {.border .shadow}
+![Control Panel Method](gantry_update_1.png) {.border .shadow}
 
 Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Templates** in the sidebar to the left under the **Extensions** section.
 
