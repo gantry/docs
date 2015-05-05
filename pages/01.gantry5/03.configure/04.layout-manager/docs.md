@@ -123,15 +123,15 @@ These are **Particle** level settings, which exist in every type of Block. They 
 
 ![Settings](block_settings_2.png) {.border .shadow}
 
-| Setting         | Description                                                                                                  |
-| :------         | :----------------------------------                                                                          |
-| CSS ID          | Enables you to set an ID attribute.                                                                          |
-| CSS Classes     | This is where you would enter any CSS class you would like to have apply to the Block.                       |
-| Variations      | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.              |
-| HTML Attributes | This field is where you would add any other HTML attributes to the Block.                                    |
-| Block Size      | This field gives you the ability to set a specific size (in percentage) the Block will take up horizontally. |
+| Setting        | Description                                                                                                  |
+| :------        | :----------------------------------                                                                          |
+| CSS ID         | Enables you to set an ID attribute.                                                                          |
+| CSS Classes    | This is where you would enter any CSS class you would like to have apply to the block.                       |
+| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.              |
+| Tag Attributes | This field is where you would add any other Tag attributes to the block.                                     |
+| Block Size     | This field gives you the ability to set a specific size (in percentage) the block will take up horizontally. |
 
-The **Block** settings make it easy to change the way a particular block looks and behaves, as well as gives you the ability to set a specific width percentage for the Block.
+The **block settings** make it easy to change the way a particular block looks and behaves, as well as gives you the ability to set a specific width percentage for the block.
 
 ### Sidebar Blocks and Grids
 
