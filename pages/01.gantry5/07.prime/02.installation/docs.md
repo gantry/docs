@@ -35,3 +35,5 @@ You should get a successful notice that says Gantry 5 has been registered. Now a
     $ hebe link gantry5 /your/webroot/prime
 
 And you're set up!
+
+>>>> This process has not been thoroughly tested with Windows.
