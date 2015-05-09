@@ -96,7 +96,7 @@ Beta 4
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.3...5.0.0-beta.4" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 4 Changelog</a>
 
-Beta 5 (Current Phase)
+Beta 5
 -----
 
 | Category                                                                         | Milestone                                                                                         | Completed                                             |
@@ -124,38 +124,37 @@ Beta 5 (Current Phase)
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
-Beta 6
+Release Candidate 1 (Current Phase)
+-----
+
+| Category            | Milestone                                                                                                                                                    | Completed                                             |
+| :-----              | :----                                                                                                                                                        | :-----:                                               |
+| Site and Docs       | New Gantry Website with Documentation                                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+| Font Picker         | Local Fonts Included in Font Picker                                                                                                                          | <span style="color:green" class="fa fa-check"></span> |
+|                     | Google Fonts Updated                                                                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+| Particles           | Added System Messages Particle                                                                                                                               | <span style="color:green" class="fa fa-check"></span> |
+| Configurations Page | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)                                                               | <span style="color:green" class="fa fa-check"></span> |
+| Revert to Default   | Ability to Reset a Configuration Parameter to the Main Default Value                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+| Style Management    | Change Styles from Front End by Session/Cookies                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
+| Bug Fixes           | [Many Bug Fixes and Enhancements as Suggested by Beta Testers](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Release+Candidate+1%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.6...5.0.0-rc.1" class="button"><i class="fa fa-fw fa-github"></i> See the RC 1 Changelog</a>
+
+1.0.0 Release
 -----
 
 | Category                         | Milestone                                                                                         | Completed |
 | :-----                           | :----                                                                                             | :-----:   |
-| Menu Editor                      | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
-| Security                         | Security Review                                                                                   |           |
-| Configurations Page              | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)    |           |
-| Layout Manager                   | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
+| Import/Export                    | Ability to Import/Export Data Across Entire Administrative Setup (Layout, Menu, Settings, etc)    |           |
+| Builder                          | Create a Builder for Gantry to Generate Packages for Various Platforms                            |           |
 | Dev/Prod                         | Hook up Dev and Prod Switch                                                                       |           |
+| Security                         | Security Review                                                                                   |           |
+| Menu Editor                      | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
 | Performance Optimization         | Caching                                                                                           |           |
-| Style Management                 | Change Styles from Front End by Session/Cookies                                                   |           |
-| Revert to Default                | Ability to Reset a Configuration Parameter to the Main Default Value                              |           |
-| Language                         | Implement Language Support Across Joomla                                                          |           |
 | File Picker                      | Implement Improved Streams with Merged Folders/Files                                              |           |
 |                                  | Add Ability to Remove Uploaded Files                                                              |           |
+| Language                         | Implement Language Support Across Joomla                                                          |           |
+| Layout Manager                   | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
 | HTML/Markdown Field and Particle | Field that Inherits from textarea and Adds HTML editor plus Markdown Editor - With a Live Preview |           |
 |                                  | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) - With a Live Preview |           |
-
-Beta X
------
-
-| Category | Milestone                      | Completed |
-| :-----   | :----                          | :-----:   |
-| Testing  | Test until comfortable with RC |           |
-
-Release Candidate
------
-
-| Category      | Milestone                                                                                      | Completed |
-| :-----        | :----                                                                                          | :-----:   |
-| Import/Export | Ability to Import/Export Data Across Entire Administrative Setup (Layout, Menu, Settings, etc) |           |
-| Site and Docs | New Gantry Website with Documentation                                                          |           |
-| Builder       | Create a Builder for Gantry to Generate Packages for Various Platforms                         |           |
 

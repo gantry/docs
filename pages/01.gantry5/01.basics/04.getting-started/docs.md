@@ -25,8 +25,6 @@ The first thing you need to do is download the latest build of Gantry 5 and Hydr
 
 <div align="center"><a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.5/joomla-pkg_gantry5_v5.0.0-beta.5.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5</a> <a href="https://github.com/gantry/gantry5/releases/download/5.0.0-beta.5/joomla-tpl_g5_hydrogen_v5.0.0-beta.5.zip" class="button"><i class="fa fa-fw fa-download"></i> Download Hydrogen</a></div>
 
->>> During the initial beta, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
-
 Once you have the latest packages, installation is simple. We have provided a step-by-step guide in the **Installation** portion of this documentation.
 
 <a href="../basics/installation" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>

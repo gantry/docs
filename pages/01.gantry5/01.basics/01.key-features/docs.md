@@ -7,7 +7,7 @@ taxonomy:
 
 Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss.
 
-[plugin:youtube](https://www.youtube.com/watch?v=H0RCz-ziJoo)
+[plugin:youtube](https://www.youtube.com/watch?v=H0RCz-ziJoo) 
 
 #### Responsive Layout System
 
