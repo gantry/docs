@@ -14,8 +14,8 @@ The **Features** tab in Gantry for Joomla gives you access to module-like featur
 
 For WordPress, the equivalent tab is called **Gizmos**. Many of the features used in Joomla are represented by Widgets on WordPress. You can find out more about WordPress gizmos by visiting the [Gizmos guide](../gizmos).
 
-http://youtube.com/embed/CiSkV5QVyhY
- 
+[plugin:youtube](https://www.youtube.com/watch?v=CiSkV5QVyhY)
+
 >>> A quick way to see the power of Gantry features is to check out this short screencast. It covers some of the basics of features and how they work and how they can be easily integrated into your design.
 
 Date

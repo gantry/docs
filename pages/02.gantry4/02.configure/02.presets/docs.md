@@ -12,7 +12,7 @@ process:
 
 Gantry makes use of a powerful Preset system that allows developers and site builders to create preset styles and configurations.
 
-http://youtube.com/embed/n6FsulE58lU
+[plugin:youtube](https://www.youtube.com/watch?v=n6FsulE58lU)
 
 >>> Creating a custom preset is a very simple task with Gantry. Check out this short video on how to customize your layout then create a custom preset based on your configuration options.
 
