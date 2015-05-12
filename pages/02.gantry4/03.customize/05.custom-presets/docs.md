@@ -14,14 +14,14 @@ This section covers the creation of a new custom preset in a Gantry-enabled temp
 
 {% set tab1 %}
 
-http://youtu.be/n6FsulE58lU
+[plugin:youtube](https://www.youtube.com/watch?v=n6FsulE58lU)
 
 >>> Creating a custom preset is a very simple task with Gantry. Check out this short video on how to customize your layout then create a custom preset based on your configuration options.
 
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/_bU95HLptUs
+[plugin:youtube](https://www.youtube.com/watch?v=_bU95HLptUs)
 
 >>> Creating a custom preset is a remarkably straightforward task with Gantry. Check out this short video on how to customize your layout and create a custom preset based on your configuration options.
 

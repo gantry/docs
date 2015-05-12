@@ -14,14 +14,14 @@ The Gantry Framework was originally based on the [960 Grid System](http://960.gs
 
 {% set tab1 %}
 
-http://youtu.be/AKqppYSttEE
+[plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
 
 >>> Check out the Gantry introductory video to see the responsive capabilities of Gantry 4-powered template designs. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/akpCH1JNvaY
+[plugin:youtube](https://www.youtube.com/watch?v=akpCH1JNvaY)
 
 >>> Check out the Gantry introductory video to see the responsive capabilities of Gantry 4 powered template designs. Powerful features, presets, layout configuration, responsive design, and much, much more.
 

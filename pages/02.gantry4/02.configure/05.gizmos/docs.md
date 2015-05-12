@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-http://youtu.be/oQmpE_0OVro
+[plugin:youtube](https://www.youtube.com/watch?v=oQmpE_0OVro)
 
 >>> A quick way to see the power of Gantry gizmos is to check out this short screencast. It covers some of the basics of gizmos and how they work and how they can be easily integrated into your design.
 

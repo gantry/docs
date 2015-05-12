@@ -14,14 +14,14 @@ This section covers moving a set of module positions within your Gantry-enabled 
 
 {% set tab1 %}
 
-http://youtu.be/snZSUSWMnpM
+[plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/xYsB2VKmkFU
+[plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
 
 >>> Check out this quick screencast on Widget Positions to get an overview of how this feature works within WordPress and the Gantry Framework.
 

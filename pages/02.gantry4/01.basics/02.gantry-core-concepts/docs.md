@@ -14,14 +14,14 @@ One of the key concepts that make Gantry so powerful is its ability to provide a
 
 {% set tab1 %}
 
-http://youtu.be/AKqppYSttEE
+[plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
 
 >>> Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/akpCH1JNvaY
+[plugin:youtube](https://www.youtube.com/watch?v=akpCH1JNvaY)
 
 Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
 

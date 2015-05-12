@@ -16,7 +16,7 @@ For example, you might want to have a module on the left and a module on the rig
 
 {% set tab1 %}
 
-http://youtu.be/Lfl4nQnduvo
+[plugin:youtube](https://www.youtube.com/watch?v=Lfl4nQnduvo)
 
 >>> Forcing the module positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
 
@@ -35,7 +35,7 @@ The result will be:
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/ulsy2fkpyfA
+[plugin:youtube](https://www.youtube.com/watch?v=ulsy2fkpyfA)
 
 >>> Forcing the widget positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
 

@@ -14,14 +14,14 @@ This section covers how to add a new row of module positions to the Gantry Frame
 
 {% set tab1 %}
 
-http://youtu.be/snZSUSWMnpM
+[plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
 {% endset %}
 {% set tab2 %}
 
-http://youtu.be/xYsB2VKmkFU
+[plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
 
 >>> Check out this quick screencast on *Widget Positions* to get an overview of how widget positions work within WordPress and the Gantry Framework.
 
