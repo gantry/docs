@@ -14,7 +14,7 @@ This section covers how to add a new row of module positions to the Gantry Frame
 
 {% set tab1 %}
 
-[plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
+[plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
