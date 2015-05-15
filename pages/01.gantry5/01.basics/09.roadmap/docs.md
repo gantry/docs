@@ -165,7 +165,7 @@ Release Candidate 2 (Current Phase)
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
 
-1.0.0 Release
+5.0.0 Release
 -----
 
 | Category                         | Milestone                                                                                         | Completed |
