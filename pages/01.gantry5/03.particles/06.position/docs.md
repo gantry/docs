@@ -14,7 +14,7 @@ A **Module Positions** particle plays an important role in the layout of a page.
 
 Instead of breaking out your text editor to rename and/or create widget positions, you can do so with a few clicks of the mouse. This is also easier than going through the widgets and reassigning them to the new positions scheme one-by-one.
 
-In addition, you can easily create vastly different positions setups between Configurations, enabling you to have an entirely different positions set and layout from one page to the next.
+In addition, you can easily create vastly different positions setups between outlines, enabling you to have an entirely different positions set and layout from one page to the next.
 
 Creating, Deleting, and Moving Positions
 -----
@@ -95,7 +95,7 @@ The settings for a **Position** Particle can vary between content management sys
 | :------ | :----------------------------------                |
 | Key     | Sets the reference key used in module assignments. |
 
-There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key** for the Configuration. In the event that you are editing the settings of the default Configuration, this key becomes the global default, which is used unless overridden in either another configuration's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
+There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key** for the outline. In the event that you are editing the settings of the default outline, this key becomes the global default, which is used unless overridden in either another outline's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
 
 {% endset %}
 {% set tab2 %}

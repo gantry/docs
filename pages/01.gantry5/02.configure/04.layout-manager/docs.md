@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Configurations. 
+The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Outlines. 
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
@@ -21,13 +21,13 @@ Using the Load Button
 
 ![Choosing a Layout Preset](choosing1.png) {.border .shadow}
 
-Each **Configuration** is assigned a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **Configurations**.
+Each **outline** is assigned a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **outlines**.
 
 If you select a **Preset**, your layout will be replaced with a preset one that comes with the theme. These presets act as starting points for your design, giving you a set of **Sections**, **Positions**, and/or pre-placed **Particles** to work with. The presets have been configured to cover a range of possible layouts a user would want to use on their design, as set by the theme creator. This includes layouts with and without sidebars, and range from incredibly simple to complex.
 
 ![Choosing a Layout Preset](choosing2.png) {.border .shadow}
 
-Selecting one of the **Configuration** options will copy the **Layout Manager** setup from the selected Configuration and load it into the one you are working in. This is a quick way to base your layout on another Configuration without having to manually duplicate it.
+Selecting one of the **Outlines** options will copy the **Layout Manager** setup from the selected outline and load it into the one you are working in. This is a quick way to base your layout on another outline without having to manually duplicate it.
 
 >>>> In the initial beta, your Layout Preset will automatically replace any **Particles** or **Positions** you have assigned. In the future, we plan to have it keep your changes across presets as long as these Particles are placed in sections that exist across presets.
 
@@ -40,7 +40,7 @@ The **Layout Manager** has a number of useful controls to help you configure, sa
 
 ### Load
 
-As covered in the above section, the **Load** button gives you the opportunity to load a **Layout Preset** based on pre-assembled presets included with the theme or on the **Layout** of another **Configuration**.
+As covered in the above section, the **Load** button gives you the opportunity to load a **Layout Preset** based on pre-assembled presets included with the theme or on the **Layout** of another **outline**.
 
 ## Clear
 
@@ -48,7 +48,7 @@ The **Clear** button wipes out the Particles (including Positions, Standard Part
 
 ### Save Layout
 
-The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active Configuration. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
+The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active outline. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
 
 ### History
 
@@ -65,7 +65,7 @@ The **Particles** section (which appears along the left-hand side of the **Layou
 
 Once you have decided on an item you would like to apply to the layout, simply **click and drag** it to the desired place on the Layout.
 
-These items will apply based on their default settings as set in the **Settings** administrative panel for the active Configuration. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
+These items will apply based on their default settings as set in the **Settings** administrative panel for the active outline. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
 
 Layout
 -----
@@ -89,7 +89,7 @@ You can add **Grids** by selecting the **plus (+)** icon in the upper-right corn
 | Class      | Enables you to add a CSS class for the Section.     |
 | Attributes | Enables you to add HTML attributes for the Section. |
 
-The **Section** settings give you the ability to change the way a particular section renders and behaves on the frontend. By adding a **custom CSS class**, or **HTML attributes**, you can do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
+The **Section** settings give you the ability to change the way a particular section renders and behaves on the front end. By adding a **custom CSS class**, or **HTML attributes**, you can do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
 
 ### Grids
 

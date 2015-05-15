@@ -12,21 +12,21 @@ process:
 
 Because Gantry 5 is so different from any version of Gantry before it, we came up with some terms to help make sense of the relationships Gantry's new features have with one-another. In this section, we will define some of these terms and explain how they relate to one-another when you are building your Gantry-powered website.
 
-### Configuration
+### Outline
 
-A **Configuration** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Configuration.
+A **Outline** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Outline.
 
-Each Configuration can have its own set of Style, Particle, and Layout settings. A Configuration can also be assigned to specific pages, such as the **Home** or **Contact** page, giving them a unique look that sits apart from the rest of your site.
+Each Outline can have its own set of Style, Particle, and Layout settings. An Outline can also be assigned to specific pages, such as the **Home** or **Contact** page, giving them a unique look that sits apart from the rest of your site.
 
-The **Base Configuration** acts as the global default by which all other Configurations are based. This Configuration can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Configurations.
+The **Base Outline** acts as the global default by which all other Outlines are based. This Outline can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Outlines.
 
 {% set tab1 %}
 
-![Creating a Configuration](getting_started_3.png) {.border .shadow}
+![Creating a Outline](getting_started_3.png) {.border .shadow}
 
-To create a new Configuration in Joomla, simply navigate to the **Template Manager** by going to **Administrator > Extensions > Template Manager**, select the Gantry-powered template, and click **Duplicate**.
+To create a new Outline in Joomla, simply navigate to the **Template Manager** by going to **Administrator > Extensions > Template Manager**, select the Gantry-powered template, and click **Duplicate**.
 
-This will create a new style, which Gantry 5 will pick up and treat as a Configuration.
+This will create a new style, which Gantry 5 will pick up and treat as a Outline.
 
 {% endset %}
 {% set tab2 %}

@@ -34,7 +34,7 @@ You can format the file's content in either **SCSS** or **CSS**. Gantry will aut
 
 ![Recompile CSS](custom_2.png) {.border .shadow}
 
-Once you have added this file, and put your custom CSS/SCSS within, you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the Configurations you wish to have the custom styling apply for. 
+Once you have added this file, and put your custom CSS/SCSS within, you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
 
 This will tell Gantry to take the new styling and apply it to the page(s). Once you have done this, you should be able to see your changes on the front end.
 

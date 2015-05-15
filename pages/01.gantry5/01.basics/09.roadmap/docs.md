@@ -25,13 +25,13 @@ Beta 1
 | Variations (Module Suffixes) | Add Template-defined Variations to Selectize Fields for Easy Use Alongside CSS Classes                          | <span style="color:green" class="fa fa-check"></span> |
 | Layout Switcher              | Ability to Change the Layout Based on Different Configurations or Presets as Well as Clearing the Whole Layout  | <span style="color:green" class="fa fa-check"></span> |
 | Assignments                  | Implement Assignments for Joomla                                                                                | <span style="color:green" class="fa fa-check"></span> |
-|                              | Load Correct Configuration Based on Assignment in Front End                                                     | <span style="color:green" class="fa fa-check"></span> |
+|                              | Load Correct Outline Based on Assignment in Front End                                                           | <span style="color:green" class="fa fa-check"></span> |
 | Updater                      | Hook Up Update Button in Joomla                                                                                 | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Button Implemented in Hydrogen Theme                                                                     | <span style="color:green" class="fa fa-check"></span> |
 | Language                     | Integrate Language Support Translations for Joomla                                                              | <span style="color:green" class="fa fa-check"></span> |
 |                              | Translations Support in Twig                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Hydrogen                     | Complete the Hydrogen Home Page, Serving as a Starting Point for Beta Testing                                   | <span style="color:green" class="fa fa-check"></span> |
-| Menu                         | Refine Menu Item Settings to Meet Gantry 5 and User Requirements                                               | <span style="color:green" class="fa fa-check"></span> |
+| Menu                         | Refine Menu Item Settings to Meet Gantry 5 and User Requirements                                                | <span style="color:green" class="fa fa-check"></span> |
 |                              | Rework the front-end menu JS                                                                                    | <span style="color:green" class="fa fa-check"></span> |
 |                              | Update Menu Structure to Following New Configuration Options                                                    | <span style="color:green" class="fa fa-check"></span> |
 | Builder                      | Create a Builder for Gantry to Generate Packages for Platforms                                                  | <span style="color:green" class="fa fa-check"></span> |
@@ -88,11 +88,11 @@ Beta 4
 | :-----                             | :----                                                                                                                                  | :-----:                                               |
 | Collapsed Particles                | Sidebar is Now Fully Collapsing on the Front End ([#54](https://github.com/gantry/gantry5/issues/54))                                  | <span style="color:green" class="fa fa-check"></span> |
 | Smart Warnings                     | Smart Warnings on Pending Changes ([#106](https://github.com/gantry/gantry5/issues/106))                                               | <span style="color:green" class="fa fa-check"></span> |
-| Menu Editor and About Admin Panels | Configuration Bar Hidden in Global Panels ([#99](https://github.com/gantry/gantry5/issues/99))                                         | <span style="color:green" class="fa fa-check"></span> |
+| Menu Editor and About Admin Panels | Outline Bar Hidden in Global Panels ([#99](https://github.com/gantry/gantry5/issues/99))                                         | <span style="color:green" class="fa fa-check"></span> |
 |                                    | Reduced Height of Module List for Smaller Screens ([#113](https://github.com/gantry/gantry5/issues/113))                               | <span style="color:green" class="fa fa-check"></span> |
 | Assignments Admin Panel            | Implemented Filtering and All On/Off Toggle ([#71](https://github.com/gantry/gantry5/issues/71))                                       | <span style="color:green" class="fa fa-check"></span> |
 | Bug Fixes                          | [Many Bug Fixes for Menu, Offcanvas, and Menu Editor](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+4%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
-| Presets                            | Recompiling Presets from Base Configuration Now Recompiles All Configurations Styles                                                   | <span style="color:green" class="fa fa-check"></span> |
+| Presets                            | Recompiling Presets from Base Outline Now Recompiles All Outlines Styles                                                               | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.3...5.0.0-beta.4" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 4 Changelog</a>
 
@@ -117,14 +117,14 @@ Beta 5
 | Gantry 5 Administrator                                                           | Consolidated Action Tools Under Extra Tab in Administrator                                        | <span style="color:green" class="fa fa-check"></span> |
 |                                                                                  | Added Joomla - Gantry 4 Preset (thanks [@Omegatcu](https://github.com/Omegatcu))                  | <span style="color:green" class="fa fa-check"></span> |
 |                                                                                  | Implemented Reset Field Icon to Clear Out the Field with a Click                                  | <span style="color:green" class="fa fa-check"></span> |
-|                                                                                  | Back to Configurations Now Keeps Track of Your Most Recent Active Tab                             | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Back to Setup Now Keeps Track of Your Most Recent Active Tab                             | <span style="color:green" class="fa fa-check"></span> |
 |                                                                                  | Implemented Preset Matcher, Detecting When a Combination of Styles Matches a Preset               | <span style="color:green" class="fa fa-check"></span> |
-|                                                                                  | Added Configurations page (Work in Progress)                                                      | <span style="color:green" class="fa fa-check"></span> |
+|                                                                                  | Added Outlines page (Work in Progress)                                                      | <span style="color:green" class="fa fa-check"></span> |
 | Particles                                                                        | Extended Google Analytics Particle (thanks [@Omegatcu](https://github.com/Omegatcu))              | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
-Release Candidate 1 (Current Phase)
+Release Candidate 1
 -----
 
 | Category            | Milestone                                                                                                                                                    | Completed                                             |
@@ -133,12 +133,37 @@ Release Candidate 1 (Current Phase)
 | Font Picker         | Local Fonts Included in Font Picker                                                                                                                          | <span style="color:green" class="fa fa-check"></span> |
 |                     | Google Fonts Updated                                                                                                                                         | <span style="color:green" class="fa fa-check"></span> |
 | Particles           | Added System Messages Particle                                                                                                                               | <span style="color:green" class="fa fa-check"></span> |
-| Configurations Page | Enable Configuration Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)                                                               | <span style="color:green" class="fa fa-check"></span> |
-| Revert to Default   | Ability to Reset a Configuration Parameter to the Main Default Value                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+| Outlines Page | Enable Outline Management within Gantry Administrator (Admin, Add, Delete, Rename, Copy)                                                               | <span style="color:green" class="fa fa-check"></span> |
+| Revert to Default   | Ability to Reset an Outline Parameter to the Main Default Value                                                                                         | <span style="color:green" class="fa fa-check"></span> |
 | Style Management    | Change Styles from Front End by Session/Cookies                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
 | Bug Fixes           | [Many Bug Fixes and Enhancements as Suggested by Beta Testers](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Release+Candidate+1%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.6...5.0.0-rc.1" class="button"><i class="fa fa-fw fa-github"></i> See the RC 1 Changelog</a>
+
+Release Candidate 2 (Current Phase)
+-----
+
+| Category       | Milestone                                                                                                                                 | Completed                                             |
+| :-----         | :----                                                                                                                                     | :-----:                                               |
+| Outlines       | Configurations are Now Called Outlines ([#260](https://github.com/gantry/gantry5/issues/260))                                             | <span style="color:green" class="fa fa-check"></span> |
+| Layout Manager | You Can Now Switch Layouts from the Layout Manager While Preserving Current Particles                                                     | <span style="color:green" class="fa fa-check"></span> |
+| Menus          | Submenu Items Can Now Have Custom Widths Set                                                                                              | <span style="color:green" class="fa fa-check"></span> |
+|                | Menu Items Can Now Have CSS Class Names Added                                                                                             | <span style="color:green" class="fa fa-check"></span> |
+|                | Menu Particle Now Includes Option that Allows Setting it as Target for Mobile Menu ([#220](https://github.com/gantry/gantry5/issues/220)) | <span style="color:green" class="fa fa-check"></span> |
+|                | Fixed Alignments for Menu When in Header Position                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+|                | Fixed Menu Item Open in New Tab                                                                                                           | <span style="color:green" class="fa fa-check"></span> |
+| Particles      | To-Top Particle Adds a New Text Field for Customization (default: `To Top`)                                                               | <span style="color:green" class="fa fa-check"></span> |
+|                | Fixed Date Particle Not Showing Proper Date in Joomla                                                                                     | <span style="color:green" class="fa fa-check"></span> |
+| Miscellanious  | All Modals with **Apply** Can Now Also Include **Apply and Save** for Multiple Actions                                                    | <span style="color:green" class="fa fa-check"></span> |
+|                | Added Useful Body Classnames (`dir-ltr`, `dir-rtl`, and `g-style-presetX`)                                                                | <span style="color:green" class="fa fa-check"></span> |
+|                | Added Print Media                                                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+|                | Fixed Joomla Module Suffixes Not Prepending an Empty Space                                                                                | <span style="color:green" class="fa fa-check"></span> |
+|                | Duplicated Action Bar in **Styles**, **Settings**, and **Layout** Panel for Easier Access                                                 | <span style="color:green" class="fa fa-check"></span> |
+| Font Picker    | Optimized Font Picker                                                                                                                     | <span style="color:green" class="fa fa-check"></span> |
+|                | Font and Icon Picker Automatically Have Search in Focus When Opened                                                                       | <span style="color:green" class="fa fa-check"></span> |
+|                | Duplicated the action bar for Style / Settings / Layout to also show at the bottom for easy reach                                         | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
 
 1.0.0 Release
 -----

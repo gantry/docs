@@ -19,7 +19,7 @@ The **Menu Editor** panel in the **Gantry Admin** is where you can configure and
 
 The **Menu Editor** administrative panel takes what your CMS' built-in Menu Manager has and enables you to override it. Changes you make in this panel do not in any way affect the way the CMS handles Menu items.
 
-This panel is a Global panel, that is not specific to any Configuration. It's because of this that the changes you make here will affect all instances of a particular menu as it appears in any Configuration.
+This panel is a Global panel, that is not specific to any outline. It's because of this that the changes you make here will affect all instances of a particular menu as it appears in any outline.
 
 ## Selecting a Menu
 
@@ -143,7 +143,7 @@ The popup that appears enables you to both search for and select a particle to u
 
 ![Particle Injection](menu_particle_4.png) {.border .shadow}
 
-From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the Configuration's **Settings** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
+From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the outline's **Settings** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
 
 ![Particle Injection](menu_particle_2.png) {.border .shadow}
 

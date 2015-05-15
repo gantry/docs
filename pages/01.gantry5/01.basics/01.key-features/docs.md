@@ -41,7 +41,7 @@ Gantry 5's new Particles system makes it easy to create, configure, and manage c
 
 #### Flexible and Easy Layout Manager
 
-Set up and configure page layouts with Gantry 5's new Layout Manager. Featuring drag-and-drop functionality that gives you the power to place content blocks, resize them, and configure their unique settings in seconds. Load layout presets or duplicate the layout of another Configuration with a click of the mouse, and customize virtually every aspect of the page layout without ever having to touch a text editor.
+Set up and configure page layouts with Gantry 5's new Layout Manager. Featuring drag-and-drop functionality that gives you the power to place content blocks, resize them, and configure their unique settings in seconds. Load layout presets or duplicate the layout of another Outline with a click of the mouse, and customize virtually every aspect of the page layout without ever having to touch a text editor.
 
 #### No Programming Experience Necessary
 
@@ -51,9 +51,9 @@ Adding and moving positions, resizing blocks, and more can be done with drag-and
 
 Change the way your site's menus look with Gantry 5's powerful Menu Editor. Quickly insert Particles, rearrange menu items, and add icons in seconds.
 
-#### New Configurations System
+#### New Outline System
 
-Theme overrides are now part of Gantry 5's Configurations system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed. 
+Theme overrides are now part of Gantry 5's Outline system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed. 
 
 #### Use SCSS, LESS or CSS
 
