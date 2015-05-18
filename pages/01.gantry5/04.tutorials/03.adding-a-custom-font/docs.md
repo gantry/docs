@@ -47,7 +47,7 @@ Step 2: Adding the Necessary CSS
 
 {% set tab1 %}
 
-[Create your custom stylesheet file](../adding-a-custom-stylesheet), `custom.scss`, and add it to `/templates/[TEMPLATE]/custom/scss/`. 
+[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `/templates/[TEMPLATE]/custom/scss/`. 
 
 Add the following to the custom SCSS file:
 

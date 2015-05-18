@@ -1,5 +1,5 @@
 ---
-title: Adding a Custom Stylesheet
+title: Adding a Custom Style Sheet
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-Adding a custom stylesheet is a fairly straightforward process. The first thing you should do is create the custom SCSS/CSS file. You can do so in just about any text editor.
+Adding a custom style sheet is a fairly straightforward process. The first thing you should do is create the custom SCSS/CSS file. You can do so in just about any text editor.
 
 ![Custom File](custom.png) {.border .shadow}
 
@@ -28,7 +28,7 @@ Coming soon...
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-This file will then be compiled as an override to the theme's core stylesheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
+This file will then be compiled as an override to the theme's core style sheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
 
 You can format the file's content in either **SCSS** or **CSS**. Gantry will automatically pick it up and compile it properly.
 
