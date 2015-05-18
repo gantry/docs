@@ -161,7 +161,6 @@ Release Candidate 2 (Current Phase)
 |                | Duplicated Action Bar in **Styles**, **Settings**, and **Layout** Panel for Easier Access                                                 | <span style="color:green" class="fa fa-check"></span> |
 | Font Picker    | Optimized Font Picker                                                                                                                     | <span style="color:green" class="fa fa-check"></span> |
 |                | Font and Icon Picker Automatically Have Search in Focus When Opened                                                                       | <span style="color:green" class="fa fa-check"></span> |
-|                | Duplicated the action bar for Style / Settings / Layout to also show at the bottom for easy reach                                         | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/release/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
 
