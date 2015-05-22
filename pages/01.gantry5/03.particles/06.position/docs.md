@@ -1,5 +1,5 @@
 ---
-title: Module Positions
+title: Positions
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -10,9 +10,9 @@ process:
     twig: true
 ---
 
-A **Module Positions** particle plays an important role in the layout of a page. Each position Particle represents a position where widgets can be assigned.
+A **Module Positions** particle plays an important role in the layout of a page. Each position Particle represents a position where modules can be assigned.
 
-Instead of breaking out your text editor to rename and/or create widget positions, you can do so with a few clicks of the mouse. This is also easier than going through the widgets and reassigning them to the new positions scheme one-by-one.
+Instead of breaking out your text editor to rename and/or create widget positions, you can do so with a few clicks of the mouse. This is also easier than going through the modules/widgets and reassigning them to the new positions scheme one-by-one.
 
 In addition, you can easily create vastly different positions setups between outlines, enabling you to have an entirely different positions set and layout from one page to the next.
 
@@ -21,13 +21,13 @@ Creating, Deleting, and Moving Positions
 
 ![Positions](positions_6.png)
 
-If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Positions Particle** and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign widgets to in order to have them appear in the position.
+If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Positions Particle** and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
 {% set tab1 %}
 
 ![Positions](positions_1.png)
 
-If you are migrating from an existing template, and you have widgets that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing widgets without having to reassign them one-by-one.
+If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
 
 {% endset %}
 {% set tab2 %}
@@ -39,9 +39,9 @@ Coming Soon...
 
 Deleting a position is just as easy as creating one. Just drag-and-drop the position to the top of the **Layout Manager** to a section that appears with the label **Drop Here** to **Delete**. This will delete the position. If you change your mind, just click the **Back** arrow in the **History** tool to bring it back.
 
-If you want to disable a position temporarily (which hides its assigned widgets), you can do so by clicking the settings cogwheel on the right-hand side of the position in Layout Manager and toggling the red/green activation switch in the upper-right area of the Particle settings tab. The position will still show in the frontend but it won't be rendered, so if you would like to re-enable it later on, you can do so.
+If you want to disable a position temporarily (which hides its assigned modules/widgets), you can do so by clicking the settings cogwheel on the right-hand side of the position in Layout Manager and toggling the red/green activation switch in the upper-right area of the Particle settings tab. The position will still show in the frontend but it won't be rendered, so if you would like to re-enable it later on, you can do so.
 
-Moving positions around the layout is also just a matter of dragging and dropping them where you want them to go. If you want your main Showcase widgets to appear under the features widgets, you can move them without having to edit a single file.
+Moving positions around the layout is also just a matter of dragging and dropping them where you want them to go. If you want your main Showcase modules/widgets to appear under the features modules/widgets, you can move them without having to edit a single file.
 
 Virtually Unlimited Positions Per row
 -----
