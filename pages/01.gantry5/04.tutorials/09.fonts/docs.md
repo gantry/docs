@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: Adding and Using Fonts
 taxonomy:
     category: docs
     tag: [gantry5]
