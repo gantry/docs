@@ -55,7 +55,7 @@ Beta 2
 |                | Updated Sections and Blocks to Use KeyValue Field                                                                                       | <span style="color:green" class="fa fa-check"></span> |
 | PHP            | Removed `fileinfo` Dependency                                                                                                           | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.1...release/5.0.0-beta.2" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.1...5.0.0-beta.2" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 2 Changelog</a>
 
 Beta 3
 -----
@@ -79,7 +79,7 @@ Beta 3
 | Joomla                   | Joomla Manifest is Now Being Updated with All of the Available Positions                                  | <span style="color:green" class="fa fa-check"></span> |
 | Installer                | Fixed Joomla Post Installation Issues                                                                     | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.2...5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.2...5.0.0-beta.3" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 3 Changelog</a>
 
 Beta 4
 -----
@@ -94,7 +94,7 @@ Beta 4
 | Bug Fixes                          | [Many Bug Fixes for Menu, Offcanvas, and Menu Editor](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Beta+4%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
 | Presets                            | Recompiling Presets from Base Outline Now Recompiles All Outlines Styles                                                               | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.3...5.0.0-beta.4" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 4 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.3...5.0.0-beta.4" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 4 Changelog</a>
 
 Beta 5
 -----
@@ -122,7 +122,7 @@ Beta 5
 |                                                                                  | Added Outlines page (Work in Progress)                                                      | <span style="color:green" class="fa fa-check"></span> |
 | Particles                                                                        | Extended Google Analytics Particle (thanks [@Omegatcu](https://github.com/Omegatcu))              | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
 Release Candidate 1
 -----
@@ -138,7 +138,7 @@ Release Candidate 1
 | Style Management    | Change Styles from Front End by Session/Cookies                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
 | Bug Fixes           | [Many Bug Fixes and Enhancements as Suggested by Beta Testers](https://github.com/gantry/gantry5/issues?q=milestone%3A%22Release+Candidate+1%22+is%3Aclosed) | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-beta.6...5.0.0-rc.1" class="button"><i class="fa fa-fw fa-github"></i> See the RC 1 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.5...5.0.0-rc.1" class="button"><i class="fa fa-fw fa-github"></i> See the RC 1 Changelog</a>
 
 Release Candidate 2 (Current Phase)
 -----
@@ -162,7 +162,7 @@ Release Candidate 2 (Current Phase)
 | Font Picker    | Optimized Font Picker                                                                                                                     | <span style="color:green" class="fa fa-check"></span> |
 |                | Font and Icon Picker Automatically Have Search in Focus When Opened                                                                       | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/release/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
 
 5.0.0 Release
 -----
