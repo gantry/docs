@@ -85,7 +85,6 @@ There are six types of menu items in the **Menu Editor**. Here is a breakdown of
 | Separator      | Non-clickable menu item that carries a name, usually used for top-level menus with one or more sub-menus. |
 | Heading        | A non-clickable menu item that contains text only.                                                        |
 
->>>> **Particle** injection is not supported in the initial beta release as it is still in development.
 
 The sixth type of menu item, which is added and configured in the **Menu Editor** are **Particles**. This will allow you to do things like create a block of information that appears in the menu.
 
@@ -103,7 +102,7 @@ Injecting modules into your menus is easy with Gantry's **Menu Editor**. Above t
 
 This popup has a lot of useful information to help you find the module you are looking for. A search bar located at the top enables you to quickly narrow down your search while the module buttons themselves provide you with information on the module's **name**, **published status**, **type**, and **assigned position**.
 
-You do not have to assign your modules to any positions to make them work in the menu. By adding the module using the Menu Editor, the module is rendered on the front end as though the module has been assigned to a position within the menu.
+You do not have to assign your modules to any positions to make them work in the menu. By adding the module using the Menu Editor, the module is rendered on the front end as though the module has been assigned to a position within the menu. However, you need to make sure that the module is assigned to display either on all or on certain pages only via the module's menu assignments settings, or else the module may not render.
 
 ### Practical Example
 
