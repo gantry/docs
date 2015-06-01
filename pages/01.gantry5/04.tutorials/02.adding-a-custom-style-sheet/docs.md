@@ -18,7 +18,7 @@ Adding a custom style sheet is a fairly straightforward process. The first thing
 
 To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/scss/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
->>>> Joomla doesn't support creating SCSS files in its built-in template customization tool. For this reason, custom SCSS files would need to be added via FTP. This hurdle is being addressed during Gantry 5's beta.
+>>>> Joomla doesn't support creating SCSS files in its built-in template customization tool.
 
 {% endset %}
 {% set tab2 %}
@@ -35,6 +35,8 @@ You can format the file's content in either **SCSS** or **CSS**. Gantry will aut
 ![Recompile CSS](custom_2.png) {.border .shadow}
 
 Once you have added this file, and put your custom CSS/SCSS within, you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
+
+>>>> We do not recommend editing or overriding the `css/custom.css` or `css-compiled/custom.css` files as any of these changes will be lost and/or overridden when the custom.scss file recompiles. You can place pure CSS in the `custom.scss` file and it will work just fine.
 
 This will tell Gantry to take the new styling and apply it to the page(s). Once you have done this, you should be able to see your changes on the front end.
 
