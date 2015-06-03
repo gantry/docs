@@ -43,7 +43,7 @@ Your theme folder should now look like this:
 
 {% endverbatim %}
 
-Now you are ready to inject `Mobile_Detect` into gantry by editing the `theme.php` and adding the following simple lines of code at the bottom of the file:
+Now you are ready to inject `Mobile_Detect` into gantry by editing the `theme.php` file and adding the following simple lines of code at the bottom of the file:
 
 {% verbatim %}
 
@@ -61,7 +61,7 @@ This will make the Mobile Detect library available to the `twig` files via the `
 
 ## Putting the Class to Use
 
-Once you have the class injected, you will be able to reference it from any  theme's twig files. This includes core twig files for the theme, individual particles, etc.
+Once you have the class injected, you will be able to reference it from any of the theme's twig files. This includes core twig files for the theme, individual particles, etc.
 
 Here is an example of a call that puts **Mobile Detect** to use.
 
@@ -77,11 +77,11 @@ Here is an example of a call that puts **Mobile Detect** to use.
 
 ## Real World Example
 
-Let's create a simple new Particle `Mobile Detect` Particle and let's put together all we've learned.
+Let's create a simple new `Mobile Detect` particle and put together all we've learned.
 
->>>>> More details on how to create a new Particle can be found in the dedicated section [Creating a New Particle](../creating-a-new-particle).
+>>>>> More details on how to create a new particle can be found in the dedicated section [Creating a New Particle](../creating-a-new-particle).
 
-The first step is to create the required `YAML` and `Twig` files for this new particle. You can do so by creating a new folder `custom/particles` (if not there already) and by adding two new files: `mobile_detect.html.twig` and `mobile_detect.yaml`
+The first step is to create the required `YAML` and `Twig` files for this new particle. You can do so by creating a new folder `custom/particles` (if not there already) and by adding two new files: `mobile_detect.html.twig` and `mobile_detect.yaml`.
 
 {% verbatim %}
 ```
@@ -93,7 +93,7 @@ The first step is to create the required `YAML` and `Twig` files for this new pa
 ```
 {% endverbatim %}
 
-For the sake of the example, the Particle is going to be an extremely simple one and this is the content we will use for its files:
+For the sake of the example, the particle is going to be an extremely simple one and this is the content we will use for its files:
 
 ##### mobile_detect.html.twig
 
@@ -135,8 +135,8 @@ type: particle
 ```
 {% endverbatim %}
 
-At this point the Particle `Mobile Detect` is going to show up in Gantry 5 admin. You can now drag & drop the particle anywhere you like in the Layout and after having saved you will see Mobile Detect being used.
+At this point, the `Mobile Detect` particle is going to show up in Gantry 5 administrator. You can now drag and drop the particle anywhere you like in the Layout Manager and after having saved you will see Mobile Detect being used.
 
-Refresh the front-end and you will see something like this:
+Refresh the front end, and you will see something like this:
 
 ![Mobile Detect Particle](mobile_detect.jpg) {.border .shadow}
