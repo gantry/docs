@@ -25,8 +25,6 @@ If you want to add a new widget/module position to a page, you simply need to dr
 
 {% set tab1 %}
 
-![Positions](positions_1.png)
-
 If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
 
 ![Key](key.png) {.border .shadow}
