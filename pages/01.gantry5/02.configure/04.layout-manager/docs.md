@@ -29,7 +29,7 @@ If you select a **Preset**, your layout will be replaced with a preset one that 
 
 Selecting one of the **Outlines** options will copy the **Layout Manager** setup from the selected outline and load it into the one you are working in. This is a quick way to base your layout on another outline without having to manually duplicate it.
 
->>>> In the initial beta, your Layout Preset will automatically replace any **Particles** or **Positions** you have assigned. In the future, we plan to have it keep your changes across presets as long as these Particles are placed in sections that exist across presets.
+>>> The **Keep the Current Particles** option gives you the ability to keep your presently-configured Particles and load the new preset with them intact. If you want to completely load a new preset, along with its own Particles, you will want to uncheck this option. This will remove any Particles you have configured and load the ones that are included in the preset.
 
 Controls
 -----
