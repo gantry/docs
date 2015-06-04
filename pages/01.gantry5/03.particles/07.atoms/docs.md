@@ -16,6 +16,8 @@ For all intents and purposes, Atoms such as **Google Analytics**, and **Custom C
 
 Atoms can be assigned in the **Layout Manager** using a special line set up for non-visual particles. This is typically found at the bottom of the **Layout Manager** and Atoms can be dragged into place here in much the same way as regular rendered Particles would on a visible section.
 
+>>> When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
+
 Google Analytics
 -----
 
