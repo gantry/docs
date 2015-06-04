@@ -28,7 +28,7 @@ Pictured above is the **Showcase** section of the site, which features the **Sam
 
 In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section. 
 
-To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/templates/g5_hydrogen/custom/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/templates/TEMPLATE_DIR/custom/admin/blueprints/layout/`.
 
 Here is what the file looks like before our changes:
 
@@ -82,7 +82,7 @@ form:
       label: Background
 ```
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/g5_hydrogen/custom/engine/templates`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engines/templates`. You will need to create the directory path if it doesn't already exist.
 
 Here is the `section.html.twig` file prior to our changes:
 
