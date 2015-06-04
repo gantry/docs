@@ -40,6 +40,10 @@ Positions are Particles that have content assigned to them by the CMS. In most C
 
 Positions can be both renamed for reference on the backend and rekeyed, allowing you to set the **Key** modules are assigned to. This makes migration from other templates which likely won't have the same positions naming scheme easier. Since migration will likely happen from a template that does not share the same position naming scheme, you can easily rekey the Positions rather than having to reassign modules one-by-one.
 
+![Key](key.png) {.border .shadow}
+
+For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
+
 {% endset %}
 {% set tab2 %}
 

@@ -29,6 +29,10 @@ If you want to add a new widget/module position to a page, you simply need to dr
 
 If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
 
+![Key](key.png) {.border .shadow}
+
+For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
+
 {% endset %}
 {% set tab2 %}
 
