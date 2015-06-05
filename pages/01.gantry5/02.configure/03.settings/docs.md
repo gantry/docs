@@ -17,13 +17,17 @@ Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop
 Controls
 -----
 
-![Controls](controls.png) {.border .shadow}
+![Controls](controls_1.png) {.border .shadow}
 
-The **Save Settings** button applies any changes you have made to the **Settings** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned global outline.
+The **Save Settings** button applies any changes you have made to the **Settings** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned base outline.
 
-![Controls](commands_2.png) {.border .shadow}
+![Controls](controls_2.png) {.border .shadow}
 
 When using an override **outline**, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated outline. To revert this change back to its default setting, simply uncheck the check box.
+
+![Controls](controls_3.png) {.border .shadow}
+
+You can also take advantage of the search field to filter particles, positions, and atoms to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually. 
 
 Particle Settings
 -----
