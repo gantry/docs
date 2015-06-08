@@ -140,7 +140,7 @@ Release Candidate 1
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.5...5.0.0-rc.1" class="button"><i class="fa fa-fw fa-github"></i> See the RC 1 Changelog</a>
 
-Release Candidate 2 (Current Phase)
+Release Candidate 2
 -----
 
 | Category       | Milestone                                                                                                                                 | Completed                                             |
@@ -163,6 +163,61 @@ Release Candidate 2 (Current Phase)
 |                | Font and Icon Picker Automatically Have Search in Focus When Opened                                                                       | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
+
+Release Candidate 3 (Current Phase)
+-----
+
+| Category                        | Milestone                                                                                                                                                       | Completed                                             |
+| :-----                          | :----                                                                                                                                                           | :-----:                                               |
+| Bug Fixes                       | Various Nucleus and Hydrogen Fixes                                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed CSS Ordering for Theme Platform and User Custom, Preventing Bootstrap Override #[416](https://github.com/gantry/gantry5/issues/416)                       | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed `pageclass_sfx` on a Joomla Menu Item, Not Rendering in Com_gantry5 Content (fixes #[346](https://github.com/gantry/gantry5/issues/346))                  | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed reset and preview for icon picker (#[143](https://github.com/gantry/gantry5/issues/416))                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed "Edit all" button in Collections not showing/hiding as intended (fixes #[402](https://github.com/gantry/gantry5/issues/402))                              | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed Menu Issue When Only One Parent with No Siblings Was Present (fixes #[397](https://github.com/gantry/gantry5/issues/397))                                 | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed Empty Menu Values                                                                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed Menu Issue "400 Bad Request: Oops, Invalid Menu Structure" (#[331](https://github.com/gantry/gantry5/issues/331))                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed Issue with Offset Not Showing and Throwing Errors When the Mobile Container Wasn't Present (#[282](https://github.com/gantry/gantry5/issues/282))         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Fixed Various Touch Device Issues (#[277](https://github.com/gantry/gantry5/issues/277))                                                                        | <span style="color:green" class="fa fa-check"></span> |
+| Community-inspired Improvements | Added Support for Joomla Menu Item Link CSS Style (fixes #[389](https://github.com/gantry/gantry5/issues/389))                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Displaying IDs for Outlines (fixes #[411](https://github.com/gantry/gantry5/issues/411))                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added `json_decode` Twig Filter and `get_cookie` Twig Function                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Implemented settings for root containers (fixes #[405](https://github.com/gantry/gantry5/issues/405))                                                           | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added Opening/closing Class Names for the Offcanvas (#[390](https://github.com/gantry/gantry5/issues/390))                                                      | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added an Asterisk Next to the Default Menu (fixes #[391](https://github.com/gantry/gantry5/issues/391))                                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | It Is Now Possible to Edit the Outlines Titles From Anywhere (fixes #[257](https://github.com/gantry/gantry5/issues/257))                                       | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Implemented Global Toggles for Collapsible, Filters and Swatches Toggler (fixes #[349](https://github.com/gantry/gantry5/issues/349))                           | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added Transparency Treatment for Thumbnails in the FilePicker (#[322](https://github.com/gantry/gantry5/issues/322))                                            | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Synchronizing Both Top and Bottom Save Buttons With Changes (#[281](https://github.com/gantry/gantry5/issues/281))                                              | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Removed Apply and Save Button From Modals Within Modals (#[281](https://github.com/gantry/gantry5/issues/281))                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added Dropdown Animations (#284) from [JoomFX](https://github.com/JoomFX)                                                                                       | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added body classes for Outline (outline-`*`) and Menualias (menualias-`*`) (#[310](https://github.com/gantry/gantry5/issues/310))                               | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Stronger regex for detecting colors/unit checks (#[326](https://github.com/gantry/gantry5/issues/326))                                                          | <span style="color:green" class="fa fa-check"></span> |
+|                                 | When the menu is moved in the Mobile Container the #g-navigation is now collapsed (#[181](https://github.com/gantry/gantry5/issues/181))                        | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Hidden Input Fields Are Not Overridable Anymore and They Render as... Hidden in the Settings (#[314](https://github.com/gantry/gantry5/issues/314))             | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Keep Track of Last Deleted Outline and Return to Base Outline if an Outline Is Not Available Anymore (#[296](https://github.com/gantry/gantry5/issues/296))     | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Reintroducing the Preset Images Display for Outlines. Windows Users May Experience ThreadStackSize Issue (#[207](https://github.com/gantry/gantry5/issues/207)) | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Cards (Settings/Styles/Swatches) Are Now Collapsible and Their State Gets Stored in a Cookie (#[349](https://github.com/gantry/gantry5/issues/349))             | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added `Reorder`, `Deletion`, `Add_new` Options for Collections List (fixes #[395](https://github.com/gantry/gantry5/issues/395))                                | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Optimized Global Toggles for Assignments and Filtering (fixes #[398](https://github.com/gantry/gantry5/issues/398))                                             | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Gantry 5 and Hydrogen Now Ship With a MD5 Checksum Listing All the Files (For Future Use) (fixes #[209](https://github.com/gantry/gantry5/issues/209))          | <span style="color:green" class="fa fa-check"></span> |
+| Additions and Enhancements      | Removed Platform-Content Class From Gantry 5 Component Output                                                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Implemented Momentum Scrolling for Offcanvas (For Mobile Devices)                                                                                               | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Reworked the Offcanvas to Use Left/right Instead of Transform. Thanks to This It Is Now Possible to Use `Fixed` Elements/backgrounds in the Page                | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added EditorConfig Settings for Gantry 5 (Please Follow Our EditorConfig Rules When Contributing)                                                               | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Admin Has Been Reworked and Namespaced Behind the Curtains to Guarantee No Conflicts With Third Parties                                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Ensure That LayoutReader Doesn't Throw Any Fatal Errors on Bad Data                                                                                             | <span style="color:green" class="fa fa-check"></span> |
+|                                 | **!!!Configurations are Now Outlines!!!**                                                                                                                       | <span style="color:green" class="fa fa-check"></span> |
+|                                 | **Initial Wordpress Integration!**                                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added New `_dependencies.scss` Import to Make Importing All Bourbon, Nucleus, Theme Mixins and Variables Easier (Use: `@import "dependencies";`)                | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added New "Particle Module": You Can Now Create a New Joomla Module (Gantry 5 - Particle Module) and Select a Particle to Be Treated as a Joomla Module         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added Fields for Selecting Modules and Particles                                                                                                                | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added New `Production/development` Setting in Gantry 5 System Plugin That Will Trigger Automatic Recompilation for SCSS Files Whenever a Change Is Detected     | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Updated Selectize to 0.12.1 and Fixed an Issue With IE Where Clicking on a Selectize Dropdown Would Close the Dropdown.                                         | <span style="color:green" class="fa fa-check"></span> |
+|                                 | Added Limited Support for Advanced Template Manager                                                                                                             | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.2...5.0.0-rc.3" class="button"><i class="fa fa-fw fa-github"></i> See the RC3 Changelog</a>
+
 
 5.0.0 Release
 -----
