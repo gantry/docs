@@ -10,11 +10,11 @@ process:
   twig: true
 ---
 
-After you have downloaded and installed your Gantry-powered theme, you may want to customize it to make changes that go beyond its included **Settings** and **Particle** options. 
+After you have downloaded and installed your Gantry-powered theme, you may want to customize it to make changes that go beyond its included **Settings** and **Particle** options.
 
 As an example, you could add a text field on the back end that enables you to easily change the text in a specific area of the page. You could also add fields and functionality to Gantry 5's core Particles, as well as any included in the theme itself.
 
-The key to overriding files is the `/custom` folder within the main theme folder. This folder is where you can put any overrides and additional files that you would like to add to the theme without risking breaking or losing this data during a theme update. 
+The key to overriding files is the `/custom` folder within the main theme folder. This folder is where you can put any overrides and additional files that you would like to add to the theme without risking breaking or losing this data during a theme update.
 
 >>>>>> We recommend comparing the updated files to your customized ones after performing an update to see if any changes that have been made would be beneficial to use in your override.
 
@@ -26,7 +26,7 @@ In this example, we are going to add a field to the **Section** settings in the 
 
 Pictured above is the **Showcase** section of the site, which features the **Sample Content** particle, included in the **Hydrogen** theme. The particle itself does not define the background image anywhere in its twig file, and in this case we want to create this capability for each section independent of its particles or positions.
 
-In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section. 
+In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section.
 
 To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/templates/TEMPLATE_DIR/custom/admin/blueprints/layout/`.
 
@@ -39,6 +39,15 @@ type: section
 
 form:
   fields:
+    boxed:
+      type: select.selectize
+      label: Layout
+      description: Select between a Fullwidth and Boxed.
+      isset: true
+      options:
+        0: Fullwidth
+        1: Boxed
+
     class:
       type: input.selectize
       label: CSS Classes
@@ -63,6 +72,15 @@ type: section
 
 form:
   fields:
+    boxed:
+      type: select.selectize
+      label: Layout
+      description: Select between a Fullwidth and Boxed.
+      isset: true
+      options:
+        0: Fullwidth
+        1: Boxed
+
     class:
       type: input.selectize
       label: CSS Classes
@@ -82,7 +100,7 @@ form:
       label: Background
 ```
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engines/templates`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 Here is the `section.html.twig` file prior to our changes:
 
@@ -90,21 +108,44 @@ Here is the `section.html.twig` file prior to our changes:
 
 ```twig
 {% set attr_class = segment.attributes.class ? ' class="' ~ segment.attributes.class|e ~ '"' %}
-{% set attr_id = segment.title|lower|replace({' ': '-'})|e %}
+{% set attr_id = segment.title|lower|replace({' ': '-'}) %}
+{% set attr_extra = '' %}
 {% set tag_type = (attr_id in ['aside', 'footer', 'header', 'main']) ? attr_id : 'section' %}
+
+{% if segment.attributes.extra %}
+    {% for attributes in segment.attributes.extra %}
+        {% for key, value in attributes %}
+        {% set attr_extra = attr_extra ~ ' ' ~ key|e ~ '="' ~ value|e('html_attr') ~ '"' %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
 
 {% set html %}
     {% if segment.children %}
         {% for segment in segments %}
-            {% include '@nucleus/' ~ segment.type ~ '.html.twig' with { 'segments':segment.children } %}
+            {% include '@nucleus/layout/' ~ segment.type ~ '.html.twig' with { 'segments':segment.children } %}
         {% endfor %}
     {% endif %}
 {% endset %}
 
 {% if html|trim %}
-    <{{ tag_type }} id="g-{{ attr_id }}" {{ attr_class }}>
-        {{ html }}
+    {% if (segment.attributes.boxed is defined and not segment.attributes.boxed) %}
+        {% set html %}
+        <div class="g-container">{{ html|raw }}</div>
+        {% endset %}
+    {% endif %}
+
+    {% set html %}
+    <{{ tag_type }} id="g-{{ attr_id }}" {{ attr_class|raw }}{{ attr_extra|raw }}>
+        {{ html|raw }}
     </{{ tag_type }}>
+    {% endset %}
+
+    {% if (segment.attributes.boxed) %}
+    <div class="g-container">{{ html|raw }}</div>
+    {% else %}
+    {{ html|raw }}
+    {% endif %}
 {% endif %}
 ```
 
@@ -118,24 +159,47 @@ Here is the same file with the changes:
 
 ```twig
 {% set attr_class = segment.attributes.class ? ' class="' ~ segment.attributes.class|e ~ '"' %}
-{% set attr_id = segment.title|lower|replace({' ': '-'})|e %}
+{% set attr_id = segment.title|lower|replace({' ': '-'}) %}
+{% set attr_extra = '' %}
 {% set tag_type = (attr_id in ['aside', 'footer', 'header', 'main']) ? attr_id : 'section' %}
 {% set attr_background = segment.attributes.background ? segment.attributes.background|trim|e : false %}
+
+{% if segment.attributes.extra %}
+    {% for attributes in segment.attributes.extra %}
+        {% for key, value in attributes %}
+        {% set attr_extra = attr_extra ~ ' ' ~ key|e ~ '="' ~ value|e('html_attr') ~ '"' %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
 
 {% set html %}
     {% if segment.children %}
         {% for segment in segments %}
-            {% include '@nucleus/' ~ segment.type ~ '.html.twig' with { 'segments':segment.children } %}
+            {% include '@nucleus/layout/' ~ segment.type ~ '.html.twig' with { 'segments':segment.children } %}
         {% endfor %}
     {% endif %}
 {% endset %}
 
 {% if html|trim %}
-    <{{ tag_type }} id="g-{{ attr_id }}" {{ attr_class }}>
+    {% if (segment.attributes.boxed is defined and not segment.attributes.boxed) %}
+        {% set html %}
+        <div class="g-container">{{ html|raw }}</div>
+        {% endset %}
+    {% endif %}
+
+    {% set html %}
+    <{{ tag_type }} id="g-{{ attr_id }}" {{ attr_class|raw }}{{ attr_extra|raw }}>
         {% if attr_background %}<div class="section-background" style="background-image: url({{ attr_background }})">{% endif %}
-        {{ html }}
+        {{ html|raw }}
         {% if attr_background %}</div>{% endif %}
     </{{ tag_type }}>
+    {% endset %}
+
+    {% if (segment.attributes.boxed) %}
+    <div class="g-container">{{ html|raw }}</div>
+    {% else %}
+    {{ html|raw }}
+    {% endif %}
 {% endif %}
 ```
 {% endverbatim %}
@@ -156,7 +220,7 @@ Here is a quick reference to help you navigate the directory structure of a Gant
 
 >>> Any files located in subdirectories of the directories listed below would also be added to the custom directory in order to override a file stored within. For example, `scss/hydrogen/_core.scss` would be copied and modified in the `custom` directory as `custom/scss/hydrogen/_core.scss`.
 
-The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` directory where `ROOT` is the root directory of the Joomla site and `TEMPLATE_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme. 
+The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` directory where `ROOT` is the root directory of the Joomla site and `TEMPLATE_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
 
 | Directory         | Description                                                                                                                       |
 | :------           | :-----                                                                                                                            |
@@ -178,7 +242,7 @@ The `ROOT/media/gantry5/assets/` directory contains third-party assets used by G
 
 The following directories are rooted in the `ROOT/media/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
 
-When creating custom copies of these files, you will want to put them in `TEMPLATE_DIR/custom/engines/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+When creating custom copies of these files, you will want to put them in `TEMPLATE_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
 
 | Directory          |
 | :------            |
@@ -187,6 +251,7 @@ When creating custom copies of these files, you will want to put them in `TEMPLA
 | particles          |
 | scss               |
 | templates          |
+| templates/content  |
 | templates/partials |
 | twig               |
 | twig/partials      |
