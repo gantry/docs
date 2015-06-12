@@ -15,8 +15,7 @@ The **Styles** administrative panel gives you the ability to quickly and easily 
 
 Basically, this panel serves as a one-stop-shop for changing the way the theme itself looks for a specific outline. 
 
-Controls
------
+## Controls
 
 ![Controls](controls.png) {.border .shadow}
 
@@ -26,8 +25,29 @@ As you configure the commands in this panel, you may notice the **Recompile CSS*
 
 The **Save Styles** button saves your new style settings to the outline and recompiles the CSS so that your changes appear on the frontend. If you select this button, you do not have to click **Recompile CSS** as this action is automatically performed.
 
-Select a Preset
------
+### Develop and Production Modes
+
+There is also a process running in Gantry 5 that enables you to activate **Develop** and **Production** modes.
+
+{% set tab1 %}
+
+![Production](production.png) {.border .shadow}
+
+You can access this toggle by navigating to **Administrator → Extensions → Plugin Manager** and selecting the **System - Gantry 5** plugin.
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
+When in **Development**, any change made to the `custom.scss` file will be detected by Gantry, triggering an automatic recompilation of the file. This makes it easy to make changes on the fly and have them appear on your site without any extra action required on your part.
+
+In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as cache, minified vs. extended JS/CSS, etc.
+
+## Select a Preset
 
 ![Select a Preset](presets.png) {.border .shadow}
 
@@ -37,13 +57,12 @@ Gantry **Styles Presets** are a combination of Gantry features and configuration
 
 The **Preset Selector** gives users the ability to quickly switch between Presets, with a pre-designed color palette and style settings. This is a quick and easy way to dramatically change the look of your site. Once you have selected the preset of your choice, you can further customize the style of the outline using the **Theme-specific Settings**, below.
 
-Theme-specific Settings
------
+## Theme-specific Settings
 
 ![Settings](settings.png) {.border .shadow}
 
 Each Gantry-powered theme comes with a set of Style settings you can use to customize the look and feel of the theme. These settings can appear in multiple sections, with each section focusing on a particular area or type of Style quality. For example, there might be a section dedicated to section-by-section color, while another focuses on the background section of the site, specifically. 
 
-If you are changing these settings for a non-default Configuration, the settings themselves will appear faded out until these settings are changed from their defaults. You can either click on the setting itself, or check the box to the right of the setting to indicate that you wish to make a change from the default before making your changes.
+If you are changing these settings for a non-default outline, the settings themselves will appear faded out until these settings are changed from their defaults. You can either click on the setting itself, or check the box to the right of the setting to indicate that you wish to make a change from the default before making your changes.
 
 If you wish to have the setting for the outline revert back to defaults, simply uncheck the checkbox and save the style.

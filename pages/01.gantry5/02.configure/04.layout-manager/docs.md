@@ -21,7 +21,7 @@ Using the Load Button
 
 ![Choosing a Layout Preset](choosing1.png) {.border .shadow}
 
-Each **outline** is assigned a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **outlines**.
+Each **outline** is assigned to a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **Outlines**.
 
 If you select a **Preset**, your layout will be replaced with a preset one that comes with the theme. These presets act as starting points for your design, giving you a set of **Sections**, **Positions**, and/or pre-placed **Particles** to work with. The presets have been configured to cover a range of possible layouts a user would want to use on their design, as set by the theme creator. This includes layouts with and without sidebars, and range from incredibly simple to complex.
 
@@ -61,9 +61,9 @@ Particles
 
 ![Particles](particles.png) {.border .shadow}
 
-The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find click-and-dragable **Positions**, **Particles**, and **Atoms**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
+The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find draggable **Positions**, **Particles**, and **Atoms**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
 
-Once you have decided on an item you would like to apply to the layout, simply **click and drag** it to the desired place on the Layout.
+Once you have decided on an item you would like to apply to the layout, simply **drag and drop** it to the desired place on the Layout.
 
 These items will apply based on their default settings as set in the **Settings** administrative panel for the active outline. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
 
@@ -84,18 +84,19 @@ You can add **Grids** by selecting the **plus (+)** icon in the upper-right corn
 
 ![Settings](section_settings.png) {.border .shadow}
 
-| Setting    | Description                                         |
-| :------    | :----------------------------------                 |
-| Class      | Enables you to add a CSS class for the Section.     |
-| Attributes | Enables you to add HTML attributes for the Section. |
+| Setting        | Description                                                         |
+| :------        | :----------------------------------                                 |
+| Layout         | Enables you to set a `Fullwidth` or `Boxed` layout for the section. |
+| CSS Classes    | Enables you to add a CSS class for the Section.                     |
+| Tag Attributes | Enables you to add HTML attributes for the Section.                 |
 
-The **Section** settings give you the ability to change the way a particular section renders and behaves on the front end. By adding a **custom CSS class**, or **HTML attributes**, you can do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
+The **Section** settings give you the ability to change the way a particular section renders and behaves on the front end. You can set the layout type, add **custom CSS classes**, or set **HTML attributes** and do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
 
 ### Grids
 
 ![Grids](grid.png) {.border .shadow}
 
-Grids are the horizontal rows in which Blocks live. In a Grid, you can place Particles, Positions, and Atoms. These items, when located in a Grid are called Blocks, and can be freely moved and resized.
+Grids are the horizontal rows in which Blocks live. In a Grid, you can place **positions** and **particles**, but not **atoms**. The atoms can be only added to the specific **Atoms Section** at the bottom of the Layout.
 
 #### Settings
 
@@ -142,6 +143,18 @@ The **block settings** make it easy to change the way a particular block looks a
 In the presence of a Sidebar, there is a unique situation. For the purposes of theme development, the sidebar and any horizontally-adjoining Sections are placed in a single Grid. Unlike the smaller Grids which exist inside sections, this Grid can't be freely moved. However, you can resize them using the divider bar between the Sidebar and its adjoining Sections.
 
 The Sections next to the sidebar are all within a single Block, as is the Sidebar section itself.
+
+![Sidebar Grid](sidebar_grid.png)
+
+There is also a container that wraps around the whole section, including the big grid. This container allows you to hook in to it as you would any other single section, and has a set of settings.
+
+![Sidebar Grid](sidebar_grid2.png)
+
+| Setting        | Description                                                         |
+| :------        | :----------------------------------                                 |
+| Layout         | Enables you to set a `Fullwidth` or `Boxed` layout for the section. |
+| CSS Classes    | Enables you to add a CSS class for the Section.                     |
+| Tag Attributes | Enables you to add HTML attributes for the Section.                 |
 
 ## Offcanvas Section
 

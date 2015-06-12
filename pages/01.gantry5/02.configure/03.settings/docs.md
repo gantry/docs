@@ -43,7 +43,7 @@ Atom Settings
 
 ![Atom Settings](atomsettings.png) {.border .shadow}
 
-Atoms are a lot like particles in that they are typically small, modular features you can apply to an outline via the **Layout** administrative panel. The difference is that Atoms, unlike Particles, do not render on the frontend in a way the visitor can see. This makes Atoms a perfect place for scripted tasks such as adding Google Analytics or applying custom CSS and JavaScript.
+Atoms are a lot like particles in that they are typically small, modular features you can apply to an outline via the **Layout** administrative panel. The difference is that Atoms, unlike Particles, do not render on the frontend in a way the visitor can see. This makes Atoms a perfect place for CSS or JavaScript such as adding Google Analytics or applying custom CSS and JavaScript.
 
 The **Atom Settings** area of the **Settings** administrative panel gives you the ability to quickly and easily manage and configure these atoms to meet your individual needs. For example, you could add your **UA Code** to the **Google Analytics** Atom which is then applied by default to outlines you have placed the **Google Analytics** Atom in the **Layout** administrative panel for.
 
@@ -60,6 +60,26 @@ The **Spacer** setting gives you the ability to globally disable (or enable) spa
 
 The **Page Content** setting area enables you to turn the Mainbody **on or off** for the outline. If you have the **Page Content** module already in place in the **Layout Manager** turning it off in the **Settings** administrative panel will disable it so it will not render on the front end.
 
-### Module Position
+### System Messages
+
+The **System Messages** setting area enables you to display system messages in your layout. There are no settings that need to be configured here, other than activating and deactivating it.
+
+{% set tab1 %}
+
+### Platform-specific Positions
+
+#### Module Position
 
 The **Module Position** setting enables you to globally disable (or enable) module positions for the outline. Doing this when Module Position particles are in place will cause assigned modules not to appear the front end.
+
+#### Module Instance
+
+The **Module Instance** position enables you to inject a single instance of a Joomla module directly into your layout or menu. You can set a default **Module ID** and **Chrome** in this space.
+
+{% endset %}
+{% set tab2 %}
+
+Coming soon...
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

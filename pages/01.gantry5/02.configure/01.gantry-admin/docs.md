@@ -49,7 +49,7 @@ Admin Panels
 
 Each tab located near the top of the **Gantry Admin** gives the user quick access to various elements of the Gantry-powered theme's settings. These sections, referred to as *Panels*, make it easy to quickly navigate to the setting you need to adjust. 
 
-There are two different types of panels. The first, located along the very top of the **Gantry Admin**, are global settings which affect not only your selected outline, but the site as a whole. These include the **Menu** and **About** panels. Additionally, you can use the **Outline** panel to manage and create new outlines for your site.
+There are two different types of panels. The first, located along the very top of the **Gantry Admin**, are global settings which affect not only your selected outline, but the site as a whole. These include the **Menu** and **About** panels. Additionally, you can use the **Outlines** panel to manage and create new outlines for your site.
 
 The second type of panels are available on the gray tabs bar and they enable you to refine settings for the presently-selected outline. These **Outline-specific** panels make it possible for you to give each page of your site a unique look, visually setting your front page apart from your About page, for example.
 
@@ -61,17 +61,19 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 #### Outlines
 
->>>> The Outline panel is currently being updated from its original name of "Configurations." We will update this documentation this transition is complete.
-
 ![Outlines](outlines.png) {.border .shadow}
 
 This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**. 
 
 **Standard outlines** can be created by the user, based on one of several available **Layout Presets**, and assigned to various page types to give them a unique layout and/or set of settings. Your **Default** outline acts as the **Master** outline did in Gantry 4, with all other outlines being overrides which enable you to change settings to meet the needs of a specific page.
 
-**System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created or renamed, as they are core to Gantry.
+**System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
 
 You can switch to an individual Outline in two ways. This panel will enable you to set a specific Outline as active in the Outline-specific panels of the Admin by clicking their associated **edit** buttons. Alternatively, you can switch between them using the drop-down menu located on the left-hand side of the toolbar which hosts the **outline-specific administrative panels**.
+
+![Outlines](outlines2.png) {.border .shadow}
+
+Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Settings, Layouts, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
 
 #### Menu
 
@@ -89,7 +91,7 @@ The **About** panel enables the theme developer to place information about the t
 
 ### Outline-specific Panels
 
-**Outline-specific Panels** offer users the ability to customize the layout, settings, and assignments of a specific Outline. In Gantry4, Outlines were referred to as overrides.
+**Outline-specific Panels** offer users the ability to customize the layout, settings, and assignments of a specific outline. In Gantry 4, *outlines* were referred to as *overrides*.
 
 #### Styles
 
@@ -113,6 +115,6 @@ This is the **Layout Manager** panel which enables you to arrange Particles, con
 
 ![Assignments](assignments.png) {.border .shadow}
 
-The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have a Outline set up that you would like to apply specifically to your **About** page, you can do so here.
+The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have an outline set up that you would like to apply specifically to your **About** page, you can do so here.
 
 
