@@ -18,12 +18,12 @@ There are two main parts to Gantry -- the framework and the template. Therefore,
 
 ![Setting Another Template as Default](uninstall_gantry_1.png) {.border .shadow}
 
-To uninstall the gantry template, you will first have to ensure that it is not set as the default template. Go to **Extensions → Template Manager**, select the checkbox to any other site template that is not gantry, and click **Default** in the button toolbar.
+To uninstall the Gantry template, you will first have to ensure that it is not set as the default template. Go to **Extensions → Template Manager**, select the checkbox to any other site template that is not Gantry, and click **Default** in the button toolbar.
 
 {% endset %}
 {% set tab2 %}
 
-To uninstall the gantry theme, you will first have to ensure that it's not activated. Go to **Appearance → Themes** and click on the **Activate** on any other theme that is not gantry. After that, you can simply click on the **Delete** button next to the Gantry theme.
+To uninstall the Gantry theme, you will first have to ensure that it's not activated. Go to **Appearance → Themes** and click on the **Activate** on any other theme that is not gantry. After that, you can simply click on the **Delete** button next to the Gantry theme.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

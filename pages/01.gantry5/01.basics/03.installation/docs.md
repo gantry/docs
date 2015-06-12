@@ -11,44 +11,22 @@ process:
     twig: true
 ---
 
-The Gantry framework itself is independent of any template. Each Gantry-enabled template relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered template does require the Gantry framework to work properly, Gantry is not inherently built in to the template, itself.
+The Gantry framework itself is independent of any theme. Each Gantry-enabled theme relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered theme does require the Gantry framework to work properly, Gantry is not inherently built in to the theme, itself.
 
 Downloading Gantry
 ------------------
 
-Gantry has three available download types:
+Gantry requires to major parts to function. The first is the Gantry framework itself, a collection including the Gantry component, library, and associated plugins. This is the base by which the second part, a Gantry-powered theme functions. 
 
-{% set tab1 %}
+* **Gantry 5**: This contains the Gantry 5 framework and its associated bits and pieces (library, component, and plugins).
+* **Theme**: This contains just the theme/template.
+* **Bundle**: This download option includes both the Gantry 5 component and a Gantry-powered theme. Installing this will give you everything you need in one package. (Coming Soon)
 
-* **Bundle**: This includes the Framework (library, component & plugins), the Hydrogen template and associated extensions.
-* **Framework**: This contains only the Framework (library, component & plugins).
-* **Template**: This contains just the Hydrogen template.
-
-The installation process is exactly the same for all three. The only difference is the file you are installing. Select the download option best for you. We recommend the bundle for first-time installs.
+The installation process is exactly the same for each of these. The only difference is the file you are installing. The Gantry 5 component should be installed prior to a Gantry theme.
 
 <div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
 
->>> Prior to the first full release of Gantry 5, the **Framework** and **Template** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
-
-{% endset %}
-{% set tab2 %}
-
->>> WordPress support is coming soon.
-
-* __Framework__: This contains only the Framework plugin.
-* __Theme__: This contains just the Gantry theme.
-* __RocketLauncher__: This includes the full WordPress installation, Framework (plugin) and the pre-configured Gantry template (only for NEW installations).
-
-The package you choose to install makes a difference in terms of where you'll be installing the files. **Gantry Framework for WordPress** should be installed like a standard WordPress plugin. The **Gantry Default Theme for WordPress** should be installed the same way you would install any other theme. 
-
->>>>> Keep in mind that you will need the Gantry framework installed for any Gantry themes to work.
-
-If you don't have WordPress installed on your server yet, you can use the **RocketLauncher** package. It contains the full pre-configured Gantry environment, and is essentially a complete WordPress installation. Choose whichever download option is best for you. We recommend the **RocketLauncher** for first-time WordPress installations.
-
-<a href="http://www.gantry-framework.org/download#wordpress" class="button"><i class="fa fa-fw fa-download"></i> Download</a>
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+>>> Prior to the first full release of Gantry 5, the **Framework** and **Theme** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
 
 ## Installing the Gantry Framework
 
@@ -109,6 +87,8 @@ Coming soon...
 {% set tab1 %}
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
+
+>>> For some Gantry-powered templates, this will happen automatically upon installation. This is a time-saving step intended to speed up deployment and reduce confusion for new users. We rec
 
 ![](gantry_default.png) {.border .shadow}
 

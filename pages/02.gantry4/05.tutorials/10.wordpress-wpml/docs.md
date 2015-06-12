@@ -85,7 +85,7 @@ The `default` field should include any field names you want to have translatable
 
 ## Converting Text Widgets to Multilingual Text Widget
 
-WPML has a feature that adds a **Multilanguage Text** widget to your arsenal. This is a great thing, and should be used for **ANY** text widget you wish to have set to a specific language. If you are updating an existing site and see an option to convert Text widgets to Multilanguage Text widgets, doing so will cause issues. We recommend instead replacing these widgets manually as the unique structure of widgets that the overrides mechanism requires makes this potentially problematic.
+WPML has a feature that adds a **Multi-language Text** widget to your arsenal. This is a great thing, and should be used for **ANY** text widget you wish to have set to a specific language. If you are updating an existing site and see an option to convert Text widgets to Multi-language Text widgets, doing so will cause issues. We recommend instead replacing these widgets manually as the unique structure of widgets that the overrides mechanism requires makes this potentially problematic.
 
 We have hidden this function in the latest edition of Gantry to avoid this breaking anything. It should be very easy to create a new Multilingual Text widget, copy the text from the existing Text widget, and replace it.
 
@@ -93,9 +93,9 @@ We have hidden this function in the latest edition of Gantry to avoid this break
 
 Some of the strings in Gantry Widgets won't translate. For example, the Gantry Login Form widget.
 
-This happens because some of the widgets (which aren't being overriden at the theme level) are being loaded from the **Gantry Framework** core and injected into the theme on the fly. Because of this, WPML is treating strings found in such widgets as strings that belong to the plugin and not theme itself. Because of this, they aren't being loaded properly in the frontend. In the case of the default **Gantry** theme, some examples would be **Gantry Login Form**, **Gantry Font Sizer**, and **Gantry Overrides Map**.
+This happens because some of the widgets (which aren't being overridden at the theme level) are being loaded from the **Gantry Framework** core and injected into the theme on the fly. Because of this, WPML is treating strings found in such widgets as strings that belong to the plugin and not theme itself. Because of this, they aren't being loaded properly in the frontend. In the case of the default **Gantry** theme, some examples would be **Gantry Login Form**, **Gantry Font Sizer**, and **Gantry Overrides Map**.
 
-This isn't a big issue as we can solve this by following a few short steps. Firstly, please navigate to the WP administration dashboard and then to **WPML > String Translation** and scroll down to the `Auto Register Strings for Translation` section.
+This isn't a big issue as we can solve this by following a few short steps. Firstly, please navigate to the WP administration dashboard and then to **WPML → String Translation** and scroll down to the `Auto Register Strings for Translation` section.
 
 In that section, please select **Auto-register strings always** and hit **Apply**. 
 

@@ -14,19 +14,19 @@ Because Gantry 5 is so different from any version of Gantry before it, we came u
 
 ### Outline
 
-A **Outline** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Outline.
+An **Outline** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Outline.
 
 Each Outline can have its own set of Style, Particle, and Layout settings. An Outline can also be assigned to specific pages, such as the **Home** or **Contact** page, giving them a unique look that sits apart from the rest of your site.
 
-The **Base Outline** acts as the global default by which all other Outlines are based. This Outline can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Outlines.
+The **Base Outline** acts as the global default by which all other unassigned Outlines are based. This Outline can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Outlines.
 
 {% set tab1 %}
 
 ![Creating a Outline](getting_started_3.png) {.border .shadow}
 
-To create a new Outline in Joomla, simply navigate to the **Template Manager** by going to **Administrator > Extensions > Template Manager**, select the Gantry-powered template, and click **Duplicate**.
+To create a new Outline in Joomla, simply navigate to the **Outlines** administrative panel and select the blue **Plus (+)** button, click the blank outline box with a gray **Plus (+)** sign in it, or select **Duplicate** under an outline you would like to base your new outline on.
 
-This will create a new style, which Gantry 5 will pick up and treat as a Outline.
+This will create a new outline, which Joomla will pick up and treat as a style.
 
 {% endset %}
 {% set tab2 %}
@@ -44,9 +44,9 @@ A **Particle** is a piece of pre-written code which can be configured in the Gan
 
 ### Atom
 
-An **Atom** is a type of **Particle** that does not render visually on the frontend. These allow you to add scripted pieces to your page in a modular fashion, such as adding custom scripting you want to have run at the end of the page load, or a Google Analytics script for traffic tracking.
+An **Atom** is a type of **Particle** that does not render visually on the frontend. These allow you to add scripted pieces to your page in a modular fashion, such as adding custom JavaScript you want to have run at the end of the page load, or a Google Analytics script for traffic tracking.
 
-An **Atom** can be placed in your page's layout using a special **Non-Visual Particles** section in the **Layout Manager** and can be created in very much the same way as any standard particle.
+An **Atom** can be placed in your page's layout using a special **Atoms** section in the **Layout Manager** and can be created in very much the same way as any standard particle.
 
 <a href="../particles/particles#atoms" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
 

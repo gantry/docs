@@ -22,7 +22,7 @@ The first thing you will need to do is ensure that the Gantry Framework and a Ga
 
 ![Control Panel Method](../../basics/installation/gantry_default.png) {.border .shadow}
 
-Once this is done, navigate to **Administrator > Extensions > Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
+Once this is done, navigate to **Administrator → Extensions → Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
 
 ![Control Panel Method](gantry_update_1.png) {.border .shadow}
 
@@ -30,7 +30,7 @@ Alternatively, you can access the Gantry 5 administrator by navigating to the **
 
 ![Components Method](admin_access_1.png) {.border .shadow}
 
-There is a third method, which is easily accomplished by navigating to **Components > Gantry 5 Templates** in the administration menu in the backend of Joomla.
+There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Templates** in the administration menu in the backend of Joomla.
 
 {% endset %}
 {% set tab2 %}
@@ -39,7 +39,7 @@ There is a third method, which is easily accomplished by navigating to **Compone
 
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
-Once this is done, navigate to **Administrator > (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
+Once this is done, navigate to **Administrator → (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
