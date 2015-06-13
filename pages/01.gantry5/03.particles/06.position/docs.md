@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-A **Module Positions** particle plays an important role in the layout of a page. Each position Particle represents a position where modules can be assigned.
+A **Module Position** or **Widget Position** particle plays an important role in the layout of a page. Each position particle represents a position where modules can be assigned.
 
 Instead of breaking out your text editor to rename and/or create widget positions, you can do so with a few clicks of the mouse. This is also easier than going through the modules/widgets and reassigning them to the new positions scheme one-by-one.
 
@@ -19,9 +19,9 @@ In addition, you can easily create vastly different positions setups between out
 Creating, Deleting, and Moving Positions
 -----
 
-![Positions](positions_6.png)
+![Positions](positions_6.png) {.border .shadow}
 
-If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Positions Particle** and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
+If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
 {% set tab1 %}
 
@@ -48,7 +48,7 @@ Moving positions around the layout is also just a matter of dragging and droppin
 Virtually Unlimited Positions Per row
 -----
 
-![Positions](positions_4.png)
+![Positions](positions_4.png) {.border .shadow}
 
 You could have 0, 1, 5, 10, or even 20 individual widget positions in the Header section if you wanted to. This enables you to have one or two positions where you need them, without the need to have positions in places you do not want them.
 
@@ -57,7 +57,7 @@ Quick and Easy Naming
 
 {% set tab1 %}
 
-![Positions](positions_2.png)
+![Positions](positions_2.png) {.border .shadow}
 
 As we mentioned earlier, you can name and rename positions on the fly, making it easy to migrate existing modules without having to individually reassign them to specific positions.
 
@@ -78,7 +78,7 @@ Coming Soon...
 Spacers
 -----
 
-![Spacers](positions_5.png)
+![Spacers](positions_5.png) {.border .shadow}
 
 We have created a new Spacer Particle which enables you to create a blank space between two Positions, a Particle and a Position, or two Particles.
 
@@ -91,13 +91,14 @@ The settings for a **Position** Particle can vary between content management sys
 
 {% set tab1 %}
 
-![Settings](positions_settings_j.png)
+![Settings](positions_settings_j.png) {.border .shadow}
 
 | Setting | Description                                        |
 | :------ | :----------------------------------                |
 | Key     | Sets the reference key used in module assignments. |
+| Chrome  | Sets the module chrome.                            |
 
-There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key** for the outline. In the event that you are editing the settings of the default outline, this key becomes the global default, which is used unless overridden in either another outline's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
+There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key**  and **Chrome** for the outline. In the event that you are editing the settings of the default outline, this key becomes the global default, which is used unless overridden in either another outline's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
 
 {% endset %}
 {% set tab2 %}
