@@ -142,10 +142,10 @@ If you want to override an existing Particle and make custom changes to the sour
 
 Here is a table to help you figure out where to place the duplicate **YAML** and **Twig** files.
 
-| Original File Directory                   | Duplicate File Directory        | Alternate Duplicate File Directory      |
-| :-----                                    | :-----                          | :-----                                  |
-| `media/gantry5/engines/nucleus/particles` | `TEMPLATE_DIR/custom/particles` | `TEMPLATE_DIR/custom/engines/particles` |
-| `TEMPLATE_DIR/particles`                  | `TEMPLATE_DIR/custom/particles` |                                         |
+| Original File Directory                   | Duplicate File Directory        | Alternate Duplicate File Directory     |
+| :-----                                    | :-----                          | :-----                                 |
+| `media/gantry5/engines/nucleus/particles` | `TEMPLATE_DIR/custom/particles` | `TEMPLATE_DIR/custom/engine/particles` |
+| `TEMPLATE_DIR/particles`                  | `TEMPLATE_DIR/custom/particles` |                                        |
 
 {% endset %}
 {% set tab2 %}
