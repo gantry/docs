@@ -30,7 +30,7 @@ Gantry 5's **Color Picker** includes four major tabs, each with its own powerful
 | SAT    | The **Saturation** tool is a quick and easy way to adjust the saturation of your color. Move the slider down to remove color, and up to add to its saturation level. Like the **Brightness** tool, the main area is used to quickly select between colors of the rainbow. |
 | WHEEL  | This tool is a basic color wheel, a preferred method of color selection by many.                                                                                                                                                                                          |
 
-In addition to these tools, you also have the ability to adjust the color's opacity setting using the transparency slider located on the far-right side of the **Color Picker**.
+In addition to these tools, you also have the ability to adjust the color's opacity setting using the transparency slider located on the far-right side of the **Color Picker**. The **Transparent** button at the bottom of the Color Picker gives you the ability to instantly set **0% opacity** while maintaining the original hue should you choose to bring it back at later by sliding the transparency slider back up.
 
 ## Adding the Color Picker to Your Site
 
