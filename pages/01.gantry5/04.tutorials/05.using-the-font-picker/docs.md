@@ -17,6 +17,8 @@ The Font Picker makes it easy to quickly choose fonts in Particles. The picker i
 
 Based on **Google Fonts**, the Font Picker gives you immediate access to over 600 open source fonts.
 
+>>> You can find more information about adding a font to the font picker (as well as to your theme in general) [in our fonts guide](../fonts).
+
 Browsing Fonts
 -----
 
