@@ -27,25 +27,7 @@ The **Save Styles** button saves your new style settings to the outline and reco
 
 ### Develop and Production Modes
 
-There is also a process running in Gantry 5 that enables you to activate **Develop** and **Production** modes.
-
-{% set tab1 %}
-
-![Production](production.png) {.border .shadow}
-
-You can access this toggle by navigating to **Administrator → Extensions → Plugin Manager** and selecting the **System - Gantry 5** plugin.
-
-{% endset %}
-{% set tab2 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
-
-When in **Development**, any change made to the `custom.scss` file will be detected by Gantry, triggering an automatic recompilation of the file. This makes it easy to make changes on the fly and have them appear on your site without any extra action required on your part.
-
-In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as cache, minified vs. extended JS/CSS, etc.
+There is also a process running in Gantry 5 that enables you to activate **Develop** and **Production** modes. These modes enable and disable automatic recompilation of SCSS files. We have detailed this feature in the [Extras section of this documentation](../extras).
 
 ## Select a Preset
 
