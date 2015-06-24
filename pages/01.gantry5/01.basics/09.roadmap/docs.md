@@ -5,9 +5,9 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5's beta, launching initially for the Joomla platform, is a multi-phase plan that includes key milestones leading up to the full initial release. With the initial beta already available, we are providing this document to clarify which milestones we have planned for the next major beta release, followed by the initial release candidate.
+Gantry 5's, launching initially for the Joomla platform, is a multi-phase plan that includes key milestones leading up to the full initial release. With the initial beta already available, we are providing this document to clarify which milestones we have planned for the next major release.
 
->>> This information is fluid and subject to change as we receive feedback from open beta participants and discover additional opportunities for improvement.
+>>> This information is fluid and subject to change as we receive feedback from users and discover additional opportunities for improvement.
 
 Beta 1
 -----
