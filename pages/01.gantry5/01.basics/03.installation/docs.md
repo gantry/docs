@@ -25,8 +25,6 @@ The installation process is exactly the same for each of these. The only differe
 
 <div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
 
->>> Prior to the first full release of Gantry 5, the **Framework** and **Theme** are being distributed in different installable packages.
-
 ## Installing the Gantry Framework
 
 {% set tab1 %}
