@@ -20,13 +20,12 @@ Gantry requires to major parts to function. The first is the Gantry framework it
 
 * **Gantry 5**: This contains the Gantry 5 framework and its associated bits and pieces (library, component, and plugins).
 * **Theme**: This contains just the theme/template.
-* **Bundle**: This download option includes both the Gantry 5 component and a Gantry-powered theme. Installing this will give you everything you need in one package. (Coming Soon)
 
 The installation process is exactly the same for each of these. The only difference is the file you are installing. The Gantry 5 component should be installed prior to a Gantry theme.
 
 <div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
 
->>> Prior to the first full release of Gantry 5, the **Framework** and **Theme** are being distributed in different installable packages. A bundled package is planned, but will likely be available after the initial beta launch.
+>>> Prior to the first full release of Gantry 5, the **Framework** and **Theme** are being distributed in different installable packages.
 
 ## Installing the Gantry Framework
 
