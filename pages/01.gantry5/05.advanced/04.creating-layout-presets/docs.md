@@ -29,24 +29,27 @@ Creating a new **Layout Preset** is pretty simple. The first thing you will need
 Here is the example code that will be in our new YAML file:
 
 ```yaml
-header:
-  container:
-    - particle-menu
+preset: image url goes here
 
-main:
-  container:
-    - position-breadcrumbs
-    - position-global_messages
-    - pagecontent
+layout:
+  header:
+    container:
+      - particle-menu
 
-mainbottom:
-  container:
-    - position-mainbottom
+  main:
+    container:
+      - position-breadcrumbs
+      - position-global_messages
+      - pagecontent
 
-footer:
-  container:
-    - position-footer
-    - [particle-copyright 40, spacer 30, particle-branding 30]
+  mainbottom:
+    container:
+      - position-mainbottom
+
+  footer:
+    container:
+      - position-footer
+      - [particle-copyright 40, spacer 30, particle-branding 30]
 ```
 
 ![Preset](sections_2.png) {.border .shadow}
@@ -68,31 +71,35 @@ The first thing you will need to do is create a new YAML file in `TEMPLATE_DIR/c
 Here is the example code that will be in our new YAML file:
 
 ```yaml
-header:
+preset:
+  image: image url goes here
+
+layout:
+  header:
+    container:
+      - particle-menu
+
   container:
-    - particle-menu
+    1:
+      - main 60:
+        - position-breadcrumbs
+        - position-global_messages
+        - pagecontent
 
-container:
-  1:
-    - main 60:
-      - position-breadcrumbs
-      - position-global_messages
-      - pagecontent
+      - sidebar1 20:
+        - particle-social
+        - position-sidebar
+        - position-right
 
-    - sidebar1 20:
-      - particle-social
-      - position-sidebar
-      - position-right
+      - sidebar2 20:
+        - particle-social
+        - position-sidebar
+        - position-right
 
-    - sidebar2 20:
-      - particle-social
-      - position-sidebar
-      - position-right
-
-footer:
-  container:
-    - position-footer
-    - [particle-copyright 40, spacer 30, particle-branding 30]
+  footer:
+    container:
+      - position-footer
+      - [particle-copyright 40, spacer 30, particle-branding 30]
 ```
 
 The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
