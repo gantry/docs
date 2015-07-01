@@ -42,6 +42,8 @@ We try to ensure that Gantry templates (and specifically the Gantry Library) wil
     * OpenSSL Libraries
     * Multibyte String Support
 
+>>>>> If you have `xdebug` enabled, make sure the setting ` xdebug.max_nesting_level` is higher than **100**. During our development, we found **256** to be more than enough for us.
+
 ## Browser Requirements
 
 The back-end administration requirements of Gantry in order of preference are as follows:
