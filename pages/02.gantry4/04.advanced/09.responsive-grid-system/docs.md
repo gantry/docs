@@ -58,7 +58,7 @@ Another useful available feature, via Bootstrap, is the collection of responsive
 | `visible-large`   | Hidden            | Hidden              | Hidden                | **Visible**          |
 | `hidden-phone`    | Hidden            | **Visible**         | **Visible**           | **Visible**          |
 | `hidden-tablet`   | **Visible**       | Hidden              | **Visible**           | **Visible**          |
-| `hidden-desktop`  | **Visible**       | **Visible**         | Hidden                | **Visible**          |
+| `hidden-desktop`  | **Visible**       | **Visible**         | Hidden                | Hidden               |
 | `hidden-large`    | **Visible**       | **Visible**         | **Visible**           | Hidden               |
 
 Media Queries
