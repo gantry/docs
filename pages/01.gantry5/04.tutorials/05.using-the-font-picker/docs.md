@@ -19,8 +19,7 @@ Based on **Google Fonts**, the Font Picker gives you immediate access to over 60
 
 >>> You can find more information about adding a font to the font picker (as well as to your theme in general) [in our fonts guide](../fonts).
 
-Browsing Fonts
------
+## Browsing Fonts
 
 {% set callout_items %}
 Test Text Field [3%, 1%, se]
@@ -62,8 +61,25 @@ To make life a little easier, you can filter these results by Category and Subse
 
 This is a very quick and easy way to not only get a preview of what a block of text might look like with a different font, but to apply that font to your page by simply choosing it and hitting **Select**.
 
-Adding the Font Picker to Your Site
------
+## Selecting Your Font Weight(s) and Character Set(s)
+
+![Font Picker](font_picker_4.png) {.border .shadow}
+
+You have the ability to quickly and easily select font weights and character sets within the Font Picker. Selecting these here will make them available in your theme. 
+
+The font weight (thin, light, normal, etc.) determines how the font appears on the front end. This can be a great way to differentiate titles and subtitles from your content, enhance your site's general typography, and more.
+
+Character sets are especially useful for multi-language sites as they enable you to utilize Latin, Greek, Cyrillic, etc. characters. You can select one or more character sets, though not all fonts support additional character sets.
+
+Here are the steps you would follow to access these controls:
+
+* Open the Font Picker from the back end of Gantry.
+* Search for a specific font you would like to use in the Search field. (For example: `Roboto`)
+* Select the check box next to the font weight(s) you would like to use.
+* Select the number of character sets selected link at the top of the font's listing.
+* Select the character set(s) you would like to use. 
+
+## Adding the Font Picker to Your Site
 
 ![Font Picker Fields](font_selector_field.png) {.border .shadow}
 
