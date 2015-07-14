@@ -164,7 +164,7 @@ Release Candidate 2
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.1...5.0.0-rc.2" class="button"><i class="fa fa-fw fa-github"></i> See the RC 2 Changelog</a>
 
-Release Candidate 3 (Current Phase)
+Release Candidate 3
 -----
 
 | Category                        | Milestone                                                                                                                                                       | Completed                                             |
@@ -222,18 +222,47 @@ Release Candidate 3 (Current Phase)
 5.0.0 Release
 -----
 
-| Category                         | Milestone                                                                                         | Completed |
-| :-----                           | :----                                                                                             | :-----:   |
-| Import/Export                    | Ability to Import/Export Data Across Entire Administrative Setup (Layout, Menu, Settings, etc)    |           |
-| Builder                          | Create a Builder for Gantry to Generate Packages for Various Platforms                            |           |
-| Dev/Prod                         | Hook up Dev and Prod Switch                                                                       |           |
-| Security                         | Security Review                                                                                   |           |
-| Menu Editor                      | Start Level Dropdowns with Proper Min/Max Limit                                                   |           |
-| Performance Optimization         | Caching                                                                                           |           |
-| File Picker                      | Implement Improved Streams with Merged Folders/Files                                              |           |
-|                                  | Add Ability to Remove Uploaded Files                                                              |           |
-| Language                         | Implement Language Support Across Joomla                                                          |           |
-| Layout Manager                   | Ratio Grid Calculations for Adding/Removing Particle from Grid                                    |           |
-| HTML/Markdown Field and Particle | Field that Inherits from textarea and Adds HTML editor plus Markdown Editor - With a Live Preview |           |
-|                                  | Particle Allowing Edit Switching Between Formats (textarea, HTML, Markdown) - With a Live Preview |           |
+| Category                   | Milestone                                                                                                | Completed                                             |
+| :-----                     | :----                                                                                                    | :-----:                                               |
+| Menu                       | Many bug fixes to synchronize Joomla with Gantry 5                                                       | <span style="color:green" class="fa fa-check"></span> |
+|                            | Particles and Modules Can Now be Dropped in Non-parent Menu Items                                        | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed Cases Where Particle / Modules Wouldn't be Deletable                                               | <span style="color:green" class="fa fa-check"></span> |
+|                            | Implemented the Option for Menu Items to Append a Hash Value (ie, `http://yourcustomlink.com/page#hash`) | <span style="color:green" class="fa fa-check"></span> |
+|                            | Preventing Disabled Particles From Showing Up on Front End When Disabled                                 | <span style="color:green" class="fa fa-check"></span> |
+|                            | Subtitles Now Display in the Interface                                                                   | <span style="color:green" class="fa fa-check"></span> |
+| Outlines                   | Preventing Default and Non-Deletable Outlines from Being Deleted (UI Adjusted Accordingly)               | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed Case Where an Outline Wouldn't be Deletable Due to an Incorrect Flag                               | <span style="color:green" class="fa fa-check"></span> |
+| Gantry 5 Particle Module   | Prevent Joomla from Stripping Out HTML Content                                                           | <span style="color:green" class="fa fa-check"></span> |
+|                            | You Can Now Reset the Value and Change the Particle Type                                                 | <span style="color:green" class="fa fa-check"></span> |
+| Assignments                | Introduced a New Filter to Display Only the Active Assignments                                           | <span style="color:green" class="fa fa-check"></span> |
+|                            | You Can Now Assign to a Different Language                                                               | <span style="color:green" class="fa fa-check"></span> |
+| Layout Manager             | UI/UX Enhancements in the Particles Picker. Now Fixed and Follows Page Scroll                            | <span style="color:green" class="fa fa-check"></span> |
+|                            | When Loading a New Layout While Keeping Particles, a Warning Appears                                     | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed the PReset Informations when Using History and Jumping Between Different Presets                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | History Session Fixes                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+| Styles                     | Less Aggressive Box Sizing to Automatically Support Joomla and Third-party Implementations               | <span style="color:green" class="fa fa-check"></span> |
+| Layout (Front End)         | Fixed Cases where Cumulative Sum of Side-by-side Sections wouldn't be 100% as Expected                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed Issue where Side-by-side Sections (Sidebars/Main) Would Have Overflow into Sidebars                | <span style="color:green" class="fa fa-check"></span> |
+| Particles                  | You Can Now Load Particles via Joomla `{loadposition}`                                                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | Social Particle: Included a Title Parameter                                                              | <span style="color:green" class="fa fa-check"></span> |
+|                            | Menu Particle: It is Now Possible to Choose the `Archive` Menu from the Dropdown                         | <span style="color:green" class="fa fa-check"></span> |
+|                            | Menu Particle: Prevent the Rendering of an Empty Menu on the Front End                                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | Menu Particle: Fixed Menu Start Level                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|                            | Menu Particle: Accessibility Improvements                                                                | <span style="color:green" class="fa fa-check"></span> |
+|                            | Menu Particle: Fixed Offcanvas Menu Height Calculations                                                  | <span style="color:green" class="fa fa-check"></span> |
+|                            | To Top Particle: Scrolling to the Top is Now Smooth                                                      | <span style="color:green" class="fa fa-check"></span> |
+| Global and Generic Changes | Added a New Development/Production Toggle in Extras Tab Allowing Toggle Between States                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | Development/Production Now Compiles Different CSS Output.                                                | <span style="color:green" class="fa fa-check"></span> |
+|                            | System Plugin and Particle Module Are Now PHP 5.3 Compatible and Won't Fail with Error                   | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed "Cache Path Not Defined for Compiled Files"                                                        | <span style="color:green" class="fa fa-check"></span> |
+|                            | Updated Google Fonts Library with 15+ New Fonts                                                          | <span style="color:green" class="fa fa-check"></span> |
+|                            | Use Protocol-less URLs for Loading Google Fonts                                                          | <span style="color:green" class="fa fa-check"></span> |
+|                            | Enhanced Filepicker, Now Uses Streams, Supports Drag-and-Drop from Desktop Uploading, Deletion           | <span style="color:green" class="fa fa-check"></span> |
+|                            | Initial Work on the Multi-language Support                                                               | <span style="color:green" class="fa fa-check"></span> |
+|                            | In Joomla Module Manager, Gantry 5 Particle Modules Will Now Display a Badge with Their Type             | <span style="color:green" class="fa fa-check"></span> |
+|                            | Improved RTL Support and Automatic Detection                                                             | <span style="color:green" class="fa fa-check"></span> |
+|                            | More Body Classes: Menu Item Page Suffix, Print-mode if Previewing a Print Page                          | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed Untranslated Positions String in the Joomla Module Editor on Front End                             | <span style="color:green" class="fa fa-check"></span> |
+|                            | Fixed Page Heading Not Displaying in the Gantry 5 Custom View Page                                       | <span style="color:green" class="fa fa-check"></span> |
 
+<a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.3...5.0.0" class="button"><i class="fa fa-fw fa-github"></i> See the 5.0.0 Changelog</a>
