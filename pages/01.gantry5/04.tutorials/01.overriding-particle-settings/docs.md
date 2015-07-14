@@ -16,19 +16,19 @@ Here is a quick breakdown of the different levels at which a **Particle** can be
 
 | Level                                          | Description                                                                                                             |
 | :-----                                         | :-----                                                                                                                  |
-| Default Outline Settings Panel                 | Sets the global defaults for a given Particle.                                                                          |
-| Non-Default Outline Settings Panel             | Sets the settings override for a given outline. These settings become the default for that outline only.                |
+| Base Outline Settings Panel                    | Sets the global defaults for a given Particle.                                                                          |
+| Non-Base Outline Settings Panel                | Sets the settings override for a given outline. These settings become the default for that outline only.                |
 | Individual Particle Settings in Layout Manager | Sets the settings override for an individual particle. These settings affect only the single instance of that particle. |
 
-## Default Outline Settings Panel
+## Base Outline Settings Panel
 
 ![Default](particle_1.png) {.border .shadow}
 
 Within the **default** outline, you can set global default settings for any Particle in the **Settings Administrative Panel**. Settings placed here become the global defaults that apply to every outline and individual Particle instance unless overridden. This is where you would place your most commonly used settings for a given Particle.
 
-For example, if you want your logo Particles to use the same source image across all of your pages except one or two, you would set that image here and override it using either the non-default outline settings applied to those exception pages, or in the individual Particle instances in the Layout Manager.
+For example, if you want your logo Particles to use the same source image across all of your pages except one or two, you would set that image here and override it using either the non-Base Outline settings applied to those exception pages, or in the individual Particle instances in the Layout Manager.
 
-## Non-Default Outline Settings Panel
+## Non-Base Outline Settings Panel
 
 ![Non-Default](particle_2.png) {.border .shadow}
 
