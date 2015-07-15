@@ -20,6 +20,16 @@ Unlike adding rows in a section, creating an entirely new section (either stand-
 
 It's important to note that this is an advanced action, and Gantry 5 themes generally do not include built-in styling support for new sections. You will have to add the styling yourself, either linking it to an existing section or creating it from scratch in your `custom.scss` file located in `TEMPLATE_DIR/custom/scss`. 
 
+## Preset Images
+
+![Preset](outlines.png) {.border .shadow}
+
+There is a section of the YAML files for the layout presets that deals with the preset image. This is an important part of the file as it creates the preview image you see when you are browsing the **Outlines** administrative interface. It can serve as a quick reference to the outline, giving you an at-a-glance look at what the layout looks like without having to visit the layout manager.
+
+Gantry includes a set of these images that you can choose from. They are located in the `SITE_ROOT/administrator/components/com_gantry5/images/layouts/` directory and can be easily referenced with a stream link. For example, if you wanted to link to the `2-col-left.png` file in that folder, you would use the URL: `gantry-admin://images/layouts/2-col-left.png` as the preset image.
+
+You can also add custom images. For example, let's say we have `example.png` and we want to use it as the preset image. We would place it in `/templates/TEMPLATE_DIR/custom/images/admin/layouts` and reference it in the YAML file as `gantry-media://images/admin/layouts/example.png`.
+
 ## Creating a New Layout Preset
 
 ![Preset](sections_3.png) {.border .shadow}
@@ -29,24 +39,28 @@ Creating a new **Layout Preset** is pretty simple. The first thing you will need
 Here is the example code that will be in our new YAML file:
 
 ```yaml
-header:
-  container:
-    - particle-menu
+preset:
+  image: gantry-media://images/admin/layouts/example.png
 
-main:
-  container:
-    - position-breadcrumbs
-    - position-global_messages
-    - pagecontent
+layout:
+  header:
+    container:
+      - particle-menu
 
-mainbottom:
-  container:
-    - position-mainbottom
+  main:
+    container:
+      - position-breadcrumbs
+      - position-global_messages
+      - pagecontent
 
-footer:
-  container:
-    - position-footer
-    - [particle-copyright 40, spacer 30, particle-branding 30]
+  mainbottom:
+    container:
+      - position-mainbottom
+
+  footer:
+    container:
+      - position-footer
+      - [particle-copyright 40, spacer 30, particle-branding 30]
 ```
 
 ![Preset](sections_2.png) {.border .shadow}
@@ -68,31 +82,35 @@ The first thing you will need to do is create a new YAML file in `TEMPLATE_DIR/c
 Here is the example code that will be in our new YAML file:
 
 ```yaml
-header:
+preset:
+  image: gantry-media://images/admin/layouts/example.png
+
+layout:
+  header:
+    container:
+      - particle-menu
+
   container:
-    - particle-menu
+    1:
+      - main 60:
+        - position-breadcrumbs
+        - position-global_messages
+        - pagecontent
 
-container:
-  1:
-    - main 60:
-      - position-breadcrumbs
-      - position-global_messages
-      - pagecontent
+      - sidebar1 20:
+        - particle-social
+        - position-sidebar
+        - position-right
 
-    - sidebar1 20:
-      - particle-social
-      - position-sidebar
-      - position-right
+      - sidebar2 20:
+        - particle-social
+        - position-sidebar
+        - position-right
 
-    - sidebar2 20:
-      - particle-social
-      - position-sidebar
-      - position-right
-
-footer:
-  container:
-    - position-footer
-    - [particle-copyright 40, spacer 30, particle-branding 30]
+  footer:
+    container:
+      - position-footer
+      - [particle-copyright 40, spacer 30, particle-branding 30]
 ```
 
 The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
@@ -100,4 +118,3 @@ The `1:` in the example above indicates that the three child sections are inside
 This is a very simple Layout Preset, giving the user **Header**, **Main**, and **Footer** sections in addition to two independent **Sidebar** sections. Each section gets its own base styling that provides the base by which added **Particles** and **Positions** are placed.
 
 >>> Each horizontal row needs to equal 100% width. In the example above, you will notice that `main` has a width set of 60%, followed by two sidebars each at 20% width. It's also very important to remember that YAML files only support spaces divisible by 2, and not tabs.
-
