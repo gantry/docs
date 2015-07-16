@@ -54,6 +54,8 @@ The back-end administration requirements of Gantry in order of preference are as
 * Opera 28+
 * Internet Explorer 10+ (9 supported at limited capacity)
 
+>>> Due to the wide range of variances between default browsers on the Android platform, we are unable to accurately test and list all of the possible regional, carrier, and manufacturer software variables. We recommend an updated Chrome browser for Android as it provides a more consistent experience. Support for `flex` is the most likely sign of whether or not a browser will work with Gantry 5.
+
 ## Development Environments
 
 Local development is the preferred method of working with any Gantry based template as it allows for the fastest development iterations due to flat out performance and convenience. The following is a list of suitable server setups that can be installed locally on your computer:
