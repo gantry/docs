@@ -139,7 +139,7 @@ One of the key components of Gantry is the ability to easily set up fields and o
 
 The YAML file creates the field (or option), the user configures that option, defining the variable which you can then have used during page rendering through your Twig file.
 {% verbatim %}
-Pulling a configuration varialbe is pretty easy. You just need to use the `gantry.config.get()` command to pull this data.
+Pulling a configuration variable is pretty easy. You just need to use the `gantry.config.get()` command to pull this data.
 
 One example of this would be using the line `{{ gantry.config.get('styles.base.background') }}` to grab the currently-set base background color for the theme.
 
