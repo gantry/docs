@@ -18,7 +18,7 @@ Here is a quick list of useful guides to help you with this tutorial:
 * [Recompiling CSS](../../configure/styles#controls)
 * [Customizing Theme Files](../../advanced/customizing-theme-files)
 * [Creating a Custom Style Sheet](../../tutorials/adding-a-custom-style-sheet)
-* [Headroom.js Documentation](http://wicky.nillia.ms/headroom.js/)
+* [Headroom.js Documentation](http://bit.ly/1bzlyd3)
 
 ## Override page.html.twig
 
