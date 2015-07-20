@@ -20,7 +20,7 @@ The first step to customizing this page is to access the Gantry administrator by
 
 ![Error Page](errorpage_1.png) {.border .shadow}
 
-From there, you will need to select **Error** from the **Outlines** dropdown. Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Settings**, and **Styles** administrative panels.
+From there, you will need to click on the Outlines icon then click the edit icon for the Error page.  Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Settings**, and **Styles** administrative panels.
 
 ![Error Page](errorpage_2.png) {.border .shadow}
 
