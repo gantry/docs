@@ -32,7 +32,7 @@ For most developers using a pre-existing theme or that would like to have this f
 
 ## Add Headroom.js
 
-[Headroom.js](http://wicky.nillia.ms/headroom.js/) is a very useful script for creating fixed navigation. 
+[Headroom.js](http://bit.ly/1bzlyd3) is a very useful script for creating fixed navigation. 
 
 This step is optional, but will enable your navigation section to disappear when it isn't needed, and come into focus when it is. This is a big space-saver for your site, and a welcome addition when visitors are browsing with a landscape-oriented browser. 
 
