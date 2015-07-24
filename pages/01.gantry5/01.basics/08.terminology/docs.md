@@ -20,21 +20,11 @@ Each Outline can have its own set of Style, Particle, and Layout settings. An Ou
 
 The **Base Outline** acts as the global default by which all other unassigned Outlines are based. This Outline can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Outlines.
 
-{% set tab1 %}
-
 ![Creating a Outline](getting_started_3.png) {.border .shadow}
 
-To create a new Outline in Joomla, simply navigate to the **Outlines** administrative panel and select the blue **Plus (+)** button, click the blank outline box with a gray **Plus (+)** sign in it, or select **Duplicate** under an outline you would like to base your new outline on.
+To create a new Outline, simply navigate to the **Outlines** administrative panel and select the blue **Plus (+)** button, click the blank outline box with a gray **Plus (+)** sign in it, or select **Duplicate** under an outline you would like to base your new outline on.
 
-This will create a new outline, which Joomla will pick up and treat as a style.
-
-{% endset %}
-{% set tab2 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+This will create a new outline.
 
 ### Particle
 

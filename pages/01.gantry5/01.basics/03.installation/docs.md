@@ -13,8 +13,7 @@ process:
 
 The Gantry framework itself is independent of any theme. Each Gantry-enabled theme relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered theme does require the Gantry framework to work properly, Gantry is not inherently built in to the theme, itself.
 
-Downloading Gantry
-------------------
+## Downloading Gantry
 
 Gantry requires to major parts to function. The first is the Gantry framework itself, a collection including the Gantry component, library, and associated plugins. This is the base by which the second part, a Gantry-powered theme functions. 
 
@@ -50,18 +49,30 @@ You will want to make sure that all of Gantry's associated extensions are enable
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
+To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. At the top of the **Add Plugins** page, you will see an **Upload Plugin** botton. Click it.
 
-To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
+From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
-![](install-upload_wp.jpg) {.border .shadow}
+![](install_wp_2.png) {.border .shadow}
 
-The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
+Once installation is done, select the **Activate** shortcut to turn the Gantry 5 plugin on.
+
+![](install_wp_1.png) {.border .shadow} 
+
+Gantry 5 will now appear in your **Installed Plugins** list.
+
+>>> The file name and version number of your Gantry framework installation will be different.
+
+Gantry 5 requires one additional plugin to work. The **Timber** plugin enables WordPress to work with Twig templates. Because Gantry 5 uses Twig, this is a required step. You can find more information about Timber on the [project home page](http://upstatement.com/timber/).
+
+![](install_wp_6.png) {.border .shadow}
+
+If you attempt to activate a Gantry 5 theme without the Timber plugin installed, a red notice will appear at the top of the admin giving you a direct link to where you can install Timber to your site.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-## Installing a Gantry Template
+## Installing a Gantry Theme
 
 {% set tab1 %}
 
@@ -74,12 +85,26 @@ The Gantry template will appear in the **Template Manager**, and all Gantry exte
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+Themes made on Gantry 5 install just like any other WordPress theme. The difference here is that you really want to have the Gantry framework installed and activated first, otherwise the theme itself won't be of much use.
+
+![](install_wp_3.png) {.border .shadow}
+
+To install the theme on WordPress, simply navigate to **Admin → Plugins** in the sidebar and select the **Add New** button at the top of the **Themes** page.
+
+This will take you to the **Add Themes** page with another button on top called **Upload Theme**. Click it.
+
+![](install_wp_4.png) {.border .shadow}
+
+Just as you did with the Gantry framework, use the **Browse...** button to select the zip file for the theme you wish to install and select **Install Now**.
+
+
+
+>>> The file name and version number of your Gantry framework installation will be different.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
-## Setting a Gantry Template as Default
+## Setting a Gantry Theme as Default
 
 {% set tab1 %}
 
@@ -92,7 +117,11 @@ If you are using the Gantry template, you will want to set it as the default tem
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+![](install_wp_5.png) {.border .shadow} 
+
+Your Gantry-powered theme will be set as default upon activation. You can activate your theme during installation by selecting **Activate** from the shortcuts at the bottom of the installation screen.
+
+You can also activate a theme by navigating to **Admin → Appearance** and selecting **Activate** in your desired theme's box.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

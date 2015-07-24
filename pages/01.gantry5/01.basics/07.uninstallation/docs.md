@@ -39,7 +39,7 @@ Uninstall the Gantry component, library, plugin and template(s) from **Extension
 {% endset %}
 {% set tab2 %}
 
-There are two main parts to Gantry -- the framework and the theme. Therefore, there are two parts to uninstalling. If you intend to uninstall only the theme portion, then follow the instructions for removing the theme only. Keeping the Gantry plugin installed does not harm as it is only used by a Gantry-enabled theme, but if you wish to uninstall the plugin, you can follow those steps.
+There are two main parts to Gantry -- the framework and the theme. Therefore, there are two pieces to uninstall. If you intend to uninstall only the theme portion, then follow the instructions for removing the theme only. Keeping the Gantry plugin installed does not harm as it is only used by a Gantry-enabled theme, but if you wish to uninstall the plugin, you can follow those steps.
 
 Uninstall the Gantry plugin and theme from **Plugins** admin page. Please search for **Gantry Template Framework** and **Deactivate** it first, then click **Delete** next to its name. Gantry will now be deleted.
 

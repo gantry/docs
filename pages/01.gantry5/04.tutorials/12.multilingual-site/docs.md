@@ -16,7 +16,7 @@ process:
 
 Multilingual support in websites opens them up to a considerably larger audience than a single-language site might be able to. Developing a site with multilingual support takes a little know-how, and we have put together this guide to help you get through it.
 
-Everything written here can be applied to any of the templates provided by RocketTheme.
+Everything written here can be applied to any Gantry-powered template.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Everything written here can be applied to any of the templates provided by Rocke
 * RocketTheme Template
 * RokNavMenu Extension
 
->> NOTE: This process is much easier when it is being done on a new website. You can accomplish this on an existing site using the same steps, but you may need to work a lot harder during menu configuration to achieve the desired result.
+>>> NOTE: This process is much easier when it is being done on a new website. You can accomplish this on an existing site using the same steps, but you may need to work a lot harder during menu configuration to achieve the desired result.
 
 ## Setup
 

@@ -35,17 +35,19 @@ Once you have the latest packages, installation is simple. We have provided a st
 
 ![Administrator](../../configure/gantry-admin/admin_access_1.png) {.border .shadow}
 
-When you have installed and activated both the Gantry framework and Hydrogen, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components → Gantry 5 Templates** from the back end of Joomla.
+When you have installed and activated both the Gantry framework and your Gantry-powered theme, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components → Gantry 5 Templates** from the back end of Joomla.
+
+Here, you will see a list of any installed Gantry-powered themes. You can **Preview** the theme from here or select **Configure** to go directly to the **Gantry Administrator** where you can get started modifying your Gantry-powered site.
 
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+![Administrator](wp_admin_access_1.png) {.border .shadow}
+
+Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry and your desired Gantry-powered theme installed and activated, you can simply select **(Theme Name) Theme** from the sidebar in the backend.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
-
-Here, you will see a list of any installed Gantry-powered themes. You can **Preview** the theme from here or select **Configure** to go directly to the **Gantry Administrator** where you can get started modifying your Gantry-powered site.
 
 ## Navigating the Gantry 5 Administrator
 

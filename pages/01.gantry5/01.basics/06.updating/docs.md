@@ -45,8 +45,6 @@ You can check to see if the correct Gantry version has been installed by going t
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
-
 Upgrading the Gantry Framework plugin is a relatively straightforward and simple process. This can be done using the built-in WordPress updater. Go to **Admin Dashboard → Updates**, select **Check Again** to load all available updates. Then check the checkbox next to the Gantry Template Framework and click **Update Plugins**.. Gantry will now be updated directly from the web.
 
 ![](update_wp.png) {.border .shadow}

@@ -24,9 +24,9 @@ It is strongly recommended that you always use the latest stable version of Joom
 {% endset %}
 {% set tab2 %}
 
-**WordPress 4.2.2**
+**WordPress 4.2.3**
 
-It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.2.2** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
+It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.2.3** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
 
 >>> WordPress support is coming soon.
 
