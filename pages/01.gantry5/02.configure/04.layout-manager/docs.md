@@ -59,7 +59,17 @@ You can even go back after hitting **Save Layout**, should one of your changes n
 Particles
 ------
 
+{% set tab1 %}
+
 ![Particles](particles.png) {.border .shadow}
+
+{% endset %}
+{% set tab2 %}
+
+![Particles](wp_particles.png) {.border .shadow}
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find draggable **Positions**, **Particles**, and **Atoms**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
 

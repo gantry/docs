@@ -50,7 +50,17 @@ The **Atom Settings** area of the **Settings** administrative panel gives you th
 Position Settings
 -----
 
-![Position Settings](position_settings.png) {.border .shadow}
+{% set tab1 %}
+
+![Joomla Position Settings](position_settings.png) {.border .shadow}
+
+{% endset %}
+{% set tab2 %}
+
+![WordPress Position Settings](wp_position_settings.png) {.border .shadow}
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }} 
 
 ### Spacer
 
@@ -64,9 +74,9 @@ The **Page Content** setting area enables you to turn the Mainbody **on or off**
 
 The **System Messages** setting area enables you to display system messages in your layout. There are no settings that need to be configured here, other than activating and deactivating it.
 
-{% set tab1 %}
-
 ### Platform-specific Positions
+
+{% set tab1 %}
 
 #### Module Position
 
@@ -79,7 +89,15 @@ The **Module Instance** position enables you to inject a single instance of a Jo
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+#### Widget Position
+
+The **Widget Position** setting enables you to globally disable (or enable) widget positions for the outline. Doing this when Widget Position particles are in place will cause assigned widgets not to appear the front end.
+
+#### Widget
+
+The **Widget** position enables you to inject a single widget into the page. Its settings are pretty simple. You need but to **pick a widget**, configure the widget's **settings**, set its **chrome** (if applicable), and it will appear on the front end wherever you place it in the **Layout Manager** or **Menu Editor**.
+
+Doing this bypasses the need to assign the widget to the position via a traditional widget position.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

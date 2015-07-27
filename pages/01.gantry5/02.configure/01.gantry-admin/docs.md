@@ -35,8 +35,6 @@ There is a third method, which is easily accomplished by navigating to **Compone
 {% endset %}
 {% set tab2 %}
 
->>> WordPress support is coming soon.
-
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
 Once this is done, navigate to **Administrator → (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
@@ -83,6 +81,8 @@ The **Menu Editor** makes it easy to configure and add information to menus as t
 
 The Gantry menu system grabs information from the CMS' own menu system, and creates an override that enables you to rearrange items and configure it the way you would like it to appear on the front end. These customizations are then served to the visitor. The changes you make to the menu does not impact the way the CMS uses the menu. If you need to make changes to page ordering or any other CMS-specific property, you will still need to do this from the native menu manager.
 
+<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Menu Editor</a></div>
+
 #### About
 
 ![About](about.png) {.border .shadow}
@@ -99,11 +99,15 @@ The **About** panel enables the theme developer to place information about the t
 
 The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
 
+<div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Styles Panel</a></div>
+
 #### Settings
 
 ![Settings](settings.png) {.border .shadow}
 
 The **Settings** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
+
+<div align="center"><a href="../configure/settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Settings Panel</a></div>
 
 #### Layout
 
@@ -111,10 +115,39 @@ The **Settings** panel is a virtual command center for Particles. This is where 
 
 This is the **Layout Manager** panel which enables you to arrange Particles, content, and widget/module positions for your theme. This panel is essentially where you set up how the page's elements will be arranged, and what they will include. Additionally, you can access individual settings for Particles, Blocks, Sections, and Grids. 
 
+<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Layout Panel</a></div>
+
 #### Assignments
 
 ![Assignments](assignments.png) {.border .shadow}
 
 The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have an outline set up that you would like to apply specifically to your **About** page, you can do so here.
 
+<div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Assignments Panel</a></div>
 
+#### Content (WordPress)
+
+{% set tab1 %}
+
+The **Content** administrative panel is not available on Joomla as Joomla handles these settings in its own integrated system.
+
+{% endset %}
+{% set tab2 %}
+
+![Content](wp_content.png) {.border .shadow}
+
+The **Content** administrative panel gives you the ability to quickly and easily configure the way content is displayed on a given page.
+
+For example, you can use this panel to set which categories appear in a page, as well as meta information such as author tags, comments, the size of featured images, and more.
+
+The following types of pages have their own set(s) of settings:
+
+* Blog
+* Page
+* Post
+* Archive
+
+This enables you to refine how data is displayed, depending on the type of page it is being displayed on. This gives your outlines extended flexibility, and significantly reduces development time as a result.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}

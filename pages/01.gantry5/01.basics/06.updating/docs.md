@@ -49,7 +49,7 @@ Upgrading the Gantry Framework plugin is a relatively straightforward and simple
 
 ![](update_wp.png) {.border .shadow}
 
-Alternatively, you can upload the updated version via FTP. You would just need to download the latest [Gantry files](http://code.google.com/p/gantry-framework/downloads/list?can=3&q=platform%3DWordPress), extract them and overwrite the whole `gantry` directory under `wp-content/plugins`. There is no need to uninstall first, as the files will be overwritten during the FTP upload.
+Alternatively, you can upload the updated version via FTP. You would just need to download the latest [Gantry files](http://gantry.org/downloads), extract them and overwrite the whole `gantry` directory under `wp-content/plugins`. There is no need to uninstall first, as the files will be overwritten during the FTP upload.
 
 You can check to see if the correct Gantry version has been installed by going to **Plugins** and searching for Gantry. The version number will appear in the resulting table.
 

@@ -48,3 +48,11 @@ Each Gantry-powered theme comes with a set of Style settings you can use to cust
 If you are changing these settings for a non-default outline, the settings themselves will appear faded out until these settings are changed from their defaults. You can either click on the setting itself, or check the box to the right of the setting to indicate that you wish to make a change from the default before making your changes.
 
 If you wish to have the setting for the outline revert back to defaults, simply uncheck the checkbox and save the style.
+
+## Configuration Styles
+
+![Settings](configuration_styles.png) {.border .shadow}
+
+The **Configuration Styles** area of the **Styles** administration panel gives you the ability to set responsive breakpoints for the outline, as well as menu options such as the dropdown width for the **Simple** dropdown setting. 
+
+More information about breakpoints can be found in our [Media Queries](../../tutorials/media-queries#defining-breakpoints) section.

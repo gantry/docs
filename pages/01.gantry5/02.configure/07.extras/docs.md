@@ -10,7 +10,18 @@ process:
     twig: true
 ---
 
+{% set tab1 %}
+
 ![Extras](devprod.png) {.border .shadow}
+
+{% endset %}
+{% set tab2 %}
+
+![Production](wp_production.png) {.border .shadow}
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
 
 The **Extras** dropdown gives you quick access to a few options that are handy to have instant access to throughout the administrator. This includes the **Development Mode** toggle switch, a **Clear Cache** shortcut, and a shortcut to **Platform Settings** which takes you to a platform-specific settings page for Gantry.
 
@@ -33,15 +44,36 @@ There is an alternative method for toggling this feature, accessible by navigati
 {% endset %}
 {% set tab2 %}
 
-Coming soon...
+This is currently the recommended, primary method for toggling Development and Production mode in WordPress.
 
 {% endset %}
 {{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 ## Clear Cache
 
+{% set tab1 %}
+
 The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
+
+{% endset %}
+{% set tab2 %}
+
+The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/wp-content/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 ## Platform Settings
 
+{% set tab1 %}
+
 The **Platform Settings** shortcut takes you to a platform-specific settings page for Gantry 5. In Joomla, for example, you will be taken to the component configuration page for Gantry 5 (which typically handles advanced permissions configuration).
+
+{% endset %}
+{% set tab2 %}
+
+WordPress does not currently have a Platform Settings option as it does not have an equivalent component to that which is present in Joomla.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+
