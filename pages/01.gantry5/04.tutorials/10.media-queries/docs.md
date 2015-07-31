@@ -21,7 +21,17 @@ Because Gantry 5 gives you the ability to easily define the breakpoints between 
 
 ![Breakpoints](breakpoints.png) {.border .shadow}
 
+{% set tab1 %}
+
 Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Components → Gantry 5 Themes → Your Theme** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+
+{% endset %}
+{% set tab2 %}
+
+Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Theme Settings** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 If you're not familiar with `rem` units. There is an excellent explainer below produced by [Russ Weakley for SitePoint](http://www.sitepoint.com/css3-rem-units/). Additionally, you can read a [detailed guide from W3](http://www.w3.org/TR/2013/CR-css3-values-20130730/#font-relative-lengths).
 

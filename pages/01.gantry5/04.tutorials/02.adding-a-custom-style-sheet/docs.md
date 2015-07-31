@@ -14,31 +14,31 @@ Adding a custom style sheet is a fairly straightforward process. The first thing
 
 ![Custom File](custom.png) {.border .shadow}
 
-{% set tab1 %}
-
-To do this, navigate in the directory structure to `(site root)/templates/(template directory)/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/scss/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
+To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/scss/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
 >>>> Joomla doesn't support creating SCSS files in its built-in template customization tool.
-
-{% endset %}
-{% set tab2 %}
-
-Coming soon...
-
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 This file will then be compiled as an override to the theme's core style sheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
 
 You can format the file's content in either **SCSS** or **CSS**. Gantry will automatically pick it up and compile it properly.
 
-![Recompile CSS](production.png) {.border .shadow}
-
-Once you have added this file, and put your custom CSS/SCSS within, Gantry will do one of two things. This activity is determined by the **Production Mode** setting in the **System - Gantry 5** plugin. You can reach this setting by navigating to **Administrator > Extensions > Plugin Manager** and selecting the plugin.
+Once you have added this file, and put your custom CSS/SCSS within, Gantry will do one of two things. This activity is determined by the **Production Mode** setting. You can reach this setting by navigating to **Gantry 5 Administrator > Extras**.
 
 ![Recompile CSS](custom_2.png) {.border .shadow}
 
 If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
+
+{% set tab1 %}
+
+![Extras](devprod.png) {.border .shadow}
+
+{% endset %}
+{% set tab2 %}
+
+![Production](wp_production.png) {.border .shadow}
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 If **Production Mode** is set to **No**, then Gantry will recompile the CSS/SCSS automatically when changes are made. In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as Cache, minified vs. extended JS/CSS, etc.
 

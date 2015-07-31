@@ -5,6 +5,7 @@ taxonomy:
     tag: [gantry5]
 gravui:
     enabled: true
+    tabs: true
     callouts: true
 process:
     twig: true
@@ -63,11 +64,25 @@ In this example, we will add a link to the **Copyright** Particle that goes dire
 
 In the image above, you will see the **Copyright** Particle on the left-hand side. There are no links or anything included in the core Particle. If you wanted to have the name of the copyright-holder become a link to that copyright holder's website, you can add a few simple changes to the Particle's source files.
 
+{% set tab1 %}
+
 The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/media/gantry5/engines/nucleus/particles/` and paste the copies to `TEMPLATE_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.
 
 By duplicating the files and placing the copies in the custom folder, you are making your changes update proof. This ensures that your changes do not get wiped out when you update either the Gantry framework or the theme.
 
 Anything you do to the duplicate particle files in your `TEMPLATE_DIR/custom/particles` folder will override what appears in the original file.
+
+{% endset %}
+{% set tab2 %}
+
+The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/particles/` and paste the copies to `THEME_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.
+
+By duplicating the files and placing the copies in the custom folder, you are making your changes update proof. This ensures that your changes do not get wiped out when you update either the Gantry framework or the theme.
+
+Anything you do to the duplicate particle files in your `THEME_DIR/custom/particles` folder will override what appears in the original file.
+
+{% endset %}
+{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
 
 Because we are adding a new field to the **Copyright** Particle, we will need to edit the YAML file. Here is what the `copyright.yaml` YAML file looks like before the changes.
 
