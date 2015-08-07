@@ -13,7 +13,7 @@ For our example, we will be adding a fixed navigation section to our theme. This
 
 Here is a quick list of useful guides to help you with this tutorial:
 
-* [Develop and Production Modes](configure/extras#development-and-production-modes)
+* [Develop and Production Modes](../../configure/extras#development-and-production-modes)
 * [Custom CSS / JS Atom](../../particles/atoms#custom-css-js)
 * [Recompiling CSS](../../configure/styles#controls)
 * [Customizing Theme Files](../../advanced/customizing-theme-files)
