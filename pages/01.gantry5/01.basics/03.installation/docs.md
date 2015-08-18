@@ -89,7 +89,7 @@ Themes made on Gantry 5 install just like any other WordPress theme. The differe
 
 ![](install_wp_3.png) {.border .shadow}
 
-To install the theme on WordPress, simply navigate to **Admin → Plugins** in the sidebar and select the **Add New** button at the top of the **Themes** page.
+To install the theme on WordPress, simply navigate to **Admin → Appearance** in the sidebar and select the **Add New** button at the top of the **Themes** page.
 
 This will take you to the **Add Themes** page with another button on top called **Upload Theme**. Click it.
 
