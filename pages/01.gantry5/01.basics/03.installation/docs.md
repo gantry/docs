@@ -15,7 +15,7 @@ The Gantry framework itself is independent of any theme. Each Gantry-enabled the
 
 ## Downloading Gantry
 
-Gantry requires to major parts to function. The first is the Gantry framework itself, a collection including the Gantry component, library, and associated plugins. This is the base by which the second part, a Gantry-powered theme functions. 
+Gantry requires two major parts to function. The first is the Gantry framework itself, a collection including the Gantry component, library, and associated plugins. This is the base by which the second part, a Gantry-powered theme functions. 
 
 * **Gantry 5**: This contains the Gantry 5 framework and its associated bits and pieces (library, component, and plugins).
 * **Theme**: This contains just the theme/template.
