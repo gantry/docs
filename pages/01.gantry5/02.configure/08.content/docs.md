@@ -22,16 +22,15 @@ All of these options enable you to turn various elements to your data on or off,
 
 The **Blog** content section enables you to set which types of content appears in a standard blog page. This includes:
 
-* Author Meta (link, prefix)
-* Post Content (length of preview, trim excerpt)
-* Comments Meta (link, prefix)
 * Blog Page Heading (custom heading)
-* Categories Meta (link, prefix)
 * Featured Image (width, height, position)
-* Tags Meta (link, prefix)
 * Post Title (link)
-* Read More Button (label, display mode)
 * Publish Date Meta (link, date format, prefix)
+* Author Meta (link, prefix)
+* Comments Meta (link, prefix)
+* Categories Meta (link, prefix)
+* Tags Meta (link, prefix)
+* Read More Button (label, display mode)
 
 ## Post
 
