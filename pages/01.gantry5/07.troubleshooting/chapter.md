@@ -7,6 +7,6 @@ taxonomy:
 
 ### Chapter 7
 
-# Tutorials
+# Troubleshooting
 
 This chapter includes helpful tips and information used in troubleshooting issues using **Gantry 5**.
