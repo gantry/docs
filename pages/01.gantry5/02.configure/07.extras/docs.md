@@ -41,6 +41,10 @@ In the future, more **Development** vs. **Production** actions will be tied to t
 
 There is an alternative method for toggling this feature, accessible by navigating to **Administrator → Extensions → Plugin Manager** and selecting the **System - Gantry 5** plugin.
 
+You can also use this settings page to toggle **Asset Timestamps**. This feature adds timestamps on changed asset files, like images, CSS and JS. This option tells the browser to retrieve fresh assets without forcing reload on the page. NOTE: Timestamps are always enabled in development mode.
+
+The **Timestamp Period** field enables you to set the number of days which a timestamp is kept after updating the file. You can enter whole or decimal numbers (example: 0.5, 12, 21, 3, etc.). Set to **0** to add timestamps on every single asset file.
+
 {% endset %}
 {% set tab2 %}
 
