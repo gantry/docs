@@ -22,7 +22,6 @@ All of these options enable you to turn various elements to your data on or off,
 
 The **Blog** content section enables you to set which types of content appears in a standard blog page. This includes:
 
-* Including and excluding categories from the blog page's listing.
 * Author Meta (link, prefix)
 * Post Content (length of preview, trim excerpt)
 * Comments Meta (link, prefix)
