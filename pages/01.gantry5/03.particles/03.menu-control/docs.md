@@ -12,7 +12,7 @@ process:
 
 ![Menu](menu.png) {.border .shadow}
 
-The **Menu** particle gives you the ability to place menus and define how they appear on the frontned. 
+The **Menu** particle gives you the ability to place menus and define how they appear on the frontend. 
 
 The Menu particle settings are different than the ones found in the [**Menu** administrative panel](../configure/menu-editor.md). Here's a quick breakdown of the life cycle of a menu in Gantry 5.
 
