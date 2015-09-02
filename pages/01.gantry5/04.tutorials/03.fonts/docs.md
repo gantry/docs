@@ -19,7 +19,7 @@ The second method sets the font active to the theme, globally. This method enabl
 
 >>> In this guide we will be using **Roboto** as our new local font. You can pick it up from [FontSquirrel](http://www.fontsquirrel.com/fonts/roboto). Simply select the **WebFont Kit** tab and download `roboto-fontfacekit.zip`.
 
-### Adding a New Font the Font Picker
+### Adding a New Font to the Font Picker
 
 If you would like to make your new font accessible to the **Font Picker**, you will need to make an edit to the `theme.yaml` file to add the font and set its font weight associations.
 
