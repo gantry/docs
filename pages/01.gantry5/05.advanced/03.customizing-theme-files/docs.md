@@ -210,7 +210,7 @@ Here is the same file with the changes:
 
     {% set html %}
     <{{ tag_type }} id="g-{{ attr_id }}" {{ attr_class|raw }}{{ attr_extra|raw }}>
-        {% if attr_background %}<div class="section-background" style="background-image: url({{ attr_background }})">{% endif %}
+        {% if attr_background %}<div class="section-background" style="background-image: url({{ url(attr_background) }})">{% endif %}
         {{ html|raw }}
         {% if attr_background %}</div>{% endif %}
     </{{ tag_type }}>
