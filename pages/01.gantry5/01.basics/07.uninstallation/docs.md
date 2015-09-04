@@ -34,7 +34,7 @@ To uninstall the Gantry theme, you will first have to ensure that it's not activ
 
 ![Selecting All](../installation/gantry_extensions.png) {.border .shadow}
 
-Uninstall the Gantry component, library, plugin and template(s) from **Extensions → Extensions Manager → Manage**. Insert **gantry** into the **Filter** and click **Search**. Select all Gantry elements you wish to uninstall, then click **Uninstall** in the button toolbar. Gantry will now be uninstalled.
+Uninstall the Gantry component, library, plugin and template(s) from **Extensions → Extensions Manager → Manage**. Insert **gantry** into the **Filter** and click **Search**. Select the unlocked Gantry 5 extension, then click **Uninstall** in the button toolbar. Gantry will now be uninstalled.
 
 {% endset %}
 {% set tab2 %}
