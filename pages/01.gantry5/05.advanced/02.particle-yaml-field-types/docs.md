@@ -60,8 +60,16 @@ HTML Input Field Types
 There are two main types of inputs supported by Gantry. The first are basic HTML input types. Gantry supports them for simplicity sake, making it easier for you to create Particles that take advantage of everything HTML has to offer. These types include:
 
 * collection.list      
-* input.checkbox       
-* input.color          
+* input.checkbox | Displays a checkbox (default: true=checked / false=unchecked)                              
+
+```yaml
+    title:
+      type: input.checkbox
+      label: Your lable.
+      description: Your description.
+      default: true
+```
+* input.color
 * input.date           
 * input.datetime-local 
 * input.datetime       
@@ -79,7 +87,15 @@ There are two main types of inputs supported by Gantry. The first are basic HTML
 * input.search         
 * input.submit         
 * input.tel            
-* input.text           
+* input.text 
+
+```yaml
+    title:
+      type: input.text
+      label: Your lable.
+      description: Your description
+```
+
 * input.time           
 * input.url            
 * input.week           
@@ -151,4 +167,27 @@ Below is how these YAML settings appear in the Gantry 5 administrator.
 
 ![date](date.png) {.border .shadow}
 
+
+Gantry Alerts, Notes and Styling
+-----
+
+Next to the standard HTML and Gantry inputs there are also a lot of other inputs. These inputs can be used to alert users or to simply add a bit of styling to the Gantry admin. With notes, you can create subsections and add more information directly available for the user. The following types are included:
+
+* seperator.note
+
+```yaml
+   titel:
+      type: separator.note
+      class: alert alert-info
+      content: '<h1>Your HTML GOES HERE</h1><p>Write what you want!</p>'
+```
+
+Change the class of the `seperator.note` to any class that corresponds with your template. Standard classes are:
+
+```yaml
+      class: alert alert-success
+      class: alert alert-info
+      class: alert alert-warning
+      class: alert alert-danger      
+```
 There are a lot of different options available to you. As you can tell from this short guide, Particles are a powerful part of Gantry's core functionality, and can utilize a number of features to make life easier on your user.

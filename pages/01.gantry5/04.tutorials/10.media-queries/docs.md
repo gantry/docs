@@ -102,7 +102,7 @@ One important line to note is `@import "nucleus/mixins/breakpoints";` which load
 }
 
 // Mobile Menu Breakpoint
-@media only all and (max-width: $mobile-menu-breakpoint) { ... your css in here ... }
+@media only all and (max-width: $breakpoints-mobile-menu-breakpoint) { ... your css in here ... }
 
 @import "nucleus/mixins/breakpoints"
 ```
