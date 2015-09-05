@@ -49,7 +49,9 @@ You will want to make sure that all of Gantry's associated extensions are enable
 {% endset %}
 {% set tab2 %}
 
-To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. At the top of the **Add Plugins** page, you will see an **Upload Plugin** botton. Click it.
+[plugin:youtube](https://www.youtube.com/watch?v=5o5GjHVX7AQ)
+
+To install the Gantry plugin, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. At the top of the **Add Plugins** page, you will see an **Upload Plugin** botton. Click it.
 
 From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
