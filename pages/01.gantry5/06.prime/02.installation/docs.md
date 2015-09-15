@@ -10,7 +10,7 @@ You can install Gantry Prime by cloning the Gantry Playground project to your pr
     $ git clone https://github.com/gantry/gantry5.git
     $ cd gantry5
     $ cd src
-    $ composer install
+    $ composer install --no-dev
     $ cd ..
 
 After this you need to go to your Web root and create a new directory:
