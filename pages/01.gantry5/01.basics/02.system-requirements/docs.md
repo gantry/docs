@@ -19,7 +19,7 @@ Requirements
 
 **Joomla 3.4+**
 
-It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.4** is the latest stable version of Joomla. Gantry 5 will only function properly on Joomla 3.4 and higher.
+It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.4.1** is the latest stable version of Joomla. Gantry 5 will only function properly on Joomla 3.4 and higher.
 
 {% endset %}
 {% set tab2 %}
