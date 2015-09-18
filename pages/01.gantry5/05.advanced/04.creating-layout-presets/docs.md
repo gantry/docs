@@ -135,7 +135,7 @@ This is a very simple Layout Preset, giving the user **Header**, **Main**, and *
 
 ## Spanning a Sidebar Across Multiple Sections
 
-In this section, we will demonstrate two YAML files that create one and two sidebar sections that span across multiple sections of the site. This is useful in cases where you want to have additional sections, such as your header and footer, share vertical space with the sidebar.
+In this section, we will demonstrate two YAML files that create one and two sidebar sections that span across multiple sections of the site. This is useful in cases where you want to have additional sections, such as your header and footer, share horizontal space with the sidebar.
 
 ```yaml
 preset:
@@ -162,7 +162,7 @@ layout:
     - particle-mobile-menu
 ```
 
-As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same group as the **aside** section, which acts as a sidebar.
+As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the horizontal space as the **aside** section, which acts as a sidebar.
 
 In the example below, you will see a two-sidebar layout preset YAML with a sidebar to the left and an aside section to the right of multiple sections.
 
