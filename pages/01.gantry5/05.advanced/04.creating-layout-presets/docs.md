@@ -162,7 +162,7 @@ layout:
     - particle-mobile-menu
 ```
 
-As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the horizontal space as the **aside** section, which acts as a sidebar.
+As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same horizontal space as the **aside** section, which acts as a sidebar.
 
 In the example below, you will see a two-sidebar layout preset YAML with a sidebar to the left and an aside section to the right of multiple sections.
 
