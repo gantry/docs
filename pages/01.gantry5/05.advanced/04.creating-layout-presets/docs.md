@@ -132,3 +132,77 @@ The `1:` in the example above indicates that the three child sections are inside
 This is a very simple Layout Preset, giving the user **Header**, **Main**, and **Footer** sections in addition to two independent **Sidebar** sections. Each section gets its own base styling that provides the base by which added **Particles** and **Positions** are placed.
 
 >>> Each horizontal row needs to equal 100% width. In the example above, you will notice that `main` has a width set of 60%, followed by two sidebars each at 20% width. It's also very important to remember that YAML files only support spaces divisible by 2, and not tabs.
+
+## Spanning a Sidebar Across Multiple Sections
+
+In this section, we will demonstrate two YAML files that create one and two sidebar sections that span across multiple sections of the site. This is useful in cases where you want to have additional sections, such as your header and footer, share vertical space with the sidebar.
+
+```yaml
+preset:
+  image: gantry-admin://images/layouts/2-col-left.png
+
+layout:
+  1:
+    -
+      header:
+      - [position-header]
+      navigation:
+      - [particle-menu]
+      messages:
+      - system-messages
+      main:
+      - pagecontent
+      footer:
+      - [particle-copyright 40, spacer 30, particle-branding 30]
+    -
+      aside:
+      - position-aside
+
+  offcanvas:
+    - particle-mobile-menu
+```
+
+As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same group as the **aside** section, which acts as a sidebar.
+
+In the example below, you will see a two-sidebar layout preset YAML with a sidebar to the left and an aside section to the right of multiple sections.
+
+```yaml
+preset:
+  image: gantry-admin://images/layouts/3-col.png
+
+layout:
+  1:                              # main row
+    -                               # main column 1
+      sidebar:                        # section
+       - position-sidebar               # content row
+
+    -                               # main column 2
+      header:                         # section
+      - position-header                 # content row
+      navigation:                     # section
+      - particle-menu                   # content row
+      main:                           # section
+      - system-messages                 # content row
+      - pagecontent                     # content row
+      footer:                         # section
+      - particle-copyright              # content row
+
+    -                               # main column 3
+      aside:                          # section
+      - position-aside                  # content row
+
+  offcanvas:
+    - particle-mobile-menu
+```
+
+The `1:` in the examples given in this section could be replaced with a dash, but it's used here to make it easier to decipher that there is a top-level container that stores all of these sections.
+
+## Syntax Guide
+
+There are four main rules to keep in mind when creating a layout preset.
+
+1. tiered content is ordered as `row - column - row - column - row - column`. See the earlier examples.
+2. `foo:` creates a section.
+3. Multiple particles in a row are put within `[ ]` brackets. Example: `- [particle-logo, particle-menu]`
+4. You don't need brackets for single-particle rows. Example: `- particle-menu` is the shorthand of `- [particle-menu]`
+
