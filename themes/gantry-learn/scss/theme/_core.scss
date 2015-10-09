@@ -57,3 +57,15 @@ a {
         padding: 0;
     }
 }
+
+body .copy-to-clipboard {
+    background-color: transparent;
+    background-size: 16px 16px;
+    width: 22px;
+    height: 1rem;
+    margin-left: 0;
+}
+
+body pre .copy-to-clipboard {
+    padding: 0.8em;
+}

@@ -53,6 +53,16 @@ a {
 .scroll-wrapper .highlightable {
   padding: 0; }
 
+body .copy-to-clipboard {
+  background-color: transparent;
+  background-size: 16px 16px;
+  width: 22px;
+  height: 1rem;
+  margin-left: 0; }
+
+body pre .copy-to-clipboard {
+  padding: 0.8em; }
+
 fieldset {
   border: 1px solid #ddd; }
 
@@ -135,7 +145,7 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   #sidebar a {
     color: #bbbbbb; }
     #sidebar a:hover {
-      color: #d5d5d5; }
+      color: #d4d4d4; }
   #sidebar hr {
     border-bottom: 1px solid #32454f; }
   #sidebar a.padding {
@@ -176,7 +186,7 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
     #sidebar ul.searched a {
       color: #888888; }
     #sidebar ul.searched .search-match a {
-      color: #d5d5d5; }
+      color: #d4d4d4; }
       #sidebar ul.searched .search-match a:hover {
         color: #eeeeee; }
     #sidebar ul.topics {
@@ -446,7 +456,8 @@ pre {
   border: 1px solid #ddd;
   border-radius: 2px;
   line-height: 1.15;
-  font-size: 1rem; }
+  font-size: 1rem;
+  position: relative; }
   pre code {
     color: #237794;
     background: inherit;
