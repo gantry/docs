@@ -34,25 +34,29 @@
     </h5>
 {% endmacro %}
 
-{% if theme_config.top_level_version %}
-    {% for slug, ver in pages.children %}
-        {{ _self.version(ver) }}
-        <ul id="{{ slug }}" class="topics">
-        {{ _self.loop(ver, '') }}
-        </ul>
-    {% endfor %}
-{% else %}
-    <ul class="topics">
-    {{ _self.loop(pages, '') }}
-    </ul>
-{% endif %}
+<div class="scrollbar-inner">
+    <div class="highlightable">
+        {% if theme_config.top_level_version %}
+            {% for slug, ver in pages.children %}
+                {{ _self.version(ver) }}
+                <ul id="{{ slug }}" class="topics">
+                {{ _self.loop(ver, '') }}
+                </ul>
+            {% endfor %}
+        {% else %}
+            <ul class="topics">
+            {{ _self.loop(pages, '') }}
+            </ul>
+        {% endif %}
 
 
-<hr />
+        <hr />
 
-<a class="padding" href="#" data-clear-history-toggle><i class="fa fa-fw fa-history"></i> Clear History</a><br />
+        <a class="padding" href="#" data-clear-history-toggle><i class="fa fa-fw fa-history"></i> Clear History</a><br />
 
-<section id="footer">
-    <p>Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS</p>
-    <p>Performance boosted by <a href="https://www.keycdn.com">KeyCDN</a></p>
-</section>
+        <section id="footer">
+            <p>Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS</p>
+            <p>Performance boosted by <a href="https://www.keycdn.com">KeyCDN</a></p>
+        </section>
+    </div>
+</div>
