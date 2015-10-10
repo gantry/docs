@@ -19,8 +19,6 @@ Controls
 
 ![Controls](controls.png) {.border .shadow}
 
-The **Save Page Settings** button applies any changes you have made to the **Page Settings** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned base outline.
-
 >>>>> Like in the [Settings Panel](../settings#controls), overrides, filtering and collapsing work the same way.
 
 Head Properties
