@@ -7,6 +7,6 @@ taxonomy:
 
 ### Chapter 6
 
-# Tutorials
+# Prime
 
 This chapter includes information related to **Gantry Prime** development and testing platform in **Gantry 5**.
