@@ -79,6 +79,29 @@ Here are the steps you would follow to access these controls:
 * Select the number of character sets selected link at the top of the font's listing.
 * Select the character set(s) you would like to use. 
 
+## Using the Font Weight(s) in Your Site
+
+Now the font weights are available in the theme they can be added to the site with **css**.
+
+**Example**
+
+The font selected in the example is `Exo:800`
+
+```css
+
+.your-element{
+  font-weight:800;
+}
+
+```
+
+Replace `.your-element` for the id(#) or class(.) of the element
+Replace `800` for the selected variation
+
+>>> The Roboto and Ubuntu fonts are one of the most completed fonts that are part of the Google Font Library. 
+
+>>>> Not all of the fonts inside the Google Font Library have variations!
+
 ## Adding the Font Picker to Your Site
 
 ![Font Picker Fields](font_selector_field.png) {.border .shadow}
