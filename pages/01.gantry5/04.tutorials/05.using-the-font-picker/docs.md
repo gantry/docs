@@ -81,11 +81,11 @@ Here are the steps you would follow to access these controls:
 
 ## Using the Font Weight(s) in Your Site
 
-Now the font weights are available in the theme they can be added to the site with **css**.
+Now that the font weights are available in the theme, they can be added to the site with **css**.
 
 **Example**
 
-The font selected in the example is `Exo:800`
+The font selected in this example is `Exo:800`
 
 ```css
 
@@ -95,10 +95,10 @@ The font selected in the example is `Exo:800`
 
 ```
 
-Replace `.your-element` for the id(#) or class(.) of the element
-Replace `800` for the selected variation
+Replace `.your-element` with the id(#) or class(.) of the element
+Replace `800` with the selected variation
 
->>> The Roboto and Ubuntu fonts are one of the most completed fonts that are part of the Google Font Library. 
+>>> The Roboto and Ubuntu fonts are two of the most complete font sets in the Google Font Library. 
 
 >>>> Not all of the fonts inside the Google Font Library have variations!
 
