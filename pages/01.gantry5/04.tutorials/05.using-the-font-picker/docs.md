@@ -98,7 +98,9 @@ The font selected in this example is `Exo:800`
 Replace `.your-element` with the id(#) or class(.) of the element
 Replace `800` with the selected variation
 
->>> The Roboto and Ubuntu fonts are two of the most complete font sets in the Google Font Library. 
+>>> The Roboto and Ubuntu fonts are two of the most complete font sets in the Google Font Library.
+
+<br>
 
 >>>> Not all of the fonts inside the Google Font Library have variations!
 
