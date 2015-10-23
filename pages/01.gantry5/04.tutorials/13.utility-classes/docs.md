@@ -54,3 +54,19 @@ This set of utility classes give you the ability to adjust the padding and margi
 | `nopaddingtop`    | Sets the padding value for just the top of the element to 0.                     |
 | `nopaddingbottom` | Sets the padding value for just the bottom of the element to 0.                  |
 | `g-flushed`       | Sets both the padding and margin for the element to 0.                           |
+
+## Utility Variations
+
+Variations are an easy way to adjust how content is seen in the front end. These are accessible directly through the **Block** settings when working with a particle, position, or menu item. Instead of being added from the admin via a CSS class field, they are accessible via a drop-down menu called **Variations**.
+
+Variations act as friendly preset classes, ready to be deployed wherever you need. Below is a list of variations available by default with Gantry 5.
+
+| Variation    | Description                                               |
+| :-----       | :-----                                                    |
+| Disabled     | Reduces the opacity of the element.                       |
+| Align Right  | Aligns the element's content to the right.                |
+| Aligh Left   | Aligns the element's content to the left.                 |
+| Center       | Aligns the element's content in the center.               |
+| Equal Height | Sets the element's height equal to the adjoining element. |
+| No Margin    | Sets the element's margins to 0.                          |
+| No Padding   | Sets the element's padding to 0.                          |
