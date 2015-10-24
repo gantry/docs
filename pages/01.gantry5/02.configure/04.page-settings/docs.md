@@ -140,7 +140,7 @@ Atoms
 
 ![Particle Settings](atoms.gif) {.border .shadow}
 
-Since Gantry 5.2.0, Atoms have been moved from the **Layout Manager** into the **Page Sections** panel. Even though Atoms are _de-facto_ Particles and can be [created the same way](../../advanced/creating-a-new-particle), they behave differently.
+Since Gantry 5.2.0, Atoms have been moved from the **Layout Manager** into the **Page Settings** panel. Even though Atoms are _de-facto_ Particles and can be [created the same way](../../advanced/creating-a-new-particle), they behave differently.
 
 Atoms are Particles that do not appear visually on the frontend, but do serve an important purpose. They can be assigned on a per-page basis, or as a default which automatically applies to all of the pages on the site.
 
