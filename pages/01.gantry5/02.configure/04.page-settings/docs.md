@@ -11,8 +11,8 @@ The **Page Settings** allows to extend the output of the page by letting you inc
 
 In the traditional template approach, to add any of these elements you would need to manually edit the file that includes the structure of the page, usually an `index.php` file. Page Settings simplify this process exponentially by abstracting the manual editing labor into a simple and powerful form right into the admin.
 
-Thanks to the Gantry's core concept and implementation of overrides, Page Settings can be global as well as singularly overridden for each Outline, if ever needed.
- 
+Thanks to the Gantry's core concept and implementation of overrides, Page Settings can be global as well as granularly overridden for each Outline, if ever needed.
+
 
 Controls
 -----
@@ -26,14 +26,14 @@ Head Properties
 
 ![Particle Settings](head_properties.jpg) {.border .shadow}
 
-The **Head Properties** block allows to customize anything that goes in between `<head></head>`. Often times you want to add Meta Tags for Facebook or Twitter, or perhaps you simply want to add something custom. 
+The **Head Properties** block allows to customize anything that goes in between `<head></head>`. Often times you want to add Meta Tags for Facebook or Twitter, or perhaps you simply want to add something custom.
 
 The screenshot above shows one of the many possible ways you could compile Head Properties.
- 
+
 ### Meta Tags
 
 Meta Tags is a Collection field that takes a list of keys and values, combines them and renders inside `<head></head>` in the form of a `<meta>` property.
-The use of Meta Tags is countless, usually Meta Tags are used to better structure how a site gets displayed when embedded in Facebook or Twitter.
+The use of Meta Tags is countless, usually Meta Tags are used to better define a site for Search Engines as well as define how the site gets displayed when embedded in Facebook or Twitter.
 
 More details about Facebook's Open Graph and Twitter's Cards Meta Tags can be found at the following locations:
 
@@ -41,6 +41,14 @@ More details about Facebook's Open Graph and Twitter's Cards Meta Tags can be fo
 - [https://dev.twitter.com/cards/markup](https://dev.twitter.com/cards/markup)
 - [https://dev.twitter.com/cards/getting-started](https://dev.twitter.com/cards/getting-started)
 
+
+### Custom Content
+
+The Custom Content field is dedicated to anything specific that one wants to append to the `<head>` tag. Any metadata that is allowed by the specs to go inside <head> can be written in here, the same way you would do if you were editing an `index.html` file.
+
+Common metadata tags are `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`.
+
+>>> It is highly adviced to handle Scripts and Styles via [Assets Section](#assets) or via [Atoms](#atoms). Although it can be tempting to write script and tags code directly in this field, it should only be used as a last resort in case. Evaluate properly whether Scripts and Styles should go in here.
 
 Body Attributes
 -----
@@ -51,22 +59,46 @@ Body Attributes
 
 ### Body Id and Body Classes
 
-The **Body Id** field allows to specify an id for the `<body>`. While **Body Classes** allow to add additional personal classnames. Following the example in the screenshot above, the resulting output will look something like:
+The **Body Id** field allows to specify an id for the `<body>`, while **Body Classes** allow to add additional personal classnames. Following the example in the screenshot above, the resulting output will render as:
 
 ```html
-<body id="my_app" class="... gantry ...">
+<body id="my-site" class="... gantry body-class ...">
 ```
+
+Gantry itself already adds classes of its own to the body, based on various factors such as what Menu Item is being viewed, what Outline is being chosen, etc.
+
+Most of the time you won't need to add any custom class name, although in case you need, this is the place for it.
 
 ### Tag Attributes
 
-**Tag Attributes** is a Key/Value field that allows to render additional custom attributes for the `<body>`. Considering the screenshot example of above, imagine to have loaded a script that allows to customize the scroll speed and page auto refresh via `data-scroll` and `data-refresh`.
- 
- The resulting output will look like so:
- 
- 
+**Tag Attributes** is a Key/Value field that allows to render additional custom attributes for the `<body>`. Considering the screenshot example of above, imagine to have loaded a script that allows to customize the scroll speed and page auto refresh via `data-scroll` and `data-refresh` attributes.
+
+ The resulting output will render as:
+
+
 ```html
-<body id="my_app" class="... gantry ..." data-scroll="500ms" data-refresh="3mins">
+<body id="my-site" class="... gantry body-class ..." data-scroll="500ms" data-refresh="3mins">
 ```
+
+### Sections Layout
+
+Since Gantry 5.2.0, by default all Sections in the **Layout Manager** refer to this setting for their style. Sections Layout offers three types of style:
+
+1. **Fullwidth (Boxed Content)** _[Default - previously "Fullwidth"]_
+2. **Fullwidth (Flushed Content)** _[new in 5.2.0]_
+3. **Boxed**
+
+And this is a visual representation of all three cases
+
+| Fullwidth (Boxed Content) [Default] | Fullwidth (Flushed Content) | Boxed |
+|:-----------------------------------:|:---------------------------:|:-----:|
+| ![Fullwidth](fullwidth.jpg?lightbox=963,712&resize=300) | ![Flushed](flushed.jpg?lightbox=963,712&resize=300) | ![Boxed](boxed.jpg?lightbox=963,712&resize=300)
+
+These styles allow to customize the whole site or individual Sections to accomodate specific needs. The most common case scenario, for instance, is wanting a section to be fully flushed so that an image or background can be added to it making it flush to the edges.
+
+To change the behavior of individual Sections, head to the Layout Manager panel and click the gear action icon of the desired Section. You will then be able to  pick a different value for the **Layout** field. **Default** will tell Gantry that it should be using the Setting from the **Page Settings** panel.
+
+![Layout Section Settings](section-layout.jpg) {.border .shadow}
 
 ### After `<body>` and Before `</body>`
 
@@ -75,7 +107,7 @@ Sometimes you need to inject styles, scripts or elements to the page and they ne
 A great example was [Facebook's SDK for JavaScript](https://developers.facebook.com/docs/javascript/quickstart/v1.0) at its version 1.0. Back then Facebook was requiring the site to provide a `<div id="fb-root"></div>` right after the `<body>` tag opened. As you can see from the screenshot example above, that would have been the perfect place for it.
 
 You will often see scripts requiring that you do render elements up front in the page and instead of creating new Modules, Particles or Widgets, you can simply add your element in here. Popups are also a good example. The content of the modal is rendered in the page but invisible, until an element triggers the popup to open.
- 
+
 
 Assets
 -----
@@ -85,7 +117,7 @@ Assets
 **Assets** is a dedicated section for injecting specific CSS/JS or Favicons to the site. Even though anything you can do in Assets you could do with just [Head Properties](#head-properties) and [Body Attributes](#body-attributes), we decoupled these portions to its own section.
 
 Assets serve a very important role in custom templating. Including 3rd party scripts or styles has become very common and for this very reason, having a dedicated section to keep everything well organized is important.
- 
+
 ### Favicon and Touch Icon
 
 The **Favicon** and **Touch Icon** allow to assign an image to the site that will then represent in form of an icon for the browser tab or in your device home screen.
@@ -100,5 +132,30 @@ If you want to use **Touch Icon**, it is adviced that you create an image that i
 
 ### CSS and JavaScript
 
-Both **CSS** and **JavaScript** Collection fields work identically to the [Custom CSS/JS Atom](../../particles/atoms#custom-css-js). The benefit of adding Assets from the Page Settings is that they will be global to the site and you won't need to Drag and Drop an Atom to the Layout anymore.
+Both **CSS** and **JavaScript** Collection fields work identically to the [Custom CSS/JS Atom](#custom-css-js). The same behavior can be accomplished by adding an [Atom](#atom) as explained below. Although in some cases one would prefer to have separated assets between the Assets section and Atoms. Both methods are right and it just comes down to what you prefer.
 
+
+Atoms
+-----
+
+![Particle Settings](atoms.gif) {.border .shadow}
+
+Since Gantry 5.2.0, Atoms have been moved from the **Layout Manager** into the **Page Sections** panel. Even though Atoms are _de-facto_ Particles and can be [created the same way](../../advanced/creating-a-new-particle), they behave differently.
+
+Atoms are Particles that do not appear visually on the frontend, but do serve an important purpose. They can be assigned on a per-page basis, or as a default which automatically applies to all of the pages on the site.
+
+For all intents and purposes, Atoms such as **Google Analytics**, and **Custom CSS / JS** add scripting to the page which add or modify the page's scripting during load. This is useful for basic styling such as coloring, and analytics tracking.
+
+>>> When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
+
+Google Analytics
+-----
+
+![Google Analytics](atoms-analytics_settings.png) {.border .shadow}
+
+The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
+
+Custom CSS / JS
+-----
+
+![Custom CSS / JS](atoms-custom_settings.png) {.border .shadow}
