@@ -35,7 +35,11 @@ There is a third method, which is easily accomplished by navigating to **Compone
 {% endset %}
 {% set tab2 %}
 
-The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+[plugin:youtube](https://www.youtube.com/watch?v=VrwlAISRS48)
+
+The first thing you will need to do is ensure that the Gantry Framework, [Timber](https://wordpress.org/plugins/timber-library/) plugin, and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+
+![Sidebar](wp_sidebar.png) {.border .shadow}
 
 Once this is done, navigate to **Administrator → (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
 
