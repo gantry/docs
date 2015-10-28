@@ -211,6 +211,15 @@ There are four main rules to keep in mind when creating a layout preset.
 
 1. tiered content is ordered as `row - column - row - column - row - column`. See the earlier examples.
 2. `foo:` creates a section.
-3. Multiple particles in a row are put within `[ ]` brackets. Example: `- [particle-logo, particle-menu]`
-4. You don't need brackets for single-particle rows. Example: `- particle-menu` is the shorthand of `- [particle-menu]`
+3. Multiple particles in a row are put within `[ ]` brackets. Example: `- [logo, menu]`
+4. You don't need brackets for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
+
+## Common YAML Items
+
+| Item              | Description                                                                                                            |
+| :-----            | :-----                                                                                                                 |
+| `system.messages` | Inserts a **System Messages** position which displays system messages on the front end.                                |
+| `system.content`  | This line displays content on the page provided by the CMS. It is the content body.                                    |
+| `position-`       | Followed directly by a position name (example: `position-header`) it creates a position and assigns it the given name. |
+| `version`         | This indicates the Gantry YAML version being used. Version 2, for example, was introduced in Gantry 5.2.               |
 
