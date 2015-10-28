@@ -53,29 +53,30 @@ Creating a new **Layout Preset** is pretty simple. The first thing you will need
 Here is the example code that will be in our new YAML file:
 
 ```yaml
+version: 2
+
 preset:
   image: gantry-media://images/admin/layouts/example.png
 
 layout:
-  header:
-    container:
-      - particle-menu
+  /header/:
+    - menu
 
-  main:
-    container:
-      - position-breadcrumbs
-      - position-global_messages
-      - pagecontent
+  /main/:
+    - position-breadcrumbs
+    - system.messages
+    - system.content
 
-  mainbottom:
-    container:
-      - position-mainbottom
+  /mainbottom/:
+    - position-mainbottom
 
-  footer:
-    container:
-      - position-footer
-      - [particle-copyright 40, spacer 30, particle-branding 30]
-```
+  /footer/:
+    - position-footer
+    - [copyright 40, spacer 30, branding 30]
+
+  offcanvas:
+    - mobile-menu
+``` 
 
 ![Preset](sections_2.png) {.border .shadow}
 
@@ -96,35 +97,38 @@ The first thing you will need to do is create a new YAML file in `THEME_DIR/cust
 Here is the example code that will be in our new YAML file:
 
 ```yaml
+version: 2
+
 preset:
   image: gantry-media://images/admin/layouts/example.png
 
 layout:
-  header:
-    container:
-      - particle-menu
+  /header/:
+    - menu
 
-  container:
-    1:
-      - main 60:
+  container-main:
+    -
+      - /main/ 60:
         - position-breadcrumbs
-        - position-global_messages
-        - pagecontent
+        - system.messages
+        - system.content
 
-      - sidebar1 20:
-        - particle-social
+      - /sidebar1/ 20:
+        - social
         - position-sidebar
         - position-right
 
-      - sidebar2 20:
-        - particle-social
+      - /sidebar2/ 20:
+        - social
         - position-sidebar
         - position-right
 
-  footer:
-    container:
-      - position-footer
-      - [particle-copyright 40, spacer 30, particle-branding 30]
+  /footer/:
+    - position-footer
+    - [copyright 40, spacer 30, branding 30]
+
+  offcanvas:
+    - mobile-menu
 ```
 
 The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
@@ -138,28 +142,30 @@ This is a very simple Layout Preset, giving the user **Header**, **Main**, and *
 In this section, we will demonstrate two YAML files that create one and two sidebar sections that span across multiple sections of the site. This is useful in cases where you want to have additional sections, such as your header and footer, share horizontal space with the sidebar.
 
 ```yaml
+version: 2
+
 preset:
   image: gantry-admin://images/layouts/2-col-left.png
 
 layout:
   1:
     -
-      header:
-      - [position-header]
-      navigation:
-      - [particle-menu]
-      messages:
-      - system-messages
-      main:
-      - pagecontent
-      footer:
-      - [particle-copyright 40, spacer 30, particle-branding 30]
+      /header/:
+        - [position-header]
+      /navigation/:
+        - [menu]
+      /messages/:
+        - system.messages
+      /main/:
+        - system.content
+      /footer/:
+        - [copyright 40, spacer 30, branding 30]
     -
-      aside:
-      - position-aside
+      /aside/:
+        - position-aside
 
   offcanvas:
-    - particle-mobile-menu
+    - mobile-menu
 ```
 
 As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same horizontal space as the **aside** section, which acts as a sidebar.
@@ -167,32 +173,34 @@ As you can see in the example above, we have nested multiple sections including 
 In the example below, you will see a two-sidebar layout preset YAML with a sidebar to the left and an aside section to the right of multiple sections.
 
 ```yaml
+version: 2
+
 preset:
   image: gantry-admin://images/layouts/3-col.png
 
 layout:
   1:                              # main row
     -                               # main column 1
-      sidebar:                        # section
-       - position-sidebar               # content row
+      /sidebar/:                      # section
+        - position-sidebar              # content row
 
-    -                               # main column 2
-      header:                         # section
-      - position-header                 # content row
-      navigation:                     # section
-      - particle-menu                   # content row
-      main:                           # section
-      - system-messages                 # content row
-      - pagecontent                     # content row
-      footer:                         # section
-      - particle-copyright              # content row
+    -                             # main column 2
+      /header/:                     # section
+        - position-header             # content row
+      /navigation/:                 # section
+        - menu                        # content row
+      /main/:                       # section
+        - system.messages             # content row
+        - system.content              # content row
+      /footer/:                     # section
+        - copyright                   # content row
 
-    -                               # main column 3
-      aside:                          # section
-      - position-aside                  # content row
+    -                             # main column 3
+      /aside/:                      # section
+        - position-aside              # content row
 
   offcanvas:
-    - particle-mobile-menu
+    - mobile-menu
 ```
 
 The `1:` in the examples given in this section could be replaced with a dash, but it's used here to make it easier to decipher that there is a top-level container that stores all of these sections.
