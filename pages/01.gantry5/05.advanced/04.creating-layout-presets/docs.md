@@ -210,7 +210,8 @@ The `1:` in the examples given in this section could be replaced with a dash, bu
 There are four main rules to keep in mind when creating a layout preset.
 
 1. tiered content is ordered as `row - column - row - column - row - column`. See the earlier examples.
-2. `foo:` creates a section. Adding slashes (example: `/foo/:`) enables you to take advantage of section layout settings for improved styling flexibility.
+2. `foo:` creates a section. 
+3. Adding slashes (example: `/foo/:`) creates a container that enables you to take advantage of section layout settings for improved styling flexibility.
 3. Multiple particles in a row are put within `[ ]` brackets. Example: `- [logo, menu]`
 4. You don't need brackets for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
 
