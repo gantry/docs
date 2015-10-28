@@ -34,6 +34,7 @@ Featuring some advanced customization and configuration options for **Gantry 5**
     * [Spanning a Sidebar Across Multiple Sections](creating-layout-presets#spanning-a-sidebar-across-multiple-sections)
     * [Syntax Guide](creating-layout-presets#syntax-guide)
     * [Common YAML Layout Items](creating-layout-presets#common-yaml-items)
+    * [YAML Versions](creating-layout-presets#yaml-versions)
 * [Creating Custom File Overrides](file-overrides)
     * [Gantry Directory Structure](file-overrides#gantry-directory-structure)
     * [Gantry Theme Files](file-overrides#gantry-theme-files)

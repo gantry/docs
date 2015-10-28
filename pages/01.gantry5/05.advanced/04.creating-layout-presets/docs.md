@@ -223,3 +223,10 @@ There are four main rules to keep in mind when creating a layout preset.
 | `position-`       | Followed directly by a position name (example: `position-header`) it creates a position and assigns it the given name. |
 | `version`         | This indicates the Gantry YAML version being used. Version 2, for example, was introduced in Gantry 5.2.               |
 
+## YAML Versions
+
+As Gantry 5 evolved, we wanted to make its layout YAML files easier to read and use. By simplifying the syntax, removing particle tags, and simplifying the way sections are managed, we were able to create a better user experience. These changes were implemented in Gantry 5.2 and later versions.
+
+Because this update would break YAML files created with the original YAML style, we opted to add a `version` designation that lets Gantry know which YAML style is being used in a given file.
+
+In short, any YAML preset file created after Gantry 5.2 using the new (current) YAML style should have `version: 2` as the first line. Otherwise, Gantry will default to the original YAML syntax.
