@@ -56,7 +56,7 @@ Here is the example code that will be in our new YAML file:
 version: 2
 
 preset:
-  image: gantry-media://images/admin/layouts/example.png
+  image: gantry-media://images/admin/layouts/default.png
 
 layout:
   /header/:
@@ -100,25 +100,25 @@ Here is the example code that will be in our new YAML file:
 version: 2
 
 preset:
-  image: gantry-media://images/admin/layouts/example.png
+  image: gantry-media://images/admin/layouts/3-col-right.png
 
 layout:
   /header/:
     - menu
 
-  container-main:
+  /container-main/:
     -
-      - /main/ 60:
+      - main 60:
         - position-breadcrumbs
         - system-messages
         - system-content
 
-      - /sidebar1/ 20:
+      - sidebar1 20:
         - social
         - position-sidebar
         - position-right
 
-      - /sidebar2/ 20:
+      - sidebar2 20:
         - social
         - position-sidebar
         - position-right
@@ -129,6 +129,16 @@ layout:
 
   offcanvas:
     - mobile-menu
+
+structure:
+  sidebar1:
+    subtype: aside
+    block:
+      fixed: 1
+  sidebar2:
+    subtype: aside
+    block:
+      fixed: 1
 ```
 
 This is a very simple Layout Preset, giving the user **Header**, **Main**, and **Footer** sections in addition to two independent **Sidebar** sections. Each section gets its own base styling that provides the base by which added **Particles** and **Positions** are placed.
@@ -143,27 +153,33 @@ In this section, we will demonstrate two YAML files that create one and two side
 version: 2
 
 preset:
-  image: gantry-admin://images/layouts/2-col-left.png
+  image: gantry-admin://images/layouts/2-col-right.png
 
 layout:
-  1:
+  /container-main/:
     -
-      /header/:
-        - [position-header]
-      /navigation/:
-        - [menu]
-      /messages/:
-        - system-messages
-      /main/:
-        - system-content
-      /footer/:
-        - [copyright 40, spacer 30, branding 30]
-    -
-      /aside/:
-        - position-aside
+      -
+        header:
+          - [position-header]
+        navigation:
+          - [menu]
+        messages:
+          - system-messages
+        main:
+          - system-content
+        footer:
+          - [copyright 40, spacer 30, branding 30]
+      -
+        aside:
+          - position-aside
 
   offcanvas:
     - mobile-menu
+
+structure:
+  aside:
+    block:
+      fixed: 1
 ```
 
 The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
@@ -179,28 +195,34 @@ preset:
   image: gantry-admin://images/layouts/3-col.png
 
 layout:
-  1:                              # main row
-    -                               # main column 1
-      /sidebar/:                      # section
-        - position-sidebar              # content row
+  /container-main/:
+    -                              # main row
+      -                               # main column 1
+        sidebar:                        # section
+          - position-sidebar              # content row
 
-    -                             # main column 2
-      /header/:                     # section
-        - position-header             # content row
-      /navigation/:                 # section
-        - menu                        # content row
-      /main/:                       # section
-        - system-messages             # content row
-        - system-content              # content row
-      /footer/:                     # section
-        - copyright                   # content row
+      -                             # main column 2
+        header:                       # section
+          - position-header             # content row
+        navigation:                   # section
+          - menu                        # content row
+        main:                         # section
+          - system-messages             # content row
+          - system-content              # content row
+        footer:                       # section
+          - copyright                   # content row
 
-    -                             # main column 3
-      /aside/:                      # section
-        - position-aside              # content row
+      -                             # main column 3
+        aside:                        # section
+          - position-aside              # content row
 
   offcanvas:
     - mobile-menu
+
+structure:
+  aside:
+    block:
+      fixed: 1
 ```
 
 The `1:` in the examples given in this section could be replaced with a dash, but it's used here to make it easier to decipher that there is a top-level container that stores all of these sections.
