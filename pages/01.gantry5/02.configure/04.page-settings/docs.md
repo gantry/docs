@@ -92,7 +92,7 @@ And this is a visual representation of all three cases
 
 These styles allow users to customize the whole site or individual Sections to accommodate specific needs. The most common case scenario, for instance, is wanting a section to be fully flushed so that an image or background can be added to it making it flush to the edges.
 
-To change the behavior of individual Sections, head to the Layout Manager panel and click the gear action icon of the desired section. You will then be able to pick a different value for the **Layout** field. **Default** will tell Gantry that it should be using the Setting from the **Page Settings** panel.
+To change the behavior of individual Sections, head to the Layout Manager panel and click the gear action icon of the desired section. You will then be able to pick a different value for the **Layout** field. **Inherit** will tell Gantry that it should be using the Setting from the **Page Settings** panel.
 
 ![Layout Section Settings](section-layout.jpg) {.border .shadow}
 
