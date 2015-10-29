@@ -182,8 +182,6 @@ structure:
       fixed: 1
 ```
 
-The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
-
 As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same horizontal space as the **aside** section, which acts as a sidebar.
 
 In the example below, you will see a two-sidebar layout preset YAML with a sidebar to the left and an aside section to the right of multiple sections.
@@ -224,8 +222,6 @@ structure:
     block:
       fixed: 1
 ```
-
-The `1:` in the examples given in this section could be replaced with a dash, but it's used here to make it easier to decipher that there is a top-level container that stores all of these sections.
 
 ## Syntax Guide
 
