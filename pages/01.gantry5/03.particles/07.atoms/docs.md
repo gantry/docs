@@ -8,6 +8,7 @@ gravui:
     tabs: true
 process:
     twig: true
+redirect: /gantry5/configure/page-settings#atoms
 ---
 
 Atoms are Particles that do not appear visually on the frontend, but do serve an important purpose. They can be assigned on a per-page basis, or as a default which automatically applies to all of the pages on the site.
