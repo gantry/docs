@@ -7,7 +7,7 @@ process:
     twig: true
 ---
 
-The **Page Settings** administrative panel allows you to extend the output of the page by letting you include additional elements. This includes elements such as the **favicon**, a Facebook and Twitter **meta tags**, and even JavaScript and/or CSS files. All of these elements are meant to be shared across the entire site and **Page Settings** is what lets you do so.
+The **Page Settings** administrative panel allows you to extend the output of the page by letting you include additional elements. This includes elements such as the **favicon**, Facebook and Twitter **meta tags**, and even JavaScript and/or CSS files. All of these elements are meant to be shared across the entire site and **Page Settings** is what lets you do so.
 
 In the traditional template approach, to add any of these elements, you would need to manually edit the file that includes the structure of the page. This is usually an `index.php` file. Page Settings simplifies this process exponentially by abstracting the manual editing labor into a simple and powerful form right into the admin.
 
