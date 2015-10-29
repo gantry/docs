@@ -51,7 +51,7 @@ type: section
 form:
   fields:
     boxed:
-      type: select.selectize
+      type: select.select
       label: Layout
       description: Select between a Fullwidth and Boxed.
       isset: true
@@ -84,7 +84,7 @@ type: section
 form:
   fields:
     boxed:
-      type: select.selectize
+      type: select.select
       label: Layout
       description: Select between a Fullwidth and Boxed.
       isset: true

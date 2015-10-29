@@ -395,7 +395,7 @@ Public License instead of this License.
 Platform-specific Code
 -----
 
-Platform-specific code for platforms (Joomla, WordPress, and phpBB) that are **GPL licensed** maintain the GPL license as required as you can't use MIT licensing to extend GPL.
+Platform-specific code for platforms (Joomla and WordPress) that are **GPL licensed** maintain the GPL license as required as you can't use MIT licensing to extend GPL.
 
 The individual parts can be licensed separately as MIT, but as a whole they have to maintain the **GPL version 2** or later license.
 
@@ -403,4 +403,3 @@ Usage
 -----
 
 You are free to use Gantry Framework for your personal and commercial projects. You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained. Also, if you intend to use the Gantry Framework in a commercial project, or a template you intend to redistribute in any form, please retain a "Powered by Gantry" logo and link in the backend administrative interface.
-
