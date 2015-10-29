@@ -64,8 +64,8 @@ layout:
 
   /main/:
     - position-breadcrumbs
-    - system.messages
-    - system.content
+    - system-messages
+    - system-content
 
   /mainbottom/:
     - position-mainbottom
@@ -110,8 +110,8 @@ layout:
     -
       - /main/ 60:
         - position-breadcrumbs
-        - system.messages
-        - system.content
+        - system-messages
+        - system-content
 
       - /sidebar1/ 20:
         - social
@@ -130,8 +130,6 @@ layout:
   offcanvas:
     - mobile-menu
 ```
-
-The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
 
 This is a very simple Layout Preset, giving the user **Header**, **Main**, and **Footer** sections in addition to two independent **Sidebar** sections. Each section gets its own base styling that provides the base by which added **Particles** and **Positions** are placed.
 
@@ -155,9 +153,9 @@ layout:
       /navigation/:
         - [menu]
       /messages/:
-        - system.messages
+        - system-messages
       /main/:
-        - system.content
+        - system-content
       /footer/:
         - [copyright 40, spacer 30, branding 30]
     -
@@ -167,6 +165,8 @@ layout:
   offcanvas:
     - mobile-menu
 ```
+
+The `1:` in the example above indicates that the three child sections are inside of a wrapper. 
 
 As you can see in the example above, we have nested multiple sections including the **header**, **navigation**, **messages**, and **footer** in the same horizontal space as the **aside** section, which acts as a sidebar.
 
@@ -190,8 +190,8 @@ layout:
       /navigation/:                 # section
         - menu                        # content row
       /main/:                       # section
-        - system.messages             # content row
-        - system.content              # content row
+        - system-messages             # content row
+        - system-content              # content row
       /footer/:                     # section
         - copyright                   # content row
 
@@ -219,8 +219,8 @@ There are four main rules to keep in mind when creating a layout preset.
 
 | Item              | Description                                                                                                            |
 | :-----            | :-----                                                                                                                 |
-| `system.messages` | Inserts a **System Messages** position which displays system messages on the front end.                                |
-| `system.content`  | This line displays content on the page provided by the CMS. It is the content body.                                    |
+| `system-messages` | Inserts a **System Messages** position which displays system messages on the front end.                                |
+| `system-content`  | This line displays content on the page provided by the CMS. It is the content body.                                    |
 | `position-`       | Followed directly by a position name (example: `position-header`) it creates a position and assigns it the given name. |
 | `version`         | This indicates the Gantry YAML version being used. Version 2, for example, was introduced in Gantry 5.2.               |
 
