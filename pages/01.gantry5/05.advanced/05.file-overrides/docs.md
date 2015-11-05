@@ -112,7 +112,7 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 {% endset %}
 {% set tab2 %}
 
-All templates are located in the `/templates` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `templates/TEMPLATE_DIR/custom/` folder.
+All templates are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `wp-content/themes/TEMPLATE_DIR/custom/` folder.
 
 Here is an example of where the source file and customized duplicate file would be located:
 
