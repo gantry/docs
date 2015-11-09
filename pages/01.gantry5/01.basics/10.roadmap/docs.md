@@ -18,29 +18,52 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 {% set tab1 %}
 
-5.1.5 Release (In Development)
+5.2.2 Release (In Development)
 -----
 
-| Platform  | Milestone                                                                                                                                                                              | Completed                                             |
-| :-----    | :----                                                                                                                                                                                  | :-----:                                               |
-| Common    | Enhanced the droppable areas for Menu Editor in the sublevels (#[132](https://github.com/gantry/gantry5/issues/132))                                                                   | <span style="color:green" class="fa fa-check"></span> |
-|           | If layout.yaml file is missing, wrong layout preset gets loaded                                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed issue with multiple dropdown menu items not closing properly in some scenarios (#[863](https://github.com/gantry/gantry5/issues/863))                                            | <span style="color:green" class="fa fa-check"></span> |
-|           | Fatal error if there is empty outline directory (#[867](https://github.com/gantry/gantry5/issues/867))                                                                                 | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed issue with ajax calls where in some scenarios the URL would match a method causing the Ajax to fail (#[865](https://github.com/gantry/gantry5/issues/865))                       | <span style="color:green" class="fa fa-check"></span> |
-| Joomla    | Added missing Module Class Suffix entry field for the Gantry Particle Module (#[871](https://github.com/gantry/gantry5/issues/871))                                                    | <span style="color:green" class="fa fa-check"></span> |
-| WordPress | Changes indicator is now showing in Widgets and Customizer, whenever an instance gets modified and in order to remind of saving (#[822](https://github.com/gantry/gantry5/issues/822)) | <span style="color:green" class="fa fa-check"></span> |
-|           | Gantry updates are now available and interactive in the Admin via a Purple bar notification (#[718](https://github.com/gantry/gantry5/issues/718))                                     | <span style="color:green" class="fa fa-check"></span> |
-|           | Duplicating outline may cause 'Preset not found' error (#[859](https://github.com/gantry/gantry5/issues/859))                                                                          | <span style="color:green" class="fa fa-check"></span> |
-|           | Fix WooCommerce and some other plugins from having missing CSS and JavaScript (requires theme update) (#[855](https://github.com/gantry/gantry5/issues/855))                           | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed fatal errors with PHP <= 5.3, causing Hydrogen and Gantry to not display the proper errors of PHP incompatibility (#[833](https://github.com/gantry/gantry5/issues/833))         | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed customizer JS errors thrown due to wrongly formatted before_widget (#[864](https://github.com/gantry/gantry5/issues/864))                                                        | <span style="color:green" class="fa fa-check"></span> |
-|           | Newly cloned Outline should not have any assignments (#[866](https://github.com/gantry/gantry5/issues/866))                                                                            | <span style="color:green" class="fa fa-check"></span> |
+| Platform  | Milestone                                                                                                      | Completed                                             |
+| :-----    | :----                                                                                                          | :-----:                                               |
+| Common    | Added new `imagesize` Twig Filter that returns `width="X" height="Y"` as attributes for images                 | <span style="color:green" class="fa fa-check"></span> |
+|           | Add Notification Message on Missing Particle in Front End #[185](https://github.com/gantry/gantry5/issues/185) | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Greatly Improved Page Load Time #[738](https://github.com/gantry/gantry5/issues/738)                           | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/milestones/5.1.5" class="button"><i class="fa fa-fw fa-github"></i> See the 5.1.5 Milestone</a>
+<a href="https://github.com/gantry/gantry5/milestones/5.2.2" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.2 Milestone</a>
 
 {% endset %}
 {% set tab2 %}
+
+5.2.0 Release
+-----
+
+| Platform  | Milestone                                                              | Completed                                             |
+| :-----    | :----                                                                  | :-----:                                               |
+| Common    | Updated Hydrogen and Admin with the new Gantry logo. Thanks Henning!   | <span style="color:green" class="fa fa-check"></span> |
+|           | Implemented New Page Settings Administrative Panel                     | <span style="color:green" class="fa fa-check"></span> |
+|           | Moved Atoms from Layout to Page Settings                               | <span style="color:green" class="fa fa-check"></span> |
+|           | Added Preview to Thumbnails List in File Picker                        | <span style="color:green" class="fa fa-check"></span> |
+|           | New Streamlined Layouts YAML File Syntax                               | <span style="color:green" class="fa fa-check"></span> |
+|           | Added Support for Nested Wrapper Divs with Customizable ID and Classes | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Disabled Caching from Particle Module by Default                       | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Added Ability to Use Custom CSS Classes with Widgets                   | <span style="color:green" class="fa fa-check"></span> |
+
+
+<a href="https://github.com/gantry/gantry5/compare/5.1.5...5.2.0" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.0 Changelog</a>
+
+5.2.1 Release
+-----
+
+| Platform  | Milestone                                                                  | Completed                                             |
+| :-----    | :----                                                                      | :-----:                                               |
+| Common    | Hydrogen Now Requires Gantry 5.2+                                          | <span style="color:green" class="fa fa-check"></span> |
+|           | Added Particle Icons for Particle Picker in Layout Manager and Menu Editor | <span style="color:green" class="fa fa-check"></span> |
+|           | Enabled Automatic Cache Clearing after Gantry and Theme Upgrades           | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Added Particle Icons for Login Form and Menu                               | <span style="color:green" class="fa fa-check"></span> |
+
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.0...5.2.1" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.1 Changelog</a>
+
+{% endset %}
+{% set tab3 %}
 
 5.1.0 Release
 -----
@@ -174,8 +197,29 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 <a href="https://github.com/gantry/gantry5/compare/5.1.3...5.1.4" class="button"><i class="fa fa-fw fa-github"></i> See the 5.1.4 Changelog</a>
 
+5.1.5 Release
+-----
+
+| Platform  | Milestone                                                                                                                                                                              | Completed                                             |
+| :-----    | :----                                                                                                                                                                                  | :-----:                                               |
+| Common    | Enhanced the droppable areas for Menu Editor in the sublevels (#[132](https://github.com/gantry/gantry5/issues/132))                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|           | If layout.yaml file is missing, wrong layout preset gets loaded                                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed issue with multiple dropdown menu items not closing properly in some scenarios (#[863](https://github.com/gantry/gantry5/issues/863))                                            | <span style="color:green" class="fa fa-check"></span> |
+|           | Fatal error if there is empty outline directory (#[867](https://github.com/gantry/gantry5/issues/867))                                                                                 | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed issue with ajax calls where in some scenarios the URL would match a method causing the Ajax to fail (#[865](https://github.com/gantry/gantry5/issues/865))                       | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Added missing Module Class Suffix entry field for the Gantry Particle Module (#[871](https://github.com/gantry/gantry5/issues/871))                                                    | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Changes indicator is now showing in Widgets and Customizer, whenever an instance gets modified and in order to remind of saving (#[822](https://github.com/gantry/gantry5/issues/822)) | <span style="color:green" class="fa fa-check"></span> |
+|           | Gantry updates are now available and interactive in the Admin via a Purple bar notification (#[718](https://github.com/gantry/gantry5/issues/718))                                     | <span style="color:green" class="fa fa-check"></span> |
+|           | Duplicating outline may cause 'Preset not found' error (#[859](https://github.com/gantry/gantry5/issues/859))                                                                          | <span style="color:green" class="fa fa-check"></span> |
+|           | Fix WooCommerce and some other plugins from having missing CSS and JavaScript (requires theme update) (#[855](https://github.com/gantry/gantry5/issues/855))                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed fatal errors with PHP <= 5.3, causing Hydrogen and Gantry to not display the proper errors of PHP incompatibility (#[833](https://github.com/gantry/gantry5/issues/833))         | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed customizer JS errors thrown due to wrongly formatted before_widget (#[864](https://github.com/gantry/gantry5/issues/864))                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Newly cloned Outline should not have any assignments (#[866](https://github.com/gantry/gantry5/issues/866))                                                                            | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/milestones/5.1.5" class="button"><i class="fa fa-fw fa-github"></i> See the 5.1.5 Milestone</a>
+
 {% endset %}
-{% set tab3 %}
+{% set tab4 %}
 
 5.0.0 Release
 -----
@@ -249,7 +293,7 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 <a href="https://github.com/gantry/gantry5/compare/5.0.0...5.0.1" class="button"><i class="fa fa-fw fa-github"></i> See the 5.0.1 Changelog</a>
 
 {% endset %}
-{% set tab4 %}
+{% set tab5 %}
 
 Release Candidate 1
 -----
@@ -346,7 +390,7 @@ Release Candidate 3
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.2...5.0.0-rc.3" class="button"><i class="fa fa-fw fa-github"></i> See the RC3 Changelog</a>
 
 {% endset %}
-{% set tab5 %}
+{% set tab6 %}
 
 Beta 1
 -----
@@ -464,4 +508,4 @@ Beta 5
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
 {% endset %}
-{{ gravui_tabs({'Current':tab1, '5.1.x':tab2, '5.0.x':tab3, 'Release Candidate':tab4, 'Beta':tab5}) }}
+{{ gravui_tabs({'Current':tab1, '5.2.x':tab2, '5.1.x':tab3, '5.0.x':tab4, 'Release Candidate':tab5, 'Beta':tab6}) }}
