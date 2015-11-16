@@ -108,3 +108,24 @@ One important line to note is `@import "nucleus/mixins/breakpoints";` which load
 ```
 
 Any CSS that you wish to apply to a specific breakpoint can be added inside the appropriate media query above.
+
+## Quick solution for inside custom.scss
+
+```scss
+@import "dependencies";
+// For small phones
+@media all and (max-width: $breakpoints-large-mobile-container) {
+}
+// For big phones
+@media all and (max-width: $breakpoints-tablet-container) and (min-width: $breakpoints-large-mobile-container) {
+}
+// For tablets
+@media all and (max-width: $breakpoints-desktop-container) and (min-width: $breakpoints-tablet-container) {
+}
+// For medium size computer screens
+@media all and (max-width: $breakpoints-large-desktop-container) and (min-width: $breakpoints-desktop-container) {
+}
+// For large computer screens
+@media all and (min-width: $breakpoints-large-desktop-container) {
+}
+```
