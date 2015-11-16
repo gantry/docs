@@ -51,3 +51,12 @@ This will tell Gantry to take the new styling and apply it to the page(s). Once 
 ## Dependencies.scss
 
 We have consolidated the includes for **Bourbon**, **Nucleus**, **theme mixins**, and **variables** into a `_dependencies.scss` file. You can now just import this one file to have it all. Use `@import "dependencies";` in your `custom.scss` file to import it.
+
+## More Information About Sass and SCSS
+
+If you are new to [Sass](http://sass-lang.com/) or SCSS (Sassy CSS), don't fret. We have you covered! Below you will find a some resources to help you get to know SCSS and find out why it is quickly becoming the preferred styling solution for Web developers everywhere.
+
+To start, SCSS syntax is based on traditional CSS. It adds in some of the features and shortcuts made possible by Sass, giving it the ability to live in both worlds. You can use traditional CSS in a SCSS file just fine, but you have the added benefit of nesting, mixins, and other powerful features that make it easier to hit the ground running.
+
+* [Sass Basics](http://sass-lang.com/guide): An introduction to the features of Sass, including side-by-side comparisons of SASS and SCSS syntax.
+* [Getting Started with Sass](https://scotch.io/tutorials/getting-started-with-sass): A great guide for Sass beginners.

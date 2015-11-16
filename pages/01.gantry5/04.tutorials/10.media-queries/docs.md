@@ -109,7 +109,11 @@ One important line to note is `@import "nucleus/mixins/breakpoints";` which load
 
 Any CSS that you wish to apply to a specific breakpoint can be added inside the appropriate media query above.
 
-## Quick solution for inside custom.scss
+## What's Going on Behind the Scenes?
+
+Below, you can see an example of a non-mixin version of the breakpoints styling we listed above. This should demonstrate what goes on behind the scenes, as mixins are basically shortcuts that help you avoid the tedious, more drawn-out scripting.
+
+>>> We highly recommend using mixins for their simplicity, however the example below will work in the event that you do not wish to use them. The example below is not all-inclusive and could break existing functionality if a theme is using media queries we've addressed below that aren't included in this example.
 
 ```scss
 @import "dependencies";
