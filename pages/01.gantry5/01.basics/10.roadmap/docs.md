@@ -18,16 +18,18 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 {% set tab1 %}
 
-5.2.2 Release (In Development)
+5.2.3 Release (In Development)
 -----
 
-| Platform  | Milestone                                                                                                      | Completed                                             |
-| :-----    | :----                                                                                                          | :-----:                                               |
-| Common    | Added new `imagesize` Twig Filter that returns `width="X" height="Y"` as attributes for images                 | <span style="color:green" class="fa fa-check"></span> |
-|           | Add Notification Message on Missing Particle in Front End #[185](https://github.com/gantry/gantry5/issues/185) | <span style="color:green" class="fa fa-check"></span> |
-| WordPress | Greatly Improved Page Load Time #[738](https://github.com/gantry/gantry5/issues/738)                           | <span style="color:green" class="fa fa-check"></span> |
+| Platform  | Milestone                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                            | :-----:                                               |
+| Common    | Offcanvas section now adds an option to switch between CSS3 and CSS2 animations, CSS3 being default and fastest. | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Added Updated Support for Joomla! 3.5                                                                            | <span style="color:green" class="fa fa-check"></span> |
+|           | Module Picker Now Shows the Module ID                                                                            | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Added Body Classes `dir-ltr` and `dir-rtl` based on current text direction settings.                             | <span style="color:green" class="fa fa-check"></span> |
+|           | Added New Body Class Specific to Currently Used Outline                                                          | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/milestones/5.2.2" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.2 Milestone</a>
+<a href="https://github.com/gantry/gantry5/milestones/5.2.3" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.3 Milestone</a>
 
 {% endset %}
 {% set tab2 %}
@@ -61,6 +63,17 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 
 <a href="https://github.com/gantry/gantry5/compare/5.2.0...5.2.1" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.1 Changelog</a>
+
+5.2.2 Release (In Development)
+-----
+
+| Platform  | Milestone                                                                                                      | Completed                                             |
+| :-----    | :----                                                                                                          | :-----:                                               |
+| Common    | Added new `imagesize` Twig Filter that returns `width="X" height="Y"` as attributes for images                 | <span style="color:green" class="fa fa-check"></span> |
+|           | Add Notification Message on Missing Particle in Front End #[185](https://github.com/gantry/gantry5/issues/185) | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Greatly Improved Page Load Time #[738](https://github.com/gantry/gantry5/issues/738)                           | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.1...5.2.2" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.2 Changelog</a>
 
 {% endset %}
 {% set tab3 %}
