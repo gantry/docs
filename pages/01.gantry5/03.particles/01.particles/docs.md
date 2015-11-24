@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-Would you like to change where the Logo appears on your site? How about adding a new positions for modules/widgets and placing it directly below the menu? You can do these things and more without even touching your keyboard thanks to a new concept to the Gantry Framework called **Particles**.
+Would you like to change where the Logo appears on your site? How about adding new positions for modules/widgets and placing it directly below the menu? You can do these things and more without even touching your keyboard thanks to a new concept to the Gantry Framework called **Particles**.
 
 Gantry 5’s Layout Manager gives you the power to create a virtually unlimited amount of Particles, including Positions, resize them, and place them just about anywhere you want them to appear on the frontend. 
 
@@ -29,7 +29,7 @@ Standard Particles
 
 For theme developers, particles can be created in minutes, and they can add functionality to your page in an environment that is easy for your clients to navigate and work with.
 
-Instead of pointing them to a Custom HTML (Joomla) or Text (WordPress) widget, where they have to navigate through supporting code to make small adjustments, you can send them to the Gantry Administrator where they can change values in pre-configured fields without ever having to look at a single line of code.
+Instead of pointing them to a Custom HTML module (Joomla) or Text (WordPress) widget, where they have to navigate through supporting code to make small adjustments, you can send them to the Gantry Administrator where they can change values in pre-configured fields without ever having to look at a single line of code.
 
 Positions
 -----
@@ -38,7 +38,7 @@ Positions are Particles that have content assigned to them by the CMS. In most C
 
 {% set tab1 %}
 
-Positions can be both renamed for reference on the backend and rekeyed, allowing you to set the **Key** modules are assigned to. This makes migration from other templates which likely won't have the same positions naming scheme easier. Since migration will likely happen from a template that does not share the same position naming scheme, you can easily rekey the Positions rather than having to reassign modules one-by-one.
+Positions can be renamed for reference on the backend and rekeyed. A position particle's **Key** is equivalent to a template position in standard CMS speak allowing you to create a position label modules are assigned to. This makes migration from other templates which likely won't have the same position naming scheme easier. In this case you can easily rekey Positions rather than having to reassign modules one-by-one.
 
 ![Key](key.png) {.border .shadow}
 
@@ -57,4 +57,4 @@ Atoms
 
 ![Particles](particles_2.png) {.border .shadow}
 
-Atoms, which are particles that do not render on the frontend in any visible fashion, make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can even arrange their order in their Section to determine the order in which they load during page rendering.
+Atoms are particles that do not render on the frontend in any visible fashion. They make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can visually arrange their order in the Layout Manager to determine the order in which they load during page rendering.

@@ -231,7 +231,7 @@ Here is the same file with the changes:
     {% if boxed == 2 %}{% set attr_class = attr_class ~ ' g-flushed' %}{% endif %}
     {% set attr_class = attr_class ? ' class="' ~ attr_class|trim ~ '"' %}
     <{{ tag_type }} id="{{ attr_id }}"{{ attr_class|raw }}{{ attr_extra|raw }}>
-    {% if attr_background %}<div class="section-background" style="background-image: url({{ attr_background }})">{% endif %}
+    {% if attr_background %}<div class="section-background" style="background-image: url({{ url(attr_background) }})">{% endif %}
         {{ html|raw }}
     {% if attr_background %}</div>{% endif %}
     </{{ tag_type }}>

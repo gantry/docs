@@ -108,7 +108,7 @@ Here is the content of the `example_particle.html.twig` file:
 <div class="example_particle {{ particle.css.class }}">
             <div align="center">
               <img src="{{ particle.image }}" alt="image">
-              <h2>{{ particle.header }}</h2>
+              <h2>{{ particle.title }}</h2>
               <p>{{ particle.description }}</p>
             </div>
         </div>
@@ -125,7 +125,7 @@ The third part is the meat and potatoes of the Particle. This is the body used t
 
 >>> The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry 5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
 
-The bits that are placed between curly brackets such as `{{ particle.header|e }}` pull information from the fields set in the YAML and insert them into the Twig for rendering on the front end.
+The bits that are placed between curly brackets such as `{{ particle.title|e }}` pull information from the fields set in the YAML and insert them into the Twig for rendering on the front end.
 
 >>> The `|e` that appears after the Particle field name in our example is a Twig filter. You can find a list of filters [here](http://twig.sensiolabs.org/doc/filters/index.html).
 
