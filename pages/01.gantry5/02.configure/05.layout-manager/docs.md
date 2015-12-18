@@ -186,10 +186,4 @@ One interesting note about the Offcanvas Section is in its settings. You can set
 
 In the **Styles** administrative panel the **Dropdown Width** field sets the width of the panel (in pixels) enabling you to set how much of the screen becomes the panel when it is active.
 
-## Atoms Section
-
-![Atoms](particles_2.png) {.border .shadow}
-
-One important detail to note about this section is that it is only available for Atoms, and it is the only section in which Atoms can reside. You can order the Atoms from left to right in the order you want them to load. This is handy in cases where you have scripts you want to fire in a specific order.
-
 
