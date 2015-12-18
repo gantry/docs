@@ -18,18 +18,22 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 {% set tab1 %}
 
-5.2.3 Release (In Development)
+5.2.5 Release
 -----
 
-| Platform  | Milestone                                                                                                        | Completed                                             |
-| :-----    | :----                                                                                                            | :-----:                                               |
-| Common    | Offcanvas section now adds an option to switch between CSS3 and CSS2 animations, CSS3 being default and fastest. | <span style="color:green" class="fa fa-check"></span> |
-| Joomla    | Added Updated Support for Joomla! 3.5                                                                            | <span style="color:green" class="fa fa-check"></span> |
-|           | Module Picker Now Shows the Module ID                                                                            | <span style="color:green" class="fa fa-check"></span> |
-| WordPress | Added Body Classes `dir-ltr` and `dir-rtl` based on current text direction settings.                             | <span style="color:green" class="fa fa-check"></span> |
-|           | Added New Body Class Specific to Currently Used Outline                                                          | <span style="color:green" class="fa fa-check"></span> |
+| Platform  | Milestone                                                                                                                                                                                                                                                                                                                                                                                                           | Completed                                             |
+| :-----    | :----                                                                                                                                                                                                                                                                                                                                                                                                               | :-----:                                               |
+| Common    | Menu items have a new **Dropdown Direction** option, along with new mixins (`dropdown-left, dropdown-center, dropdown-right`), that will allow to configure where a dropdown should open to, relative to its parent. (thanks @[Bokelmann](https://github.com/Bokelmann) , @[JoomFX](https://github.com/JoomFX) and @[ramon12](https://github.com/ramon12) - #[1058](https://github.com/gantry/gantry5/issues/1058)) | <span style="color:green" class="fa fa-check"></span> |
+|           | Selectize is now name-spaced with a `g-` prefix to avoid potential conflicts                                                                                                                                                                                                                                                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Layout Manager: Add Row and Section Settings action icons are now always visible                                                                                                                                                                                                                                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|           | Decimal size classes (`size-33-3`) are also using flexgrid (thanks @[adi8i](https://github.com/adi8i) - #[1047](https://github.com/gantry/gantry5/issues/1047))                                                                                                                                                                                                                                                     | <span style="color:green" class="fa fa-check"></span> |
+|           | Reworked all tooltips. They are now JS based instead of CSS making the behavior more predictable as well as allowing longer text and HTML as content.                                                                                                                                                                                                                                                               | <span style="color:green" class="fa fa-check"></span> |
+|           | Allow theme developer to assign attributes to grid element in layout preset file                                                                                                                                                                                                                                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|           | Styles, Settings and Page groups of type `hidden` will now get properly hidden from the view                                                                                                                                                                                                                                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Separate configuration for each Multi Site blog (#[921](https://github.com/gantry/gantry5/issues/921))                                                                                                                                                                                                                                                                                                              | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/milestones/5.2.3" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.3 Milestone</a>
+
+<a href="https://github.com/gantry/gantry5/milestones/5.2.5" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.5 Milestone</a>
 
 {% endset %}
 {% set tab2 %}
@@ -74,6 +78,28 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 | WordPress | Greatly Improved Page Load Time #[738](https://github.com/gantry/gantry5/issues/738)                           | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/5.2.1...5.2.2" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.2 Changelog</a>
+
+5.2.3 Release
+-----
+
+| Platform  | Milestone                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                            | :-----:                                               |
+| Common    | Offcanvas section now adds an option to switch between CSS3 and CSS2 animations, CSS3 being default and fastest. | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Added Updated Support for Joomla! 3.5                                                                            | <span style="color:green" class="fa fa-check"></span> |
+|           | Module Picker Now Shows the Module ID                                                                            | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Added Body Classes `dir-ltr` and `dir-rtl` based on current text direction settings.                             | <span style="color:green" class="fa fa-check"></span> |
+|           | Added New Body Class Specific to Currently Used Outline                                                          | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.2...5.2.3" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.3 Changelog</a>
+
+5.2.4 Release
+-----
+
+| Platform  | Milestone                                 | Completed                                             |
+| :-----    | :----                                     | :-----:                                               |
+| Common    | Updated FontAwesome to v4.5.0 (+20 icons) | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.3...5.2.4" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.4 Changelog</a>
 
 {% endset %}
 {% set tab3 %}
