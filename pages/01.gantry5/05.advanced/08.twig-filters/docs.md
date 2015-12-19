@@ -1,5 +1,5 @@
 ---
-title: How to Load CSS / JS from Twig
+title: Twig Filters
 taxonomy:
     category: docs
     tag: [gantry5]
