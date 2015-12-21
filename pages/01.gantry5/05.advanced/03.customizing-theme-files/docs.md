@@ -53,7 +53,7 @@ form:
     boxed:
       type: select.selectize
       label: Layout
-      description: Select the Layout behavior. 'Inherit' refers to Page Settings.
+      description: Select the Layout container behavior. 'Inherit' refers to Page Settings.
       isset: true
       selectize:
         allowEmptyOption: true
@@ -62,6 +62,7 @@ form:
         0: Fullwidth (Boxed Content)
         2: Fullwidth (Flushed Content)
         1: Boxed
+        3: Remove Container
 
     class:
       type: input.selectize
@@ -90,7 +91,7 @@ form:
     boxed:
       type: select.selectize
       label: Layout
-      description: Select the Layout behavior. 'Inherit' refers to Page Settings.
+      description: Select the Layout container behavior. 'Inherit' refers to Page Settings.
       isset: true
       selectize:
         allowEmptyOption: true
@@ -99,6 +100,7 @@ form:
         0: Fullwidth (Boxed Content)
         2: Fullwidth (Flushed Content)
         1: Boxed
+        3: Remove Container
 
     class:
       type: input.selectize
@@ -162,7 +164,7 @@ Here is the `section.html.twig` file prior to our changes:
 {% endset %}
 
 {% if html|trim %}
-    {% if boxed is not null and boxed != 1 %}
+    {% if boxed is not null and (boxed == 0 or boxed == 2) %}
         {% set html %}
         <div class="g-container">{{ html|raw }}</div>
         {% endset %}
@@ -202,7 +204,6 @@ Here is the same file with the changes:
 {% if boxed is not null %}
     {% set boxed = boxed|trim == '' ? gantry.config.page.body.layout.sections : boxed %}
 {% endif %}
-{% set attr_background = segment.attributes.background ? segment.attributes.background|trim|e : false %}
 
 {% if segment.attributes.extra %}
     {% for attributes in segment.attributes.extra %}
@@ -221,7 +222,7 @@ Here is the same file with the changes:
 {% endset %}
 
 {% if html|trim %}
-    {% if boxed is not null and boxed != 1 %}
+    {% if boxed is not null and (boxed == 0 or boxed == 2) %}
         {% set html %}
         <div class="g-container">{{ html|raw }}</div>
         {% endset %}
