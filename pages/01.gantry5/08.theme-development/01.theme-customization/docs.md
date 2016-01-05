@@ -3,6 +3,12 @@ title: Advanced Theme Customization
 taxonomy:
     category: docs
     tag: [gantry5]
+gravui:
+    enabled: true
+    tabs: true
+    callouts: true
+process:
+    twig: true
 ---
 
 Throughout this documentation, we have outlined a multitude of different methods you can use to configure and customize your Gantry 5 theme. There are some cases where you will find yourself wanting to take theme customization to a new level. Adding, removing, and even creating brand new features for a Gantry 5 theme is not only possible, it's relatively easy to do.
@@ -20,15 +26,19 @@ Here is a quick list of useful guides to help you with this tutorial:
 * [Creating a Custom Style Sheet](../../tutorials/adding-a-custom-style-sheet)
 * [Headroom.js Documentation](http://bit.ly/1bzlyd3)
 
-## Override page.html.twig
+## Override page.html.twig (Not Recommended)
 
 ![Theme Customization](theme_customization_1.png) {.shadow .border}
 
 The `page.html.twig` file is the blueprint by which Gantry 5 creates a page. You can find this file in `SITE_ROOT/media/gantry5/engines/nucleus/templates/` and we will need to modify it to incorporate the fixed section.
 
+>>>> We do not recommend this method, but are listing here in the event that you really want to edit these files directly. Using this method may result in a loss of your changes and/or broken code in the event that your theme and/or Gantry is updated.
+
 There are two options available to you at this point. If you are creating a brand new theme or are bound and will be in control of exactly what changes are made during theme updates, you can directly edit the `page.html.twig` file. In the vast majority of circumstances, this will not be the preferred option.
 
 For most developers using a pre-existing theme or that would like to have this file safe from being overwritten in the event of a theme update, you will want to copy it and place the copy in `THEME_DIR/custom/engine/templates/`. This copy will become the default source for Gantry 5, and will not change when a theme is updated.
+
+Our preferred method involves putting this information in the **Page Settings** tab of the Gantry administrator. We will demonstrate both of these methods below.
 
 ## Add Headroom.js
 
@@ -36,7 +46,7 @@ For most developers using a pre-existing theme or that would like to have this f
 
 This step is optional, but will enable your navigation section to disappear when it isn't needed, and come into focus when it is. This is a big space-saver for your site, and a welcome addition when visitors are browsing with a landscape-oriented browser. 
 
-There are two ways you can add this script to your site. You can have it set up to be locally loaded or remotely via a CDN. There are advantages and disadvantages to each method, so we will cover both methods here.
+There are two ways you can add this script to your site. You can have it set up to be locally loaded or remotely [via a CDN](https://cdnjs.com/libraries/headroom). There are advantages and disadvantages to each method, so we will cover both methods here.
 
 ### Method 1: Local Installation
 
@@ -48,13 +58,54 @@ Once you download it, you need to unzip the `headroom.js-master.zip` file. You w
 
 You need to keep all your modifications and additions in the `THEME_DIR/custom/` directory so they do not get overwritten when you update the template. Then, create the `THEME_DIR/custom/js/` directory structure and copy the `headroom.min.js` file there.
 
-Now, you will need to add a script to `page.html.twig` in order to load `headroom.min.js` on each page. Here is the line of code you will want to place just above the `</body>` tag.
+{% set tab1 %}
+
+Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab. This gives you control over which page(s) the effect appears on. Just locate the **Before </body>** field and enter the following:
+
+{% verbatim %}
 
 ```html
 <script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
 ```
 
+{% endverbatim %}
+
+{% endset %}
+{% set tab2 %}
+
+Now, you will need to add a script to `page.html.twig` in order to load `headroom.min.js` on each page. Here is the line of code you will want to place just above the `</body>` tag.
+
+{% verbatim %}
+
+```html
+<script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
+```
+
+{% endverbatim %}
+
+{% endset %}
+{{ gravui_tabs({'Administrator Method':tab1, 'File Override (Not Recommended)':tab2}) }}
+
 ### Method 2: Loading Remotely
+
+{% set tab1 %}
+
+You can also load the script remotely. Just replace the above script in the **Before </body>** field with the following:
+
+{% verbatim %}
+
+```html
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+```
+
+{% endverbatim %}
+
+In addition, you can do this via an atom (also accessible in the **Page Settings** tab of the Gantry Administrator) which gives you set-it-and-forget-it ease of use.
+
+The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
+
+{% endset %}
+{% set tab2 %}
 
 Loading the script remotely is another option, and one that can be done pretty easily. You just need to add a line of script within the `<body>` tags of your `page.html.twig` file to access it. You can also have it load using an atom, but doing so this way will ensure that it loads on every page, without any additional effort required in the Gantry 5 administrator.
 
@@ -66,9 +117,12 @@ Here's an example of the line you would need to add to the file:
 
 This line would go just above the `</body>` tag in the file and may differ depending on the remote location you wish to have the script load from, CDN or otherwise.
 
+{% endset %}
+{{ gravui_tabs({'Administrator Method':tab1, 'File Override (Not Recommended)':tab2}) }}
+
 ## Target Headroom.js
 
-The next step involves adding another script to the `page.html.twig` file. This script will be placed directly above the `</body>` tag, just below the script we used to add `headroom.min.js` to the page.
+The next step involves adding another script to the page. This script will be placed directly above the `</body>` tag, just as we did in the previous step, below the script we used to add `headroom.min.js` to the page.
 
 ```twig
 <script>
@@ -94,6 +148,8 @@ The second section of script enables the Offcanvas section present for mobile de
 
 Putting it all together, here's a look at the full section including our script from before, the script we just added, and the `</body>` tag.
 
+{% verbatim %}
+
 ```twig
     <script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
     <script>
@@ -114,11 +170,15 @@ Putting it all together, here's a look at the full section including our script 
 </body>
 ```
 
+{% endverbatim %}
+
 ## Add the Style (SCSS)
 
 This part of the guide is the meat and potatoes of this process. It tells the browser that your navigation section needs to be fixed, and will enable it to scroll with the user down the page. While `header.js` makes it appear and disappear as needed, this is really all that is required to make it stick to the top of the browser window.
 
 [In a previous guide](../../tutorials/adding-a-custom-style-sheet), we detailed how to create a custom style sheet in Gantry 5. Using this method, you can add the following script to your `custom.scss` file.
+
+{% verbatim %}
 
 ```css
 @import "dependencies";
@@ -149,6 +209,8 @@ This part of the guide is the meat and potatoes of this process. It tells the br
     @include transition(all 0.3s);
 }
 ```
+
+{% endverbatim %}
 
 This will get you up and running, however users that prefer more control over these elements can use this optional code below, instead. Remember that `#g-navigation` should be replaced with `#g-header` if your main menu is located in the **Header** section.
 
