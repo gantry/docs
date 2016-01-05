@@ -21,16 +21,16 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 5.2.7 Release
 -----
 
-| Platform                                              | Milestone                                                                                                                                        | Completed                                             |
-| :-----                                                | :----                                                                                                                                            | :-----:                                               |
-| Common                                                | Fixed Menu option "Render Titles" not rendering titles at all                                                                                    | <span style="color:green" class="fa fa-check"></span> |
-|                                                       | Fixed potential 404 response in admin when trying to access Particle Settings via modal [#1088](https://github.com/gantry/gantry5/issues/1088)   | <span style="color:green" class="fa fa-check"></span> |
-|                                                       | Worked around PHP 5.5 bug on loading global configuration                                                                                        | <span style="color:green" class="fa fa-check"></span> |
-|                                                       |                                                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
-|                                                       | Fixed caching of admin AJAX requests [#1078](https://github.com/gantry/gantry5/issues/1078)                                                      | <span style="color:green" class="fa fa-check"></span> |
-| WordPress                                             | Remove RokGallery and RokSprocket from the Widget Picker [#1092](https://github.com/gantry/gantry5/issues/1092)                                  | <span style="color:green" class="fa fa-check"></span> |
-| <span style="color:green" class="fa fa-check"></span> | Fix Timbers render_string() and compile_string() functions [#1077](https://github.com/gantry/gantry5/issues/1077)                                | <span style="color:green" class="fa fa-check"></span> |
-|                                                       | Removed description meta tag to avoid duplications of it. This should be handled by plugins [#892](https://github.com/gantry/gantry5/issues/892) | <span style="color:green" class="fa fa-check"></span> |
+| Platform  | Milestone                                                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                                                            | :-----:                                               |
+| Common    | Fixed Menu option "Render Titles" not rendering titles at all                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed potential 404 response in admin when trying to access Particle Settings via modal [#1088](https://github.com/gantry/gantry5/issues/1088)   | <span style="color:green" class="fa fa-check"></span> |
+|           | Worked around PHP 5.5 bug on loading global configuration                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           |                                                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed caching of admin AJAX requests [#1078](https://github.com/gantry/gantry5/issues/1078)                                                      | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Remove RokGallery and RokSprocket from the Widget Picker [#1092](https://github.com/gantry/gantry5/issues/1092)                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fix Timbers render_string() and compile_string() functions [#1077](https://github.com/gantry/gantry5/issues/1077)                                | <span style="color:green" class="fa fa-check"></span> |
+|           | Removed description meta tag to avoid duplications of it. This should be handled by plugins [#892](https://github.com/gantry/gantry5/issues/892) | <span style="color:green" class="fa fa-check"></span> |
                                                                                                                                         
 
 <a href="https://github.com/gantry/gantry5/milestones/5.2.7" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.7 Milestone</a>
