@@ -26,6 +26,16 @@ Here is a quick list of useful guides to help you with this tutorial:
 * [Creating a Custom Style Sheet](../../tutorials/adding-a-custom-style-sheet)
 * [Headroom.js Documentation](http://bit.ly/1bzlyd3)
 
+## Three Methods
+
+There are three ways to do some incredible things with your theme in Gantry 5. This particular guide focuses on adding a new feature to your theme, and we will detail a few ways to accomplish it.
+
+The first method involves **Atoms**, powerful particles that add code to your pages site-wide. Atoms are a great way to have external CSS and JavaScript load when your page renders and become accessible to your theme without having to edit any core or theme-specific files to do so. Atoms are site-wide and serve as a one-stop-shop for adding scripting to your pages. 
+
+Another method involves the various fields of the **Page Settings** tab in your administrator. Like Atoms, these fields add scripting directly to your site, but they come with the added bonus of being able to be specifically assigned to specific outlines. This way you can have a JavaScript script or CSS load on specific pages without having to be available on others. 
+
+The third method is the one we recommend the least, and we'll detail it in the following paragraphs. Essentially, it involves directly editing core and/or theme-specific files on the back end. It's useful to know this process, but for the vast majority of applications, it isn't necessary. It will also open the door to possible issues down the road as Gantry and theme updates may override these changes or cause other unforeseen issues.
+
 ## Override page.html.twig (Not Recommended)
 
 ![Theme Customization](theme_customization_1.png) {.shadow .border}
@@ -60,6 +70,17 @@ You need to keep all your modifications and additions in the `THEME_DIR/custom/`
 
 {% set tab1 %}
 
+![](local_1.png) {.border .shadow}
+
+Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.
+
+In the item, you will want to paste `gantry-theme://custom/js/headroom.min.js` in the **File Location** field and select the **Before </body>** option before selecting **Apply**.
+
+{% endset %}
+{% set tab2 %}
+
+![](local_2.png) {.border .shadow}
+
 Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab. This gives you control over which page(s) the effect appears on. Just locate the **Before </body>** field and enter the following:
 
 {% verbatim %}
@@ -71,7 +92,7 @@ Now, all you need to do is add a script to the page before the `</body>` tag. Yo
 {% endverbatim %}
 
 {% endset %}
-{% set tab2 %}
+{% set tab3 %}
 
 Now, you will need to add a script to `page.html.twig` in order to load `headroom.min.js` on each page. Here is the line of code you will want to place just above the `</body>` tag.
 
@@ -84,11 +105,28 @@ Now, you will need to add a script to `page.html.twig` in order to load `headroo
 {% endverbatim %}
 
 {% endset %}
-{{ gravui_tabs({'Administrator Method':tab1, 'File Override (Not Recommended)':tab2}) }}
+{{ gravui_tabs({'Atoms Method':tab1, 'Page Settings Method':tab2, 'File Override (Not Recommended)':tab3}) }}
 
 ### Method 2: Loading Remotely
 
 {% set tab1 %}
+
+Adding the script remotely is pretty easy. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.
+
+In the item, you will want to paste the following script in the **File Location** field and select the **Before </body>** option before selecting **Apply**.
+
+{% verbatim %}
+
+```html
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+```
+
+{% endverbatim %}
+
+The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
+
+{% endset %}
+{% set tab2 %}
 
 You can also load the script remotely. Just replace the above script in the **Before </body>** field with the following:
 
@@ -100,12 +138,12 @@ You can also load the script remotely. Just replace the above script in the **Be
 
 {% endverbatim %}
 
-In addition, you can do this via an atom (also accessible in the **Page Settings** tab of the Gantry Administrator) which gives you set-it-and-forget-it ease of use.
-
 The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
 
 {% endset %}
-{% set tab2 %}
+{% set tab3 %}
+
+![](remote_2.png) {.border .shadow}
 
 Loading the script remotely is another option, and one that can be done pretty easily. You just need to add a line of script within the `<body>` tags of your `page.html.twig` file to access it. You can also have it load using an atom, but doing so this way will ensure that it loads on every page, without any additional effort required in the Gantry 5 administrator.
 
@@ -118,7 +156,7 @@ Here's an example of the line you would need to add to the file:
 This line would go just above the `</body>` tag in the file and may differ depending on the remote location you wish to have the script load from, CDN or otherwise.
 
 {% endset %}
-{{ gravui_tabs({'Administrator Method':tab1, 'File Override (Not Recommended)':tab2}) }}
+{{ gravui_tabs({'Atoms Method':tab1, 'Page Settings Method':tab2, 'File Override (Not Recommended)':tab3}) }}
 
 ## Target Headroom.js
 
