@@ -113,12 +113,12 @@ Now, you will need to add a script to `page.html.twig` in order to load `headroo
 
 Adding the script remotely is pretty easy. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.
 
-In the item, you will want to paste the following script in the **File Location** field and select the **Before </body>** option before selecting **Apply**.
+In the item, you will want to paste the following url in the **File Location** field and, if desired, select the **Before </body>** option. You can now select **Apply**.
 
 {% verbatim %}
 
 ```html
-<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js
 ```
 
 {% endverbatim %}
