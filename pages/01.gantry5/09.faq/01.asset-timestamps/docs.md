@@ -22,3 +22,5 @@ In Joomla, this feature can be turned off by accessing the **System - Gantry 5**
 ![Asset Timestamps](asset.png) {.shadow .border}
 
 Once there, you can turn this off by toggling the **Asset Timestamps** option to **No**.
+
+You can also adjust the number of days a timestamp is maintained using the **Timestamp Period** field. The value you place in this field is the number of days the asset timestamp will be maintained.
