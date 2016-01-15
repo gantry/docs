@@ -57,7 +57,8 @@ The back-end administration requirements of Gantry in order of preference are as
 * Safari 5+
 * Google Chrome 10+
 * Opera 10+
-* Internet Explorer 8+
+* Internet Explorer 11+ (9, 10 Limited Support)
+* Microsoft Edge
 
 >>>>> For Gantry administration, please note that Internet Explorer 7 -- and even Internet Explorer 8 -- have very slow JavaScript implementations and cannot be recommended.
 
