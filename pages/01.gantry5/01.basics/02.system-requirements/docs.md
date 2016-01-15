@@ -50,7 +50,8 @@ The back-end administration requirements of Gantry in order of preference are as
 * Firefox 36+
 * Safari 8+
 * Opera 28+
-* Internet Explorer 10+ (9 supported at limited capacity)
+* Internet Explorer 11+ (9, 10 supported at limited capacity)
+* Microsoft Edge
 
 >>> Due to the wide range of variances between default browsers on the Android platform, we are unable to accurately test and list all of the possible regional, carrier, and manufacturer software variables. We recommend an updated Chrome browser for Android as it provides a more consistent experience. Support for `flex` is the most likely sign of whether or not a browser will work with Gantry 5.
 
