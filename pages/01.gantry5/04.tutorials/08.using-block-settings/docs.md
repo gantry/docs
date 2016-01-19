@@ -57,6 +57,8 @@ If you would like to apply a CSS class at the block level, this is where you wou
 
 Variations are theme-based variables which can be quickly set by selecting the field and clicking the desired option. These variations can include **effects**, **box variations** which set the color scheme of the block as a whole, and **utility** options such as `Align Right` and `Full Width`.
 
+>>>> For Joomla users, you can still use the Module Class Suffix field for a given module, however we do not recommend doing so if you are also using variations at the block level. This may yield undesirable results.
+
 ### Tag Attributes
 
 ![Block Settings](block_settings_5.png) {.border .shadow}
