@@ -3,9 +3,6 @@ title: Terminology
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -14,7 +11,8 @@ Because Gantry 5 is so different from any version of Gantry before it, we came u
 
 ### Outline
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 An **Outline** is essentially a style specific to one or more areas of your site. In Joomla, these styles are traditionally created in the **Template Manager** by duplicating an installed theme. This principal is very much the same in Gantry 5, however because we have integrated a global default as well as several system-specific styles that do not appear in the Template Manager, we decided to give them a more appropriate name of Outline.
 
@@ -22,15 +20,20 @@ Each Outline can have its own set of Style, Particle, and Layout settings. An Ou
 
 The **Base Outline** acts as the global default by which all other unassigned Outlines are based. This Outline can't be assigned to any pages as it merely acts as a set of defaults which are overridden by other Outlines.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 An **Outline** creates a set of standard settings for the layout, particle(s), widget position(s), any scripting, and style of an area of your site. Outlines can be assigned to a specific page or several pages depending on your needs. This enables you to apple different styles and layout configurations to different pages (or types of pages) with ease.
 
 The **Base Outline** acts as the global default by which all other Outlines are based. Any setting not specified in another outline is deferred to this outline.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ![Creating a Outline](getting_started_3.png) {.border .shadow}
 

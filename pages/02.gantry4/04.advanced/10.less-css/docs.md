@@ -177,26 +177,28 @@ The above outline is to introduce you to the basics of how LESS works. For a mor
 LESS in the Gantry Template
 ---------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 All LESS files associated with the template are located in the `/templates/[TEMPLATE]/less/` directory. Gantry 4 utilizes a powerful PHP-based LESS compiler powered by [lessphp](lessphp). Gantry 4 outputs the processed LESS files into the `/templates/[TEMPLATE]/css-compiled/` directory.
 
 Not all CSS files are compiled into a single file. Any CSS file that is required to be standalone, for purposes of template parameters (such as loading Fusion Menu instead of SplitMenu) will be independent of the main `/templates/[TEMPLATE]/css-compiled/[OUTPUT_CSSFILE]` file.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 All LESS files associated with the template are located in the `/wp-content/themes/[TEMPLATE]/less/` directory. Gantry 4 utilizes a powerful PHP-based LESS compiler powered by [lessphp](lessphp). Gantry 4 outputs the processed LESS files into the `/wp-content/themes/[TEMPLATE]/css-compiled/` directory.
 
 Not all CSS files are compiled into a single file. Any CSS file that requires to be standalone, for purposes of template parameters, such as loading Fusion Menu instead of SplitMenu, will be independent of the main `/wp-content/themes/[TEMPLATE]/css-compiled/[OUTPUT_CSSFILE]` file.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 How are LESS files compiled?
 ----------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 When a change is detected, Gantry **automagically** recompiles your LESS files into CSS files. To add a LESS file, you have two options. You can insert the following function into your PHP code:
 
@@ -246,8 +248,8 @@ if ($gantry->get('typography-enabled')) $gantry->addLess('typography.less');
 
 This adds a conditional, where the parameter **typography-enabled** is active, the `/less/typography.less` file will be compiled.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 When a change is detected, Gantry **automagically** recompiles your LESS files into CSS files. To add a LESS file, you have two options. You can insert the following function into your PHP code:
 
@@ -297,13 +299,14 @@ if ($gantry->get('typography-enabled')) $gantry->addLess('typography.less');
 
 This adds a conditional, where the parameter **typography-enabled** is active, the `/less/typography.less` file will be compiled.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 LESS Template Options
 ---------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 You can control CSS compression, Compile Wait Time and Debug Header, as well as manually clear the cache with the **Clear Cache** button at **Extensions → Template Manager → gantry → Advanced → Less Compiler**.
 
@@ -311,8 +314,8 @@ Additionally, CSS compression increases site performance and optimization by con
 
 ![](advanced-less.jpg)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 You can control CSS compression, compile wait time and debug header, as well as manually clear the cache with the **Clear Cache** button at **Admin Dashboard → Gantry Theme → Advanced → Less Compiler**.
 
@@ -320,8 +323,8 @@ Additionally, CSS compression increases site performance and optimization by con
 
 ![](advanced-less.jpg)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Custom LESS files
 -----------------

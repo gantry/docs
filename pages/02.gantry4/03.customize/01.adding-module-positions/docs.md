@@ -12,21 +12,22 @@ process:
 
 This section covers how to add a new row of module positions to the Gantry Framework and to your Gantry-enabled template.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
 
 >>> Check out this quick screencast on *Widget Positions* to get an overview of how widget positions work within WordPress and the Gantry Framework.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 >>>>> NOTE: The term **Module** in Joomla and **Widget** in WordPress mean essentially the same thing. They are blocks of data which can be placed throughout your site. For the purpose of simplifying this guide, consider the terms interchangeable, except when used to describe specific file names or functions.
 
@@ -38,7 +39,8 @@ Determine the position name and location on your template where you would like y
 Step 2: Adding Position to index.php
 ------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Open your template `index.php` file and go to where you would like to add your new row position. Using `$gantry`, we will make a call to the object using the function: `displayModules(positionname, widgetlayouttype, widgetchromelayout);`. This call will need to be echoed.
 
@@ -53,8 +55,8 @@ Example:
 
 The new position now will appear after we have configured the Gantry portion to recognize it. Until then, it will not work properly.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Open your template `index.php` file and go to where you would like to add your new position. Using `$gantry`, we will make a call to the object using the function: `displayModules(positionname, widgetlayouttype, widgetchromelayout);`. This call will need to be echoed.
 
@@ -69,13 +71,14 @@ Example:
 
 The new position now will appear after we have configured the Gantry portion to recognize it. Until then, it will not work properly.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: Adding Position to Gantry Framework
 -------------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Open `templateDetails.xml` and scroll down to the "positions" tag where the default Gantry positions are listed. Under here we will need to add our "row module" positions a through f, as in the example below:
 
@@ -94,8 +97,8 @@ Next, open `template-options.xml` and scroll down to the line which says this:
 <fieldset name="layouts" label="LAYOUTS">
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Open `templateDetails.xml` and scroll down to the "positions" tag where the default Gantry positions are listed. Under here, we will need to add our "row module" positions a through f.
 
@@ -111,8 +114,8 @@ Next: Scroll down to the line which says:
 <fieldset name="layouts" label="LAYOUTS">
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 This is where we add our new position layout slider. We need to add the following xml block to make this appear in the Template Manager:
 

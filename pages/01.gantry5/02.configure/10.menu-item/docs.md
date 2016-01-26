@@ -3,9 +3,6 @@ title: Custom Page (Joomla)
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---

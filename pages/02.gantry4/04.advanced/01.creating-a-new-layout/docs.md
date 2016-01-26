@@ -10,7 +10,8 @@ process:
     twig: true
 ---
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Layouts are blocks of code that control the HTML structure of a particular section of the template rendering. By default, Gantry comes with several built-in layout files. These are located in the `libraries/gantry/html/layouts/` folder.
 
@@ -29,8 +30,8 @@ Here is a list of included layout files:
 | mod_standard.php            | The stanndard layout for modules.                                                                       |
 | orderedbody_mainbody.php    | Renders mainbody and sidebars in order for use with CSS tables                                          |
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Layouts are blocks of code that control the HTML structure of a particular section of the template rendering. By default, Gantry comes with several built-in layout files located in the `wp-content/plugins/gantry/html/layouts/` folder:
 
@@ -45,8 +46,8 @@ Layouts are blocks of code that control the HTML structure of a particular secti
 | widget_standard.php         | the standard layout for modules                                                                        |
 | orderedbody_mainbody.php    | renders mainbody and sidebars in order for use with CSS tables                                         |
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 
 Step 1: Purpose
@@ -60,7 +61,8 @@ In these rare cases, you can utilize the power of the Gantry framework to overri
 Step 2: Create/Copy New Layout Files
 ------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The simplist way to do this is to copy an existing layout. In this example, we'll copy the **body_mainbody.php** layout and modify it. These files are located here:
 
@@ -74,8 +76,8 @@ You may have to create the `layouts/` folder, if it does not already exist
 
 In this case, copy the `body_mainbody.php` from the core layouts location to the template layouts location.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The simplest way to do this is to copy an existing layout. In this example, we'll copy the **body_mainbody.php** layout and modify it after. The files are located under: 
 
@@ -89,15 +91,16 @@ You may have to create a `layouts/` folder if one does not already exist.
 
 In this case, copy `body_mainbody.php` from the core layouts location into the template layouts location.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: File Structure
 ----------------------
 
 After you have copied the `body_mainbody.php` file, you can open it up and edit it to suit your needs. By default, it looks like this:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ```php
 <?php
@@ -171,8 +174,8 @@ class GantryLayoutBody_MainBody extends GantryLayout {
 }
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ```php
 <?php
@@ -262,7 +265,7 @@ class GantryLayoutBody_MainBody extends GantryBodyLayout
 }
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Feel free to edit this file to suit your needs.

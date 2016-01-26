@@ -3,10 +3,6 @@ title: Updating Themes
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -27,7 +23,8 @@ However, there may be cases where you have customized a theme file directly at t
 
 ## Platform-specific Process
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Joomla makes it easy to update your Gantry 5-powered template. Once an update is available, you will be notified in the Joomla administrator just as you would with any other extension.
 
@@ -39,8 +36,8 @@ You can initiate the update by navigating to **Administrator > Extensions > Exte
 
 If the update is successful, you will be notified as such and you can continue to use the theme as you did previously. The update process should not affect your custom directory, though if you have any theme-related files outside of the custom directory modified, we recommend comparing your backed up copy to the new copy of the file and manually moving your customizations from there.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 There are a several ways to go about manually updating your Gantry-powered WordPress theme. Each of these methods requires an FTP connection to facilitate replacing the `custom` directory (as well as any customized theme files outside of that directory) as you are essentially deleting the existing theme and installing the updated version from scratch.
 
@@ -66,6 +63,11 @@ Now, installing the updated Gantry 5 theme is easy. At the top of the **Themes**
 
 Now, you simply need to choose the theme's zip package and select **Install Now**. Once your installation is complete you will be given the option to **Activate** it. Do so, and before you go to any other area of the admin, use your FTP program to replace the `custom` directory and its contents that you copied earlier.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 

@@ -15,7 +15,8 @@ The **Style** panel in the Gantry based template administration interface provid
 Logo
 ----
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The Logo setting provides the ability to show/hide the logo, select its position, or changes its type. By default, this is **Gantry Template** which allows you to load three different style options for **Logo Style**.
 
@@ -25,8 +26,8 @@ The second logo type option is **Custom**. This will load the **Custom Logo** fi
 
 ![](style-logo-type-custom.jpg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The *Logo* setting provides the ability to change its type. The default setting is **Gantry Template**, which loads the included template logo.
 
@@ -36,8 +37,8 @@ The second logo type option is **Custom**. This will load the **Custom Logo** fi
 
 ![](style-logo-type-custom_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Link Color
 ----------

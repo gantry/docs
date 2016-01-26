@@ -3,10 +3,6 @@ title: Styles
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    browser: true
 process:
     twig: true
 ---

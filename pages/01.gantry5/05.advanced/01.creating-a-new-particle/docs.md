@@ -3,9 +3,6 @@ title: Creating a New Particle
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -21,19 +18,25 @@ Creating the YAML File
 
 While creating your Particle, it may be easier to start with the YAML file as this acts as the blueprint for the particle. The Twig file uses this YAML file to pull information, settings, and find out which fields are being used in the administrator for variables.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![File Location](particle_3.png) {.border .shadow}
 
 You will want to create this file in your template's folder structure by navigating to `TEMPLATE_DIR/custom/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 You will want to create this file in your template's folder structure by navigating to `THEME_DIR/custom/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Here is the body of our example Particle's YAML file:
 
@@ -152,7 +155,8 @@ Let's say you wanted to pull the variable that is set on another particle. For e
 Customizing an Existing Particle
 -----
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `TEMPLATE_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.
 
@@ -163,8 +167,8 @@ Here is a table to help you figure out where to place the duplicate **YAML** and
 | `media/gantry5/engines/nucleus/particles` | `TEMPLATE_DIR/custom/particles` | `TEMPLATE_DIR/custom/engine/particles` |
 | `TEMPLATE_DIR/particles`                  | `TEMPLATE_DIR/custom/particles` |                                        |
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `THEME_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.
 
@@ -175,6 +179,11 @@ Here is a table to help you figure out where to place the duplicate **YAML** and
 | `wp-content/plugins/gantry5/engines/nucleus/particles` | `THEME_DIR/custom/particles` | `THEME_DIR/custom/engine/particles` |
 | `THEME_DIR/particles`                                  | `THEME_DIR/custom/particles` |                                     |
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 

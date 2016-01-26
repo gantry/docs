@@ -3,10 +3,6 @@ title: Using Block Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -17,21 +13,19 @@ In this guide, we will focus on block settings, which are settings that apply at
 
 ## Accessing Block Settings
 
-{% set callout_items %}
-Settings [70%, 33%, se]
-    : Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
+[ui-callout]
+[ui-callout-item title="Settings" position="70%, 33%, se"]
+Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
+[/ui-callout-item]
+![](block_settings_1.png) {.border .shadow}
+[/ui-callout]
 
-{% endset %}
-
-{{ gravui_callout(page.media['block_settings_1.png'].url, callout_items, 'shadow border') }}
-
-{% set callout_items %}
-Settings [75%, 38%, se]
-    : Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
-
-{% endset %}
-
-{{ gravui_callout(page.media['block_settings_3.png'].url, callout_items, 'shadow border') }}
+[ui-callout]
+[ui-callout-item title="Settings" position="75%, 38%, se"]
+Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
+[/ui-callout-item]
+![](block_settings_3.png) {.border .shadow}
+[/ui-callout]
 
 Accessing the **Block Settings** for a particular block is pretty simple. Just select the settings <i class="fa fa-cog"></i> icon for the block you wish to adjust the settings for.
 

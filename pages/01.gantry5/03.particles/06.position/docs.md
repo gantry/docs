@@ -3,9 +3,6 @@ title: Positions
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -23,7 +20,8 @@ Creating, Deleting, and Moving Positions
 
 If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
 
@@ -31,13 +29,18 @@ If you are migrating from an existing template, and you have modules that have a
 
 For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming Soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Deleting a position is just as easy as creating one. Just drag-and-drop the position to the top of the **Layout Manager** to a section that appears with the label **Drop Here** to **Delete**. This will delete the position. If you change your mind, just click the **Back** arrow in the **History** tool to bring it back.
 
@@ -55,7 +58,8 @@ You could have 0, 1, 5, 10, or even 20 individual widget positions in the Header
 Quick and Easy Naming
 -----
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Positions](positions_2.png) {.border .shadow}
 
@@ -67,13 +71,18 @@ For example, you could name and key a position as branding where you have your b
 
 This frees you from standardized naming conventions that can be needlessly complex and confusing.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming Soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Spacers
 -----
@@ -89,7 +98,8 @@ Settings
 
 The settings for a **Position** Particle can vary between content management systems (CMS). We have broken down the available options below.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Settings](positions_settings_j.png) {.border .shadow}
 
@@ -100,10 +110,15 @@ The settings for a **Position** Particle can vary between content management sys
 
 There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key**  and **Chrome** for the outline. In the event that you are editing the settings of the default outline, this key becomes the global default, which is used unless overridden in either another outline's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming Soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]

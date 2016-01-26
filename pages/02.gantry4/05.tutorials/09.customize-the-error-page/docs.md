@@ -10,7 +10,8 @@ process:
     twig: true
 ---
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Joomla comes with a default 404 Error Page which Gantry can override at `/templates/[TEMPLATE]/error.php`.
 
@@ -22,8 +23,8 @@ In this example, we will customize the error page to look like the following.
 
 ![](custom-404.jpg)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 WordPress doesn't come with a default **404 Error Page**. We can, however, create one at `/wp-content/themes/[TEMPLATE]/404.php`.
 
@@ -33,13 +34,14 @@ In this example, we will create a custom error page with this design:
 
 ![](custom-404_wp.jpg)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 1: Edit the Error Page
 ---------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Edit the `rt-error-body` area in `/templates/[TEMPLATE]/error.php` to reflect the following.
 
@@ -65,8 +67,8 @@ Edit the `rt-error-body` area in `/templates/[TEMPLATE]/error.php` to reflect th
 </div>
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Edit the `rt-error-body` area in `/wp-content/themes/[TEMPLATE]/404.php` to reflect the following:
 
@@ -92,13 +94,14 @@ Edit the `rt-error-body` area in `/wp-content/themes/[TEMPLATE]/404.php` to refl
 </div>
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 2: Adding Custom CSS
 -------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [Add a custom css file](../adding-a-custom-stylesheet) for styling our custom error page, and load it by adding the stylesheet link declaration in `error.php`.
 
@@ -127,8 +130,8 @@ Next, you will need to add the following rules and properties to your custom sty
 .custom-404 h2 {font-size: 2.0em; line-height: 2.0em;}
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [Add a custom css file](../adding-a-custom-stylesheet) for styling our custom error page, and load it by adding the stylesheet link declaration in `404.php`.
 
@@ -157,8 +160,8 @@ Next, you will need to add the following rules and properties to your custom sty
 .custom-404 h2 {font-size: 2.0em; line-height: 2.0em;}
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 That's it! You should now have a custom error page live on your site.
 

@@ -21,7 +21,8 @@ Gantry Presets are a combination of Gantry features and configuration settings w
 Creating a new Preset
 ---------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 To configure a new preset, go to **Extensions → Template Manager → gantry — Default (Master) → Style**. Configure any style settings for the template such as Link Color.
 
@@ -35,8 +36,8 @@ The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset N
 
 ![](presets-create.jpg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 To configure a new preset, go to **Admin Dashboard → Gantry Theme → Style**. From here, you can configure style settings for the template. In the example below, we'll change the link color.
 
@@ -50,8 +51,8 @@ The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset N
 
 ![](presets-create_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Select your new Preset
 ----------------------

@@ -3,10 +3,6 @@ title: Using the Color Picker
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---

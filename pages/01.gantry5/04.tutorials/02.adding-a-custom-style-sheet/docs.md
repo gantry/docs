@@ -3,9 +3,6 @@ title: Adding a Custom Style Sheet
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -28,17 +25,23 @@ Once you have added this file, and put your custom CSS/SCSS within, Gantry will 
 
 If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Extras](devprod.png) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Production](wp_production.png) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 If **Production Mode** is set to **No**, then Gantry will recompile the CSS/SCSS automatically when changes are made. In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as Cache, minified vs. extended JS/CSS, etc.
 

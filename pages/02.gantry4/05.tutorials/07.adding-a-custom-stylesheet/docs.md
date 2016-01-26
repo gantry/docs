@@ -21,17 +21,18 @@ Step 1: Adding Your Custom CSS File
 -----------------------------------
 To create a custom CSS file, you just have to create a new css file at `/templates/[TEMPLATE]/css/` and name it **[TEMPLATE]-custom.css**. The new custom CSS file will automatically get loaded by the Gantry framework.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![](template-custom-css.jpg)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![](template-custom-css_wp.jpg)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 >>>>> NOTE: The use of **[TEMPLATE]** in this guide is intended as a placeholder for the name of the template's primary directory. Replace **[TEMPLATE]** with the template directory name in order for these instructions to work with your site.
 
@@ -62,18 +63,19 @@ If we want to override the bottom padding and margin, we **can not** just put th
 
 There are many elements in the template that utilize `rt-block`, and these custom rules will affect them. Another possibility is, the custom rule will not work at all if your custom CSS file is loaded before the template CSS file that contains the existing rule.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Hence, we need to put the rule with more specific selectors. We need to create a blank file `css/gantry-custom.css`. As `rt-block` is wrapped inside `rt-showcase`, we can put the following rule inside `css/gantry-custom.css`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Hence, we need to put the rule with more specific selectors. We need to create a blank file `css/rt_gantry_wp-custom.css`. Since `rt-block` is wrapped inside `rt-showcase`, we can put the following rule inside `css/rt_gantry_wp-custom.css`.
 
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 ```css
 #rt-showcase .rt-block {padding: 15px 15px 0; margin: 10px 10px 0;}
@@ -87,7 +89,8 @@ Now, we can check the result with the Developer Tools again to confirm that our 
 Example 2: Per-Browser Specific Custom Stylesheet
 -------------------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The Gantry Framework has the ability to load specific CSS file based on which browser and operating system is viewing the template. This ability can be also applied for our custom CSS file. You just need to create a new CSS file at `/templates/[TEMPLATE]/css/` and name it `[TEMPLATE]-custom-[BROWSER].css`. Please check the [Per-Browser Specific Control](../advanced/per-browser-control) page for possible name combinations.
 
@@ -111,8 +114,8 @@ Click the **Save & Close** button and confirm the result in Firefox and other br
 
 Per-Browser Specific Custom Stylesheet is not just limited to showing or hiding a specific module only, but we can also use this ability to create a new rule or to override some existing rules just for a specific browser, like Internet Explorer. Anything in CSS can be overridden on a per-browser basis.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 *Gantry Framework* has the ability to load specific CSS file based on which browser and operating system is viewing the template. This ability can be also applied to our custom CSS file. You just need to create a new CSS file at `/wp-content/themes/[TEMPLATE]/css/` and name it `[TEMPLATE]-custom-[BROWSER].css`. Please check the [Per-Browser Specific Control](../advanced/per-browser-control) page for possible name combinations.
 
@@ -138,13 +141,14 @@ Click the **Save** button before confirming the result in Firefox, as well as ot
 
 **Per-Browser Specific Custom Stylesheet** is not just limited to showing or hiding a specific widget. We can also use this ability, for example, to create a new rule or override existing rules just for specific browser, such as Internet Explorer. Any in CSS can be overridden on a per-browser basis using this method.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Custom Stylesheet with LESS
 ---------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Another way to add the custom style to the Gantry template is by adding a custom LESS file inside `/templates/[TEMPLATE]/less`. The custom LESS file name is formatted as  `[LESS_FILE_NAME]-custom.less` and will be compiled into the main compiled CSS file.
 
@@ -156,8 +160,8 @@ For example, in the default Gantry template, there is a file `less/template.less
 
 The only limitation with Custom LESS file is, that we **can not** use Per-Browser Specific Custom Stylesheet, such as `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file described previously.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Another way to add the custom style to the Gantry template is to create a custom LESS file inside `/wp-content/themes/[TEMPLATE]/less`. The custom LESS file name should be formatted as `[LESS_FILE_NAME]-custom.less`. This file will be compiled in the main CSS file.
 
@@ -169,7 +173,7 @@ For example, in the default Gantry template, there is a file called `less/templa
 
 The only limitation with Custom LESS file is that we **can not** use **Per-Browser Specific Custom Stylesheet**. Such is the case with `less/template-custom-firefox.less`. If you need to control some elements on specific browsers, we need to use the Custom CSS file as described previously.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 

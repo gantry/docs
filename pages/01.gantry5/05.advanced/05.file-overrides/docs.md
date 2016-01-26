@@ -3,9 +3,6 @@ title: Creating Custom File Overrides
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -20,7 +17,8 @@ When creating custom files, you should always keep these files in your `custom` 
 
 ## Gantry Directory Structure
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Gantry installs 6 extensions. We have detailed these extensions, including example custom file overrides for extensions with files you would be likely to customize, below.
 
@@ -72,8 +70,8 @@ This simple plugin adds a shortcut icon from the Joomla administrator **Control 
 
 This plugin Bootstraps Gantry5 Framework and hooks into some events to improve usability. It needs to be always enabled for Gantry 5 templates to function.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Gantry installs as a single plugin. This plugin provides the framework and structure by which a Gantry 5 compatible theme will function. 
 
@@ -92,12 +90,18 @@ As you can see, all custom files would be placed within the theme directory's `c
 | `/wp-content/plugins/gantry5/engines/nucleus` | `THEME_DIR/custom/engine` |
 | `/wp-content/themes/THEME_DIR/scss`           | `THEME_DIR/custom/scss`   |
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Gantry Theme Files
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 All templates are located in the `/templates` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `templates/TEMPLATE_DIR/custom/` folder.
 
@@ -109,8 +113,8 @@ Here is an example of where the source file and customized duplicate file would 
 
 This doesn't just apply to customizing existing files, but adding new ones such as Particle files. We detail this process in our previous guides on [Customizing Theme Files](../customizing-theme-files) and [Creating a New Particle](../creating-a-new-particle/). You can also customize common assets, the rendering engine, or even parts of the administrator.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 All templates are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `wp-content/themes/TEMPLATE_DIR/custom/` folder.
 
@@ -122,5 +126,10 @@ Here is an example of where the source file and customized duplicate file would 
 
 This doesn't just apply to customizing existing files, but adding new ones such as Particle files. We detail this process in our previous guides on [Customizing Theme Files](../customizing-theme-files) and [Creating a New Particle](../creating-a-new-particle/). You can also customize common assets, the rendering engine, or even parts of the administrator.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]

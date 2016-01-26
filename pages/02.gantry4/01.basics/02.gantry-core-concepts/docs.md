@@ -12,26 +12,28 @@ process:
 
 One of the key concepts that make Gantry so powerful is its ability to provide a wealth of power and functionality which can easily be accessed by the Joomla template. This makes it easier for you, the template developer, to write cleaner code. As a side benefit, it provides a level of abstraction that will allow you to go from Joomla 2.5 to 3.0+ without changing anything in your template. The Gantry library handles all the complicated bits for you.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
 
 >>> Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=akpCH1JNvaY)
 
 Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Template index.php
 ------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Let's start digging into Gantry by taking a look at how the **index.php** looks:
 
@@ -89,8 +91,8 @@ First, there's an **if** block to check to ensure there is content assigned to t
 
 This function performs all the output logic for a possible 6 module positions: `top-a`, `top-b`, `top-c`, `top-d`, `top-e`, and `top-f`. You configure your modules with the Joomla Module Manager as you normally would, but this one method does all the calculation concerning how the modules should display.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Let's start digging into Gantry by taking a look at how **index.php** looks:
 
@@ -167,8 +169,8 @@ First, there's an **if** block to check to ensure there is content assigned to t
 
 This function performs all the output logic for a possible 6widget position: `top-a`, `top-b`, `top-c`, `top-d`, `top-e`, and `top-f`. You place your widgets on the **Widgets** configuration page like you usually would, but this method will do all the calculation concerning how the widgets should display.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 XML Configuration
 -----------------
@@ -179,7 +181,8 @@ This is the standard location to define positions for Joomla and WordPress. This
 
 The top of this file contains some base information about the template and its configuration. The **top** module position has it's own configuration in the layouts section, along with a default value and some configuration settings that define which options are available. The abbreviated XML for this looks like this:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ```xml
 <positions>
@@ -204,8 +207,8 @@ The top of this file contains some base information about the template and its c
 .....
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ```xml
 <positions>
@@ -225,8 +228,8 @@ The top of this file contains some base information about the template and its c
 .....
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Template Parameters
 -------------------

@@ -3,9 +3,6 @@ title: Atoms
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 redirect: /gantry5/configure/page-settings#atoms

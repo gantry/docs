@@ -14,22 +14,24 @@ This tutorial will take you through the steps needed to add a custom font to you
 
 In this example, we will explain how you can add the custom free font **Bloody** to your Gantry template.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![](custom-font-setting.jpg)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![](custom-font-setting_wp.jpg)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 1: Adding Your Custom Font Files
 --------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Please ensure you download the **@font-face Kit**.
 
@@ -42,8 +44,8 @@ Unzip the package and move the following files to `/templates/[TEMPLATE]/fonts/`
 
 ![](custom-font-files.jpg)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Make sure you've downloaded the **@font-face Kit**.
 
@@ -56,13 +58,14 @@ Unzip the package, and move the following files to `/wp-content/themes/[TEMPLATE
 
 ![](custom-font-files_wp.jpg)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 2: Adding the Necessary CSS
 --------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [Create your custom stylesheet file](../adding-a-custom-stylesheet), __gantry-custom.css__, and add it to `/templates/[TEMPLATE]/css/`. 
 
@@ -87,8 +90,8 @@ Add the following to the custom CSS file:
 }
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [Create your custom stylesheet file](../adding-a-custom-stylesheet), __rt_gantry_wp-custom.css__, and add it to `/wp-content/themes/[TEMPLATE]/css/`. 
 
@@ -113,13 +116,14 @@ Add the following to the custom CSS file:
 }
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: Adding the Info to the Font Settings Dropdown
 -----------------------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 With your text/code editor, open `/templates/[TEMPLATE]template-options.xml` and add the custom font option (line 9 in the below example):
 
@@ -150,8 +154,8 @@ Now, set the default font to **Bloody** in the Font Settings parameter and reloa
 
 You can add as many custom fonts as you wish, and set the multiple option in the font settings.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 With your text/code editor, open `/wp-content/themes/[TEMPLATE]/templateDetails.xml`, and add the custom font option (line 9 in the below example):
 
@@ -182,8 +186,8 @@ Now, set the default font to **Bloody** in the Font Settings parameter. Reload t
 
 You can add as many custom fonts as you wish, and set the multiple option for the font settings.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Font Usage on Specific Elements
 -------------------------------

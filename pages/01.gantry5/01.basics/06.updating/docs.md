@@ -3,26 +3,24 @@ title: Updating
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 There are several parts to Gantry: The library, component, plugin, and template -- and each have a similar upgrading process.
 
-{% set callout_items %}
-Gantry 5 Templates [78%, 8%, se]
-    : Select this item to go directly to the Gantry 5 Administrator.
-
-Gantry 5 - Update Now! [87%, 8%, se]
-    : Select this item to go to the Extensions Manager's Update page where you can quickly update Gantry extensions and templates.
-
-{% endset %}
+[ui-callout]
+[ui-callout-item title="Gantry 5 Templates" position="78%, 8%, se"]
+Select this item to go directly to the Gantry 5 Administrator.
+[/ui-callout-item]
+[ui-callout-item title="Gantry 5 - Update Now!" position="87%, 8%, se"]
+Select this item to go to the Extensions Manager's Update page where you can quickly update Gantry extensions and templates.
+[/ui-callout-item]
+![](gantry_update_1.png) {.border .shadow}
+[/ui-callout]
 
 {{ gravui_callout(page.media['gantry_update_1.png'].url, callout_items, 'shadow border') }}
 
@@ -42,8 +40,8 @@ Another method of updating is similar to the process of installing Gantry in the
 
 You can check to see if the correct Gantry version has been installed by going to **Extensions → Extensions Manager → Manage**, and searching for Gantry. The version number will appear in the table.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Upgrading the Gantry Framework plugin is a relatively straightforward and simple process. This can be done using the built-in WordPress updater. Go to **Admin Dashboard → Updates**, select **Check Again** to load all available updates. Then check the checkbox next to the Gantry Template Framework and click **Update Plugins**.. Gantry will now be updated directly from the web.
 
@@ -53,6 +51,11 @@ Alternatively, you can upload the updated version via FTP. You would just need t
 
 You can check to see if the correct Gantry version has been installed by going to **Plugins** and searching for Gantry. The version number will appear in the resulting table.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 

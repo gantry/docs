@@ -3,9 +3,6 @@ title: Introduction for Non-Developers
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -40,17 +37,23 @@ Thanks to Gantry's particles system, the developer can create content blocks for
 
 This means you can make less calls to the developer for simple changes. Just log in, access the Gantry 5 Administrator, make your changes, and save.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Are you familiar with Joomla's module system? Gantry 5 integrates completely with Joomla so you can continue to use module positions just as you always have. It's super easy to create a new module position in seconds using the Layout Manager and Menu Editor.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Are you familiar with WordPress' widget system? Gantry 5 integrates completely with Joomla so you can continue to use widget positions just as you always have. It's super easy to create a new widget section in seconds using the Layout Manager.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Menu Editor
 

@@ -3,10 +3,6 @@ title: Overriding Particle Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -39,16 +35,15 @@ Now, every Particle placed in the Layout Manager for that particular outline wil
 
 ## Individual Particle Settings in Layout Manager
 
-{% set callout_items %}
-Cogwheel [68%, 45%, se]
-    : Selecting the cogwheel icon will bring up the **Settings** popup.
-
-Particle Settings [15%, 50%, se]
-    : The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
-
-{% endset %}
-
-{{ gravui_callout(page.media['particle_3.png'].url, callout_items, 'shadow border') }}
+[ui-callout]
+[ui-callout-item title="Cogwheel" position="68%, 45%, se"]
+Selecting the cogwheel icon will bring up the **Settings** popup.
+[/ui-callout-item]
+[ui-callout-item title="Particle Settings" position="15%, 50%, se"]
+The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
+[/ui-callout-item]
+![](menu_item_settings.png) {.border .shadow}
+[/ui-callout]
 
 When you place a particle in an outline's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
 
@@ -64,7 +59,8 @@ In this example, we will add a link to the **Copyright** Particle that goes dire
 
 In the image above, you will see the **Copyright** Particle on the left-hand side. There are no links or anything included in the core Particle. If you wanted to have the name of the copyright-holder become a link to that copyright holder's website, you can add a few simple changes to the Particle's source files.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/media/gantry5/engines/nucleus/particles/` and paste the copies to `TEMPLATE_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.
 
@@ -72,8 +68,8 @@ By duplicating the files and placing the copies in the custom folder, you are ma
 
 Anything you do to the duplicate particle files in your `TEMPLATE_DIR/custom/particles` folder will override what appears in the original file.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/particles/` and paste the copies to `THEME_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.
 
@@ -81,8 +77,13 @@ By duplicating the files and placing the copies in the custom folder, you are ma
 
 Anything you do to the duplicate particle files in your `THEME_DIR/custom/particles` folder will override what appears in the original file.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Because we are adding a new field to the **Copyright** Particle, we will need to edit the YAML file. Here is what the `copyright.yaml` YAML file looks like before the changes.
 

@@ -12,27 +12,29 @@ process:
 
 The Gantry framework itself is independent of any template. Each Gantry-enabled template relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=KOOuBQpSZDM)
 
 >>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=W1GmZB2dgNE)
 
 >>>>> A quick way to see the installation process in action is to watch this short screencast. It will provide a run-through of the steps required to quickly and easily get Gantry installed.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Downloading Gantry
 ------------------
 Gantry has three available download types:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 * __Bundle__: This includes the Framework (library, component & plugins), the Gantry template and associated extensions such as RokNavMenu.
 * __Framework__: This contains only the Framework (library, component & plugins).
@@ -42,8 +44,8 @@ The installation process is exactly the same for all three. The only difference 
 
 [Download](http://www.gantry-framework.org/download#joomla) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 * __Framework__: This contains only the Framework plugin.
 * __Theme__: This contains just the Gantry theme.
@@ -57,14 +59,14 @@ If you don't have WordPress installed on your server yet, you can use the **Rock
 
 [Download](http://www.gantry-framework.org/download#wordpress) {.border .shadow}
 
-{% endset %}
-
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Installing Gantry
 -----------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
 
@@ -72,8 +74,8 @@ Install at **Extensions → Extensions Manager → Install**. Select the **Choos
 
 The Gantry template will appear in the **Template Manager**, the Gantry plugins will appear in the **Plugin Manager**, and RokNavMenu will be available from the **Module Manager** (Click **New** to create a new instant of RokNavMenu). The component/library will be hidden, and only accessible from the **Extensions Manager** for uninstallation/upgrading purposes.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
@@ -81,24 +83,25 @@ To install the Gantry template, you'll need to navigate to **Plugins → Add New
 
 The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Setting the Gantry Template as Default
 --------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
 
 ![](install-upload_joomla.jpeg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 If you are using the Gantry framework, you'll want to use a Gantry-compatible template. After uploading your template, simply go to the **Appearance → Themes** area in the admin area of WordPress and click **Activate** next to your template.
 
 ![](install-template_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]

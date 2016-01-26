@@ -3,10 +3,6 @@ title: Adding and Using Fonts
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -27,7 +23,8 @@ If you would like to make your new font accessible to the **Font Picker**, you w
 
 Here are the steps you will need to take to make this happen.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Fonts](files.png) {.border .shadow}
 
@@ -74,8 +71,8 @@ The numbers listed here are the font weight. In general, `400` is a normal weigh
 
 Duplicate the `TEMPLATE_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Fonts](files.png) {.border .shadow}
 
@@ -122,14 +119,20 @@ The numbers listed here are the font weight. In general, `400` is a normal weigh
 
 Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Adding a New Font to Your Theme
 
 If you want to have local fonts load across your site, you can do so by completing these simple steps:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Fonts](files.png) {.border .shadow}
 
@@ -142,8 +145,8 @@ If you want to have local fonts load across your site, you can do so by completi
 @include import-font('roboto’);
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Fonts](files.png) {.border .shadow}
 
@@ -156,8 +159,13 @@ If you want to have local fonts load across your site, you can do so by completi
 @include import-font('roboto’);
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Font Weights
 
@@ -189,7 +197,8 @@ In this example, we will explain how you can add the custom free font **Bloody**
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Please ensure you download the **@font-face Kit**.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Unzip the package and move the following files to `TEMPLATE_DIR/custom/fonts/`:
 
@@ -200,8 +209,8 @@ Unzip the package and move the following files to `TEMPLATE_DIR/custom/fonts/`:
 
 ![](custom_files.png)  {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
 
@@ -212,12 +221,18 @@ Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
 
 ![](custom_files.png)  {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Step 2: Adding the Necessary CSS
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `TEMPLATE_DIR/custom/scss/`. 
 
@@ -236,8 +251,8 @@ Add the following to the custom SCSS file:
 }
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `THEME_DIR/custom/scss/`. 
 
@@ -256,8 +271,13 @@ Add the following to the custom SCSS file:
 }
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Font Usage
 

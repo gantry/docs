@@ -3,24 +3,27 @@ title: Extras
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Extras](devprod.png) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Production](wp_production.png) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 
 The **Extras** dropdown gives you quick access to a few options that are handy to have instant access to throughout the administrator. This includes the **Development Mode** toggle switch, a **Clear Cache** shortcut, and a shortcut to **Platform Settings** which takes you to a platform-specific settings page for Gantry.
@@ -35,7 +38,8 @@ In the future, more **Development** vs. **Production** actions will be tied to t
 
 #### Alternative Toggle Access
  
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Production](production.png) {.border .shadow}
 
@@ -45,39 +49,56 @@ You can also use this settings page to toggle **Asset Timestamps**. This feature
 
 The **Timestamp Period** field enables you to set the number of days which a timestamp is kept after updating the file. You can enter whole or decimal numbers (example: 0.5, 12, 21, 3, etc.). Set to **0** to add timestamps on every single asset file.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 This is currently the recommended, primary method for toggling Development and Production mode in WordPress.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Clear Cache
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/wp-content/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Platform Settings
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The **Platform Settings** shortcut takes you to a platform-specific settings page for Gantry 5. In Joomla, for example, you will be taken to the component configuration page for Gantry 5 (which typically handles advanced permissions configuration).
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 WordPress does not currently have a Platform Settings option as it does not have an equivalent component to that which is present in Joomla.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 

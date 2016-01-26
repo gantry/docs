@@ -22,7 +22,8 @@ Determine the name of your custom module position. In this case, we will be usin
 Step 2: Editing html/modules.php
 --------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Open `html/modules.php` and scroll down to the bottom of the document. We need to create a new function as per the example below where we use our name "example" after the `modChrome_`.
 
@@ -50,8 +51,8 @@ function modChrome_example($module, &$params, &$attribs)
 
 Upon saving, this custom module layout will now be available to use in Gantry.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The files are located under `YOUR_SITE/wp-content/plugins/gantry/html/layouts/`, however, you do not want to modify the core Gantry files. Instead, copy the new Chrome file to `YOUR_SITE/wp-content/themes/YOUR_TEMPLATE/html/layouts`. In this case, use `chrome_example.php`. Each custom chrome layout requires a `function render()`. This is what will be called by Gantry to display the widget. Since we have copied an existing Chrome, this will already be provided.
 
@@ -171,8 +172,8 @@ class GantryLayoutChrome_Standard extends GantryLayout {
 
 Upon saving this custom widget, Chrome will be available to use in Gantry.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: Adding Custom Module to Gantry
 --------------------------------------

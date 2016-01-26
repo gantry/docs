@@ -3,9 +3,6 @@ title: Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -50,17 +47,23 @@ The **Atom Settings** area of the **Settings** administrative panel gives you th
 Position Settings
 -----
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Joomla Position Settings](position_settings.png) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![WordPress Position Settings](wp_position_settings.png) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }} 
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs] 
 
 ### Spacer
 
@@ -76,7 +79,8 @@ The **System Messages** setting area enables you to display system messages in y
 
 ### Platform-specific Positions
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 #### Module Position
 
@@ -86,8 +90,8 @@ The **Module Position** setting enables you to globally disable (or enable) modu
 
 The **Module Instance** position enables you to inject a single instance of a Joomla module directly into your layout or menu. You can set a default **Module ID** and **Chrome** in this space.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 #### Widget Position
 
@@ -99,5 +103,10 @@ The **Widget** position enables you to inject a single widget into the page. Its
 
 Doing this bypasses the need to assign the widget to the position via a traditional widget position.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]

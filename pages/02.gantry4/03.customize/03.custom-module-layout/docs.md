@@ -23,22 +23,24 @@ Determine the name of your custom module layout.
 Step 2: Create/Copy New Layout File
 -----------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The simplest way to do this is to copy an existing layout and modify it after. The files are located under `YOUR_SITE/libraries/gantry/html/layouts/`. However, you do not want to modify the core Gantry files. Instead, copy the new layout file to `YOUR_SITE/templates/YOUR_TEMPLATE/html/layouts`. In this case, use `mod_standard.php`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The simplest way to do this is to copy an existing layout and modify it after. These files are located under `YOUR_SITE/wp-content/plugins/gantry/html/layouts/`, however, you do not want to modify the core Gantry files. Instead, copy the new layout file to `YOUR_SITE/wp-content/themes/YOUR_TEMPLATE/html/layouts`. In this case, use `widget_standard.php`.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: File Structure
 ----------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Each custom module layout requires a function `render()`. This is what will be called by Gantry to display the layout. In this case, since we have copied an existing layout, this will already be provided.
 
@@ -97,8 +99,8 @@ class GantryLayoutMod_Standard extends GantryLayout {
 }
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Each custom widget layout requires a function `render()` this is what will be called by Gantry to display the layout. In this case, since we have copied an existing layout, it will already be provided.
 
@@ -201,8 +203,8 @@ class GantryLayoutWidget_Standard extends GantryLayout {
 }
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 4: Adding Layout to Template
 ---------------------------------

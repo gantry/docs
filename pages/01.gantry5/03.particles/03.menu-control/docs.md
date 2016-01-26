@@ -3,9 +3,6 @@ title: Menu
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -28,7 +25,8 @@ Settings
 
 As menus are handled differently by different platforms, the settings may vary. See the options that appear by default on our main supported platforms below:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Settings](menu_settings_j.png) {.border .shadow}
 
@@ -39,11 +37,16 @@ As menus are handled differently by different platforms, the settings may vary. 
 | Start level | Sets the starting level for the menu.                               |
 | Max Levels  | Sets the deepest level at which the menu particle renders the menu. |
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming Soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 

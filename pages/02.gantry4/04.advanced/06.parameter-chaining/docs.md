@@ -10,7 +10,8 @@ process:
     twig: true
 ---
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 During the development of the Gantry Framework, we found that we needed to organize sets of parameters into custom groups of related settings. You can create your own elements in *template-options.xml* to allow the setting of specific parameters which you can use later in your own features, layouts, etc. A good example of this is the **inactive** chain that controls what menu item should be displayed when the menu is inactive. The XML in question looks like this:
 
@@ -56,8 +57,8 @@ class GantryFeatureInactive extends GantryFeature {
 
 Features, by default, are looking for a chained set of parameters. So, by setting the `$_feature_name` to **inactive**, and using the feature's own built in `get()` method, we don't need to use the full **inactive-menuitem** chained name. The feature's method automatically prefixes the feature name to obtain the correct parameter.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 During development of the Gantry Framework, we found that we needed to organize sets of parameters into custom groups of related settings. You can create your own elements in `templateDetails.xml` to allow the setting of specific parameters which you can use later in your own features, layouts, etc. A good example of this is the **pagesuffix** chain that controls any extra CSS classes which should be added to the `<body>` tag. The XML in question looks like this:
 
@@ -104,8 +105,8 @@ class GantryGizmoPageSuffix extends GantryGizmo {
 Gizmos, by default, are looking for a chained set of parameters. By setting the `$_feature_name` to **pagesuffix**, and using the feature's own built in `get()` method, we don't need to use the full **pagesuffix-class** chained name. The gizmos method automatically prefixes the feature name to obtain the correct parameter.
 
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 
 

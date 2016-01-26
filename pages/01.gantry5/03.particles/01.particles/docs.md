@@ -3,9 +3,6 @@ title: Introduction to Particles
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -36,7 +33,8 @@ Positions
 
 Positions are Particles that have content assigned to them by the CMS. In most CMS frameworks, these are hard-coded in the theme. In Gantry 5, you can freely create, move, and remove them as you please using the **Layout Manager**.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Positions can be renamed for reference on the backend and rekeyed. A position particle's **Key** is equivalent to a template position in standard CMS speak allowing you to create a position label modules are assigned to. This makes migration from other templates which likely won't have the same position naming scheme easier. In this case you can easily rekey Positions rather than having to reassign modules one-by-one.
 
@@ -44,13 +42,18 @@ Positions can be renamed for reference on the backend and rekeyed. A position pa
 
 For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Atoms
 -----

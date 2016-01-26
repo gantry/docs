@@ -3,9 +3,6 @@ title: Roadmap
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -16,7 +13,8 @@ Gantry 5's, launching initially for the Joomla platform, is a multi-phase plan t
 
 You can find a full changelog for releases from 5.0.0 and beyond [here](https://github.com/gantry/gantry5/blob/master/CHANGELOG.md).
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Current"]
 
 5.2.7 Release
 -----
@@ -35,8 +33,8 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 <a href="https://github.com/gantry/gantry5/milestones/5.2.7" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.7 Milestone</a>
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="5.2.x"]
 
 5.2.0 Release
 -----
@@ -136,8 +134,8 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 <a href="https://github.com/gantry/gantry5/compare/5.2.5...5.2.6" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.6 Changelog</a>
 
-{% endset %}
-{% set tab3 %}
+[/ui-tab]
+[ui-tab title="5.1.x"]
 
 5.1.0 Release
 -----
@@ -292,8 +290,8 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 <a href="https://github.com/gantry/gantry5/milestones/5.1.5" class="button"><i class="fa fa-fw fa-github"></i> See the 5.1.5 Milestone</a>
 
-{% endset %}
-{% set tab4 %}
+[/ui-tab]
+[ui-tab title="5.0.x"]
 
 5.0.0 Release
 -----
@@ -366,8 +364,8 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0...5.0.1" class="button"><i class="fa fa-fw fa-github"></i> See the 5.0.1 Changelog</a>
 
-{% endset %}
-{% set tab5 %}
+[/ui-tab]
+[ui-tab title="Release Candidate"]
 
 Release Candidate 1
 -----
@@ -463,8 +461,8 @@ Release Candidate 3
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-rc.2...5.0.0-rc.3" class="button"><i class="fa fa-fw fa-github"></i> See the RC3 Changelog</a>
 
-{% endset %}
-{% set tab6 %}
+[/ui-tab]
+[ui-tab title="Beta"]
 
 Beta 1
 -----
@@ -581,5 +579,5 @@ Beta 5
 
 <a href="https://github.com/gantry/gantry5/compare/5.0.0-beta.4...5.0.0-beta.5" class="button"><i class="fa fa-fw fa-github"></i> See the Beta 5 Changelog</a>
 
-{% endset %}
-{{ gravui_tabs({'Current':tab1, '5.2.x':tab2, '5.1.x':tab3, '5.0.x':tab4, 'Release Candidate':tab5, 'Beta':tab6}) }}
+[/ui-tab]
+[/ui-tabs]

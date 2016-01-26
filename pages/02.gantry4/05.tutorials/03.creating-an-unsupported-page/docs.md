@@ -18,7 +18,8 @@ This tutorial will take you through the steps needed to create an unsupported br
 Step 1: Unsupported Browser Redirect Feature
 --------------------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The logic for this unsupported browser page is powered by a custom feature that we've called **unsupportedredirect.php**, in this instance. This is a custom feature that we create and drop into the template's `features/` folder. The code is very simple as you can see below:
 
@@ -88,8 +89,8 @@ As you can see, `isOrderable()` is set to true. This is so this feature will sho
 
 This is where the logic actually happens. This feature does not need to display anything, so the `render()` method is not implemented. The `init()` method is the better place for any non-rendering functionality and as you can see here, there is just a simple `if` statement to ensure that we are not already on the unsupported page, the viewing browser is `ie`, and the short version is `6` or `7`. This ensure that only IE6 and IE7 browsers will enter the `if` statement, and redirect the browser to the **?tmpl=unsupported**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The logic for this unsupported browser page is powered by a custom gizmo that we'll call **unsupportedredirect.php**. This is a custom gizmo that we will create and drop into the template's `gizmos/` folder. The code is very simple, as you can see below:
 
@@ -148,13 +149,14 @@ The `isEnabled()` method is set to true because we are effectively forcing this 
 
 This is where the logic actually happens. The `init()` method is the better place for any non-rendering functionality. As you can see here, a simple `if` statement ensures that we are not already on the unsupported page, the viewing browser is `ie`, and the short version is `6` or `7`. This ensures that only IE6 and IE7 browsers will enter the `if` statement and load the **unsupported.php** page.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 2: Unsupported tmpl file
 -----------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 As you saw at the end of Step 1, we've redirected IE6 users to **?tmpl=unsupported**, but what does this mean? We are going to take advantage of a little-known feature in Joomla that allows you to change the 'index' file used when rendering a page. By default, Joomla looks for **index.php** inside your template folder, however if you pass another name in via the 'tmpl' request variable (**?tmpl=unsupported** as an example), Joomla will look for a file called **unsupported.php** and use this rather than **index.php** to render the page.
 
@@ -234,8 +236,8 @@ $gantry->finalize();
 
 Basically, we've removed all the extraneous module calls and left the page in a basic hard-coded state. You could keep some of the module positions if needed, but we opted for the simple approach and kept the output as basic as possible -- while still offering the feel of the regular gantry-framework.org site.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 As you saw at the end of Step 1, we've redirected IE6 and IE7 users to **unsupported.php**, but what does this mean? We are going to filter out the **template_include** WordPress filter and load our own file when browser conditions are met. By default, WordPress looks for **index.php** inside your template folder, however, if we are going to use the mentioned previously filter, we can override this behavior. This forces WordPress to load different php file.
 
@@ -310,20 +312,21 @@ $gantry->finalize();
 
 Basically, we've removed all the extraneous widget calls and left the page in a basic hard-coded state. You could, of course, keep some of the widget positions (if needed), but we opted for the simple approach and kept the output as basic as possible. This is done while still offering the feel of the regular <http://gantry-framework.org> site.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Step 3: Tweaking and Testing
 ----------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 At this point, you should have a fully-functional feature. To test it out in your regular browser, you can just point it to **http://YOUR_SITE/?tmpl=unsupported**, and it should show you the new page based on the **unsupported.php** file you created. You should tweak and optimize this output to suit your needs. We kept ours pretty similar to our regular page, and even included our regular **template.css** and **joomla.css** files. We also added a new **unsupported.css** file that has some styling which is only needed on this page. You can see these in the `addStyles()` method in the **unsupported.php** file listed above.
 
 After you are pretty happy with the way this looks, you'll want to test and fix it so it looks correct in IE6 an IE7. You should be able to point your IE6 or IE7 browser directly at your site: **http://YOUR_SITE**, and it should redirect you automatically to the unsupported page you have been working on. Just tweak and adjust your CSS as needed to ensure that things look correct in IE6, as this is the only browser that really sees the page.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 At this point, you should have a full, functional gizmo. You should be able to tweak and optimize this output to suit your individual needs. We kept ours pretty similar to our regular page, but also included our regular **template.css** and **wordpress.css** files, as well as a new **unsupported.css** file which has some styling that is only needed on this particular page. You can see these in the `addStyles()` method in the **unsupported.php** file, listed above.
 
@@ -331,7 +334,7 @@ After you are pretty happy with the way this looks, the final step is to test it
 
 You should be able to point your IE6 or IE7 browser directly at your site: **http://YOUR_SITE**, and it should redirect you automatically to the unsupported page. Just tweak and adjust your CSS as needed to ensure that things look correct in IE6, as this is the only browser that really sees it.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 That's it! Pretty easy, right?

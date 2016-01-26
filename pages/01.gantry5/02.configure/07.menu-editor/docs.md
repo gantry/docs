@@ -3,10 +3,6 @@ title: Menu Editor
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -67,13 +63,12 @@ In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** a
 
 ## Menu Item Types
 
-{% set callout_items %}
-Menu Item Types [24%, 25%, se]
-    : Indicated what type of menu item it is.
-
-{% endset %}
-
-{{ gravui_callout(page.media['menu_item_settings.png'].url, callout_items, 'shadow border') }}
+[ui-callout]
+[ui-callout-item title="Menu Item Types" position="24%, 25%, se"]
+Indicated what type of menu item it is.
+[/ui-callout-item]
+![](menu_item_settings.png) {.border .shadow}
+[/ui-callout]
 
 There are six types of menu items in the **Menu Editor**. Here is a breakdown of what five of these types are, and the role they play in the menu.
 
@@ -92,7 +87,8 @@ The sixth type of menu item, which is added and configured in the **Menu Editor*
 
 ## Module/Widget Injection
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Module Injection](menu_module_1.png) {.border .shadow}
 
@@ -122,13 +118,18 @@ At this point, you can further refine this module in a popup that appears, givin
 
 Once you have configured your module and set up any additional styling (if required) to make it look great with your menu, you can save your menu and take a look at it on the front end.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Particle Injection
 

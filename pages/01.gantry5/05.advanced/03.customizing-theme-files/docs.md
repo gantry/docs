@@ -28,17 +28,23 @@ Pictured above is the **Showcase** section of the site, which features the **Sam
 
 In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/admin/blueprints/layout/`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 To do this, you will need to create an override of the `section.yaml` found in `ROOT/wp-content/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/admin/blueprints/layout/`.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 
 Here is what the file looks like before our changes:
@@ -121,17 +127,23 @@ form:
       label: Background
 ```
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `THEME_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Here is the `section.html.twig` file prior to our changes:
 
@@ -261,7 +273,8 @@ Here is a quick reference to help you navigate the directory structure of a Gant
 
 >>> Any files located in subdirectories of the directories listed below would also be added to the custom directory in order to override a file stored within. For example, `scss/hydrogen/_core.scss` would be copied and modified in the `custom` directory as `custom/scss/hydrogen/_core.scss`.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` directory where `ROOT` is the root directory of the Joomla site and `TEMPLATE_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
 
@@ -277,8 +290,8 @@ The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` direc
 | particles         | Contains custom **Particles** or overriding Particles to add or modify functionality of the theme.                                |
 | scss              | Contains all the non platform specific SCSS files for the theme and is broken into several subdirectories and files.              |
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The first table of folders is rooted in the `ROOT/templates/THEME_DIR/` directory where `ROOT` is the root directory of the Joomla site and `THEME_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
 
@@ -294,12 +307,18 @@ The first table of folders is rooted in the `ROOT/templates/THEME_DIR/` director
 | particles         | Contains custom **Particles** or overriding Particles to add or modify functionality of the theme.                                |
 | scss              | Contains all the non platform specific SCSS files for the theme and is broken into several subdirectories and files.              |
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Engine Files
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The next batch is specific to Gantry, and not the theme. These folders are found in the `ROOT/media/gantry5` directory, which contains data used by the framework, independent of the theme.
 
@@ -321,8 +340,8 @@ When creating custom copies of these files, you will want to put them in `TEMPLA
 | twig               |
 | twig/partials      |
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The next batch is specific to Gantry, and not the theme. These folders are found in the `ROOT/wp-content/plugins/gantry5` directory, which contains data used by the framework, independent of the theme.
 
@@ -344,12 +363,18 @@ When creating custom copies of these files, you will want to put them in `THEME_
 | twig               |
 | twig/partials      |
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ### Administrator Files
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The Gantry Administrator's component files are located in the `ROOT/administrator/components/com_gantry5/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
 
@@ -357,8 +382,8 @@ The Gantry Administrator's component files are located in the `ROOT/administrato
 
 Custom copies of these files will be placed in `TEMPLATE_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/administrator/components/com_gantry5/templates/pages/about/about.html.twig` would be copied to `TEMPLATE_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The Gantry Administrator's component files are located in the `ROOT/wp-content/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
 
@@ -366,7 +391,12 @@ The Gantry Administrator's component files are located in the `ROOT/wp-content/p
 
 Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/wp-content/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 

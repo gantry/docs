@@ -3,9 +3,6 @@ title: How to Load CSS / JS from Twig
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---

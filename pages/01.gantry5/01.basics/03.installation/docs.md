@@ -3,10 +3,6 @@ title: Installation
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -26,7 +22,8 @@ The installation process is exactly the same for each of these. The only differe
 
 ## Installing the Gantry Framework
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
 
@@ -46,8 +43,8 @@ If you are having any issues, including the following error messages:
 
 You will want to make sure that all of Gantry's associated extensions are enabled. To do so, simply select any non-enabled extensions listed in the image above, and activate them by selecting the **Enable** button in the upper-left area of the **Extensions Manager**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=5o5GjHVX7AQ)
 
@@ -71,12 +68,18 @@ Gantry 5 requires one additional plugin to work. The **Timber** plugin enables W
 
 If you attempt to activate a Gantry 5 theme without the Timber plugin installed, a red notice will appear at the top of the admin giving you a direct link to where you can install Timber to your site.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Installing a Gantry Theme
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
 
@@ -84,8 +87,8 @@ Install at **Extensions → Extensions Manager → Install**. Select the **Choos
 
 The Gantry template will appear in the **Template Manager**, and all Gantry extensions will appear in the **Extensions Manager**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Themes made on Gantry 5 install just like any other WordPress theme. The difference here is that you really want to have the Gantry framework installed and activated first, otherwise the theme itself won't be of much use.
 
@@ -103,12 +106,18 @@ Just as you did with the Gantry framework, use the **Browse...** button to selec
 
 >>> The file name and version number of your Gantry framework installation will be different.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Setting a Gantry Theme as Default
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.
 
@@ -116,8 +125,8 @@ If you are using the Gantry template, you will want to set it as the default tem
 
 ![](gantry_default.png) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![](install_wp_5.png) {.border .shadow} 
 
@@ -125,5 +134,10 @@ Your Gantry-powered theme will be set as default upon activation. You can activa
 
 You can also activate a theme by navigating to **Admin → Appearance** and selecting **Activate** in your desired theme's box.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]

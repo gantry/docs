@@ -12,17 +12,18 @@ process:
 
 The Gantry framework ships with 38 possible layout combinations for the mainbody area. The mainbody is comprised of the mainbody itself (where the article or component is displayed) along with up to three additional sidebars for other modules.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 For the 12-column layout variation, these layouts are controlled by two variables called `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` that are found in the `libraries/gantry/gantry.config.php`. The 12-column portion of this file looks like this:
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 For the 12-column layout variation, these layouts are controlled by two variables called `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` which are found in `wp-content/plugins/gantry/gantry.config.php`. The 12-column portion of this file looks like this:
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 
 
@@ -151,7 +152,8 @@ Again, this is pretty easy to break down. The key in the associative array relat
 Adding A new Custom Layout Combo
 --------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 We assume that you have a specific need for a new layout combination that is not provided in these variables, and therefore not available to you in the template administrator. Let's say for some reason you want a really large body on the right, and a very skinny sidebar-a on the left. That would translate into a sidebar-a of **2 columns**, and the mainbody with **10 columns** of space.
 
@@ -190,8 +192,8 @@ $gantry_default_mainbodyschemascombos = array(
         .....snip....
 ```
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 For the pupose of this document, we'll assume that you have a specific need for a new layout combination that is not provided in these variables, and therefore not available to you in the template settings. Let's say for some reason you want a really large body on the right, and a very skinny sidebar-a on the left. That would translate into a sidebar-a of **2 columns**, and the mainbody with **10 columns** of space.
 
@@ -232,7 +234,7 @@ $gantry_default_mainbodyschemascombos = array(
         .....snip....
 ```
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Save the file and you're done! Now, when you visit the template settings, you will have a new option in your mainbody layout slider.

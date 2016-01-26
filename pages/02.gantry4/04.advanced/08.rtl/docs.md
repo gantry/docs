@@ -12,7 +12,8 @@ process:
 
 RTL stands for “right-to-left", a key component when delivering a website in an RTL language such as Hebrew, Arabic, Urdu, etc. Gantry has built-in RTL support which will automatically “flip” the content layouts and ordering to support RTL. We’ve also provided an override in the advanced section of the template details, so you can turn this default behavior off if you like. However, if the language file supports it, RTL will be enabled by default.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The toggle to tell Joomla that a language which should be displayed in RTL format is located in the language's XML file. In the case of the default en-GB language, there is a configuration file located here:
 
@@ -50,8 +51,8 @@ This file looks like this:
 
 The relevant part is that `<rtl />` tag that is currently set to **0**. By changing this value to **1**, you effectively switch on RTL for this language.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 You can force WordPress to display a language in RTL format. In this case, there is a configuration file located in `YOUR_SITE/wp-config.php`. Just edit the file and add the following code:
 
@@ -61,8 +62,8 @@ $text_direction = 'rtl';
 
 A visual example of how this looks/works can be seen below. The first image is in the default English in the traditional LTR format, while the second one is the same default English, but with the forced RTL in the `wp-config.php` file.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 A visual example of how this looks/works can be seen below. The first image is in the default english in the traditional LTR format, while the second one is the same default english but with the RTL toggle enabled in the `en-GB.xml` language file.
 

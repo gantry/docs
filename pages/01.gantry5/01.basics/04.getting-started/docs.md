@@ -3,10 +3,6 @@ title: Getting Started
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -31,7 +27,8 @@ Once you have the latest packages, installation is simple. We have provided a st
 
 ## Accessing the Gantry Administrator
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 ![Administrator](../../configure/gantry-admin/admin_access_1.png) {.border .shadow}
 
@@ -39,51 +36,55 @@ When you have installed and activated both the Gantry framework and your Gantry-
 
 Here, you will see a list of any installed Gantry-powered themes. You can **Preview** the theme from here or select **Configure** to go directly to the **Gantry Administrator** where you can get started modifying your Gantry-powered site.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Administrator](wp_admin_access_1.png) {.border .shadow}
 
 Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry and your desired Gantry-powered theme installed and activated, you can simply select **(Theme Name) Theme** from the sidebar in the backend.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 ## Navigating the Gantry 5 Administrator
 
 The Gantry Administrator has multiple administrative tools you can flip through to configure how your Gantry-powered theme looks and functions. Here is a quick breakdown of each of these tools, and what you can do with them.
 
-{% set callout_items %}
-Outlines [8%, 68%, se]
-    : This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
-
-Menu Editor [8%, 76%, se]
-    : This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
-
-About [8%, 83%, se]
-    : This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
-
-Extras [8%, 91%, se]
-    : This button opens a dropdown that gives you access to **Clear Cache** and **Platform Settings** functionality.
-
-Outlines Dropdown [17%, 3%, se]
-    : This dropdown displays various outlines associated with your site. You can use it to quickly switch between them to edit their individual settings.
-
-Styles (Pictured) [17%, 23%, se]
-    : The **Styles** administrative panel gives you access to style-related settings for the outline. This includes things like theme colors, fonts, style presets, and more.
-
-Settings [17%, 31%, se]
-    : The **Settings** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
-
-Layout [17%, 39%, se]
-    : The **Layout** administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
-
-Assignments [17%, 48%, se]
-    : The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
-
-{% endset %}
-
-{{ gravui_callout(page.media['getting_started_1.png'].url, callout_items, 'shadow border') }}
+[ui-callout]
+[ui-callout-item title="Outlines" position="8%, 68%, se"]
+This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
+[/ui-callout-item]
+[ui-callout-item title="Menu Editor" position="8%, 76%, se"]
+This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
+[/ui-callout-item]
+[ui-callout-item title="About" position="8%, 83%, se"]
+This page gives you quick, at-a-glance information about the currently-accessed theme. This is a one-stop shop for information about the theme including: name, version number, creator, support links, features, and more.
+[/ui-callout-item]
+[ui-callout-item title="Extras" position="8%, 91%, se"]
+This button opens a dropdown that gives you access to **Clear Cache** and **Platform Settings** functionality.
+[/ui-callout-item]
+[ui-callout-item title="Outlines Dropdown" position="17%, 3%, se"]
+This dropdown displays various outlines associated with your site. You can use it to quickly switch between them to edit their individual settings.
+[/ui-callout-item]
+[ui-callout-item title="Styles (Pictured)" position="17%, 23%, se"]
+The **Styles** administrative panel gives you access to style-related settings for the outline. This includes things like theme colors, fonts, style presets, and more.
+[/ui-callout-item]
+[ui-callout-item title="Settings" position="17%, 31%, se"]
+The **Settings** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
+[/ui-callout-item]
+[ui-callout-item title="Layout" position="17%, 39%, se"]
+The **Layout** administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
+[/ui-callout-item]
+[ui-callout-item title="Assignments" position="17%, 48%, se"]
+The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
+[/ui-callout-item]
+![](getting_started_1.png) {.border .shadow}
+[/ui-callout]
 
 1. **Outlines**: This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
 

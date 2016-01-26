@@ -3,10 +3,6 @@ title: Using the Font Picker
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -21,28 +17,27 @@ Based on **Google Fonts**, the Font Picker gives you immediate access to over 60
 
 ## Browsing Fonts
 
-{% set callout_items %}
-Test Text Field [3%, 1%, se]
-    : Enter the text you would like to see in different fonts here.
-
-Search [3%, 83%, se]
-    : Use this field to search for a font by name. The number in the upper-right corner of the field indicates how many matches there are to your current string.
-
-Font Browser [10%, 1%, se]
-    : Available fonts are listed in this area of the **Font Picker**. You can scroll down to see all of the different options, each displaying your test text in the associated font.
-
-Categories [91%, 1%, se]
-    : This setting enables you to filter fonts by category. This is a useful tool for refining your search by type of font, rather than scrolling through the entire library.
-
-Subsets [91%, 15%, se]
-    : This setting gives you the ability to filter results by subset. For example, you could look for a font specifically in Latin characters.
-
-Select [91%, 86%, se]
-    : Use the green **Select** button to lock in your font of choice (listed in the text directly to the left). To choose a font, simply select the checkbox in that font's listing in the font browser.
-
-{% endset %}
-
-{{ gravui_callout(page.media['font_picker_1.png'].url, callout_items, 'shadow border') }}
+[ui-callout]
+[ui-callout-item title="Test Text Field" position="3%, 1%, se"]
+Enter the text you would like to see in different fonts here.
+[/ui-callout-item]
+[ui-callout-item title="Search" position="3%, 83%, se"]
+Use this field to search for a font by name. The number in the upper-right corner of the field indicates how many matches there are to your current string.
+[/ui-callout-item]
+[ui-callout-item title="Font Browser" position="10%, 1%, se"]
+Available fonts are listed in this area of the **Font Picker**. You can scroll down to see all of the different options, each displaying your test text in the associated font.
+[/ui-callout-item]
+[ui-callout-item title="Categories" position="91%, 1%, se"]
+This setting enables you to filter fonts by category. This is a useful tool for refining your search by type of font, rather than scrolling through the entire library.
+[/ui-callout-item]
+[ui-callout-item title="Subsets" position="91%, 15%, se"]
+This setting gives you the ability to filter results by subset. For example, you could look for a font specifically in Latin characters.
+[/ui-callout-item]
+[ui-callout-item title="Select" position="91%, 86%, se"]
+Use the green **Select** button to lock in your font of choice (listed in the text directly to the left). To choose a font, simply select the checkbox in that font's listing in the font browser.
+[/ui-callout-item]
+![](font_picker_1.png) {.border .shadow}
+[/ui-callout]
 
 1. **Test Text Field**: Enter the text you would like to see in different fonts here.
 2. **Search**: Use this field to search for a font by name. The number in the upper-right corner of the field indicates how many matches there are to your current string.

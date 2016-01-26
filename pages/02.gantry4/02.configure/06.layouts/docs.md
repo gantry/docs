@@ -20,7 +20,8 @@ The **Layouts** panel in the Gantry-based template administration interface prov
 Using Layouts
 -------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Each of the major module rows/sections is represented with a slider to allow for dynamic control over how modules are laid out -- based on how many module positions are in use or published. By default, the layout will be an equal size for the published modules.
 
@@ -52,8 +53,8 @@ This will translate into a `8 | 4` or worded another way -- a 2/3 and 1/3 distri
 
 ![](layouts-utility-example3.jpg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Each of the major widget positions is represented with a slider to allow for dynamic control widget layout. This is based on how many widgets are placed in that position. By default, placed widgets will be displayed at equal sizes.
 
@@ -85,8 +86,8 @@ This will translate into a `8 | 4` or worded another way, a 2/3 and 1/3 distribu
 
 ![](layouts-utility-example3_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Mainbody Layouts
 ----------------
@@ -99,17 +100,18 @@ The layout for this is controlled in the template parameters. As you can see bel
 
 ![](layouts-mb1.jpg) {.border .shadow}
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 If you drag the slider to the right, you will see the positions shuffle around and give different options for where the mainbody is displayed in addition to various widths for each. With four total columns, there is not much room to have widely-varying column widths, so let's turn off one of the columns by disabling the modules in the **sidebar-c** module position using our module manager. Below, you will see how the default layout is currently set to display when we have only two sidebars published:
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 If you drag the slider to the right, you will see the positions shuffle around to display different layout options for the mainbody. With four total columns, there is not much room to have widely varying column widths. So, we will turn off one of the columns by removing one of the *Gantry Divider* widgets in the **sidebar** position using the WordPress widget manager. Below, you will see how the default layout is currently set to display when we have only two sidebars:
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 ![](layouts-mb2.jpg) {.border .shadow}
 

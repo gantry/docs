@@ -12,21 +12,22 @@ process:
 
 This section covers moving a set of module positions within your Gantry-enabled template.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)
 
 >>> Check out this quick screencast on Module Positions to get an overview of how module positions work within Joomla and the Gantry Framework.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=xYsB2VKmkFU)
 
 >>> Check out this quick screencast on Widget Positions to get an overview of how this feature works within WordPress and the Gantry Framework.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 >>>>> NOTE: The term **Module** in Joomla and **Widget** in WordPress mean essentially the same thing. They are blocks of data which can be placed throughout your site. For the purpose of simplifying this guide, consider the terms interchangeable, except when used to describe specific file names or functions.
 

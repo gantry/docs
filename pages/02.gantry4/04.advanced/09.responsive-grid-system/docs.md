@@ -12,21 +12,22 @@ process:
 
 The Gantry Framework was originally based on the [960 Grid System](http://960.gs/) that offered a 12-column grid structure based on a fixed 960px-width layout. From version 4.x on, the responsive grid system of [Twitter's Bootstrap](http://twitter.github.com/bootstrap/) is used.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
 
 >>> Check out the Gantry introductory video to see the responsive capabilities of Gantry 4-powered template designs. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=akpCH1JNvaY)
 
 >>> Check out the Gantry introductory video to see the responsive capabilities of Gantry 4 powered template designs. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 The **Responsive Layout** adapts to the viewing device, such as a smartphone, tablet or desktop, based on the resolution of the screen. There are five different width formats, and each utilizes the grid structure in a different way. This is achieved through **@media queries**, which can detect the width of the browser window, and allows for different CSS, accordingly. This is the basic function that makes responsive designs possible. In effect, a single site will adapt automatically to the viewing device, without the need for separate layouts -- like mobile.
 

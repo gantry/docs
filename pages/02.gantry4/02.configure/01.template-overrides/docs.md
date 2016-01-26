@@ -20,7 +20,8 @@ Gantry offers the ability to override default template configurations for indivi
 Creating an Override
 --------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 There are two methods for creating a new set of assignable configurations. The first is the **Save as Copy** method, which involves you editing the Gantry template master at **Extensions → Template Manager → gantry — Default (Master)**. Configure your settings, change the **Style Name**, and select **Save as Copy** from the **Save** dropdown.
 
@@ -28,8 +29,8 @@ There are two methods for creating a new set of assignable configurations. The f
 
 Alternatively, from the **Template Manager**, you can select the checkbox for the Gantry template master and click **Duplicate** from the button toolbar. It will automatically create a copy and mark it as **Override**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 There are two methods of creating a new set of assignable configurations. The first is the **Save as Copy** method which involves you editing the Gantry theme at **Admin Dashboard → Theme Settings**. Configure your settings, select **Save as Copy** from the **Save** dropdown, and change the override name from **Duplicate Override** to your own.
 
@@ -37,14 +38,15 @@ There are two methods of creating a new set of assignable configurations. The fi
 
 Alternatively, you can simply click on the **New Override** button, change the name of the newly created override and modify all of the parameters from scratch. Please note that when creating a new override, the beggining parameters are always the same as the ones set in the **Default Settings** override.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 
 Configuring an Override
 -----------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 Once an **Override** has been created, you simply need to open it and configure. Each tab will have greyed out parameters that can be activated via the checkbox.
 
@@ -54,8 +56,8 @@ Configure items, then click on the **Assignments** tab. All menu items are liste
 
 ![](template-override-assign-menus.jpg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Once an **Override** has been created, you simply need to switch to it (if you weren't automatically) and configure. Each tab will have greyed out parameters that can be activated via the checkbox.
 
@@ -65,8 +67,8 @@ Configure items, then click on the **Assignments** tab. All content type items a
 
 ![](template-override-assign-menus_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 
 Override Examples

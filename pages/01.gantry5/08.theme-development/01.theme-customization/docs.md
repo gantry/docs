@@ -3,10 +3,6 @@ title: Advanced Theme Customization
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
-    callouts: true
 process:
     twig: true
 ---
@@ -68,7 +64,8 @@ Once you download it, you need to unzip the `headroom.js-master.zip` file. You w
 
 You need to keep all your modifications and additions in the `THEME_DIR/custom/` directory so they do not get overwritten when you update the template. Then, create the `THEME_DIR/custom/js/` directory structure and copy the `headroom.min.js` file there.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Atoms Method"]
 
 ![](local_1.png) {.border .shadow}
 
@@ -76,8 +73,8 @@ Now, all you need to do is add a script to the page before the `</body>` tag. Yo
 
 In the item, you will want to paste `gantry-theme://custom/js/headroom.min.js` in the **File Location** field and select the **Before </body>** option before selecting **Apply**.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="Page Settings Method"]
 
 ![](local_2.png) {.border .shadow}
 
@@ -91,8 +88,8 @@ Now, all you need to do is add a script to the page before the `</body>` tag. Yo
 
 {% endverbatim %}
 
-{% endset %}
-{% set tab3 %}
+[/ui-tab]
+[ui-tab title="File Override (Not Recommended)"]
 
 Now, you will need to add a script to `page.html.twig` in order to load `headroom.min.js` on each page. Here is the line of code you will want to place just above the `</body>` tag.
 
@@ -104,12 +101,13 @@ Now, you will need to add a script to `page.html.twig` in order to load `headroo
 
 {% endverbatim %}
 
-{% endset %}
-{{ gravui_tabs({'Atoms Method':tab1, 'Page Settings Method':tab2, 'File Override (Not Recommended)':tab3}) }}
+[/ui-tab]
+[/ui-tabs]
 
 ### Method 2: Loading Remotely
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Atoms Method"]
 
 Adding the script remotely is pretty easy. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.
 
@@ -125,8 +123,8 @@ In the item, you will want to paste the following url in the **File Location** f
 
 The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="Page Settings Method"]
 
 You can also load the script remotely. Just replace the above script in the **Before </body>** field with the following:
 
@@ -140,8 +138,8 @@ You can also load the script remotely. Just replace the above script in the **Be
 
 The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
 
-{% endset %}
-{% set tab3 %}
+[/ui-tab]
+[ui-tab title="File Override (Not Recommended)"]
 
 ![](remote_2.png) {.border .shadow}
 
@@ -155,8 +153,8 @@ Here's an example of the line you would need to add to the file:
 
 This line would go just above the `</body>` tag in the file and may differ depending on the remote location you wish to have the script load from, CDN or otherwise.
 
-{% endset %}
-{{ gravui_tabs({'Atoms Method':tab1, 'Page Settings Method':tab2, 'File Override (Not Recommended)':tab3}) }}
+[/ui-tab]
+[/ui-tabs]
 
 ## Target Headroom.js
 

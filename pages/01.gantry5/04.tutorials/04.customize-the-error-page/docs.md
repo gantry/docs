@@ -3,9 +3,6 @@ title: Customizing the Error Page
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -14,7 +11,8 @@ The **Error** page is considered a **System Page** in Gantry 5, and editing it t
 
 You don't have to create a separate **Error** outline. It's actually included in the core of Gantry with its own **layout**, **settings**, and **styles** options.
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The first step to customizing this page is to access the Gantry administrator by navigating to **Admin → Extensions → Template Manager** and selecting your active Gantry 5 template. This will take you to the Gantry Administrator. 
 
@@ -24,11 +22,16 @@ From there, you will need to select **Error** from the **Outlines** dropdown. Do
 
 ![Error Page](errorpage_2.png) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 Coming soon...
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
  

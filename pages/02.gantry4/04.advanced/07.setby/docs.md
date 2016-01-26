@@ -18,7 +18,8 @@ There are **static** and **dynamic** ways of setting the value of a parameter. T
 Parameter Value Precedence
 --------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 All parameters start out with a default value that is set in `template-options.xml`. These values can be changed in multiple different ways, each overriding the next if it has a value. The order of precedence for setting values is shown here:
 
@@ -26,8 +27,8 @@ All parameters start out with a default value that is set in `template-options.x
 
 The highest method that sets a value will always win. For example, if a **backgroundlevel** is set to **high** by for a particular menu item, but it is set to **low** by a URL link passing it in on a query string, then it is going to be set to **low** when the page is displayed because the URL Query string has higher precedence than the per-menu item setting.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 All parameters start out with a default value that is set in `templateDetails.xml`. But, these values can be changed in several different ways, each overriding the next (if it has a value). The order of precedence for setting values is displayed below:
 
@@ -35,13 +36,14 @@ All parameters start out with a default value that is set in `templateDetails.xm
 
 The highest method which sets a value will always win. For example, if a **backgroundlevel** is set to **high** for a particular menu item, but is set to **low** by a URL link passing it in on a query string, it is going to be set to **low** when the page is displayed because the URL Query string has higher precedence than the per-override setting.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Allowing Dynamic Parameter Values
 ---------------------------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 By default, all setting of a parameter value by a dynamic method is turned off. In order to allow setting of a value dynamically you have to enable it for every parameter you want and by the methods that the parameter is allowed to use. This is done in the `template-options.xml`. A parameter can have the following syntax with **setby**'s and **setin**'s. Here's an example:
 
@@ -65,8 +67,8 @@ The attributes allowed are:
 * __setinoverride__ - allows the param to be overridden in override styles (default = true)
 * __isbodyclass__ - allows you to set the value of the param to be a class on the body tag for css targeting (default = false)
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 By default, all setting of a parameter value by a dynamic method is turned off. In order to allow setting of a value dynamically, you have to enable it for every parameter you want, and by the methods the parameter is allowed to use. This is done in `templateDetails.xml`. A parameter can have the following syntax with **setby**s and **setin**s. The following is an example of how this is done:
 
@@ -90,8 +92,8 @@ The attributes allowed are:
 * __setinoverride__ - allows the param to be overridden in override styles (default = true)
 * __isbodyclass__ - allows you to set the value of the param to be a class on the body tag for css targeting (default = false)
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 Notes on Presets
 ----------------

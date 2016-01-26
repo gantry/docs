@@ -3,9 +3,6 @@ title: Gantry Admin
 taxonomy:
     category: docs
     tag: [gantry5]
-gravui:
-    enabled: true
-    tabs: true
 process:
     twig: true
 ---
@@ -14,7 +11,8 @@ The **Gantry Admin** is a collection of settings used to set up and configure a 
 
 You can reach the Gantry Admin by following these steps:
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=JWKpeFRqcDI)
 
@@ -32,8 +30,8 @@ Alternatively, you can access the Gantry 5 administrator by navigating to the **
 
 There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Templates** in the administration menu in the backend of Joomla.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=VrwlAISRS48)
 
@@ -43,8 +41,13 @@ The first thing you will need to do is ensure that the Gantry Framework, [Timber
 
 Once this is done, navigate to **Administrator → (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
 
 Admin Panels
 -----
@@ -131,12 +134,13 @@ The **Assignments** panel is your one-stop-shop for assigning Outlines to specif
 
 #### Content (WordPress)
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The **Content** administrative panel is not available on Joomla as Joomla handles these settings in its own integrated system.
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 ![Content](wp_content.png) {.border .shadow}
 
@@ -153,5 +157,10 @@ The following types of pages have their own set(s) of settings:
 
 This enables you to refine how data is displayed, depending on the type of page it is being displayed on. This gives your outlines extended flexibility, and significantly reduces development time as a result.
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]

@@ -16,21 +16,22 @@ The **Advanced** panel in the Gantry-based template administration interface pro
 Mainbody Enabled
 ----------------
 
-{% set tab1 %}
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Joomla"]
 
 The **Mainbody Enabled** option allows you to enable/disable the entire mainbody section. This is useful for sites and templates that want to make use of a front page that consists entirely of modules with only subpages showing the Joomla component output.
 
 ![](advanced-mainbody.jpg) {.border .shadow}
 
-{% endset %}
-{% set tab2 %}
+[/ui-tab]
+[ui-tab title="WordPress"]
 
 The *Mainbody Enabled* option allows you to enable/disable the entire Mainbody section. This is useful for sites and templates that want to make use of a page that consists entirely of widgets.
 
 ![](advanced-mainbody_wp.jpg) {.border .shadow}
 
-{% endset %}
-{{ gravui_tabs({'Joomla':tab1, 'WordPress':tab2}) }}
+[/ui-tab]
+[/ui-tabs]
 
 RTL Support
 -----------
