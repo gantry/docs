@@ -3,6 +3,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-anchors
         path: user/plugins/anchors
         branch: develop
+    breadcrumbs:
+        url: https://github.com/getgrav/grav-plugin-breadcrumbs
+        path: user/plugins/breadcrumbs
+        branch: develop
     simplesearch:
         url: https://github.com/getgrav/grav-plugin-simplesearch
         path: user/plugins/simplesearch
@@ -15,14 +19,30 @@ git:
         url: https://github.com/getgrav/grav-plugin-highlight
         path: user/plugins/highlight
         branch: develop
-    gravui:
-        url: https://bitbucket.org/rockettheme/grav-plugin-gravui
-        path: user/plugins/gravui
+    shortcode-core:
+        url: https://github.com/getgrav/grav-plugin-shortcode-core
+        path: user/plugins/shortcode-core
+        branch: develop
+    shortcode-ui:
+        url: https://github.com/getgrav/grav-plugin-shortcode-ui
+        path: user/plugins/shortcode-ui
+        branch: develop
+    youtube:
+        url: https://github.com/getgrav/grav-plugin-youtube
+        path: user/plugins/youtube
+        branch: develop
+    learn2:
+        url: https://github.com/getgrav/grav-theme-learn2
+        path: user/themes/learn2
         branch: develop
 links:
     anchors:
         src: grav-plugin-anchors
         path: user/plugins/anchors
+        scm: github
+    breadcrumbs:
+        src: grav-plugin-breadcrumbs
+        path: user/plugins/breadcrumbs
         scm: github
     simplesearch:
         src: grav-plugin-simplesearch
@@ -36,7 +56,19 @@ links:
         src: grav-plugin-highlight
         path: user/plugins/highlight
         scm: github
-    gravui:
-        src: grav-plugin-gravui
-        path: user/plugins/gravui
-        scm: bitbucket
+    youtube:
+        src: grav-plugin-youtube
+        path: user/plugins/youtube
+        scm: github
+    shortcode-core:
+        src: grav-plugin-shortcode-core
+        path: user/plugins/shortcode-core
+        scm: github
+    shortcode-ui:
+        src: grav-plugin-shortcode-ui
+        path: user/plugins/shortcode-ui
+        scm: github
+    learn2:
+        src: grav-theme-learn2
+        path: user/themes/learn2
+        scm: github
