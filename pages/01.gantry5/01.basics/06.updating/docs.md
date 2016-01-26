@@ -22,8 +22,6 @@ Select this item to go to the Extensions Manager's Update page where you can qui
 ![](gantry_update_1.png) {.border .shadow}
 [/ui-callout]
 
-{{ gravui_callout(page.media['gantry_update_1.png'].url, callout_items, 'shadow border') }}
-
 There are multiple methods to check for new updates, the first of which is available from the **Control Panel** in the Joomla administrator. Under the **Maintenance** section, the term `Gantry5 - Update now!` will appear, indicating that updates are available. Clicking this line will take you to the **Extension Manager's** Update page where you will see a filtered list of Gantry extensions that are available to update.
 
 ![Update Notification](gantry_updates_2.png) {.border .shadow}
