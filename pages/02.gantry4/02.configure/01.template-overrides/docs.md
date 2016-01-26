@@ -14,7 +14,7 @@ Gantry offers the ability to override default template configurations for indivi
 
 [plugin:youtube](https://www.youtube.com/watch?v=xG1TJUM4SQ8)
 
->>> Discover the power of Gantry and it's ability to configure any parameter based on template overrides using custom template styles. Gantry adds the power of inheritance of settings to enable easier per-menu custom configurations.
+! Discover the power of Gantry and it's ability to configure any parameter based on template overrides using custom template styles. Gantry adds the power of inheritance of settings to enable easier per-menu custom configurations.
 
 
 Creating an Override

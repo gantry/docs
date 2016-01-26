@@ -45,4 +45,4 @@ xdebug.max_nesting_level=256
 
 Then restart your Apache server.
 
->>>>> If you don't know how to edit the `php.ini` file, contact your hosting provider and let them know about the settings you want to change.
+!!! If you don't know how to edit the `php.ini` file, contact your hosting provider and let them know about the settings you want to change.

@@ -19,7 +19,7 @@ For example, you might want to have a module on the left and a module on the rig
 
 [plugin:youtube](https://www.youtube.com/watch?v=Lfl4nQnduvo)
 
->>> Forcing the module positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
+! Forcing the module positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
 
 With Gantry, you can use the layouts settings to achieve this goal with no code or special CSS. First in the layouts settings, for the **Utility Positions**, set the **Force Positions** to **On** and the **Position Count** to 4.
 
@@ -38,7 +38,7 @@ The result will be:
 
 [plugin:youtube](https://www.youtube.com/watch?v=ulsy2fkpyfA)
 
->>> Forcing the widget positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
+! Forcing the widget positions is a powerful layout control. This short screencast provides some insight in how to achieve this and also the layout control that can be attained using this technique.
 
 With Gantry, however, you can use the layouts settings to achieve this goal with no code or special CSS. First in the layouts settings, for the **Utility Positions**, set the **Force Positions** to **On** and then set the **Position Count** to 4.
 

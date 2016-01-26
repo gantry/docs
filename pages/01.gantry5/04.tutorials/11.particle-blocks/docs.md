@@ -11,7 +11,7 @@ There are times when you just want to have CSS or JavaScript assets load without
 
 This is a very useful way to bring JavaScript and style sheet blocks in to a very specific part of your page.
 
->>> Looking for more information about using blocks in Twig? [Here is a ton of useful information](http://twig.sensiolabs.org/doc/tags/extends.html#how-do-blocks-work) about how blocks work in Twig.
+! Looking for more information about using blocks in Twig? [Here is a ton of useful information](http://twig.sensiolabs.org/doc/tags/extends.html#how-do-blocks-work) about how blocks work in Twig.
 
 Assets loaded within a particle only load once. If you call a specific JavaScript file in one particle, doing so in another particle will have no additional affect on the page. It will only load once.
 

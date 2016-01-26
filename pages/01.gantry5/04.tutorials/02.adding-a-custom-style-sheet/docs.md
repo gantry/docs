@@ -13,7 +13,7 @@ Adding a custom style sheet is a fairly straightforward process. The first thing
 
 To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/scss/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
->>>> Joomla doesn't support creating SCSS files in its built-in template customization tool.
+!! Joomla doesn't support creating SCSS files in its built-in template customization tool.
 
 This file will then be compiled as an override to the theme's core style sheet files. Anything you place in this file will override classes and defaults assigned in other areas of the theme.
 
@@ -45,11 +45,11 @@ Grav documentation is coming soon...
 
 If **Production Mode** is set to **No**, then Gantry will recompile the CSS/SCSS automatically when changes are made. In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as Cache, minified vs. extended JS/CSS, etc.
 
->>>> We do not recommend editing or overriding the `css/custom.css` or `css-compiled/custom.css` files as any of these changes will be lost and/or overridden when the custom.scss file recompiles. You can place pure CSS in the `custom.scss` file and it will work just fine.
+!! We do not recommend editing or overriding the `css/custom.css` or `css-compiled/custom.css` files as any of these changes will be lost and/or overridden when the custom.scss file recompiles. You can place pure CSS in the `custom.scss` file and it will work just fine.
 
 This will tell Gantry to take the new styling and apply it to the page(s). Once you have done this, you should be able to see your changes on the front end.
 
->>>> If you come across an error when you hit **Recompile CSS** this is likely due to an issue in the SCSS/CSS. At this stage, the compiler is pretty unforgiving and any syntax issues can cause issues. Double-check your code, save your changes to the `custom.scss` file, and try again.
+!! If you come across an error when you hit **Recompile CSS** this is likely due to an issue in the SCSS/CSS. At this stage, the compiler is pretty unforgiving and any syntax issues can cause issues. Double-check your code, save your changes to the `custom.scss` file, and try again.
 
 ## Dependencies.scss
 

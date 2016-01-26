@@ -11,7 +11,7 @@ Adding your own PHP functions to a Gantry theme is achievable, and can be a very
 
 In this example, we will be adding [**Mobile Detect**](https://github.com/serbanghita/Mobile-Detect), an open source PHP class that detects mobile devices (including tablets) enabling you to create device-specific responses on your site.
 
->>> If you are developing your own themes from scratch, this is a great method to accomplish this task. This process is not expected to become the standard solution in the long term for users of existing themes. Overriding the `theme.php` on an existing theme might cause issues when upgrading. A cleaner, more intuitive process for extending PHP functionality is in the works and this document will be updated when it becomes available.
+! If you are developing your own themes from scratch, this is a great method to accomplish this task. This process is not expected to become the standard solution in the long term for users of existing themes. Overriding the `theme.php` on an existing theme might cause issues when upgrading. A cleaner, more intuitive process for extending PHP functionality is in the works and this document will be updated when it becomes available.
 
 ## Overriding the theme.php File
 
@@ -76,7 +76,7 @@ Here is an example of a call that puts **Mobile Detect** to use.
 
 Let's create a simple new `Mobile Detect` particle and put together all we've learned.
 
->>>>> More details on how to create a new particle can be found in the dedicated section [Creating a New Particle](../creating-a-new-particle).
+!!! More details on how to create a new particle can be found in the dedicated section [Creating a New Particle](../creating-a-new-particle).
 
 The first step is to create the required `YAML` and `Twig` files for this new particle. You can do so by creating a new folder `custom/particles` (if not there already) and by adding two new files: `mobile_detect.html.twig` and `mobile_detect.yaml`.
 

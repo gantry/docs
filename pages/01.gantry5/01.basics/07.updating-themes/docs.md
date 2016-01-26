@@ -13,13 +13,13 @@ That said, there are a few notes of caution that you should be aware of prior to
 
 ## Common Notes
 
->>>> Prior to updating any template or theme, we highly recommend backing up your site from stem to stern. This includes the database (if any), and your theme's directory so that you can quickly restore it to the state it was prior to the update should you come across any issues.
+!! Prior to updating any template or theme, we highly recommend backing up your site from stem to stern. This includes the database (if any), and your theme's directory so that you can quickly restore it to the state it was prior to the update should you come across any issues.
 
 Outside of backing up your site, you should keep track of the file(s) you have altered since installing your theme. In most cases, any changes you have made will be stored in the `custom` directory safely tucked away in your theme's directory apart from the rest of the the theme's files which are subject to change during an update.
 
 However, there may be cases where you have customized a theme file directly at the source, rather than editing a duplicate in the `custom` directory. If this is the case for your site, make sure you back up the file(s) and store them in a safe place. You may need them for reference after the update should any of your changes revert.
 
->>> The process outlined in this guide may not apply to all Gantry 5 themes. Some third-party theme developers may have different update processes depending on their unique situations. This guide is intended to offer a common use scenario as it applies to the **Hydrogen** theme.
+! The process outlined in this guide may not apply to all Gantry 5 themes. Some third-party theme developers may have different update processes depending on their unique situations. This guide is intended to offer a common use scenario as it applies to the **Hydrogen** theme.
 
 ## Platform-specific Process
 
@@ -32,7 +32,7 @@ Joomla makes it easy to update your Gantry 5-powered template. Once an update is
 
 You can initiate the update by navigating to **Administrator > Extensions > Extension Manager > Update**, selecting the theme package, and then the **Update** button to initiate the update.
 
->>> Gantry should be updated prior to the template. In some cases, the template update depends on new features included with the latest version of Gantry.
+! Gantry should be updated prior to the template. In some cases, the template update depends on new features included with the latest version of Gantry.
 
 If the update is successful, you will be notified as such and you can continue to use the theme as you did previously. The update process should not affect your custom directory, though if you have any theme-related files outside of the custom directory modified, we recommend comparing your backed up copy to the new copy of the file and manually moving your customizations from there.
 

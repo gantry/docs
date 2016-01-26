@@ -12,7 +12,7 @@ process:
 
 In the Gantry framework, we use the term **Feature** to mean a specific bit of functionality. Features are flexible enough that they can be used to perform almost any type of logic you would need. The base **GantryFeature** class contains methods that can be implemented to control how your feature functions. Those methods are:
 
->>> For WordPress, the equivalent tab is called **Gizmos**. Many of the features used in Joomla are represented by Widgets on WordPress. You can find out more about WordPress gizmos by visiting the [Creating a New Gizmo guide](../creating-a-new-gizmo).
+! For WordPress, the equivalent tab is called **Gizmos**. Many of the features used in Joomla are represented by Widgets on WordPress. You can find out more about WordPress gizmos by visiting the [Creating a New Gizmo guide](../creating-a-new-gizmo).
 
 ### `isEnabled()`
 

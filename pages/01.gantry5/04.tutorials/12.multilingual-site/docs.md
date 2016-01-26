@@ -24,7 +24,7 @@ Everything written here can be applied to any Gantry-powered template.
 * RocketTheme Template
 * RokNavMenu Extension
 
->>> NOTE: This process is much easier when it is being done on a new website. You can accomplish this on an existing site using the same steps, but you may need to work a lot harder during menu configuration to achieve the desired result.
+! NOTE: This process is much easier when it is being done on a new website. You can accomplish this on an existing site using the same steps, but you may need to work a lot harder during menu configuration to achieve the desired result.
 
 ## Setup
 

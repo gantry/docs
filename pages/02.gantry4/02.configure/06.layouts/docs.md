@@ -14,7 +14,7 @@ The **Layouts** panel in the Gantry-based template administration interface prov
 
 [plugin:youtube](https://www.youtube.com/watch?v=5sGujOho7cM)
 
->>> To find out about Layouts and Module Widths, check out this quick screencast. It covers some of the basic concepts involved in understanding and configuring layout with a combination of module configuration and Gantry layout control.
+! To find out about Layouts and Module Widths, check out this quick screencast. It covers some of the basic concepts involved in understanding and configuring layout with a combination of module configuration and Gantry layout control.
 
 
 Using Layouts

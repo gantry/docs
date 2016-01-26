@@ -9,11 +9,11 @@ process:
 
 We have already detailed some of the ways you can use the `THEME_DIR/custom/` directory to duplicate and customize Particle and theme files, but for the experienced Web developer wanting to go that extra step and customize virtually all aspects of the Gantry-powered theme, we are providing a detailed guide for you.
 
->>>> This particular guide provides information to help you create custom versions of files that relate to Gantry's core, the theme, and more. This resource is intended for advanced users only and can disrupt or break functionality. In the event that it does, you should be able to **delete** the contents of your `THEME_DIR/custom/` directory to return to out-of-the-box defaults.
+!! This particular guide provides information to help you create custom versions of files that relate to Gantry's core, the theme, and more. This resource is intended for advanced users only and can disrupt or break functionality. In the event that it does, you should be able to **delete** the contents of your `THEME_DIR/custom/` directory to return to out-of-the-box defaults.
 
 When creating custom files, you should always keep these files in your `custom` directory. If you place overridden files or edit existing ones outside of this directory path, you run the risk of losing these customizations when the Gantry-powered theme, or the Gantry framework, is updated.
 
->>> In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-contnet/themes/g5_hydrogen/custom`
+! In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-contnet/themes/g5_hydrogen/custom`
 
 ## Gantry Directory Structure
 
@@ -32,7 +32,7 @@ For the sake of simplicity, we have included a quick-reference table below of th
 | Gantry 5 Themes (Component)    | `/administrator/components/com_gantry5` | `TEMPLATE_DIR/custom/admin`  |
 |                                | `/components/com_gantry5`               | `TEMPLATE_DIR/custom/admin`  |
 
->>> PHP classes found in `/libraries/gantry5` can also be overridden, but as they need to be autoloaded, this requires some additional manual intervention involving adding a loader for classes.
+! PHP classes found in `/libraries/gantry5` can also be overridden, but as they need to be autoloaded, this requires some additional manual intervention involving adding a loader for classes.
 
 ### Gantry 5 (Package)
 

@@ -13,7 +13,7 @@ The Font Picker makes it easy to quickly choose fonts in Particles. The picker i
 
 Based on **Google Fonts**, the Font Picker gives you immediate access to over 600 open source fonts.
 
->>> You can find more information about adding a font to the font picker (as well as to your theme in general) [in our fonts guide](../fonts).
+! You can find more information about adding a font to the font picker (as well as to your theme in general) [in our fonts guide](../fonts).
 
 ## Browsing Fonts
 
@@ -93,11 +93,11 @@ The font selected in this example is `Exo:800`
 Replace `.your-element` with the id(#) or class(.) of the element
 Replace `800` with the selected variation
 
->>> The Roboto and Ubuntu fonts are two of the most complete font sets in the Google Font Library.
+! The Roboto and Ubuntu fonts are two of the most complete font sets in the Google Font Library.
 
 <br>
 
->>>> Not all of the fonts inside the Google Font Library have variations!
+!! Not all of the fonts inside the Google Font Library have variations!
 
 ## Adding the Font Picker to Your Site
 

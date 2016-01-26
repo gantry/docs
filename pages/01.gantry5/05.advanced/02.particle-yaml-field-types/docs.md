@@ -132,7 +132,7 @@ target:
           _blank: New Window
 ```
 
->>> Using Selectize multiple times in a single page can affect performance. If you are in a situation where you need to use this input type multiple times in a small space, you could try `select.select` as an alternative. It has roughly the same capability with less performance overhead. A good rule of thumb is that if you don't need the search function, you should use `select.select`.
+! Using Selectize multiple times in a single page can affect performance. If you are in a situation where you need to use this input type multiple times in a small space, you could try `select.select` as an alternative. It has roughly the same capability with less performance overhead. A good rule of thumb is that if you don't need the search function, you should use `select.select`.
 
 You will notice the `options` settings listed here. In this case, the values of `_parent` and `_blank` are used with the tags of `Self` and `New Window`. The user will see the tags in the Gantry administrator. Selecting one or another sets the value of the field to the option's associated value.
 

@@ -17,7 +17,7 @@ Thanks to the Gantry's core concept and implementation of overrides, Page Settin
 
 ![Controls](controls.png) {.border .shadow}
 
->>>>> Just as in the [Settings Panel](../settings#controls), overrides, filtering and collapsing work the same way.
+!!! Just as in the [Settings Panel](../settings#controls), overrides, filtering and collapsing work the same way.
 
 ## Head Properties
 
@@ -45,7 +45,7 @@ The Custom Content field is dedicated to anything specific that one wants to app
 
 Common metadata tags are `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`.
 
->>> It is highly advised to handle Scripts and Styles via [Assets Section](#assets) or via [Atoms](#atoms). Although it can be tempting to write script and tags code directly in this field, it should only be used as a last resort in case. Evaluate properly whether Scripts and Styles should go in here.
+! It is highly advised to handle Scripts and Styles via [Assets Section](#assets) or via [Atoms](#atoms). Although it can be tempting to write script and tags code directly in this field, it should only be used as a last resort in case. Evaluate properly whether Scripts and Styles should go in here.
 
 ## Body Attributes
 
@@ -122,7 +122,7 @@ These days, with the advent of touch devices and the possibility of saving into 
 
 If you want to use **Touch Icon**, it is advised that you create an image that is at least **180x180** or **192x192**. Devices with a smaller resolution will adapt and downscale the image but the higher resolution will benefit of a nice looking icon.
 
->>> Gantry only covers the most common use of Touch Icons and supports iOS, Android and Windows. It also only downscales icons. If you are looking for a more sophisticated use of this and more targeted sizes, refer to [this article](https://mathiasbynens.be/notes/touch-icons). You can also use [Online tools for generating icons](http://realfavicongenerator.net/). The perfect place for adding custom generated icons code is [Head Properties: Custom Content](#head-properties).
+! Gantry only covers the most common use of Touch Icons and supports iOS, Android and Windows. It also only downscales icons. If you are looking for a more sophisticated use of this and more targeted sizes, refer to [this article](https://mathiasbynens.be/notes/touch-icons). You can also use [Online tools for generating icons](http://realfavicongenerator.net/). The perfect place for adding custom generated icons code is [Head Properties: Custom Content](#head-properties).
 
 ### CSS and JavaScript
 
@@ -138,7 +138,7 @@ Atoms are Particles that do not appear visually on the front end, but do serve a
 
 For all intents and purposes, Atoms such as **Google Analytics**, and **Custom CSS / JS** add scripting to the page which add or modify the page's scripting during load. This is useful for basic styling such as coloring, and analytics tracking.
 
->>> When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
+! When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
 
 ## Google Analytics
 

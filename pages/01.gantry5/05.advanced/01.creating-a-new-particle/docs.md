@@ -76,7 +76,7 @@ form:
 
 This YAML is made up of two main parts. First, the head of the file which sets the **Name**, **Description**, and **Type**. The **Name** is what appears in the administrator as the title of the Particle in the **Settings** and **Layout Manager** panels. The **Type** being **Particle** tells Gantry that this YAML file is being used to create a **Particle**.
 
->>>>> The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Positions** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
+!!! The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Positions** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
 
 ![Particle](particle_2.png) {.border .shadow}
 
@@ -126,11 +126,11 @@ The second part is the **Block** wrapper. `{% block particle %}` and `{% endbloc
 
 The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `example_particle`. This class tells Gantry that this twig file is working with information from the **custom_html.yaml** companion file.
 
->>> The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry 5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
+! The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry 5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
 
 The bits that are placed between curly brackets such as `{{ particle.title|e }}` pull information from the fields set in the YAML and insert them into the Twig for rendering on the front end.
 
->>> The `|e` that appears after the Particle field name in our example is a Twig filter. You can find a list of filters [here](http://twig.sensiolabs.org/doc/filters/index.html).
+! The `|e` that appears after the Particle field name in our example is a Twig filter. You can find a list of filters [here](http://twig.sensiolabs.org/doc/filters/index.html).
 
 {% endverbatim %}
 

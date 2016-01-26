@@ -9,7 +9,7 @@ process:
 
 Gantry 5's, launching initially for the Joomla platform, is a multi-phase plan that includes key milestones leading up to the full initial release. We are providing this document to clarify which milestones we have planned for the next major release.
 
->>> This information is fluid and subject to change as we receive feedback from users and discover additional opportunities for improvement.
+! This information is fluid and subject to change as we receive feedback from users and discover additional opportunities for improvement.
 
 You can find a full changelog for releases from 5.0.0 and beyond [here](https://github.com/gantry/gantry5/blob/master/CHANGELOG.md).
 

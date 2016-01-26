@@ -38,7 +38,7 @@ The third method is the one we recommend the least, and we'll detail it in the f
 
 The `page.html.twig` file is the blueprint by which Gantry 5 creates a page. You can find this file in `SITE_ROOT/media/gantry5/engines/nucleus/templates/` and we will need to modify it to incorporate the fixed section.
 
->>>> We do not recommend this method, but are listing here in the event that you really want to edit these files directly. Using this method may result in a loss of your changes and/or broken code in the event that your theme and/or Gantry is updated.
+!! We do not recommend this method, but are listing here in the event that you really want to edit these files directly. Using this method may result in a loss of your changes and/or broken code in the event that your theme and/or Gantry is updated.
 
 There are two options available to you at this point. If you are creating a brand new theme or are bound and will be in control of exactly what changes are made during theme updates, you can directly edit the `page.html.twig` file. In the vast majority of circumstances, this will not be the preferred option.
 

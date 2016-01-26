@@ -42,7 +42,7 @@ Here are some of the files/directories you would want to rename to reflect the n
 | `scss/hydrogen/`                               | This directory contains SCSS files related to specific parts of the theme. For example, the **Header** section's styling rules are stored here.                                                          |
 | `scss/hydrogen-joomla/`                        | This directory contains SCSS files related to specific parts of the theme. Unlike the other SCSS directory, this one is platform-specific.                                                               |
 
->>>> Changing directory names may result in a break in functionality as other aspects of the theme depend on that directory structure to incorporate data from files stored within them. This break will be resolved in the following steps.
+!! Changing directory names may result in a break in functionality as other aspects of the theme depend on that directory structure to incorporate data from files stored within them. This break will be resolved in the following steps.
 
 There may be additional directories carrying the current theme name that need to be changed, as well. This varies from theme to theme, and may even change depending on which platform(s) it is built to support.
 

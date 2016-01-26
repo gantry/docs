@@ -12,7 +12,7 @@ process:
 
 In the Gantry framework, we use the term **Gizmo** to refer to a specific type of functionality. Gizmos are flexible enough that they can be used to perform almost any kind of logic you would need. The base **GantryGizmo** class contains methods that can be implemented to control how your gizmo functions. Those methods are:
 
->>> For Joomla, the equivalent tab is called **Feature**. You can find out more about Joomla gizmos by visiting the [Creating a New Feature guide](../creating-a-new-feature).
+! For Joomla, the equivalent tab is called **Feature**. You can find out more about Joomla gizmos by visiting the [Creating a New Feature guide](../creating-a-new-feature).
 
 ### `isEnabled()`
 

@@ -36,4 +36,4 @@ You should get a successful notice that says Gantry 5 has been registered. Now a
 
 And you're set up!
 
->>>> This process has not been thoroughly tested with Windows.
+!! This process has not been thoroughly tested with Windows.

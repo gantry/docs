@@ -86,7 +86,7 @@ Next, we will be creating a custom layout taking advantage of Gantry's ability t
 
 We will create a new file named `mod_login.php` and place it into the `/html/layouts` directory of the template. 
 
->>> If /html/layouts doesn't exist in your template, you can create this directory.
+! If /html/layouts doesn't exist in your template, you can create this directory.
 
 Paste the following code into your new file:
 

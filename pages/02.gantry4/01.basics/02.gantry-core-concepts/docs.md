@@ -17,7 +17,7 @@ One of the key concepts that make Gantry so powerful is its ability to provide a
 
 [plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
 
->>> Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
+! Check out the Gantry introductory video to get a feel of the features and capabilities that you Gantry brings to the table. Powerful features, presets, layout configuration, responsive design, and much, much more.
 
 [/ui-tab]
 [ui-tab title="WordPress"]

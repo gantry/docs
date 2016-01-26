@@ -43,7 +43,7 @@ We try to ensure that Gantry templates (and specifically the Gantry Library) wil
     * OpenSSL Libraries
     * Multibyte String Support
 
->>>>> If you have `xdebug` enabled, make sure the setting ` xdebug.max_nesting_level` is higher than **100**. During our development, we found **256** to be more than enough for us.
+!!! If you have `xdebug` enabled, make sure the setting ` xdebug.max_nesting_level` is higher than **100**. During our development, we found **256** to be more than enough for us.
 
 ## Browser Requirements
 
@@ -56,7 +56,7 @@ The back-end administration requirements of Gantry in order of preference are as
 * Internet Explorer 11+ (9, 10 supported at limited capacity)
 * Microsoft Edge
 
->>> Due to the wide range of variances between default browsers on the Android platform, we are unable to accurately test and list all of the possible regional, carrier, and manufacturer software variables. We recommend an updated Chrome browser for Android as it provides a more consistent experience. Support for `flex` is the most likely sign of whether or not a browser will work with Gantry 5.
+! Due to the wide range of variances between default browsers on the Android platform, we are unable to accurately test and list all of the possible regional, carrier, and manufacturer software variables. We recommend an updated Chrome browser for Android as it provides a more consistent experience. Support for `flex` is the most likely sign of whether or not a browser will work with Gantry 5.
 
 ## Development Environments
 

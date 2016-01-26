@@ -17,14 +17,14 @@ This section covers the creation of a new custom preset in a Gantry-enabled temp
 
 [plugin:youtube](https://www.youtube.com/watch?v=n6FsulE58lU)
 
->>> Creating a custom preset is a very simple task with Gantry. Check out this short video on how to customize your layout then create a custom preset based on your configuration options.
+! Creating a custom preset is a very simple task with Gantry. Check out this short video on how to customize your layout then create a custom preset based on your configuration options.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=_bU95HLptUs)
 
->>> Creating a custom preset is a remarkably straightforward task with Gantry. Check out this short video on how to customize your layout and create a custom preset based on your configuration options.
+! Creating a custom preset is a remarkably straightforward task with Gantry. Check out this short video on how to customize your layout and create a custom preset based on your configuration options.
 
 [/ui-tab]
 [/ui-tabs]

@@ -16,7 +16,7 @@ As an example, you could add a text field on the back end that enables you to ea
 
 The key to overriding files is the `/custom` folder within the main theme folder. This folder is where you can put any overrides and additional files that you would like to add to the theme without risking breaking or losing this data during a theme update.
 
->>>>>> We recommend comparing the updated files to your customized ones after performing an update to see if any changes that have been made would be beneficial to use in your override.
+!! We recommend comparing the updated files to your customized ones after performing an update to see if any changes that have been made would be beneficial to use in your override.
 
 ## Customizing Theme Files
 
@@ -271,7 +271,7 @@ Here is a quick reference to help you navigate the directory structure of a Gant
 
 ### Template Files
 
->>> Any files located in subdirectories of the directories listed below would also be added to the custom directory in order to override a file stored within. For example, `scss/hydrogen/_core.scss` would be copied and modified in the `custom` directory as `custom/scss/hydrogen/_core.scss`.
+! Any files located in subdirectories of the directories listed below would also be added to the custom directory in order to override a file stored within. For example, `scss/hydrogen/_core.scss` would be copied and modified in the `custom` directory as `custom/scss/hydrogen/_core.scss`.
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
@@ -378,7 +378,7 @@ Grav documentation is coming soon...
 
 The Gantry Administrator's component files are located in the `ROOT/administrator/components/com_gantry5/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
 
->>>> Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
+!! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
 
 Custom copies of these files will be placed in `TEMPLATE_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/administrator/components/com_gantry5/templates/pages/about/about.html.twig` would be copied to `TEMPLATE_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
@@ -387,7 +387,7 @@ Custom copies of these files will be placed in `TEMPLATE_DIR/custom/admin` with 
 
 The Gantry Administrator's component files are located in the `ROOT/wp-content/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
 
->>>> Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
+!! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
 
 Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/wp-content/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
