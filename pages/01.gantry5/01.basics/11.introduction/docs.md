@@ -45,7 +45,7 @@ Are you familiar with Joomla's module system? Gantry 5 integrates completely wit
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Are you familiar with WordPress' widget system? Gantry 5 integrates completely with Joomla so you can continue to use widget positions just as you always have. It's super easy to create a new widget section in seconds using the Layout Manager.
+Are you familiar with WordPress' widget system? Gantry 5 integrates completely with WordPress so you can continue to use widget positions just as you always have. It's super easy to create a new widget section in seconds using the Layout Manager.
 
 [/ui-tab]
 [ui-tab title="Grav"]
