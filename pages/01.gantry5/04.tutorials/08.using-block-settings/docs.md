@@ -3,8 +3,6 @@ title: Using Block Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 One of the biggest benefits to Gantry 5 is having the ability to easily access and adjust settings at multiple levels. You can do things like add a CSS class to an entire section, a single block, or within a specific Particle, or position - all within the Gantry administrator.
@@ -17,19 +15,19 @@ In this guide, we will focus on block settings, which are settings that apply at
 [ui-callout-item title="Settings" position="70%, 33%, se"]
 Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
 [/ui-callout-item]
-![](block_settings_1.png) {.border .shadow}
+![](block_settings_1.png?classes=shadow,border)
 [/ui-callout]
 
 [ui-callout]
 [ui-callout-item title="Settings" position="75%, 38%, se"]
 Clicking this icon will enable you to access the **Particle** and **Block** settings for this item.
 [/ui-callout-item]
-![](block_settings_3.png) {.border .shadow}
+![](block_settings_3.png?classes=shadow,border)
 [/ui-callout]
 
 Accessing the **Block Settings** for a particular block is pretty simple. Just select the settings <i class="fa fa-cog"></i> icon for the block you wish to adjust the settings for.
 
-![Block Settings](block_settings_2.png) {.border .shadow}
+![Block Settings](block_settings_2.png?classes=shadow,border)
 
 A popup will appear with two tabs, **Particle** and **Block**. To adjust the settings at the block level, you will want to select the **Block** tab. There may be similar settings in the **Particle** tab, such as a field for **CSS classes**, and adjusting the settings there will apply a CSS class to the Particle's div, or a pre-defined segment of the Particle. When you make changes in the **Block** tab, those changes apply at the block level which affects all of the contents within the block.
 
@@ -47,7 +45,7 @@ If you would like to apply a CSS class at the block level, this is where you wou
 
 ### Variations
 
-![Block Settings](block_settings_4.png) {.border .shadow}
+![Block Settings](block_settings_4.png?classes=shadow,border)
 
 Variations are theme-based variables which can be quickly set by selecting the field and clicking the desired option. These variations can include **effects**, **box variations** which set the color scheme of the block as a whole, and **utility** options such as `Align Right` and `Full Width`.
 
@@ -55,7 +53,7 @@ Variations are theme-based variables which can be quickly set by selecting the f
 
 ### Tag Attributes
 
-![Block Settings](block_settings_5.png) {.border .shadow}
+![Block Settings](block_settings_5.png?classes=shadow,border)
 
 The **Tag Attributes** field gives you the ability to quickly apply HTML tag attributes to the block. This can include a variety of things from a style attribute (pictured above) to a tag used to apply JavaScript effects to the block. 
 

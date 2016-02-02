@@ -60,7 +60,7 @@ When you installed all the required languages go to **Language Manager** which c
 
 You can do this by selecting the **Content** tab and then selecting **New**. This will take you to a page that enables you to set up a new content language for your site.
  
-![](multilanguage_4.png) {.border .shadow}
+![](multilanguage_4.png?classes=shadow,border)
 
 Fill out the required information in this page. This information includes:
 
@@ -76,13 +76,13 @@ Once you have filled in this information, click **Save and Close**. This will ta
 
 ### Step 3: Configure and Enable the Language Filter Plugin
 
-![](multilanguage_6.png) {.border .shadow}
+![](multilanguage_6.png?classes=shadow,border)
 
 The next step requires you to navigate to **Extensions -> Plug-in Manager** in order to configure Joomla multilingual plugin. The plugin you need to find here is **System - Language Filter**. This plugin enables the CMS to recognize various installed languages and filter content so what is displayed matches the language selected.
 
 Click the plugin to access the configuration page. Here, you can set the **Basic Options** as you see fit. Here are some example settings which should work in most cases.
 
-![](multilanguage_7.png) {.border .shadow}
+![](multilanguage_7.png?classes=shadow,border)
 
 | Option                              | Setting     |
 | :----------                         | :---------- |
@@ -97,31 +97,31 @@ Once this is configured, activate the plugin by switching the **Status** to **En
 
 ### Step 4: Create New Content Categories for Each Language
 
-![](multilanguage_8.png) {.border .shadow}
+![](multilanguage_8.png?classes=shadow,border)
 
 The next step is to create a new category for each language you wish to use. You can do this by navigating to **Administrator -> Content -> Category Manager -> Create New Category**.
 
-![](multilanguage_9.png) {.border .shadow}
+![](multilanguage_9.png?classes=shadow,border)
 
 Each category should have a language assigned. You can title this category after the name of the language you intend to use. Once you have done this, you can click **Save and Close**.
 
-![](multilanguage_10.png) {.border .shadow}
+![](multilanguage_10.png?classes=shadow,border)
 
 You can then create content categories and assign their **Parent** category to the base category you have created for the language. For example, you can create a category called *Blog* and assign it the **English** category as a parent.
 
-![](multilanguage_11.png) {.border .shadow}
+![](multilanguage_11.png?classes=shadow,border)
 
 At this point, you will want to create content for each category, if only so that you can test this configuration while creating menus and other upcoming steps. Give each subcategory for each language at least one article.
 
 >> NOTE: Each of these articles should have the appropriate **Language** assigned to it, even if you are placing it in a language-specific content category.
 
-![](multilanguage_12.png) {.border .shadow}
+![](multilanguage_12.png?classes=shadow,border)
 
 Let us say you have a copy of an article for each language. You can assign these using the **Associations** area of the article editor. For example, if you have a single article that would act as your language-specific home page, these should all be associated with each other here.
 
 ### Step 5: Enable Unicode URL Aliases
 
-![](multilanguage_13.png) {.border .shadow}
+![](multilanguage_13.png?classes=shadow,border)
 
 The next thing you may want to do is to navigate to the **Global Configuration** page and access **SEO Settings**. This area of the administrator can be accessed by navigating to **Administrator -> Site -> Global Configuration**. 
 
@@ -133,19 +133,19 @@ In order for everything to work and look correctly, you will want to add menus t
 
 You can add a new menu by navigating to **Administrator -> Menus -> Menu Manager -> Add New Menu**. 
 
-![](multilanguage_14.png) {.border .shadow}
+![](multilanguage_14.png?classes=shadow,border)
 
 Once you have created the menu, you can then go into that menu's **Menu Manager** page, filter menu items by one of the language-related menus, and select **New**.
 
-![](multilanguage_15.png) {.border .shadow}
+![](multilanguage_15.png?classes=shadow,border)
 
 When you create the new menu item, you can do so as you would normally. The only additional steps required is that you set the **Menu Location** and **Language** to your desired language-specific menu and language. You may also want to create a home page menu item for that individual language, as this will make each visitor's landing page appear in their native language.
 
-![](multilanguage_16.png) {.border .shadow}
+![](multilanguage_16.png?classes=shadow,border)
 
 #### Setting Menu Item Associations
 
-![](multilanguage_17.png) {.border .shadow}
+![](multilanguage_17.png?classes=shadow,border)
 
 One thing that you need to set (if you want specific article for example to change depending on selected language) is Menu Item Associations section's parameters. This needs to be done the same way you did the earlier article associations. 
 
@@ -198,11 +198,11 @@ For Italian you have three choices: **L'articolo uno**, **Articolo due** and **A
 
 This will enable you to switch seamlessly between languages on the frontend. After building all of the default pages, simply go back and associate them with their equivalent article on opposing pages using the **Associations** tab. When this is done, the menu item should appear like this:
 
-![](multilanguage_18.png) {.border .shadow}
+![](multilanguage_18.png?classes=shadow,border)
 
 ### Step 7: Create a Template Outline for Each Language
 
-![](multilanguage_30.png) {.border .shadow} 
+![](multilanguage_30.png?classes=shadow,border) 
  
 At the end, you have to assign template Outlines for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Components -> Gantry 5 Themes**, selecting the theme you have as default, and selecting **Configure**. 
 
@@ -210,7 +210,7 @@ From here, you can access the **Outlines** administrative panel, select the outl
  
 To do this, you will want to set the **Default** language to the language you wish to have this style assigned. You can do this in the **Overview** area of the **Template Settings**.
 
-![](multilanguage_31.png) {.border .shadow}
+![](multilanguage_31.png?classes=shadow,border)
 
 Next, you will want to change the main menu to the one you created for the language. For example, if this template style is assigned to Française, then you will want to select the Française (French) menu.
 
@@ -222,10 +222,10 @@ You will also want to assign the outline to the given language. This is done in 
 
 This step is useful if you want to give your visitors the option to switch between languages as they please. You can do this by creating a **Language Selector** module and publishing it on the page.
 
-![](multilanguage_22.png) {.border .shadow}
+![](multilanguage_22.png?classes=shadow,border)
 
 You can do this as you would create any other module. By navigating to **Administrator -> Extensions -> Module Manager** and selecting **New**. Choose **Language Switcher** as the **Module Type** and configure it as you prefer.
  
-![](multilanguage_23.png) {.border .shadow}
+![](multilanguage_23.png?classes=shadow,border)
 
 Once this is done, you should see both the language selector module and the language-specific menu appear as expected. Your visitors can switch between languages by clicking its associated flag.

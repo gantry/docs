@@ -3,8 +3,6 @@ title: Gantry Admin
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The **Gantry Admin** is a collection of settings used to set up and configure a Gantry-powered theme. It acts as a central command center for pretty much everything and anything you need to change related to the theme, layout, presets, menu, and assignments.
@@ -18,15 +16,15 @@ You can reach the Gantry Admin by following these steps:
 
 The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled template is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
-![Control Panel Method](../../basics/installation/gantry_default.png) {.border .shadow}
+![Control Panel Method](../../basics/installation/gantry_default.png?classes=shadow,border)
 
 Once this is done, navigate to **Administrator → Extensions → Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
 
-![Control Panel Method](gantry_update_1.png) {.border .shadow}
+![Control Panel Method](gantry_update_1.png?classes=shadow,border)
 
 Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Templates** in the sidebar to the left under the **Extensions** section.
 
-![Components Method](admin_access_1.png) {.border .shadow}
+![Components Method](admin_access_1.png?classes=shadow,border)
 
 There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Templates** in the administration menu in the backend of Joomla.
 
@@ -37,7 +35,7 @@ There is a third method, which is easily accomplished by navigating to **Compone
 
 The first thing you will need to do is ensure that the Gantry Framework, [Timber](https://wordpress.org/plugins/timber-library/) plugin, and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
-![Sidebar](wp_sidebar.png) {.border .shadow}
+![Sidebar](wp_sidebar.png?classes=shadow,border)
 
 Once this is done, navigate to **Administrator → (Theme Name) Theme >**. This should take you to the **Overview** section of the Gantry Admin for that theme.
 
@@ -66,7 +64,7 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 #### Outlines
 
-![Outlines](outlines.png) {.border .shadow}
+![Outlines](outlines.png?classes=shadow,border)
 
 This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**. 
 
@@ -76,13 +74,13 @@ This panel is where you can manage and create new outlines, each with its own se
 
 You can switch to an individual Outline in two ways. This panel will enable you to set a specific Outline as active in the Outline-specific panels of the Admin by clicking their associated **edit** buttons. Alternatively, you can switch between them using the drop-down menu located on the left-hand side of the toolbar which hosts the **outline-specific administrative panels**.
 
-![Outlines](outlines2.png) {.border .shadow}
+![Outlines](outlines2.png?classes=shadow,border)
 
 Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Settings, Layouts, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
 
 #### Menu
 
-![Menu](menu_module_1.png) {.border .shadow}
+![Menu](menu_module_1.png?classes=shadow,border)
 
 The **Menu Editor** makes it easy to configure and add information to menus as they appear on your site. Virtually every aspect of the menu's appearance and arrangement can be altered from this panel. 
 
@@ -92,7 +90,7 @@ The Gantry menu system grabs information from the CMS' own menu system, and crea
 
 #### About
 
-![About](about.png) {.border .shadow}
+![About](about.png?classes=shadow,border)
 
 The **About** panel enables the theme developer to place information about the theme, such as a feature list and credits, as well as links to documentation and a reference screenshot. This is also where users can quickly find the currently-enabled theme name, version number, and developer information.
 
@@ -102,7 +100,7 @@ The **About** panel enables the theme developer to place information about the t
 
 #### Styles
 
-![Styles](styles.png) {.border .shadow}
+![Styles](styles.png?classes=shadow,border)
 
 The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
 
@@ -110,7 +108,7 @@ The **Styles** panel makes it easy to quickly adjust visual bits and pieces rela
 
 #### Settings
 
-![Settings](settings.png) {.border .shadow}
+![Settings](settings.png?classes=shadow,border)
 
 The **Settings** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
 
@@ -118,7 +116,7 @@ The **Settings** panel is a virtual command center for Particles. This is where 
 
 #### Layout
 
-![Layouts](layout.png) {.border .shadow}
+![Layouts](layout.png?classes=shadow,border)
 
 This is the **Layout Manager** panel which enables you to arrange Particles, content, and widget/module positions for your theme. This panel is essentially where you set up how the page's elements will be arranged, and what they will include. Additionally, you can access individual settings for Particles, Blocks, Sections, and Grids. 
 
@@ -126,7 +124,7 @@ This is the **Layout Manager** panel which enables you to arrange Particles, con
 
 #### Assignments
 
-![Assignments](assignments.png) {.border .shadow}
+![Assignments](assignments.png?classes=shadow,border)
 
 The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have an outline set up that you would like to apply specifically to your **About** page, you can do so here.
 
@@ -142,7 +140,7 @@ The **Content** administrative panel is not available on Joomla as Joomla handle
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Content](wp_content.png) {.border .shadow}
+![Content](wp_content.png?classes=shadow,border)
 
 The **Content** administrative panel gives you the ability to quickly and easily configure the way content is displayed on a given page.
 

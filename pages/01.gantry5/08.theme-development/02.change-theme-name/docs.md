@@ -27,7 +27,7 @@ Once you have downloaded the latest version of the Hydrogen theme, unzip it and 
 
 ## Step 2: Change Names of Files and Directories
 
-![Theme Name](theme_name_3.png) {.shadow .border}
+![Theme Name](theme_name_3.png?classes=shadow,border)
 
 This is a great first step as it enables you to establish your new theme name at the directory structure level. With Hydrogen, this includes the parent folder the theme is contained within, and a several subfolders, including: `scss/hydrogen` and `scss/hydrogen-joomla`. As we are changing these to fall in line with the new Helium name, these folders would be renamed to `scss/helium` and `scss/helium-joomla`, respectively. 
 
@@ -50,7 +50,7 @@ There may be additional directories carrying the current theme name that need to
 
 This is a pretty basic step, and one that really takes advantage of a good text editor. Searching all the theme files for instances of the theme's name (in this case, `hydrogen`) in a non-case sensitive way will give you an immediate glimpse of all the instances in which the current theme name is present.
 
-![Theme Name](theme_name_2.png) {.shadow .border}
+![Theme Name](theme_name_2.png?classes=shadow,border)
 
 This name may be referenced in a lot of places, including in directory path references, classes, text descriptions, and more.
 
@@ -62,6 +62,6 @@ You are going to want to replace `Hydrogen` with `Helium` everywhere in the them
 | `hydrogen` | `helium` |
 | `HYDROGEN` | `HELIUM` |
 
-![Theme Name Change](theme_name_1.png) {.shadow .border}
+![Theme Name Change](theme_name_1.png?classes=shadow,border)
 
 Once this is done, save your changes and zip the parent folder of the theme. Once this is done, you should be able to install the new theme with its new name. The **Helium** theme will also be able to be installed next to the **Hydrogen** theme without conflict.

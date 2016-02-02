@@ -3,19 +3,17 @@ title: Extras
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Extras](devprod.png) {.border .shadow}
+![Extras](devprod.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Production](wp_production.png) {.border .shadow}
+![Production](wp_production.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="Grav"]
@@ -41,7 +39,7 @@ In the future, more **Development** vs. **Production** actions will be tied to t
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Production](production.png) {.border .shadow}
+![Production](production.png?classes=shadow,border)
 
 There is an alternative method for toggling this feature, accessible by navigating to **Administrator → Extensions → Plugin Manager** and selecting the **System - Gantry 5** plugin.
 

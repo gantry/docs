@@ -22,7 +22,7 @@ The key to overriding files is the `/custom` folder within the main theme folder
 
 In this example, we are going to add a field to the **Section** settings in the **Layout** administrative panel that enables you to use the **Image Picker** to create a background image for a specific section of the site. This change requires two files to be copied over to the `/custom` directory and modified. In this case, we are using the free **Hydrogen** theme for our example.
 
-![Showcase Section - Before](custom_file_1.png) {.border .shadow}
+![Showcase Section - Before](custom_file_1.png?classes=shadow,border)
 
 Pictured above is the **Showcase** section of the site, which features the **Sample Content** particle, included in the **Hydrogen** theme. The particle itself does not define the background image anywhere in its twig file, and in this case we want to create this capability for each section independent of its particles or positions.
 
@@ -259,11 +259,11 @@ Here is the same file with the changes:
 ```
 {% endverbatim %}
 
-![Showcase Section - Before](custom_file_2.png) {.border .shadow}
+![Showcase Section - Before](custom_file_2.png?classes=shadow,border)
 
 Once you have made these changes, you should now be able to access the **Gantry Administrator** and add an image to your section, save the change, and check it out on your site.
 
-![Showcase Section - Before](custom_file_3.png) {.border .shadow}
+![Showcase Section - Before](custom_file_3.png?classes=shadow,border)
 
 ## Theme Directory Matrix
 

@@ -3,8 +3,6 @@ title: Particle Blocks
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 There are times when you just want to have CSS or JavaScript assets load without having them appear in the base of the page. Particles have integrated support for JavaScript and style sheets, even if the particle itself isn't an atom. You could essentially have a single particle that includes standard particle content in addition to accessing CSS and JavaScript elements.

@@ -3,8 +3,6 @@ title: Getting Started
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Ready to get started with Gantry 5? That's great! We are here to help.
@@ -30,7 +28,7 @@ Once you have the latest packages, installation is simple. We have provided a st
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Administrator](../../configure/gantry-admin/admin_access_1.png) {.border .shadow}
+![Administrator](../../configure/gantry-admin/admin_access_1.png?classes=shadow,border)
 
 When you have installed and activated both the Gantry framework and your Gantry-powered theme, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components → Gantry 5 Templates** from the back end of Joomla.
 
@@ -39,7 +37,7 @@ Here, you will see a list of any installed Gantry-powered themes. You can **Prev
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Administrator](wp_admin_access_1.png) {.border .shadow}
+![Administrator](wp_admin_access_1.png?classes=shadow,border)
 
 Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry and your desired Gantry-powered theme installed and activated, you can simply select **(Theme Name) Theme** from the sidebar in the backend.
 
@@ -83,7 +81,7 @@ The **Layout** administrative panel is where you would configure the layout for 
 [ui-callout-item title="Assignments" position="17%, 48%, se"]
 The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
 [/ui-callout-item]
-![](getting_started_1.png) {.border .shadow}
+![](getting_started_1.png?classes=shadow,border)
 [/ui-callout]
 
 1. **Outlines**: This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.

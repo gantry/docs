@@ -3,8 +3,6 @@ title: Using Media Queries
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Media queries make it possible to apply CSS only to a specific screen type. For example, if you have an element on your page that you would like to appear differently on phones than it does on a desktop.
@@ -15,7 +13,7 @@ Gantry 5 makes easy to do, and this guide will take you through the process of d
 
 Because Gantry 5 gives you the ability to easily define the breakpoints between viewport types, you can create a user experience that optimized for a wide range of device types with ease.
 
-![Breakpoints](breakpoints.png) {.border .shadow}
+![Breakpoints](breakpoints.png?classes=shadow,border)
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]

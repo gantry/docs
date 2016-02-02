@@ -31,11 +31,11 @@ These classes are used to hide and make visible various blocks depending on the 
 | `hidden-desktop`  | **Visible**       | **Visible**         | Hidden                | Hidden               |
 | `hidden-large`    | **Visible**       | **Visible**         | **Visible**           | Hidden               |
 
-![Utilities](utilities_1.png) {.border}
+![Utilities](utilities_1.png?classes=shadow,border)
 
 You can set the breakpoints for these classes in the **Styles** administrative panel. Just navigate to the bottom of the administrative panel and look for the **Configuration Styles** section.
 
-![Utilities](utilities_2.png) {.border}
+![Utilities](utilities_2.png?classes=shadow,border)
 
 As an example, let's say you have a block that you want to appear only on desktop devices. You would enter `visible-desktop` in the **CSS Class** field of the block settings for the block.
 

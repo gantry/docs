@@ -3,11 +3,9 @@ title: Menu Editor
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
-![Menu](menu_module_1.png) {.border .shadow}
+![Menu](menu_module_1.png?classes=shadow,border)
 
 The **Menu Editor** panel in the **Gantry Admin** is where you can configure and refine menus used on the front end of the site. This does not totally replace the **Menu Manager** provided by the platform, but gives you the ability to quickly and easily add elements, such as in-line particles, to make a better experience for your users.
 
@@ -19,7 +17,7 @@ This panel is a Global panel, that is not specific to any outline. It's because 
 
 ## Selecting a Menu
 
-![Selecting a Menu](selecting_a_menu.png) {.border .shadow}
+![Selecting a Menu](selecting_a_menu.png?classes=shadow,border)
 
 The first thing you will want to do is select the menu you wish to edit. This can be done using the dropdown located near the top of the **Menu Editor** administrative panel. These menus are sourced from your CMS' **Menu Manager**. If you want to create a new menu, you will need to do so using the Menu Manager for your particular CMS.
 
@@ -29,7 +27,7 @@ When you have done this, simply select it in this dropdown and its contents will
 
 ## Menu Settings
 
-![Menu Settings](menu_settings.png) {.border .shadow}
+![Menu Settings](menu_settings.png?classes=shadow,border)
 
 The menu itself has a settings icon (cogwheel) on the right-hand side which gives you the option to access settings that relate to the menu as a whole. These settings may differ between content management systems (CMS).
 
@@ -39,7 +37,7 @@ Keep in mind that within the Menu Particle, you can further refine this, setting
 
 ## Menu Item Settings
 
-![Menu Item Settings](menu_item_settings.png) {.border .shadow}
+![Menu Item Settings](menu_item_settings.png?classes=shadow,border)
 
 Each menu item has a set of settings which can be configured to meet your needs. These may vary slightly between CMS, but have the same basic functions. You can activate the **Menu Item** settings by selecting the cogwheel icon on the right-hand side of the menu item itself.
 
@@ -67,7 +65,7 @@ In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** a
 [ui-callout-item title="Menu Item Types" position="24%, 25%, se"]
 Indicated what type of menu item it is.
 [/ui-callout-item]
-![](menu_item_settings.png) {.border .shadow}
+![](menu_item_settings.png?classes=shadow,border)
 [/ui-callout]
 
 There are six types of menu items in the **Menu Editor**. Here is a breakdown of what five of these types are, and the role they play in the menu.
@@ -90,11 +88,11 @@ The sixth type of menu item, which is added and configured in the **Menu Editor*
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Module Injection](menu_module_1.png) {.border .shadow}
+![Module Injection](menu_module_1.png?classes=shadow,border)
 
 Injecting modules into your menus is easy with Gantry's **Menu Editor**. Above the menu in the editor are two buttons. One labeled **Module** and the other **Particle**. The **Module** tool can be clicked and dragged to your menu, bringing up a popup (pictured below) that enables you to select from your site's modules and have one appear within the menu.
 
-![Module Injection](menu_module_2.png) {.border .shadow}
+![Module Injection](menu_module_2.png?classes=shadow,border)
 
 This popup has a lot of useful information to help you find the module you are looking for. A search bar located at the top enables you to quickly narrow down your search while the module buttons themselves provide you with information on the module's **name**, **published status**, **type**, and **assigned position**.
 
@@ -102,19 +100,19 @@ You do not have to assign your modules to any positions to make them work in the
 
 ### Practical Example
 
-![Module Injection](menu_module_5.png) {.border .shadow}
+![Module Injection](menu_module_5.png?classes=shadow,border)
 
 In this example, we will add a **RokAjaxSearch** module to the menu. You will need to have RokAjaxSearch installed on your Joomla instance, as well as a module created using Joomla's **Module Manager**. You do not have to have the module assigned to any specific position for this to work.
 
-![Module Injection](menu_module_7.png) {.border .shadow}
+![Module Injection](menu_module_7.png?classes=shadow,border)
 
 Then, from the **Gantry Menu Editor**, click and drag the **Module** item to your menu where you would like to have it appear in the menu. You can always adjust its positioning later on by clicking and dragging the menu item.
 
-![Module Injection](menu_module_3.png) {.border .shadow}
+![Module Injection](menu_module_3.png?classes=shadow,border)
 
 At this point, you can further refine this module in a popup that appears, giving you access to adjust the module's **Module ID** and **Chrome** settings. You also have access to the same **Block** settings found in **Particles**, including **CSS Classes** and **Tag Attributes**.
 
-![Module Injection](menu_module_6.png) {.border .shadow}
+![Module Injection](menu_module_6.png?classes=shadow,border)
 
 Once you have configured your module and set up any additional styling (if required) to make it look great with your menu, you can save your menu and take a look at it on the front end.
 
@@ -133,18 +131,18 @@ Grav documentation is coming soon...
 
 ## Particle Injection
 
-![Particle Injection](menu_module_1.png) {.border .shadow}
+![Particle Injection](menu_module_1.png?classes=shadow,border)
 
 Particle injection is possible in the Gantry Menu Editor, enabling you to add Particles to your menu with the same simplicity you can experience from the Layout Manager. The first step involves clicking the **Particle** button and dragging it to your menu where you would like it to appear. Just like any menu item, its position can be changed at any point by clicking and dragging it.
 
-![Particle Injection](menu_particle_3.png) {.border .shadow}
+![Particle Injection](menu_particle_3.png?classes=shadow,border)
 
 The popup that appears enables you to both search for and select a particle to use in your menu. Simply click the particle and **Select** it. 
 
-![Particle Injection](menu_particle_4.png) {.border .shadow}
+![Particle Injection](menu_particle_4.png?classes=shadow,border)
 
 From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the outline's **Settings** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
 
-![Particle Injection](menu_particle_2.png) {.border .shadow}
+![Particle Injection](menu_particle_2.png?classes=shadow,border)
 
 Once you have set up the Particle as desired, simply save your menu and check the front end to see the Particle in your menu.

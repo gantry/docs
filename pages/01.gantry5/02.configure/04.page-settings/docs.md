@@ -3,8 +3,6 @@ title: Page Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The **Page Settings** administrative panel allows you to extend the output of the page by letting you include additional elements. This includes elements such as the **favicon**, Facebook and Twitter **meta tags**, and even JavaScript and/or CSS files. All of these elements are meant to be shared across the entire site and **Page Settings** is what lets you do so.
@@ -15,7 +13,7 @@ Thanks to the Gantry's core concept and implementation of overrides, Page Settin
 
 ## Controls
 
-![Controls](controls.png) {.border .shadow}
+![Controls](controls.png?classes=shadow,border)
 
 !!! Just as in the [Settings Panel](../settings#controls), overrides, filtering and collapsing work the same way.
 
@@ -142,10 +140,10 @@ For all intents and purposes, Atoms such as **Google Analytics**, and **Custom C
 
 ## Google Analytics
 
-![Google Analytics](atoms-analytics_settings.png) {.border .shadow}
+![Google Analytics](atoms-analytics_settings.png?classes=shadow,border)
 
 The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
 
 ## Custom CSS / JS
 
-![Custom CSS / JS](atoms-custom_settings.png) {.border .shadow}
+![Custom CSS / JS](atoms-custom_settings.png?classes=shadow,border)

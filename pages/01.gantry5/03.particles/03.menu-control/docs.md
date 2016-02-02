@@ -3,11 +3,9 @@ title: Menu
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
-![Menu](menu.png) {.border .shadow}
+![Menu](menu.png?classes=shadow,border)
 
 The **Menu** particle gives you the ability to place menus and define how they appear on the frontend. 
 
@@ -28,7 +26,7 @@ As menus are handled differently by different platforms, the settings may vary. 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Settings](menu_settings_j.png) {.border .shadow}
+![Settings](menu_settings_j.png?classes=shadow,border)
 
 | Setting     | Description                                                         |
 | :------     | :----------------------------------                                 |

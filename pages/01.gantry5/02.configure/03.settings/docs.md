@@ -3,8 +3,6 @@ title: Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The **Settings** panel gives you the ability to turn particle types **on** or **off** as you please. Doing this will disable the particle for any assigned pages, even if you have it already set in the **Layout Manager**.
@@ -14,22 +12,22 @@ Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop
 Controls
 -----
 
-![Controls](controls_1.png) {.border .shadow}
+![Controls](controls_1.png?classes=shadow,border)
 
 The **Save Settings** button applies any changes you have made to the **Settings** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned base outline.
 
-![Controls](controls_2.png) {.border .shadow}
+![Controls](controls_2.png?classes=shadow,border)
 
 When using an override **outline**, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated outline. To revert this change back to its default setting, simply uncheck the check box.
 
-![Controls](controls_3.png) {.border .shadow}
+![Controls](controls_3.png?classes=shadow,border)
 
 You can also take advantage of the search field to filter particles, positions, and atoms to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually. 
 
 Particle Settings
 -----
 
-![Particle Settings](particlesettings.png) {.border .shadow}
+![Particle Settings](particlesettings.png?classes=shadow,border)
 
 Particles are visual blocks that render where they have been assigned on the **Layout** administrative panel. This section of the **Settings** administrative panel enables you to set defaults which apply to the currently-selected outline. If you are using the **Base Outline**, these settings become the global default for those particles.
 
@@ -38,7 +36,7 @@ These Particles can vary depending on the theme, but typically include things su
 Atom Settings
 -----
 
-![Atom Settings](atomsettings.png) {.border .shadow}
+![Atom Settings](atomsettings.png?classes=shadow,border)
 
 Atoms are a lot like particles in that they are typically small, modular features you can apply to an outline via the **Layout** administrative panel. The difference is that Atoms, unlike Particles, do not render on the frontend in a way the visitor can see. This makes Atoms a perfect place for CSS or JavaScript such as adding Google Analytics or applying custom CSS and JavaScript.
 
@@ -50,12 +48,12 @@ Position Settings
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Joomla Position Settings](position_settings.png) {.border .shadow}
+![Joomla Position Settings](position_settings.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![WordPress Position Settings](wp_position_settings.png) {.border .shadow}
+![WordPress Position Settings](wp_position_settings.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="Grav"]

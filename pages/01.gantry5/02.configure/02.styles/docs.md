@@ -3,8 +3,6 @@ title: Styles
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The **Styles** administrative panel gives you the ability to quickly and easily configure settings related to the appearance of the Gantry-powered theme. This includes being able to switch between pre-configured presets, as well as to refine the look of an outline using a set of style settings linked to the theme.
@@ -13,7 +11,7 @@ Basically, this panel serves as a one-stop-shop for changing the way the theme i
 
 ## Controls
 
-![Controls](controls.png) {.border .shadow}
+![Controls](controls.png?classes=shadow,border)
 
 As you configure the commands in this panel, you may notice the **Recompile CSS** and **Save Styles** buttons at the top of the page. These buttons allow you to save your outline **Styles** settings, as well as to recompile the CSS of the page so that you can preview your settings on an associated page.
 
@@ -27,7 +25,7 @@ There is also a process running in Gantry 5 that enables you to activate **Devel
 
 ## Select a Preset
 
-![Select a Preset](presets.png) {.border .shadow}
+![Select a Preset](presets.png?classes=shadow,border)
 
 Gantry makes use of a powerful preset system that allows developers and site builders to create preset styles and configurations.
 
@@ -37,7 +35,7 @@ The **Preset Selector** gives users the ability to quickly switch between Preset
 
 ## Theme-specific Settings
 
-![Settings](settings.png) {.border .shadow}
+![Settings](settings.png?classes=shadow,border)
 
 Each Gantry-powered theme comes with a set of Style settings you can use to customize the look and feel of the theme. These settings can appear in multiple sections, with each section focusing on a particular area or type of Style quality. For example, there might be a section dedicated to section-by-section color, while another focuses on the background section of the site, specifically. 
 
@@ -47,7 +45,7 @@ If you wish to have the setting for the outline revert back to defaults, simply 
 
 ## Configuration Styles
 
-![Settings](configuration_styles.png) {.border .shadow}
+![Settings](configuration_styles.png?classes=shadow,border)
 
 The **Configuration Styles** area of the **Styles** administration panel gives you the ability to set responsive breakpoints for the outline, as well as menu options such as the dropdown width for the **Simple** dropdown setting. 
 

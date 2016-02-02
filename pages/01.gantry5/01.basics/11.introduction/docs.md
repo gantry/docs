@@ -3,8 +3,6 @@ title: Introduction for Non-Developers
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for WordPress and Joomla. 

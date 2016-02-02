@@ -3,8 +3,6 @@ title: Adding and Using Fonts
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 ## How to Load Local Fonts in the Theme
@@ -26,7 +24,7 @@ Here are the steps you will need to take to make this happen.
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Fonts](files.png) {.border .shadow}
+![Fonts](files.png?classes=shadow,border)
 
 Add the local font files to `TEMPLATE_DIR/custom/fonts/`.
 
@@ -74,7 +72,7 @@ Duplicate the `TEMPLATE_DIR/gantry/theme.yaml` file and place the copy in a safe
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Fonts](files.png) {.border .shadow}
+![Fonts](files.png?classes=shadow,border)
 
 Add the local font files to `THEME_DIR/custom/fonts/`.
 
@@ -134,7 +132,7 @@ If you want to have local fonts load across your site, you can do so by completi
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Fonts](files.png) {.border .shadow}
+![Fonts](files.png?classes=shadow,border)
 
 * Add the local font files to `TEMPLATE_DIR/custom/fonts/`.
 * Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `TEMPLATE_DIR/custom/scss`.
@@ -148,7 +146,7 @@ If you want to have local fonts load across your site, you can do so by completi
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Fonts](files.png) {.border .shadow}
+![Fonts](files.png?classes=shadow,border)
 
 * Add the local font files to `THEME_DIR/custom/fonts/`.
 * Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `THEME_DIR/custom/scss`.
@@ -169,7 +167,7 @@ Grav documentation is coming soon...
 
 ## Font Weights
 
-![Fonts](fonts.png) {.border .shadow}
+![Fonts](fonts.png?classes=shadow,border)
 
 Here's a quick reference guide to the font weight numbers found in the `theme.yaml` file, as well as noted within the **Font Picker**.
 
@@ -189,11 +187,11 @@ Here's a quick reference guide to the font weight numbers found in the `theme.ya
 
 In this example, we will explain how you can add the custom free font **Bloody** to your Gantry template.
 
-![example](example_1.png) {.border .shadow}
+![example](example_1.png?classes=shadow,border)
 
 ### Step 1: Adding Your Custom Font Files
 
-![Download](download.png) {.border .shadow}
+![Download](download.png?classes=shadow,border)
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Please ensure you download the **@font-face Kit**.
 
@@ -281,7 +279,7 @@ Grav documentation is coming soon...
 
 ### Font Usage
 
-![example](example_2.png) {.border .shadow}
+![example](example_2.png?classes=shadow,border)
 
 Once you have added the font to your theme's custom content directory, you can apply it to your site. For example, if you wanted the title of a Particle to appear in the **Bloody** font, you would reference it in the Particle's Twig file.
 
@@ -297,8 +295,8 @@ As you can see, we set the **h1** style to `font-family: BloodyNormal;`. Because
 
 There is one more step left to do. You need to **Recompile CSS** in the **Styles** administrative panel in the Gantry administrator. Doing this will force Gantry to recompile the CSS including the changes you made in the `custom.scss` file. Once you have done this, you should now be able to reload the page and see your changes.
 
-![example](example_1.png) {.border .shadow}
+![example](example_1.png?classes=shadow,border)
 
 You can also reference it in **Span** tags within text fields in the Gantry administrator. For example, `<span style="font-family: BloodyNormal;">Key Features</span>` would also work in cases when you want to change the font for a single instance of the Particle.
 
-![particle](particle.png) {.border .shadow}
+![particle](particle.png?classes=shadow,border)

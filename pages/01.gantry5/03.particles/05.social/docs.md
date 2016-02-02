@@ -3,11 +3,9 @@ title: Social
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
-![Social](social.png) {.border .shadow}
+![Social](social.png?classes=shadow,border)
 
 The **Social** particle makes it easy to create and place a component on the frontend that add social elements to your pages. This particle can each be placed anywhere on the page to enable visitors to simply find and subscribe to your site's associated social media pages.
 
@@ -18,7 +16,7 @@ The **Social Buttons** particle enables you to quickly and easily add text and/o
 
 Gantry has built-in support for FontAwesome, which gives you access to a wide variety of social media icons you can quickly add to your particle to make your social buttons stand out.
 
-![Settings](social_settings_1.png) {.border .shadow}
+![Settings](social_settings_1.png?classes=shadow,border)
 
 | Setting      | Description                                                                                                         |
 | :-----       | :-----                                                                                                              |
@@ -28,7 +26,7 @@ Gantry has built-in support for FontAwesome, which gives you access to a wide va
 
 If you select the cogwheel next to the individual social items, a pop-up will appear that gives you additional fields to further customize each individual social item.
 
-![Settings](social_settings_2.png) {.border .shadow}
+![Settings](social_settings_2.png?classes=shadow,border)
 
 | Setting | Description                                                                                                           |
 | :-----  | :-----                                                                                                                |

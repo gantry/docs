@@ -3,8 +3,6 @@ title: Advanced Theme Customization
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Throughout this documentation, we have outlined a multitude of different methods you can use to configure and customize your Gantry 5 theme. There are some cases where you will find yourself wanting to take theme customization to a new level. Adding, removing, and even creating brand new features for a Gantry 5 theme is not only possible, it's relatively easy to do.
@@ -34,7 +32,7 @@ The third method is the one we recommend the least, and we'll detail it in the f
 
 ## Override page.html.twig (Not Recommended)
 
-![Theme Customization](theme_customization_1.png) {.shadow .border}
+![Theme Customization](theme_customization_1.png?classes=shadow,border)
 
 The `page.html.twig` file is the blueprint by which Gantry 5 creates a page. You can find this file in `SITE_ROOT/media/gantry5/engines/nucleus/templates/` and we will need to modify it to incorporate the fixed section.
 
@@ -56,7 +54,7 @@ There are two ways you can add this script to your site. You can have it set up 
 
 ### Method 1: Local Installation
 
-![Theme Customization](theme_customization_2.png) {.shadow .border}
+![Theme Customization](theme_customization_2.png?classes=shadow,border)
 
 The first step to installing `headroom.js` on your local site is to download it. You can download `headroom.js` from [Github](https://github.com/WickyNilliams/headroom.js). 
 
@@ -67,7 +65,7 @@ You need to keep all your modifications and additions in the `THEME_DIR/custom/`
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Atoms Method"]
 
-![](local_1.png) {.border .shadow}
+![](local_1.png?classes=shadow,border)
 
 Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.
 
@@ -76,7 +74,7 @@ In the item, you will want to paste `gantry-theme://custom/js/headroom.min.js` i
 [/ui-tab]
 [ui-tab title="Page Settings Method"]
 
-![](local_2.png) {.border .shadow}
+![](local_2.png?classes=shadow,border)
 
 Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab. This gives you control over which page(s) the effect appears on. Just locate the **Before </body>** field and enter the following:
 
@@ -141,7 +139,7 @@ The link may differ depending on where you wish to source the file from. [Here i
 [/ui-tab]
 [ui-tab title="File Override (Not Recommended)"]
 
-![](remote_2.png) {.border .shadow}
+![](remote_2.png?classes=shadow,border)
 
 Loading the script remotely is another option, and one that can be done pretty easily. You just need to add a line of script within the `<body>` tags of your `page.html.twig` file to access it. You can also have it load using an atom, but doing so this way will ensure that it loads on every page, without any additional effort required in the Gantry 5 administrator.
 

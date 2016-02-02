@@ -22,7 +22,7 @@ It's important to note that this is an advanced action, and Gantry 5 themes gene
 
 ## Preset Images
 
-![Preset](outlines.png) {.border .shadow}
+![Preset](outlines.png?classes=shadow,border)
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
@@ -52,7 +52,7 @@ Grav documentation is coming soon...
 
 ## Creating a New Layout Preset
 
-![Preset](sections_3.png) {.border .shadow}
+![Preset](sections_3.png?classes=shadow,border)
 
 Creating a new **Layout Preset** is pretty simple. The first thing you will need to do is create a new YAML file in `THEME_DIR/custom/layouts`. For our example, we will name this file `example1.yaml`.
 
@@ -84,7 +84,7 @@ layout:
     - mobile-menu
 ``` 
 
-![Preset](sections_2.png) {.border .shadow}
+![Preset](sections_2.png?classes=shadow,border)
 
 This is a basic layout preset, featuring three sections included in the theme's original styling (`header`, `main`, and `footer`) with one additional section being added (`mainbottom`) that is not included with the original theme. We don't recommend adding new sections if you don't have to, but doing so can be done by adding it in a custom Layout Preset.
 
@@ -94,7 +94,7 @@ Once you have added a new section, it will display without any styling beyond th
 
 ## How to Create a Sidebar Section
 
-![Sidebar](sections_1.png) {.border .shadow}
+![Sidebar](sections_1.png?classes=shadow,border)
 
 In this section, we will explain how to create a new Layout Preset with double sidebar. Each sidebar section represents a **block** within the **grid** container that makes up the **Main**, **Sidebar 1**, and **Sidebar 2** sections. You can find more information about how sidebars work in the [Sidebar Blocks and Grids section of the Layout Manager guide](../../configure/layout-manager#sidebar-blocks-and-grids).
 

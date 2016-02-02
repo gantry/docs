@@ -3,8 +3,6 @@ title: Twig Filters
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Throughout this documentation, you may have noticed Twig filters such as `|e` and `|raw` being used as we reference YAML fields in our examples. Here is a quick example:

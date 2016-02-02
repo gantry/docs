@@ -3,8 +3,6 @@ title: Atoms
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 redirect: /gantry5/configure/page-settings#atoms
 ---
 
@@ -19,14 +17,14 @@ Atoms can be assigned in the **Layout Manager** using a special line set up for 
 Google Analytics
 -----
 
-![Google Analytics](analytics_settings.png) {.border .shadow}
+![Google Analytics](analytics_settings.png?classes=shadow,border)
 
 The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
 
 Custom CSS / JS
 -----
 
-![Custom CSS / JS](custom_settings.png) {.border .shadow}
+![Custom CSS / JS](custom_settings.png?classes=shadow,border)
 
 
 

@@ -3,13 +3,11 @@ title: Adding a Custom Style Sheet
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Adding a custom style sheet is a fairly straightforward process. The first thing you should do is create the custom SCSS/CSS file. You can do so in just about any text editor.
 
-![Custom File](custom.png) {.border .shadow}
+![Custom File](custom.png?classes=shadow,border)
 
 To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/custom/scss/` directory doesn't exist, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
@@ -21,19 +19,19 @@ You can format the file's content in either **SCSS** or **CSS**. Gantry will aut
 
 Once you have added this file, and put your custom CSS/SCSS within, Gantry will do one of two things. This activity is determined by the **Production Mode** setting. You can reach this setting by navigating to **Gantry 5 Administrator > Extras**.
 
-![Recompile CSS](custom_2.png) {.border .shadow}
+![Recompile CSS](custom_2.png?classes=shadow,border)
 
 If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Extras](devprod.png) {.border .shadow}
+![Extras](devprod.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Production](wp_production.png) {.border .shadow}
+![Production](wp_production.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="Grav"]

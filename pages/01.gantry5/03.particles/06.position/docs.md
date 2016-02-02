@@ -3,8 +3,6 @@ title: Positions
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 A **Module Position** or **Widget Position** particle plays an important role in the layout of a page. Each position particle represents a position where modules can be assigned.
@@ -16,7 +14,7 @@ In addition, you can easily create vastly different positions setups between out
 Creating, Deleting, and Moving Positions
 -----
 
-![Positions](positions_6.png) {.border .shadow}
+![Positions](positions_6.png?classes=shadow,border)
 
 If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
@@ -25,7 +23,7 @@ If you want to add a new widget/module position to a page, you simply need to dr
 
 If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
 
-![Key](key.png) {.border .shadow}
+![Key](key.png?classes=shadow,border)
 
 For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
 
@@ -51,7 +49,7 @@ Moving positions around the layout is also just a matter of dragging and droppin
 Virtually Unlimited Positions Per row
 -----
 
-![Positions](positions_4.png) {.border .shadow}
+![Positions](positions_4.png?classes=shadow,border)
 
 You could have 0, 1, 5, 10, or even 20 individual widget positions in the Header section if you wanted to. This enables you to have one or two positions where you need them, without the need to have positions in places you do not want them.
 
@@ -61,7 +59,7 @@ Quick and Easy Naming
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Positions](positions_2.png) {.border .shadow}
+![Positions](positions_2.png?classes=shadow,border)
 
 As we mentioned earlier, you can name and rename positions on the fly, making it easy to migrate existing modules without having to individually reassign them to specific positions.
 
@@ -87,7 +85,7 @@ Grav documentation is coming soon...
 Spacers
 -----
 
-![Spacers](positions_5.png) {.border .shadow}
+![Spacers](positions_5.png?classes=shadow,border)
 
 We have created a new Spacer Particle which enables you to create a blank space between two Positions, a Particle and a Position, or two Particles.
 
@@ -101,7 +99,7 @@ The settings for a **Position** Particle can vary between content management sys
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Settings](positions_settings_j.png) {.border .shadow}
+![Settings](positions_settings_j.png?classes=shadow,border)
 
 | Setting | Description                                        |
 | :------ | :----------------------------------                |

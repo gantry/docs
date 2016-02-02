@@ -3,8 +3,6 @@ title: Updating Themes
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Updating Gantry 5 themes is a very similar process to updating any other theme on its respective platform. The process for updating a Gantry 5 theme for Joomla, as an example, is virtually identical. 

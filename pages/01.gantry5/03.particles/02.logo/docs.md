@@ -3,18 +3,16 @@ title: Logo
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
-![Logo](logo.png) {.border .shadow}
+![Logo](logo.png?classes=shadow,border)
 
 The **Logo** particle enables you to set the image and/or text you want to have appear as your logo in for the site. Through this particle, you can add your logo to the site in a position you set in the **Layout Manager**. 
 
 Settings
 -----
 
-![Settings](logo_settings.png) {.border .shadow}
+![Settings](logo_settings.png?classes=shadow,border)
 
 | Setting   | Description                                                            |
 | :-----    | :-----                                                                 |

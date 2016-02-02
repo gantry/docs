@@ -3,8 +3,6 @@ title: How to Load CSS / JS from Twig
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 

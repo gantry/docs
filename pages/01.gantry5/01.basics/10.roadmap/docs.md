@@ -3,8 +3,6 @@ title: Roadmap
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Gantry 5's, launching initially for the Joomla platform, is a multi-phase plan that includes key milestones leading up to the full initial release. We are providing this document to clarify which milestones we have planned for the next major release.

@@ -3,11 +3,9 @@ title: Content (WordPress)
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
-![Content](wp_content_panel.png) {.border .shadow}
+![Content](wp_content_panel.png?classes=shadow,border)
 
 The **Content** administrative panel gives you quick access to settings that affect the way content is displayed on a given page. This is an outline-specific panel, so any changes made here will affect only the currently-selected outline.
 

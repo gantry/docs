@@ -3,8 +3,6 @@ title: Overriding Particle Settings
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 **Particles** are extremely flexible. You can access their settings on several levels, each determining how that Particle will be configured at a specific level.
@@ -19,7 +17,7 @@ Here is a quick breakdown of the different levels at which a **Particle** can be
 
 ## Base Outline Settings Panel
 
-![Default](particle_1.png) {.border .shadow}
+![Default](particle_1.png?classes=shadow,border)
 
 Within the **default** outline, you can set global default settings for any Particle in the **Settings Administrative Panel**. Settings placed here become the global defaults that apply to every outline and individual Particle instance unless overridden. This is where you would place your most commonly used settings for a given Particle.
 
@@ -27,7 +25,7 @@ For example, if you want your logo Particles to use the same source image across
 
 ## Non-Base Outline Settings Panel
 
-![Non-Default](particle_2.png) {.border .shadow}
+![Non-Default](particle_2.png?classes=shadow,border)
 
 Within outlines that are not set as the default, you may notice that the **Settings Administrative Panel** has grayed out the **Particle Settings** for most (if not all) of your Particles. By changing a setting and/or selecting the checkbox on the right-hand side of the settings box for that Particle, you can override the default settings for the outline. 
 
@@ -42,7 +40,7 @@ Selecting the cogwheel icon will bring up the **Settings** popup.
 [ui-callout-item title="Particle Settings" position="15%, 50%, se"]
 The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
 [/ui-callout-item]
-![](menu_item_settings.png) {.border .shadow}
+![](menu_item_settings.png?classes=shadow,border)
 [/ui-callout]
 
 When you place a particle in an outline's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
@@ -55,7 +53,7 @@ Sometimes, the changes you want to make to a particle require modifying the sour
 
 In this example, we will add a link to the **Copyright** Particle that goes directly to the home page of the site from the name of the copyright holder. This is just a small example of what you can change. 
 
-![Source Override](source_1.png) {.border .shadow}
+![Source Override](source_1.png?classes=shadow,border)
 
 In the image above, you will see the **Copyright** Particle on the left-hand side. There are no links or anything included in the core Particle. If you wanted to have the name of the copyright-holder become a link to that copyright holder's website, you can add a few simple changes to the Particle's source files.
 
@@ -118,7 +116,7 @@ form:
       description: Add copyright owner name.
 ```
 
-![Particle Override](source_3.png) {.border .shadow}
+![Particle Override](source_3.png?classes=shadow,border)
 
 This creates the fields that appear in the Gantry Administrator's **Settings** panel, as well as in any instances in the **Layout Manager** where the **Copyright** particle has been placed. These settings are then linked to the Particle's **Twig** file. In this case, we are adding a link field so that users can add a link to the Particle.
 
@@ -131,7 +129,7 @@ We can create the link field by adding the following to the bottom of the YAML f
       description: Add the link to the copyright owner's site.
 ```
 
-![Particle Override](source_2.png) {.border .shadow}
+![Particle Override](source_2.png?classes=shadow,border)
 
 Now, you will notice that the new field appears on the back end.
 
@@ -161,6 +159,6 @@ The `{{ particle.owner|e }}` line needs to be altered to add the link based on t
 ```
 {% endverbatim %}
 
-![Particle Override](source_4.png) {.border .shadow}
+![Particle Override](source_4.png?classes=shadow,border)
 
 Now, on the front end of the site, the Particle appears with a link over the name of the copyright owner. This is just a small example of what you can do to extend a Particle's capabilities using Twig and YAML.

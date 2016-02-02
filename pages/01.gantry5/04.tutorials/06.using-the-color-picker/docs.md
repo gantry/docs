@@ -3,19 +3,17 @@ title: Using the Color Picker
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Gantry 5 includes a new **Color Picker** which gives you the ability to set colors for a particular element of your theme, a Particle, etc.
 
-![Color Picker](color_picker_2.png) {.border .shadow}
+![Color Picker](color_picker_2.png?classes=shadow,border)
 
 The **Color Picker** includes five integrated tools including **hue**, **saturation**, **brightness**, **opacity**, and a **color wheel**. These settings make it easy to quickly configure your color selection to meet your needs.
 
 ## Using the Color Picker
 
-![Color Picker](color_picker_1.png) {.border .shadow}
+![Color Picker](color_picker_1.png?classes=shadow,border)
 
 Gantry 5's **Color Picker** includes four major tabs, each with its own powerful tool to help you find and refine the color you are choosing. These tabs are:
 

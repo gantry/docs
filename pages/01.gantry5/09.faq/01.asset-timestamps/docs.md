@@ -3,8 +3,6 @@ title: Asset Timestamps
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 You might notice file identifiers being used in compiled code. For example, an image file might appear in the code as `img-01.jpg?56667` with a `?` trailed by a series of numbers. These identifiers are essentially a timestamp of the file which changes when the file is modified, updated, replaced, etc.
@@ -15,7 +13,7 @@ This is especially useful when you are in Develop mode, or in the process of mak
 
 In Joomla, this feature can be turned off by accessing the **System - Gantry 5** plugin settings. You can do this by navigating to **Admin > Extensions > Plugins > System - Gantry 5**.
 
-![Asset Timestamps](asset.png) {.shadow .border}
+![Asset Timestamps](asset.png?classes=shadow,border)
 
 Once there, you can turn this off by toggling the **Asset Timestamps** option to **No**.
 

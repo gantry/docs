@@ -3,8 +3,6 @@ title: Using the Font Picker
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Gantry 5 includes a new **Font Picker** which gives you the ability to select fonts for a variety of situations including templates, Particles, and more.
@@ -36,7 +34,7 @@ This setting gives you the ability to filter results by subset. For example, you
 [ui-callout-item title="Select" position="91%, 86%, se"]
 Use the green **Select** button to lock in your font of choice (listed in the text directly to the left). To choose a font, simply select the checkbox in that font's listing in the font browser.
 [/ui-callout-item]
-![](font_picker_1.png) {.border .shadow}
+![](font_picker_1.png?classes=shadow,border)
 [/ui-callout]
 
 1. **Test Text Field**: Enter the text you would like to see in different fonts here.
@@ -48,17 +46,17 @@ Use the green **Select** button to lock in your font of choice (listed in the te
 
 Upon clicking the font icon to the right of the **Font Picker** field, a popup appears that enables you to type a phrase and see it presented in over 670 different fonts from the [Google Font](http://www.google.com/fonts) library.
 
-![Font Picker](font_picker_2.png) {.border .shadow}
+![Font Picker](font_picker_2.png?classes=shadow,border)
 
 To make life a little easier, you can filter these results by Category and Subset, as well as search for a specific font using the search tool in the upper-right corner of the popup.
 
-![Font Picker](font_picker_3.png) {.border .shadow}
+![Font Picker](font_picker_3.png?classes=shadow,border)
 
 This is a very quick and easy way to not only get a preview of what a block of text might look like with a different font, but to apply that font to your page by simply choosing it and hitting **Select**.
 
 ## Selecting Your Font Weight(s) and Character Set(s)
 
-![Font Picker](font_picker_4.png) {.border .shadow}
+![Font Picker](font_picker_4.png?classes=shadow,border)
 
 You have the ability to quickly and easily select font weights and character sets within the Font Picker. Selecting these here will make them available in your theme. 
 
@@ -101,7 +99,7 @@ Replace `800` with the selected variation
 
 ## Adding the Font Picker to Your Site
 
-![Font Picker Fields](font_selector_field.png) {.border .shadow}
+![Font Picker Fields](font_selector_field.png?classes=shadow,border)
 
 The Font Picker is a Gantry 5 input. If you want to add it to your template or particle, you would do so by assigning the administrative input as `input.fonts` in the Particle's YAML file.
 

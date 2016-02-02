@@ -3,13 +3,11 @@ title: Using the Icon Picker
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Gantry 5 has support for [Font Awesome’s](http://fortawesome.github.io/Font-Awesome/) growing font library built right in to its core. This means that anyone using a Gantry-powered template will have the ability to use any of these incredible vector fonts anywhere on your page.
 
-![Icon Picker](icon_picker_2.png) {.border .shadow}
+![Icon Picker](icon_picker_2.png?classes=shadow,border)
 
 These serve as lightweight alternatives to image files, can add a visual element to a menu option or an eye-catching accent to a block of text. You can add them to Particles, as well as to fields in your theme's **Styles** administrative panel to add an easily-configured element to your site.
 
@@ -34,7 +32,7 @@ This dropdown gives you the ability to rotate the icon. For example, you could u
 [ui-callout-item title="Select" position="91%, 75%, se"]
 Use the green **Select** button to lock in your icon of choice (listed in the text directly to the left). To choose a icon, simply select the checkbox in that icon's listing in the icon browser.
 [/ui-callout-item]
-![](icon_picker_1.png) {.border .shadow}
+![](icon_picker_1.png?classes=shadow,border)
 [/ui-callout]
 
 ## Adding the Icon Picker to Your Site

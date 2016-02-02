@@ -3,13 +3,11 @@ title: Creating a New Particle
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Creating a new **Particle** in Gantry 5 is a pretty straightforward process. You will need a text editor, as you will be **creating two files** for the Particle.
 
-![Particle](particle_1.png) {.border .shadow}
+![Particle](particle_1.png?classes=shadow,border)
 
 For the interest of this guide, we will create a simple Particle for a page on a site. This Particle consists of three main parts. The **Title**, **Image**, and **Description**. Particles can be as simple or complex as you need them to be.
 
@@ -21,7 +19,7 @@ While creating your Particle, it may be easier to start with the YAML file as th
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![File Location](particle_3.png) {.border .shadow}
+![File Location](particle_3.png?classes=shadow,border)
 
 You will want to create this file in your template's folder structure by navigating to `TEMPLATE_DIR/custom/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
@@ -78,7 +76,7 @@ This YAML is made up of two main parts. First, the head of the file which sets t
 
 !!! The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Positions** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
 
-![Particle](particle_2.png) {.border .shadow}
+![Particle](particle_2.png?classes=shadow,border)
 
 The second section sets the forms/fields that appear in the administrator, as well as the default settings. These fields are what appear in the administrator and are accessible to your site managers. They give them the ability to do things like set custom text, titles, and toggle settings.
 

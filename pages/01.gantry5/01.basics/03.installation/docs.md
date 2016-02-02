@@ -3,8 +3,6 @@ title: Installation
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The Gantry framework itself is independent of any theme. Each Gantry-enabled theme relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites. While a Gantry-powered theme does require the Gantry framework to work properly, Gantry is not inherently built in to the theme, itself.
@@ -33,7 +31,7 @@ Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v
 
 After installing the Gantry Framework package, all of the Gantry extensions will appear in the **Extensions Manager**.
 
-![Extensions](gantry_extensions.png) {.border .shadow}
+![Extensions](gantry_extensions.png?classes=shadow,border)
 
 If you are having any issues, including the following error messages:
 
@@ -52,11 +50,11 @@ To install the Gantry plugin, you'll need to navigate to **Plugins → Add New**
 
 From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
-![](install_wp_2.png) {.border .shadow}
+![](install_wp_2.png?classes=shadow,border)
 
 Once installation is done, select the **Activate** shortcut to turn the Gantry 5 plugin on.
 
-![](install_wp_1.png) {.border .shadow} 
+![](install_wp_1.png?classes=shadow,border) 
 
 Gantry 5 will now appear in your **Installed Plugins** list.
 
@@ -64,7 +62,7 @@ Gantry 5 will now appear in your **Installed Plugins** list.
 
 Gantry 5 requires one additional plugin to work. The **Timber** plugin enables WordPress to work with Twig templates. Because Gantry 5 uses Twig, this is a required step. You can find more information about Timber on the [project home page](http://upstatement.com/timber/).
 
-![](install_wp_6.png) {.border .shadow}
+![](install_wp_6.png?classes=shadow,border)
 
 If you attempt to activate a Gantry 5 theme without the Timber plugin installed, a red notice will appear at the top of the admin giving you a direct link to where you can install Timber to your site.
 
@@ -92,13 +90,13 @@ The Gantry template will appear in the **Template Manager**, and all Gantry exte
 
 Themes made on Gantry 5 install just like any other WordPress theme. The difference here is that you really want to have the Gantry framework installed and activated first, otherwise the theme itself won't be of much use.
 
-![](install_wp_3.png) {.border .shadow}
+![](install_wp_3.png?classes=shadow,border)
 
 To install the theme on WordPress, simply navigate to **Admin → Appearance** in the sidebar and select the **Add New** button at the top of the **Themes** page.
 
 This will take you to the **Add Themes** page with another button on top called **Upload Theme**. Click it.
 
-![](install_wp_4.png) {.border .shadow}
+![](install_wp_4.png?classes=shadow,border)
 
 Just as you did with the Gantry framework, use the **Browse...** button to select the zip file for the theme you wish to install and select **Install Now**.
 
@@ -123,12 +121,12 @@ If you are using the Gantry template, you will want to set it as the default tem
 
 ! For some Gantry-powered templates, this will happen automatically upon installation. This is a time-saving step intended to speed up deployment and reduce confusion for new users.
 
-![](gantry_default.png) {.border .shadow}
+![](gantry_default.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![](install_wp_5.png) {.border .shadow} 
+![](install_wp_5.png?classes=shadow,border) 
 
 Your Gantry-powered theme will be set as default upon activation. You can activate your theme during installation by selecting **Activate** from the shortcuts at the bottom of the installation screen.
 

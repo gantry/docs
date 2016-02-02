@@ -3,8 +3,6 @@ title: Adding New PHP Functions
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Adding your own PHP functions to a Gantry theme is achievable, and can be a very simple process thanks to DI (Dependency Injection). This guide will take you through the steps needed to add your own PHP functions to your site.

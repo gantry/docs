@@ -3,13 +3,11 @@ title: Particle YAML Field Types
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 When you are creating a new Particle, you might notice that the input fields you set in the Particle's YAML file vary, depending on what you are trying to accomplish.
 
-![Particle](particle_2.png) {.border .shadow}
+![Particle](particle_2.png?classes=shadow,border)
 
 In the above screenshot, you will notice several different types of input fields are present. Even the green switch in the upper-right corner is a field set in the YAML file.
 
@@ -136,7 +134,7 @@ target:
 
 You will notice the `options` settings listed here. In this case, the values of `_parent` and `_blank` are used with the tags of `Self` and `New Window`. The user will see the tags in the Gantry administrator. Selecting one or another sets the value of the field to the option's associated value.
 
-![Selectize](selectize.png) {.border .shadow}
+![Selectize](selectize.png?classes=shadow,border)
 
 As you can see, the user experience in the Gantry administrator is more natural and easier on the user. Instead of entering the target window for a link manually, they simply select between these two preset options, which feeds into the Particle's Twig file during page rendering.
 
@@ -164,7 +162,7 @@ date.formats:
 
 Below is how these YAML settings appear in the Gantry 5 administrator.
 
-![date](date.png) {.border .shadow}
+![date](date.png?classes=shadow,border)
 
 
 Gantry Alerts, Notes and Styling

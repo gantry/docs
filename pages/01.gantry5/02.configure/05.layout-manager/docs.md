@@ -3,8 +3,6 @@ title: Layout Manager
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Outlines. 
@@ -16,13 +14,13 @@ Using the Load Button
 
 **Layout Presets** enable you to quickly switch between pre-configured layouts for your site. These layouts are included in the theme and feature a different set of sections. Some layout presets may include a sidebar, or multiple sidebars, and a number of sections intended to fit a specific page style.
 
-![Choosing a Layout Preset](choosing1.png) {.border .shadow}
+![Choosing a Layout Preset](choosing1.png?classes=shadow,border)
 
 Each **outline** is assigned to a **Layout Preset** which can be reassigned using the **Load** button in the **Layout Manager**. Once you have selected this button, a pop-up will appear with two tabs, **Presets** and **Outlines**.
 
 If you select a **Preset**, your layout will be replaced with a preset one that comes with the theme. These presets act as starting points for your design, giving you a set of **Sections**, **Positions**, and/or pre-placed **Particles** to work with. The presets have been configured to cover a range of possible layouts a user would want to use on their design, as set by the theme creator. This includes layouts with and without sidebars, and range from incredibly simple to complex.
 
-![Choosing a Layout Preset](choosing2.png) {.border .shadow}
+![Choosing a Layout Preset](choosing2.png?classes=shadow,border)
 
 Selecting one of the **Outlines** options will copy the **Layout Manager** setup from the selected outline and load it into the one you are working in. This is a quick way to base your layout on another outline without having to manually duplicate it.
 
@@ -31,7 +29,7 @@ Selecting one of the **Outlines** options will copy the **Layout Manager** setup
 Controls
 -----
 
-![Controls](controls.png) {.border .shadow}
+![Controls](controls.png?classes=shadow,border)
 
 The **Layout Manager** has a number of useful controls to help you configure, save, import, and export your layouts. In this section, we will go over some of the things you will find in the **Layout** administrative panel.
 
@@ -59,12 +57,12 @@ Particles
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Joomla"]
 
-![Particles](particles.png) {.border .shadow}
+![Particles](particles.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Particles](wp_particles.png) {.border .shadow}
+![Particles](wp_particles.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="Grav"]
@@ -87,7 +85,7 @@ The layout consists of several different sections, each with its own set of sett
 
 ### Sections
 
-![Sections](section.png) {.border .shadow}
+![Sections](section.png?classes=shadow,border)
 
 For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles**, **Positions**, and **Atoms**.
 
@@ -95,7 +93,7 @@ You can add **Grids** by selecting the **plus (+)** icon in the upper-right corn
 
 #### Settings
 
-![Settings](section_settings.png) {.border .shadow}
+![Settings](section_settings.png?classes=shadow,border)
 
 | Setting        | Description                                                         |
 | :------        | :----------------------------------                                 |
@@ -107,19 +105,19 @@ The **Section** settings give you the ability to change the way a particular sec
 
 ### Grids
 
-![Grids](grid.png) {.border .shadow}
+![Grids](grid.png?classes=shadow,border)
 
 Grids are the horizontal rows in which Blocks live. In a Grid, you can place **positions** and **particles**, but not **atoms**. The atoms can be only added to the specific **Atoms Section** at the bottom of the Layout.
 
 #### Settings
 
-![Settings](grid_settings.png) {.border .shadow}
+![Settings](grid_settings.png?classes=shadow,border)
 
 Grids have very basic options. You can **move** them using the icon on the left-hand side or quickly **even out Block widths** by selecting the icon on the right-hand side.
 
 ### Blocks
 
-![Blocks](block.png) {.border .shadow}
+![Blocks](block.png?classes=shadow,border)
 
 Blocks are the Lego bricks of the Layout Manager. These are your individual pieces which make up the individual parts of your page. Your Logo, for example, would be a **Particle** placed in a **Block**, which sits in a **Grid** within a **Section**.
 
@@ -129,13 +127,13 @@ The only type of Particle that can't be resized is the **Atom** which is a non-v
 
 #### Settings
 
-![Settings](block_settings_1.png) {.border .shadow}
+![Settings](block_settings_1.png?classes=shadow,border)
 
 Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the left-hand side of the Particle. These settings override the default ones set in the **Settings** admin panel, and become unique to the single block. 
 
 These are **Particle** level settings, which exist in every type of Block. They enable you to rename the Particle as it appears on the Layout Manager, as well as to configure Particle-specific settings sourced from the Particle's **YAML** file.
 
-![Settings](block_settings_2.png) {.border .shadow}
+![Settings](block_settings_2.png?classes=shadow,border)
 
 | Setting        | Description                                                                                                  |
 | :------        | :----------------------------------                                                                          |
@@ -149,9 +147,9 @@ The **block settings** make it easy to change the way a particular block looks a
 
 ### Sidebar Blocks and Grids
 
-![Sidebar Grid](grid2.png) {.border .shadow}
+![Sidebar Grid](grid2.png?classes=shadow,border)
 
-![Sidebar Blocks](block2.png) {.border .shadow}
+![Sidebar Blocks](block2.png?classes=shadow,border)
 
 In the presence of a Sidebar, there is a unique situation. For the purposes of theme development, the sidebar and any horizontally-adjoining Sections are placed in a single Grid. Unlike the smaller Grids which exist inside sections, this Grid can't be freely moved. However, you can resize them using the divider bar between the Sidebar and its adjoining Sections.
 
@@ -171,21 +169,21 @@ There is also a container that wraps around the whole section, including the big
 
 ## Offcanvas Section
 
-![Offcanvas](offcanvas_1.png) {.border .shadow}
+![Offcanvas](offcanvas_1.png?classes=shadow,border)
 
 The **Offcanvas** section is intended to enable you to place modules and positions in a special hidden-until-opened sidebar. This sidebar houses the **Mobile Menu** Particle, a specialized Particle that loads the designated main menu in a way that is easy for mobile users to open and utilize.
 
-![Offcanvas](offcanvas_2.png) {.border .shadow}
+![Offcanvas](offcanvas_2.png?classes=shadow,border)
 
-![Offcanvas](offcanvas_3.png) {.border .shadow}
+![Offcanvas](offcanvas_3.png?classes=shadow,border)
 
 The **Mobile Menu** Particle is exclusively made for the **Offcanvas** section, though it is not the only item that can be placed here. Arranged vertically on the front end, Particles and Modules can be placed in the Offcanvas section that you would like to have appear in this area of the page. Any Particle or Module other than the Mobile Menu will be available on both mobile and desktop devices, unless designated in the item's CSS.
 
-![Offcanvas](offcanvas_4.png) {.border .shadow}
+![Offcanvas](offcanvas_4.png?classes=shadow,border)
 
 One interesting note about the Offcanvas Section is in its settings. You can set the **Position** where the Offcanvas section appears on the front end. This enables you to decide if you want the sections' menu button and content to come in from the right or left side of the page.
 
-![Offcanvas](offcanvas_5.png) {.border .shadow}
+![Offcanvas](offcanvas_5.png?classes=shadow,border)
 
 In the **Styles** administrative panel the **Dropdown Width** field sets the width of the panel (in pixels) enabling you to set how much of the screen becomes the panel when it is active.
 

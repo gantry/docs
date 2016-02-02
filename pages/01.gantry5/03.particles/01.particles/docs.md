@@ -3,8 +3,6 @@ title: Introduction to Particles
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 Would you like to change where the Logo appears on your site? How about adding new positions for modules/widgets and placing it directly below the menu? You can do these things and more without even touching your keyboard thanks to a new concept to the Gantry Framework called **Particles**.
@@ -22,7 +20,7 @@ There are three basic types of Particles. Here is a quick breakdown of what they
 Standard Particles
 -----
 
-![Particles](particles_1.png) {.border .shadow}
+![Particles](particles_1.png?classes=shadow,border)
 
 For theme developers, particles can be created in minutes, and they can add functionality to your page in an environment that is easy for your clients to navigate and work with.
 
@@ -38,7 +36,7 @@ Positions are Particles that have content assigned to them by the CMS. In most C
 
 Positions can be renamed for reference on the backend and rekeyed. A position particle's **Key** is equivalent to a template position in standard CMS speak allowing you to create a position label modules are assigned to. This makes migration from other templates which likely won't have the same position naming scheme easier. In this case you can easily rekey Positions rather than having to reassign modules one-by-one.
 
-![Key](key.png) {.border .shadow}
+![Key](key.png?classes=shadow,border)
 
 For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
 
@@ -58,6 +56,6 @@ Grav documentation is coming soon...
 Atoms
 -----
 
-![Particles](particles_2.png) {.border .shadow}
+![Particles](particles_2.png?classes=shadow,border)
 
 Atoms are particles that do not render on the frontend in any visible fashion. They make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can visually arrange their order in the Layout Manager to determine the order in which they load during page rendering.

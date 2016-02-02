@@ -3,8 +3,6 @@ title: Creating Custom File Overrides
 taxonomy:
     category: docs
     tag: [gantry5]
-process:
-    twig: true
 ---
 
 We have already detailed some of the ways you can use the `THEME_DIR/custom/` directory to duplicate and customize Particle and theme files, but for the experienced Web developer wanting to go that extra step and customize virtually all aspects of the Gantry-powered theme, we are providing a detailed guide for you.
