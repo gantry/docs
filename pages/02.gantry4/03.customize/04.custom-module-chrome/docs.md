@@ -3,11 +3,6 @@ title: Custom Module Chrome
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 This section covers the creation of a Chrome custom module layout, and how to link it into your Gantry enabled template.

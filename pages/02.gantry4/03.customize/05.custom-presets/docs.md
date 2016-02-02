@@ -3,11 +3,6 @@ title: Custom Presets
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 This section covers the creation of a new custom preset in a Gantry-enabled template.

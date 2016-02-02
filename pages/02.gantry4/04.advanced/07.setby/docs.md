@@ -3,11 +3,6 @@ title: Session/Cookie/URL
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry framework has multiple methods of setting the value of a configuration parameter. This is one of the things that makes Gantry so flexible. You can have parameter settings which are per-menu item, and even override that with per user settings in the users session and cookies.

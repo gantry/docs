@@ -3,11 +3,6 @@ title: Using Force Positions
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 There are times when you just don't want to have your modules/widgets taking up all the room in a horizontal row -- no matter what the layout. 
@@ -25,13 +20,13 @@ With Gantry, you can use the layouts settings to achieve this goal with no code 
 
 This means that there will always be four utility module positions (**utility-a**, **utility-b**, **utility-c**, **utility-d**) displayed, no matter how many modules you actually have published in the module manager. Then, all you need to do is publish a module in the **utility-a** position to show on the left, and a module in **utility-d** to show on the right. Just ensure you have nothing published in **utility-b** and **utility-c**, and those will just be left as blank spaces.
 
-![](force-positions1.jpg) {.border .shadow}
+![](force-positions1.jpg?classes=shadow,border) 
 
 Enter the **Layouts** section and toggle on the **Force Positions** for the module row you are utilizing.
 
 The result will be:
 
-![](force-positions2.jpg) {.border .shadow}
+![](force-positions2.jpg?classes=shadow,border) 
 
 [/ui-tab]
 [ui-tab title="WordPress"]
@@ -46,14 +41,14 @@ This means that there will always be 4 utility widgets placed in the position (*
 
 Please note that you still need to use 3 **Gantry Divider** widgets in that position, but thanks to this option you don't need to have normal widgets between them.
 
-![](force-positions1.jpg) {.border .shadow}
+![](force-positions1.jpg?classes=shadow,border) 
 
 Enter the **Layouts** section and toggle on the **Force Positions** for the widget position you are utilizing.
 
 
 The result will be:
 
-![](force-positions2.jpg) {.border .shadow}
+![](force-positions2.jpg?classes=shadow,border) 
 
 [/ui-tab]
 [/ui-tabs]

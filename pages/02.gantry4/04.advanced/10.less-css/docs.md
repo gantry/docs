@@ -3,11 +3,6 @@ title: LESS CSS
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 **LESS** is a dynamic stylesheet language that extends CSS with dynamic behaviours such as variables, mixins, operations and functions. LESS allows your code to be cleaner, optimized whilst also reducing the overall time to create and maintain your code base.

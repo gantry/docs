@@ -3,11 +3,6 @@ title: System Requirements
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry framework does have some system requirements. Listed below are those requirements broken down into their distinct groups:

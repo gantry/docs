@@ -3,11 +3,6 @@ title: Creating a New Feature (Joomla)
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 In the Gantry framework, we use the term **Feature** to mean a specific bit of functionality. Features are flexible enough that they can be used to perform almost any type of logic you would need. The base **GantryFeature** class contains methods that can be implemented to control how your feature functions. Those methods are:

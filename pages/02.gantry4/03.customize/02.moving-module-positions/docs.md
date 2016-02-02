@@ -3,11 +3,6 @@ title: Moving Module Positions
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 This section covers moving a set of module positions within your Gantry-enabled template.

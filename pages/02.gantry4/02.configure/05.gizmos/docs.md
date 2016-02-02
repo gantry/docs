@@ -3,11 +3,6 @@ title: Gizmos (WordPress)
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 [plugin:youtube](https://www.youtube.com/watch?v=oQmpE_0OVro)
@@ -18,14 +13,14 @@ Page Suffix
 -----------
 The *Page Suffix* gizmo allows you to add extra CSS classes to the `<body>` tag of your site. This allows you to apply your CSS styles on a per-page basis.
 
-![](gizmos-page-suffix_wp.jpg) {.border .shadow}
+![](gizmos-page-suffix_wp.jpg?classes=shadow,border) 
 
 
 Feed Links
 ----------
 The *Feed Links* gizmo decides whether WordPress should add the feed links to the `<head>` tag, allowing various feed readers to access them.
 
-![](gizmos-feed-links_wp.jpg) {.border .shadow}
+![](gizmos-feed-links_wp.jpg?classes=shadow,border) 
 
 
 Custom Title Tag
@@ -66,14 +61,14 @@ The *Custom Title* tag allows you to customize your site's `<title>` tag to repl
 * `%blog_description%` - displays the blog description (set in WordPress Settings)
 * `%tag%` - displays the tag of the currently browsed tags page
 
-![](gizmos-custom-title-tag_wp.jpg) {.border .shadow}
+![](gizmos-custom-title-tag_wp.jpg?classes=shadow,border) 
 
 
 Shortcodes in Widgets
 ---------------------
 The *Shortcodes in Widgets* gizmo allows you to use WordPress shortcodes in Widgets when disabled shortcodes syntax placed in widgets won't get parsed.
 
-![](gizmos-shortcodes-in-widgets_wp.jpg) {.border .shadow}
+![](gizmos-shortcodes-in-widgets_wp.jpg?classes=shadow,border) 
 
 
 RokStyle
@@ -84,12 +79,12 @@ The *RokStyle* gizmo allows you to easily add inline CSS or JS code to the `<hea
 
 **JavaScript :** `[rokstyle type="js"]InputsExclusion.push('.example')[/rokstyle]`
 
-![](gizmos-rokstyle_wp.jpg) {.border .shadow}
+![](gizmos-rokstyle_wp.jpg?classes=shadow,border) 
 
 
 Google Analytics
 ----------------
 The *Google Analytics* gizmo allows you to enable Google Analytics tracking on your site in a quick and easy way. Just enable the feature and input your UA Key assigned to you by Google in the field provided.
 
-![](gizmos-google-analytics_wp.jpg) {.border .shadow}
+![](gizmos-google-analytics_wp.jpg?classes=shadow,border) 
 

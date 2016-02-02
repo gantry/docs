@@ -3,11 +3,6 @@ title: Custom Module Layout
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 In this section, we will go over creating a custom XHTML layout for modules in a Gantry-enabled template.

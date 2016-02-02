@@ -3,11 +3,6 @@ title: Per-Browser Specific Control
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry Framework has the ability to load different CSS files based upon which browser and operating system is viewing the template. This allows complete control over how a site is displayed to even the pickiest browser!

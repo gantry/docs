@@ -3,11 +3,6 @@ title: Creating New Layout
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 [ui-tabs position="top-left" active="0" theme="lite"]

@@ -3,11 +3,6 @@ title: Adding a Custom Mainbody Layout
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry framework ships with 38 possible layout combinations for the mainbody area. The mainbody is comprised of the mainbody itself (where the article or component is displayed) along with up to three additional sidebars for other modules.

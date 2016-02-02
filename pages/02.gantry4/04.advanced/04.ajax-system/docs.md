@@ -3,11 +3,6 @@ title: Built-In Ajax System
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry framework comes with a built-in Ajax system which acts as a bridge between the client and the framework. Every Ajax call is directed to an "Ajax Model" that receives the Ajax parameters, which after its operations, is able to return a response with what the original Ajax Call request is expecting. Below, you can see a schematic sum of the process.

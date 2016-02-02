@@ -3,11 +3,6 @@ title: Presets
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 Gantry makes use of a powerful Preset system that allows developers and site builders to create preset styles and configurations.
@@ -26,30 +21,30 @@ Creating a new Preset
 
 To configure a new preset, go to **Extensions → Template Manager → gantry — Default (Master) → Style**. Configure any style settings for the template such as Link Color.
 
-![](presets-configure.jpg) {.border .shadow}
+![](presets-configure.jpg?classes=shadow,border) 
 
 Once configured, click **Save Preset** from the Save button dropdown.
 
-![](presets-save.jpg) {.border .shadow}
+![](presets-save.jpg?classes=shadow,border) 
 
 The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset Name**, and the **Key Name** will be generated automatically. Then click **Save**.
 
-![](presets-create.jpg) {.border .shadow}
+![](presets-create.jpg?classes=shadow,border) 
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
 To configure a new preset, go to **Admin Dashboard → Gantry Theme → Style**. From here, you can configure style settings for the template. In the example below, we'll change the link color.
 
-![](presets-configure_wp.jpg) {.border .shadow}
+![](presets-configure_wp.jpg?classes=shadow,border) 
 
 Once configured, click **Save Preset** from the Save button dropdown.
 
-![](presets-save_wp.jpg) {.border .shadow}
+![](presets-save_wp.jpg?classes=shadow,border) 
 
 The Gantry **Presets Saver** modal dialog box will appear. Enter your **Preset Name**, and the **Key Name** will be generated automatically. Then click **Save**.
 
-![](presets-create_wp.jpg) {.border .shadow}
+![](presets-create_wp.jpg?classes=shadow,border) 
 
 [/ui-tab]
 [/ui-tabs]
@@ -61,4 +56,4 @@ Click on the **Presets** button to display all available presets. Your new prese
 
 After a preset is created, you can create a thumbnail image in the `admin/presets/` folder with the filename structure **keyname.png**, where keyname is the Keyname from the modal dialog box.
 
-![](presets-select.jpg) {.border .shadow}
+![](presets-select.jpg?classes=shadow,border) 

@@ -3,11 +3,6 @@ title: Creating a Popup Login Widget (WordPress)
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 This tutorial details how to create a custom widget that will utilize RokBox to present a modal popup box triggered by a link/button on the frontend. For this tutorial, we will be making a login widget popup.

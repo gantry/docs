@@ -3,11 +3,6 @@ title: Installation
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 The Gantry framework itself is independent of any template. Each Gantry-enabled template relies on the Gantry framework to provide the underlying base and extensive functionality that enables the creation of such powerful sites.
@@ -79,7 +74,7 @@ The Gantry template will appear in the **Template Manager**, the Gantry plugins 
 
 To install the Gantry template, you'll need to navigate to **Plugins → Add New** in the admin area of WordPress. From here, select the **Browse** button, locate the downloaded ZIP file, and click **Install Now** to begin installation.
 
-![](install-upload_wp.jpg) {.border .shadow}
+![](install-upload_wp.jpg?classes=shadow,border) 
 
 The Gantry template will appear in **Themes**, the Gantry plugins will appear in **Plugins**.
 
@@ -101,7 +96,7 @@ If you are using the Gantry template, you will want to set it as the default tem
 
 If you are using the Gantry framework, you'll want to use a Gantry-compatible template. After uploading your template, simply go to the **Appearance → Themes** area in the admin area of WordPress and click **Activate** next to your template.
 
-![](install-template_wp.jpg) {.border .shadow}
+![](install-template_wp.jpg?classes=shadow,border) 
 
 [/ui-tab]
 [/ui-tabs]

@@ -3,11 +3,6 @@ title: Creating a New Gizmo (WordPress)
 taxonomy:
     category: docs
     tag: [gantry4]
-gravui:
-    enabled: true
-    tabs: true
-process:
-    twig: true
 ---
 
 In the Gantry framework, we use the term **Gizmo** to refer to a specific type of functionality. Gizmos are flexible enough that they can be used to perform almost any kind of logic you would need. The base **GantryGizmo** class contains methods that can be implemented to control how your gizmo functions. Those methods are:
