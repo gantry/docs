@@ -23,7 +23,7 @@ Settings
 
 As menus are handled differently by different platforms, the settings may vary. See the options that appear by default on our main supported platforms below:
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Settings](menu_settings_j.png?classes=shadow,border)

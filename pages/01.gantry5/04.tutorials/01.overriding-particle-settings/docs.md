@@ -57,7 +57,7 @@ In this example, we will add a link to the **Copyright** Particle that goes dire
 
 In the image above, you will see the **Copyright** Particle on the left-hand side. There are no links or anything included in the core Particle. If you wanted to have the name of the copyright-holder become a link to that copyright holder's website, you can add a few simple changes to the Particle's source files.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/media/gantry5/engines/nucleus/particles/` and paste the copies to `TEMPLATE_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.

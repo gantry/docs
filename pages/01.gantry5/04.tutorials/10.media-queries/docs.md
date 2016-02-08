@@ -15,7 +15,7 @@ Because Gantry 5 gives you the ability to easily define the breakpoints between 
 
 ![Breakpoints](breakpoints.png?classes=shadow,border)
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Components → Gantry 5 Themes → Your Theme** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.

@@ -172,7 +172,7 @@ The above outline is to introduce you to the basics of how LESS works. For a mor
 LESS in the Gantry Template
 ---------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 All LESS files associated with the template are located in the `/templates/[TEMPLATE]/less/` directory. Gantry 4 utilizes a powerful PHP-based LESS compiler powered by [lessphp](lessphp). Gantry 4 outputs the processed LESS files into the `/templates/[TEMPLATE]/css-compiled/` directory.
@@ -192,7 +192,7 @@ Not all CSS files are compiled into a single file. Any CSS file that requires to
 How are LESS files compiled?
 ----------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 When a change is detected, Gantry **automagically** recompiles your LESS files into CSS files. To add a LESS file, you have two options. You can insert the following function into your PHP code:
@@ -300,7 +300,7 @@ This adds a conditional, where the parameter **typography-enabled** is active, t
 LESS Template Options
 ---------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 You can control CSS compression, Compile Wait Time and Debug Header, as well as manually clear the cache with the **Clear Cache** button at **Extensions → Template Manager → gantry → Advanced → Less Compiler**.

@@ -28,7 +28,7 @@ Pictured above is the **Showcase** section of the site, which features the **Sam
 
 In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/admin/blueprints/layout/`.
@@ -127,7 +127,7 @@ form:
       label: Background
 ```
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
@@ -273,7 +273,7 @@ Here is a quick reference to help you navigate the directory structure of a Gant
 
 ! Any files located in subdirectories of the directories listed below would also be added to the custom directory in order to override a file stored within. For example, `scss/hydrogen/_core.scss` would be copied and modified in the `custom` directory as `custom/scss/hydrogen/_core.scss`.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` directory where `ROOT` is the root directory of the Joomla site and `TEMPLATE_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
@@ -317,7 +317,7 @@ Grav documentation is coming soon...
 
 ### Engine Files
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The next batch is specific to Gantry, and not the theme. These folders are found in the `ROOT/media/gantry5` directory, which contains data used by the framework, independent of the theme.
@@ -373,7 +373,7 @@ Grav documentation is coming soon...
 
 ### Administrator Files
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The Gantry Administrator's component files are located in the `ROOT/administrator/components/com_gantry5/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.

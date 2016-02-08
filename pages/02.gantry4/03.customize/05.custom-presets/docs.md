@@ -7,7 +7,7 @@ taxonomy:
 
 This section covers the creation of a new custom preset in a Gantry-enabled template.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=n6FsulE58lU)
@@ -55,7 +55,7 @@ $gantry_presets = array(
 
 This array contains a set of presets comprised of another array of parameters along with a special parameter called **name** which is the display name for this preset.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The second kind of preset is the custom preset you can save from the template administrator. If you set a bunch of parameters in the administrator, you can click **Save Preset** from the Save button dropdown and save as **new preset**. This will save the same parameters as defined in the `$gantry_presets` variable. If you want to save new parameters, you will also need to add them to the `$gantry_presets` variable in order for them to be saved as a custom preset. If you save a custom preset, Gantry will create a file called **presets.ini** in your `YOUR_SITE/templates/YOUR_TEMPLATE/custom/` folder. In the example below, we saved a custom preset and chose the name "New Preset" in the popup dialog.
@@ -77,7 +77,7 @@ newpreset_font-family="s:helvetica"
 Step 3: Creating a Custom Thumbnail
 -----------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 When you create a new custom preset, there is a default image used in the preset chooser to represent this. You can create your own thumbnail for each style by creating a PNG file which is the 'short' name of the preset with the dimensions of 180px x 100px. For example, for our custom preset above, we would just create a small thumbnail called **newpreset.png** and put this file in the `YOUR_SITE/templates/YOUR_TEMPLATE/admin/presets/` folder.

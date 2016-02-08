@@ -25,7 +25,7 @@ Once you have the latest packages, installation is simple. We have provided a st
 
 ## Accessing the Gantry Administrator
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Administrator](../../configure/gantry-admin/admin_access_1.png?classes=shadow,border)

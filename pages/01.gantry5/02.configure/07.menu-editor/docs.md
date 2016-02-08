@@ -85,7 +85,7 @@ The sixth type of menu item, which is added and configured in the **Menu Editor*
 
 ## Module/Widget Injection
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Module Injection](menu_module_1.png?classes=shadow,border)

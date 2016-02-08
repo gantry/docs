@@ -9,7 +9,7 @@ The **Error** page is considered a **System Page** in Gantry 5, and editing it t
 
 You don't have to create a separate **Error** outline. It's actually included in the core of Gantry with its own **layout**, **settings**, and **styles** options.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The first step to customizing this page is to access the Gantry administrator by navigating to **Admin → Extensions → Template Manager** and selecting your active Gantry 5 template. This will take you to the Gantry Administrator. 

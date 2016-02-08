@@ -11,7 +11,7 @@ Gantry 5's, launching initially for the Joomla platform, is a multi-phase plan t
 
 You can find a full changelog for releases from 5.0.0 and beyond [here](https://github.com/gantry/gantry5/blob/master/CHANGELOG.md).
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Current"]
 
 5.2.7 Release

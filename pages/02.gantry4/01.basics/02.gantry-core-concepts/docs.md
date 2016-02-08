@@ -7,7 +7,7 @@ taxonomy:
 
 One of the key concepts that make Gantry so powerful is its ability to provide a wealth of power and functionality which can easily be accessed by the Joomla template. This makes it easier for you, the template developer, to write cleaner code. As a side benefit, it provides a level of abstraction that will allow you to go from Joomla 2.5 to 3.0+ without changing anything in your template. The Gantry library handles all the complicated bits for you.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
@@ -27,7 +27,7 @@ Check out the Gantry introductory video to get a feel of the features and capabi
 Template index.php
 ------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Let's start digging into Gantry by taking a look at how the **index.php** looks:
@@ -176,7 +176,7 @@ This is the standard location to define positions for Joomla and WordPress. This
 
 The top of this file contains some base information about the template and its configuration. The **top** module position has it's own configuration in the layouts section, along with a default value and some configuration settings that define which options are available. The abbreviated XML for this looks like this:
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ```xml

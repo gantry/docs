@@ -17,7 +17,7 @@ Determine the name of your custom module position. In this case, we will be usin
 Step 2: Editing html/modules.php
 --------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Open `html/modules.php` and scroll down to the bottom of the document. We need to create a new function as per the example below where we use our name "example" after the `modChrome_`.

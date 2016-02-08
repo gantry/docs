@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Extras](devprod.png?classes=shadow,border)
@@ -36,7 +36,7 @@ In the future, more **Development** vs. **Production** actions will be tied to t
 
 #### Alternative Toggle Access
  
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Production](production.png?classes=shadow,border)
@@ -62,7 +62,7 @@ Grav documentation is coming soon...
 
 ## Clear Cache
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
@@ -82,7 +82,7 @@ Grav documentation is coming soon...
 
 ## Platform Settings
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The **Platform Settings** shortcut takes you to a platform-specific settings page for Gantry 5. In Joomla, for example, you will be taken to the component configuration page for Gantry 5 (which typically handles advanced permissions configuration).

@@ -9,7 +9,7 @@ There are two main parts to Gantry -- the framework and the template. Therefore,
 
 ## Unsetting the Gantry Template as Default
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Setting Another Template as Default](uninstall_gantry_1.png?classes=shadow,border)
@@ -31,7 +31,7 @@ Grav documentation is coming soon...
 
 ## Uninstall Gantry
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Selecting All](../installation/gantry_extensions.png?classes=shadow,border)

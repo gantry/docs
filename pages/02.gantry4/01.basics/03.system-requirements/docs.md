@@ -10,7 +10,7 @@ The Gantry framework does have some system requirements. Listed below are those 
 Joomla Requirements
 -------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 **Joomla 2.5, 3.x**

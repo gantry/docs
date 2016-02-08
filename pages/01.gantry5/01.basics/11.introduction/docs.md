@@ -35,7 +35,7 @@ Thanks to Gantry's particles system, the developer can create content blocks for
 
 This means you can make less calls to the developer for simple changes. Just log in, access the Gantry 5 Administrator, make your changes, and save.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Are you familiar with Joomla's module system? Gantry 5 integrates completely with Joomla so you can continue to use module positions just as you always have. It's super easy to create a new module position in seconds using the Layout Manager and Menu Editor.

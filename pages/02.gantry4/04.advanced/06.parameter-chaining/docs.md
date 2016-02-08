@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry4]
 ---
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 During the development of the Gantry Framework, we found that we needed to organize sets of parameters into custom groups of related settings. You can create your own elements in *template-options.xml* to allow the setting of specific parameters which you can use later in your own features, layouts, etc. A good example of this is the **inactive** chain that controls what menu item should be displayed when the menu is inactive. The XML in question looks like this:

@@ -7,7 +7,7 @@ taxonomy:
 
 The Gantry framework ships with 38 possible layout combinations for the mainbody area. The mainbody is comprised of the mainbody itself (where the article or component is displayed) along with up to three additional sidebars for other modules.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 For the 12-column layout variation, these layouts are controlled by two variables called `$gantry_default_pushpullschemas` and `$gantry_default_mainbodyschemacombos` that are found in the `libraries/gantry/gantry.config.php`. The 12-column portion of this file looks like this:
@@ -147,7 +147,7 @@ Again, this is pretty easy to break down. The key in the associative array relat
 Adding A new Custom Layout Combo
 --------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 We assume that you have a specific need for a new layout combination that is not provided in these variables, and therefore not available to you in the template administrator. Let's say for some reason you want a really large body on the right, and a very skinny sidebar-a on the left. That would translate into a sidebar-a of **2 columns**, and the mainbody with **10 columns** of space.

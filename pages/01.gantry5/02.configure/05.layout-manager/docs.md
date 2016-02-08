@@ -54,7 +54,7 @@ You can even go back after hitting **Save Layout**, should one of your changes n
 Particles
 ------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Particles](particles.png?classes=shadow,border)

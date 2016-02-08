@@ -18,7 +18,7 @@ Creating, Deleting, and Moving Positions
 
 If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
@@ -56,7 +56,7 @@ You could have 0, 1, 5, 10, or even 20 individual widget positions in the Header
 Quick and Easy Naming
 -----
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Positions](positions_2.png?classes=shadow,border)
@@ -96,7 +96,7 @@ Settings
 
 The settings for a **Position** Particle can vary between content management systems (CMS). We have broken down the available options below.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Settings](positions_settings_j.png?classes=shadow,border)

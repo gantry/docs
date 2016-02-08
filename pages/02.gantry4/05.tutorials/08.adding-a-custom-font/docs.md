@@ -9,7 +9,7 @@ This tutorial will take you through the steps needed to add a custom font to you
 
 In this example, we will explain how you can add the custom free font **Bloody** to your Gantry template.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![](custom-font-setting.jpg)  {.border .shadow}
@@ -25,7 +25,7 @@ In this example, we will explain how you can add the custom free font **Bloody**
 Step 1: Adding Your Custom Font Files
 --------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Please ensure you download the **@font-face Kit**.
@@ -59,7 +59,7 @@ Unzip the package, and move the following files to `/wp-content/themes/[TEMPLATE
 Step 2: Adding the Necessary CSS
 --------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [Create your custom stylesheet file](../adding-a-custom-stylesheet), __gantry-custom.css__, and add it to `/templates/[TEMPLATE]/css/`. 
@@ -117,7 +117,7 @@ Add the following to the custom CSS file:
 Step 3: Adding the Info to the Font Settings Dropdown
 -----------------------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 With your text/code editor, open `/templates/[TEMPLATE]template-options.xml` and add the custom font option (line 9 in the below example):

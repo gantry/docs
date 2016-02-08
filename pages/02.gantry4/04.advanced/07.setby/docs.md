@@ -13,7 +13,7 @@ There are **static** and **dynamic** ways of setting the value of a parameter. T
 Parameter Value Precedence
 --------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 All parameters start out with a default value that is set in `template-options.xml`. These values can be changed in multiple different ways, each overriding the next if it has a value. The order of precedence for setting values is shown here:
@@ -37,7 +37,7 @@ The highest method which sets a value will always win. For example, if a **backg
 Allowing Dynamic Parameter Values
 ---------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 By default, all setting of a parameter value by a dynamic method is turned off. In order to allow setting of a value dynamically you have to enable it for every parameter you want and by the methods that the parameter is allowed to use. This is done in the `template-options.xml`. A parameter can have the following syntax with **setby**'s and **setin**'s. Here's an example:

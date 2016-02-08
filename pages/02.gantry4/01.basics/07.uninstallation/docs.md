@@ -10,7 +10,7 @@ There are two main parts to Gantry -- the framework and the template. Therefore,
 Unsetting the Gantry Template as Default
 ----------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 To uninstall the gantry template, you will first have to ensure that it is not set as the default template. Go to **Extensions → Template Manager**, select the checkbox to any other site template that is not gantry, and click **Default** in the button toolbar.
@@ -30,7 +30,7 @@ To uninstall the gantry template, you will first have to ensure that it's not ac
 Uninstall Gantry
 ----------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Uninstall the Gantry component, library, plugin and template from **Extensions → Extensions Manager → Manage**. Insert **gantry** into the **Filter** and click **Search**. Select all Gantry elements you wish to uninstall, then click **Uninstall** in the button toolbar. Gantry will now be uninstalled.

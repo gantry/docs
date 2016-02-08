@@ -16,7 +16,7 @@ Creating the YAML File
 
 While creating your Particle, it may be easier to start with the YAML file as this acts as the blueprint for the particle. The Twig file uses this YAML file to pull information, settings, and find out which fields are being used in the administrator for variables.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![File Location](particle_3.png?classes=shadow,border)
@@ -153,7 +153,7 @@ Let's say you wanted to pull the variable that is set on another particle. For e
 Customizing an Existing Particle
 -----
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `TEMPLATE_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.

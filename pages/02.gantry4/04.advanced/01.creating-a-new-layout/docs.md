@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry4]
 ---
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Layouts are blocks of code that control the HTML structure of a particular section of the template rendering. By default, Gantry comes with several built-in layout files. These are located in the `libraries/gantry/html/layouts/` folder.
@@ -56,7 +56,7 @@ In these rare cases, you can utilize the power of the Gantry framework to overri
 Step 2: Create/Copy New Layout Files
 ------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The simplist way to do this is to copy an existing layout. In this example, we'll copy the **body_mainbody.php** layout and modify it. These files are located here:
@@ -94,7 +94,7 @@ Step 3: File Structure
 
 After you have copied the `body_mainbody.php` file, you can open it up and edit it to suit your needs. By default, it looks like this:
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ```php

@@ -20,7 +20,7 @@ The installation process is exactly the same for each of these. The only differe
 
 ## Installing the Gantry Framework
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
@@ -76,7 +76,7 @@ Grav documentation is coming soon...
 
 ## Installing a Gantry Theme
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Install at **Extensions → Extensions Manager → Install**. Select the **Choose File** button, locate the downloaded ZIP and click **Upload & Install** to begin the installation.
@@ -114,7 +114,7 @@ Grav documentation is coming soon...
 
 ## Setting a Gantry Theme as Default
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 If you are using the Gantry template, you will want to set it as the default template so it loads on the front end. Go to **Extensions → Template Manager**, select the **gantry** checkbox, and click **Default** in the button toolbar.

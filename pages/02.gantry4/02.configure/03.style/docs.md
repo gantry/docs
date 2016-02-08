@@ -10,7 +10,7 @@ The **Style** panel in the Gantry based template administration interface provid
 Logo
 ----
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The Logo setting provides the ability to show/hide the logo, select its position, or changes its type. By default, this is **Gantry Template** which allows you to load three different style options for **Logo Style**.

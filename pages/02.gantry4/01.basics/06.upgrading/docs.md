@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry4]
 ---
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 There are several parts to Gantry: The library, component, plugin, and template -- and each have a similar upgrading process.

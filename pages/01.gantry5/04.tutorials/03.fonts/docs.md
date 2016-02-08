@@ -21,7 +21,7 @@ If you would like to make your new font accessible to the **Font Picker**, you w
 
 Here are the steps you will need to take to make this happen.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Fonts](files.png?classes=shadow,border)
@@ -129,7 +129,7 @@ Grav documentation is coming soon...
 
 If you want to have local fonts load across your site, you can do so by completing these simple steps:
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Fonts](files.png?classes=shadow,border)
@@ -195,7 +195,7 @@ In this example, we will explain how you can add the custom free font **Bloody**
 
 **Bloody** is a free font that you can download at [FontSquirrel](http://www.fontsquirrel.com/fonts/Bloody). Please ensure you download the **@font-face Kit**.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Unzip the package and move the following files to `TEMPLATE_DIR/custom/fonts/`:
@@ -229,7 +229,7 @@ Grav documentation is coming soon...
 
 ### Step 2: Adding the Necessary CSS
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `TEMPLATE_DIR/custom/scss/`. 

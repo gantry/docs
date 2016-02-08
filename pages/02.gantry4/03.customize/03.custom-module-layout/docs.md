@@ -18,7 +18,7 @@ Determine the name of your custom module layout.
 Step 2: Create/Copy New Layout File
 -----------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The simplest way to do this is to copy an existing layout and modify it after. The files are located under `YOUR_SITE/libraries/gantry/html/layouts/`. However, you do not want to modify the core Gantry files. Instead, copy the new layout file to `YOUR_SITE/templates/YOUR_TEMPLATE/html/layouts`. In this case, use `mod_standard.php`.
@@ -34,7 +34,7 @@ The simplest way to do this is to copy an existing layout and modify it after. T
 Step 3: File Structure
 ----------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Each custom module layout requires a function `render()`. This is what will be called by Gantry to display the layout. In this case, since we have copied an existing layout, this will already be provided.

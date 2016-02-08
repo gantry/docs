@@ -15,7 +15,7 @@ The **Layouts** panel in the Gantry-based template administration interface prov
 Using Layouts
 -------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Each of the major module rows/sections is represented with a slider to allow for dynamic control over how modules are laid out -- based on how many module positions are in use or published. By default, the layout will be an equal size for the published modules.
@@ -95,7 +95,7 @@ The layout for this is controlled in the template parameters. As you can see bel
 
 ![](layouts-mb1.jpg?classes=shadow,border) 
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 If you drag the slider to the right, you will see the positions shuffle around and give different options for where the mainbody is displayed in addition to various widths for each. With four total columns, there is not much room to have widely-varying column widths, so let's turn off one of the columns by disabling the modules in the **sidebar-c** module position using our module manager. Below, you will see how the default layout is currently set to display when we have only two sidebars published:

@@ -7,7 +7,7 @@ taxonomy:
 
 This section covers how to add a new row of module positions to the Gantry Framework and to your Gantry-enabled template.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)
@@ -34,7 +34,7 @@ Determine the position name and location on your template where you would like y
 Step 2: Adding Position to index.php
 ------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Open your template `index.php` file and go to where you would like to add your new row position. Using `$gantry`, we will make a call to the object using the function: `displayModules(positionname, widgetlayouttype, widgetchromelayout);`. This call will need to be echoed.
@@ -72,7 +72,7 @@ The new position now will appear after we have configured the Gantry portion to 
 Step 3: Adding Position to Gantry Framework
 -------------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Open `templateDetails.xml` and scroll down to the "positions" tag where the default Gantry positions are listed. Under here we will need to add our "row module" positions a through f, as in the example below:

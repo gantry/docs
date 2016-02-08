@@ -1,2 +1,6 @@
 debugger:
   enabled: true
+
+cache:
+  enabled: false
+  

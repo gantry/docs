@@ -9,7 +9,7 @@ There are times when you just don't want to have your modules/widgets taking up 
 
 For example, you might want to have a module on the left and a module on the right, with nothing in the middle. In traditional templates, you would have to resort to making two specific module positions, and using CSS, position them on the left and right sides of your design.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=Lfl4nQnduvo)

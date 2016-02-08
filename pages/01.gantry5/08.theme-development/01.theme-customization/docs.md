@@ -62,7 +62,7 @@ Once you download it, you need to unzip the `headroom.js-master.zip` file. You w
 
 You need to keep all your modifications and additions in the `THEME_DIR/custom/` directory so they do not get overwritten when you update the template. Then, create the `THEME_DIR/custom/js/` directory structure and copy the `headroom.min.js` file there.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Atoms Method"]
 
 ![](local_1.png?classes=shadow,border)
@@ -104,7 +104,7 @@ Now, you will need to add a script to `page.html.twig` in order to load `headroo
 
 ### Method 2: Loading Remotely
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Atoms Method"]
 
 Adding the script remotely is pretty easy. You can do this through the Gantry 5 Administrator's **Page Settings** tab using a feature called **Atoms**. They can be found at the bottom of the tab. Simply drag-and-drop a **Custom CSS / JS** atom down to the atoms bar and create a new **JavaScript** item.

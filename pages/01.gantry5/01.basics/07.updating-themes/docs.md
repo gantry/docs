@@ -21,7 +21,7 @@ However, there may be cases where you have customized a theme file directly at t
 
 ## Platform-specific Process
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Joomla makes it easy to update your Gantry 5-powered template. Once an update is available, you will be notified in the Joomla administrator just as you would with any other extension.

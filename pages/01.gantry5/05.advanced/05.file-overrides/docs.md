@@ -15,7 +15,7 @@ When creating custom files, you should always keep these files in your `custom` 
 
 ## Gantry Directory Structure
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Gantry installs 6 extensions. We have detailed these extensions, including example custom file overrides for extensions with files you would be likely to customize, below.
@@ -98,7 +98,7 @@ Grav documentation is coming soon...
 
 ## Gantry Theme Files
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 All templates are located in the `/templates` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `templates/TEMPLATE_DIR/custom/` folder.

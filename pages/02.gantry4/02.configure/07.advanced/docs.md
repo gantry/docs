@@ -11,7 +11,7 @@ The **Advanced** panel in the Gantry-based template administration interface pro
 Mainbody Enabled
 ----------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The **Mainbody Enabled** option allows you to enable/disable the entire mainbody section. This is useful for sites and templates that want to make use of a front page that consists entirely of modules with only subpages showing the Joomla component output.

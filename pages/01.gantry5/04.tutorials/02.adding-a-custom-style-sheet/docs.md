@@ -23,7 +23,7 @@ Once you have added this file, and put your custom CSS/SCSS within, Gantry will 
 
 If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Extras](devprod.png?classes=shadow,border)

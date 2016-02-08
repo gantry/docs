@@ -16,7 +16,7 @@ Gantry Presets are a combination of Gantry features and configuration settings w
 Creating a new Preset
 ---------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 To configure a new preset, go to **Extensions → Template Manager → gantry — Default (Master) → Style**. Configure any style settings for the template such as Link Color.

@@ -13,7 +13,7 @@ This tutorial will take you through the steps needed to create an unsupported br
 Step 1: Unsupported Browser Redirect Feature
 --------------------------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The logic for this unsupported browser page is powered by a custom feature that we've called **unsupportedredirect.php**, in this instance. This is a custom feature that we create and drop into the template's `features/` folder. The code is very simple as you can see below:
@@ -150,7 +150,7 @@ This is where the logic actually happens. The `init()` method is the better plac
 Step 2: Unsupported tmpl file
 -----------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 As you saw at the end of Step 1, we've redirected IE6 users to **?tmpl=unsupported**, but what does this mean? We are going to take advantage of a little-known feature in Joomla that allows you to change the 'index' file used when rendering a page. By default, Joomla looks for **index.php** inside your template folder, however if you pass another name in via the 'tmpl' request variable (**?tmpl=unsupported** as an example), Joomla will look for a file called **unsupported.php** and use this rather than **index.php** to render the page.
@@ -313,7 +313,7 @@ Basically, we've removed all the extraneous widget calls and left the page in a 
 Step 3: Tweaking and Testing
 ----------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 At this point, you should have a fully-functional feature. To test it out in your regular browser, you can just point it to **http://YOUR_SITE/?tmpl=unsupported**, and it should show you the new page based on the **unsupported.php** file you created. You should tweak and optimize this output to suit your needs. We kept ours pretty similar to our regular page, and even included our regular **template.css** and **joomla.css** files. We also added a new **unsupported.css** file that has some styling which is only needed on this page. You can see these in the `addStyles()` method in the **unsupported.php** file listed above.

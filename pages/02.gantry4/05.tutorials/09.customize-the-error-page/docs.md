@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry4]
 ---
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Joomla comes with a default 404 Error Page which Gantry can override at `/templates/[TEMPLATE]/error.php`.
@@ -35,7 +35,7 @@ In this example, we will create a custom error page with this design:
 Step 1: Edit the Error Page
 ---------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Edit the `rt-error-body` area in `/templates/[TEMPLATE]/error.php` to reflect the following.
@@ -95,7 +95,7 @@ Edit the `rt-error-body` area in `/wp-content/themes/[TEMPLATE]/404.php` to refl
 Step 2: Adding Custom CSS
 -------------------------
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [Add a custom css file](../adding-a-custom-stylesheet) for styling our custom error page, and load it by adding the stylesheet link declaration in `error.php`.

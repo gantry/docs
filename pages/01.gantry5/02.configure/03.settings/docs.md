@@ -45,7 +45,7 @@ The **Atom Settings** area of the **Settings** administrative panel gives you th
 Position Settings
 -----
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 ![Joomla Position Settings](position_settings.png?classes=shadow,border)
@@ -77,7 +77,7 @@ The **System Messages** setting area enables you to display system messages in y
 
 ### Platform-specific Positions
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 #### Module Position

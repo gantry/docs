@@ -31,7 +31,7 @@ Positions
 
 Positions are Particles that have content assigned to them by the CMS. In most CMS frameworks, these are hard-coded in the theme. In Gantry 5, you can freely create, move, and remove them as you please using the **Layout Manager**.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 Positions can be renamed for reference on the backend and rekeyed. A position particle's **Key** is equivalent to a template position in standard CMS speak allowing you to create a position label modules are assigned to. This makes migration from other templates which likely won't have the same position naming scheme easier. In this case you can easily rekey Positions rather than having to reassign modules one-by-one.

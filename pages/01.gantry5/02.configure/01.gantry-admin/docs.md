@@ -9,7 +9,7 @@ The **Gantry Admin** is a collection of settings used to set up and configure a 
 
 You can reach the Gantry Admin by following these steps:
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=JWKpeFRqcDI)
@@ -132,7 +132,7 @@ The **Assignments** panel is your one-stop-shop for assigning Outlines to specif
 
 #### Content (WordPress)
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 The **Content** administrative panel is not available on Joomla as Joomla handles these settings in its own integrated system.

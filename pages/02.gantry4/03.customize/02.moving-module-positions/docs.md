@@ -7,7 +7,7 @@ taxonomy:
 
 This section covers moving a set of module positions within your Gantry-enabled template.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=snZSUSWMnpM)

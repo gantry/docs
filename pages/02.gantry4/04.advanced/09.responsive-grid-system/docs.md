@@ -7,7 +7,7 @@ taxonomy:
 
 The Gantry Framework was originally based on the [960 Grid System](http://960.gs/) that offered a 12-column grid structure based on a fixed 960px-width layout. From version 4.x on, the responsive grid system of [Twitter's Bootstrap](http://twitter.github.com/bootstrap/) is used.
 
-[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
 [plugin:youtube](https://www.youtube.com/watch?v=AKqppYSttEE)
