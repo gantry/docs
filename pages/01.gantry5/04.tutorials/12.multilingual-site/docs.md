@@ -33,7 +33,7 @@ Everything written here can be applied to any Gantry-powered template.
 [ui-callout]
 [ui-callout-item title="Install Language" position="37%, 14%, se"]
 [/ui-callout-item]
-![](multilanguage_1.jpeg)
+![](multilanguage_1.png)
 [/ui-callout]
 
 First thing that you should do is to install additional languages that will be used on the web site. You can do this by navigating to **Extensions Manager -> Install Languages**, selecting the language(s) you wish to install, and clicking the yellow **Install** button in the upper-right area of the page.
@@ -43,7 +43,7 @@ First thing that you should do is to install additional languages that will be u
 [/ui-callout-item]
 [ui-callout-item title="Install" position="22%, 10%, se"]
 [/ui-callout-item]
-![](multilanguage_2.jpeg)
+![](multilanguage_2.png)
 [/ui-callout]
 
 When you installed all the required languages go to **Language Manager** which can be reached by going to **Administrator -> Extensions -> Language Manager**. On the **Installed - Site** tab, you will see the list of all installed languages on the web site. Now, we just need to add content languages.
@@ -55,7 +55,7 @@ When you installed all the required languages go to **Language Manager** which c
 [/ui-callout-item]
 [ui-callout-item title="New" position="28%, 10%, se"]
 [/ui-callout-item]
-![](multilanguage_3.jpeg)
+![](multilanguage_3.png)
 [/ui-callout]
 
 You can do this by selecting the **Content** tab and then selecting **New**. This will take you to a page that enables you to set up a new content language for your site.
