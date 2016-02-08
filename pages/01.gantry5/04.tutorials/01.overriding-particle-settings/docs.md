@@ -40,7 +40,7 @@ Selecting the cogwheel icon will bring up the **Settings** popup.
 [ui-callout-item title="Particle Settings" position="15%, 50%, se"]
 The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
 [/ui-callout-item]
-![](menu_item_settings.png?classes=shadow,border)
+![](../configure/menu-editor/menu_item_settings.png?classes=shadow,border)
 [/ui-callout]
 
 When you place a particle in an outline's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
