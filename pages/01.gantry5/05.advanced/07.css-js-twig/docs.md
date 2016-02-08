@@ -9,7 +9,7 @@ taxonomy:
 
 If you want to add JavaScript and/or CSS from your twig file, you can do something like this:
 
-{% verbatim %}
+
 ``` twig
 {# Add assets into head of the document by using default priority. #}
 {% assets in 'head' with { priority: 0 } %}
@@ -23,7 +23,7 @@ If you want to add JavaScript and/or CSS from your twig file, you can do somethi
     </script>
 {% endassets -%}
 ```
-{% endverbatim %}
+
 
 Basically assets can take two optional parameters:
 
@@ -36,7 +36,7 @@ Priority with higher numbers are added into the document before any lower number
 
 There is also a twig tag for JavaScript only:
 
-{% verbatim %}
+
 ``` twig
 {# Add javascript into end of the document (before any other javascript in the footer). #}
 {% scripts in 'footer' with { priority: 10 } %}
@@ -46,11 +46,11 @@ There is also a twig tag for JavaScript only:
     </script>
 {% endscripts -%}
 ```
-{% endverbatim %}
+
 
 And for style sheets only:
 
-{% verbatim %}
+
 ``` twig
 {# Add some stylesheets and make them to load last (override other styles). #}
 {% styles with { priority: -10 } %}
@@ -60,26 +60,25 @@ And for style sheets only:
     </style>
 {% endstyles -%}
 ```
-{% endverbatim %}
+
 
 ## Advanced Tip
 
 You can also add your custom locations where you can output styles and scripts. As an example:
 
-{% verbatim %}
+
 ``` twig
 {{ gantry.styles('styles')|join("\n    ")|raw }}
 {{ gantry.scripts('scripts')|join("\n    ")|raw }}
 ```
-{% endverbatim %}
+
 
 After defining the locations, you can add stuff into them just like the head and footer:
 
-{% verbatim %}
+
 ``` twig
 {# Add javascript into your custom location. #}
 {% scripts in 'scripts' %}
     <script type="text/javascript" src="{{ url('gantry-theme://js/script.js') }}"></script>
 {% endscripts -%}
 ```
-{% endverbatim %}

@@ -135,7 +135,7 @@ Now, you will notice that the new field appears on the back end.
 
 The `copyright.html.twig` file also needs to be changed, in order to incorporate the new data and create the link. Below is the original Twig file's content:
 
-{% verbatim %}
+
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -157,7 +157,7 @@ The `{{ particle.owner|e }}` line needs to be altered to add the link based on t
 {{ particle.owner }}
 {% if particle.site %}</a>{% endif %}
 ```
-{% endverbatim %}
+
 
 ![Particle Override](source_4.png?classes=shadow,border)
 

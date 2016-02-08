@@ -100,7 +100,7 @@ The next file you will need to create will sit in the same directory as the YAML
 
 Here is the content of the `example_particle.html.twig` file:
 
-{% verbatim %}
+
 
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
@@ -130,7 +130,7 @@ The bits that are placed between curly brackets such as `{{ particle.title|e }}`
 
 ! The `|e` that appears after the Particle field name in our example is a Twig filter. You can find a list of filters [here](http://twig.sensiolabs.org/doc/filters/index.html).
 
-{% endverbatim %}
+
 
 Once you have created these files, you should see the Particle appear in the **Settings** and **Layout Manager** administrative panels in the Gantry 5 administrator.
 
@@ -139,7 +139,7 @@ Once you have created these files, you should see the Particle appear in the **S
 One of the key components of Gantry is the ability to easily set up fields and options using YAML files that can then be used by users in the Gantry 5 administrator to configure the site.
 
 The YAML file creates the field (or option), the user configures that option, defining the variable which you can then have used during page rendering through your Twig file.
-{% verbatim %}
+
 Pulling a configuration variable is pretty easy. You just need to use the `gantry.config.get()` command to pull this data.
 
 One example of this would be using the line `{{ gantry.config.get('styles.base.background') }}` to grab the currently-set base background color for the theme.
@@ -148,7 +148,7 @@ In our current example, we are pulling the configuration option for the current 
 
 Let's say you wanted to pull the variable that is set on another particle. For example, the Branding particle. You can fetch this information using `{{ gantry.config.get('particles.branding.css.class') }}` which tells Gantry to pull the CSS Class value set in the Branding particle. Doing this will grab the default value, rather than a value set in an individual particle instance from the Layout Manager or Menu Editor.
 
-{% endverbatim %}
+
 
 Customizing an Existing Particle
 -----

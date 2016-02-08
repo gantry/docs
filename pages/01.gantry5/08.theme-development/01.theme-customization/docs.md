@@ -78,26 +78,26 @@ In the item, you will want to paste `gantry-theme://custom/js/headroom.min.js` i
 
 Now, all you need to do is add a script to the page before the `</body>` tag. You can do this through the Gantry 5 Administrator's **Page Settings** tab. This gives you control over which page(s) the effect appears on. Just locate the **Before </body>** field and enter the following:
 
-{% verbatim %}
+
 
 ```html
 <script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
 ```
 
-{% endverbatim %}
+
 
 [/ui-tab]
 [ui-tab title="File Override (Not Recommended)"]
 
 Now, you will need to add a script to `page.html.twig` in order to load `headroom.min.js` on each page. Here is the line of code you will want to place just above the `</body>` tag.
 
-{% verbatim %}
+
 
 ```html
 <script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
 ```
 
-{% endverbatim %}
+
 
 [/ui-tab]
 [/ui-tabs]
@@ -111,13 +111,13 @@ Adding the script remotely is pretty easy. You can do this through the Gantry 5 
 
 In the item, you will want to paste the following url in the **File Location** field and, if desired, select the **Before </body>** option. You can now select **Apply**.
 
-{% verbatim %}
+
 
 ```html
 //cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js
 ```
 
-{% endverbatim %}
+
 
 The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
 
@@ -126,13 +126,13 @@ The link may differ depending on where you wish to source the file from. [Here i
 
 You can also load the script remotely. Just replace the above script in the **Before </body>** field with the following:
 
-{% verbatim %}
+
 
 ```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
 ```
 
-{% endverbatim %}
+
 
 The link may differ depending on where you wish to source the file from. [Here is a useful list](https://cdnjs.com/libraries/headroom).
 
@@ -182,7 +182,7 @@ The second section of script enables the Offcanvas section present for mobile de
 
 Putting it all together, here's a look at the full section including our script from before, the script we just added, and the `</body>` tag.
 
-{% verbatim %}
+
 
 ```twig
     <script type="text/javascript" src="{{ url('gantry-theme://custom/js/headroom.min.js') }}"></script>
@@ -204,7 +204,7 @@ Putting it all together, here's a look at the full section including our script 
 </body>
 ```
 
-{% endverbatim %}
+
 
 ## Add the Style (SCSS)
 
@@ -212,7 +212,7 @@ This part of the guide is the meat and potatoes of this process. It tells the br
 
 [In a previous guide](../../tutorials/adding-a-custom-style-sheet), we detailed how to create a custom style sheet in Gantry 5. Using this method, you can add the following script to your `custom.scss` file.
 
-{% verbatim %}
+
 
 ```css
 @import "dependencies";
@@ -244,7 +244,7 @@ This part of the guide is the meat and potatoes of this process. It tells the br
 }
 ```
 
-{% endverbatim %}
+
 
 This will get you up and running, however users that prefer more control over these elements can use this optional code below, instead. Remember that `#g-navigation` should be replaced with `#g-header` if your main menu is located in the **Header** section.
 

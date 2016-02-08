@@ -283,13 +283,13 @@ Grav documentation is coming soon...
 
 Once you have added the font to your theme's custom content directory, you can apply it to your site. For example, if you wanted the title of a Particle to appear in the **Bloody** font, you would reference it in the Particle's Twig file.
 
-{% verbatim %}
+
 
 ```twig
 {% if particle.headline %}<h1 class="font-family-bloody">{{ particle.headline|raw }}</h1>{% endif %}
 ```
 
-{% endverbatim %}
+
 
 As you can see, we set the **h1** style to `font-family: BloodyNormal;`. Because that font family is defined in the `custom.scss` file, it should pull the **Bloody** find and present it to the front end.
 

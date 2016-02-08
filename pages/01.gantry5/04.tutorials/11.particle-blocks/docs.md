@@ -19,7 +19,7 @@ In this guide, we will go over the different types of blocks that appear in a pa
 
 Here's an example twig file demonstrating the different blocks you can use in a particle.
 
-{% verbatim %}
+
 ``` twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -42,26 +42,26 @@ Here's an example twig file demonstrating the different blocks you can use in a 
     {# particle output goes here #}
 {% endblock %}
 ```
-{% endverbatim %}
+
 
 ## Adding a JavaScript Block
 
 Adding a JavaScript block to your particles is pretty easy. In your particle's twig file, you just need to create a JavaScript block and include the necessary information to load your specific JavaScript asset. Here's an example of a JavaScript block being used in a standard particle:
 
-{% verbatim %}
+
 ```twig
 {% block javascript %}
     {{ parent() }}
     <script src="{{ url('gantry-theme://js/filename.js') }}"></script>
 {% endblock %}
 ```
-{% endverbatim %}
+
 
 You can place the block apart from the style sheet or particle block, or have it wrap around these other elements (or parts of them) to apply that JavaScript property to them. If you want a JavaScript asset to load just prior to the `</body>` tag of the page, you would exchange `block javascript` with `block javascript_footer`.
 
 Here's an example of a JavaScript block used a real-world application. In this case, this is the `analytics.html.twig` file used to create Gantry's **Google Analytics** atom.
 
-{% verbatim %}
+
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -85,23 +85,23 @@ Here's an example of a JavaScript block used a real-world application. In this c
     {% endif %}
 {% endblock %}
 ```
-{% endverbatim %}
+
 
 ## Adding a Style Sheet Block
 
 Adding a Style Sheet block works very much the same way to a JavaScript or particle block. Here's an example:
 
-{% verbatim %}
+
 ```twig
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ somelocation }}" type="text/css"/>
 {% endblock %}
 ```
-{% endverbatim %}
+
 
 Combining a style sheet block with a JavaScript block is pretty simple to do. We actually use this approach to load both JavaScript and CSS assets through a single particle. Here's a look at a real-world application found in the `assets.html.twig` file which creates the **Custom CSS / JS** atom.
 
-{% verbatim %}
+
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -135,7 +135,7 @@ Combining a style sheet block with a JavaScript block is pretty simple to do. We
     {% endfor %}
 {% endblock %}
 ``` 
-{% endverbatim %}
+
 
 ## Particle Block
 
@@ -143,7 +143,7 @@ The particle block is the meat and potatoes of a particle. It's the content, the
 
 To offer a real-world example: Here is a look at the `branding.html.twig` twig file the makes up the **Branding** particle.
 
-{% verbatim %}
+
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -153,6 +153,6 @@ To offer a real-world example: Here is a look at the `branding.html.twig` twig f
 </div>
 {% endblock %}
 ```
-{% endverbatim %}
+
 
 

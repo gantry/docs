@@ -7,13 +7,13 @@ taxonomy:
 
 Throughout this documentation, you may have noticed Twig filters such as `|e` and `|raw` being used as we reference YAML fields in our examples. Here is a quick example:
 
-{% verbatim %}
+
 
 ```twig
 {% if particle.headline %}<h1 class="font-family-bloody">{{ particle.headline|raw }}</h1>{% endif %}
 ```
 
-{% endverbatim %}
+
 
 This line comes from our [guide](../../tutorials/fonts) on adding and applying fonts. It detects if the headline field of a particle has a set value, and if so, displays it in its raw HTML format.
 

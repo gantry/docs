@@ -25,7 +25,7 @@ To add the Mobile Detect php function, we first need to download the library. Yo
 
 Your theme folder should now look like this:
 
-{% verbatim %}
+
 
 ```
 + g5_hydrogen
@@ -36,11 +36,11 @@ Your theme folder should now look like this:
       - Mobile_Detect.php
 ```
 
-{% endverbatim %}
+
 
 Now you are ready to inject `Mobile_Detect` into gantry by editing the `theme.php` file and adding the following simple lines of code at the bottom of the file:
 
-{% verbatim %}
+
 
 ```php
 // Require the Mobile Detect library
@@ -50,7 +50,7 @@ include_once dirname(__FILE__).'/../custom/includes/Mobile_Detect.php';
 $gantry['mobile_detect'] = new Mobile_Detect();
 ```
 
-{% endverbatim %}
+
 
 This will make the Mobile Detect library available to the `twig` files via the `gantry.mobile_detect` call. Any method that [Mobile Detect](https://github.com/serbanghita/Mobile-Detect/wiki/Code-examples) provides is now available to you.
 
@@ -60,7 +60,7 @@ Once you have the class injected, you will be able to reference it from any of t
 
 Here is an example of a call that puts **Mobile Detect** to use.
 
-{% verbatim %}
+
 
 ```twig
 {%- if not gantry.mobile_detect.isMobile() -%}
@@ -68,7 +68,7 @@ Here is an example of a call that puts **Mobile Detect** to use.
 {%- endif -%}
 ```
 
-{% endverbatim %}
+
 
 ## Real World Example
 
@@ -78,7 +78,7 @@ Let's create a simple new `Mobile Detect` particle and put together all we've le
 
 The first step is to create the required `YAML` and `Twig` files for this new particle. You can do so by creating a new folder `custom/particles` (if not there already) and by adding two new files: `mobile_detect.html.twig` and `mobile_detect.yaml`.
 
-{% verbatim %}
+
 ```
 + g5_hydrogen
   + custom
@@ -86,13 +86,13 @@ The first step is to create the required `YAML` and `Twig` files for this new pa
       - mobile_detect.html.twig
       - mobile_detect.yaml
 ```
-{% endverbatim %}
+
 
 For the sake of the example, the particle is going to be an extremely simple one and this is the content we will use for its files:
 
 ##### mobile_detect.html.twig
 
-{% verbatim %}
+
 ```twig
 {% extends '@nucleus/partials/particle.html.twig' %}
 
@@ -118,17 +118,17 @@ For the sake of the example, the particle is going to be an extremely simple one
 {% endblock %}
 
 ```
-{% endverbatim %}
+
 
 ##### mobile_detect.yaml
 
-{% verbatim %}
+
 ``` yaml
 name: Mobile Detect
 description: Example Particle
 type: particle
 ```
-{% endverbatim %}
+
 
 At this point, the `Mobile Detect` particle is going to show up in Gantry 5 administrator. You can now drag and drop the particle anywhere you like in the Layout Manager and after having saved you will see Mobile Detect being used.
 

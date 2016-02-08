@@ -147,7 +147,7 @@ Grav documentation is coming soon...
 
 Here is the `section.html.twig` file prior to our changes:
 
-{% verbatim %}
+
 
 ```twig
 {% set tag_type = segment.subtype|default('section') %}
@@ -199,13 +199,13 @@ Here is the `section.html.twig` file prior to our changes:
 
 ```
 
-{% endverbatim %}
+
 
 What we would like to do for this example is add a div that surrounds the HTML, adding the background the user has added from the **Image Picker** field in the **Section** settings. In order to do this, we have to point the **div** to the attribute set in the `section.` file.
 
 Here is the same file with the changes:
 
-{% verbatim %}
+
 
 ```twig
 {% set tag_type = segment.subtype|default('section') %}
@@ -257,7 +257,7 @@ Here is the same file with the changes:
     {% endif %}
 {% endif %}
 ```
-{% endverbatim %}
+
 
 ![Showcase Section - Before](custom_file_2.png?classes=shadow,border)
 
