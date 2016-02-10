@@ -3,11 +3,6 @@ title: Customizing Theme Files
 taxonomy:
   category: docs
   tag: [gantry5]
-gravui:
-  enabled: true
-  tabs: true
-process:
-  twig: true
 ---
 
 After you have downloaded and installed your Gantry-powered theme, you may want to customize it to make changes that go beyond its included **Settings** and **Particle** options.
@@ -147,8 +142,6 @@ Grav documentation is coming soon...
 
 Here is the `section.html.twig` file prior to our changes:
 
-
-
 ```twig
 {% set tag_type = segment.subtype|default('section') %}
 {% set attr_id = segment.attributes.id ?: 'g-' ~ segment.id %}
@@ -196,10 +189,7 @@ Here is the `section.html.twig` file prior to our changes:
     {{ html|raw }}
     {% endif %}
 {% endif %}
-
 ```
-
-
 
 What we would like to do for this example is add a div that surrounds the HTML, adding the background the user has added from the **Image Picker** field in the **Section** settings. In order to do this, we have to point the **div** to the attribute set in the `section.` file.
 
