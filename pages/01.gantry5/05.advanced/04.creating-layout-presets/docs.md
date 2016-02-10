@@ -3,11 +3,6 @@ title: Creating Layout Presets
 taxonomy:
   category: docs
   tag: [gantry5]
-gravui:
-  enabled: true
-  tabs: true
-process:
-  twig: true
 ---
 
 Layout Presets are the basic building blocks the Layout Manager uses as a starting point for you to customize the layout of your site. Each preset gives you a new set of sections, each linked to styling, making up the look and feel of the site. You can then place Particles and Positions into these sections, add rows, and arrange the page the way you would like it to look.
