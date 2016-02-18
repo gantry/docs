@@ -1,0 +1,122 @@
+Galatea introduced the Owl Carousel particle. This is a complex particle as it needs CSS and JS support files to function. This makes it a prime example to show how to integrate particles from one Gantry 5 template to another.
+
+In this guide we'll integrate the Owl Carousel particle into the Isotope template. This same process would actually be used for any Gantry 5 template.  
+The process in general follows this **work-flow** to migrate the `CoolNew` particle:
+
+> - You need a copy of the template than contains the `CoolNew` particle.  
+> - Copy the particles `CoolNew.html.twig` and `CoolNew.yaml` files to a custom particle override folder in your current template.   
+> - Copy any JS files with the file name `CoolNew` to the custom JS override folder in your current template.
+> - Copy any SCSS files with the file name `CoolNew` to the "custom/scss" override folder in your current template.
+> - Copy any CSS support files using their Folder/File name structure to the appropriately created override folder in your current template.
+> - Setup the CSS support files in your Outlines Global Page Settings screen. This is done in the Atoms section using the `Custom CSS/JS` atom.
+> - Setup the current templates Javascript Framework (if needed) to match the setup in the template from where your migrating the `CoolNew` particle.            
+
+### Required files for migration from Galatea to Isotope.
+>
+> 1.   PARTICLE files: **owlcarousel.html.twig** and **owlcarousel.yaml**.
+> 2.   PARTICLE Javascript file: **owlcarousel.js**.
+> 3.   PARTICLE SCSS file: _**owlcarousel.scss** `*`
+> 4.   Isotopes _**typography.scss** file
+> 5.   A **custom.scss** file that we need to create three "@import" statements.
+> 6.   Galatea SUPPORT files: **animate.css** and **demo.css** `**`
+
+` Notes `:
+
+ `*` The _**owlcarousel.scss** file contains a call to a MIXIN that the Isotope template doesn't have. What I've done is to create a custom override for Isotopes _**typography.scss** file and add in the required line.
+
+ `**` I've renamed the **demo.css** file to **demogalatea.css** so as not to confuse it with Isotope's demo.css file
+
+These files originally came from `[JOOMLA-ROOT]\templates\rt_galatea\...` except for Isotopes _**typography.scss** file
+
+Upload the files to these folders and if the folders don't exist then you will have to create them:
+
+<table>
+	<tr>
+		<td><b>owlcarousel.html.twig</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\particles</color></b></td>
+	</tr>
+	<tr>
+		<td><b>owlcarousel.yaml</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\particles</color></b></td>
+	</tr>
+	<tr>
+		<td><b>owlcarousel.js</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\js</color></b></td>
+	</tr>
+	<tr>
+		<td><b>demo.css</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\css\demogalatea.css</color></b></td>
+	</tr>
+	<tr>
+		<td><b>animate.css</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\css</color></b></td>
+	</tr>
+	<tr>
+		<td><b>custom.scss</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\scss</color></b></td>
+	</tr>
+	<tr>
+		<td><b>_owlcarousel.scss</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\scss</color></b></td>
+	</tr>
+	<tr>
+		<td><b>\templates\rt_isotope\scss\configuration\_typography.scss</b></td>
+		<td>copy to</td>
+		<td><b><color=#c82529><JOOMLA-ROOT>\templates\rt_isotope\custom\scss\configuration</color></b></td>
+	</tr>
+</table>
+
+Once you've copied `/templates/rt_isotope/scss/configuration/_typography.scss` to the above custom location edit the file and add this:
+<code>    
+// Font Weight from Galatea    
+$font-weight-thin: 100;
+</code>
+
+In your [JOOMLA-ROOT]/templates/isotope/custom/scss/custom.scss file ([Please see "Adding a Custom Style Sheet"](http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet)) add this:
+
+<code>
+@import "dependencies";  
+//   Owl Carousel   
+@import "owlcarousel";    
+</code>
+
+SCSS is nice in that when using the @import command you don't need the preceding underscore and the file extension type. Our custom.scss will now call the appropriate SCSS file that the Owl Carousel requires.
+
+### Owl Carousel Particle setup
+In this example I created my new `owlcarousel` particle in the Joomla Module Manager screen and assigned its module position to "slideshow".
+![Joomla_Module_Manager---owl_particle_setup](http://i.imgur.com/AmQZ05G.jpg)           
+
+
+In your Module Manager screen click "Edit Particle" to setup the `owlcarousel ` particle.
+![Gantry5-Particle---owl_particle_setup](http://i.imgur.com/7VAfPwH.jpg)
+
+For the "Owl Carousel Items" collecction image location field I used these locations:   
+gantry-media://rocketlauncher/home/slideshow/owl/img-01.jpg    
+gantry-media://rocketlauncher/home/slideshow/owl/img-02.jpg   
+gantry-media://rocketlauncher/home/slideshow/owl/img-03.jpg
+
+I created the "owl" folder so as not to interfere with Isotopes image files.
+
+Save the layout and then go to the BASE OUTLINE -> Styles -> click RECOMPILE CSS.
+
+In Template Manager for the Outline you're using go to the Layout Manager and you'll see in the LeftHand column a new particle -> `owlcarousel`. Drag & Drop this to the Section | Grid | Block location to be used, in this example I used the "slideshow" Section.
+![Layout_Manager---owl_Block_setup](http://i.imgur.com/e3rimaV.jpg)
+
+Last we have to setup the support files in the Outlines Global Page Settings screen.
+![Global_Page_Settings---JS_framework_settings](http://i.imgur.com/q8o3X39.jpg)  
+
+Also required is to setup the Javascript Framework in our current template.
+![Global_Page_Settings---CSS_settings](http://i.imgur.com/fvfRMGR.jpg)
+
+
+Once this is done you will see this in your Front End:
+
+![owlcarousel-Isotope](http://i.imgur.com/wLafBkW.jpg)
+
