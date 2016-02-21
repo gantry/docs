@@ -9,7 +9,7 @@ taxonomy:
 
 Gantry 5 templates are provided with different particles. Not every particle is not included in every Gantry 5 template. So sometimes you might want to include a particle from another template into the template that your are using. This tutorial shows you the safe way to copy particles between templates.
 
-For the purpose of this tutorial the template you are copying from the "donor" template and the template you are copying to the "recipient" template.
+For the purpose of this tutorial the template you are copying from is the "donor" template and the template you are copying to the "recipient" template.
 
 ! CAVEATS: 
 ! - If you copy a particle from one template to another and RT finds a bug we will only fix it in the template that we originally provided the particle. It's therefore your responsibility to watch for the donor template updates and see if the particle was changed, meaning that you then need to update the particle in your recipient template too.
@@ -59,7 +59,7 @@ The next thing you need to do is to ensure that the SCSS for the particle is loa
 ![](copy-particle_1.png)
 
 7. The particle that you are copying may also have a dependency on a JS library (e.g. JQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the "page settings" tab of the base outline by dragging the "Javascript Frameworks" Atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
-![](copy-particle_1.png)
+![](copy-particle_2.png)
 
 8. Go to the base outline "styles" tab and click on "Recompile CSS"
 
