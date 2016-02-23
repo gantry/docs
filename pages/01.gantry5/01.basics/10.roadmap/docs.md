@@ -14,7 +14,7 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Current"]
 
-5.2.10 Release
+5.2.11 Release
 -----
 
 | Platform  | Milestone                                                                                                                                                        | Completed                                             |
