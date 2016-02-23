@@ -14,21 +14,26 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Current"]
 
-5.2.7 Release
+5.2.10 Release
 -----
 
-| Platform  | Milestone                                                                                                                                        | Completed                                             |
-| :-----    | :----                                                                                                                                            | :-----:                                               |
-| Common    | Fixed Menu option "Render Titles" not rendering titles at all                                                                                    | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed potential 404 response in admin when trying to access Particle Settings via modal [#1088](https://github.com/gantry/gantry5/issues/1088)   | <span style="color:green" class="fa fa-check"></span> |
-|           | Worked around PHP 5.5 bug on loading global configuration                                                                                        | <span style="color:green" class="fa fa-check"></span> |
-|           |                                                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed caching of admin AJAX requests [#1078](https://github.com/gantry/gantry5/issues/1078)                                                      | <span style="color:green" class="fa fa-check"></span> |
-| WordPress | Remove RokGallery and RokSprocket from the Widget Picker [#1092](https://github.com/gantry/gantry5/issues/1092)                                  | <span style="color:green" class="fa fa-check"></span> |
-|           | Fix Timbers render_string() and compile_string() functions [#1077](https://github.com/gantry/gantry5/issues/1077)                                | <span style="color:green" class="fa fa-check"></span> |
-|           | Removed description meta tag to avoid duplications of it. This should be handled by plugins [#892](https://github.com/gantry/gantry5/issues/892) | <span style="color:green" class="fa fa-check"></span> |
-                                                                                                                                        
-
+| Platform  | Milestone                                                                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                                                                            | :-----:                                               |
+| Common    | Added very-large-desktop-range to breakpoint mixin in order to be used when working with screen resolutions of 1920px+                                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Added option to parse Twig in Custom HTML particle #[1144](https://github.com/gantry/gantry5/issues/1144)                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Collection Lists now have a maximum height set, triggering a scrollbar in case the amount of items is big #[1139](https://github.com/gantry/gantry5/issues/1139) | <span style="color:green" class="fa fa-check"></span> |
+|           | CHANGE: The **dependencies.scss** file does not import `nucleus/theme/base` anymore. #[1152](https://github.com/gantry/gantry5/issues/1152)                      | <span style="color:green" class="fa fa-check"></span> |
+|           | System outlines should not be able to assign to pages #[1146](https://github.com/gantry/gantry5/issues/1146)                                                     | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed frontend rendering if page settings have never been saved                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed tooltips in IE Edge and in some circumstances on Firefox #[1154](https://github.com/gantry/gantry5/issues/1154)                                            | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed 404 Not Found when creating new outline                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Admin: Fix potential fatal error when saving Outline Assignments                                                                                                 | <span style="color:green" class="fa fa-check"></span> |
+|           | Update Joomla template style when saving layout                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Fixed Child Theme support in Hydrogen (requires update of Hydrogen theme) (#1149) #[185](https://github.com/gantry/gantry5/issues/185)                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Added sample Hydrogen Child theme to git #[1149](https://github.com/gantry/gantry5/issues/1149)                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Add Ability to Duplicate Base in Outlines #[846](https://github.com/gantry/gantry5/issues/846)                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed typo in posts_per_page custom WordPress field (thanks @adi8i) #[1153](https://github.com/gantry/gantry5/issues/1153)                                       | <span style="color:green" class="fa fa-check"></span> |
+                                        
 <a href="https://github.com/gantry/gantry5/milestones/5.2.7" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.7 Milestone</a>
 
 [/ui-tab]
@@ -131,6 +136,70 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 |           | Added missing default configuration for Home outline in Hydrogen                                                                                         | <span style="color:green" class="fa fa-check"></span> |
 
 <a href="https://github.com/gantry/gantry5/compare/5.2.5...5.2.6" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.6 Changelog</a>
+
+5.2.7 Release
+-----
+
+| Platform  | Milestone                                                                                                                                          | Completed                                             |
+| :-----    | :----                                                                                                                                              | :-----:                                               |
+| Common    | Fixed Menu option "Render Titles" not rendering titles at all                                                                                      | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed potential 404 response in admin when trying to access Particle Settings via modal (#[1088](https://github.com/gantry/gantry5/issues/1088))   | <span style="color:green" class="fa fa-check"></span> |
+|           | Worked around PHP 5.5 bug on loading global configuration                                                                                          | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed caching of admin AJAX requests (#[1078](https://github.com/gantry/gantry5/issues/1078))                                                      | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Remove RokGallery and RokSprocket from the Widget Picker (#[1092](https://github.com/gantry/gantry5/issues/1092))                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fix Timbers render_string() and compile_string() functions (#[1077](https://github.com/gantry/gantry5/issues/1077))                                | <span style="color:green" class="fa fa-check"></span> |
+|           | Removed description meta tag to avoid duplications of it. This should be handled by plugins (#[892](https://github.com/gantry/gantry5/issues/892)) | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.6...5.2.7" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.7 Changelog</a>
+
+5.2.8 Release
+-----
+
+| Platform | Milestone                                                                                                                                                      | Completed                                             |
+| :-----   | :----                                                                                                                                                          | :-----:                                               |
+| Common   | Add support for nested collections in particles [924](https://github.com/gantry/gantry5/issues/924)                                                            | <span style="color:green" class="fa fa-check"></span> |
+|          | Add configuration options to disable Twig and YAML compiling / caching                                                                                         | <span style="color:green" class="fa fa-check"></span> |
+|          | Fixed defer attribute for JavaScript                                                                                                                           | <span style="color:green" class="fa fa-check"></span> |
+|          | Ignore missing atom if debug has not been enabled [1106](https://github.com/gantry/gantry5/issues/1106)                                                        | <span style="color:green" class="fa fa-check"></span> |
+|          | Fix Custom CSS / JS Atom having bad HTML with non-existing file path [1105](https://github.com/gantry/gantry5/issues/1105)                                     | <span style="color:green" class="fa fa-check"></span> |
+|          | Forcing Mobile Menu Items to always display full width no matter the breakpoint (thanks @JoomFX - #1109) [1109](https://github.com/gantry/gantry5/issues/1109) | <span style="color:green" class="fa fa-check"></span> |
+|          | Fixed zIndex issue in Mobile Menu in Firefox and IE (thanks @JoomFX - [1109](https://github.com/gantry/gantry5/issues/1109))                                   | <span style="color:green" class="fa fa-check"></span> |
+|          | Fixed "Keep Centered" Menu Items option that was instead showing up left aligned [1119](https://github.com/gantry/gantry5/issues/1119)                         | <span style="color:green" class="fa fa-check"></span> |
+| Joomla   | Template installer: Copy configuration for new outlines                                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|          | JavaScript Frameworks Atom: Load also Bootstrap CSS when enabling Bootstrap Framework                                                                          | <span style="color:green" class="fa fa-check"></span> |
+|          | Compatibility fix for some plugins which require non-empty component output to work properly                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|          | WordPress                                                                                                                                                      | <span style="color:green" class="fa fa-check"></span> |
+|          | Internal Error in admin Settings tab when there are no menus [1102](https://github.com/gantry/gantry5/issues/1102)                                             | <span style="color:green" class="fa fa-check"></span> |
+|          | Fix footer scripts from main content [1113](https://github.com/gantry/gantry5/issues/1113)                                                                     | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.7...5.2.8" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.8 Changelog</a>
+
+5.2.9 Release
+-----
+
+| Platform  | Milestone                                                                                                               | Completed                                             |
+| :-----    | :----                                                                                                                   | :-----:                                               |
+| Common    | Fixed potential issue with deletion of Outlines when server doesn't support DELETE request method (#1124)               | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed 404 Not Found when adding an asset on page settings [1126](https://github.com/gantry/gantry5/issues/1126)         | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed the add button next to the Outlines title [1116](https://github.com/gantry/gantry5/issues/1116)                   | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | New selectize field that list all pages / posts (thanks @adi8i - [1131](https://github.com/gantry/gantry5/issues/1131)) | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.8...5.2.9" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.9 Changelog</a>
+
+5.2.10 Release
+-----
+
+| Platform  | Milestone                                                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                                                            | :-----:                                               |
+| Common    | Fixed Menu option "Render Titles" not rendering titles at all                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed potential 404 response in admin when trying to access Particle Settings via modal [#1088](https://github.com/gantry/gantry5/issues/1088)   | <span style="color:green" class="fa fa-check"></span> |
+|           | Worked around PHP 5.5 bug on loading global configuration                                                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed caching of admin AJAX requests [#1078](https://github.com/gantry/gantry5/issues/1078)                                                      | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Remove RokGallery and RokSprocket from the Widget Picker [#1092](https://github.com/gantry/gantry5/issues/1092)                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fix Timbers render_string() and compile_string() functions [#1077](https://github.com/gantry/gantry5/issues/1077)                                | <span style="color:green" class="fa fa-check"></span> |
+|           | Removed description meta tag to avoid duplications of it. This should be handled by plugins [#892](https://github.com/gantry/gantry5/issues/892) | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.9...5.2.10" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.101 Changelog</a>
 
 [/ui-tab]
 [ui-tab title="5.1.x"]
