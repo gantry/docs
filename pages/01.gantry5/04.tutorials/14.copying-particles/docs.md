@@ -55,7 +55,7 @@ These are the steps to do the copy from the **donor** template to the **recipien
     @import "dependencies";
     ```
 
-The next thing you need to do is to ensure that the SCSS for the particle is loaded too. We do this by including it into our custom SCSS file.
+    The next thing you need to do is to ensure that the SCSS for the particle is loaded too. We do this by including it into our custom SCSS file.
 
     ```css
         @import "PARTICLENAME";
