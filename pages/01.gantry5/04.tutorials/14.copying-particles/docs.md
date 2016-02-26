@@ -1,5 +1,5 @@
 ---
-title: 'Copying a Particle from one Template to another (Joomla)'
+title: 'Copying Particles to Another Template (Joomla)'
 taxonomy:
     tag:
         - gantry5
@@ -13,10 +13,10 @@ Gantry 5 templates are provided with different particles. Not every particle is 
 
 For the purpose of this tutorial the template you are copying from is the **donor** template and the template you are copying to the **recipient** template.
 
-! CAVEATS: 
-! * If you copy a particle from one template to another, and a bug is subsequently found in that particle, it would only be fixed in the **donor** template (via a template update release). It's therefore your responsibility to watch for **donor** template updates and see if the particle was changed, meaning that you would then need to update the particle in your **recipient** template also.
-! * It may be that the **donor** template has some special CSS styling for a page/location where that particle is used (e.g. special home page styling). That may not be replicated in copying a particle.
-! * This is not about changing any functionality - you are copying the particle "as-is".
+!! CAVEATS: 
+!! * If you copy a particle from one template to another, and a bug is subsequently found in that particle, it would only be fixed in the **donor** template (via a template update release). It's therefore your responsibility to watch for **donor** template updates and see if the particle was changed, meaning that you would then need to update the particle in your **recipient** template also.
+!! * It may be that the **donor** template has some special CSS styling for a page/location where that particle is used (e.g. special home page styling). That may not be replicated in copying a particle.
+!! * This is not about changing any functionality - you are copying the particle "as-is".
 
 ## What Particles are made of
 
@@ -31,9 +31,9 @@ All template specific particles reside in: `/templates/rt_TEMPLATENAME/particles
 All template specific particle SCSS files reside in: `/templates/rt_TEMPLATENAME/SCSS/TEMPLATENAME`
 All template specific JS files reside in: `/templates/rt_TEMPLATENAME/JS`
 
-! TERMS:
-! - *TEMPLATENAME* is the name of the template (e.g. isotope, xenon, galatea)
-! - *PARTICLENAME* is the name of the particle (e.g. newsletter, promoimage, contentlist).
+!! TERMS:
+!! - *TEMPLATENAME* is the name of the template (e.g. isotope, xenon, galatea)
+!! - *PARTICLENAME* is the name of the particle (e.g. newsletter, promoimage, contentlist).
 
 ## Copying the Particle
 
@@ -51,17 +51,17 @@ These are the steps to do the copy from the **donor** template to the **recipien
 
 5. If you don't have a custom.scss file already then you need to create one (plain text file). Your custom.scss file should be put in `/templates/rt_TEMPLATENAME/custom/scss`. Your custom SCSS file must have this statement as the first line:
 
-```css
-@import "dependencies";
-```
+    ```css
+    @import "dependencies";
+    ```
 
 The next thing you need to do is to ensure that the SCSS for the particle is loaded too. We do this by including it into our custom SCSS file.
 
-```css
-    @import "PARTICLENAME";
-```
+    ```css
+        @import "PARTICLENAME";
+    ```
 
-(note how you DO NOT preface the *PARTICLENAME* with an underscore)
+!!! You do **not** preface the *PARTICLENAME* with an underscore.
 
 6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** template in the base outline on the "page settings" tab.
 
