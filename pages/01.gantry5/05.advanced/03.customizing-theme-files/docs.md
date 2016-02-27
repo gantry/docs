@@ -201,6 +201,7 @@ Here is the same file with the changes:
 {% set tag_type = segment.subtype|default('section') %}
 {% set attr_id = segment.attributes.id ?: 'g-' ~ segment.id %}
 {% set attr_class = segment.attributes.class %}
+{% set attr_background = segment.attributes.background %}
 {% set attr_extra = '' %}
 {% set boxed = segment.attributes.boxed %}
 {% if boxed is not null %}
