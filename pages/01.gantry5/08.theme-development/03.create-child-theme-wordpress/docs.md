@@ -17,11 +17,11 @@ The first thing you will need to do is create a copy of the **theme.yaml** file 
 
 Then, you will need to edit the **theme.yaml** file. Three important lines that should be addressed are the **name**, **description**, and the theme's **parent**.
 
-The **parent** in this case has to match exactly the name of the directory of the parent theme. For example, we are creating a child theme of the Hydrogen theme, which has a directory name of **rt_hydrogen**. Therefor, you should list `rt_hydrogen` as the **parent**. Here is an example of this section of the yaml file:
+The **parent** in this case has to match exactly the name of the directory of the parent theme. For example, we are creating a child theme of the Hydrogen theme, which has a directory name of **g5_hydrogen**. Therefor, you should list `g5_hydrogen` as the **parent**. Here is an example of this section of the yaml file:
 
 ```yaml
   theme:
-    parent: rt_hydrogen
+    parent: g5_hydrogen
     base: gantry-theme://common
     file: gantry-theme://includes/theme.php
     class: \Gantry\Framework\Theme
