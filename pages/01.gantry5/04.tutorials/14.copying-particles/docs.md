@@ -1,10 +1,8 @@
 ---
-title: 'Copying Particles to Another Template (Joomla)'
+title: Copying Particles to Another Template (Joomla)
 taxonomy:
-    tag:
-        - gantry5
-    category:
-        - docs
+    category: docs
+    tag: [gantry5]
 ---
 
 ## Introduction
