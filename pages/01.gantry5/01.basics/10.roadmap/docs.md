@@ -14,27 +14,20 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Current"]
 
-5.2.11 Release
+5.2.13 Release
 -----
 
-| Platform  | Milestone                                                                                                                                                        | Completed                                             |
-| :-----    | :----                                                                                                                                                            | :-----:                                               |
-| Common    | Added very-large-desktop-range to breakpoint mixin in order to be used when working with screen resolutions of 1920px+                                           | <span style="color:green" class="fa fa-check"></span> |
-|           | Added option to parse Twig in Custom HTML particle #[1144](https://github.com/gantry/gantry5/issues/1144)                                                        | <span style="color:green" class="fa fa-check"></span> |
-|           | Collection Lists now have a maximum height set, triggering a scrollbar in case the amount of items is big #[1139](https://github.com/gantry/gantry5/issues/1139) | <span style="color:green" class="fa fa-check"></span> |
-|           | CHANGE: The **dependencies.scss** file does not import `nucleus/theme/base` anymore. #[1152](https://github.com/gantry/gantry5/issues/1152)                      | <span style="color:green" class="fa fa-check"></span> |
-|           | System outlines should not be able to assign to pages #[1146](https://github.com/gantry/gantry5/issues/1146)                                                     | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed frontend rendering if page settings have never been saved                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed tooltips in IE Edge and in some circumstances on Firefox #[1154](https://github.com/gantry/gantry5/issues/1154)                                            | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed 404 Not Found when creating new outline                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
-| Joomla    | Admin: Fix potential fatal error when saving Outline Assignments                                                                                                 | <span style="color:green" class="fa fa-check"></span> |
-|           | Update Joomla template style when saving layout                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
-| WordPress | Fixed Child Theme support in Hydrogen (requires update of Hydrogen theme) (#1149) #[185](https://github.com/gantry/gantry5/issues/185)                           | <span style="color:green" class="fa fa-check"></span> |
-|           | Added sample Hydrogen Child theme to git #[1149](https://github.com/gantry/gantry5/issues/1149)                                                                  | <span style="color:green" class="fa fa-check"></span> |
-|           | Add Ability to Duplicate Base in Outlines #[846](https://github.com/gantry/gantry5/issues/846)                                                                   | <span style="color:green" class="fa fa-check"></span> |
-|           | Fixed typo in posts_per_page custom WordPress field (thanks @adi8i) #[1153](https://github.com/gantry/gantry5/issues/1153)                                       | <span style="color:green" class="fa fa-check"></span> |
+| Platform  | Milestone                                                                                                                                                                                  | Completed                                             |
+| :-----    | :----                                                                                                                                                                                      | :-----:                                               |
+| Common    | Implemented an universal method `gantry.load()` to include common JS frameworks from Twig on all platforms #[1132](https://github.com/gantry/gantry5/issues/1132)                          | <span style="color:green" class="fa fa-check"></span> |
+|           | The `dropdown-offset-x()` mixin now includes a 3rd option that allows to disable or customize the offsets for the first level dropdown child (thanks [@JoomFX](https://github.com/JoomFX)) | <span style="color:green" class="fa fa-check"></span> |
+|           | Add possibility to target all particles with a single CSS rule `div.g-particle` #[909](https://github.com/gantry/gantry5/issues/909)                                                       | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Load template language overrides from `custom/language`                                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Allow Gantry theme upgrades from WordPress theme uploader #[1165](https://github.com/gantry/gantry5/issues/1165)                                                                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Removed hardcoded `h2` tag from Login Form particle title. You can still place your `HTML` code inside of the input field.                                                                 | <span style="color:green" class="fa fa-check"></span> |
+
                                         
-<a href="https://github.com/gantry/gantry5/milestones/5.2.7" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.7 Milestone</a>
+<a href="https://github.com/gantry/gantry5/milestones/5.2.13" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.13 Milestone</a>
 
 [/ui-tab]
 [ui-tab title="5.2.x"]
@@ -199,7 +192,38 @@ You can find a full changelog for releases from 5.0.0 and beyond [here](https://
 |           | Fix Timbers render_string() and compile_string() functions [#1077](https://github.com/gantry/gantry5/issues/1077)                                | <span style="color:green" class="fa fa-check"></span> |
 |           | Removed description meta tag to avoid duplications of it. This should be handled by plugins [#892](https://github.com/gantry/gantry5/issues/892) | <span style="color:green" class="fa fa-check"></span> |
 
-<a href="https://github.com/gantry/gantry5/compare/5.2.9...5.2.10" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.101 Changelog</a>
+<a href="https://github.com/gantry/gantry5/compare/5.2.9...5.2.10" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.10 Changelog</a>
+
+5.2.11 Release
+-----
+
+| Platform  | Milestone                                                                                                                                                        | Completed                                             |
+| :-----    | :----                                                                                                                                                            | :-----:                                               |
+| Common    | Added very-large-desktop-range to breakpoint mixin in order to be used when working with screen resolutions of 1920px+                                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Added option to parse Twig in Custom HTML particle #[1144](https://github.com/gantry/gantry5/issues/1144)                                                        | <span style="color:green" class="fa fa-check"></span> |
+|           | Collection Lists now have a maximum height set, triggering a scrollbar in case the amount of items is big #[1139](https://github.com/gantry/gantry5/issues/1139) | <span style="color:green" class="fa fa-check"></span> |
+|           | CHANGE: The **dependencies.scss** file does not import `nucleus/theme/base` anymore. #[1152](https://github.com/gantry/gantry5/issues/1152)                      | <span style="color:green" class="fa fa-check"></span> |
+|           | System outlines should not be able to assign to pages #[1146](https://github.com/gantry/gantry5/issues/1146)                                                     | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed frontend rendering if page settings have never been saved                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed tooltips in IE Edge and in some circumstances on Firefox #[1154](https://github.com/gantry/gantry5/issues/1154)                                            | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed 404 Not Found when creating new outline                                                                                                                    | <span style="color:green" class="fa fa-check"></span> |
+| Joomla    | Admin: Fix potential fatal error when saving Outline Assignments                                                                                                 | <span style="color:green" class="fa fa-check"></span> |
+|           | Update Joomla template style when saving layout                                                                                                                  | <span style="color:green" class="fa fa-check"></span> |
+| WordPress | Fixed Child Theme support in Hydrogen (requires update of Hydrogen theme) (#1149) #[185](https://github.com/gantry/gantry5/issues/185)                           | <span style="color:green" class="fa fa-check"></span> |
+|           | Added sample Hydrogen Child theme to git #[1149](https://github.com/gantry/gantry5/issues/1149)                                                                  | <span style="color:green" class="fa fa-check"></span> |
+|           | Add Ability to Duplicate Base in Outlines #[846](https://github.com/gantry/gantry5/issues/846)                                                                   | <span style="color:green" class="fa fa-check"></span> |
+|           | Fixed typo in posts_per_page custom WordPress field (thanks @adi8i) #[1153](https://github.com/gantry/gantry5/issues/1153)                                       | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.10...5.2.11" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.11 Changelog</a>
+
+5.2.12 Release
+-----
+
+| Platform | Milestone                                                           | Completed                                             |
+| :-----   | :----                                                               | :-----:                                               |
+| Common   | Add support for toggling offcanvas visibility on non-mobile devices | <span style="color:green" class="fa fa-check"></span> |
+
+<a href="https://github.com/gantry/gantry5/compare/5.2.11...5.2.12" class="button"><i class="fa fa-fw fa-github"></i> See the 5.2.12 Changelog</a>
 
 [/ui-tab]
 [ui-tab title="5.1.x"]
