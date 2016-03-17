@@ -48,3 +48,11 @@ For example, when you duplicate an outline, let's say `Hydrogen - Default`, the 
 ![Outlines](outline_6.png?classes=shadow,border)
 
 You can also do this from the outline-specific toolbar by selecting the grey pencil (<i class="fa fa-fw fa-pencil"></i>) icon there, as well.
+
+## Creating a New Outline
+
+![Outlines](outline_1.png?classes=shadow,border)
+
+Let's say you want to create a new outline from scratch. This is easy, and there are two ways to do it. Just select the giant plus (<i class="fa fa-fw fa-plus"></i>) icon either next to the title of the page, or in the middle of the white square at the end of the outlines list.
+
+Doing this will create an untitled outline that inherits all of its settings and properties from the **Base Outline**, as well as the preset default layout. You will want to go through and make any changes, especially to your Layout, that you need. There will also not be any pages assigned by default, so you will need to add them as desired.
