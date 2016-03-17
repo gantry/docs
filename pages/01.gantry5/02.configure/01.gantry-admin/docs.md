@@ -78,6 +78,8 @@ You can switch to an individual Outline in two ways. This panel will enable you 
 
 Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Settings, Layouts, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
 
+<div align="center"><a href="../configure/outlines" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Outlines Admin Panel</a></div>
+
 #### Menu
 
 ![Menu](menu_module_1.png?classes=shadow,border)
