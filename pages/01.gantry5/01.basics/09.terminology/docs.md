@@ -61,7 +61,7 @@ A **Position** in Gantry 5 can be a number of things. It is an umbrella term use
 
 ### Module Position Vs. Module Instance
 
-A module position in Joomla works exactly the same way whether you are using Gantry 5 or any other framework or theme. The only difference is that, in Gantry 5, you have the ability to dynamically create and remove module positions on the fly in the Layout Manager. Once you have a module position created and assigned it a key, you can assign modules to that position just as you normally would.
+A module position in Joomla works exactly the same way whether you are using Gantry 5 or any other framework or theme. The only difference is that, in Gantry 5, you have the ability to dynamically create and remove module positions on the fly in the Layout Manager. Once you have a module position created and assigned it a [key](../particles/position#settings), you can assign modules to that position just as you normally would.
 
 Module instances, however, are very different. A module instance doesn't depend on a specific position assignment on the part of the module. In fact, you can use module instances in the menu editor and layout manager to inject a single module into your page pretty much wherever you want it. 
 

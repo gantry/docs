@@ -101,17 +101,38 @@ The settings for a **Position** Particle can vary between content management sys
 
 ![Settings](positions_settings_j.png?classes=shadow,border)
 
-| Setting | Description                                        |
-| :------ | :----------------------------------                |
-| Key     | Sets the reference key used in module assignments. |
-| Chrome  | Sets the module chrome.                            |
+| Setting       | Description                                                       |
+| :------       | :----------------------------------                               |
+| Particle Name | The name of the module position.                                  |
+| Key           | Sets the reference key by Joomla to identify the module position. |
+| Chrome        | Sets the module chrome.                                           |
 
-There are two different sets of settings for a **Position**. The first is in the **Settings Administrative Panel** which enables you to set a default **Key**  and **Chrome** for the outline. In the event that you are editing the settings of the default outline, this key becomes the global default, which is used unless overridden in either another outline's **Settings Administrative Panel** or in the individual **Particle** settings within the **Layout Manager**.
+There are three different settings for a **Position**. The position's name, which is set at the top of the position's particle popup, determines the displayed name for the position in the Module Manager.
+
+The second setting you will notice is the **Key**. This is an important one, as it is how the position is identified by Joomla. If you have two module positions on two different outlines with the same key, they will appear as one module position in the Widgets Manager. This is useful in cases where you want the same modules to appear on multiple different pages.
+
+So, for example, you might give a module position the name of `Header A` and a key of `header-a`. When assigning a module to that position, you would enter `header-a` as it is the key Joomla uses to reference the position.
+
+The third option is the **Chrome**. This sets the module position's chrome. This takes advantage of any Chrome HTML styling you have set up that you would like to have wrap each module placed in this position.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Coming Soon...
+![Settings](positions_settings_j.png?classes=shadow,border)
+
+| Setting       | Description                                                                           |
+| :------       | :----------------------------------                                                   |
+| Particle Name | The name of the widget position appears in WordPress' Widget Manager for the position |
+| Key           | Sets the reference key by WordPress to identify the widget position.                  |
+| Chrome        | Sets the module chrome.                                                               |
+
+There are three different settings for a **Position**. The position's name, which is set at the top of the position's particle popup, determines how the position appears in the Widgets manager. So, for example, if you title the position `Super Sidebar`, it will appear as pictured below in WordPress' Widgets page.
+
+![Settings](sidebar.png?classes=shadow,border)
+
+The second setting you will notice is the **Key**. This is an important one, as it is how the position is identified by WordPress. If you have two widget positions on two different outlines with the same key, they will appear as one widget position in the Widgets Manager. This is useful in cases where you want the same widgets to appear on multiple different pages.
+
+The third option is the **Chrome**. This sets the widget position's chrome. This takes advantage of any Chrome HTML styling you have set up that you would like to have wrap each widget placed in this position.
 
 [/ui-tab]
 [ui-tab title="Grav"]
