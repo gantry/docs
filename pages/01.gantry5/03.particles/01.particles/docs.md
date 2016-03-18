@@ -22,36 +22,18 @@ Standard Particles
 
 ![Particles](particles_1.png?classes=shadow,border)
 
+Particles are basically like WordPress widgets or Joomla modules. They are blocks of content that are configured on the back end. You can use modules/widgets exactly as you always did, but what makes particles especially useful is their simplicity and the fact that they live independently of the CMS.
+
 For theme developers, particles can be created in minutes, and they can add functionality to your page in an environment that is easy for your clients to navigate and work with.
 
-Instead of pointing them to a Custom HTML module (Joomla) or Text (WordPress) widget, where they have to navigate through supporting code to make small adjustments, you can send them to the Gantry Administrator where they can change values in pre-configured fields without ever having to look at a single line of code.
+Instead of pointing them to a Custom HTML module (Joomla) or Text (WordPress) widget, where they have to navigate through supporting code to make small adjustments, they can fill out preset forms that enable them to change things like the section's title, content, any images or links, and more.
 
 Positions
 -----
 
 Positions are Particles that have content assigned to them by the CMS. In most CMS frameworks, these are hard-coded in the theme. In Gantry 5, you can freely create, move, and remove them as you please using the **Layout Manager**.
 
-[ui-tabs position="top-left" active="0"]
-[ui-tab title="Joomla"]
-
-Positions can be renamed for reference on the backend and rekeyed. A position particle's **Key** is equivalent to a template position in standard CMS speak allowing you to create a position label modules are assigned to. This makes migration from other templates which likely won't have the same position naming scheme easier. In this case you can easily rekey Positions rather than having to reassign modules one-by-one.
-
-![Key](key.png?classes=shadow,border)
-
-For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header-a`, you can include them in your new site very easily by placing a **Module Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header-a`.
-
-[/ui-tab]
-[ui-tab title="WordPress"]
-
-Coming soon...
-
-[/ui-tab]
-[ui-tab title="Grav"]
-
-Grav documentation is coming soon...
-
-[/ui-tab]
-[/ui-tabs]
+In WordPress, this is called a **Widget Position**. In Joomla, it's a **Module Position**. You can find out more about positions in our [detailed documentation](../position/).
 
 Atoms
 -----
