@@ -136,11 +136,11 @@ The third option is the **Chrome**. This sets the module position's chrome. This
 
 ![Settings](positions_settings_j.png?classes=shadow,border)
 
-| Setting       | Description                                                                           |
-| :------       | :----------------------------------                                                   |
-| Particle Name | The name of the widget position appears in WordPress' Widget Manager for the position |
-| Key           | Sets the reference key by WordPress to identify the widget position.                  |
-| Chrome        | Sets the module chrome.                                                               |
+| Setting       | Description                                                                                   |
+| :------       | :----------------------------------                                                           |
+| Particle Name | The name of the widget position appears in WordPress' Widget Manager for the position         |
+| Key           | Sets the reference key by WordPress to identify the widget position (aka Widget Position ID). |
+| Chrome        | Sets the widget chrome.                                                                       |
 
 There are three different settings for a **Position**. The position's name, which is set at the top of the position's particle popup, determines how the position appears in the Widgets manager. So, for example, if you title the position `Super Sidebar`, it will appear as pictured below in WordPress' Widgets page.
 
