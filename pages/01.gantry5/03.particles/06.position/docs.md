@@ -16,7 +16,7 @@ Creating, Deleting, and Moving Positions
 
 ![Positions](positions_6.png?classes=shadow,border)
 
-If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
+If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** (Joomla) or **Widget Position** (WordPress) particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
@@ -30,7 +30,11 @@ For example, if you are setting up a Gantry 5 template on a site that had a batc
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Coming Soon...
+If you are migrating from an existing template, and you have modules that have already been assigned to positions that use the naming convention of the previous template, you can simply rekey your positions to match. That way, you can keep your existing modules without having to reassign them one-by-one.
+
+![Key](key2.png?classes=shadow,border)
+
+For example, if you are setting up a Gantry 5 template on a site that had a batch of modules assigned to position `header`, you can include them in your new site very easily by placing a **Widget Position** particle in the space you would like to have it load in the Layout Manager and set the **Key** field to `header`.
 
 [/ui-tab]
 [ui-tab title="Grav"]
@@ -72,7 +76,19 @@ This frees you from standardized naming conventions that can be needlessly compl
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Coming Soon...
+![Positions](positions_2.png?classes=shadow,border)
+
+As we mentioned earlier, you can name and rename positions on the fly, making it easy to migrate existing widgets without having to individually reassign them to specific positions.
+
+You can also freely name them as you need, giving them specific tags that are easy to remember and reference what is and is not assigned there.
+
+For example, you could name and key a position as branding where you have your branding and copyright widgets. The reference name and the Key are unrelated to each other, so you could use anything as a reference name (or a key for that matter), as long as you are assigning your widgets to the appropriate Key. Naming a position `Super Sidebar` and keying it `sidebar-a` would be absolutely fine. Whatever works for you.
+
+This name determines how the position appears in the Widgets manager. So, for example, if you title the position `Super Sidebar`, it will appear as pictured below in WordPress' Widgets page.
+
+![Settings](sidebar.jpg?classes=shadow,border)
+
+This frees you from standardized naming conventions that can be needlessly complex and confusing.
 
 [/ui-tab]
 [ui-tab title="Grav"]
@@ -128,7 +144,7 @@ The third option is the **Chrome**. This sets the module position's chrome. This
 
 There are three different settings for a **Position**. The position's name, which is set at the top of the position's particle popup, determines how the position appears in the Widgets manager. So, for example, if you title the position `Super Sidebar`, it will appear as pictured below in WordPress' Widgets page.
 
-![Settings](sidebar.png?classes=shadow,border)
+![Settings](sidebar.jpg?classes=shadow,border)
 
 The second setting you will notice is the **Key**. This is an important one, as it is how the position is identified by WordPress. If you have two widget positions on two different outlines with the same key, they will appear as one widget position in the Widgets Manager. This is useful in cases where you want the same widgets to appear on multiple different pages.
 
