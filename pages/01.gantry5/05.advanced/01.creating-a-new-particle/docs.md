@@ -108,7 +108,7 @@ Here is the content of the `example_particle.html.twig` file:
 {% block particle %}
 <div class="example_particle {{ particle.css.class }}">
             <div align="center">
-              <img src="{{ particle.image }}" alt="image">
+              <img src="{{ url(particle.image) }}" alt="image">
               <h2>{{ particle.title }}</h2>
               <p>{{ particle.description }}</p>
             </div>
