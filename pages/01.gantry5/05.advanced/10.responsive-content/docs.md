@@ -34,7 +34,7 @@ The available custom widths are `.g-width-10`, `.g-width-15`, `.g-width-20`, `.g
 
 Here are some examples along with the code that created them.
 
-# Example 1
+## Example 1
 
 ![](example1.jpg)
 
@@ -97,7 +97,7 @@ Here we use our Custom Gantry-Widths to create a one row/four column pricing tab
 <div class="clear"></div>
 ```
 
-# Example 2
+## Example 2
  
 ![](example2.jpg)
 
@@ -150,7 +150,7 @@ This is a straight forward example of a one row/four column presentation of alte
 </div>
 ```
 
-# Example 3
+## Example 3
  
 ![](example3.jpg)
 
@@ -270,7 +270,7 @@ This is what the iPhone 6 view looks like of the above three examples:
 
 ![](examples1-3.jpg)
 
-# Example 4
+## Example 4
 
 ![](example4.jpg?classes=shadow,border)
 
@@ -318,7 +318,7 @@ This is a one row/five column presentation of text content.
 <p><a target="_blank" href="http://www.rockettheme.com/joomla/templates/ricochet" class="readon">Join Now</a></p></div>
 ```
 
-# Example 5
+## Example 5
 
 ![](example5.jpg?classes=shadow,border)
 
@@ -465,7 +465,7 @@ This is a three row/two column presentation of Image & Text with the left-right 
 </div>
 ```
 
-# Example 6
+## Example 6
 
 ![](example6.jpg?classes=shadow,border)
 

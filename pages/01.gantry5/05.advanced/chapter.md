@@ -45,3 +45,5 @@ Featuring some advanced customization and configuration options for **Gantry 5**
     * [Real World Example](php-functions#real-world-example)
 * [How to Load CSS / JS from Twig](css-js-twig)
     * [Advanced Tip](css-js-twig#advanced-tip)
+* [How to Load Joomla Content in Particles](content-in-particles)
+* [How to Create Custom Responsive Content](responsive-content)

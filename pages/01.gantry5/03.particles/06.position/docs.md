@@ -153,7 +153,7 @@ Grav documentation is coming soon...
 [/ui-tab]
 [/ui-tabs]
 
-# Using Particles in Module Positions (Joomla)
+## Using Particles in Module Positions (Joomla)
 
 If you prefer to use a more traditional method of assigning content to areas of your site, you can of course use particles as though they were modules by assigning them to module positions as you would any other module.
 
