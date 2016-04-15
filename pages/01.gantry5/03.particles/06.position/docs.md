@@ -11,8 +11,7 @@ Instead of breaking out your text editor to rename and/or create widget position
 
 In addition, you can easily create vastly different positions setups between outlines, enabling you to have an entirely different positions set and layout from one page to the next.
 
-Creating, Deleting, and Moving Positions
------
+# Creating, Deleting, and Moving Positions
 
 ![Positions](positions_6.png?classes=shadow,border)
 
@@ -50,15 +49,13 @@ If you want to disable a position temporarily (which hides its assigned modules/
 
 Moving positions around the layout is also just a matter of dragging and dropping them where you want them to go. If you want your main Showcase modules/widgets to appear under the features modules/widgets, you can move them without having to edit a single file.
 
-Virtually Unlimited Positions Per row
------
+# Virtually Unlimited Positions Per row
 
 ![Positions](positions_4.png?classes=shadow,border)
 
 You could have 0, 1, 5, 10, or even 20 individual widget positions in the Header section if you wanted to. This enables you to have one or two positions where you need them, without the need to have positions in places you do not want them.
 
-Quick and Easy Naming
------
+# Quick and Easy Naming
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
@@ -98,8 +95,7 @@ Grav documentation is coming soon...
 [/ui-tab]
 [/ui-tabs]
 
-Spacers
------
+# Spacers
 
 ![Spacers](positions_5.png?classes=shadow,border)
 
@@ -107,8 +103,7 @@ We have created a new Spacer Particle which enables you to create a blank space 
 
 Gantry 5 introduces many new features that are created to make life easier for developers, their clients, and ultimately the visitors of the site. With its new Layout Manager and this system for handling widget positions, it will undoubtedly be not only the most powerful version of Gantry yet, but also the easiest to use.
 
-Settings
------
+# Settings
 
 The settings for a **Position** Particle can vary between content management systems (CMS). We have broken down the available options below.
 
@@ -157,3 +152,19 @@ Grav documentation is coming soon...
 
 [/ui-tab]
 [/ui-tabs]
+
+# Using Particles with Module Positions (Joomla)
+
+If you prefer to use a more traditional method of assigning content to areas of your site, you can of course use particles as though they were modules by assigning them to module positions as you would any other module.
+
+![Particle](module_position_1.gif?classes=shadow,border)
+
+The first step to doing this is, of course, creating a module position in your layout. You can do this by selecting and dragging the **Module Position** particle from the sidebar to your desired location in the **Layout Manager**. Once you have done this, you will want to give it a key (and/or a particle name) that you can easily associate with that space.
+
+In our example above, we used `navigation-a` to represent the first assignable module position in the **Navigation** section.
+
+![Particle](module_position_2.gif?classes=shadow,border)
+
+Once you have done this, you need but to navigate to the **Module Manager** in Joomla and create a new **Gantry 5 Particle** module.
+
+Here, you can assign the module position as you would any other module, and **Pick a Particle** to select the particle you would like to have appear in that position. Your particle will then render just as any other module would on the front end.

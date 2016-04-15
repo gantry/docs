@@ -26,7 +26,7 @@ However, there may be cases where you have customized a theme file directly at t
 
 Joomla makes it easy to update your Gantry 5-powered template. Once an update is available, you will be notified in the Joomla administrator just as you would with any other extension.
 
-![Updating](updating_1.png)
+![Updating](updating_1.png?classes=shadow,border)
 
 You can initiate the update by navigating to **Administrator > Extensions > Extension Manager > Update**, selecting the theme package, and then the **Update** button to initiate the update.
 
@@ -53,7 +53,7 @@ After you have done this, make sure you clear the WordPress cache completely and
 
 If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can copy that directory and place it somewhere safe, then initiate uninstallation using the WordPress admin, and upload the new, updated version of the theme.
 
-![Updating](updating_2.png)
+![Updating](updating_2.png?classes=shadow,border)
 
 To do this, navigate to **Admin > Appearance > Themes**, and select another theme to set as default temporarily. You can do this by selecting the **Activate** button that appears as you move your cursor over another theme. This will enable you to remove the currently-installed Gantry theme by selecting its thumbnail, then the red **Delete** link in the lower-right corner of the popup.
 
