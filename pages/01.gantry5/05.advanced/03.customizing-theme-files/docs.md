@@ -284,7 +284,7 @@ The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` direc
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-The first table of folders is rooted in the `ROOT/templates/THEME_DIR/` directory where `ROOT` is the root directory of the Joomla site and `THEME_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
+The first table of folders is rooted in the `ROOT/wp-content/themes/THEME_DIR/` directory where `ROOT` is the root directory of the Wordpress site and `THEME_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
 
 | Directory         | Description                                                                                                                       |
 | :------           | :-----                                                                                                                            |
