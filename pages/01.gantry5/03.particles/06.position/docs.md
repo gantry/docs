@@ -155,15 +155,13 @@ Grav documentation is coming soon...
 
 ## Using Particles in Module Positions (Joomla)
 
-If you prefer to use a more traditional method of assigning content to areas of your site, you can of course use particles as though they were modules by assigning them to module positions as you would any other module.
+[plugin:youtube](https://www.youtube.com/watch?v=e-I1KQLPB9c)
 
-![Particle](module_position_1.gif?classes=shadow,border)
+If you prefer to use a more traditional method of assigning content to areas of your site, you can of course use particles as though they were modules by assigning them to module positions as you would any other module.
 
 The first step to doing this is, of course, creating a module position in your layout. You can do this by selecting and dragging the **Module Position** particle from the sidebar to your desired location in the **Layout Manager**. Once you have done this, you will want to give it a key (and/or a particle name) that you can easily associate with that space.
 
 In our example above, we used `navigation-a` to represent the first assignable module position in the **Navigation** section.
-
-![Particle](module_position_2.gif?classes=shadow,border)
 
 Once you have done this, you need but to navigate to the **Module Manager** in Joomla and create a new **Gantry 5 Particle** module.
 
