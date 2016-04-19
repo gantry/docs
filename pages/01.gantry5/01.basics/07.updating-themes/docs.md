@@ -49,15 +49,13 @@ Your theme's files are contained within the theme's directory. For example, the 
 
 After you have done this, make sure you clear the WordPress cache completely and test your site.
 
-### Method 2: Full Theme Deletion and Reinstall
+### Method 2: Install Full Theme Over Existing Theme
 
-If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can copy that directory and place it somewhere safe, then initiate uninstallation using the WordPress admin, and upload the new, updated version of the theme.
+If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can copy that directory and place it somewhere safe and upload the new, updated version of the theme.
 
 ![Updating](updating_2.png?classes=shadow,border)
 
-To do this, navigate to **Admin > Appearance > Themes**, and select another theme to set as default temporarily. You can do this by selecting the **Activate** button that appears as you move your cursor over another theme. This will enable you to remove the currently-installed Gantry theme by selecting its thumbnail, then the red **Delete** link in the lower-right corner of the popup.
-
-Now, installing the updated Gantry 5 theme is easy. At the top of the **Themes** page is an **Add New** button. Selecting it takes you to the **Add Themes** page where you cal select the **Upload Theme** button which is placed in the same position the Add New button was in the last page.
+To do this, navigate to **Admin > Appearance > Themes**. At the top of the **Themes** page is an **Add New** button. Selecting it takes you to the **Add Themes** page where you cal select the **Upload Theme** button which is placed in the same position the Add New button was in the last page.
 
 Now, you simply need to choose the theme's zip package and select **Install Now**. Once your installation is complete you will be given the option to **Activate** it. Do so, and before you go to any other area of the admin, use your FTP program to replace the `custom` directory and its contents that you copied earlier.
 
