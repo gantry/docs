@@ -62,6 +62,8 @@ In the image above, you will see the **Copyright** Particle on the left-hand sid
 
 The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/media/gantry5/engines/nucleus/particles/` and paste the copies to `TEMPLATE_DIR/custom/particles`. If the `particles` directory does not already exist in your `custom` folder, you will have to create it.
 
+! The particle you're looking for might be located in a different place. For example, a template-specific particle that came with the template and is not core to Gantry can be found in `/THEME_DIR/particles`.
+
 By duplicating the files and placing the copies in the custom folder, you are making your changes update proof. This ensures that your changes do not get wiped out when you update either the Gantry framework or the theme.
 
 Anything you do to the duplicate particle files in your `TEMPLATE_DIR/custom/particles` folder will override what appears in the original file.
