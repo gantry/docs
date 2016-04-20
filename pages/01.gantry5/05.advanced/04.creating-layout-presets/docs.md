@@ -243,6 +243,48 @@ There are four main rules to keep in mind when creating a layout preset.
 | `position-`       | Followed directly by a position name (example: `position-header`) it creates a position and assigns it the given name. |
 | `version`         | This indicates the Gantry YAML version being used. Version 2, for example, was introduced in Gantry 5.2.               |
 
+## Adding a Section to an Existing Layout Preset
+
+There are two ways to go about adding a section to an existing layout preset. The first applies to layout presets that are already present in your `THEME_DIR/custom` directory.
+
+You can edit the custom preset directly, or duplicate its YAML file and edit the duplicate if you want to keep the current preset and have another with a minor change.
+
+So, let's say that you have a file named `example1.yaml` in your `THEME_DIR/custom` directory. And that file contains the following:
+
+```yaml
+version: 2
+
+preset:
+  image: gantry-media://images/admin/layouts/default.png
+
+layout:
+  /header/:
+    - menu
+
+  /main/:
+    - position-breadcrumbs
+    - system-messages
+    - system-content
+
+  /footer/:
+    - position-footer
+    - [copyright 40, spacer 30, branding 30]
+
+  offcanvas:
+    - mobile-menu
+```
+
+This layout preset establishes header, main, and footer sections. But, let's say you wanted to add a new section between the main and footer named `mainbottom`. Doing this is incredibly easy. Just add the following between the `main` and `footer` sections in the file:
+
+```yaml
+  /mainbottom/:
+    - position-mainbottom
+```
+
+Once this is done and the file is saved, refresh your Layout Manager and load the preset. Your change should appear.
+
+You can also add a section to an existing layout using a very similar process. You just need to copy the layout's YAML file from its original location and place it in your `/custom` directory. For example, you can copy `THEME_DIR/layouts/default.yaml` and place the copy in `THEME_DIR/xxx/default.yaml` directory and make your change(s) to the copy.
+
 ## YAML Versions
 
 As Gantry 5 evolved, we wanted to make its layout YAML files easier to read and use. By simplifying the syntax, removing particle tags, and simplifying the way sections are managed, we were able to create a better user experience. These changes were implemented in Gantry 5.2 and later versions.
