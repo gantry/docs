@@ -285,6 +285,108 @@ Once this is done and the file is saved, refresh your Layout Manager and load th
 
 You can also add a section to an existing layout using a very similar process. You just need to copy the layout's YAML file from its original location and place it in your `/custom` directory. For example, you can copy `THEME_DIR/layouts/default.yaml` and place the copy in `THEME_DIR/xxx/default.yaml` directory and make your change(s) to the copy.
 
+## Structure
+
+There is another section in a layout preset's YAML file that sets the structure of the layout. This is the **structure** section. This section sets the structural properties of your layout. They are the bits and pieces that can not defined in the main layout area where you initially create your sections and assign particles.
+
+A YAML's structure leaves a lot of room for new properties to be assigned to virtually any element in the layout's structure. For example, you can change the behavior of a section using the structural properties, such as changing a section's type to a div rather than its default behavior: section.
+
+There are five different types of properties. **id**, **title**, **type**, **subtype**, and **attributes**. A section's assigned **id** determines its tags. For example, if you set the **id** to `foo` it will appear as `<section id="foo">` in the front end.
+
+The **title** property enables you to set a title for the seciton as it appears on the back end. For example, you can set the section up as follows:
+
+```yaml
+structure:
+  mainbottom:
+    title: Main
+```
+
+And it will appear as **Main** in the back end as pictured below:
+
+![](property_1.png?classes=shadow,border)
+
+**attributes** are the changes made in the section's settings in the Gantry administrator. For example, if you set the section settings in the Gantry admin as follows:
+
+![](property_2.png?classes=shadow,border)
+
+It will appear in the customized YAML file as follows:
+
+```yaml
+  navigation:
+    attributes:
+      boxed: '0'
+      class: foo
+      extra:
+        -
+          data-foo: foo
+```
+
+Here is a list of structural properties you can use to define a section's **type** and **subtype**:
+
+| Type      | Description                                                                                                                                                                                                                                               |
+| :-----    | :-----                                                                                                                                                                                                                                                    |
+| block     | This is the container of the particle. In admin, it is seen as the **Block** tab in each particle's settings.                                                                                                                                             |
+| container | A container is used to house multiple sections, such as a mainbody and sidebar/aside.                                                                                                                                                                     |
+| grid      | A grid is essentially the row. Each row can contain multiple blocks. It defines the properties of a specific row.                                                                                                                                         |
+| offcanvas | Offcanvas describes the area that houses the mobile menu.                                                                                                                                                                                                 |
+| section   | A section contains rows (grids), which contain blocks with particles. It is the big white blocks that show up in the admin. Commonly given names like **Header**, **Footer**, **Mainbody**, and **Sidebar**.                                              |
+| wrapper   | A wrapper is not seen in the admin. It's not required in the layout, but it can be used optionally to assist in styling. For example, if you have multiple sections you want to span a single background image throughout, you can do so using a wrapper. |
+
+**Subtypes**
+
+* article 
+* aside  
+* div     
+* footer  
+* header  
+* main   
+* nav     
+* section 
+
+Subtypes are essentially HTML tags that define the content of your page. They are thematic groupings that tell browsers and web crawlers what pieces of content are. For example, an article would be defined within `<article></article>` tags.
+
+Subtypes are only used for the section. If you have a section defined as `section`, then the other subtypes are not used.
+
+Here is a quick example of a section using these structural properties to further customize the section.
+
+```yaml
+structure:
+  header:
+    title: Main Header
+    id: foo
+  navigation:
+    subtype: nav
+    title: Main Navigation
+```
+
+In the above example, we see two sections: `header` and `navigation`. The `header` has been given an alternate title of `Main Header` and an id of `foo`. It will appear in the HTML as `<header id="foo">`. We did not have to assign the header `subtype` because the name of the section itself is `header`. It automatically does this for us.
+
+The `navigation` section has been given the subtype of `nav`. We also changed its title, as we did in the `header` section, so it will appear as **Main Navigation** in the Gantry admin. The front end HTML tags appear as `<nav id="g-navigation">` which uses the defined subtype and the default id.
+
+## Content
+
+The `content` area of the YAML file is essentially the storage place of any particle attributes. As an example, we created a **Date** particle and adjusted its **Particle** and **Block** settings:
+
+![](property_3.png?classes=shadow,border)
+
+![](property_4.png?classes=shadow,border)
+
+This is how this is represented in the content section of the YAML file:
+
+```yaml
+content:
+  date-1446:
+    title: 'My Date'
+    attributes:
+      css:
+        class: foo
+      date:
+        formats: 'l, d F'
+    block:
+      id: foobar
+      variations: box2
+```
+
 ## YAML Versions
 
 As Gantry 5 evolved, we wanted to make its layout YAML files easier to read and use. By simplifying the syntax, removing particle tags, and simplifying the way sections are managed, we were able to create a better user experience. These changes were implemented in Gantry 5.2 and later versions.
