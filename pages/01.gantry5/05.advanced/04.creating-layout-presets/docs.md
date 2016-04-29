@@ -291,7 +291,7 @@ There is another section in a layout preset's YAML file that sets the structure 
 
 A YAML's structure leaves a lot of room for new properties to be assigned to virtually any element in the layout's structure. For example, you can change the behavior of a section using the structural properties, such as changing a section's type to a div rather than its default behavior: section.
 
-There are five different types of properties. **id**, **title**, **type**, **subtype**, and **attributes**. A section's assigned **id** determines its tags. For example, if you set the **id** to `foo` it will appear as `<section id="foo">` in the front end.
+There are five different types of properties. **id**, **title**, **type**, **subtype**, and **attributes**. A section's assigned **id** determines its tags. For example, an `id` of `foo` will appear as `<section id="foo">` in the front end. The **id** is an internally-used feature that should not be altered manually. 
 
 The **title** property enables you to set a title for the seciton as it appears on the back end. For example, you can set the section up as follows:
 
@@ -353,13 +353,12 @@ Here is a quick example of a section using these structural properties to furthe
 structure:
   header:
     title: Main Header
-    id: foo
   navigation:
     subtype: nav
     title: Main Navigation
 ```
 
-In the above example, we see two sections: `header` and `navigation`. The `header` has been given an alternate title of `Main Header` and an id of `foo`. It will appear in the HTML as `<header id="foo">`. We did not have to assign the header `subtype` because the name of the section itself is `header`. It automatically does this for us.
+In the above example, we see two sections: `header` and `navigation`. The `header` has been given an alternate title of `Main Header`. It will appear in the HTML as `<header>`. We did not have to assign the header `subtype` because the name of the section itself is `header`. It automatically does this for us.
 
 The `navigation` section has been given the subtype of `nav`. We also changed its title, as we did in the `header` section, so it will appear as **Main Navigation** in the Gantry admin. The front end HTML tags appear as `<nav id="g-navigation">` which uses the defined subtype and the default id.
 
@@ -383,7 +382,6 @@ content:
       date:
         formats: 'l, d F'
     block:
-      id: foobar
       variations: box2
 ```
 
