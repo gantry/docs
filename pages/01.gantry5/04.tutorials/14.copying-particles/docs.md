@@ -7,7 +7,7 @@ taxonomy:
 
 ## Introduction
 
-Gantry 5 templates are provided with different particles. Not every particle is not included in every Gantry 5 template, sometimes you might want to include a particle from another template into the template that you are using. This tutorial shows you the safe way to copy particles between templates that won't be overwritten again by template updates.
+Gantry 5 templates are provided with different particles. Not every particle is included in every Gantry 5 template, sometimes you might want to include a particle from another template into the template that you are using. This tutorial shows you the safe way to copy particles between templates that won't be overwritten again by template updates.
 
 For the purpose of this tutorial the template you are copying from is the **donor** template and the template you are copying to the **recipient** template.
 
