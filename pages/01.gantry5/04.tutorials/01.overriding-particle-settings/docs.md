@@ -5,45 +5,46 @@ taxonomy:
     tag: [gantry5]
 ---
 
-**Particles** are extremely flexible. You can access their settings on several levels, each determining how that Particle will be configured at a specific level.
+**Particles** are extremely flexible. You can access their settings on several levels and modify their defaults for the whole site, a specific outline, or even an instance in the Layout Manager or Menu Editor.
 
-Here is a quick breakdown of the different levels at which a **Particle** can be configured.
+Particles each come with their own set of default settings which may or may not be configured in the Particle's YAML file. These defaults are then inherited by the Base Outline in the Particle Defaults panel. From there, you can modify these defaults within the Base Outline, Sub Outlines, and even in the specific particle instance as it appears in the Layout Manager, Menu Editor, Module or Widget.
 
-| Level                                          | Description                                                                                                             |
-| :-----                                         | :-----                                                                                                                  |
-| Base Outline Settings Panel                    | Sets the global defaults for a given Particle.                                                                          |
-| Non-Base Outline Settings Panel                | Sets the settings override for a given outline. These settings become the default for that outline only.                |
-| Individual Particle Settings in Layout Manager | Sets the settings override for an individual particle. These settings affect only the single instance of that particle. |
+Here is a quick breakdown of the different inheritance levels of a **Particle**.
 
-## Base Outline Settings Panel
+| Level                                                                                  | Description                                                                                                                                                                      |
+| :-----                                                                                 | :-----                                                                                                                                                                           |
+| Particle YAML File                                                                     | Any defaults assigned in this file act as the absolute top-level defaults for the particle. These defaults are overridden by any changes made in the Base Outline, Sub Outlines. |
+| Base Outline Particle Defaults                                                         | Changes made in the **Particle Defaults** panel in the Base Outline become global defaults for the site.                                                                         |
+| Non-Base Outline Particle Defaults                                                     | The **Particle Defaults** panel at this level sets defaults for the particle as it exists in that particular outline, affecting only that outline.                               |
+| Individual Particle Particle Defaults in Layout Manager, Menu Editor, module or widget | Changes made at this level are the overridden settings for the particle in only this instance or any directly inherited instances.                                               |
 
-![Default](particle_1.png?classes=shadow,border)
+In short, inheritance for particle settings goes like this: **Particle YAML File > Base Outline Particle Defaults > Non-base Outline Particle Defaults > Individual Instance** with each step inheriting and/or overriding settings from the previous one.
 
-Within the **default** outline, you can set global default settings for any Particle in the **Settings Administrative Panel**. Settings placed here become the global defaults that apply to every outline and individual Particle instance unless overridden. This is where you would place your most commonly used settings for a given Particle.
+## Base Outline Particle Defaults Panel
+
+![Default](particle_1.jpg?classes=shadow,border)
+
+Within the **Base** outline, you can set global default settings for any Particle in the **Particle Defaults** administrative panel. Settings placed here become the global defaults that apply to every outline and individual Particle instance unless overridden. This is where you would place your most commonly used settings for a given Particle.
 
 For example, if you want your logo Particles to use the same source image across all of your pages except one or two, you would set that image here and override it using either the non-Base Outline settings applied to those exception pages, or in the individual Particle instances in the Layout Manager.
 
-## Non-Base Outline Settings Panel
+## Non-Base Outline Particle Defaults Panel
 
-![Non-Default](particle_2.png?classes=shadow,border)
+![Non-Default](particle_2.jpg?classes=shadow,border)
 
-Within outlines that are not set as the default, you may notice that the **Settings Administrative Panel** has grayed out the **Particle Settings** for most (if not all) of your Particles. By changing a setting and/or selecting the checkbox on the right-hand side of the settings box for that Particle, you can override the default settings for the outline. 
+Within outlines that are not set as the default, you may notice that the **Particle Defaults** administrative panel has grayed out the **Particle Settings** for most (if not all) of your Particles. By changing a setting and/or selecting the checkbox on the right-hand side of the settings box for that Particle, you can override the default settings for the outline. 
 
 Now, every Particle placed in the Layout Manager for that particular outline will have these new settings by default.
 
 ## Individual Particle Settings in Layout Manager
 
-[ui-callout]
-[ui-callout-item title="Cogwheel" position="68%, 45%, se"]
-Selecting the cogwheel icon will bring up the **Settings** popup.
-[/ui-callout-item]
-[ui-callout-item title="Particle Settings" position="15%, 50%, se"]
-The **Particle** tab in the **Settings** pop-up gives you the ability to override the default settings for a particular **Particle** instance.
-[/ui-callout-item]
-![](particle_3.png?classes=shadow,border)
-[/ui-callout]
+![](particle_4.jpg?classes=shadow,border)
 
 When you place a particle in an outline's **Layout Manager**, you create an **instance**. That instance enables you to adjust the Particle settings for that specific particle, affecting no other instances of that Particle. If, for example, you wanted to have the logo appear differently in one instance, you would change its settings here.
+
+![](particle_3.jpg?classes=shadow,border)
+
+In the example above, we changed the **Start Year** for the particle using its settings panel in the **Layout Manager**. The checked box to the right of the field indicates that it is being overridden while the other fields remain gray and unchecked. Those settings are being inherited from higher default levels.
 
 You can access these instance-specific settings by selecting the cogwheel on the right-hand side of the Particle within the Layout Manager.
 
