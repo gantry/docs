@@ -64,7 +64,7 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 #### Outlines
 
-![Outlines](outlines.png?classes=shadow,border)
+![Outlines](outlines.jpg?classes=shadow,border)
 
 This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**. 
 
@@ -74,7 +74,7 @@ This panel is where you can manage and create new outlines, each with its own se
 
 You can switch to an individual Outline in two ways. This panel will enable you to set a specific Outline as active in the Outline-specific panels of the Admin by clicking their associated **edit** buttons. Alternatively, you can switch between them using the drop-down menu located on the left-hand side of the toolbar which hosts the **outline-specific administrative panels**.
 
-![Outlines](outlines2.png?classes=shadow,border)
+![Outlines](outlines2.jpg?classes=shadow,border)
 
 Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Settings, Layouts, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
 
@@ -96,29 +96,53 @@ The Gantry menu system grabs information from the CMS' own menu system, and crea
 
 The **About** panel enables the theme developer to place information about the theme, such as a feature list and credits, as well as links to documentation and a reference screenshot. This is also where users can quickly find the currently-enabled theme name, version number, and developer information.
 
+#### Page Settings
+
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+
+![Content](page.jpg?classes=shadow,border)
+
+The **Page Settings** administrative panel gives you quick access to Global page settings that affect the site. These include **Atoms**, **Body Attributes**, **Head Properties**, and **Assets** such as the favicon and CSS/JavaScript you wish to have available to the page.
+
+[/ui-tab]
+[ui-tab title="WordPress"]
+
+![Content](wp_page.jpg?classes=shadow,border)
+
+The **Page Settings** administrative panel gives you quick access to Global page settings that affect the site. These include **Atoms**, **Body Attributes**, **Head Properties**, and **Assets** such as the favicon and CSS/JavaScript you wish to have available to the page.
+
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
+
 ### Outline-specific Panels
 
 **Outline-specific Panels** offer users the ability to customize the layout, settings, and assignments of a specific outline. In Gantry 4, *outlines* were referred to as *overrides*.
 
 #### Styles
 
-![Styles](styles.png?classes=shadow,border)
+![Styles](styles.jpg?classes=shadow,border)
 
 The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
 
 <div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Styles Panel</a></div>
 
-#### Settings
+#### Particle Defaults
 
-![Settings](settings.png?classes=shadow,border)
+![Particle Defaults](settings.jpg?classes=shadow,border)
 
-The **Settings** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
+The **Particle Defaults** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
 
-<div align="center"><a href="../configure/settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Settings Panel</a></div>
+<div align="center"><a href="../configure/settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particle Defaults Panel</a></div>
 
 #### Layout
 
-![Layouts](layout.png?classes=shadow,border)
+![Layouts](layout.jpg?classes=shadow,border)
 
 This is the **Layout Manager** panel which enables you to arrange Particles, content, and widget/module positions for your theme. This panel is essentially where you set up how the page's elements will be arranged, and what they will include. Additionally, you can access individual settings for Particles, Blocks, Sections, and Grids. 
 
@@ -126,7 +150,7 @@ This is the **Layout Manager** panel which enables you to arrange Particles, con
 
 #### Assignments
 
-![Assignments](assignments.png?classes=shadow,border)
+![Assignments](assignments.jpg?classes=shadow,border)
 
 The **Assignments** panel is your one-stop-shop for assigning Outlines to specific pages. For example, if you have an outline set up that you would like to apply specifically to your **About** page, you can do so here.
 
@@ -142,7 +166,7 @@ The **Content** administrative panel is not available on Joomla as Joomla handle
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-![Content](wp_content.png?classes=shadow,border)
+![Content](wp_content.jpg?classes=shadow,border)
 
 The **Content** administrative panel gives you the ability to quickly and easily configure the way content is displayed on a given page.
 
@@ -164,3 +188,4 @@ Grav documentation is coming soon...
 
 [/ui-tab]
 [/ui-tabs]
+
