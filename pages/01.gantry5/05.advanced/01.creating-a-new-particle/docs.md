@@ -11,6 +11,8 @@ Creating a new **Particle** in Gantry 5 is a pretty straightforward process. You
 
 For the interest of this guide, we will create a simple Particle for a page on a site. This Particle consists of three main parts. The **Title**, **Image**, and **Description**. Particles can be as simple or complex as you need them to be.
 
+! When creating your file names, you should avoid special characters such as hyphens.
+
 Creating the YAML File
 -----
 
