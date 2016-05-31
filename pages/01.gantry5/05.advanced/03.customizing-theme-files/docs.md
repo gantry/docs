@@ -31,7 +31,7 @@ To do this, you will need to create an override of the `section.yaml` found in `
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-To do this, you will need to create an override of the `section.yaml` found in `ROOT/wp-content/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/wp-content/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [ui-tab title="Grav"]
