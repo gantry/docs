@@ -103,6 +103,6 @@ Here is a breakdown of the yaml items and what they mean to the particle.
 | ajax        | This field tells Gantry how to display the collection. We recommend always setting this to `true`.                                                                                                                          |
 | fields      | This part of the YAML file introduces the fields that will appear in individual collection items' settings.                                                                                                                 |
 
-Another important note here is that any field you want inside the `fields` portion of the collection needs to start with a `.`. So instead of calling the field `test` it would be `.test`.
+Another important note here is that any field you want inside the `fields` portion of the collection needs to start with a period (`.`). So instead of calling the field `test` it would be `.test`.
 
 You can find more information about how to use YAML files in Gantry 5 [in our guide](../../advanced/particle-yaml-field-types).
