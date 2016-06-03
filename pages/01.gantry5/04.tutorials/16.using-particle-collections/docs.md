@@ -91,4 +91,18 @@ items:
       label: Link
 ```
 
+Here is a breakdown of the yaml items and what they mean to the particle.
+
+| Item        | Description                                                                                                                                                                                                                 |
+| :-----      | :-----                                                                                                                                                                                                                      |
+| type        | Setting the `type` to `collection.list` tells Gantry that this area of the particle's settings is going to be a collection. You can also use type to define the types of fields you're setting up for the collection items. |
+| array       | This is an internal command. If you're setting up your own particle, we recommend keeping this line set to `true`.                                                                                                          |
+| label       | The `label` sets the name of the collection as it appears in the back end.                                                                                                                                                  |
+| description | A collection's `description` gives it descriptive text appearing as you hover the cursor over its label.                                                                                                                    |
+| value       | This sets which field to use as the name of the collection item in the settings panel. For example: this could be `name`, `icon`, or `text`.                                                                                |
+| ajax        | This field tells Gantry how to display the collection. We recommend always setting this to `true`.                                                                                                                          |
+| fields      | This part of the YAML file introduces the fields that will appear in individual collection items' settings.                                                                                                                 |
+
+Another important note here is that any field you want inside the `fields` portion of the collection needs to start with a `.`. So instead of calling the field `test` it would be `.test`.
+
 You can find more information about how to use YAML files in Gantry 5 [in our guide](../../advanced/particle-yaml-field-types).
