@@ -725,6 +725,7 @@ gantry-width-spacer     g-width-spacer
 .g-width-70,
 .g-width-75,
 .g-width-80,
+.g-width-85,
 .g-width-90 {
   display: block;
   float: left;
@@ -768,6 +769,9 @@ gantry-width-spacer     g-width-spacer
 .g-width-80 {
   width: 80%;
 }
+.g-width-85 {
+  width: 85%;
+}
 .g-width-90 {
   width: 90%;
 }
@@ -776,7 +780,7 @@ gantry-width-spacer     g-width-spacer
 }
 // typically 30rem to 47.938rem
 @include breakpoint(large-mobile-range) {
-  .g-width-20, .g-width-25, .g-width-30, .g-width-33, .g-width-40, .g-width-50, .g-width-60, .g-width-66, .g-width-70, .g-width-75, .g-width-80, .g-width-90 {
+  .g-width-20, .g-width-25, .g-width-30, .g-width-33, .g-width-40, .g-width-50, .g-width-60, .g-width-66, .g-width-70, .g-width-75, .g-width-80, .g-width-85, .g-width-90 {
       width: 100%;
   }
 }
