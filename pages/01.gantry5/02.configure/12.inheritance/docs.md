@@ -83,7 +83,17 @@ Here is a quick breakdown of the different inheritance levels of a **Particle**.
 | Non-Base Outline Particle Defaults                                                     | The **Particle Defaults** panel at this level sets defaults for the particle as it exists in that particular outline, affecting only that outline.                               |
 | Individual Particle Defaults in Layout Manager, Menu Editor, module or widget | Changes made at this level are the overridden settings for the particle in only this instance or any directly inherited instances.                                               |
 
+![](chart_1.jpg) {.border .shadow}
+
 In short, inheritance for particle settings goes like this: **Particle YAML File > Base Outline Particle Defaults > Non-base Outline Particle Defaults > Individual Instance** with each step inheriting and/or overriding settings from the previous one.
+
+! The **Particle Defaults** panel is being phased out in **user-created outlines** as it is not necessary under the new inheritance system. You will see it in the Base Outline as this will enable you to set global defaults for the particle. However, the panel is hidden by default for any user-defined outlines as the vast majority of users will be defining particles in an individual outline through the layout manager most of the time. 
+
+![](particle_defaults.jpg) {.border .shadow}
+
+If you want to access the **Particle Defaults** panel for a user-defined outline, you can still do so by navigating to the **Particle Defaults** panel in the **Base Outline**, then selecting the user outline from the outline dropdown. You will be initially greeted by a notice letting you know why this panel is hidden and giving you the option to manually access it.
+
+### Particle Inheritance Setup
 
 ![](gif_3.gif) {.border .shadow}
 

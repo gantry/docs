@@ -138,7 +138,7 @@ The **Styles** panel makes it easy to quickly adjust visual bits and pieces rela
 
 The **Particle Defaults** panel is a virtual command center for Particles. This is where you can quickly toggle Particles on and off, as well as configure their global settings.
 
-<div align="center"><a href="../configure/settings" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particle Defaults Panel</a></div>
+<div align="center"><a href="../configure/particle-defaults" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particle Defaults Panel</a></div>
 
 #### Layout
 
