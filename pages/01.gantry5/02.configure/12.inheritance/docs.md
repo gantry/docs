@@ -130,6 +130,8 @@ This option enables you to inherit/clone a particle's block settings.
 * **Particle Attributes**: This option enables you to inherit/clone a particle's attributes, or particle-specific settings.
 * **Particle Block**: This option enables you to inherit/clone a particle's block settings.
 
+! You can't change particle settings in the **Particle Info** popup. It is a read-only view of the particle's settings used for reference only.
+
 ![](gif_4.gif) {.border .shadow}
 
 Once you have inheritance enabled, your particle's attributes and/or block settings will be locked, inheriting their properties from the selected particle.
