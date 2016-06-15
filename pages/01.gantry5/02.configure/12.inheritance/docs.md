@@ -61,6 +61,11 @@ This option enables you to inherit/clone a section's children, including particl
 ![](section_1.jpg?classes=shadow,border)
 [/ui-callout]
 
+* **Mode**: Enables you to choose between cloning the section from another outline as a one-time copy or inheriting for synchronization.
+* **Outline**: This dropdown enables you to select an outline to source the section's attributes and/or children from.
+* **Section Attributes**: This option enables you to inherit/clone a section's attributes, or particle-specific settings.
+* **Section Children**: This option enables you to inherit/clone a section's children, including particles, their positions, width, attributes, and block settings.
+
 When you inherit a section's children, you are importing that section's particles and setting them to inherit, as well. So, if you were to remove **Section Children** from that section's inheritance settings later on, the particles will remain and will continue to inherit attributes and block settings from the original outline until manually disconnected and removed.
 
 If you delete a particle, any sections inheriting its section's children will have the particle removed as well. This does not happen if **Section Children** is turned off in the section's inheritance settings.
@@ -118,3 +123,47 @@ Once you have inheritance enabled, your particle's attributes and/or block setti
 !!! If the original particle is deleted, any actively-inherited copies are **converted into clones** and maintained in their respective layouts. You would need to delete the particle from each layout to completely remove it from your site. This is only the case for **individually-inherited particles**, and not sections or outlines.
 
 ## Atom Inheritance
+
+Atom inheritance works very similarly to particle inheritance. For example, if you have a Google Analytics code you want to have apply to multiple specific outlines, but not the Base Outline, you can do so easily through an atom's inheritance settings.
+
+Below, we've created a chart to make it easy to determine what cases you would use inheritance for in an atom.
+
+|                                                       | Base Outline | Outline A    | Outline B                | Outline C                |
+| :-----                                                | :-----       | :-----       | :-----                   | :-----                   |
+| All Outlines Use the Base Settings                    | Base         | Base Default | Base Default             | Base Default             |
+| Outline A and B Use the Same non-Base Settings        | Base         | Custom Atom  | Inherited from Outline A | Base Default             |
+| Outline A Doesn't Use the Atom, but Others Do         | Base         | Deleted Atom | Base Default             | Base Default             |
+| Only Outline B and C Use the Atom, with Same Settings | No Atom      | No Atom      | Custom Atom              | Inherited from Outline B |
+
+As an example, we'll create an atom in Outline A and have that atom inherit to Outline B.
+
+![](atom_1.gif) {.border .shadow}
+
+First, you'll want to create the new atom. In our example, we will create a Google Analytics atom in Outline A. At this point, the only outline that will be affected by this atom is Outline A.
+
+![](atom_2.gif)
+
+Next, we will switch to Outline B and create another Google Analytics atom. This time, instead of configuring it, we will navigate to the **Inheritance** tab and select **Outline A**, the **Analytics** atom, and toggle the **Atom Attributes** so we inherit both the atom and its attributes.
+
+Here is a breakdown of the options in the **Inheritance** tab.
+
+[ui-callout]
+[ui-callout-item title="Mode" position="30%, 35%, se"]
+Enables you to choose between cloning the atom from another outline as a one-time copy or inheriting for synchronization.
+[/ui-callout-item]
+[ui-callout-item title="Outline" position="40%, 35%, se"]
+This dropdown enables you to select an outline to source your new atom's attributes from.
+[/ui-callout-item]
+[ui-callout-item title="Atom Instance" position="51%, 35%, se"]
+Select an atom to inherit/clone from a list of particles of the same type currently in the selected outline.
+[/ui-callout-item]
+[ui-callout-item title="Atom Attributes" position="65%, 35%, se"]
+This option enables you to inherit/clone a atom's attributes.
+[/ui-callout-item]
+![](atom_1.jpg?classes=shadow,border)
+[/ui-callout]
+
+* **Mode**: Enables you to choose between cloning the atom from another outline as a one-time copy or inheriting for synchronization.
+* **Outline**: This dropdown enables you to select an outline to source your new atom's attributes from.
+* **Atom Instance**: Select an atom to inherit/clone from a list of particles of the same type currently in the selected outline.
+* **Atom Attributes**: This option enables you to inherit/clone a atom's attributes.
