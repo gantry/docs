@@ -111,6 +111,9 @@ This dropdown enables you to select an outline to source your new particle's att
 [ui-callout-item title="Particle Instance" position="51%, 35%, se"]
 Select a particle to inherit/clone from a list of particles of the same type currently in the selected outline's layout.
 [/ui-callout-item]
+[ui-callout-item title="Particle Information" position="51%, 45%, sw"]
+Clicking on this will pop up a view of that particle's settings. It is read-only, and there to help you determine if that is the particle you want to inherit.
+[/ui-callout-item]
 [ui-callout-item title="Particle Attributes" position="65%, 35%, se"]
 This option enables you to inherit/clone a particle's attributes, or particle-specific settings.
 [/ui-callout-item]
@@ -123,6 +126,7 @@ This option enables you to inherit/clone a particle's block settings.
 * **Mode**: Enables you to choose between cloning the particle from another outline as a one-time copy or inheriting for synchronization.
 * **Outline**: This dropdown enables you to select an outline to source your new particle's attributes from.
 * **Particle Instance**: Select a particle to inherit/clone from a list of particles of the same type currently in the selected outline's layout.
+* **Particle Info**: Clicking on this will pop up a view of that particle's settings. It is read-only, and there to help you determine if that is the particle you want to inherit.
 * **Particle Attributes**: This option enables you to inherit/clone a particle's attributes, or particle-specific settings.
 * **Particle Block**: This option enables you to inherit/clone a particle's block settings.
 
