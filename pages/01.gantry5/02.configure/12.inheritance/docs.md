@@ -22,6 +22,7 @@ Inheritance rules can apply to many different things. For example, you can inher
 * One **section's child items (particles)** from one outline to another.
 * One **particle's attributes** from one outline's layout to another.
 * One **particle's block settings** from one outline to another.
+* One **atom's attributes** from one outline to another.
 
 Your site's **style** and **particle defaults** settings are naturally inherited from the Base outline, and are modified from a child outline's administration panels.
 
@@ -29,7 +30,9 @@ Your site's **style** and **particle defaults** settings are naturally inherited
 
 ## Outline Inheritance
 
-You can't set up active inheritance for an entire outline, unless you create a new outline and change absolutely nothing about it. But, if you want to link your layout to another outline entirely, you can do so very easily.
+You can't set up active inheritance for an entire outline, unless you create a new outline by duplicating it and change absolutely nothing about it. But, if you want to link your layout to another outline entirely, you can do so very easily.
+
+You can, if you choose, inherit or clone an entire layout from one outline to another. This is useful if you would like to inherit multiple sections and/or particles from another outline, and do not want to have to recreate all of these items individually. Doing this will create inheritance on every section and particle. You can, of course, go through and disable inheritance and/or remove individual particles manually after setting it up.
 
 ![](gif_1.gif) {.border .shadow}
 
