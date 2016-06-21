@@ -774,8 +774,8 @@ gantry-width-spacer     g-width-spacer
 .g-width-100 {
   width: 100%;
 }
-// typically 30rem to 47.938rem
-@include breakpoint(large-mobile-range) {
+// typically max 47.938rem
+@include breakpoint(mobile-only) {
   .g-width-20, .g-width-25, .g-width-30, .g-width-33, .g-width-40, .g-width-50, .g-width-60, .g-width-66, .g-width-70, .g-width-75, .g-width-80, .g-width-90 {
       width: 100%;
   }
