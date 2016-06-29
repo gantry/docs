@@ -25,7 +25,7 @@ The installation process is exactly the same for each of these. The only differe
 
 [plugin:youtube](https://www.youtube.com/watch?v=zCH10qrxPSc)
 
-Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v5.0.0.zip`) by navigating to **Extensions → Extensions Manager → Install** and selecting the **Choose File** button. Locate the downloaded ZIP and click **Upload & Install** to begin the installation process.
+Install the **Gantry Framework** package file (named similarly to `pkg_gantry5-v5.3.0.zip`) by navigating to **Extensions → Extensions Manager → Install** and selecting the **Choose File** button. Locate the downloaded ZIP and click **Upload & Install** to begin the installation process.
 
 ![Installation](install-template_joomla.jpeg) {.border .shadow}
 
