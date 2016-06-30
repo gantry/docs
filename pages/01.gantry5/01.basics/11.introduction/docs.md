@@ -81,4 +81,6 @@ If you would like to check out the latest Gantry builds to get a glimpse at the 
 
 A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
+You can also check out the source files and download past/current releases of Gantry 5 [directly on GitHub](http://github.com/gantry/gantry5). This is also the best place to submit issues and bug reports that you come across while using Gantry 5.
+
 You can also find a lot of resources here in the Gantry Documentation. In the next chapter, we break down the different areas of the Gantry 5 Administrator and how it can help you get more done with Gantry 5.
