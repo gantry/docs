@@ -49,7 +49,7 @@ A **Particle** is a piece of pre-written code which can be configured in the Gan
 
 An **Atom** is a type of **Particle** that does not render visually on the frontend. These allow you to add scripted pieces to your page in a modular fashion, such as adding custom JavaScript you want to have run at the end of the page load, or a Google Analytics script for traffic tracking.
 
-An **Atom** can be placed in your page's layout using a special **Atoms** section in the **Layout Manager** and can be created in very much the same way as any standard particle.
+An **Atom** can be placed in your outline(s) using a special **Atoms** section in the **Page Settings** tab and can be created in very much the same way as any standard particle.
 
 <a href="../particles/particles#atoms" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
 
