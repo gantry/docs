@@ -61,6 +61,19 @@ And for style sheets only:
 {% endstyles -%}
 ```
 
+## Compiling custom SCSS files
+
+Sometimes there is a need to compile a custom SCSS file to CSS and include it into the page. 
+
+You can do this by adding your SCSS file to the `custom/scss` folder and calling it in twig like this:
+  
+``` twig
+{% styles with { priority: 0 } %}
+    <link rel="stylesheet" href="{{ url(gantry.theme.css('test')) }}" type="text/css"/>
+{% endstyles -%}
+```
+
+In the above example file is `custom/scss/test.scss`. All the variables defined in **Styles** tab are available just like in any SCSS files to be compiled.
 
 ## Advanced Tip
 
