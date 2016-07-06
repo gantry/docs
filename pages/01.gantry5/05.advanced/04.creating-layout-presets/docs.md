@@ -61,22 +61,32 @@ preset:
 
 layout:
   /header/:
-    - menu
+    -
+      - menu
 
   /main/:
-    - position-breadcrumbs
-    - system-messages
-    - system-content
+    -
+      - position-breadcrumbs
+    -
+      - system-messages
+    -
+      - system-content
 
   /mainbottom/:
-    - position-mainbottom
+    -
+      - position-mainbottom
 
   /footer/:
-    - position-footer
-    - [copyright 40, spacer 30, branding 30]
+    -
+      - position-footer
+    -
+      - copyright 40
+      - spacer 30
+      - branding 30
 
   offcanvas:
-    - mobile-menu
+    -
+      - mobile-menu
 ``` 
 
 ![Preset](sections_2.png?classes=shadow,border)
@@ -105,7 +115,8 @@ preset:
 
 layout:
   /header/:
-    - menu
+    -
+      - menu
 
   /container-main/:
     -
@@ -125,11 +136,16 @@ layout:
         - position-right
 
   /footer/:
-    - position-footer
-    - [copyright 40, spacer 30, branding 30]
+    -
+      - position-footer
+    -
+      - copyright 40
+      - spacer 30
+      - branding 30
 
   offcanvas:
-    - mobile-menu
+    -
+      - mobile-menu
 
 structure:
   sidebar1:
@@ -161,21 +177,30 @@ layout:
     -
       -
         header:
-          - [position-header]
+          -
+            - position-header
         navigation:
-          - [menu]
+          -
+            - menu
         messages:
-          - system-messages
+          -
+            - system-messages
         main:
-          - system-content
+          -
+            - system-content
         footer:
-          - [copyright 40, spacer 30, branding 30]
+          -
+            - copyright 40
+            - spacer 30
+            - branding 30
       -
         aside:
-          - position-aside
+          -
+            - position-aside
 
   offcanvas:
-    - mobile-menu
+    -
+      - mobile-menu
 
 structure:
   aside:
@@ -194,29 +219,37 @@ preset:
   image: gantry-admin://images/layouts/3-col.png
 
 layout:
-  /container-main/:
-    -                              # main row
-      -                               # main column 1
+  /container-main/:               # main container
+    -                               # grid (row 1)
+      -                               # block (column 1)
         sidebar:                        # section
-          - position-sidebar              # content row
+          -                               # grid
+            - position-sidebar              # block
 
-      -                             # main column 2
-        header:                       # section
-          - position-header             # content row
-        navigation:                   # section
-          - menu                        # content row
-        main:                         # section
-          - system-messages             # content row
-          - system-content              # content row
-        footer:                       # section
-          - copyright                   # content row
+      -                               # block (column 2)
+        header:                         # section
+          -                               # grid
+            - position-header               # block
+        navigation:                     # section
+          -                               # grid
+            - menu                          # block
+        main:                           # section
+          -                               # grid
+            - system-messages               # block
+          -                               # grid
+            - system-content                # block
+        footer:                         # section
+          -                               # grid
+            - copyright                     # block
 
-      -                             # main column 3
+      -                             # block (column 3)
         aside:                        # section
-          - position-aside              # content row
+          -                             # grid
+            - position-aside              # block
 
-  offcanvas:
-    - mobile-menu
+  offcanvas:                        # offcanvas
+    -                                 # grid
+      - mobile-menu                     # block
 
 structure:
   aside:
@@ -228,11 +261,11 @@ structure:
 
 There are four main rules to keep in mind when creating a layout preset.
 
-1. tiered content is ordered as `row - column - row - column - row - column`. See the earlier examples.
-2. `foo:` creates a section. 
-3. Adding slashes (example: `/foo/:`) creates a container that enables you to take advantage of section layout settings for improved styling flexibility.
-3. Multiple particles in a row are put within `[ ]` brackets. Example: `- [logo, menu]`
-4. You don't need brackets for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
+1. tiered content is ordered as `grid - block - grid - block - grid - block`. Grid is a row and block is a column. See the earlier examples.
+2. `foo:` creates a section. `wrapper-foo:` creates a wrapper. `container-foo:` creates a container. Name needs to be unique to the layout. 
+3. Adding slashes (example: `/foo/:`) enables you to take advantage of section layout settings for improved styling flexibility.
+3. Multiple particles in a row can also be put within `[ ]` brackets. Example: `- [logo, menu]`
+4. You don't need brackets or extra dash for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
 
 ## Common YAML Items
 
@@ -259,26 +292,36 @@ preset:
 
 layout:
   /header/:
-    - menu
+    -
+      - menu
 
   /main/:
-    - position-breadcrumbs
-    - system-messages
-    - system-content
+    -
+      - position-breadcrumbs
+    -
+      - system-messages
+    -
+      - system-content
 
   /footer/:
-    - position-footer
-    - [copyright 40, spacer 30, branding 30]
+    -
+      - position-footer
+    - 
+      - copyright 40
+      - spacer 30
+      - branding 30
 
   offcanvas:
-    - mobile-menu
+    -
+      - mobile-menu
 ```
 
 This layout preset establishes header, main, and footer sections. But, let's say you wanted to add a new section between the main and footer named `mainbottom`. Doing this is incredibly easy. Just add the following between the `main` and `footer` sections in the file:
 
 ```yaml
   /mainbottom/:
-    - position-mainbottom
+    -
+     - position-mainbottom
 ```
 
 Once this is done and the file is saved, refresh your Layout Manager and load the preset. Your change should appear.
@@ -383,6 +426,69 @@ content:
         formats: 'l, d F'
     block:
       variations: box2
+```
+
+Note that you can put all the block settings inside `block` attribute.
+
+## Named grids and blocks
+
+Sometimes there is a need to add named grid or a block to attach an id or a class to it.
+
+```yaml
+version: 2
+
+preset:
+  image: gantry-media://images/admin/layouts/default.png
+
+layout:
+  /header/:
+    grid-menu:
+      - menu
+    1:
+      - logo
+    2:
+      - position-menu
+      
+structure:
+  grid-menu:
+    attributes:
+      id: my-menu-id
+      class: menu-grid
+```
+
+Note that you cannot mix dashes and named keys so if you do not want to name all the grids, use unique (or growing) integer numbers as the other keys instead.
+
+You can also do the same with blocks, but its rarely needed as you can insert the block attributes into section and particle.
+
+## Inheritance
+
+Starting from Gantry 5.3 there is a new `inherit` attribute for both sections and particles. 
+
+Section inheritance is slightly simpler, having just `outline` and `include` attributes:
+
+```yaml
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+```
+
+Particle inheritance has additional parameter to specify which particle to inherit from:
+
+```yaml
+content:
+  logo-5216:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: logo-4270
 ```
 
 ## YAML Versions
