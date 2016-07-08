@@ -5,8 +5,6 @@ taxonomy:
     tag: [gantry5]
 ---
 
-
-
 If you want to add JavaScript and/or CSS from your twig file, you can do something like this:
 
 
@@ -24,8 +22,7 @@ If you want to add JavaScript and/or CSS from your twig file, you can do somethi
 {% endassets -%}
 ```
 
-
-Basically assets can take two optional parameters:
+Basically, assets can take two optional parameters:
 
 * in 'x'
 * with { priority: y }
@@ -35,7 +32,6 @@ The parameter `x` is the location you want to add your stuff (`head` and `footer
 Priority with higher numbers are added into the document before any lower number. If there are multiple assets tags with the same priority, their ordering is undefined.
 
 There is also a twig tag for JavaScript only:
-
 
 ``` twig
 {# Add javascript into end of the document (before any other javascript in the footer). #}
@@ -47,9 +43,7 @@ There is also a twig tag for JavaScript only:
 {% endscripts -%}
 ```
 
-
 And for style sheets only:
-
 
 ``` twig
 {# Add some stylesheets and make them to load last (override other styles). #}
@@ -63,7 +57,7 @@ And for style sheets only:
 
 ## Load CSS / JS in Gantry 5.3+ 
 
-Starting from Gantry 5.3 there is a new and better way to add Javascript and CSS files. 
+Starting from Gantry 5.3 there is a new, better way to add Javascript and CSS files. 
 
 Load JavaScript framework (just Javascript, CSS needs to be loaded manually by you):
 

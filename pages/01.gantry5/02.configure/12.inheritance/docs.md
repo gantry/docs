@@ -28,7 +28,9 @@ Your site's **style** and **particle defaults** settings are naturally inherited
 
 !! Gantry does not support nested inheritance. For example: if you are already inheriting sections in an outline, performing whole-outline inheritance will not override these individually inherited sections. Those sections will continue to inherit from their originally-assigned outline.
 
-## Outline Inheritance
+## Layout Inheritance
+
+[plugin:youtube](https://www.youtube.com/watch?v=u3jnj9mlQgE)
 
 You can't set up active inheritance for an entire outline, unless you create a new outline by duplicating it and change absolutely nothing about it. But, if you want to link your layout to another outline entirely, you can do so very easily.
 
@@ -41,6 +43,8 @@ Simply select the **Load** button in the **Layout Manager** for the outline you 
 You can manually remove inheritance for individual sections and/or particles after doing this by disabling it from the individual section's settings and then from the particles.
 
 ## Section Inheritance
+
+[plugin:youtube](https://www.youtube.com/watch?v=Lazobq1UORI)
 
 Individual sections can be targeted for inheritance. This includes both their section attributes, including the section's layout, CSS class, and tag attributes as well as the sections children, which include particles as well as their row positions and width settings.
 
@@ -74,6 +78,8 @@ When you inherit a section's children, you are importing that section's particle
 If you delete a particle, any sections inheriting its section's children will have the particle removed as well. This does not happen if **Section Children** is turned off in the section's inheritance settings.
 
 ## Particle Inheritance
+
+[plugin:youtube](https://www.youtube.com/watch?v=o8pNoJ0jsiA)
 
 A particle is essentially the item that is most affected by inheritance. It sits at the very bottom level of the inheritance tree, and can be directly inherited or inherited as part of a section or outline.
 
@@ -142,6 +148,8 @@ Once you have inheritance enabled, your particle's attributes and/or block setti
 !!! If the original source particle is deleted, any actively-inherited copies are **converted into clones** and maintained in their respective layouts. You would need to delete the particle from each layout to completely remove it from your site. This is only the case for **individually-inherited particles**, and not sections or outlines.
 
 ## Atom Inheritance
+
+[plugin:youtube](https://www.youtube.com/watch?v=sg9Bu71gjjE)
 
 Atom inheritance works very similarly to particle inheritance. For example, if you have a Google Analytics code you want to have apply to multiple specific outlines, but not the Base Outline, you can do so easily through an atom's inheritance settings.
 
