@@ -17,3 +17,4 @@ Thumbs.db
 .idea/*
 themes/learn2
 *.css.map
+config/security.yaml
