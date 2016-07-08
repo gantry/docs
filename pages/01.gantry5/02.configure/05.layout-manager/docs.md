@@ -41,6 +41,8 @@ As covered in the above section, the **Load** button gives you the opportunity t
 
 The **Clear** button wipes out the Particles (including Positions, Standard Particles, and Atoms) from the **Layout Manager** and gives you a blank slate with just the [Sections](#sections) remaining.
 
+!!! Clear does not clear inheritance. If you have any inherited sections, they will remain after clearing the layout. You can remove them manually be removing inheritance.
+
 ### Save Layout
 
 The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active outline. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
@@ -78,6 +80,8 @@ Once you have decided on an item you would like to apply to the layout, simply *
 
 These items will apply based on their default settings as set in the **Settings** administrative panel for the active outline. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
 
+You can find out all about particle inheritance in our [Inheritance Guide](../inheritance#particle-inheritance).
+
 Layout
 -----
 
@@ -90,6 +94,8 @@ The layout consists of several different sections, each with its own set of sett
 For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles**, **Positions**, and **Atoms**.
 
 You can add **Grids** by selecting the **plus (+)** icon in the upper-right corner of a **Section**. This will create a new row at the bottom of the Section which you can click and drag to move it as needed.
+
+Find out more about inheritance in sections in our [Inheritance Guide](../inheritance).
 
 #### Settings
 

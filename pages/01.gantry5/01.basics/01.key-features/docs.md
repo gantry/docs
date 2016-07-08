@@ -15,9 +15,9 @@ Gantry 5 uses the **Nucleus** grid system, built from scratch using Flexbox and 
 
 #### Cross-platform Support
 
-The new responsive Gantry 5 framework is developed for **Joomla 3.4+**, **WordPress 4.2.2++**, and **Grav 1.0+**.
+The new responsive Gantry 5 framework is developed for **Joomla 3.4+**, **WordPress 4.2.2++**, and **Grav 1.1+**.
 
-! Gantry 5 will initially only be compatible with Joomla 3.4+. Additional platforms will be added as development continues.
+! Gantry 5 will initially only be compatible with **Joomla 3.4+** and **WordPress 4.2.2++**. Additional platforms will be added as development continues.
 
 #### Intuitive YAML-driven Configuration
 
@@ -55,6 +55,6 @@ Change the way your site's menus look with Gantry 5's powerful Menu Editor. Quic
 
 Theme overrides are now part of Gantry 5's Outline system, enabling you to easily create and manage Layouts, Settings, Styles, and more and assign them as needed.
 
-#### Use SCSS, LESS or CSS
+#### Use SCSS or CSS
 
-Gantry 5 has built-in support for SCSS and pure CSS, with the ability to support LESS.
+Gantry 5 has built-in support for SCSS and pure CSS.

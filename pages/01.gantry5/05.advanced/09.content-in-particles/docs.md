@@ -307,11 +307,44 @@ joomla/article-link.html.twig:
 <a href="{{ article.route) }}">{{ article.title }}</a>
 ```
 
+## Accessing current article
+
+You are also able to fetch the current article and display for example its title in your own particle like this:
+
+```twig
+{% set request = gantry.request.request %}
+{% if request['option'] == 'com_content' and request['view'] == 'article' and request['id'] %}
+
+    {% set article = joomla.finder('content').id([request['id']]).language().find()|first %}
+    <h1>{{ article.title }}</h1>
+
+{% endif %}
+```
+
+In this case title is only displayed on single article view. 
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
 WordPress documentation is coming soon...
+
+## Accessing current title:
+
+```twig
+<h1>
+    {% if function('is_category' ) %}
+        {{ function('single_cat_title') }}
+    {% elseif function('is_single' ) or function('is_page') %}
+        {{ function('the_title') }}
+    {% elseif function('is_post_type_archive') %}
+        {{ function('post_type_archive_title') }}
+    {% elseif function('is_tag') %}
+        {{ function('single_tag_title') }}
+    {% elseif function('is_author') %}
+        {{ function('get_the_author') }}
+    {% endif %}
+</h1>
+```
 
 [/ui-tab]
 [ui-tab title="Grav"]
