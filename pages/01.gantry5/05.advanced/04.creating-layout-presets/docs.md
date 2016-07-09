@@ -57,7 +57,7 @@ Here is the example code that will be in our new YAML file:
 version: 2
 
 preset:
-  image: gantry-media://images/admin/layouts/default.png
+  image: gantry-admin://images/layouts/default.png
 
 layout:
   /header/:
