@@ -188,3 +188,59 @@ Change the class of the `seperator.note` to any class that corresponds with your
       class: alert alert-danger      
 ```
 There are a lot of different options available to you. As you can tell from this short guide, Particles are a powerful part of Gantry's core functionality, and can utilize a number of features to make life easier on your user.
+
+Particle Settings Tabs
+-----
+
+![Tabs](tabs_example.gif?classes=shadow,border)
+
+If you have a particle that has a lot of configuration settings on the back end, you can (in Gantry 5.3.2+) choose to create tabs within the particle's back end to separate options to make them easier to navigate through and configure.
+
+In order to accomplish this, you will create a *container* in the particle's YAML file to wrap tabbed data in. Here is an example of a YAML file with three simple tabs:
+
+```yaml
+name: My Awesome Particle
+description: Just makes everything look awesome
+type: particle
+icon: fa-table
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable this particle
+      default: true
+
+    tabs:
+      type: container.tabs
+      fields:
+        tab_display:
+          label: Tab 1
+          fields:
+            inside:
+              type: input.text
+              label: Inside Tab 1
+              description: This field is inside Tab 1
+
+        tab_readmore:
+          label: Tab 2
+          fields:
+            ...
+
+        tab_misc:
+          label: Tab 3
+          fields:
+            ...
+
+    outside:
+      type: input.text
+      label: Outside After
+      description: This field is outside and after the tabs
+```
+
+You'll notice here the use of `container.tabs` to establish the container that wraps three tabs. Within these tabs, you can place any fields you would normally place in your particle's admin. Any fields you wish to have consistently remain available regardless of which tab is presently selected can do so outside of the tabs container.
+
+! Because the tabs are wrapped in a container, it can be placed anywhere in the YAML, this means you can have fields before and after.
+
+The tab's `label` sets the title for the tab on the back end. There is no requirement for how you label the tab in the YAML.
