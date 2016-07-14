@@ -192,6 +192,8 @@ There are a lot of different options available to you. As you can tell from this
 Particle Settings Tabs
 -----
 
+!! This feature is only available in **Gantry 5.3.2** and later.
+
 ![Tabs](tabs_example.gif?classes=shadow,border)
 
 If you have a particle that has a lot of configuration settings on the back end, you can (in Gantry 5.3.2+) choose to create tabs within the particle's back end to separate options to make them easier to navigate through and configure.
@@ -216,7 +218,7 @@ form:
       type: container.tabs
       fields:
         tab_display:
-          label: Tab 1
+          label: Display
           fields:
             inside:
               type: input.text
@@ -224,12 +226,12 @@ form:
               description: This field is inside Tab 1
 
         tab_readmore:
-          label: Tab 2
+          label: Read More
           fields:
             ...
 
         tab_misc:
-          label: Tab 3
+          label: Misc
           fields:
             ...
 
