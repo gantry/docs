@@ -247,7 +247,9 @@ You'll notice here the use of `container.tabs` to establish the container that w
 
 The tab's `label` sets the title for the tab on the back end. There is no requirement for how you label the tab in the YAML.
 
-When using fields in tabs in twig, you can access them normally. There is no need to reference the tab(s) at all. For example, if you wanted to reference the `input.text` field called `inside` in the example above, you would just reference `particle.inside`. Your name for the tabs can also be anything. We used `tab_readmore` and `tab_display` as examples. Your tabs could be named `_tab0` or `santaclause`. It would not affect functionality at all.
+When using fields in tabs in twig, you can access them normally. There is no need to reference the tab(s) at all. For example, if you wanted to print the output of the field called `inside` in the example above, you would just call `{{ particle.inside }}`. Because tabs is a container, you don't need to reference the whole structure such as `{{ particle.tabs.tab_display.inside }}` (<- wrong).
+
+Your name for the tabs can also be anything. We used `tab_readmore` and `tab_display` as examples. Your tabs could be named `_tab0` or `santaclause`. It would not affect functionality at all. A good habit would be to prefix `tabs` and the tab names with an underscore (`_tab_display`), so that at a first glance you would know you can skip those.
 
 !!! A `collection` is a field whose final value is an array. In Gantry we only have 2 collections, `list` and `keyvalue` (Tag Attributes). You are all very familiar with list, it is commonly used and allows to create entry items on the fly.
 !!!
