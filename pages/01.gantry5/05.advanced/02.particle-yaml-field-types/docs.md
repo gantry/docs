@@ -244,3 +244,13 @@ You'll notice here the use of `container.tabs` to establish the container that w
 ! Because the tabs are wrapped in a container, it can be placed anywhere in the YAML, this means you can have fields before and after.
 
 The tab's `label` sets the title for the tab on the back end. There is no requirement for how you label the tab in the YAML.
+
+When using fields in tabs in twig, you can access them normally. There is no need to reference the tab(s) at all. For example, if you wanted to reference the `input.text` field called `inside` in the example above, you would just reference `particle.inside`. Your name for the tabs can also be anything. We used `tab_readmore` and `tab_display` as examples. Your tabs could be named `_tab0` or `santaclause`. It would not affect functionality at all.
+
+!!! A `collection` is a field whose final value is an array. In Gantry we only have 2 collections, `list` and `keyvalue` (Tag Attributes). You are all very familiar with list, it is commonly used and allows to create entry items on the fly.
+!!!
+!!! When you save a `collection`, your value is an array and in your twig template you have to cycle through this array in order to extract and have access to each individual entry item. This is how a collection works and how it's meant to be used, but it's very different than a `container`.
+!!!
+!!! A `container` is just a structural definition that gets used, mostly internally, to represent how the field should look like. Gantry has always had 1 `container`, called `set`, we never really used it though, but it's there.
+!!!
+!!! Although the YAML structure of the container is a nested list, really the blueprint is only ever cycled through internally from the twig  field, in order to actually render in the admin the same way you see in my GIF above. The actual fields inside each tab, are still gonna be saved as if they were top-level, they aren't really nested within tabs, from a FORM perspective.
