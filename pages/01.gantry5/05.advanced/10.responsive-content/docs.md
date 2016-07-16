@@ -15,7 +15,7 @@ You repeat this process until the accumulated total of your blocks is equal to a
 
 This is the basic structure example for the grid-block:
  
-![](blocks.jpg)
+![](blocks.png)
 
 In **mobile** view, these blocks will stack on top of each other while in **tablet** or **desktop** view, these blocks will scale responsively.
 
