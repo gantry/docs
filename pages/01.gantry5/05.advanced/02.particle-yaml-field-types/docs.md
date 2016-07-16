@@ -87,7 +87,7 @@ There are two main types of inputs supported by Gantry. The first are basic HTML
 ```yaml
     title:
       type: input.text
-      label: Your lable.
+      label: Your label.
       description: Your description
 ```
 
