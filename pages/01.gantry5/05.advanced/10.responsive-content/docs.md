@@ -30,7 +30,7 @@ Here is a quick breakdown of the available classes, and if you're familiar with 
 | gantry-width-%%        | size-%%             |
 | gantry-width-spacer    | *`non existant`*    |
 
-The available custom widths are `.size-5 .size-10`, `.size-15`, `.size-20`, `.size-25`, `.size-30`, `.size-33`, `.size-40`, `.size-50`, `.size-60`, `.size-66`, `.size-70`, `.size-75`, `.size-80`, `.size-90 .size-95`.
+The available custom widths are `.size-5 .size-10`, `.size-15`, `.size-20`, `.size-25`, `.size-30`, `.size-33`, `.size-40`, `.size-50`, `.size-60`, `.size-66`, `.size-70`, `.size-75`, `.size-80`, `.size-85`, `.size-90 .size-95`.
 
 Here are some examples along with the code that created them.
 
