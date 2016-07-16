@@ -13,9 +13,9 @@ When using these classes, create your HTML code for a block, then set the percen
 
 You repeat this process until the accumulated total of your blocks is equal to a 100% for any given grid.
 
-This is the basic structure of the gantry-width blocks:
+This is the basic structure example for the grid-block:
  
-![](GantryWidthContainer.jpg)
+![](blocks.jpg)
 
 In **mobile** view, these blocks will stack on top of each other while in **tablet** or **desktop** view, these blocks will scale responsively.
 
