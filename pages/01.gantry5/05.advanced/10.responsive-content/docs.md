@@ -7,32 +7,38 @@ taxonomy:
 
 Sometimes, you will want to create custom responsive content within the bounds of a simple content area. For example, within an article/post on your site, as opposed to being created dynamically through a particle.
 
-The way this is done in Gantry 5 is a lot like it was in Gantry 4, with a few minor differences in syntax.
+The way this is done in Gantry 5 is a lot easier than it was in Gantry 4. Gantry 5 comes with a built-in and lightweight CSS framework that we called `Nucleus`. Nucleus main focus is to provide a flex-ready layout. This means that if you just follow a few rules in building your responsive layout, you will never have a problem, no matter how deep your layout is going to be.
 
-When using these classes, create your HTML code for a block, then set the percentage size that the block should use.
+For your content you will only need to know about 3 types of classes that come with `Nucleus`:
 
-You repeat this process until the accumulated total of your blocks is equal to a 100% for any given grid.
+#### `g-row`
+This is the container of your content surroundings and side-by-side columns. A row (or grid), will always occupy entirely the space it's been added to. Think of it as a 100% wide `div`.
 
-This is the basic structure example for the grid-block:
- 
-![](blocks.png)
+A `g-row` can contain only `g-block` elements in it, nothing else. This is important in order to have the flex-grid working responsively.
 
-In **mobile** view, these blocks will stack on top of each other while in **tablet** or **desktop** view, these blocks will scale responsively.
+#### `g-block` and `size-%`
+This is the container of your actual content. A `g-block`, by default, is `100%` wide and in it you can put any desired content, whether it's an image, a paragraph or even another `g-grid > g-block` layout.
 
-If you want some spacing or a margin between your blocks, use the gantry-width spacer class.
-
-Here is a quick breakdown of the available classes, and if you're familiar with Gantry 4, their equivalent class name in Gantry 4.
-
-| Gantry 4 Class Name    | Gantry 5 Class Name |
-| :-----                 | :-----              |
-| gantry-row             | g-row               |
-| gantry-width-container | g-container         |
-| gantry-width-%%        | size-%%             |
-| gantry-width-spacer    | *`non existant`*    |
+When your `g-block` is accompanied by a `size-%` class, you can change its default `100%` size. Sizes can go from `5` to `95` with a multiplier of `5`.
 
 The available custom widths are `.size-5 .size-10`, `.size-15`, `.size-20`, `.size-25`, `.size-30`, `.size-33`, `.size-40`, `.size-50`, `.size-60`, `.size-66`, `.size-70`, `.size-75`, `.size-80`, `.size-85`, `.size-90 .size-95`.
 
-Here are some examples along with the code that created them.
+In **mobile** view, these blocks will stack on top of each other while in **tablet** or **desktop** view, these blocks will scale responsively.
+     
+> When you have multiple blocks inside a grid, make sure that the size of the blocks sum up to 100%
+
+ 
+![](blocks.png)
+
+The structure is always going to be the same, first a `grid` then a `block`, inside the block goes your final content which might include another `grid` and another `block`.
+
+```
+.g-grid
+    .g-block.size-50
+        [your content for left column]
+    .g-block.size-50
+        [your content for right column]
+```
 
 ## Example 1
 
