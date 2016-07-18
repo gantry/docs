@@ -53,7 +53,7 @@ In this example we create a one row/four column pricing table.
     </div>
 </div>
 
-<div class="g-grid container">
+<div class="g-grid">
     <!-- Column1 - Basic -->
     <div class="g-block size-25">
         <ul class="rt-table">
@@ -121,7 +121,7 @@ This is a straight forward example of a one row/four column presentation of alte
 <div class="g-grid">
     <!-- Row1 Column1 - Text -->
     <div class="g-block size-25">
-        <div class="g-block size-spacer">
+        <div class="g-block">
             <a href="#">Dropdown Menu</a>
             <p>A Dropdown Menu system, with inline icons, multiple columns and much more.</p>
             <p>
@@ -131,7 +131,7 @@ This is a straight forward example of a one row/four column presentation of alte
     </div>
     <!-- Row1 Column2 - Image -->
     <div class="g-block size-25">
-        <div class="g-block size-spacer">
+        <div class="g-block">
             <span class="rt-image">
                 <img src="http://localhost:8081/Xenon/images/rocketlauncher/features/overview/img-04.jpg" alt="image">
             </span>
@@ -139,7 +139,7 @@ This is a straight forward example of a one row/four column presentation of alte
     </div>
     <!-- Row1 Column3 - Text -->
     <div class="g-block size-25">
-        <div class="g-block size-spacer">
+        <div class="g-block">
             <a href="#">Positions</a>
             <p>Unlimited positions, with drag and drop add, delete, move and resize capabilities.</p>
             <p>
@@ -149,7 +149,7 @@ This is a straight forward example of a one row/four column presentation of alte
     </div>
     <!-- Row1 Column4 - Image -->
     <div class="g-block size-25">
-        <div class="g-block size-spacer">
+        <div class="g-block">
             <span class="rt-image">
                 <img src="http://localhost:8081/Xenon/images/rocketlauncher/features/overview/img-05.jpg" alt="image">
             </span>
