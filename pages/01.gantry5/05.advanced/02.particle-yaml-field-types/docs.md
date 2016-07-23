@@ -60,7 +60,7 @@ There are two main types of inputs supported by Gantry. The first are basic HTML
 ```yaml
     title:
       type: input.checkbox
-      label: Your lable.
+      label: Your label.
       description: Your description.
       default: true
 ```
