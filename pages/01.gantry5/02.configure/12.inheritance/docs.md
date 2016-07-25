@@ -168,7 +168,7 @@ As an example, we'll create an atom in Outline A and have that atom inherit to O
 
 First, you'll want to create the new atom. In our example, we will create a Google Analytics atom in Outline A. At this point, the only outline that will be affected by this atom is Outline A.
 
-![](atom_2.gif)
+![](atom_2.gif) {.border .shadow}
 
 Next, we will switch to Outline B and create another Google Analytics atom. This time, instead of configuring it, we will navigate to the **Inheritance** tab and select **Outline A**, the **Analytics** atom, and toggle the **Atom Attributes** so we inherit both the atom and its attributes.
 
@@ -194,3 +194,9 @@ This option enables you to inherit/clone a atom's attributes.
 * **Outline**: This dropdown enables you to select an outline to source your new atom's attributes from.
 * **Atom Instance**: Select an atom to inherit/clone from a list of particles of the same type currently in the selected outline.
 * **Atom Attributes**: This option enables you to inherit/clone a atom's attributes.
+
+## How to Tell Which Outlines are Inheriting a Resource
+
+![](inheritance_list.png) {.border .shadow}
+
+If you'd like to know which outlines are inheriting a particular particle, atom, or section, you can do so by going to the original item and navigating to its inheritance tab. This will give you a list of outlines that are currently inheriting that item.
