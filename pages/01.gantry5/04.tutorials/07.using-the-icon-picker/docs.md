@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 has support for [Font Awesome’s](http://fortawesome.github.io/Font-Awesome/) growing font library built right in to its core. This means that anyone using a Gantry-powered template will have the ability to use any of these incredible vector fonts anywhere on your page.
+Gantry 5 has support for [Font Awesome’s](http://fortawesome.github.io/Font-Awesome/) growing icon library built right in to its core. This means that anyone using a Gantry-powered template will have the ability to use any of these incredible vector icons anywhere on your page.
 
 ![Icon Picker](icon_picker_2.png?classes=shadow,border)
 
@@ -39,22 +39,37 @@ Use the green **Select** button to lock in your icon of choice (listed in the te
 
 The Icon Picker is a Gantry 5 input. If you want to add it to your theme or particle, you would do so by assigning the administrative input as `input.icon` in the associated YAML file.
 
-Here is an example of how this would look in the YAML file of a section of a theme. In this example, the **feature.yaml** is located in `theme/blueprints/styles/`.
-
-The Font Picker is a Gantry 5 input. If you want to add it to your template or particle, you would do so by assigning the administrative input as `input.fonts` in the Particle's YAML file.
-
-Here is an example of how this would look in the YAML file.
+Here is an example of the YAML code needed to add an **Icon Picker** field to a particle's settings which would then be made available to you in the particle.
 
 ```yaml
-target:
-      type: input.icon
-      label: Icon
-      description: Select the icon you would like to use.
-      default: fa fa-rocket
+icon:
+  type: input.icon
+  label: Icon
+  description: Select the icon you would like to use.
+  default: fa fa-rocket
 ```
 
-This example accomplishes two things. First, it creates the **Feature** section in the Gantry **Styles** administrative panel, as well as the **Background** and **Text** color settings you can easily configure from the Gantry 5 Administrator.
+One great example of this field in action is in the **To Top** particle, which is part of Gantry 5's core particle set.
 
-Second, it provides fields the theme can hook to, providing the color variable used when the page is rendered.
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+
+You can find the `totop.html.twig` and `totop.yaml` files located in `ROOT/media/gantry5/engines/nucleus/particles/`.
+
+[/ui-tab]
+[ui-tab title="WordPress"]
+
+You can find the `totop.html.twig` and `totop.yaml` files located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/particles/`.
+
+[/ui-tab]
+[ui-tab title="Grav"]
+
+Grav documentation is coming soon...
+
+[/ui-tab]
+[/ui-tabs]
+
+Here, you can see exactly how the `input.icon` field is added to and utilized in the particle.
+
 
 You can find more information about how to use YAML files in Gantry 5 [in our guide](../../advanced/particle-yaml-field-types).
