@@ -113,6 +113,17 @@ The second are Gantry-specific types that utilize Gantry's exclusive features su
 | select.selectize       | Displays a pre-created set of options for the user to choose from.                                                                                  |
 | select.date            | Displays a pre-created set of date formats for the users to choose from.                                                                            |
 
+Wordpress-specific Input Field Types
+-----
+
+There are also Wordpress-specific types.
+
+| Field Type             | Description                                                                                                                                         |
+| :-----                 | :-----                                                                                                                                              |
+| wordpress.posts | Enables a field select Wordpress posts. In setting up the field you can specify post type (defaults to 'page') and status (defaults to 'publish').|
+| wordpress.categories | Enables a field to select Wordpress categories (as used in the Wordpress Posts particle). |
+
+
 Selectize Fields
 -----
 
