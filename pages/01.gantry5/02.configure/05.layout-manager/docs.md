@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Outlines. 
+The **Layout Manager** in the Gantry-based theme administration interface provides several options for setting up the layout of the theme's Outlines.
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
@@ -85,7 +85,7 @@ You can find out all about particle inheritance in our [Inheritance Guide](../in
 Layout
 -----
 
-The layout consists of several different sections, each with its own set of settings that enable you to customize the behavior and look of your site on the frontend. 
+The layout consists of several different sections, each with its own set of settings that enable you to customize the behavior and look of your site on the frontend.
 
 ### Sections
 
@@ -127,7 +127,7 @@ Grids have very basic options. You can **move** them using the icon on the left-
 
 Blocks are the Lego bricks of the Layout Manager. These are your individual pieces which make up the individual parts of your page. Your Logo, for example, would be a **Particle** placed in a **Block**, which sits in a **Grid** within a **Section**.
 
-Resizing Blocks in a Grid is a simple process. Simply move your mouse cursor (or tap your finger in a touchscreen) on the dividing line between blocks and drag it left or right, depending on how you want it to go. 
+Resizing Blocks in a Grid is a simple process. Simply move your mouse cursor (or tap your finger in a touchscreen) on the dividing line between blocks and drag it left or right, depending on how you want it to go.
 
 The only type of Particle that can't be resized is the **Atom** which is a non-visible piece of script, such as Google Analytics or custom CSS / JS which affects the entire page.
 
@@ -135,21 +135,24 @@ The only type of Particle that can't be resized is the **Atom** which is a non-v
 
 ![Settings](block_settings_1.png?classes=shadow,border)
 
-Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the left-hand side of the Particle. These settings override the default ones set in the **Settings** admin panel, and become unique to the single block. 
+Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the left-hand side of the Particle. These settings override the default ones set in the **Settings** admin panel, and become unique to the single block.
 
 These are **Particle** level settings, which exist in every type of Block. They enable you to rename the Particle as it appears on the Layout Manager, as well as to configure Particle-specific settings sourced from the Particle's **YAML** file.
 
 ![Settings](block_settings_2.png?classes=shadow,border)
 
-| Setting        | Description                                                                                                  |
-| :------        | :----------------------------------                                                                          |
-| CSS ID         | Enables you to set an ID attribute.                                                                          |
-| CSS Classes    | This is where you would enter any CSS class you would like to have apply to the block.                       |
-| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.              |
-| Tag Attributes | This field is where you would add any other Tag attributes to the block.                                     |
-| Block Size     | This field gives you the ability to set a specific size (in percentage) the block will take up horizontally. |
+| Setting        | Description                                                                                                                            |
+| :------        | :----------------------------------                                                                                                    |
+| CSS ID         | Enables you to set an ID attribute.                                                                                                    |
+| CSS Classes    | This is where you would enter any CSS class you would like to have apply to the block.                                                 |
+| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.                                        |
+| Tag Attributes | This field is where you would add any other Tag attributes to the block.                                                               |
+| Fixed Size     | Fixed size means that the block will always take up the designated percentage of space - even if there are no other blocks in the row. |
+| Block Size     | This field gives you the ability to set a specific size (in percentage) the block will take up horizontally.                           |
 
 The **block settings** make it easy to change the way a particular block looks and behaves, as well as gives you the ability to set a specific width percentage for the block.
+
+The **Fixed Size** option is especially useful when you are using particles that you want to take up a specific area of the page. So, for example, if you have a logo and a menu particle in a row, and you want the logo to only take up 30% of the page - even if the menu is disabled - you can do so using the **Fixed Size** option.
 
 ### Sidebar Blocks and Grids
 
