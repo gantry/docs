@@ -140,7 +140,7 @@ If you want to have local fonts load across your site, you can do so by completi
 ```css
 @import "vendor/bourbon/bourbon";
 @import "nucleus/theme/mixins/typography";
-@include import-font('roboto’);
+@include import-font('roboto');
 ```
 
 [/ui-tab]
