@@ -39,7 +39,7 @@ fonts:
       400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
     lato:
       900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont' 
+      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
 ```
 
 To add the Roboto font, the fonts section of the YAML file will look like this.
@@ -53,7 +53,7 @@ fonts:
     400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
   lato:
     900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'  
+    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
   roboto:
     400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
     400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
@@ -87,7 +87,7 @@ fonts:
       400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
     lato:
       900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont' 
+      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
 ```
 
 To add the Roboto font, the fonts section of the YAML file will look like this.
@@ -101,7 +101,7 @@ fonts:
     400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
   lato:
     900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'  
+    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
   roboto:
     400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
     400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
@@ -204,6 +204,7 @@ Unzip the package and move the following files to `TEMPLATE_DIR/custom/fonts/`:
 * BLOODY-webfont.svg
 * BLOODY-webfont.ttf
 * BLOODY-webfont.woff
+* BLOODY-webfont.woff2
 
 ![](custom_files.png)  {.border .shadow}
 
@@ -216,6 +217,7 @@ Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
 * BLOODY-webfont.svg
 * BLOODY-webfont.ttf
 * BLOODY-webfont.woff
+* BLOODY-webfont.woff2
 
 ![](custom_files.png)  {.border .shadow}
 
@@ -232,7 +234,7 @@ Grav documentation is coming soon...
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `TEMPLATE_DIR/custom/scss/`. 
+[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `TEMPLATE_DIR/custom/scss/`.
 
 Add the following to the custom SCSS file:
 
@@ -252,7 +254,7 @@ Add the following to the custom SCSS file:
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `THEME_DIR/custom/scss/`. 
+[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `THEME_DIR/custom/scss/`.
 
 Add the following to the custom SCSS file:
 

@@ -62,7 +62,7 @@ Step 2: Adding the Necessary CSS
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-[Create your custom stylesheet file](../adding-a-custom-stylesheet), __gantry-custom.css__, and add it to `/templates/[TEMPLATE]/css/`. 
+[Create your custom stylesheet file](../adding-a-custom-stylesheet), __gantry-custom.css__, and add it to `/templates/[TEMPLATE]/css/`.
 
 Add the following to the custom CSS file:
 
@@ -88,7 +88,7 @@ Add the following to the custom CSS file:
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-[Create your custom stylesheet file](../adding-a-custom-stylesheet), __rt_gantry_wp-custom.css__, and add it to `/wp-content/themes/[TEMPLATE]/css/`. 
+[Create your custom stylesheet file](../adding-a-custom-stylesheet), __rt_gantry_wp-custom.css__, and add it to `/wp-content/themes/[TEMPLATE]/css/`.
 
 Add the following to the custom CSS file:
 
