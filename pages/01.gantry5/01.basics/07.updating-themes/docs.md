@@ -13,7 +13,7 @@ That said, there are a few notes of caution that you should be aware of prior to
 
 !! Prior to updating any template or theme, we highly recommend backing up your site from stem to stern. This includes the database (if any), and your theme's directory so that you can quickly restore it to the state it was prior to the update should you come across any issues.
 
-Outside of backing up your site, you should keep track of the file(s) you have altered since installing your theme. In most cases, any changes you have made will be stored in the `custom` directory safely tucked away in your theme's directory apart from the rest of the the theme's files which are subject to change during an update.
+Outside of backing up your site, you should keep track of the file(s) you have altered since installing your theme. In most cases, any changes you have made will be stored in the `custom` directory safely tucked away in your theme's directory apart from the rest of the theme's files which are subject to change during an update.
 
 However, there may be cases where you have customized a theme file directly at the source, rather than editing a duplicate in the `custom` directory. If this is the case for your site, make sure you back up the file(s) and store them in a safe place. You may need them for reference after the update should any of your changes revert.
 
