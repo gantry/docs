@@ -37,7 +37,7 @@ All template specific JS files reside in: `/templates/rt_TEMPLATENAME/JS`
 
 It is very important that you do this copy in such a way that any subsequent template updates do not overwrite what you have done. The steps below ensure that this is the case.
 
-These are the steps to do the copy from the **donor** template to the **recipient** template:
+These are the steps to do the copy from the **donor** template to the **recipient** template. You are copying the donor file only, not the folder(s) it resides in:
 
 1. Copy `/templates/rt_TEMPLATENAME/particles/PARTICLENAME.html.twig` to `/templates/rt_TEMPLATENAME/custom/particles`
 
