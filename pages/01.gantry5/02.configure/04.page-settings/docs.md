@@ -147,3 +147,17 @@ The **Google Analytics** Atom gives you the ability to quickly add your **Google
 ## Custom CSS / JS
 
 ![Custom CSS / JS](atoms-custom_settings.png?classes=shadow,border)
+
+## JavaScript Frameworks
+
+The **JavaScript Frameworks** Atom gives you the ability to easily add popular JS libraries to your page.
+
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+![JavaScript Frameworks](atoms-frameworks_settings.png?classes=shadow,border)
+[/ui-tab]
+[ui-tab title="WordPress"]
+![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
+[/ui-tab]
+
+Please note that in Joomla the default 'Bootstrap' library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2
