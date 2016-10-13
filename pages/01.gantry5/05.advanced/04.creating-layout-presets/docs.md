@@ -259,13 +259,13 @@ structure:
 
 ## Syntax Guide
 
-There are four main rules to keep in mind when creating a layout preset.
+There are five main rules to keep in mind when creating a layout preset.
 
 1. tiered content is ordered as `grid - block - grid - block - grid - block`. Grid is a row and block is a column. See the earlier examples.
 2. `foo:` creates a section. `wrapper-foo:` creates a wrapper. `container-foo:` creates a container. Name needs to be unique to the layout. 
 3. Adding slashes (example: `/foo/:`) enables you to take advantage of section layout settings for improved styling flexibility.
-3. Multiple particles in a row can also be put within `[ ]` brackets. Example: `- [logo, menu]`
-4. You don't need brackets or extra dash for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
+4. Multiple particles in a row can also be put within `[ ]` brackets. Example: `- [logo, menu]`
+5. You don't need brackets or extra dash for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
 
 ## Common YAML Items
 
