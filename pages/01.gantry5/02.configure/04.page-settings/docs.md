@@ -155,6 +155,7 @@ The **JavaScript Frameworks** Atom gives you the ability to easily add popular J
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 ![JavaScript Frameworks](atoms-frameworks_settings.png?classes=shadow,border)
+! In Joomla the default 'Bootstrap' library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2.
 [/ui-tab]
 [ui-tab title="WordPress"]
 ![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
@@ -164,4 +165,4 @@ Grav documentation coming soon...
 [/ui-tab]
 [/ui-tabs]
 
-Please note that in Joomla the default 'Bootstrap' library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2
+
