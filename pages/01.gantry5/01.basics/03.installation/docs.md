@@ -69,7 +69,41 @@ As of Gantry 5.3.5, Gantry 5 no longer requires that you separately install the 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+There are three primary ways to install Gantry 5 on Grav.
+
+### Grav Administration Panel Method
+
+The first and easiest method involves installing the Gantry 5 plugin via the Grav Administration Panel. To do this, you will need to have the [Admin plugin](https://github.com/getgrav/grav-plugin-admin) installed and active in Grav. If you do, you can access the plugin installation page by navigating to **Admin > Plugins** and selecting the **<i class="fa fa-plus" aria-hidden="true"></i> Add** button in the upper-right area of the page.
+
+Here, you can either scroll and find the plugin titled **Gantry 5 Framework** or search for it using the **Filter** field.
+
+Once you have found the **Gantry 5 Framework** plugin, simply select the **<i class="fa fa-plus" aria-hidden="true"></i> Install** button for it and begin the installation process. A popup will ask you if you want to **Cancel** or **Continue** the installation. Just select **<i class="fa fa-check" aria-hidden="true"></i> Continue** to install.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Grav Administration Panel</a></div>
+
+### File Management Method
+
+![Gantry 5 Installation](g5_install_2.png?classes=shadow,border)
+
+If you prefer not to use the Grav Admin and have access to your server's file system, you can easily install the Gantry 5 Framework by downloading the latest version of the framework from Gantry.org and unzipping it in your `user/plugins` directory. This should create a new directory titled `gantry5` containing all of the framework's associated files.
+
+![Install](g5_install_1.jpg?classes=shadow,border)
+
+Once you have done this, it should automatically be active and available.
+
+<div align="center"><a href="https://learn.getgrav.org/basics/folder-structure" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Grav Folder Structure</a></div>
+
+### Command Line Method
+
+Part of what makes Grav so appealing to developers is its powerful command line tool set. Among these tools is the Grav GPM installer that enables you to install plugins with a single command.
+
+[plugin:youtube](https://www.youtube.com/watch?v=SUUtcYl2xrE)
+
+All you need to do to take advantage of this feature is to open or access a command prompt on your server, navigate to the root of your Grav website, and enter the line `bin/gpm install gantry5`. This will initiate the installation process. You can see a video of the GPM installer in action above.
+
+Once you have initiated and confirmed installation, the Gantry 5 Framework should be installed and available for use.
+
+<div align="center"><a href="https://learn.getgrav.org/cli-console/grav-cli-gpm#install" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the GPM Install Command</a></div>
 
 [/ui-tab]
 [/ui-tabs]
@@ -109,7 +143,51 @@ The theme should now be installed. You can **Activate** it using the shortcut pr
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Installing a Gantry 5 theme on Grav is easy. There are a few ways to do it.
+
+Two of these methods (Administration Panel and Command Line) depend on the theme being listed in Grav's Themes Repository. These themes are generally free, open source, and listed on the [official Grav website](https://getgrav.org/downloads/themes).
+
+For the interest of this guide, we will use **Helium** as our theme of choice. It is a great free default theme for Gantry 5.
+
+### Grav Administration Panel Method
+
+The first and easiest method involves installing the theme via the Grav Administration Panel.
+
+To do this, you will need to have the [Admin plugin](https://github.com/getgrav/grav-plugin-admin) installed and active in Grav. If you do, you can access the plugin installation page by navigating to **Admin > Themes** and selecting the **<i class="fa fa-plus" aria-hidden="true"></i> Add** button in the upper-right area of the page.
+
+![Gantry 5 Installation](g5_install_1.jpg?classes=shadow,border)
+
+Here, you can either scroll and find the plugin titled **Gantry 5 Framework** or search for it using the **Filter** field.
+
+Once you have found the **Helium** theme, simply select the **<i class="fa fa-plus" aria-hidden="true"></i> Install** button for it and begin the installation process. A popup will ask you if you want to **Cancel** or **Continue** the installation. Just select **<i class="fa fa-check" aria-hidden="true"></i> Continue** to install.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Grav Administration Panel</a></div>
+
+### File Management Method
+
+![Gantry 5 Installation](grav_theme_3.jpg?classes=shadow,border)
+
+If you prefer not to use the Grav Admin and have access to your server's file system, you can easily install a theme by downloading its zip file and unpacking it in your `user/themes` directory. This should create a new directory for the theme (for example: `user/themes/g5_helium`) containing all of the theme's associated files.
+
+![Install](grav_theme_2.jpg?classes=shadow,border)
+
+Once you have done this, it should automatically be available.
+
+<div align="center"><a href="https://learn.getgrav.org/basics/folder-structure" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Grav Folder Structure</a></div>
+
+### Command Line Method
+
+You can install any theme that is listed in Grav's theme directory using the Grav CLI GPM. This enables you to enter a single command in your command line / terminal and have it install automatically.
+
+[plugin:youtube](https://www.youtube.com/watch?v=SUUtcYl2xrE)
+
+We will use Helium as an example since it is a freely-available default theme for Gantry 5 on Grav.
+
+All you need to do to take advantage of this feature is to open or access a command prompt on your server, navigate to the root of your Grav website, and enter the line `bin/gpm install helium`. This will initiate the installation process. You can see a video of the GPM installer in action above.
+
+Once you have initiated and confirmed installation, the Helium theme should be available to you.
+
+<div align="center"><a href="https://learn.getgrav.org/cli-console/grav-cli-gpm" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Grav CLI GPM</a></div>
 
 [/ui-tab]
 [/ui-tabs]
@@ -137,7 +215,35 @@ You can also activate a theme by navigating to **Admin → Appearance** and sele
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Setting a theme as active in Grav is easy to do. There are two primary ways to achieve this.
+
+### Grav Administration Panel Method
+
+The first, and most popular method involves using the Grav Administration Panel to switch the active theme to Helium. You will need to have the Grav Administration Panel installed and active. Once it is, simply navigate to **Administration > Themes** and select **Activate** for the theme you would like to make active.
+
+![](grav_active_1.jpg?classes=shadow,border)
+
+The **Activate** button will turn blue and the text will change to **<i class="fa fa-fw fa-star"></i> Active Theme** indicating the theme is now active.
+
+### YAML Configuration Method
+
+You can also set a theme to active by editing the YAML configuration file for your site. You can access this file by navigating to `user/config/` and opening the `system.yaml` file. This file contains human-readable configuration information for your site.
+
+Here are the lines you will need to focus on for this edit:
+
+```yaml
+pages:
+  theme: antimatter
+```
+
+All you need to do is change the assigned theme to the one you wish you activate. In this case, we will use `g5_helium` as that is the name of the directory in `user/themes` for the **Helium** theme.
+
+```yaml
+pages:
+  theme: g5_helium
+```
+
+Once you have done this, simply **save** the file and refresh your home page. Your new theme should now be active.
 
 [/ui-tab]
 [/ui-tabs]
