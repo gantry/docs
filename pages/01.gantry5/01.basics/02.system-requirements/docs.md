@@ -27,7 +27,15 @@ It is strongly recommended that you always use the latest stable version of Word
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+**Grav 1.1.8**
+
+It is strongly recommended that you use the latest stable version of [Grav](http://getgrav.org). This ensures that any and all known bugs and security issues are addressed.
+
+**Grav Admin Plugin**
+
+If you want to access the Gantry 5 administrator, you will need the [Grav Admin Plugin](https://github.com/getgrav/grav-plugin-admin). This plugin, in addition to [Login](https://github.com/getgrav/grav-plugin-login), [Form](https://github.com/getgrav/grav-plugin-form), and [Email](https://github.com/getgrav/grav-plugin-email) make it easy to manage and configure your Grav site.
+
+Think about the admin as a requirement, just like WordPress or Joomla's administrators. You technically can run a Grav site without it, but if you really want to get the most out of Gantry 5, you're going to need it.
 
 [/ui-tab]
 [/ui-tabs]
