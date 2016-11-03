@@ -11,13 +11,13 @@ On this page, you will get some quick tips to help you hit the ground running wi
 
 We hope you enjoy Gantry 5 every bit as much as we have enjoyed making it.
 
-## Installing Gantry 5 and the Hydrogen Theme
+## Installing Gantry 5 and the Helium Theme
 
 Gantry 5 is a framework by which Gantry-powered themes are made. In order for a Gantry theme to work, you will need to install both the **framework** and the **theme**. Doing this is not difficult at all.
 
-The first thing you need to do is download the latest build of Gantry 5 and Hydrogen. You can do so by clicking the buttons below, or via [GitHub](http://github.com/gantry/gantry5).
+The first thing you need to do is download the latest build of Gantry 5 and Helium. You can do so by clicking the buttons below, or via [GitHub](http://github.com/gantry/gantry5).
 
-<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Hydrogen Theme</a></div>
+<div align="center"><a href="http://gantry.org/downloads" class="button"><i class="fa fa-fw fa-download"></i> Download Gantry 5 and the Helium Theme</a></div>
 
 Once you have the latest packages, installation is simple. We have provided a step-by-step guide in the **Installation** portion of this documentation.
 
@@ -44,7 +44,9 @@ Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry a
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Administrator](grav_admin_access.gif?classes=shadow,border)
+
+Accessing the Gantry 5 administrator in Grav is easy. Simply log in to the Grav Admin and select **Gantry** in the sidebar. Once here, you can choose the Gantry 5 theme you wish to configure by clicking the **Configure** button.
 
 [/ui-tab]
 [/ui-tabs]
