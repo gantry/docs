@@ -44,7 +44,7 @@ Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry a
 [/ui-tab]
 [ui-tab title="Grav"]
 
-![Administrator](grav_admin_access.gif?classes=shadow,border)
+[plugin:youtube](https://www.youtube.com/watch?v=JlnPPTUYn-Q)
 
 Accessing the Gantry 5 administrator in Grav is easy. Simply log in to the Grav Admin and select **Gantry** in the sidebar. Once here, you can choose the Gantry 5 theme you wish to configure by clicking the **Configure** button.
 
