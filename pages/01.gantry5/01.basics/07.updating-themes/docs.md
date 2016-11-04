@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Updating Gantry 5 themes is a very similar process to updating any other theme on its respective platform. The process for updating a Gantry 5 theme for Joomla, as an example, is virtually identical. 
+Updating Gantry 5 themes is a very similar process to updating any other theme on its respective platform. The process for updating a Gantry 5 theme for Joomla, as an example, is virtually identical.
 
 That said, there are a few notes of caution that you should be aware of prior to starting a manual update. This guide will cover these and go over the update process in greater detail.
 
@@ -62,7 +62,57 @@ Now, you simply need to choose the theme's zip package and select **Install Now*
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+You can update a Gantry 5 theme on Grav in several different ways. The preferred method of updating themes depends on how that theme is listed.
+
+If your theme is part of the Grav GPM like Hydrogen, Helium, or many other free themes listed on the [Grav Themes Repository](https://getgrav.org/downloads/themes), you can update them using the **Grav Admin** in either the **Dashboard** or the **Themes** section of the admin. You can also update the theme using the GPM from a **command line** or **terminal**.
+
+If your theme is not listed on the Grav Themes Directory, or you prefer to manually update it from the file system, you can use our **File Manager** method listed below.
+
+## First Method: Individual Theme Updater
+
+![](grav_theme_update.png?classes=shadow,border)
+
+When an update is available, a notice will over the theme's thumbnail in the **Admin > Themes** section of the Grav Admin. You can individually update the plugin by clicking the **UPDATE** banner will take you to the theme's description page where you can update it directly.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel/themes#controls" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Themes Section of the Admin</a></div>
+
+## Second Method: Dashboard
+
+You can also update your plugins and themes all at once from from the main **Dashboard** area of the **Grav Admin**.
+
+![](g5_grav_update_3.png?classes=shadow,border)
+
+All you need to do is select the **<i class="fa fa-cloud-download"></i> Update** button in the **Maintenance** area of the page. This will update all of your plugins and themes at the same time.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel/dashboard#maintenance-and-statistics" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Grav Dashboard</a></div>
+
+## Third Method: Command Line
+
+Updating your theme using the command line is simple and easy. Technically, it executes the same process as you would access in the Grav Admin, but enables you to do so from the convenience of the command line.
+
+Here are the steps:
+
+* Open Command Line or Terminal and navigate to the root directory of your Grav site on your server.
+* Enter one of the following lines:
+    * `bin/gpm update` to initiate an update of all of your currently-installed plugins and themes.
+    * or `bin/gpm update helium` to update only the Helium theme.
+* Enter `Y` to confirm the update.
+
+The update will run by itself and the theme will be available to you as soon as it's done.
+
+<div align="center"><a href="https://learn.getgrav.org/cli-console/grav-cli-gpm#update" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More Command Line Updating</a></div>
+
+## Fourth Method: File Manager
+
+! This method is available to you in the event that you are using a theme that isn't listed in the Grav GPM. One common example of this would be a premium theme from a third party, such as [RocketTheme](http://rockettheme.com).
+
+You can manually update the theme by doing the following:
+
+* Download the latest theme package/directory. Typically this will be a zip file containing the theme's directory.
+* Open your FTP client or command line and navigate to `user/themes` and back up the theme's directory, moving it to a safe place.
+* Unpack and replace the theme's directory with the contents of the package you downloaded in the first step.
+
+The updated theme should now be available to you.
 
 [/ui-tab]
 [/ui-tabs]
