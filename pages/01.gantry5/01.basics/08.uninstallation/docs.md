@@ -7,12 +7,12 @@ taxonomy:
 
 There are two main parts to Gantry -- the framework and the template. Therefore, there are two main parts to the uninstallation process. If you intend to uninstall only the template portion, then follow the instructions for removing the template only. Keeping the Gantry library installed really does not cause any harm or reduced performance as it is only used by a Gantry-enabled template. If you wish to uninstall the library, you can follow those steps.
 
-## Unsetting the Gantry Template as Default
+## Unsetting the Gantry Theme as Default
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-![Setting Another Template as Default](uninstall_gantry_1.png?classes=shadow,border)
+![Setting Another Theme as Default](uninstall_gantry_1.png?classes=shadow,border)
 
 To uninstall the Gantry template, you will first have to ensure that it is not set as the default template. Go to **Extensions → Template Manager**, select the checkbox to any other site template that is not Gantry, and click **Default** in the button toolbar.
 
@@ -24,7 +24,22 @@ To uninstall the Gantry theme, you will first have to ensure that it's not activ
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+### Using the Grav Admin
+
+![Setting Another Theme as Default](grav_theme_2.jpg?classes=shadow,border)
+
+To uninstall the Gantry theme, you will first have to ensure that it's not activated. Go to **Admin → Themes** and click on the **Activate** on any other theme that is not the one you are about to uninstall. You will then be asked to **Continue** or **Cancel**. Select **Continue** to initiate the switch.
+
+### Editing the System Configuration File
+
+An alternative to using the Grav Admin involves editing the `user/config/system.yaml` file and editing the following section:
+
+```yaml
+pages:
+  theme: helium
+```
+
+You can replace `helium` with any other installed theme's name. Saving the YAML file will lock in the change.
 
 [/ui-tab]
 [/ui-tabs]
