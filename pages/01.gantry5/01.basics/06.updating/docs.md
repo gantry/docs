@@ -50,7 +50,56 @@ You can check to see if the correct Gantry version has been installed by going t
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Updating Gantry 5 in Grav is easy. There are four primary methods for updating plugins. The first two are carried out in the **Grav Admin**, the third in the command line, and the final one is a manual process that requires you to have access to your server's file system.
+
+## First Method: Individual Plugin Updater
+
+When an update is available, a notice will appear next to the **Gantry 5 Framework** plugin in the **Plugins** section of the Grav Admin.
+
+![](g5_grav_update_1.png?classes=shadow,border)
+
+You can individually update the plugin by clicking the **Update available!** notice and then selecting **Update Plugin** near the top of the plugin page.
+
+![](g5_grav_update_2.png?classes=shadow,border)
+
+## Second Method: Dashboard
+
+You can also update your plugins from the main **Dashboard** area of the **Grav Admin**.
+
+![](g5_grav_update_3.png?classes=shadow,border)
+
+All you need to do is select the **<i class="fa fa-cloud-download"></i> Update** button in the **Maintenance** area of the page. This will update all of your plugins at the same time.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel/dashboard#cache-and-updates-checking" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Updating Plugins in the Admin</a></div>
+
+## Third Method: Command Line
+
+Updating the Gantry 5 Framework using the command line is simple and easy. Technically, it executes the same process as you would access in the Grav Admin, but enables you to do so from the convenience of the command line.
+
+Here are the steps:
+
+* Open Command Line or Terminal and navigate to the root directory of your Grav site on your server.
+* Enter one of the following lines:
+    * `bin/gpm update` to initiate an update of all of your currently-installed plugins.
+    * or `bin/gpm update gantry5` to update only the Gantry 5 Framework plugin.
+* Enter `Y` to confirm the update.
+
+The update will run by itself and the plugin will be available to you as soon as it's done.
+
+<div align="center"><a href="https://learn.getgrav.org/cli-console/grav-cli-gpm#update" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More Command Line Updating</a></div>
+
+## Fourth Method: File Manager
+
+!! This method is not recommended as it can cause disruptions in your website depending on any customizations and/or compatibility issues you may encounter.
+
+You can manually update the **Gantry 5 Framework** plugin by doing the following:
+
+* Download the latest Gantry 5 Framework plugin package from the [Gantry website](http://gantry.org/downloads) or [GitHub](https://github.com/gantry/gantry5/releases).
+* Open your FTP client or command line and navigate to `user/plugins` and back up the `gantry5` directory, moving it to a safe place.
+* Unpack and replace the `gantry5` directory with the contents of the package you downloaded in the first step.
+
+The updated Gantry 5 Framework plugin should now be available to you.
+
 
 [/ui-tab]
 [/ui-tabs]

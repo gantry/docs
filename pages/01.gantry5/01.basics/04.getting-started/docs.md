@@ -44,7 +44,7 @@ Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry a
 [/ui-tab]
 [ui-tab title="Grav"]
 
-[plugin:youtube](https://www.youtube.com/watch?v=JlnPPTUYn-Q)
+<video controls="1" alt="Administrator" class="shadow border" style="max-width: 100%;"><source src="/gantry-docs/user/pages/01.gantry5/01.basics/04.getting-started/Gantry_Grav_Accessing_the_Administrator.mp4">Your browser does not support the video tag.</video>
 
 Accessing the Gantry 5 administrator in Grav is easy. Simply log in to the Grav Admin and select **Gantry** in the sidebar. Once here, you can choose the Gantry 5 theme you wish to configure by clicking the **Configure** button.
 
