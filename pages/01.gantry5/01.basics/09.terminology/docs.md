@@ -28,7 +28,9 @@ The **Base Outline** acts as the global default by which all other Outlines are 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+An **Outline** creates a set of standard settings for the layout, particle placement, any scripting, and style of an area of your site. Outlines can be assigned to a specific page, type of page, or several pages depending on your needs. This enables you to apple different styles and layout configurations to different pages (or types of pages) with ease.
+
+The **Base Outline** acts as the global default by which all other Outlines are based. Any setting not specified in another outline is deferred to this outline.
 
 [/ui-tab]
 [/ui-tabs]
@@ -63,8 +65,8 @@ A **Position** in Gantry 5 can be a number of things. It is an umbrella term use
 
 A module position in Joomla works exactly the same way whether you are using Gantry 5 or any other framework or theme. The only difference is that, in Gantry 5, you have the ability to dynamically create and remove module positions on the fly in the Layout Manager. Once you have a module position created and assigned it a [key](../../particles/position#settings), you can assign modules to that position just as you normally would.
 
-Module instances, however, are very different. A module instance doesn't depend on a specific position assignment on the part of the module. In fact, you can use module instances in the menu editor and layout manager to inject a single module into your page pretty much wherever you want it. 
+Module instances, however, are very different. A module instance doesn't depend on a specific position assignment on the part of the module. In fact, you can use module instances in the menu editor and layout manager to inject a single module into your page pretty much wherever you want it.
 
-The difference between these two can be summed up as follows: 
+The difference between these two can be summed up as follows:
 
 A module position is a container in which you can assign modules so they appear on the front end. A module instance is a single module, injected directly into a specific place in the page.
