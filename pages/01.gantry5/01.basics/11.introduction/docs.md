@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for WordPress and Joomla. 
+Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for WordPress and Joomla.
 
 One of the primary goals behind Gantry 5's development has been to make it easier for non-developers to get a lot more done without ever having to open a single code editor or directly alter any files.
 
@@ -48,7 +48,9 @@ Are you familiar with WordPress' widget system? Gantry 5 integrates completely w
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Grav is in a unique position to take full advantage of particles in Gantry 5. In addition to having the ability to add particles wherever you would like on the page, Grav users can take advantage of a new **Positions** area of the administrator that enables you to create positions that can be host to multiple, stacked particles that can be placed in any layout with ease.
+
+This is a big time saver and an addition that creates an advanced layout system typically reserved for larger content management systems like Joomla to Grav.
 
 [/ui-tab]
 [/ui-tabs]
@@ -59,15 +61,15 @@ Grav documentation is coming soon...
 
 Gantry 5's Menu Editor is a quick and easy way to non-destructively control the way menus appear on the front end of your site. You can rearrange menu items with drag-and-drop ease, inject particles and more.
 
-Everything you do in Gantry 5 is non-destructive, so your content and menus are left exactly the way they were, so you don't have to worry about doing anything that would disrupt your site's permanent makeup within the Gantry 5 Administrator. 
+Everything you do in Gantry 5 is non-destructive, so your content and menus are left exactly the way they were, so you don't have to worry about doing anything that would disrupt your site's permanent makeup within the Gantry 5 Administrator.
 
 ### Layout Manager
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
-Don't like where something is on the page? Just click and drag it where you want it to go from the Layout Manager. You can add things, remove them, resize them, create module/widget positions, and configure particles without touching the keyboard. 
+Don't like where something is on the page? Just click and drag it where you want it to go from the Layout Manager. You can add things, remove them, resize them, create module/widget positions, and configure particles without touching the keyboard.
 
-Things like your logo, copyright information, branding, social icons, and more can also be adjusted directly from the Layout Manager. 
+Things like your logo, copyright information, branding, social icons, and more can also be adjusted directly from the Layout Manager.
 
 Worried you might get something wrong? You can undo and redo any actions taken in the Layout Manager during that session with a click of the mouse.
 
