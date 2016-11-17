@@ -38,7 +38,17 @@ For example, if you are setting up a Gantry 5 template on a site that had a batc
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Grav does not have a built-in module or widget manager. So, we built one for it in Gantry 5.
+
+The **Module Position** particle gives you the ability to create a modular position within the Layout Manager in which to assign **Positions** you can set up in the **Positions** area of the administrator. This is a simple and easy way to create stacks of particles that can be placed in a Layout in seconds.
+
+![Key](key3.png?classes=shadow,border)
+
+For example, creating a module position and giving it the key `header`, will load the **Position** you've created in the **Positions** panel and assigned the same `header` key.
+
+![Key](key4.png?classes=shadow,border)
+
+Particles placed in these positions can be altered in one place. Any changes will automatically apply anywhere the module position is assigned.
 
 [/ui-tab]
 [/ui-tabs]
@@ -90,7 +100,13 @@ This frees you from standardized naming conventions that can be needlessly compl
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Positions](grav_name1.png?classes=shadow,border)
+
+As we mentioned earlier, you can name and rename positions on the fly. This is a great, fast way to assign positions created in the **Positions** area of the admin and bring them in to your layout.
+
+You can also freely name them as you need, giving them specific tags that are easy to remember and reference what is and is not assigned there.
+
+For example, you could name and key a position as `branding` where you store the stack of particles that relate specifically to your site's branding. The reference name and the Key are unrelated to each other, so you could use anything as a reference name (or a key for that matter), as long as you are assigning your widgets to the appropriate Key. Naming a position `Super Sidebar` and keying it `sidebar-a` would be absolutely fine. Whatever works for you.
 
 [/ui-tab]
 [/ui-tabs]
@@ -148,7 +164,19 @@ The third option is the **Chrome**. This sets the widget position's chrome. This
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Settings](positions_settings_j.png?classes=shadow,border)
+
+| Setting       | Description                                                                                    |
+| :------       | :----------------------------------                                                            |
+| Particle Name | The name of the module position. This is used to back end reference.                           |
+| Key           | Sets the reference key that the **Positions** area of the admin uses to link to this particle. |
+| Chrome        | Sets the module chrome.                                                                        |
+
+There are three different settings for a **Module Position**. The position's name, which is used to help you organize in the back end.
+
+The second setting you will notice is the **Key**. This is an important one, as it is how the position is identified. If you have two widget positions on two different outlines with the same key, they will appear as one module position in the **Positions** panel. This is useful in cases where you want the same position to appear on multiple different pages.
+
+The third option is the **Chrome**. This sets the widget position's chrome. This takes advantage of any Chrome HTML styling you have set up that you would like to have wrap each widget placed in this position.
 
 [/ui-tab]
 [/ui-tabs]

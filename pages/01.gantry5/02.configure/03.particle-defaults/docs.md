@@ -20,7 +20,7 @@ The **Save Particle Defaults** button applies any changes you have made to the *
 
 When using an override or user-created **outline**, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated outline. To revert this change back to its default setting, simply uncheck the check box.
 
-! The **Particle Defaults** panel is being phased out in **user-created outlines** as it is not necessary under the new inheritance system. You will see it in the Base Outline as this will enable you to set global defaults for the particle. However, the panel is hidden by default for any user-defined outlines as the vast majority of users will be defining particles in an individual outline through the layout manager most of the time. 
+! The **Particle Defaults** panel is being phased out in **user-created outlines** as it is not necessary under the new inheritance system. You will see it in the Base Outline as this will enable you to set global defaults for the particle. However, the panel is hidden by default for any user-defined outlines as the vast majority of users will be defining particles in an individual outline through the layout manager most of the time.
 
 ![](particle_defaults.jpg) {.border .shadow}
 
@@ -28,7 +28,7 @@ If you want to access the **Particle Defaults** panel for a user-defined outline
 
 ![Controls](controls_3.jpg?classes=shadow,border)
 
-You can also take advantage of the search field to filter particles, positions, and atoms to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually. 
+You can also take advantage of the search field to filter particles, positions, and atoms to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually.
 
 Particle Defaults
 -----
@@ -53,10 +53,10 @@ Position Defaults
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Grav Position Settings](grav_position_settings.jpg?classes=shadow,border)
 
 [/ui-tab]
-[/ui-tabs] 
+[/ui-tabs]
 
 Positions are particles as well, but they differ in that they are typically anchor points by which other content is assigned. With the exception of the spacer, position particles are home to other content types, including modules, page content, and system messages.
 
@@ -101,7 +101,7 @@ Doing this bypasses the need to assign the widget to the position via a traditio
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The **Particle Defaults** panel does not have any platform-specific settings for Grav.
 
 [/ui-tab]
 [/ui-tabs]
