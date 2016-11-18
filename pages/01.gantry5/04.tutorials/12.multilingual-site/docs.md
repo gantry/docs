@@ -200,8 +200,6 @@ This will enable you to switch seamlessly between languages on the frontend. Aft
 At the end, you have to assign template Outlines for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Components -> Gantry 5 Themes**, selecting the theme you have as default, and selecting **Configure**. 
 
 From here, you can access the **Outlines** administrative panel, select the outline you wish to base your new language-specific layout from, and select **Duplicate**. This will create a duplicate of the outline, which you can modify to include the language-specific menu and set assign a language to the override.
- 
-To do this, you will want to set the **Default** language to the language you wish to have this style assigned. You can do this in the **Overview** area of the **Template Settings**.
 
 ![](multilanguage_31.png?classes=shadow,border)
 
