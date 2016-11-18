@@ -19,7 +19,7 @@ Once you have added this file, and put your custom CSS/SCSS within, Gantry will 
 
 ![Recompile CSS](custom_2.png?classes=shadow,border)
 
-If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for. 
+If you have **Production Mode** set to **Yes**: you will need to then navigate to the Gantry 5 administrator, select the **Styles** administrative panel, and click **Recompile CSS** for the outlines you wish to have the custom styling apply for.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
@@ -34,7 +34,7 @@ If you have **Production Mode** set to **Yes**: you will need to then navigate t
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Production](grav_production.png?classes=shadow,border)
 
 [/ui-tab]
 [/ui-tabs]
