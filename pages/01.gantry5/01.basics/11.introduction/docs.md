@@ -29,7 +29,7 @@ Gantry 5 was made from the ground up to make life easier for both the developer 
 
 Gantry 5 is really easy to use. It has drag-and-drop functionality that enables you to dramatically change the layout of your site in seconds without ever having to even touch your keyboard.
 
-### Particles System
+## Particles System
 
 Thanks to Gantry's particles system, the developer can create content blocks for your site that you can add, remove, and update without fear of breaking the site or having to deal with a single line of code. Simple fields and toggle switches make it easy to find and change virtually anything on your site.
 
@@ -55,7 +55,11 @@ This is a big time saver and an addition that creates an advanced layout system 
 [/ui-tab]
 [/ui-tabs]
 
-### Menu Editor
+The particles system in Gantry 5 gives its themes an extraordinary flexibility. It's easier for developers to create custom features and apply them directly to your site in a way that exists apart from the content management system. For end users, it's a simple and easy way to add content to your pages. You can fill out a form instead of opening a code editor. You can pack your site with content and features without ever having to see a single line of code.
+
+<div align="center"><a href="../particles/particles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Particles System</a></div>
+
+## Menu Editor
 
 [plugin:youtube](https://www.youtube.com/watch?v=Ny0KgUz5JH8)
 
@@ -63,7 +67,9 @@ Gantry 5's Menu Editor is a quick and easy way to non-destructively control the 
 
 Everything you do in Gantry 5 is non-destructive, so your content and menus are left exactly the way they were, so you don't have to worry about doing anything that would disrupt your site's permanent makeup within the Gantry 5 Administrator.
 
-### Layout Manager
+<div align="center"><a href="../configure/menu-editor" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Menu Editor</a></div>
+
+## Layout Manager
 
 [plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
@@ -73,16 +79,20 @@ Things like your logo, copyright information, branding, social icons, and more c
 
 Worried you might get something wrong? You can undo and redo any actions taken in the Layout Manager during that session with a click of the mouse.
 
-## How to Find Help
-
-If you have any problems at all with Gantry, please feel free to let us know by submitting an issue on the GitHub project, or by reaching out via the Gitter chat.
-
-If you would like to check out the latest Gantry builds to get a glimpse at the latest developments in the Gantry project, we invite you to check out our CI Builds available for Joomla and WordPress. Additionally, we have CI builds available for download of the free Hydrogen theme.
+<div align="center"><a href="../configure/layout-manager" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Layout Manager</a></div>
 
 ## Where to Get Help
 
+If you have any problems at all with Gantry, please feel free to let us know by submitting an issue on the [GitHub project](http://github.org/gantry/gantry5), or by reaching out via the [Gitter](http://gitter.im/gantry/gantry5) chat.
+
+If you would like to check out the latest Gantry builds to get a glimpse at the latest developments in the Gantry project, we invite you to check out our CI Builds available for Joomla and WordPress. Additionally, we have CI builds available for download of the free Hydrogen theme.
+
 A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
+<div align="center"><a href="http://gitter.im/gantry/gantry5" class="button"><i class="fa fa-fw fa-support"></i> Chat with Us on Gitter</a></div>
+
 You can also check out the source files and download past/current releases of Gantry 5 [directly on GitHub](http://github.com/gantry/gantry5). This is also the best place to submit issues and bug reports that you come across while using Gantry 5.
+
+<div align="center"><a href="http://github.org/gantry/gantry5" class="button"><i class="fa fa-fw fa-github"></i> Submit an Issue on GitHub</a></div>
 
 You can also find a lot of resources here in the Gantry Documentation. In the next chapter, we break down the different areas of the Gantry 5 Administrator and how it can help you get more done with Gantry 5.
