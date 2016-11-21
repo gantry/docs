@@ -117,13 +117,13 @@ Everything you do in Gantry 5 is non-destructive, so your content and menus are 
 
 #### Outlines
 
-![Outlines](../configure/outlines/outline_1.png?classes=shadow,border)
+![Outlines](../../configure/outlines/outline_1.png?classes=shadow,border)
 
 The **Outlines** admin panel is a global starting point for creating, duplicating, and accessing your outlines. 
 
 You'll notice on this page that there are two different kinds of outlines: **Standard** and **System**. A standard outline includes anything you might assign to a typical page. This includes the **Base Outline** which serves to set global style and settings defaults for your theme, and outlines that you assign to normal pages such as the home page, or to use as a default for your content pages.
 
-![Outlines](../configure/outlines/outline_5.png?classes=shadow,border)
+![Outlines](../../configure/outlines/outline_5.png?classes=shadow,border)
 
 **System Outlines** are integrated into Gantry's core. They are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
 
