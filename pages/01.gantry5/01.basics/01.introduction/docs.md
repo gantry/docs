@@ -1,5 +1,5 @@
 ---
-title: Introduction for Non-Developers
+title: Introduction
 taxonomy:
     category: docs
     tag: [gantry5]
