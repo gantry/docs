@@ -33,7 +33,7 @@ Gantry currently works on three content management systems, including:
 [/ui-tab]
 [ui-tab title="Framework"]
 
-The framework is the woodwork that gives your house structure such as walls, windows, doorways, and a roof. It is the tool you use to manage how your theme is applied, when and where content is displayed, and the general layout of your home. 
+The framework is the woodwork that gives your house structure such as walls, windows, doorways, and a roof. It is the tool you use to manage how your theme is applied, when and where content is displayed, and the general layout of your home.
 
 In the case of Gantry, the framework is what you interact with on the back end. It gives you the ability to set colors, layouts, and just about any other aspect that affects the way the site looks.
 
@@ -46,12 +46,14 @@ A good framework will give you as close to complete control over your site's vis
 
 The theme or template is what the look and feel of your site is based on. In the house example, it is the trim, paint, door knobs, light fixtures, and pretty much every little detail that gives the house its unique look and feel.
 
-For websites using a Gantry-powered theme, the theme take advantage of the foundation created by the framework. This enables you to configure several different gantry-powered themes with the same, consistent 
+For websites using a Gantry-powered theme, the theme take advantage of the foundation created by the framework. This enables you to configure several different gantry-powered themes with the same, consistent
 
 [/ui-tab]
 [/ui-tabs]
 
 ## Meet the Gantry Administrator
+
+![Admin](intro_admin.jpeg?classes=shadow,border)
 
 The back end of Gantry is packed with features to help you configure and customize virtually every aspect of your website. While there are some minor differences in the panel(s) that appear in the administrator from CMS to CMS, the experience is consistent no matter which CMS you are using.
 
@@ -61,6 +63,8 @@ Here are some of the administrative panels you will find:
 
 #### Styles
 
+![Admin](intro_style.jpeg?classes=shadow,border)
+
 The **Styles** administrative panel gives you the ability to quickly and easily configure settings related to the appearance of the Gantry-powered theme. This includes being able to switch between pre-configured presets, as well as to refine the look of an outline using a set of style settings linked to the theme.
 
 If you want to change the color scheme of your site, its fonts, or the animation of your menu's dropdown feature, this is where you would go.
@@ -68,6 +72,8 @@ If you want to change the color scheme of your site, its fonts, or the animation
 <div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Styles</a></div>
 
 #### Particle Defaults
+
+![Admin](intro_particle.jpeg?classes=shadow,border)
 
 The **Particle Defaults** panel is really useful if you want to give your particles global default settings. By default, it only appears in the **Base Outline** and any changes you make here become the particle's default setting. For the most part, you'll go here to set things that are static like the logo and copyright information.
 
@@ -79,6 +85,8 @@ You need to shut this particle off so it doesn't appear on your site after the s
 
 #### Page Settings
 
+![Admin](intro_pagesettings.jpeg?classes=shadow,border)
+
 Want to add Google Analytics code to an outline? How about setting a favicon for your site? You can do this and a lot more in the **Page Settings** admin panel. This panel is where you can apply meta tags, JavaScript / CSS files, and more to your page. It's the go-to spot for adding scripts in the header and footer of your site.
 
 You can put these adjustments in your **Base Outline** to have them apply globally, or in an individual **Outline** to have them only apply to the pages assigned to the outline.
@@ -87,9 +95,11 @@ You can put these adjustments in your **Base Outline** to have them apply global
 
 #### Layout Manager
 
-[plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
+![Admin](intro_layout.jpeg?classes=shadow,border)
 
 Don't like where something is on the page? Just click and drag it where you want it to go from the **Layout Manager**. You can add things, remove them, resize them, create module/widget positions, and configure particles without touching the keyboard.
+
+[plugin:youtube](https://www.youtube.com/watch?v=DN_U_W7LT_c)
 
 Things like your logo, copyright information, branding, social icons, and more can also be adjusted directly from the Layout Manager.
 
@@ -99,17 +109,21 @@ Worried you might get something wrong? You can undo and redo any actions taken i
 
 #### Assignments
 
+![Admin](intro_assignments.jpg?classes=shadow,border)
+
 The **Assignments** panel gives you the ability to assign **outlines** to specific pages or categories of content. This works a little differently from platform to platform, however the basic function remains the same. As an example, if you create an **outline** specifically for the home page of your site, you can assign that outline to the home page here.
 
 <div align="center"><a href="../configure/assignments" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Assignments</a></div>
 
 #### Menu Editor
 
-[plugin:youtube](https://www.youtube.com/watch?v=Ny0KgUz5JH8)
+![Admin](intro_menu.jpg?classes=shadow,border)
 
 Gantry 5's Menu Editor is a quick and easy way to non-destructively control the way menus appear on the front end of your site. You can rearrange menu items with drag-and-drop ease, inject particles and more.
 
 It basically takes your menu(s) from the CMS and decorates them before passing them along to the visitor.
+
+[plugin:youtube](https://www.youtube.com/watch?v=Ny0KgUz5JH8)
 
 Everything you do in Gantry 5 is non-destructive, so your content and menus are left exactly the way they were, so you don't have to worry about doing anything that would disrupt your site's permanent makeup within the Gantry 5 Administrator.
 
@@ -119,7 +133,7 @@ Everything you do in Gantry 5 is non-destructive, so your content and menus are 
 
 ![Outlines](../../configure/outlines/outline_1.png?classes=shadow,border)
 
-The **Outlines** admin panel is a global starting point for creating, duplicating, and accessing your outlines. 
+The **Outlines** admin panel is a global starting point for creating, duplicating, and accessing your outlines.
 
 You'll notice on this page that there are two different kinds of outlines: **Standard** and **System**. A standard outline includes anything you might assign to a typical page. This includes the **Base Outline** which serves to set global style and settings defaults for your theme, and outlines that you assign to normal pages such as the home page, or to use as a default for your content pages.
 
@@ -130,6 +144,24 @@ You'll notice on this page that there are two different kinds of outlines: **Sta
 This panel enables you to manage your outlines in a number of ways, and we'll break them down for you now.
 
 #### Extras
+
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+
+![Admin](intro_extras_joomla.jpeg?classes=shadow,border)
+
+[/ui-tab]
+[ui-tab title="WordPress"]
+
+![Admin](intro_extras_wp.jpeg?classes=shadow,border)
+
+[/ui-tab]
+[ui-tab title="Grav"]
+
+![Admin](intro_extras_grav.jpeg?classes=shadow,border)
+
+[/ui-tab]
+[/ui-tabs]
 
 The **Extras** dropdown gives you quick access to a few options that are handy to have instant access to throughout the administrator. This includes the **Development Mode** toggle switch, a **Clear Cache** shortcut, and a shortcut to **Platform Settings** which takes you to a platform-specific settings page for Gantry.
 
