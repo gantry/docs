@@ -69,7 +69,7 @@ Particles
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Particles](grav_particles.png?classes=shadow,border)
 
 [/ui-tab]
 [/ui-tabs]

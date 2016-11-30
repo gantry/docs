@@ -42,8 +42,6 @@ Once this is done, navigate to **Administrator → (Theme Name) Theme**. This sh
 [/ui-tab]
 [ui-tab title="Grav"]
 
-[plugin:youtube](https://www.youtube.com/watch?v=VrwlAISRS48)
-
 The first thing you will need to do is ensure that the Gantry Framework is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
 ![Sidebar](grav_sidebar.png?classes=shadow,border)

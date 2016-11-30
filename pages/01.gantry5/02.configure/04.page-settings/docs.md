@@ -161,7 +161,7 @@ The **JavaScript Frameworks** Atom gives you the ability to easily add popular J
 ![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
 [/ui-tab]
 [ui-tab title="Grav"]
-Grav documentation coming soon...
+![JavaScript Frameworks](grav_atoms-frameworks_settings.png?classes=shadow,border)
 [/ui-tab]
 [/ui-tabs]
 
