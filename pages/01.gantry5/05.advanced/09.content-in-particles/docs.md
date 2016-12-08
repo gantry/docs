@@ -207,7 +207,7 @@ Get list of parent categories.
 
 ### `.compile(string)` Compile category into a string
 
-Compile category by using given string. Template `context` has variable named `category` which you can use. 
+Compile category by using given string. Template `context` has variable named `category` which you can use.
 
 ```twig
 {{ category.render('<a href="{{ category.route }}">{{ category.title }}</a>') }}
@@ -215,7 +215,7 @@ Compile category by using given string. Template `context` has variable named `c
 
 ### `.render(template)` Render category
 
-Render category by using given template file. Template `context` has variable named `category` which you can use. 
+Render category by using given template file. Template `context` has variable named `category` which you can use.
 
 ```twig
 {{ category.render('joomla/category-link.html.twig') }}
@@ -287,7 +287,7 @@ Get list of category objects starting from root category.
 
 ### `.compile(string)` Compile article into a string
 
-Compile article by using given string. Template `context` has variable named `article` which you can use. 
+Compile article by using given string. Template `context` has variable named `article` which you can use.
 
 ```twig
 {{ article.render('<a href="{{ article.route }}">{{ article.title }}</a>') }}
@@ -296,7 +296,7 @@ Compile article by using given string. Template `context` has variable named `ar
 
 ### `.render(template)` Render article
 
-Render article by using given template file. Template `context` has variable named `article` which you can use. 
+Render article by using given template file. Template `context` has variable named `article` which you can use.
 
 ```twig
 {{ article.render('joomla/article-link.html.twig') }}
@@ -321,30 +321,30 @@ You are also able to fetch the current article and display for example its title
 {% endif %}
 ```
 
-In this case title is only displayed on single article view. 
+In this case title is only displayed on single article view.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-WordPress documentation is coming soon...
+In WordPress, this is all handled by a plugin that we've included with Gantry 5 called [Timber](http://upstatement.com/timber/). Timber is a great way to connect WordPress' content with your theme. Just about everything you would need to know to use CMS-based content in your particles is available in [Timber's extensive documentation](http://timber.github.io/timber/#getting-started).
 
-## Accessing current title:
+For a quick example, here is the code used to utilize Timber's `get_posts` function.
 
 ```twig
-<h1>
-    {% if function('is_category' ) %}
-        {{ function('single_cat_title') }}
-    {% elseif function('is_single' ) or function('is_page') %}
-        {{ function('the_title') }}
-    {% elseif function('is_post_type_archive') %}
-        {{ function('post_type_archive_title') }}
-    {% elseif function('is_tag') %}
-        {{ function('single_tag_title') }}
-    {% elseif function('is_author') %}
-        {{ function('get_the_author') }}
-    {% endif %}
-</h1>
+{# Query Posts #}
+    {% set query_parameters = {
+        'cat': filter.categories|replace(' ', ','),
+        'posts_per_page': limit.total|default('-1'),
+        'offset': limit.start|default('0'),
+        'orderby': sort.orderby,
+        'order': sort.ordering,
+        'ignore_sticky_posts': sticky_posts
+    } %}
+
+    {% set posts = wordpress.call('Timber::get_posts', query_parameters) %}
 ```
+
+In this snipped, the results of `get_posts` are assigned to the `posts` Twig variable.
 
 [/ui-tab]
 [ui-tab title="Grav"]
