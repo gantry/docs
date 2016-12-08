@@ -12,24 +12,36 @@ You don't have to create a separate **Error** outline. It's actually included in
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-The first step to customizing this page is to access the Gantry administrator by navigating to **Admin → Extensions → Template Manager** and selecting your active Gantry 5 template. This will take you to the Gantry Administrator. 
+The first step to customizing this page is to access the Gantry administrator by navigating to **Admin → Extensions → Template Manager** and selecting your active Gantry 5 template. This will take you to the Gantry Administrator.
 
 ![Error Page](errorpage_1.png?classes=shadow,border)
 
-From there, you will need to select **Error** from the **Outlines** dropdown. Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Settings**, and **Styles** administrative panels.
+From there, you will need to select **Error** from the **Outlines** dropdown. Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Page Settings**, and **Styles** administrative panels.
 
 ![Error Page](errorpage_2.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Coming soon...
+The first step to customizing this page is to access the Gantry administrator by navigating to the Gantry Administrator.
+
+![Error Page](errorpage_1_wp.png?classes=shadow,border)
+
+From there, you will need to select **Error** from the **Outlines** dropdown. Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Page Settings**, and **Styles** administrative panels.
+
+![Error Page](errorpage_2_wp.png?classes=shadow,border)
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The first step to customizing this page is to access the Gantry administrator by navigating to the Gantry Administrator.
+
+![Error Page](errorpage_1_grav.png?classes=shadow,border)
+
+From there, you will need to select **Error** from the **Outlines** dropdown. Doing so loads the outline for the Error page, giving you access to its **Layout Manager**, **Page Settings**, and **Styles** administrative panels.
+
+![Error Page](errorpage_2_grav.png?classes=shadow,border)
 
 [/ui-tab]
 [/ui-tabs]
- 
+
