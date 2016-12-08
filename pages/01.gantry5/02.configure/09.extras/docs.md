@@ -18,7 +18,7 @@ taxonomy:
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Production](grav_production.png?classes=shadow,border)
 
 [/ui-tab]
 [/ui-tabs]
@@ -35,7 +35,7 @@ When in **Development**, any change made to the `custom.scss` file will be detec
 In the future, more **Development** vs. **Production** actions will be tied to this same setting, such as cache, minified vs. extended JS/CSS, etc.
 
 #### Alternative Toggle Access
- 
+
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
@@ -55,7 +55,7 @@ This is currently the recommended, primary method for toggling Development and P
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+This is currently the recommended, primary method for toggling Development and Production mode in Grav. However, you can access the Development and Production toggle in the **Platform Settings** page by selecting **Platform Settings** from the **Extras** menu.
 
 [/ui-tab]
 [/ui-tabs]
@@ -75,7 +75,7 @@ The **Clear Cache** shortcut clears Gantry's cache instantly. This includes ever
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The **Clear Cache** shortcut clears Gantry's cache instantly. This includes everything stored in the `SITE_ROOT/cache/gantry5/` directory. If you are having any issues in the Gantry administrator, this is an excellent first step to take prior to more detailed troubleshooting.
 
 [/ui-tab]
 [/ui-tabs]
@@ -95,7 +95,11 @@ WordPress does not currently have a Platform Settings option as it does not have
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Production](grav_platform.png?classes=shadow,border)
+
+The **Platform Settings** shortcut takes you to a platform-specific settings page for the Gantry 5 plugin. This page includes toggles for the plugin's status, asset timestamps, production mode, and more.
+
+You can also remove Gantry from this page.
 
 [/ui-tab]
 [/ui-tabs]

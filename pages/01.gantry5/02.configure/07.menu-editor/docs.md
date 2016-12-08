@@ -124,7 +124,7 @@ Coming soon...
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Grav does not currently support module injection.
 
 [/ui-tab]
 [/ui-tabs]
@@ -137,7 +137,7 @@ Particle injection is possible in the Gantry Menu Editor, enabling you to add Pa
 
 ![Particle Injection](menu_particle_3.png?classes=shadow,border)
 
-The popup that appears enables you to both search for and select a particle to use in your menu. Simply click the particle and **Select** it. 
+The popup that appears enables you to both search for and select a particle to use in your menu. Simply click the particle and **Select** it.
 
 ![Particle Injection](menu_particle_4.png?classes=shadow,border)
 
