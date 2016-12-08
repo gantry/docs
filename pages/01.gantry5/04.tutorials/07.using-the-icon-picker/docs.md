@@ -64,7 +64,7 @@ You can find the `totop.html.twig` and `totop.yaml` files located in `ROOT/wp-co
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+You can find the `totop.html.twig` and `totop.yaml` files located in `ROOT/user/plugins/gantry5/engines/nucleus/particles/`.
 
 [/ui-tab]
 [/ui-tabs]
