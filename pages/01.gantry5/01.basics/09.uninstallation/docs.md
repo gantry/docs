@@ -63,7 +63,11 @@ Uninstall the Gantry plugin and theme from **Plugins** admin page. Please search
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Grav Uninstall](grav_uninstall.png?classes=shadow,border)
+
+There are two main parts to Gantry -- the framework and the theme. Therefore, there are two pieces to uninstall. If you intend to uninstall only the theme portion, then follow the instructions for removing the theme only. Keeping the Gantry plugin installed does not harm as it is only used by a Gantry-enabled theme, but if you wish to uninstall the plugin, you can follow those steps.
+
+Uninstall the Gantry plugin and theme from **Plugins** admin page. Simply locate and select **Gantry 5 Framework** from the list of **Installed Plugins**. Doing so will take you to the plugin's settings panel. Scrolling down, you will notice a red **Remove Plugin** button. Select that and Gantry 5 will be uninstalled.
 
 [/ui-tab]
 [/ui-tabs]
