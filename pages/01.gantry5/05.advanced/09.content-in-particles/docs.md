@@ -333,8 +333,8 @@ For a quick example, here is the code used to utilize Timber's `get_posts` funct
 ```twig
 {# Query Posts #}
     {% set query_parameters = {
-        'cat': filter.categories|replace(' ', ','),
-        'posts_per_page': limit.total|default('-1'),
+        'cat': '-1',
+        'posts_per_page': limit.total|default('4'),
         'offset': limit.start|default('0'),
         'orderby': sort.orderby,
         'order': sort.ordering,
@@ -349,7 +349,7 @@ In this snipped, the results of `get_posts` are assigned to the `posts` Twig var
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Grav has a well-suited environment for Gantry 5. Because they were designed by the same team, you will find that using CMS content in your particles is natural and straightforward. You can find a lot more information in [Grav's extensive documentation](https://learn.getgrav.org/themes/theme-basics).
 
 [/ui-tab]
 [/ui-tabs]
