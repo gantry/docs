@@ -7,7 +7,7 @@ taxonomy:
 
 ![Menu](menu.png?classes=shadow,border)
 
-The **Menu** particle gives you the ability to place menus and define how they appear on the frontend. 
+The **Menu** particle gives you the ability to place menus and define how they appear on the frontend.
 
 The Menu particle settings are different than the ones found in the [**Menu** administrative panel](../../configure/menu-editor). Here's a quick breakdown of the life cycle of a menu in Gantry 5.
 
@@ -38,12 +38,32 @@ As menus are handled differently by different platforms, the settings may vary. 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Coming Soon...
+![Settings](menu_settings_wp.png?classes=shadow,border)
+
+| Setting         | Description                                                                                             |
+| :------         | :----------------------------------                                                                     |
+| Menu            | Select the menu you wish to assign to the Particle.                                                     |
+| Base Item       | Select the menu item to be used as the base for the menu display.                                       |
+| Start level     | Sets the starting level for the menu.                                                                   |
+| Max Levels      | Sets the deepest level at which the menu particle renders the menu.                                     |
+| Render Titles   | Renders the titles and/or tooltips of the menu items for accessibility.                                 |
+| Expand on Hover | Allows the user to enable/disable the ability to expand menu items by hover or click only.              |
+| Mobile Target   | Check this field if you want this menu to become the target for Mobile Menu and to appear in OffCanvas. |
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Settings](menu_settings_grav.png?classes=shadow,border)
+
+| Setting         | Description                                                                                             |
+| :------         | :----------------------------------                                                                     |
+| Menu            | Select the menu you wish to assign to the Particle.                                                     |
+| Base Item       | Select the menu item to be used as the base for the menu display.                                       |
+| Start level     | Sets the starting level for the menu.                                                                   |
+| Max Levels      | Sets the deepest level at which the menu particle renders the menu.                                     |
+| Render Titles   | Renders the titles and/or tooltips of the menu items for accessibility.                                 |
+| Expand on Hover | Allows the user to enable/disable the ability to expand menu items by hover or click only.              |
+| Mobile Target   | Check this field if you want this menu to become the target for Mobile Menu and to appear in OffCanvas. |
 
 [/ui-tab]
 [/ui-tabs]
