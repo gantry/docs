@@ -120,7 +120,50 @@ Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe pl
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Fonts](files_grav.png?classes=shadow,border)
+
+Add the local font files to `ROOT/user/data/gantry5/themes/THEME_DIR/fonts/`.
+
+Once this is done, you can add your new font to the YAML in the `fonts` section. Using RocketTheme's [Callisto](http://rockettheme.com/joomla/templates/callisto) template as an example, this is what the `theme.yaml` file looks like by default.
+
+```yaml
+fonts:
+    sourcesanspro:
+      700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
+      700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
+      400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
+      400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
+    lato:
+      900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
+      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
+```
+
+To add the Roboto font, the fonts section of the YAML file will look like this.
+
+```yaml
+fonts:
+  sourcesanspro:
+    700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
+    700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
+    400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
+    400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
+  lato:
+    900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
+    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
+  roboto:
+    400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
+    400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
+    400: 'gantry-theme://fonts/roboto/roboto_condensed_macroman/RobotoCondensed-Regular-webfont'
+    400italic: 'gantry-theme://fonts/roboto/roboto_condenseditalic_macroman/roboto_condenseditalic_macroman'
+    700: 'gantry-theme://fonts/roboto/roboto_bold_macroman/Roboto-Bold-webfont'
+    700italic: 'gantry-theme://fonts/roboto/roboto_bolditalic_macroman/Roboto-BoldItalic-webfont'
+    900: 'gantry-theme://fonts/roboto/roboto_black_macroman/Roboto-Black-webfont'
+    900italic: 'gantry-theme://fonts/roboto/roboto_blackitalic_macroman/Roboto-BlackItalic-webfont'
+```
+
+The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
+
+Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
 [/ui-tab]
 [/ui-tabs]
@@ -138,8 +181,7 @@ If you want to have local fonts load across your site, you can do so by completi
 * Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `TEMPLATE_DIR/custom/scss`.
 
 ```css
-@import "vendor/bourbon/bourbon";
-@import "nucleus/theme/mixins/typography";
+@import "dependencies";
 @include import-font('roboto’);
 ```
 
@@ -152,15 +194,22 @@ If you want to have local fonts load across your site, you can do so by completi
 * Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `THEME_DIR/custom/scss`.
 
 ```css
-@import "vendor/bourbon/bourbon";
-@import "nucleus/theme/mixins/typography";
+@import "dependencies";
 @include import-font('roboto’);
 ```
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+![Fonts](files_grav.png?classes=shadow,border)
+
+* Add the local font files to `ROOT/user/data/gantry5/themes/THEME_DIR/fonts/`.
+* Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `ROOT/user/data/gantry5/themes/THEME_DIR/scss`.
+
+```css
+@import "dependencies";
+@include import-font('roboto’);
+```
 
 [/ui-tab]
 [/ui-tabs]
@@ -224,7 +273,15 @@ Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Unzip the package and move the following files to `ROOT/user/data/gantry5/themes/THEME_DIR/fonts/`:
+
+* BLOODY-webfont.eot
+* BLOODY-webfont.svg
+* BLOODY-webfont.ttf
+* BLOODY-webfont.woff
+* BLOODY-webfont.woff2
+
+![](custom_files_grav.png)  {.border .shadow}
 
 [/ui-tab]
 [/ui-tabs]
@@ -241,7 +298,7 @@ Add the following to the custom SCSS file:
 ```css
 /* Adding Font BLOODY */
 
-@import "vendor/bourbon/bourbon";
+@import "dependencies";
 @include font-face('BloodyNormal', 'gantry-theme://fonts/BLOODY-webfont');
 
 .font-family-bloody {
@@ -261,7 +318,7 @@ Add the following to the custom SCSS file:
 ```css
 /* Adding Font BLOODY */
 
-@import "vendor/bourbon/bourbon";
+@import "dependencies";
 @include font-face('BloodyNormal', 'gantry-theme://fonts/BLOODY-webfont');
 
 .font-family-bloody {
@@ -274,7 +331,22 @@ Add the following to the custom SCSS file:
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `ROOT/user/data/gantry5/themes/THEME_DIR/scss/`.
+
+Add the following to the custom SCSS file:
+
+```css
+/* Adding Font BLOODY */
+
+@import "dependencies";
+@include font-face('BloodyNormal', 'gantry-theme://fonts/BLOODY-webfont');
+
+.font-family-bloody {
+  font-family: 'BloodyNormal',Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+```
 
 [/ui-tab]
 [/ui-tabs]
