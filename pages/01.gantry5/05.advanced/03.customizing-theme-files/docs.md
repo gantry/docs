@@ -36,7 +36,7 @@ To do this, you will need to create an override of the `section.yaml` found in `
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [/ui-tabs]
@@ -135,7 +135,7 @@ The next thing we need to do is create an override of our existing `section.html
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/user/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `THEME_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [/ui-tabs]
@@ -285,7 +285,7 @@ The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` direc
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-The first table of folders is rooted in the `ROOT/wp-content/themes/THEME_DIR/` directory where `ROOT` is the root directory of the Wordpress site and `THEME_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
+The first table of folders is rooted in the `ROOT/wp-content/themes/THEME_DIR/` directory where `ROOT` is the root directory of the WordPress site and `THEME_DIR` is the template directory for the Gantry-powered template. It contains files specific to the theme.
 
 | Directory         | Description                                                                                                                       |
 | :------           | :-----                                                                                                                            |
@@ -303,7 +303,20 @@ The first table of folders is rooted in the `ROOT/wp-content/themes/THEME_DIR/` 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The first table of folders is rooted in the `ROOT/user/themes/THEME_DIR/` directory where `ROOT` is the root directory of the Grav site and `THEME_DIR` is the theme directory for the Gantry-powered template. It contains files specific to the theme.
+
+| Directory         | Description                                                                                                                       |
+| :------           | :-----                                                                                                                            |
+| admin             | Contains an `images` directory including theme images for use in the Gantry administrator as well as any additional admin assets. |
+| blueprints        | Contains the style setting fields and other abstract elements necessary for the theme.                                            |
+| blueprints/styles | Contains YAML files establishing fields and settings for configurable style settings that appear in the **Styles** admin panel.   |
+| fonts             | Contains custom fonts used by the theme.                                                                                          |
+| gantry            | Contains `presets.yaml` which contains preset Style settings. Also contains `theme.yaml` which sets the **About** admin panel.    |
+| language          | Contains language files used in Gantry.                                                                                           |
+| layouts           | Contains **YAML** files which make up the settings for the **Layout** presets found in the **Layout Manager**.                    |
+| particles         | Contains custom **Particles** or overriding Particles to add or modify functionality of the theme.                                |
+| scss              | Contains all the non platform specific SCSS files for the theme and is broken into several subdirectories and files.              |
+| views             | Like you would normally do in any theme, in the `views` folder you can put any override for the plugins.                          |
 
 [/ui-tab]
 [/ui-tabs]
@@ -359,7 +372,25 @@ When creating custom copies of these files, you will want to put them in `THEME_
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The next batch is specific to Gantry, and not the theme. These folders are found in the `ROOT/user/plugins/gantry5` directory, which contains data used by the framework, independent of the theme.
+
+The `ROOT/user/plugins/gantry5/assets/` directory contains third-party assets used by Gantry 5. This includes [Font Awesome's](http://fortawesome.github.io/Font-Awesome/) font package, Gantry logo images, etc.
+
+The following directories are rooted in the `ROOT/user/plugins/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
+
+When creating custom copies of these files, you will want to put them in `THEME_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+
+| Directory          |
+| :------            |
+| admin/blueprints   |
+| layouts            |
+| particles          |
+| scss               |
+| templates          |
+| templates/content  |
+| templates/partials |
+| twig               |
+| twig/partials      |
 
 [/ui-tab]
 [/ui-tabs]
@@ -387,7 +418,11 @@ Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+The Gantry Administrator's component files are located in the `ROOT/user/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
+
+!! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
+
+Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/user/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
 [/ui-tab]
 [/ui-tabs]

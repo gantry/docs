@@ -33,7 +33,7 @@ You will want to create this file in your template's folder structure by navigat
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+You will want to create this file in your template's folder structure by navigating to `THEME_DIR/custom/particles` and creating a file with a name like `example_particle.yaml`. You can replace `example_particle` with anything you would like. This just happens to be the name we're using for this particular particle. This file name will be referred to later on.
 
 [/ui-tab]
 [/ui-tabs]
@@ -56,7 +56,7 @@ form:
     title:
       type: input.text
       label: Title
-      description: Customize the section title text.   
+      description: Customize the section title text.
 
     image:
       type: input.imagepicker
@@ -182,7 +182,14 @@ Here is a table to help you figure out where to place the duplicate **YAML** and
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+If you want to override an existing Particle and make custom changes to the source of that Particle, you can do so by copying it to your `THEME_DIR/custom` directory and changing the duplicate file(s). These changes will override the existing Particle from Gantry's core, the platform, or the theme.
+
+Here is a table to help you figure out where to place the duplicate **YAML** and **Twig** files.
+
+| Original File Directory                          | Duplicate File Directory     | Alternate Duplicate File Directory  |
+| :-----                                           | :-----                       | :-----                              |
+| `user/plugins/gantry5/engines/nucleus/particles` | `THEME_DIR/custom/particles` | `THEME_DIR/custom/engine/particles` |
+| `THEME_DIR/particles`                            | `THEME_DIR/custom/particles` |                                     |
 
 [/ui-tab]
 [/ui-tabs]

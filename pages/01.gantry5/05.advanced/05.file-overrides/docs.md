@@ -71,7 +71,7 @@ This plugin Bootstraps Gantry5 Framework and hooks into some events to improve u
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Gantry installs as a single plugin. This plugin provides the framework and structure by which a Gantry 5 compatible theme will function. 
+Gantry installs as a single plugin. This plugin provides the framework and structure by which a Gantry 5 compatible theme will function.
 
 Here is a quick reference guide to a typical Gantry 5 site's directory structure related to the framework and theme.
 
@@ -91,7 +91,22 @@ As you can see, all custom files would be placed within the theme directory's `c
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+Gantry installs as a single plugin. This plugin provides the framework and structure by which a Gantry 5 compatible theme will function.
+
+Here is a quick reference guide to a typical Gantry 5 site's directory structure related to the framework and theme.
+
+| Item                        | Installed Directory Path | Custom Directory Path |
+| :-----                      | :-----                   | :-----                |
+| Gantry 5 Framework (Plugin) | `/user/plugins/gantry5`  | `THEME_DIR/custom`    |
+| Gantry 5 Theme (Theme)      | `/user/themes/THEME_DIR` | `THEME_DIR/custom`    |
+
+As you can see, all custom files would be placed within the theme directory's `custom` folder. How you place them from here depends on their location. For example:
+
+| Original File Path                      | Custom File Path          |
+| :-----                                  | :-----                    |
+| `/user/plugins/gantry5/admin`           | `THEME_DIR/custom/admin`  |
+| `/user/plugins/gantry5/engines/nucleus` | `THEME_DIR/custom/engine` |
+| `/user/themes/THEME_DIR/scss`           | `THEME_DIR/custom/scss`   |
 
 [/ui-tab]
 [/ui-tabs]
@@ -114,7 +129,7 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-All templates are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `wp-content/themes/TEMPLATE_DIR/custom/` folder.
+All themes are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `wp-content/themes/TEMPLATE_DIR/custom/` folder.
 
 Here is an example of where the source file and customized duplicate file would be located:
 
@@ -127,7 +142,15 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+All themes are located in the `user/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `user/themes/TEMPLATE_DIR/custom/` folder.
+
+Here is an example of where the source file and customized duplicate file would be located:
+
+| Example File                | Example Custom File                                  |
+| :-----                      | :-----                                               |
+| `THEME_DIR/images/ipad.png` | `user/data/gantry5/themes/THEME_DIR/images/ipad.png` |
+
+This doesn't just apply to customizing existing files, but adding new ones such as Particle files. We detail this process in our previous guides on [Customizing Theme Files](../customizing-theme-files) and [Creating a New Particle](../creating-a-new-particle/). You can also customize common assets, the rendering engine, or even parts of the administrator.
 
 [/ui-tab]
 [/ui-tabs]
