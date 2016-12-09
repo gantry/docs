@@ -7,13 +7,13 @@ taxonomy:
 
 Layout Presets are the basic building blocks the Layout Manager uses as a starting point for you to customize the layout of your site. Each preset gives you a new set of sections, each linked to styling, making up the look and feel of the site. You can then place Particles and Positions into these sections, add rows, and arrange the page the way you would like it to look.
 
-If you're not finding a preset that meets your needs, you can create a new one. 
+If you're not finding a preset that meets your needs, you can create a new one.
 
 It is very easy for a skilled developer to create a **Layout Preset**. This is a great way to take an existing Layout Preset and add or remove **Sections** to it, or to build an entirely new Layout Preset from scratch, if you are so inclined.
 
 Unlike adding rows in a section, creating an entirely new section (either stand-alone or as a sidebar) gives you the ability to create custom CSS styling affecting the new area of the page.
 
-It's important to note that this is an advanced action, and Gantry 5 themes generally do not include built-in styling support for new sections. You will have to add the styling yourself, either linking it to an existing section or creating it from scratch in your `custom.scss` file located in `THEME_DIR/custom/scss`. 
+It's important to note that this is an advanced action, and Gantry 5 themes generally do not include built-in styling support for new sections. You will have to add the styling yourself, either linking it to an existing section or creating it from scratch in your `custom.scss` file located in `THEME_DIR/custom/scss`.
 
 ## Preset Images
 
@@ -40,7 +40,11 @@ You can also add custom images. For example, let's say we have `example.png` and
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Grav documentation is coming soon...
+There is a section of the YAML files for the layout presets that deals with the preset image. This is an important part of the file as it creates the preview image you see when you are browsing the **Outlines** administrative interface. It can serve as a quick reference to the outline, giving you an at-a-glance look at what the layout looks like without having to visit the layout manager.
+
+Gantry includes a set of these images that you can choose from. They are located in the `user/plugins/gantry5/admin/images/layouts/` directory and can be easily referenced with a stream link. For example, if you wanted to link to the `2-col-left.png` file in that folder, you would use the URL: `gantry-admin://images/layouts/2-col-left.png` as the preset image.
+
+You can also add custom images. For example, let's say we have `example.png` and we want to use it as the preset image. We would place it in `THEME_DIR/custom/images/admin/layouts` and reference it in the YAML file as `gantry-media://images/admin/layouts/example.png`.
 
 [/ui-tab]
 [/ui-tabs]
@@ -87,13 +91,13 @@ layout:
   offcanvas:
     -
       - mobile-menu
-``` 
+```
 
 ![Preset](sections_2.png?classes=shadow,border)
 
 This is a basic layout preset, featuring three sections included in the theme's original styling (`header`, `main`, and `footer`) with one additional section being added (`mainbottom`) that is not included with the original theme. We don't recommend adding new sections if you don't have to, but doing so can be done by adding it in a custom Layout Preset.
 
-Once you have added a new section, it will display without any styling beyond the template's defaults. To add your own styling, you will want to do so via the `custom.scss` file located in `THEME_DIR/custom/scss`. For example, if you wanted the H1 tag to output a red font, you would add the line `#g-mainbottom h1 {color: red;}`. 
+Once you have added a new section, it will display without any styling beyond the template's defaults. To add your own styling, you will want to do so via the `custom.scss` file located in `THEME_DIR/custom/scss`. For example, if you wanted the H1 tag to output a red font, you would add the line `#g-mainbottom h1 {color: red;}`.
 
 ! Gantry sections appear in scss under the tag g-(section name). The `main` section would be `g-main`, as an example. This is done to separate your section names from other potentially conflicting third-party styling assignments.
 
@@ -262,7 +266,7 @@ structure:
 There are five main rules to keep in mind when creating a layout preset.
 
 1. tiered content is ordered as `grid - block - grid - block - grid - block`. Grid is a row and block is a column. See the earlier examples.
-2. `foo:` creates a section. `wrapper-foo:` creates a wrapper. `container-foo:` creates a container. Name needs to be unique to the layout. 
+2. `foo:` creates a section. `wrapper-foo:` creates a wrapper. `container-foo:` creates a container. Name needs to be unique to the layout.
 3. Adding slashes (example: `/foo/:`) enables you to take advantage of section layout settings for improved styling flexibility.
 4. Multiple particles in a row can also be put within `[ ]` brackets. Example: `- [logo, menu]`
 5. You don't need brackets or extra dash for single-particle rows. Example: `- menu` is the shorthand of `- [menu]`
@@ -306,7 +310,7 @@ layout:
   /footer/:
     -
       - position-footer
-    - 
+    -
       - copyright 40
       - spacer 30
       - branding 30
@@ -334,7 +338,7 @@ There is another section in a layout preset's YAML file that sets the structure 
 
 A YAML's structure leaves a lot of room for new properties to be assigned to virtually any element in the layout's structure. For example, you can change the behavior of a section using the structural properties, such as changing a section's type to a div rather than its default behavior: section.
 
-There are five different types of properties. **id**, **title**, **type**, **subtype**, and **attributes**. A section's assigned **id** determines its tags. For example, an `id` of `foo` will appear as `<section id="foo">` in the front end. The **id** is an internally-used feature that should not be altered manually. 
+There are five different types of properties. **id**, **title**, **type**, **subtype**, and **attributes**. A section's assigned **id** determines its tags. For example, an `id` of `foo` will appear as `<section id="foo">` in the front end. The **id** is an internally-used feature that should not be altered manually.
 
 The **title** property enables you to set a title for the seciton as it appears on the back end. For example, you can set the section up as follows:
 
@@ -377,14 +381,14 @@ Here is a list of structural properties you can use to define a section's **type
 
 **Subtypes**
 
-* article 
-* aside  
-* div     
-* footer  
-* header  
-* main   
-* nav     
-* section 
+* article
+* aside
+* div
+* footer
+* header
+* main
+* nav
+* section
 
 Subtypes are essentially HTML tags that define the content of your page. They are thematic groupings that tell browsers and web crawlers what pieces of content are. For example, an article would be defined within `<article></article>` tags.
 
@@ -448,7 +452,7 @@ layout:
       - logo
     2:
       - position-menu
-      
+
 structure:
   grid-menu:
     attributes:
@@ -462,7 +466,7 @@ You can also do the same with blocks, but its rarely needed as you can insert th
 
 ## Inheritance
 
-Starting from Gantry 5.3 there is a new `inherit` attribute for both sections and particles. 
+Starting from Gantry 5.3 there is a new `inherit` attribute for both sections and particles.
 
 Section inheritance is slightly simpler, having just `outline` and `include` attributes:
 
