@@ -10,6 +10,11 @@ jQuery(document).ready(function() {
 
    jQuery('.tabs-wrapper').each(function(index, wrapper) {
        wrapper = jQuery(wrapper);
-       wrapper.find('> .tabs-nav li').removeClass('current').eq(activeTab).addClass('current').trigger('click');
+       wrapper.find('> .tabs-nav li')
+           .removeClass('current')
+           .eq(activeTab)
+           .addClass('current')
+           .find('a')
+           .trigger('click');
    });
 });
