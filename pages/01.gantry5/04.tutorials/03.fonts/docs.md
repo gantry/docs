@@ -182,7 +182,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('roboto’);
+@include import-font('roboto');
 ```
 
 [/ui-tab]
@@ -208,7 +208,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('roboto’);
+@include import-font('roboto');
 ```
 
 [/ui-tab]
