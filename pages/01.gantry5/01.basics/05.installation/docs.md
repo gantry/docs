@@ -155,9 +155,7 @@ The first and easiest method involves installing the theme via the Grav Administ
 
 To do this, you will need to have the [Admin plugin](https://github.com/getgrav/grav-plugin-admin) installed and active in Grav. If you do, you can access the plugin installation page by navigating to **Admin > Themes** and selecting the **<i class="fa fa-plus" aria-hidden="true"></i> Add** button in the upper-right area of the page.
 
-![Gantry 5 Installation](g5_install_1.jpg?classes=shadow,border)
-
-Here, you can either scroll and find the plugin titled **Gantry 5 Framework** or search for it using the **Filter** field.
+Here, you can either scroll and find the theme titled **Helium** or search for it using the **Filter** field.
 
 Once you have found the **Helium** theme, simply select the **<i class="fa fa-plus" aria-hidden="true"></i> Install** button for it and begin the installation process. A popup will ask you if you want to **Cancel** or **Continue** the installation. Just select **<i class="fa fa-check" aria-hidden="true"></i> Continue** to install.
 
