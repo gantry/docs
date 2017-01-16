@@ -7,7 +7,7 @@ taxonomy:
 
 Would you like to change where the Logo appears on your site? How about adding new positions for modules/widgets and placing it directly below the menu? You can do these things and more without even touching your keyboard thanks to a new concept to the Gantry Framework called **Particles**.
 
-Gantry 5’s Layout Manager gives you the power to create a virtually unlimited amount of Particles, including Positions, resize them, and place them just about anywhere you want them to appear on the frontend. 
+Gantry 5’s Layout Manager gives you the power to create a virtually unlimited amount of Particles, including Positions, resize them, and place them just about anywhere you want them to appear on the front end. 
 
 There are three basic types of Particles. Here is a quick breakdown of what they are, and the role they play in your website.
 
@@ -40,4 +40,4 @@ Atoms
 
 ![Particles](particles_2.png?classes=shadow,border)
 
-Atoms are particles that do not render on the frontend in any visible fashion. They make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can visually arrange their order in the Layout Manager to determine the order in which they load during page rendering.
+Atoms are particles that do not render on the front end in any visible fashion. They make it easy to add scripts such as custom CSS or JS, as well as tracking methods like Google Analytics. You can visually arrange their order in the Particle Defaults to determine the order in which they load during page rendering.
