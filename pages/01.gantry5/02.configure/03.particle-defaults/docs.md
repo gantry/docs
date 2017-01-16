@@ -7,18 +7,18 @@ taxonomy:
 
 The **Particle Defaults** panel gives you the ability to turn particle types **on** or **off** as you please. Doing this will disable the particle for any assigned pages, even if you have it already set in the **Layout Manager**.
 
-Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop for enabling and disabling particles such as the **Logo**, **Date**, and **Google Analytics**. We have a full breakdown of Gantry's included particles [in the next chapter](../../particles).
+Think of this panel as the breaker panel of Gantry. It serves as a one-stop shop for enabling and disabling particles such as the **Logo** and **Date**. We have a full breakdown of Gantry's included particles [in the next chapter](../../particles).
 
 Controls
 -----
 
 ![Controls](controls_1.jpg?classes=shadow,border)
 
-The **Save Particle Defaults** button applies any changes you have made to the **Settings** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned base outline.
+The **Save Particle Defaults** button applies any changes you have made to the **Particle Defaults** administrative panel to its associated outline. These changes apply as the new default for the setting for that outline only, and will only become a global default if you are using the theme's assigned base outline.
 
 ![Controls](controls_2.jpg?classes=shadow,border)
 
-When using an override or user-created **outline**, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Settings** button, your changes will be saved for the associated outline. To revert this change back to its default setting, simply uncheck the check box.
+When using an override or user-created **outline**, you will notice checkboxes next to the different settings fields. When unchecked, these fields may appear grayed out until you either click the setting or the checkbox to indicate you would like to make a change. Once you have made a change and clicked the **Save Particle Defaults** button, your changes will be saved for the associated outline. To revert this change back to its default setting, simply uncheck the checkbox.
 
 ! The **Particle Defaults** panel is being phased out in **user-created outlines** as it is not necessary under the new inheritance system. You will see it in the Base Outline as this will enable you to set global defaults for the particle. However, the panel is hidden by default for any user-defined outlines as the vast majority of users will be defining particles in an individual outline through the layout manager most of the time.
 
@@ -28,14 +28,14 @@ If you want to access the **Particle Defaults** panel for a user-defined outline
 
 ![Controls](controls_3.jpg?classes=shadow,border)
 
-You can also take advantage of the search field to filter particles, positions, and atoms to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually.
+You can also take advantage of the search field to filter particles and positions to make it easier to find the specific item you want to configure. To make things even easier to navigate through, you can use the **Collapse All** and **Expand All** buttons to collapse items down so all you see is its name and whether or not it is activated, or expand them all. Upon selecting the expansion arrow to the left of each item, you can expand or collapse it, individually.
 
 Particle Defaults
 -----
 
 ![Particle Defaults](particlesettings.png?classes=shadow,border)
 
-Particles are visual blocks that render where they have been assigned on the **Layout** administrative panel. This section of the **Settings** administrative panel enables you to set defaults which apply to the currently-selected outline. If you are using the **Base Outline**, these settings become the global default for those particles.
+Particles are visual blocks that render where they have been assigned on the **Layout** administrative panel. This section of the **Particle Defaults** administrative panel enables you to set defaults which apply to the currently-selected outline. If you are using the **Base Outline**, these settings become the global default for those particles.
 
 Position Defaults
 -----
@@ -62,7 +62,7 @@ Positions are particles as well, but they differ in that they are typically anch
 
 ### Spacer
 
-The **Spacer** setting gives you the ability to globally disable (or enable) spacer particles for the outline. Doing this when Spacer particles are in place will cause them not to affect the frontend.
+The **Spacer** setting gives you the ability to globally disable (or enable) spacer particles for the outline. Doing this when Spacer particles are in place will cause them not to affect the front end.
 
 ### Page Content
 
