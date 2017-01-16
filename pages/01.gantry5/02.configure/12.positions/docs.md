@@ -9,7 +9,7 @@ taxonomy:
 
 !!! Currently, the Positions area of the admin is only available in Grav.
 
-The **Positions** administrative panel is designed to create a functional positions manager within Gantry 5. This is especially useful Grav, which doesn't have a built-in modular positions management system.
+The **Positions** administrative panel is designed to create a functional positions manager within Gantry 5. This is especially useful in Grav, which doesn't have a built-in modular positions management system.
 
 This panel enables you to create **positions** which can be assigned to a layout through the **Module Position** particle. You can create a new position, assign and configure particles within it, and give it a unique **key** which is used to link it to a **Module Position** particle in the **Layout Manager**.
 
