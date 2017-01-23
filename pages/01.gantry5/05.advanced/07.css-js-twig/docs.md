@@ -146,3 +146,49 @@ After defining the locations, you can add stuff into them just like the head and
     <script type="text/javascript" src="{{ url('gantry-theme://js/script.js') }}"></script>
 {% endscripts -%}
 ```
+
+## Add HTML into Body in Gantry 5.4.6+
+
+Sometimes there is a need to add some HTML right after `<body>` or just before `</body>` tag.
+
+You can add HTML from `Page Settings`, but sometimes you may want to do it from a particle or an atom.
+
+Add HTML after `<body>` tag:
+
+``` twig
+{% pageblock body_top %}
+    -BODY TOP-
+{% endpageblock %}
+```
+
+Add HTML after `<div id="g-page-surround">`, but before main layout:
+
+``` twig
+{% pageblock top %}
+    -PAGE TOP-
+{% endpageblock %}
+```
+
+Add HTML after main layout, but before end of `<div id="g-page-surround">`:
+
+``` twig
+{% pageblock bottom %}
+    -PAGE BOTTOM-
+{% endpageblock %}
+```
+
+Add HTML before `</body>` tag:
+
+``` twig
+{% pageblock body_bottom %}
+    -BODY BOTTOM-
+{% endpageblock %}
+```
+
+Additionally you can provide priority (10 ... -10):
+
+```twig
+{% pageblock bottom with { priority: -10 } %}
+   This should be shown after everything else.
+{% endpageblock %}
+```
