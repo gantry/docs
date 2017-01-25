@@ -46,7 +46,7 @@ The first thing you will need to do is ensure that the Gantry Framework is insta
 
 ![Sidebar](grav_sidebar.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → Gantry** in the sidebar. This should take you to the **Available Themes** section of the Gantry Admin. Here, you can choose the theme you wish to configure by selecting the **Configure** button.
+Once this is done, navigate to **Administrator → Appearance** in the sidebar. Click on the Gantry logo. This should take you to the **Available Themes** section of the Gantry Admin. Here, you can choose the theme you wish to configure by selecting the **Configure** button.
 
 [/ui-tab]
 [/ui-tabs]
@@ -72,7 +72,7 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**.
 
-**Standard outlines** can be created by the user, based on one of several available **Layout Presets**, and assigned to various page types to give them a unique layout and/or set of settings. Your **Default** outline acts as the **Master** outline did in Gantry 4, with all other outlines being overrides which enable you to change settings to meet the needs of a specific page.
+**Standard outlines** can be created by the user, based on one of several available **Layout Presets**, and assigned to various page types to give them a unique layout and/or set of settings. Your **Base** outline acts as the **Master** outline did in Gantry 4, with all other outlines being overrides which enable you to change settings to meet the needs of a specific page.
 
 **System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
 
@@ -164,7 +164,7 @@ The **Assignments** panel is your one-stop-shop for assigning Outlines to specif
 
 #### Content (WordPress)
 
-[ui-tabs position="top-left" active="0"]
+[ui-tabs position="top-left" active="1"]
 [ui-tab title="Joomla"]
 
 The **Content** administrative panel is not available on Joomla as Joomla handles these settings in its own integrated system.

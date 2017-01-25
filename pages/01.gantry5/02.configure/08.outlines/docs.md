@@ -31,7 +31,7 @@ However, if you prefer, you can access your list of current outlines from the **
 
 The dark blue copy (<i class="fa fa-fw fa-copy"></i>) button at the bottom of different outlines in this panel enables you to instantly duplicate the outline. This is an excellent tool if you have an outline you'd like to change, but don't want those changes to affect other pages already assigned to that outline.
 
-So, if you would like to assign a page to an outline that has many of the base properties of the **Default** outline, for example, and you just want to adjust one or two minor things, you can do so by duplicating it, making those changes, and assigning the desired pages to the new outline.
+So, if you would like to assign a page to an outline that has many of the base properties of the **Base** outline, for example, and you just want to adjust one or two minor things, you can do so by duplicating it, making those changes, and assigning the desired pages to the new outline.
 
 ## Deleting an Outline
 
@@ -43,11 +43,9 @@ Have an outline you don't need and want to get rid of? The red **Delete** (<i cl
 
 If you want to give your outline a name for easier organization and association, you can do so very easily by clicking on the small gray pencil (<i class="fa fa-fw fa-pencil"></i>) icon located directly to the right of the outline's name in this page. 
 
-For example, when you duplicate an outline, let's say `Hydrogen - Default`, the duplicate will be given a name like `Hydrogen - Default (2)`. If you wanted to name it `Hydrogen - Contact Page` so you know it's associated with your contact page, you would do this here.
-
 ![Outlines](outline_6.png?classes=shadow,border)
 
-You can also do this from the outline-specific toolbar by selecting the grey pencil (<i class="fa fa-fw fa-pencil"></i>) icon there, as well.
+You can also do this from the outline-specific toolbar by selecting the gray pencil (<i class="fa fa-fw fa-pencil"></i>) icon there, as well.
 
 ## Creating a New Outline
 

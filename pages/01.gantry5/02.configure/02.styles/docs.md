@@ -19,9 +19,9 @@ As you configure the commands in this panel, you may notice the **Recompile CSS*
 
 The **Save Styles** button saves your new style settings to the outline and recompiles the CSS so that your changes appear on the frontend. If you select this button, you do not have to click **Recompile CSS** as this action is automatically performed.
 
-### Develop and Production Modes
+### Development and Production Modes
 
-There is also a process running in Gantry 5 that enables you to activate **Develop** and **Production** modes. These modes enable and disable automatic recompilation of SCSS files. We have detailed this feature in the [Extras section of this documentation](../extras).
+There is also a process running in Gantry 5 that enables you to activate **Development** and **Production** modes. These modes enable and disable automatic recompilation of SCSS files. We have detailed this feature in the [Extras section of this documentation](../extras).
 
 ## Select a Preset
 

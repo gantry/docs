@@ -23,7 +23,7 @@ The first thing you will want to do is select the menu you wish to edit. This ca
 
 When you have done this, simply select it in this dropdown and its contents will load, ready for you to work with.
 
-! If you would like to **change which menu loads** in a **Menu Particle** on the frontend, you will need to set this in the menu **Particle's settings**. Switching between menus here only enables you to access the menu's settings, and does not assign the menu to any particular Particle.
+! If you would like to **change which menu loads** in a **Menu Particle** on the front end, you will need to set this in the menu **Particle's settings**. Switching between menus here only enables you to access the menu's settings, and does not assign the menu to any particular Particle.
 
 ## Menu Settings
 
@@ -51,7 +51,7 @@ Here is a breakdown of these settings and what they can do.
 | Link Target       | Sets the target window behavior for the link. You can set it to either open the link in a new window, or the current one.         |
 | Dropdown Style    | Sets the style of dropdown for sub-menu items that appear under this particular menu item.                                        |
 | Icon              | Powered by FontAwesome, this feature gives you the ability to add a vector icon to your menu item as it is displayed in the menu. |
-| Subtext           | Enables you to enter a subtitle, displayed below the menu item's title.                                                           |
+| Subtitle          | Enables you to enter a subtitle, displayed below the menu item's title.                                                           |
 
 Once you have set the settings as you prefer, simply select **Apply** to save the changes and close the pop-up.
 
@@ -141,7 +141,7 @@ The popup that appears enables you to both search for and select a particle to u
 
 ![Particle Injection](menu_particle_4.png?classes=shadow,border)
 
-From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the outline's **Settings** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
+From here, you are taken to the same particle settings popup you see in the **Layout Manager** as well as in the outline's **Particle Defaults** administrative panel. In this example, we are adding a **Date** Particle which displays the current date.
 
 ![Particle Injection](menu_particle_2.png?classes=shadow,border)
 

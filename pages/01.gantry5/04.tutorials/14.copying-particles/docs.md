@@ -63,6 +63,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** theme in the base outline on the **page settings** tab.
 
+
     ![](copy-particle_1.png)
 
 7. The particle that you are copying may also have a dependency on a JS library (e.g. JQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **page settings** tab of the base outline by dragging the **Javascript Frameworks** Atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.

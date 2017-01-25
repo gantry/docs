@@ -28,7 +28,7 @@ The **Extras** dropdown gives you quick access to a few options that are handy t
 
 ## Development and Production Modes
 
-There is a process running in Gantry 5 that enables you to activate **Develop** and **Production** modes. The **Development** toggle switch in the **Extras** areas of the Gantry administrator enables you to toggle between these modes as needed.
+There is a process running in Gantry 5 that enables you to activate **Development** and **Production** modes. The **Development** toggle switch in the **Extras** areas of the Gantry administrator enables you to toggle between these modes as needed.
 
 When in **Development**, any change made to the `custom.scss` file will be detected by Gantry, triggering an automatic recompilation of the file. This makes it easy to make changes on the fly and have them appear on your site without any extra action required on your part.
 
