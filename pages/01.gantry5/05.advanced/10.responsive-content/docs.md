@@ -11,10 +11,10 @@ The way this is done in Gantry 5 is a lot easier than it was in Gantry 4. Gantry
 
 For your content you will only need to know about 3 types of classes that come with `Nucleus`:
 
-#### `g-row`
-This is the container of your content surroundings and side-by-side columns. A row (or grid), will always occupy entirely the space it's been added to. Think of it as a 100% wide `div`.
+#### `g-grid`
+This is the container of your content surroundings and side-by-side columns. A grid (or row), will always occupy entirely the space it's been added to. Think of it as a 100% wide `div`.
 
-A `g-row` can contain only `g-block` elements in it, nothing else. This is important in order to have the flex-grid working responsively.
+A `g-grid` can contain only `g-block` elements in it, nothing else. This is important in order to have the flex-grid working responsively.
 
 #### `g-block` and `size-%`
 This is the container of your actual content. A `g-block`, by default, is `100%` wide and in it you can put any desired content, whether it's an image, a paragraph or even another `g-grid > g-block` layout.
