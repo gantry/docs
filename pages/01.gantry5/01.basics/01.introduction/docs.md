@@ -46,7 +46,7 @@ A good framework will give you as close to complete control over your site's vis
 
 The theme or template is what the look and feel of your site is based on. In the house example, it is the trim, paint, door knobs, light fixtures, and pretty much every little detail that gives the house its unique look and feel.
 
-For websites using a Gantry-powered theme, the theme take advantage of the foundation created by the framework. This enables you to configure several different gantry-powered themes with the same, consistent
+For websites using a Gantry-powered theme, the theme take advantage of the foundation created by the framework. This enables you to configure several different gantry-powered themes with the same, consistent user experience across themes and platforms.
 
 [/ui-tab]
 [/ui-tabs]
