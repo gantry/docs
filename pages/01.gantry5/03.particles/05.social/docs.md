@@ -7,7 +7,7 @@ taxonomy:
 
 ![Social](social.png?classes=shadow,border)
 
-The **Social** particle makes it easy to create and place a component on the frontend that add social elements to your pages. This particle can each be placed anywhere on the page to enable visitors to simply find and subscribe to your site's associated social media pages.
+The **Social** particle makes it easy to create and place a component on the front end that add social elements to your pages. This particle can each be placed anywhere on the page to enable visitors to simply find and subscribe to your site's associated social media pages.
 
 Settings
 -----
@@ -22,9 +22,9 @@ Gantry has built-in support for FontAwesome, which gives you access to a wide va
 | :-----       | :-----                                                                                                              |
 | Class        | Sets the CSS class for the particle.                                                                                |
 | Target       | Sets how selected links will open. For example, they can open in the current browser window, or a new one.          |
-| Social Items | Lists the individual social items you can further customize by selecting their individual settings icon (cogwheel). |
+| Social Items | Lists the individual social items you can further customize by selecting their individual settings icon.            |
 
-If you select the cogwheel next to the individual social items, a pop-up will appear that gives you additional fields to further customize each individual social item.
+If you select the individual social items, a pop-up will appear that gives you additional fields to further customize each individual social item.
 
 ![Settings](social_settings_2.png?classes=shadow,border)
 

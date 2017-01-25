@@ -13,7 +13,7 @@ Settings
 -----
 
 [ui-tabs position="top-left" active="0"]
-[ui-tab title="WordPress"]
+[ui-tab title="Joomla"]
 
 ![Module Instance](module_instance_2.png?classes=shadow,border)
 
@@ -40,7 +40,7 @@ Using the **Pick a Module** modal is very easy. You are presented a list of modu
 
 ![Widget](widget_2.png?classes=shadow,border)
 
-Using the **Pick a Widget** modal is very easy. You are presented a list of modules that are currently present in your WordPress site which you can select from. Widgets do not have to be assigned anywhere else. The **Widget** particle acts as a virtual position that injects the widget directly, regardless of where the widget is actually assigned. The widget should render on the front end just as it would if you were assigning it to a standard widget position.
+Using the **Pick a Widget** modal is very easy. You are presented a list of widgets that are currently present in your WordPress site which you can select from. Widgets do not have to be assigned anywhere else. The **Widget** particle acts as a virtual position that injects the widget directly, regardless of where the widget is actually assigned. The widget should render on the front end just as it would if you were assigning it to a standard widget position.
 
 [/ui-tab]
 [/ui-tabs]

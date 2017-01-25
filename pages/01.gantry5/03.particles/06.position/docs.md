@@ -15,7 +15,7 @@ In addition, you can easily create vastly different positions setups between out
 
 ![Positions](positions_6.png?classes=shadow,border)
 
-If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** (Joomla) or **Widget Position** (WordPress) particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
+If you want to add a new widget/module position to a page, you simply need to drag-and-drop the **Module Position** (Joomla and Grav) or **Widget Position** (WordPress) particle and move it where you would like the new position to appear. At this point, you need but to rename the position Key which is the text reference you would assign modules/widgets to in order to have them appear in the position.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
@@ -53,9 +53,9 @@ Particles placed in these positions can be altered in one place. Any changes wil
 [/ui-tab]
 [/ui-tabs]
 
-Deleting a position is just as easy as creating one. Just drag-and-drop the position to the top of the **Layout Manager** to a section that appears with the label **Drop Here** to **Delete**. This will delete the position. If you change your mind, just click the **Back** arrow in the **History** tool to bring it back.
+Deleting a position is just as easy as creating one. Just drag-and-drop the position to the top of the **Layout Manager** to a section that appears with the label **Drop here to delete**. This will delete the position. If you change your mind, just click the **Back** arrow in the **History** tool to bring it back.
 
-If you want to disable a position temporarily (which hides its assigned modules/widgets), you can do so by clicking the settings cogwheel on the right-hand side of the position in Layout Manager and toggling the red/green activation switch in the upper-right area of the Particle settings tab. The position will still show in the frontend but it won't be rendered, so if you would like to re-enable it later on, you can do so.
+If you want to disable a position temporarily (which hides its assigned modules/widgets), you can do so by clicking the settings cogwheel on the right-hand side of the position in Layout Manager and toggling the red/green activation switch in the upper-right area of the Particle settings tab. The position will still show in the front end but it won't be rendered, so if you would like to re-enable it later on, you can do so.
 
 Moving positions around the layout is also just a matter of dragging and dropping them where you want them to go. If you want your main Showcase modules/widgets to appear under the features modules/widgets, you can move them without having to edit a single file.
 
@@ -102,7 +102,7 @@ This frees you from standardized naming conventions that can be needlessly compl
 
 ![Positions](grav_name1.png?classes=shadow,border)
 
-As we mentioned earlier, you can name and rename positions on the fly. This is a great, fast way to assign positions created in the **Positions** area of the admin and bring them in to your layout.
+As we mentioned earlier, you can name and rename positions on the fly. This is a great, fast way to assign positions created in the **Positions** area of the admin and bring them into your layout.
 
 You can also freely name them as you need, giving them specific tags that are easy to remember and reference what is and is not assigned there.
 
