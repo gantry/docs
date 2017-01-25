@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for WordPress and Joomla.
+Gantry 5 is the latest generation of a powerful, flexible open source theming framework currently available for Joomla, WordPress, and Grav.
 
 One of the primary goals behind Gantry 5's development has been to make it easier for non-developers to get a lot more done without ever having to open a single code editor or directly alter any files.
 
@@ -57,7 +57,7 @@ For websites using a Gantry-powered theme, the theme take advantage of the found
 
 The back end of Gantry is packed with features to help you configure and customize virtually every aspect of your website. While there are some minor differences in the panel(s) that appear in the administrator from CMS to CMS, the experience is consistent no matter which CMS you are using.
 
-There are several ways to access the Gantry 5 administrator, depending on which CMS you are using. We have a [full guide here](../configure/gantry-admin) to help you find the way that's best for you.
+There are several ways to access the Gantry 5 administrator, depending on which CMS you are using. We have a [full guide here](../../configure/gantry-admin) to help you find the way that's best for you.
 
 Here are some of the administrative panels you will find:
 
@@ -201,7 +201,7 @@ The particles system in Gantry 5 gives its themes an extraordinary flexibility. 
 
 If you have any problems at all with Gantry, please feel free to let us know by submitting an issue on the [GitHub project](http://github.org/gantry/gantry5), or by reaching out via the [Gitter](http://gitter.im/gantry/gantry5) chat.
 
-If you would like to check out the latest Gantry builds to get a glimpse at the latest developments in the Gantry project, we invite you to check out our CI Builds available for Joomla and WordPress. Additionally, we have CI builds available for download of the free Hydrogen theme.
+If you would like to check out the latest Gantry builds to get a glimpse at the latest developments in the Gantry project, we invite you to check out our CI Builds available for Joomla, WordPress, and Grav. Additionally, we have CI builds available for download of the free Hydrogen theme.
 
 A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
 
