@@ -18,15 +18,15 @@ The first thing you will need to do is ensure that the Gantry Framework and a Ga
 
 ![Control Panel Method](../../basics/installation/gantry_default.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → Extensions → Template Manager** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
+Once this is done, navigate to **Administrator → Extensions → Templates** and select the Gantry-powered template you wish to configure. This should take you to the **Overview** section of the Gantry Admin for that template.
 
 ![Control Panel Method](gantry_update_1.png?classes=shadow,border)
 
-Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Templates** in the sidebar to the left under the **Extensions** section.
+Alternatively, you can access the Gantry 5 administrator by navigating to the **Control Panel** in the backend of Joomla and selecting **Gantry 5 Themes** in the sidebar to the left under the **Extensions** section.
 
 ![Components Method](admin_access_1.png?classes=shadow,border)
 
-There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Templates** in the administration menu in the backend of Joomla.
+There is a third method, which is easily accomplished by navigating to **Components → Gantry 5 Themes** in the administration menu in the backend of Joomla.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
@@ -46,7 +46,7 @@ The first thing you will need to do is ensure that the Gantry Framework is insta
 
 ![Sidebar](grav_sidebar.png?classes=shadow,border)
 
-Once this is done, navigate to **Administrator → Appearance** in the sidebar. Click on the Gantry logo. This should take you to the **Available Themes** section of the Gantry Admin. Here, you can choose the theme you wish to configure by selecting the **Configure** button.
+Once this is done, navigate to **Administrator → Gantry 5** in the sidebar. Click on the Gantry logo. This should take you to the **Available Themes** section of the Gantry Admin. Here, you can choose the theme you wish to configure by selecting the **Configure** button.
 
 [/ui-tab]
 [/ui-tabs]
@@ -80,7 +80,7 @@ You can switch to an individual Outline in two ways. This panel will enable you 
 
 ![Outlines](outlines2.jpg?classes=shadow,border)
 
-Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Settings, Layouts, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
+Outlines can be renamed very easily, and in several different places. You can do so from the **Outlines** administrative panel, as well as from any outline-specific panel (Styles, Page Settings, Layout, and Assignments) by selecting the little pencil <span class="fa fa-pencil"></span> icon next to the Outline Selection dropdown.
 
 <div align="center"><a href="../configure/outlines" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Outlines Admin Panel</a></div>
 
