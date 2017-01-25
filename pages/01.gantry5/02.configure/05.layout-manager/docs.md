@@ -39,19 +39,19 @@ As covered in the above section, the **Load** button gives you the opportunity t
 
 ## Clear
 
-The **Clear** button wipes out the Particles (including Positions, Standard Particles, and Atoms) from the **Layout Manager** and gives you a blank slate with just the [Sections](#sections) remaining.
+The **Clear** button wipes out the Particles (including Positions and Standard Particles) from the **Layout Manager** and gives you a blank slate with just the [Sections](#sections) remaining.
 
-!!! Clear does not clear inheritance. If you have any inherited sections, they will remain after clearing the layout. You can remove them manually be removing inheritance.
+!!! Clear does not clear inheritance. If you have any inherited sections, they will remain after clearing the layout. You can remove them manually by removing inheritance.
 
 ### Save Layout
 
-The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active outline. This is the button you would click before switching tabs to the frontend and refreshing the page to check your changes.
+The **Save Layout** button is a quick and easy way to save the current layout, its Particles, and settings to the active outline. This is the button you would click before switching tabs to the front end and refreshing the page to check your changes.
 
 ### History
 
 The **History** buttons give you the ability to go back and forth between changes you have made in your Layout. This history is persistent through the current session, and makes it easy to go backwards and forwards, saving once you have reached a point you are happy with.
 
-You can even go back after hitting **Save Layout**, should one of your changes not come out the way you expected after checking the frontend.
+You can even go back after hitting **Save Layout**, should one of your changes not come out the way you expected after checking the front end.
 
 Particles
 ------
@@ -74,24 +74,24 @@ Particles
 [/ui-tab]
 [/ui-tabs]
 
-The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find draggable **Positions**, **Particles**, and **Atoms**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
+The **Particles** section (which appears along the left-hand side of the **Layout Manager**) is where you will find draggable **Positions** and **Particles**. You can perform a quick search in the **Filter** field to narrow down the list to find just the option you are looking for.
 
 Once you have decided on an item you would like to apply to the layout, simply **drag and drop** it to the desired place on the Layout.
 
-These items will apply based on their default settings as set in the **Settings** administrative panel for the active outline. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
+These items will apply based on their default settings as set in the **Particle Defaults** administrative panel for the active outline. You can override these settings and apply a unique, specific set of settings on each individual particle from the main Layout area of this panel.
 
 You can find out all about particle inheritance in our [Inheritance Guide](../inheritance#particle-inheritance).
 
 Layout
 -----
 
-The layout consists of several different sections, each with its own set of settings that enable you to customize the behavior and look of your site on the frontend.
+The layout consists of several different sections, each with its own set of settings that enable you to customize the behavior and look of your site on the front end.
 
 ### Sections
 
 ![Sections](section.png?classes=shadow,border)
 
-For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles**, **Positions**, and **Atoms**.
+For the Layout, the most basic parts of the page are **Sections**. These named divisions of the page give you the ability to create sections of content, each with one or more horizontal grids on which you can place **Blocks**, including **Particles** and **Positions**.
 
 You can add **Grids** by selecting the **plus (+)** icon in the upper-right corner of a **Section**. This will create a new row at the bottom of the Section which you can click and drag to move it as needed.
 
@@ -113,7 +113,7 @@ The **Section** settings give you the ability to change the way a particular sec
 
 ![Grids](grid.png?classes=shadow,border)
 
-Grids are the horizontal rows in which Blocks live. In a Grid, you can place **positions** and **particles**, but not **atoms**. The atoms can be only added to the specific **Atoms Section** at the bottom of the Layout.
+Grids are the horizontal rows in which Blocks live. In a Grid, you can place **positions** and **particles**.
 
 #### Settings
 
@@ -129,13 +129,11 @@ Blocks are the Lego bricks of the Layout Manager. These are your individual piec
 
 Resizing Blocks in a Grid is a simple process. Simply move your mouse cursor (or tap your finger in a touchscreen) on the dividing line between blocks and drag it left or right, depending on how you want it to go.
 
-The only type of Particle that can't be resized is the **Atom** which is a non-visible piece of script, such as Google Analytics or custom CSS / JS which affects the entire page.
-
 #### Settings
 
 ![Settings](block_settings_1.png?classes=shadow,border)
 
-Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the left-hand side of the Particle. These settings override the default ones set in the **Settings** admin panel, and become unique to the single block.
+Each block has its own settings, which can be accessed by selecting the cog-wheel icon on the right-hand side of the Particle. These settings override the default ones set in the **Particle Defaults** admin panel, and become unique to the single block.
 
 These are **Particle** level settings, which exist in every type of Block. They enable you to rename the Particle as it appears on the Layout Manager, as well as to configure Particle-specific settings sourced from the Particle's **YAML** file.
 
@@ -166,7 +164,7 @@ The Sections next to the sidebar are all within a single Block, as is the Sideba
 
 ![Sidebar Grid](sidebar_grid.png)
 
-There is also a container that wraps around the whole section, including the big grid. This container allows you to hook in to it as you would any other single section, and has a set of settings.
+There is also a container that wraps around the whole section, including the big grid. This container allows you to hook into it as you would any other single section, and has a set of settings.
 
 ![Sidebar Grid](sidebar_grid2.png)
 

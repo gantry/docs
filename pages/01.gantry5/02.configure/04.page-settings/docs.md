@@ -15,7 +15,7 @@ Thanks to the Gantry's core concept and implementation of overrides, Page Settin
 
 ![Controls](controls.png?classes=shadow,border)
 
-!!! Just as in the [Settings Panel](../settings#controls), overrides, filtering and collapsing work the same way.
+!!! Just as in the [Particle Defaults Panel](../particle-defaults#controls), overrides, filtering and collapsing work the same way.
 
 ## Head Properties
 
@@ -98,7 +98,7 @@ To change the behavior of individual Sections, head to the Layout Manager panel 
 
 Sometimes you need to inject styles, scripts or elements to the page and they need to be inserted either at the beginning or the end of `<body>`.
 
-A great example was [Facebook's SDK for JavaScript](https://developers.facebook.com/docs/javascript/quickstart/v1.0) at its version 1.0. Back then, Facebook required the site to provide a `<div id="fb-root"></div>` right after the `<body>` tag opened. As you can see from the screen shot example above, that would have been the perfect place for it.
+A great example was [Facebook's SDK for JavaScript](https://developers.facebook.com/docs/javascript/quickstart/v1.0) at its version 1.0. Back then, Facebook required the site to provide a `<div id="fb-root"></div>` right after the `<body>` tag opened. As you can see from the screenshot example above, that would have been the perfect place for it.
 
 You will often see scripts requiring that you do render elements up front in the page and instead of creating new Modules, Particles or Widgets, you can simply add your element in here. Popups are also a good example. The content of the modal is rendered in the page but invisible, until an element triggers the popup to open.
 
@@ -138,17 +138,17 @@ For all intents and purposes, Atoms such as **Google Analytics**, and **Custom C
 
 ! When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
 
-## Google Analytics
+### Google Analytics
 
 ![Google Analytics](atoms-analytics_settings.png?classes=shadow,border)
 
 The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
 
-## Custom CSS / JS
+### Custom CSS / JS
 
 ![Custom CSS / JS](atoms-custom_settings.png?classes=shadow,border)
 
-## JavaScript Frameworks
+### JavaScript Frameworks
 
 The **JavaScript Frameworks** Atom gives you the ability to easily add popular JS libraries to your page.
 
