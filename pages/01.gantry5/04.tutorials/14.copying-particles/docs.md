@@ -61,7 +61,7 @@ These are the steps to do the copy from the **donor** template to the **recipien
 
     !!! You do **not** preface the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** template in the base outline on the **page settings** tab.
+6. If the particle does use a separate JS file then you may need to load that JS file if the TWIG file for particle does not load the JS itself. You do this in your **recipient** template in the base outline on the **page settings** tab.
 
     ![](copy-particle_1.png)
 
