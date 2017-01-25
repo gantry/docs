@@ -83,7 +83,7 @@ Anything you do to the duplicate particle files in your `THEME_DIR/custom/partic
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/user/plugins/gantry5/engines/nucleus/particles/` and paste the copies to `ROOT/user/data/gantry5/themes/THEME_NAME/particles/`. If the `particles` directory does not already exist via this path, you will have to create it.
+The first thing you will need to do is copy the `copyright.html.twig` and `copyright.yaml` files located in `ROOT/user/plugins/gantry5/engines/nucleus/particles/` and paste the copies to `ROOT/user/data/gantry5/themes/THEME_NAME/particles/`. If the `particles` directory does not already exist in this path, you will have to create it.
 
 ! The particle you're looking for might be located in a different place. For example, a template-specific particle that came with the template and is not core to Gantry can be found in `/user/themes/THEME_NAME/particles/`.
 
