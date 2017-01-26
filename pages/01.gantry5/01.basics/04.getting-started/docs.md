@@ -30,7 +30,7 @@ Once you have the latest packages, installation is simple. We have provided a st
 
 ![Administrator](../../configure/gantry-admin/admin_access_1.png?classes=shadow,border)
 
-When you have installed and activated both the Gantry framework and your Gantry-powered theme, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components → Gantry 5 Templates** from the back end of Joomla.
+When you have installed and activated both the Gantry framework and your Gantry-powered theme, you can access the Gantry 5 administrator in several different ways. The easiest being simply navigating to **Components → Gantry 5 Themes** from the back end of Joomla.
 
 Here, you will see a list of any installed Gantry-powered themes. You can **Preview** the theme from here or select **Configure** to go directly to the **Gantry Administrator** where you can get started modifying your Gantry-powered site.
 
@@ -46,7 +46,7 @@ Accessing the Gantry 5 administrator is pretty easy. Once you have both Gantry a
 
 <video controls="1" alt="Administrator" class="shadow border" style="max-width: 100%;"><source src="/gantry-docs/user/pages/01.gantry5/01.basics/04.getting-started/Gantry_Grav_Accessing_the_Administrator.mp4">Your browser does not support the video tag.</video>
 
-Accessing the Gantry 5 administrator in Grav is easy. Simply log in to the Grav Admin and select **Gantry** in the sidebar. Once here, you can choose the Gantry 5 theme you wish to configure by clicking the **Configure** button.
+Accessing the Gantry 5 administrator in Grav is easy. Simply log in to the Grav Admin and select **Gantry 5** in the sidebar. Once here, you can choose the Gantry 5 theme you wish to configure by clicking the **Configure** button.
 
 [/ui-tab]
 [/ui-tabs]
@@ -57,7 +57,7 @@ The Gantry Administrator has multiple administrative tools you can flip through 
 
 [ui-callout]
 [ui-callout-item title="Outlines" position="8%, 68%, se"]
-This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
+This administrative panel displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
 [/ui-callout-item]
 [ui-callout-item title="Menu Editor" position="8%, 76%, se"]
 This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
@@ -86,7 +86,7 @@ The **Assignments** administrative panel only appears on child outlines which ca
 ![](getting_started_1.png?classes=shadow,border)
 [/ui-callout]
 
-1. **Outlines**: This administrative panel lists displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
+1. **Outlines**: This administrative panel displays the current theme's outlines, giving you quick access to edit, rename, duplicate, and delete them.
 
 2. **Menu Editor**: This administrative panel gives you the ability to enhance the platform's menu by altering styling, rearranging links, and creating menu items that sit outside of the CMS's integrated Menu Manager.
 
@@ -98,11 +98,11 @@ The **Assignments** administrative panel only appears on child outlines which ca
 
 6. **Styles (Pictured)**: The **Styles** administrative panel gives you access to style-related settings for the outline. This includes things like theme colors, fonts, style presets, and more.
 
-7. **Settings**: The **Settings** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
+7. **Particle Defaults**: The **Particle Defaults** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
 
-8. **Layout**: The **Layout** administrative panel is where you would configure the layout for your theme. Creating an placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
+8. **Layout**: The **Layout** administrative panel is where you would configure the layout for your theme. Creating and placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
 
-9. **Assignments** : The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
+9. **Assignments**: The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
 
 <a href="../configure/gantry-admin" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
 

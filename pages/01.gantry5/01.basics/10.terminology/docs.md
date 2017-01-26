@@ -21,14 +21,14 @@ The **Base Outline** acts as the global default by which all other unassigned Ou
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-An **Outline** creates a set of standard settings for the layout, particle(s), widget position(s), any scripting, and style of an area of your site. Outlines can be assigned to a specific page or several pages depending on your needs. This enables you to apple different styles and layout configurations to different pages (or types of pages) with ease.
+An **Outline** creates a set of standard settings for the layout, particle(s), widget position(s), any scripting, and style of an area of your site. Outlines can be assigned to a specific page or several pages depending on your needs. This enables you to apply different styles and layout configurations to different pages (or types of pages) with ease.
 
 The **Base Outline** acts as the global default by which all other Outlines are based. Any setting not specified in another outline is deferred to this outline.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-An **Outline** creates a set of standard settings for the layout, particle placement, any scripting, and style of an area of your site. Outlines can be assigned to a specific page, type of page, or several pages depending on your needs. This enables you to apple different styles and layout configurations to different pages (or types of pages) with ease.
+An **Outline** creates a set of standard settings for the layout, particle placement, any scripting, and style of an area of your site. Outlines can be assigned to a specific page, type of page, or several pages depending on your needs. This enables you to apply different styles and layout configurations to different pages (or types of pages) with ease.
 
 The **Base Outline** acts as the global default by which all other Outlines are based. Any setting not specified in another outline is deferred to this outline.
 
@@ -49,7 +49,7 @@ A **Particle** is a piece of pre-written code which can be configured in the Gan
 
 ### Atom
 
-An **Atom** is a type of **Particle** that does not render visually on the frontend. These allow you to add scripted pieces to your page in a modular fashion, such as adding custom JavaScript you want to have run at the end of the page load, or a Google Analytics script for traffic tracking.
+An **Atom** is a type of **Particle** that does not render visually on the front end. These allow you to add scripted pieces to your page in a modular fashion, such as adding custom JavaScript you want to have run at the end of the page load, or a Google Analytics script for traffic tracking.
 
 An **Atom** can be placed in your outline(s) using a special **Atoms** section in the **Page Settings** tab and can be created in very much the same way as any standard particle.
 
