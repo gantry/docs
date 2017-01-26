@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-Gantry 5 has support for [Font Awesome’s](http://fortawesome.github.io/Font-Awesome/) growing icon library built right in to its core. This means that anyone using a Gantry-powered template will have the ability to use any of these incredible vector icons anywhere on your page.
+Gantry 5 has support for [Font Awesome’s](http://fortawesome.github.io/Font-Awesome/) growing icon library built right into its core. This means that anyone using a Gantry-powered template will have the ability to use any of these incredible vector icons anywhere on your page.
 
 ![Icon Picker](icon_picker_2.png?classes=shadow,border)
 

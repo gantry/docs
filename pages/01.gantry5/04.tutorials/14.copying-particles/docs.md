@@ -7,9 +7,9 @@ taxonomy:
 
 ## Introduction
 
-Gantry 5 themes are provided with different particles. Not every particle is included in every Gantry 5 theme, sometimes you might want to include a particle from another theme into the theme that you are using. This tutorial shows you the safe way to copy particles between themes that won't be overwritten again by theme updates.
+Gantry 5 themes are provided with different particles. Not every particle is included in every Gantry 5 theme. Sometimes you might want to include a particle from another theme into the theme that you are using. This tutorial shows you the safe way to copy particles between themes that won't be overwritten again by theme updates.
 
-For the purpose of this tutorial the theme you are copying from is the **donor** theme and the theme you are copying to the **recipient** theme.
+For the purpose of this tutorial, the theme you are copying from is the **donor** theme and the theme you are copying to is the **recipient** theme.
 
 !!! CAVEATS: 
 !!! * If you copy a particle from one theme to another, and a bug is subsequently found in that particle, it would only be fixed in the **donor** theme (via a theme update release). It's therefore your responsibility to watch for **donor** theme updates and see if the particle was changed, meaning that you would then need to update the particle in your **recipient** theme also.
@@ -23,7 +23,7 @@ A particle is made up of these things:
 * A YAML (plain text) file that tells Gantry 5 what fields the particle uses
 * A TWIG (plain text) file that uses those fields to render output on your page
 * A SCSS (plain text) file that contains the SASS/CSS to style the rendered particle on your page
-* Optionally, one or more JS (plain text) files that contain JavaScript/JQuery code to make the particle work.
+* Optionally, one or more JS (plain text) files that contain JavaScript/jQuery code to make the particle work.
 
 All theme specific particles reside in: `THEMENAME/particles`
 All theme specific particle SCSS files reside in: `THEMENAME/scss/THEMENAME/particles`
@@ -59,17 +59,17 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
         @import "PARTICLENAME";
     ```
 
-    !!! You do **not** preface the *PARTICLENAME* with an underscore.
+    !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** theme in the base outline on the **page settings** tab.
+6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
 
 
     ![](copy-particle_1.png)
 
-7. The particle that you are copying may also have a dependency on a JS library (e.g. JQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **page settings** tab of the base outline by dragging the **Javascript Frameworks** Atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
+7. The particle that you are copying may also have a dependency on a JS library (e.g. jQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **Page Settings** tab of the base outline by dragging the **JavaScript Frameworks** atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
 
     ![](copy-particle_2.png)
 
-8. Go to the base outline **styles** tab and click on **Recompile CSS**
+8. Go to the base outline **Styles** tab and click on **Recompile CSS**.
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
