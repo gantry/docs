@@ -88,7 +88,7 @@ There are two main types of inputs supported by Gantry. The first are basic HTML
     title:
       type: input.text
       label: Your label.
-      description: Your description
+      description: Your description.
 ```
 
 * input.time           
@@ -113,15 +113,15 @@ The second are Gantry-specific types that utilize Gantry's exclusive features su
 | select.selectize       | Displays a pre-created set of options for the user to choose from.                                                                                  |
 | select.date            | Displays a pre-created set of date formats for the users to choose from.                                                                            |
 
-Wordpress-specific Input Field Types
+WordPress-specific Input Field Types
 -----
 
-There are also Wordpress-specific types.
+There are also WordPress-specific types.
 
 | Field Type             | Description                                                                                                                                         |
 | :-----                 | :-----                                                                                                                                              |
-| wordpress.posts | Enables a field select Wordpress posts. In setting up the field you can specify post type (defaults to 'page') and status (defaults to 'publish').|
-| wordpress.categories | Enables a field to select Wordpress categories (as used in the Wordpress Posts particle). |
+| wordpress.posts | Enables a field to select WordPress posts. In setting up the field you can specify post type (defaults to `page`) and status (defaults to `publish`).|
+| wordpress.categories | Enables a field to select WordPress categories (as used in the WordPress Posts particle). |
 
 
 Selectize Fields
@@ -184,7 +184,7 @@ Next to the standard HTML and Gantry inputs there are also a lot of other inputs
 * seperator.note
 
 ```yaml
-   titel:
+   title:
       type: separator.note
       class: alert alert-info
       content: '<h1>Your HTML GOES HERE</h1><p>Write what you want!</p>'
@@ -254,18 +254,18 @@ form:
 
 You'll notice here the use of `container.tabs` to establish the container that wraps three tabs. Within these tabs, you can place any fields you would normally place in your particle's admin. Any fields you wish to have consistently remain available regardless of which tab is presently selected can do so outside of the tabs container.
 
-! Because the tabs are wrapped in a container, it can be placed anywhere in the YAML, this means you can have fields before and after.
+! Because the tabs are wrapped in a container, it can be placed anywhere in the YAML. This means you can have fields before and after.
 
 The tab's `label` sets the title for the tab on the back end. There is no requirement for how you label the tab in the YAML.
 
-When using fields in tabs in twig, you can access them normally. There is no need to reference the tab(s) at all. For example, if you wanted to print the output of the field called `inside` in the example above, you would just call `{{ particle.inside }}`. Because tabs is a container, you don't need to reference the whole structure such as `{{ particle.tabs.tab_display.inside }}` (<- wrong).
+When using fields in tabs in Twig, you can access them normally. There is no need to reference the tab(s) at all. For example, if you wanted to print the output of the field called `inside` in the example above, you would just call `{{ particle.inside }}`. Because tabs is a container, you don't need to reference the whole structure such as `{{ particle.tabs.tab_display.inside }}` (<- wrong).
 
 Your name for the tabs can also be anything. We used `tab_readmore` and `tab_display` as examples. Your tabs could be named `_tab0` or `santaclause`. It would not affect functionality at all. A good habit would be to prefix `tabs` and the tab names with an underscore (`_tab_display`), so that at a first glance you would know you can skip those.
 
-!!! A `collection` is a field whose final value is an array. In Gantry we only have 2 collections, `list` and `keyvalue` (Tag Attributes). You are all very familiar with list, it is commonly used and allows to create entry items on the fly.
+!!! A `collection` is a field whose final value is an array. In Gantry we only have 2 collections, `list` and `keyvalue` (Tag Attributes). You are all very familiar with list. It is commonly used and allows to create entry items on the fly.
 !!!
-!!! When you save a `collection`, your value is an array and in your twig template you have to cycle through this array in order to extract and have access to each individual entry item. This is how a collection works and how it's meant to be used, but it's very different than a `container`.
+!!! When you save a `collection`, your value is an array and in your Twig template you have to cycle through this array in order to extract and have access to each individual entry item. This is how a collection works and how it's meant to be used, but it's very different than a `container`.
 !!!
-!!! A `container` is just a structural definition that gets used, mostly internally, to represent how the field should look like. Gantry has always had 1 `container`, called `set`, we never really used it though, but it's there.
+!!! A `container` is just a structural definition that gets used, mostly internally, to represent how the field should look like. Gantry has always had 1 `container` called `set`. We never really used it though, but it's there.
 !!!
-!!! Although the YAML structure of the container is a nested list, really the blueprint is only ever cycled through internally from the twig  field, in order to actually render in the admin the same way you see in my GIF above. The actual fields inside each tab, are still gonna be saved as if they were top-level, they aren't really nested within tabs, from a FORM perspective.
+!!! Although the YAML structure of the container is a nested list, really the blueprint is only ever cycled through internally from the Twig field, in order to actually render in the admin the same way you see in my GIF above. The actual fields inside each tab are still gonna be saved as if they were top-level. They aren't really nested within tabs from a FORM perspective.

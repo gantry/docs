@@ -5,7 +5,7 @@ taxonomy:
   tag: [gantry5]
 ---
 
-After you have downloaded and installed your Gantry-powered theme, you may want to customize it to make changes that go beyond its included **Settings** and **Particle** options.
+After you have downloaded and installed your Gantry-powered theme, you may want to customize it to make changes that go beyond its included **Page Settings** and **Particle Defaults** options.
 
 As an example, you could add a text field on the back end that enables you to easily change the text in a specific area of the page. You could also add fields and functionality to Gantry 5's core Particles, as well as any included in the theme itself.
 
@@ -19,7 +19,7 @@ In this example, we are going to add a field to the **Section** settings in the 
 
 ![Showcase Section - Before](custom_file_1.png?classes=shadow,border)
 
-Pictured above is the **Showcase** section of the site, which features the **Sample Content** particle, included in the **Hydrogen** theme. The particle itself does not define the background image anywhere in its twig file, and in this case we want to create this capability for each section independent of its particles or positions.
+Pictured above is the **Showcase** section of the site, which features the **Sample Content** particle, included in the **Hydrogen** theme. The particle itself does not define the background image anywhere in its Twig file, and in this case we want to create this capability for each section independent of its particles or positions.
 
 In **Hydrogen** the first thing we want to do is add the **Image Picker** to the options for each section. This will enable the user to define the background image for the section.
 
@@ -409,20 +409,20 @@ Custom copies of these files will be placed in `TEMPLATE_DIR/custom/admin` with 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-The Gantry Administrator's component files are located in the `ROOT/wp-content/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
+The Gantry Administrator's component files are located in the `ROOT/wp-content/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by WordPress can be modified from the template.
 
 !! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
 
-Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/wp-content/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
+Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `gantry5` directory. For example, `ROOT/wp-content/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The Gantry Administrator's component files are located in the `ROOT/user/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Joomla can be modified from the template.
+The Gantry Administrator's component files are located in the `ROOT/user/plugins/gantry5/admin/` directory. These files control how the Gantry admin looks, its panels, and what data these panels display. Virtually everything that is not specifically controlled by Grav can be modified from the template.
 
 !! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
 
-Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `com_gantry5` directory. For example, `ROOT/user/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
+Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `gantry5` directory. For example, `ROOT/user/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
 
 [/ui-tab]
 [/ui-tabs]

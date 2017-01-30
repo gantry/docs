@@ -74,15 +74,15 @@ form:
       description: CSS class name for the particle.
 ```
 
-This YAML is made up of two main parts. First, the head of the file which sets the **Name**, **Description**, and **Type**. The **Name** is what appears in the administrator as the title of the Particle in the **Settings** and **Layout Manager** panels. The **Type** being **Particle** tells Gantry that this YAML file is being used to create a **Particle**.
+This YAML is made up of two main parts. First, the head of the file which sets the **Name**, **Description**, and **Type**. The **Name** is what appears in the administrator as the title of the Particle in the **Particle Defaults** and **Layout Manager** panels. The **Type** being **Particle** tells Gantry that this YAML file is being used to create a **Particle**.
 
-!!! The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Positions** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
+!!! The **Type** setting tells Gantry5 if this Particle is a **standard Particle**, **Atom**, or **Position**. You will likely not be creating positions as there is already a configurable **Module Position** Particle in place, but in cases where you are creating an **Atom** the line would read, `type: atom`.
 
 ![Particle](particle_2.png?classes=shadow,border)
 
 The second section sets the forms/fields that appear in the administrator, as well as the default settings. These fields are what appear in the administrator and are accessible to your site managers. They give them the ability to do things like set custom text, titles, and toggle settings.
 
-The first field block (`enabled`) is required. It tells Gantry to put a switch on the backend that makes it possible to enable/disable the Particle.
+The first field block (`enabled`) is required. It tells Gantry to put a switch on the back end that makes it possible to enable/disable the Particle.
 
 The rest of the fields here, `title`, `image`, `description`, and `css.class` provide fields site managers can use to configure the Particle without having to edit any files manually.
 
@@ -91,7 +91,7 @@ Here is a breakdown of the settings used in the example above and how they affec
 | Setting     | Description                                                                                                                                             |
 | :-----      | :-----                                                                                                                                                  |
 | Type        | Sets the type of field. This determines if your user will see a text field, checkbox, toggle, or some other input type.                                 |
-| Label       | This label appears on the backend next to the field, letting the user know what it is/does.                                                             |
+| Label       | This label appears on the back end next to the field, letting the user know what it is/does.                                                             |
 | Description | This field sets the tooltip that appears on hover over the Label. It's meant as a reminder for the user.                                                |
 | Default     | This sets the default that appears in the field. If it's a text field, you would enter text. If it's a checkbox, you would set it as `true` or `false`. |
 
@@ -109,22 +109,22 @@ Here is the content of the `example_particle.html.twig` file:
 
 {% block particle %}
 <div class="example_particle {{ particle.css.class }}">
-            <div align="center">
-              <img src="{{ url(particle.image) }}" alt="image">
-              <h2>{{ particle.title }}</h2>
-              <p>{{ particle.description }}</p>
-            </div>
-        </div>
+    <div align="center">
+        <img src="{{ url(particle.image) }}" alt="image">
+        <h2>{{ particle.title }}</h2>
+        <p>{{ particle.description }}</p>
+    </div>
+</div>
 {% endblock %}
 ```
 
 This is a very basic example of a Twig file, containing three parts.
 
-The first part (`{% extends '@nucleus/partials/particle.html.twig' %}`) defines the Twig file as being for a Particle. This is a must-have element for all Particle Twig Files.
+The first part (`{% extends '@nucleus/partials/particle.html.twig' %}`) defines the Twig file as being for a Particle. This is a must-have element for all Particle Twig files.
 
 The second part is the **Block** wrapper. `{% block particle %}` and `{% endblock %}` surround the block that contains the Particle. This is also a required component as your Particle will not render correctly without it.
 
-The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `example_particle`. This class tells Gantry that this twig file is working with information from the **custom_html.yaml** companion file.
+The third part is the meat and potatoes of the Particle. This is the body used to determine how a Particle will look and uses the information set in the YAML. In our example, we set the **div class** to `example_particle`. This class tells Gantry that this Twig file is working with information from the **custom_html.yaml** companion file.
 
 ! The CSS class field used in this example is not required. A CSS can be applied at the Block level within the Gantry 5 administrator. Adding a class field here enables you to assign a CSS class to a specific div within the Particle.
 
@@ -134,7 +134,7 @@ The bits that are placed between curly brackets such as `{{ particle.title|e }}`
 
 
 
-Once you have created these files, you should see the Particle appear in the **Settings** and **Layout Manager** administrative panels in the Gantry 5 administrator.
+Once you have created these files, you should see the Particle appear in the **Particle Defaults** and **Layout Manager** administrative panels in the Gantry 5 administrator.
 
 ### Pulling Gantry Configuration Data Using Twig
 

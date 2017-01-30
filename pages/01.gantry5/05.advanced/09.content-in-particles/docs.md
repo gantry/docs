@@ -5,8 +5,6 @@ taxonomy:
     tag: [gantry5]
 ---
 
-# Using Joomla Content in your Particle
-
 ! New feature in Gantry 5.2.14.
 
 Particles are great at displaying custom content in specific areas of your site, but did you know you can also display content directly from the content management system (CMS)? This is possible, and here's how.
