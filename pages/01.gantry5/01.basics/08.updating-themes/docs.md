@@ -74,13 +74,13 @@ If your theme is not listed on the Grav Themes Directory, or you prefer to manua
 
 ![](grav_theme_update.png?classes=shadow,border)
 
-When an update is available, a notice will over the theme's thumbnail in the **Admin > Themes** section of the Grav Admin. You can individually update the plugin by clicking the **UPDATE** banner will take you to the theme's description page where you can update it directly.
+When an update is available, a notice will be over the theme's thumbnail in the **Admin > Themes** section of the Grav Admin. You can individually update the plugin by clicking the **UPDATE** banner to take you to the theme's description page where you can update it directly.
 
 <div align="center"><a href="https://learn.getgrav.org/admin-panel/themes#controls" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Themes Section of the Admin</a></div>
 
 ## Second Method: Dashboard
 
-You can also update your plugins and themes all at once from from the main **Dashboard** area of the **Grav Admin**.
+You can also update your plugins and themes all at once from the main **Dashboard** area of the **Grav Admin**.
 
 ![](g5_grav_update_3.png?classes=shadow,border)
 

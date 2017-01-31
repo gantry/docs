@@ -44,7 +44,7 @@ Think about the admin as a requirement, just like WordPress or Joomla's administ
 
 We try to ensure that Gantry templates (and specifically the Gantry Library) will work with any modern and secure server environment. The recommended minimum requirements are:
 
-* PHP 5.4+
+* PHP 5.5.9+
     * Curl
     * OpenSSL Libraries
     * Multibyte String Support
