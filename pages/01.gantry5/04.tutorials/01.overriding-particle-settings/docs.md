@@ -32,7 +32,7 @@ For example, if you want your logo Particles to use the same source image across
 
 ![Non-Default](particle_2.jpg?classes=shadow,border)
 
-Within outlines that are not set as the default, you may notice that the **Particle Defaults** administrative panel has grayed out the **Particle Settings** for most (if not all) of your Particles. By changing a setting and/or selecting the checkbox on the right-hand side of the settings box for that Particle, you can override the default settings for the outline.
+Within outlines that are not set as the default, you may notice that the **Particle Defaults** administrative panel has grayed out the **Particle Defaults** for most (if not all) of your Particles. By changing a setting and/or selecting the checkbox on the right-hand side of the settings box for that Particle, you can override the default settings for the outline.
 
 Now, every Particle placed in the Layout Manager for that particular outline will have these new settings by default.
 
@@ -129,7 +129,7 @@ form:
 
 ![Particle Override](source_3.png?classes=shadow,border)
 
-This creates the fields that appear in the Gantry Administrator's **Settings** panel, as well as in any instances in the **Layout Manager** where the **Copyright** particle has been placed. These settings are then linked to the Particle's **Twig** file. In this case, we are adding a link field so that users can add a link to the Particle.
+This creates the fields that appear in the Gantry Administrator's **Particle Defaults** panel, as well as in any instances in the **Layout Manager** where the **Copyright** particle has been placed. These settings are then linked to the Particle's **Twig** file. In this case, we are adding a link field so that users can add a link to the Particle.
 
 We can create the link field by adding the following to the bottom of the YAML file.
 

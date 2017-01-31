@@ -27,7 +27,7 @@ This button gives you quick access to all of the items' settings in one popup.
 ![](collection_1.jpg?classes=shadow,border)
 [/ui-callout]
 
-This example is the default **Social** particle as configured in the Hydrogen theme. You will notice there are top-level fields including *CSS Class*, **Title**, and **Target** which affect the entire particle. However, you will also notice the **Social Items** area of the settings which includes different specific items that will be displayed on the front end.
+This example is the default **Social** particle as configured in the Hydrogen theme. You will notice there are top-level fields including **CSS Classes**, **Title**, and **Target** which affect the entire particle. However, you will also notice the **Social Items** area of the settings which includes different specific items that will be displayed on the front end.
 
 These sub-items contain options that enable you to configure them and give them unique settings from one-another. You can add new items to the collection using the plus **+** icon, as well as edit them all in one pop-up using the **Edit All Items** button. 
 

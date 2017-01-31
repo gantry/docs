@@ -7,7 +7,7 @@ taxonomy:
 
 There are times when you just want to have CSS or JavaScript assets load without having them appear in the base of the page. Particles have integrated support for JavaScript and style sheets, even if the particle itself isn't an atom. You could essentially have a single particle that includes standard particle content in addition to accessing CSS and JavaScript elements.
 
-This is a very useful way to bring JavaScript and style sheet blocks in to a very specific part of your page.
+This is a very useful way to bring JavaScript and style sheet blocks into a very specific part of your page.
 
 ! Looking for more information about using blocks in Twig? [Here is a ton of useful information](http://twig.sensiolabs.org/doc/tags/extends.html#how-do-blocks-work) about how blocks work in Twig.
 

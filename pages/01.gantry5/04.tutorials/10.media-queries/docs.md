@@ -28,7 +28,7 @@ Gantry 5 templates include four key breakpoints that are defined by `rem` units.
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Appearance** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Gantry 5** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
 
 [/ui-tab]
 [/ui-tabs]

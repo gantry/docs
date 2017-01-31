@@ -7,7 +7,7 @@ taxonomy:
 
 ## Introduction
 
-Gantry 5 has a ton of useful utilities baked in to its core. Among them are its assortment of utility classes that make it easy to quickly set up elements and have them appear how you want and when you want them to.
+Gantry 5 has a ton of useful utilities baked into its core. Among them are its assortment of utility classes that make it easy to quickly set up elements and have them appear how you want and when you want them to.
 
 ## Responsive Utility Classes
 
@@ -43,9 +43,9 @@ This set of utility classes give you the ability to adjust the padding and margi
 | `nomarginall`     | Sets the margin for the top, bottom, left, and right of the element to 0.        |
 | `nomargintop`     | Sets the margin for just the top of the element to 0.                            |
 | `nomarginbottom`  | Sets the margin for just the bottom of the element to 0.                         |
-| `nopaddingall`    | Sets the padding value for the top, bottom, left, and right of the element to 0. |
-| `nopaddingtop`    | Sets the padding value for just the top of the element to 0.                     |
-| `nopaddingbottom` | Sets the padding value for just the bottom of the element to 0.                  |
+| `nopaddingall`    | Sets the padding for the top, bottom, left, and right of the element to 0. |
+| `nopaddingtop`    | Sets the padding for just the top of the element to 0.                     |
+| `nopaddingbottom` | Sets the padding for just the bottom of the element to 0.                  |
 | `g-flushed`       | Sets both the padding and margin for the element to 0.                           |
 
 ## Utility Variations
@@ -62,4 +62,4 @@ Variations act as friendly preset classes, ready to be deployed wherever you nee
 | Center       | Aligns the element's content in the center.               |
 | Equal Height | Sets the element's height equal to the adjoining element. |
 | No Margin    | Sets the element's margins to 0.                          |
-| No Padding   | Sets the element's padding to 0.                          |
+| No Padding   | Sets the element's paddings to 0.                          |
