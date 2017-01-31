@@ -28,11 +28,13 @@ Joomla makes it easy to update your Gantry 5-powered template. Once an update is
 
 ![Updating](updating_1.png?classes=shadow,border)
 
-You can initiate the update by navigating to **Administrator > Extensions > Extension Manager > Update**, selecting the theme package, and then the **Update** button to initiate the update.
+You can initiate the update by navigating to **Administrator > Extensions > Manage > Update**, selecting the theme package, and then the **Update** button to initiate the update.
 
 ! Gantry should be updated prior to the template. In some cases, the template update depends on new features included with the latest version of Gantry.
 
 If the update is successful, you will be notified as such and you can continue to use the theme as you did previously. The update process should not affect your custom directory, though if you have any theme-related files outside of the custom directory modified, we recommend comparing your backed up copy to the new copy of the file and manually moving your customizations from there.
+
+! If you are using a template that does not utilize Joomla's Update option (this includes any [RocketTheme](http://rockettheme.com/) premium template), then simply upload the latest template package via **Administrator > Extensions > Manage > Install > Upload Package File** to update the template.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
@@ -55,7 +57,7 @@ If you are confident that the only changes you have made to your site are stored
 
 ![Updating](updating_2.png?classes=shadow,border)
 
-To do this, navigate to **Admin > Appearance > Themes**. At the top of the **Themes** page is an **Add New** button. Selecting it takes you to the **Add Themes** page where you cal select the **Upload Theme** button which is placed in the same position the Add New button was in the last page.
+To do this, navigate to **Admin > Appearance > Themes**. At the top of the **Themes** page is an **Add New** button. Selecting it takes you to the **Add Themes** page where you can select the **Upload Theme** button which is placed in the same position the Add New button was in the last page.
 
 Now, you simply need to choose the theme's zip package and select **Install Now**. Once your installation is complete you will be given the option to **Activate** it. Do so, and before you go to any other area of the admin, use your FTP program to replace the `custom` directory and its contents that you copied earlier.
 
