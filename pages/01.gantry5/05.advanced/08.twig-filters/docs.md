@@ -15,7 +15,7 @@ This line comes from our [guide](../../tutorials/fonts) on adding and applying f
 
 This enables the user to enter HTML such as `<style="color:red">Title</style>` and have it render a red <span style="color: red;" markdown="1">Title</span> on the front end instead of being translated to its literal characters.
 
-In Gantry, these elements are escaped by default. This is a security precaution as it restricts in-line HTML from these fields only to fields that you have intentionally enabled it on. If you would like to open up rendered HTML for a field, you need but to add the `|raw` filter.
+In Gantry, these elements are escaped by default. This is a security precaution as it restricts inline HTML from these fields only to fields that you have intentionally enabled it on. If you would like to open up rendered HTML for a field, you need to add the `|raw` filter.
 
 ## Helpful Resources
 
@@ -154,5 +154,5 @@ Just like with Twig Filters - Gantry 5 also has a set of custom Twig functions t
 | get_cookie    | Gets a cookie from the current request.                                      |                           |
 | preg_match    | Searches subject for a match to the regular expression given in pattern.     | `pattern` `subject`       |
 | url           | Takes a stream and converts it to a real URL.                                |                           |
-| json_decode   | Basically the same as `json_decode()` in php.                                | `assoc` `depth` `options` |
+| json_decode   | Basically the same as `json_decode()` in PHP.                                | `assoc` `depth` `options` |
 | imagesize     | Grabs the image dimensions and outputs it in HTML tag format.                |                           |

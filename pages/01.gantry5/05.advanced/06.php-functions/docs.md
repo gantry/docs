@@ -17,7 +17,7 @@ The `includes/theme.php` file defines the theme. It can also be used to add addi
 
 At this moment it is not possible to override the `theme.php`. When the functionality will become available, you will be able to create an override of this file under the `custom/includes/` directory, in order to make your changes and have them preserved in the event that the theme is updated.
 
-Since this is not yet possible, you will need to edit directly the `theme.php` located under `includes/` at the root of the theme. It is adviced that you create a copy of the file in case you need to revert back to its original state.
+Since this is not yet possible, you will need to edit directly the `theme.php` located under `includes/` at the root of the theme. It is advised that you create a copy of the file in case you need to revert back to its original state.
 
 ## Preparing to Use Mobile Detect
 
@@ -47,7 +47,7 @@ Now you are ready to inject `Mobile_Detect` into gantry by editing the `theme.ph
 include_once dirname(__FILE__).'/../custom/includes/Mobile_Detect.php';
 
 // Dependency Injection of Mobile Detect
-$gantry['mobile_detect'] = new Mobile_Detect();
+$gantry['mobile_detect'] = new \Mobile_Detect();
 ```
 
 
@@ -56,7 +56,7 @@ This will make the Mobile Detect library available to the `twig` files via the `
 
 ## Putting the Class to Use
 
-Once you have the class injected, you will be able to reference it from any of the theme's twig files. This includes core twig files for the theme, individual particles, etc.
+Once you have the class injected, you will be able to reference it from any of the theme's Twig files. This includes core Twig files for the theme, individual particles, etc.
 
 Here is an example of a call that puts **Mobile Detect** to use.
 

@@ -1,11 +1,11 @@
 ---
-title: How to Load CSS / JS from Twig
+title: How to Load CSS / JS / HTML from Twig
 taxonomy:
     category: docs
     tag: [gantry5]
 ---
 
-If you want to add JavaScript and/or CSS from your twig file, you can do something like this:
+If you want to add JavaScript, CSS, and/or HTML from your Twig file, you can do something like this:
 
 
 ``` twig
@@ -27,11 +27,11 @@ Basically, assets can take two optional parameters:
 * in 'x'
 * with { priority: y }
 
-The parameter `x` is the location you want to add your stuff (`head` and `footer` are currently supported by Hydrogen theme) and `y` is priority, which is used to order the assets defaulting to 0 and ranging from `-10` to `10`. 
+The parameter `x` is the location you want to add your stuff (`head` and `footer` are currently supported by Hydrogen theme) and `y` is priority, which is used to order the assets defaulting to `0` and ranging from `-10` to `10`. 
 
 Priority with higher numbers are added into the document before any lower number. If there are multiple assets tags with the same priority, their ordering is undefined.
 
-There is also a twig tag for JavaScript only:
+There is also a Twig tag for JavaScript only:
 
 ``` twig
 {# Add javascript into end of the document (before any other javascript in the footer). #}
@@ -57,9 +57,9 @@ And for style sheets only:
 
 ## Load CSS / JS in Gantry 5.3+ 
 
-Starting from Gantry 5.3 there is a new, better way to add Javascript and CSS files. 
+Starting from Gantry 5.3 there is a new, better way to add JavaScript and CSS files. 
 
-Load JavaScript framework (just Javascript, CSS needs to be loaded manually by you):
+Load JavaScript framework (just JavaScript, CSS needs to be loaded manually by you):
 
 - `jquery` or `jquery.framework`
 - `jquery.ui.core`
@@ -88,7 +88,7 @@ Add inline CSS:
 {% do gantry.document.addInlineStyle({ content: 'a { color: red; }', type: 'text/css' }, 0) %}
 ```
 
-Add Javascript file:
+Add JavaScript file:
 
 ``` twig
 {% do gantry.document.addScript(url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js'), 10, 'head') %}
@@ -101,7 +101,7 @@ Add Javascript file:
 }) %}
 ```
 
-Add inline Javascript:
+Add inline JavaScript:
 
 ``` twig
 {% do gantry.document.addInlineScript('alert("test");', 0, 'footer') %}
@@ -116,7 +116,7 @@ First parameter can also be associative array containing the attributes of the g
 
 Sometimes there is a need to compile a custom SCSS file to CSS and include it into the page. 
 
-You can do this by adding your SCSS file to the `custom/scss` folder and calling it in twig like this:
+You can do this by adding your SCSS file to the `custom/scss` folder and calling it in Twig like this:
   
 ``` twig
 {% styles with { priority: 0 } %}
@@ -151,7 +151,7 @@ After defining the locations, you can add stuff into them just like the head and
 
 Sometimes there is a need to add some HTML right after `<body>` or just before `</body>` tag.
 
-You can add HTML from `Page Settings`, but sometimes you may want to do it from a particle or an atom.
+You can add HTML from **Page Settings**, but sometimes you may want to do it from a particle or an atom.
 
 Add HTML after `<body>` tag:
 

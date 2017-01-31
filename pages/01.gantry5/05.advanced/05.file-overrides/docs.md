@@ -11,7 +11,7 @@ We have already detailed some of the ways you can use the `THEME_DIR/custom/` di
 
 When creating custom files, you should always keep these files in your `custom` directory. If you place overridden files or edit existing ones outside of this directory path, you run the risk of losing these customizations when the Gantry-powered theme, or the Gantry framework, is updated.
 
-! In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-contnet/themes/g5_hydrogen/custom`
+! In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-contnet/themes/g5_hydrogen/custom`. In Grav, the true directory path would be `/user/themes/g5_hydrogen/` with the user's `custom` directory being `/user/themes/g5_hydrogen/custom`.
 
 ## Gantry Directory Structure
 
@@ -129,7 +129,7 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-All themes are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `wp-content/themes/TEMPLATE_DIR/custom/` folder.
+All themes are located in the `wp-content/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next theme update. If you want to customize any theme file, you can do so by doing so in the `wp-content/themes/THEME_DIR/custom/` folder.
 
 Here is an example of where the source file and customized duplicate file would be located:
 
@@ -142,7 +142,7 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-All themes are located in the `user/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next template update. If you want to customize any template file, you can do so by doing so in the `user/themes/TEMPLATE_DIR/custom/` folder.
+All themes are located in the `user/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next theme update. If you want to customize any theme file, you can do so by doing so in the `user/themes/THEME_DIR/custom/` folder.
 
 Here is an example of where the source file and customized duplicate file would be located:
 
