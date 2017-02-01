@@ -124,6 +124,8 @@ The link may differ depending on where you wish to source the file from. [Here i
 [/ui-tab]
 [ui-tab title="Page Settings Method"]
 
+![](remote_2.png?classes=shadow,border)
+
 You can also load the script remotely. Just replace the above script in the **Before </body>** field with the following:
 
 
@@ -138,8 +140,6 @@ The link may differ depending on where you wish to source the file from. [Here i
 
 [/ui-tab]
 [ui-tab title="File Override (Not Recommended)"]
-
-![](remote_2.png?classes=shadow,border)
 
 Loading the script remotely is another option, and one that can be done pretty easily. You just need to add a line of script within the `<body>` tags of your `page.html.twig` file to access it. You can also have it load using an atom, but doing so this way will ensure that it loads on every page, without any additional effort required in the Gantry 5 administrator.
 
@@ -292,4 +292,4 @@ This will get you up and running, however users that prefer more control over th
 }
 ```
 
-Once you have added this script to your `custom.scss` file, you will want to [recompile CSS](../../configure/styles#controls) if you are in [**Production** mode](configure/extras#development-and-production-modes), or simply reload the front end and test if you are in [**Develop** mode](configure/extras#development-and-production-modes).
+Once you have added this script to your `custom.scss` file, you will want to [recompile CSS](../../configure/styles#controls) if you are in [**Production** mode](../../configure/extras#development-and-production-modes), or simply reload the front end and test if you are in [**Development** mode](../../configure/extras#development-and-production-modes).
