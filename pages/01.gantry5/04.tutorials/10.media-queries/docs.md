@@ -11,24 +11,24 @@ Gantry 5 makes easy to do, and this guide will take you through the process of d
 
 ## Defining Breakpoints
 
-Because Gantry 5 gives you the ability to easily define the breakpoints between viewport types, you can create a user experience that optimized for a wide range of device types with ease.
+Because Gantry 5 gives you the ability to easily define the breakpoints between viewport types, you can create a user experience that is optimized for a wide range of device types with ease.
 
 ![Breakpoints](breakpoints.png?classes=shadow,border)
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Components → Gantry 5 Themes → Your Theme** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Components → Gantry 5 Themes → Your Theme** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on a per-outline basis.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Theme Settings** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Theme Settings** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on a per-outline basis.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Gantry 5** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on per-outline basis.
+Gantry 5 templates include four key breakpoints that are defined by `rem` units. You can set the breakpoints in the **Styles** administrative panel within the Gantry 5 administrator. To access this panel, navigate to **Administrator → Gantry 5** and select the **Styles** tab. Because this tab is Outline specific, you can change these settings on a per-outline basis.
 
 [/ui-tab]
 [/ui-tabs]
