@@ -118,6 +118,40 @@ Because Gantry 5 is so different from any version of Gantry before it, we came u
 
 <a href="../basics/terminology" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More</a>
 
+## Diving In and Configuring the Helium Theme
+
+So, you've downloaded the Helium theme and you're ready to edit the content that appears on the front page? We have you covered.
+
+If you're creating a new website from scratch, you are most likely using a RocketLauncher for Joomla or WordPress or a Skeleton for Grav. These are pre-configured editions of Helium that come complete with demo content and particles that are ready for you to edit and configure to your liking.
+
+Once you have the skeleton or RocketLauncher installed, you will notice that there is a lot of content already on the front page. This content is placed within the `Home - Particles` outline.
+
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+
+![](dive_joomla_1.jpeg?classes=shadow,border)
+
+You can access this outline by navigating to **Components → Gantry 5 Themes** in the administration menu in the back end of Joomla and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
+
+[/ui-tab]
+[ui-tab title="WordPress"]
+
+![](dive_wordpress_1.jpeg?classes=shadow,border)
+
+You can access this outline by navigating to **Helium Theme** in the administration menu in the back end of Joomla and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
+
+[/ui-tab]
+[ui-tab title="Grav"]
+
+![](dive_grav_1.jpeg?classes=shadow,border)
+
+You can access this outline by navigating to **Gantry 5** in the administration menu in the back end of Joomla and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
+
+[/ui-tab]
+[/ui-tabs]
+
+This process works for any other outline, including the **Base** outline which is the global default for any page that isn't already assigned to another outline.
+
 ## Where to Get Help
 
 A chat room has been set up using [Gitter](https://gitter.im/gantry/gantry5) where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.
