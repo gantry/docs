@@ -138,14 +138,14 @@ You can access this outline by navigating to **Components → Gantry 5 Themes** 
 
 ![](dive_wordpress_1.jpeg?classes=shadow,border)
 
-You can access this outline by navigating to **Helium Theme** in the administration menu in the back end of Joomla and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
+You can access this outline by navigating to **Helium Theme** in the administration menu in the back end of WordPress and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
 ![](dive_grav_1.jpeg?classes=shadow,border)
 
-You can access this outline by navigating to **Gantry 5** in the administration menu in the back end of Joomla and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
+You can access this outline by navigating to **Gantry 5** in the administration menu in the back end of Grav and selecting **Home - Particles** from the outline drop-down. Once you have done that, simply switch to the **Layout** tab and you will see and have access to the particles that make up the front page.
 
 [/ui-tab]
 [/ui-tabs]
