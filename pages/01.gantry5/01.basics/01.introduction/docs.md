@@ -12,11 +12,11 @@ One of the primary goals behind Gantry 5's development has been to make it easie
 In this guide, we will briefly introduce you to what Gantry is, and how it can make managing your site's theme incredibly easy.
 
 ## What is Gantry?
-
 Gantry 5 was made from the ground up to make life easier for both the developer and the user. Themes made with Gantry 5 share a consistent user experience, reducing the learning curve for both parties. So, whether you are managing one site or fifty, the process for managing your theme is the same no matter how many different themes you use.
 
-Gantry 5 is really easy to use. It has drag-and-drop functionality that enables you to dramatically change the layout of your site in seconds without ever having to even touch your keyboard.
+In particular there is a focus on using a GUI to design your site rather than having to code everything by hand. A lot of options can be changed in the administration area  of the Template Framework and for the more adventurous or web developers amongst you  there is a lot of scope to alter styling and other things because Gantry is based on a text file configuration (YAML) and editing these text files is easy.
 
+Gantry 5 is really easy to use. It has drag-and-drop functionality that enables you to dramatically change the layout of your site in seconds without ever having to even touch your keyboard.
 Gantry is a theming framework. To better define Gantry's role in your website, here are some helpful definitions:
 
 [ui-tabs position="top-left" active="0"]
@@ -50,6 +50,22 @@ For websites using a Gantry-powered theme, the theme take advantage of the found
 
 [/ui-tab]
 [/ui-tabs]
+
+## What are Outlines, Particles, Atoms, etc.? (github + me)
+
+Gantry uses atomic names for their different features such as the Hydrogen and Helium Template. In particular this is helpful in naming Gantry objects such as Particles and Atoms.
+Because Gantry 5 is so different from any version of Gantry before it, we came up with some terms to help make sense of the relationships Gantry's new features have with one-another. Here is a quick breakdown of commonly used terms related to Gantry 5.
+
+| Term     | Description                                                                                                                                                                                                                                    |
+| :----    | :-----                                                                                                                                                                                                                                         |
+| **Outline**  | A configurable style used in one or more areas of your site. It serves as the container on which a page's style, settings, and layout are set. This is equivalent to a template. This is how Gantry lays out the different elements on a page. |
+| **Particle** | A typically small block of data used on the front end. It acts a lot like a widget/module, but can be easily configured in the Gantry 5 Administrator.                                                                                         |
+| **Atom**     | A type of Particle that contains non-rendered data, such as custom scripting (JS, CSS, etc.) or analytics scripts for traffic tracking.                                                                                                        |
+| **Nucleus**  | This is Gantry 5’s own front-end framework. It is a very simple and lightweight CSS/SCSS-only framework.                                                                                                                                       |
+
+You can find a full, more detailed breakdown of terms used in Gantry 5 in our [Terminology](../terminology/) guide.
+
+One reason Gantry decided to give these elements unique names is to create a consistent user experience across multiple platforms. For example, terms like module (Joomla) and widget (WordPress) are used to describe modular content blocks that appear on the front end. In Gantry, not only are Particles managed differently than either modules or widgets, but giving them either name would cause confusion. So, we opted to create our own naming scheme instead.
 
 ## Meet the Gantry Administrator
 
