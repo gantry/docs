@@ -14,7 +14,7 @@ In this guide, we will briefly introduce you to what Gantry is, and how it can m
 ## What is Gantry?
 Gantry 5 was made from the ground up to make life easier for both the developer and the user. Themes made with Gantry 5 share a consistent user experience, reducing the learning curve for both parties. So, whether you are managing one site or fifty, the process for managing your theme is the same no matter how many different themes you use.
 
-In particular there is a focus on using a GUI to design your site rather than having to code everything by hand. A lot of options can be changed in the administration area  of the Template Framework and for the more adventurous or web developers amongst you  there is a lot of scope to alter styling and other things because Gantry is based on a text file configuration (YAML) and editing these text files is easy.
+In particular there is a focus on using a GUI to design your site rather than having to code everything by hand. A lot of options can be changed in the administration area of the Template Framework and for the more adventurous or web developers amongst you there is a lot of scope to alter styling and other things because Gantry is based on a text file configuration (YAML) and editing these text files is easy.
 
 Gantry 5 is really easy to use. It has drag-and-drop functionality that enables you to dramatically change the layout of your site in seconds without ever having to even touch your keyboard.
 Gantry is a theming framework. To better define Gantry's role in your website, here are some helpful definitions:
