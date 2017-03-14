@@ -134,6 +134,8 @@ The **Page Settings** administrative panel gives you quick access to Global page
 
 ![Styles](styles.jpg?classes=shadow,border)
 
+[plugin:youtube](https://www.youtube.com/watch?v=I0f4bXxZkVQ)
+
 The **Styles** panel makes it easy to quickly adjust visual bits and pieces related to the Gantry-powered theme. This can include color-coded presets, fonts, accent colors and colors for specific portions of the page, as well as custom elements such as colors, block styles, and backgrounds. Basically, anything affected by CSS related to page design can be configured here.
 
 <div align="center"><a href="../configure/styles" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Styles Panel</a></div>
