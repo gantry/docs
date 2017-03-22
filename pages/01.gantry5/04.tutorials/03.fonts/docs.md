@@ -11,7 +11,7 @@ There are two approaches to adding local fonts in a theme. The first adds your n
 
 The second method sets the font active to the theme, globally. This method enables you to use the new local font within the theme, but not in the **Font Picker**. You can combine the two to have your font available to both, by editing the `theme.yaml` file and making the changes to your `custom.scss` file.
 
-! In this guide we will be using **Roboto** as our new local font. You can pick it up from [FontSquirrel](http://www.fontsquirrel.com/fonts/roboto). Simply select the **WebFont Kit** tab and download `roboto-fontfacekit.zip`.
+! In this guide we will be using **Gaspar** as our new local font. You can pick it up from [FontSquirrel](http://www.dafont.com/boulevard-saint-denis.font). Simply select the **Webfont Kit** button and download `gaspar-fontfacekit.zip`.
 
 ### Adding a New Font to the Font Picker
 
@@ -24,45 +24,75 @@ Here are the steps you will need to take to make this happen.
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
+![Fonts](files1.png?classes=shadow,border)
+
+The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+
+You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+
 ![Fonts](files.png?classes=shadow,border)
 
-Add the local font files to `TEMPLATE_DIR/custom/fonts/`.
+Next, add the local font files to `TEMPLATE_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using RocketTheme's [Callisto](http://rockettheme.com/joomla/templates/callisto) template as an example, this is what the `theme.yaml` file looks like by default.
+Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
-    sourcesanspro:
-      700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-      700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-      400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-      400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-    lato:
-      900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
 ```
 
-To add the Roboto font, the fonts section of the YAML file will look like this.
+To add the Gaspar font, the fonts section of the YAML file will look like this.
 
 ```yaml
 fonts:
-  sourcesanspro:
-    700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-    700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-    400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-    400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-  lato:
-    900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
-  roboto:
-    400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
-    400: 'gantry-theme://fonts/roboto/roboto_condensed_macroman/RobotoCondensed-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_condenseditalic_macroman/roboto_condenseditalic_macroman'
-    700: 'gantry-theme://fonts/roboto/roboto_bold_macroman/Roboto-Bold-webfont'
-    700italic: 'gantry-theme://fonts/roboto/roboto_bolditalic_macroman/Roboto-BoldItalic-webfont'
-    900: 'gantry-theme://fonts/roboto/roboto_black_macroman/Roboto-Black-webfont'
-    900italic: 'gantry-theme://fonts/roboto/roboto_blackitalic_macroman/Roboto-BlackItalic-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
+  Gaspar:
+    700italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bolditalic-webfont'
+    700: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont'
+    400italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-italic-webfont'
+    400: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-regular-webfont'
 ```
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
@@ -72,45 +102,75 @@ Duplicate the `TEMPLATE_DIR/gantry/theme.yaml` file and place the copy in a safe
 [/ui-tab]
 [ui-tab title="WordPress"]
 
+![Fonts](files1.png?classes=shadow,border)
+
+The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+
+You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+
 ![Fonts](files.png?classes=shadow,border)
 
 Add the local font files to `THEME_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using RocketTheme's [Callisto](http://rockettheme.com/joomla/templates/callisto) template as an example, this is what the `theme.yaml` file looks like by default.
+Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
-    sourcesanspro:
-      700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-      700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-      400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-      400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-    lato:
-      900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
 ```
 
-To add the Roboto font, the fonts section of the YAML file will look like this.
+To add the Gaspar font, the fonts section of the YAML file will look like this.
 
 ```yaml
 fonts:
-  sourcesanspro:
-    700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-    700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-    400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-    400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-  lato:
-    900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
-  roboto:
-    400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
-    400: 'gantry-theme://fonts/roboto/roboto_condensed_macroman/RobotoCondensed-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_condenseditalic_macroman/roboto_condenseditalic_macroman'
-    700: 'gantry-theme://fonts/roboto/roboto_bold_macroman/Roboto-Bold-webfont'
-    700italic: 'gantry-theme://fonts/roboto/roboto_bolditalic_macroman/Roboto-BoldItalic-webfont'
-    900: 'gantry-theme://fonts/roboto/roboto_black_macroman/Roboto-Black-webfont'
-    900italic: 'gantry-theme://fonts/roboto/roboto_blackitalic_macroman/Roboto-BlackItalic-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
+  Gaspar:
+    700italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bolditalic-webfont'
+    700: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont'
+    400italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-italic-webfont'
+    400: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-regular-webfont'
 ```
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
@@ -120,45 +180,75 @@ Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe pl
 [/ui-tab]
 [ui-tab title="Grav"]
 
-![Fonts](files_grav.png?classes=shadow,border)
+![Fonts](files1.png?classes=shadow,border)
+
+The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+
+You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+
+![Fonts](files.png?classes=shadow,border)
 
 Add the local font files to `THEME_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using RocketTheme's [Callisto](http://rockettheme.com/joomla/templates/callisto) template as an example, this is what the `theme.yaml` file looks like by default.
+Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
-    sourcesanspro:
-      700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-      700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-      400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-      400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-    lato:
-      900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
 ```
 
-To add the Roboto font, the fonts section of the YAML file will look like this.
+To add the Gaspar font, the fonts section of the YAML file will look like this.
 
 ```yaml
 fonts:
-  sourcesanspro:
-    700: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bold/sourcesanspro-bold-webfont'
-    700italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_bolditalic/sourcesanspro-bolditalic-webfont'
-    400italic: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_italic/sourcesanspro-italic-webfont'
-    400: 'gantry-theme://fonts/sourcesanspro/sourcesanspro_regular/sourcesanspro-regular-webfont'
-  lato:
-    900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
-    700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
-  roboto:
-    400: 'gantry-theme://fonts/roboto/roboto_regular_macroman/Roboto-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_italic_macroman/Roboto-Italic-webfont'
-    400: 'gantry-theme://fonts/roboto/roboto_condensed_macroman/RobotoCondensed-Regular-webfont'
-    400italic: 'gantry-theme://fonts/roboto/roboto_condenseditalic_macroman/roboto_condenseditalic_macroman'
-    700: 'gantry-theme://fonts/roboto/roboto_bold_macroman/Roboto-Bold-webfont'
-    700italic: 'gantry-theme://fonts/roboto/roboto_bolditalic_macroman/Roboto-BoldItalic-webfont'
-    900: 'gantry-theme://fonts/roboto/roboto_black_macroman/Roboto-Black-webfont'
-    900italic: 'gantry-theme://fonts/roboto/roboto_blackitalic_macroman/Roboto-BlackItalic-webfont'
+  Raleway:
+    900italic: 'gantry-theme://fonts/raleway/raleway-blackitalic/raleway-blackitalic-webfont'
+    900: 'gantry-theme://fonts/raleway/raleway-black/raleway-black-webfont'
+    700italic: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bolditalic-webfont'
+    700: 'gantry-theme://fonts/raleway/raleway-bold/raleway-bold-webfont'
+    600italic: 'gantry-theme://fonts/raleway/raleway-semibolditalic/raleway-semibolditalic-webfont'
+    600: 'gantry-theme://fonts/raleway/raleway-semibold/raleway-semibold-webfont'
+    500italic: 'gantry-theme://fonts/raleway/raleway-mediumitalic/raleway-mediumitalic-webfont'
+    500: 'gantry-theme://fonts/raleway/raleway-medium/raleway-medium-webfont'
+    400italic: 'gantry-theme://fonts/raleway/raleway-italic/raleway-italic-webfont'
+    400: 'gantry-theme://fonts/raleway/raleway-regular/raleway-regular-webfont'
+    200italic: 'gantry-theme://fonts/raleway/raleway-lightitalic/raleway-lightitalic-webfont'
+    200: 'gantry-theme://fonts/raleway/raleway-light/raleway-light-webfont'
+  Lato:
+    900italic: 'gantry-theme://fonts/lato/lato-blackitalic/lato-blackitalic-webfont'
+    900: 'gantry-theme://fonts/lato/lato-black/lato-black-webfont'
+    700italic: 'gantry-theme://fonts/lato/lato-bold/lato-bolditalic-webfont'
+    700: 'gantry-theme://fonts/lato/lato-bold/lato-bold-webfont'
+    400italic: 'gantry-theme://fonts/lato/lato-italic/lato-italic-webfont'
+    400: 'gantry-theme://fonts/lato/lato-regular/lato-regular-webfont'
+    200italic: 'gantry-theme://fonts/lato/lato-lightitalic/lato-lightitalic-webfont'
+    200: 'gantry-theme://fonts/lato/lato-light/lato-light-webfont'
+  Gaspar:
+    700italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bolditalic-webfont'
+    700: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont'
+    400italic: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-italic-webfont'
+    400: 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-regular-webfont'
 ```
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
@@ -182,7 +272,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('roboto');
+@include import-font('gaspar');
 ```
 
 [/ui-tab]
@@ -195,7 +285,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('roboto’);
+@include import-font('gaspar');
 ```
 
 [/ui-tab]
@@ -208,7 +298,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('roboto');
+@include import-font('gaspar');
 ```
 
 [/ui-tab]
