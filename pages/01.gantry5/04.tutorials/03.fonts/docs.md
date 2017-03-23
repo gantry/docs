@@ -21,6 +21,8 @@ If you would like to make your new font accessible to the **Font Picker**, you w
 
 Here are the steps you will need to take to make this happen.
 
+! Gantry does not currently have a method of previewing local fonts in the Font Picker. Previews are currently only available for fonts that are loaded from Google. You will still be able to select a local font, which will load it and any uploaded variant(s) you have listed in the `theme.yaml` file.
+
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
