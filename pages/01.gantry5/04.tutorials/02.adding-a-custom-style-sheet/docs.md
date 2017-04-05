@@ -22,7 +22,7 @@ To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and c
 [/ui-tab]
 [ui-tab title="Grav"]
 
-To do this, navigate in the directory structure to `ROOT/user/data/gantry5/themes/THEME_DIR/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/scss/` directory doesn't exist within your custom folder, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
+To do this, navigate in the directory structure to `ROOT/user/data/gantry5/themes/THEME_DIR/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/scss/` directory doesn't exist within your custom folder, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
 [/ui-tab]
 [/ui-tabs]
