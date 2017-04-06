@@ -31,9 +31,9 @@ There is a third method, which is easily accomplished by navigating to **Compone
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-[plugin:youtube](https://www.youtube.com/watch?v=VrwlAISRS48)
+The first thing you will need to do is ensure that the Gantry Framework and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
 
-The first thing you will need to do is ensure that the Gantry Framework, [Timber](https://wordpress.org/plugins/timber-library/) plugin, and a Gantry-enabled theme is installed and active. You can find detailed step-by-step instructions for this in [our guide](../../basics/installation).
+[Timber](https://wordpress.org/plugins/timber-library/) is a third-party plugin that enables WordPress to work with Gantry 5's system. Because Timber is installed with Gantry automatically, you don't need to install it separately for Gantry to work.
 
 ![Sidebar](wp_sidebar.png?classes=shadow,border)
 
