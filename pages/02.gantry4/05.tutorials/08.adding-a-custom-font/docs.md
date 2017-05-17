@@ -62,7 +62,7 @@ Step 2: Adding the Necessary CSS
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-[Create your custom stylesheet file](../adding-a-custom-stylesheet), __gantry-custom.css__, and add it to `/templates/[TEMPLATE]/css/`.
+[Create your custom stylesheet file](../adding-a-custom-stylesheet), __[TEMPLATE]-custom.css__, and add it to `/templates/[TEMPLATE]/css/`.
 
 Add the following to the custom CSS file:
 
@@ -88,7 +88,7 @@ Add the following to the custom CSS file:
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-[Create your custom stylesheet file](../adding-a-custom-stylesheet), __rt_gantry_wp-custom.css__, and add it to `/wp-content/themes/[TEMPLATE]/css/`.
+[Create your custom stylesheet file](../adding-a-custom-stylesheet), __[TEMPLATE]-custom.css__, and add it to `/wp-content/themes/[TEMPLATE]/css/`.
 
 Add the following to the custom CSS file:
 
@@ -120,7 +120,7 @@ Step 3: Adding the Info to the Font Settings Dropdown
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-With your text/code editor, open `/templates/[TEMPLATE]template-options.xml` and add the custom font option (line 9 in the below example):
+With your text/code editor, open `/templates/[TEMPLATE]/template-options.xml` and add the custom font option (line 9 in the below example):
 
 ```xml
 <field name='family' type='fonts' default='s:helvetica' primary='helvetica' label='FONT_FAMILY' isbodyclass='true' setbyurl='true' setinsession='true' setbysession='true' setincookie='true' setbycookie='true'>
