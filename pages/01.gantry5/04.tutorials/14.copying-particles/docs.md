@@ -61,7 +61,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you need to load that JS file. You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
+6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
 
 
     ![](copy-particle_1.png)
