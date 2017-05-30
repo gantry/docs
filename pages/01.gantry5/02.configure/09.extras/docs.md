@@ -90,7 +90,7 @@ The **Platform Settings** shortcut takes you to a platform-specific settings pag
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-WordPress does not currently have a Platform Settings option as it does not have an equivalent component to that which is present in Joomla.
+You can access these options from the WordPress Plugin Manager > Gantry 5 > Settings or from the Platform Settings option in the Extras Menu.
 
 [/ui-tab]
 [ui-tab title="Grav"]
@@ -103,4 +103,3 @@ You can also remove Gantry from this page.
 
 [/ui-tab]
 [/ui-tabs]
-
