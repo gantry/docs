@@ -30,7 +30,7 @@ It's recommended if you use this path that you always back up the `custom` direc
 
 Creating a new **Style Preset** is pretty simple. The first thing you will need to do is create a new `presets.yaml` file. This file should be placed in the `user/data/gantry5/themes/THEME_DIR/gantry/` directory. This will prevent your custom presets from being overwritten when the theme is updated.
 
-You can, alternatively, place the `presets.yaml` file you create in `user/themes/g5_helium/custom/gantry`. However, there is no guarantee this file will remain in place after a theme update. It's recommended if you use this path that you always back up the `custom` directory and replace it after the update is complete.
+You can, alternatively, place the `presets.yaml` file you create in `user/themes/THEME_DIR/custom/gantry`. However, there is no guarantee this file will remain in place after a theme update. It's recommended if you use this path that you always back up the `custom` directory and replace it after the update is complete.
 
 [/ui-tab]
 [/ui-tabs]
