@@ -104,7 +104,7 @@ One important line to note is `@import "nucleus/mixins/breakpoints";` which load
 // Mobile Menu Breakpoint
 @media only all and (max-width: $breakpoints-mobile-menu-breakpoint) { ... your css in here ... }
 
-@import "nucleus/mixins/breakpoints"
+@import "nucleus/mixins/breakpoints";
 ```
 
 Any CSS that you wish to apply to a specific breakpoint can be added inside the appropriate media query above.
