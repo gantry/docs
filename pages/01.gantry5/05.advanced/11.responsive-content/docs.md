@@ -114,9 +114,7 @@ This is a straight forward example of a one row/four column presentation of alte
 ```html
 <div class="g-grid">
     <div class="g-block size-100">
-        <h3 class="center">Free
-            <strong>10 days trial</strong>on all plans. No credit card needed! Need a bigger plan?
-            <a href="#" </a>.</h3>
+        <h3 class="center"><a href="#">Free <strong>10 days trial</strong> on all plans. No credit card needed! Need a bigger plan?</a></h3>
     </div>
 </div>
 <div class="g-grid">
