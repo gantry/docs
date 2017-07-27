@@ -24,7 +24,7 @@ In WordPress, this directory is located in `/wp-content/themes/THEME_NAME/custom
 [/ui-tab]
 [ui-tab title="Grav"]
 
-In Grav, this directory is located in `ROOT/user/data/gantry5/themes/THEME_NAME/custom/`.
+In Grav, this directory is located in `user/data/gantry5/themes/THEME_DIR/`.
 
 [/ui-tab]
 [/ui-tabs]

@@ -36,7 +36,7 @@ To do this, you will need to create an override of the `section.yaml` found in `
 [/ui-tab]
 [ui-tab title="Grav"]
 
-To do this, you will need to create an override of the `section.yaml` found in `ROOT/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/engine/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `user/data/gantry5/themes/THEME_DIR/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [/ui-tabs]

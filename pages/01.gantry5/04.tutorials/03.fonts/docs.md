@@ -295,7 +295,7 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ![Fonts](files_grav.png?classes=shadow,border)
 
-* Add the local font files to `THEME_DIR/custom/fonts/`.
+* Add the local font files to `user/data/gantry5/themes/THEME_DIR/fonts/`.
 * Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `ROOT/user/data/gantry5/themes/THEME_DIR/scss`.
 
 ```css
@@ -365,7 +365,7 @@ Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
 [/ui-tab]
 [ui-tab title="Grav"]
 
-Unzip the package and move the following files to `THEME_DIR/custom/fonts/`:
+Unzip the package and move the following files to `user/data/gantry5/themes/THEME_DIR/fonts/`:
 
 * BLOODY-webfont.eot
 * BLOODY-webfont.svg
@@ -423,7 +423,7 @@ Add the following to the custom SCSS file:
 [/ui-tab]
 [ui-tab title="Grav"]
 
-[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `THEME_DIR/custom/scss/`.
+[Create your custom style sheet file](../adding-a-custom-style-sheet), `custom.scss`, and add it to `user/data/gantry5/themes/THEME_DIR/scss/`.
 
 Add the following to the custom SCSS file:
 

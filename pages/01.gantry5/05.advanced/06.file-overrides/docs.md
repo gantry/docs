@@ -95,18 +95,18 @@ Gantry installs as a single plugin. This plugin provides the framework and struc
 
 Here is a quick reference guide to a typical Gantry 5 site's directory structure related to the framework and theme.
 
-| Item                        | Installed Directory Path | Custom Directory Path |
-| :-----                      | :-----                   | :-----                |
-| Gantry 5 Framework (Plugin) | `/user/plugins/gantry5`  | `THEME_DIR/custom`    |
-| Gantry 5 Theme (Theme)      | `/user/themes/THEME_DIR` | `THEME_DIR/custom`    |
+| Item                        | Installed Directory Path | Custom Directory Path                 |
+| :-----                      | :-----                   | :-----                                |
+| Gantry 5 Framework (Plugin) | `/user/plugins/gantry5`  | `user/data/gantry5/themes/THEME_DIR/` |
+| Gantry 5 Theme (Theme)      | `/user/themes/THEME_DIR` | `user/data/gantry5/themes/THEME_DIR/` |
 
 As you can see, all custom files would be placed within the theme directory's `custom` folder. How you place them from here depends on their location. For example:
 
-| Original File Path                      | Custom File Path          |
-| :-----                                  | :-----                    |
-| `/user/plugins/gantry5/admin`           | `THEME_DIR/custom/admin`  |
-| `/user/plugins/gantry5/engines/nucleus` | `THEME_DIR/custom/engine` |
-| `/user/themes/THEME_DIR/scss`           | `THEME_DIR/custom/scss`   |
+| Original File Path                      | Custom File Path                             |
+| :-----                                  | :-----                                       |
+| `/user/plugins/gantry5/admin`           | `user/data/gantry5/themes/THEME_DIR/admin/`  |
+| `/user/plugins/gantry5/engines/nucleus` | `user/data/gantry5/themes/THEME_DIR/engine/` |
+| `/user/themes/THEME_DIR/scss`           | `user/data/gantry5/themes/THEME_DIR/scss/`   |
 
 [/ui-tab]
 [/ui-tabs]
@@ -142,7 +142,7 @@ This doesn't just apply to customizing existing files, but adding new ones such 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-All themes are located in the `user/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next theme update. If you want to customize any theme file, you can do so by doing so in the `user/themes/THEME_DIR/custom/` folder.
+All themes are located in the `user/themes/` folder. Do not change or add any files to the template itself, as these changes will be wiped out during the next theme update. If you want to customize any theme file, you can do so by doing so in the `user/data/gantry5/themes/THEME_DIR/` folder.
 
 Here is an example of where the source file and customized duplicate file would be located:
 
