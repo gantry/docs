@@ -11,7 +11,7 @@ We have already detailed some of the ways you can use the `THEME_DIR/custom/` di
 
 When creating custom files, you should always keep these files in your `custom` directory. If you place overridden files or edit existing ones outside of this directory path, you run the risk of losing these customizations when the Gantry-powered theme, or the Gantry framework, is updated.
 
-! In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-content/themes/g5_hydrogen/custom`. Grav is slightly different in that while the true directory path would be `/user/themes/g5_hydrogen/`, any custom content should go to `/user/data/gantry5/themes/g5_hydrogen/`.
+! In this and other parts of documentation `THEME_DIR` refers to the primary theme directory. In Joomla using the **Hydrogen** template, the true directory path would be `/templates/g5_hydrogen/` with the user's `custom` directory path being `/templates/g5_hydrogen/custom`. In WordPress, the true directory path would be `/wp-content/themes/g5_hydrogen/` with the user's `custom` directory being `/wp-content/themes/g5_hydrogen/custom`. Grav is slightly different in that while the true directory path would be `/user/themes/g5_hydrogen/`, any custom files should placed into the following directory path `/user/data/gantry5/themes/g5_hydrogen/` (do not add `/custom/` folder in this case).
 
 ## Gantry Directory Structure
 
