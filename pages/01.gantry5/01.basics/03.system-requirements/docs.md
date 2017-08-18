@@ -13,7 +13,7 @@ Requirements
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-**Joomla+**
+**Joomla**
 
 It is strongly recommended that you always use the latest stable version of [Joomla](https://www.joomla.org/) to ensure all known bugs and security issues are addressed. Gantry 5 will only function properly on Joomla 3.4 and higher.
 
