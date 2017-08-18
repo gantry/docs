@@ -13,21 +13,21 @@ Requirements
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-**Joomla 3.4+**
+**Joomla+**
 
-It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.7.5** is the latest stable version of Joomla. Gantry 5 will only function properly on Joomla 3.4 and higher.
+It is strongly recommended that you always use the latest stable version of [Joomla](https://www.joomla.org/) to ensure all known bugs and security issues are addressed. Gantry 5 will only function properly on Joomla 3.4 and higher.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-**WordPress 4.2**
+**WordPress**
 
-It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues are addressed. At the time this document was written, **4.8.1** is the latest stable version of WordPress. We encourage you to update your WordPress install if you are running anything less than this version.
+It is strongly recommended that you always use the latest stable version of [WordPress](https://wordpress.org/) to ensure all known bugs and security issues are addressed. We encourage you to update your WordPress install if you are running anything less than WordPress 4.2.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-**Grav 1.1.8**
+**Grav**
 
 It is strongly recommended that you use the latest stable version of [Grav](http://getgrav.org). This ensures that any and all known bugs and security issues are addressed.
 
