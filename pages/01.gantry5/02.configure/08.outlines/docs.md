@@ -54,3 +54,7 @@ You can also do this from the outline-specific toolbar by selecting the gray pen
 Let's say you want to create a new outline from scratch. This is easy, and there are two ways to do it. Just select the giant plus (<i class="fa fa-fw fa-plus"></i>) icon either next to the title of the page, or in the middle of the white square at the end of the outlines list.
 
 Doing this will create an untitled outline that inherits all of its settings and properties from the **Base Outline**, as well as the preset default layout. You will want to go through and make any changes, especially to your Layout, that you need. There will also not be any pages assigned by default, so you will need to add them as desired.
+
+## Editing Outline Files
+
+! If you interested in modifying your template's / theme's Outlines outside of the Gantry 5 administrator, please navigate to your /THEME_NAME/custom/config/ directory (Grav: /user/data/gantry5/themes/THEME_NAME/config/). Here you will find all of your Outlines which contain YAML files associated with your Layout, Styles, and more.
