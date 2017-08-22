@@ -57,4 +57,4 @@ Doing this will create an untitled outline that inherits all of its settings and
 
 ## Editing Outline Files
 
-! If you interested in modifying your template's / theme's Outlines outside of the Gantry 5 administrator, please navigate to your /THEME_NAME/custom/config/ directory (Grav: /user/data/gantry5/themes/THEME_NAME/config/). Here you will find all of your Outlines which contain YAML files associated with your Layout, Styles, and more.
+! If you interested in modifying Outlines outside of the Gantry 5 administrator, please navigate to your /THEME_NAME/custom/config/ directory (Grav: /user/data/gantry5/themes/THEME_NAME/config/). Here you will find all of your Outlines which contain YAML files associated with each of their Layouts, Styles, and more.
