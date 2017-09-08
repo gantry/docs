@@ -19,6 +19,8 @@ Accomplishing this is simple. All you need to do is create an outline (or series
 
 !! This isn't a requirement. By all means, you could easily get away with using one outline for all languages. Just keep in mind that the particle content, layout, and other options will remain the same.
 
+<a href="https://learn.getgrav.org/content/multi-language#multi-language-basics" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Multilanguage Grav</a>
+
 ## Assigning an Outline
 
 ![](multi_grav_1.png?classes=shadow,border)
