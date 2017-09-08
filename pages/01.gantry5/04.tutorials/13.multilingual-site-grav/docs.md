@@ -17,7 +17,7 @@ This is particularly important when considering particle content. This would be 
 
 Accomplishing this is simple. All you need to do is create an outline (or series of outlines) that are configured the way you want them for a specific language and assign them to that language. This will ensure that, for example, the English version of the Home page is loaded with a different outline than the Spanish one.
 
-!! This isn't a requirement. By all means, you could easily get away with using one outline for all languages. Just keep in mind that the particle content, layout, and other options will remain the same.
+!!! This isn't a requirement. By all means, you could easily get away with using one outline for all languages. Just keep in mind that the particle content, layout, and other options will remain the same.
 
 <div align="center"><a href="https://learn.getgrav.org/content/multi-language#multi-language-basics" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About Multilanguage Grav</a></div>
 
