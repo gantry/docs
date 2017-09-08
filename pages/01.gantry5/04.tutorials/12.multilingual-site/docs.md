@@ -15,7 +15,6 @@ Everything written here can be applied to any Gantry-powered template.
 
 * Joomla 3.4+ (for use with Gantry 5)
 * RocketTheme Template
-* RokNavMenu Extension
 
 ! NOTE: This process is much easier when it is being done on a new website. You can accomplish this on an existing site using the same steps, but you may need to work a lot harder during menu configuration to achieve the desired result.
 
@@ -52,7 +51,7 @@ When you installed all the required languages go to **Language Manager** which c
 [/ui-callout]
 
 You can do this by selecting the **Content** tab and then selecting **New**. This will take you to a page that enables you to set up a new content language for your site.
- 
+
 ![](multilanguage_4.png?classes=shadow,border)
 
 Fill out the required information in this page. This information includes:
@@ -116,15 +115,15 @@ Let us say you have a copy of an article for each language. You can assign these
 
 ![](multilanguage_13.png?classes=shadow,border)
 
-The next thing you may want to do is to navigate to the **Global Configuration** page and access **SEO Settings**. This area of the administrator can be accessed by navigating to **Administrator -> Site -> Global Configuration**. 
+The next thing you may want to do is to navigate to the **Global Configuration** page and access **SEO Settings**. This area of the administrator can be accessed by navigating to **Administrator -> Site -> Global Configuration**.
 
 You will likely want to turn on Unicode URL aliases, especially if you have special characters in one of the selected language, for example letter 'čćšđž' in the Croatian language.
- 
+
 ### Step 6: Create a Menu for Each Language
 
 In order for everything to work and look correctly, you will want to add menus that belongs to each language in **Menu Manager**. This step will enable each user to not only access a menu that is available in their preferred language, but also to filter the site experience itself by content language.
 
-You can add a new menu by navigating to **Administrator -> Menus -> Menu Manager -> Add New Menu**. 
+You can add a new menu by navigating to **Administrator -> Menus -> Menu Manager -> Add New Menu**.
 
 ![](multilanguage_14.png?classes=shadow,border)
 
@@ -140,7 +139,7 @@ When you create the new menu item, you can do so as you would normally. The only
 
 ![](multilanguage_17.png?classes=shadow,border)
 
-One thing that you need to set (if you want specific article for example to change depending on selected language) is Menu Item Associations section's parameters. This needs to be done the same way you did the earlier article associations. 
+One thing that you need to set (if you want specific article for example to change depending on selected language) is Menu Item Associations section's parameters. This needs to be done the same way you did the earlier article associations.
 
 Later on we will be using the **Language Switcher** module to provide language buttons on our front end. To have our site seamlessly transition from one language to another we have to set "Associations".
 
@@ -156,7 +155,7 @@ Here is the menu structure:
     * Maison
 * German Menu
     * Zuhause
-* Italian Menu 
+* Italian Menu
     * Casa
 
 Here are the language articles:
@@ -195,9 +194,9 @@ This will enable you to switch seamlessly between languages on the frontend. Aft
 
 ### Step 7: Create a Template Outline for Each Language
 
-![](multilanguage_30.png?classes=shadow,border) 
- 
-At the end, you have to assign template Outlines for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Components -> Gantry 5 Themes**, selecting the theme you have as default, and selecting **Configure**. 
+![](multilanguage_30.png?classes=shadow,border)
+
+At the end, you have to assign template Outlines for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Components -> Gantry 5 Themes**, selecting the theme you have as default, and selecting **Configure**.
 
 From here, you can access the **Outlines** administrative panel, select the outline you wish to base your new language-specific layout from, and select **Duplicate**. This will create a duplicate of the outline, which you can modify to include the language-specific menu and set assign a language to the override.
 
@@ -216,7 +215,7 @@ This step is useful if you want to give your visitors the option to switch betwe
 ![](multilanguage_22.png?classes=shadow,border)
 
 You can do this as you would create any other module. By navigating to **Administrator -> Extensions -> Module Manager** and selecting **New**. Choose **Language Switcher** as the **Module Type** and configure it as you prefer.
- 
+
 ![](multilanguage_23.png?classes=shadow,border)
 
 Once this is done, you should see both the language selector module and the language-specific menu appear as expected. Your visitors can switch between languages by clicking its associated flag.
