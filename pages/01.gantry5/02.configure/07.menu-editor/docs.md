@@ -35,6 +35,9 @@ One common setting is the **Base Path** which sets the base path by which the me
 
 Keep in mind that within the Menu Particle, you can further refine this, setting a **Base Path** as well as the **Start Level** and **End Level** which comes in handy when creating a split menu.
 
+
+!!! In cases where you want to have multiple columns on a drop-down, you may experience issues where your dropdown only displays a single column. If this happens, you can resolve it by setting the `Dropdown Style` setting to **Extended** or **Default** and the `Dropdown Width` to either **Auto** or to a specified width large enough to accommodate your columns.
+
 ## Menu Item Settings
 
 ![Menu Item Settings](menu_item_settings.png?classes=shadow,border)
@@ -43,21 +46,30 @@ Each menu item has a set of settings which can be configured to meet your needs.
 
 Here is a breakdown of these settings and what they can do.
 
-| Menu Item Setting | Description                                                                                                                       |
-| :-----            | :-----                                                                                                                            |
-| Menu Item ID      | This is the ID specific to the menu item.                                                                                         |
-| Menu Item Type    | Sets the type of menu item, controlling how it behaves and the role it plays in the menu.                                         |
-| Link              | The link (relative or absolute) to which the menu item directs the user upon being selected.                                      |
-| Link Target       | Sets the target window behavior for the link. You can set it to either open the link in a new window, or the current one.         |
-| Dropdown Style    | Sets the style of dropdown for sub-menu items that appear under this particular menu item.                                        |
-| Icon              | Powered by FontAwesome, this feature gives you the ability to add a vector icon to your menu item as it is displayed in the menu. |
-| Subtitle          | Enables you to enter a subtitle, displayed below the menu item's title.                                                           |
+| Menu Item Setting  | Description                                                                                                                       |
+| :-----             | :-----                                                                                                                            |
+| Menu Item ID       | This is the ID specific to the menu item.                                                                                         |
+| Menu Item Type     | Sets the type of menu item, controlling how it behaves and the role it plays in the menu.                                         |
+| Link               | The link (relative or absolute) to which the menu item directs the user upon being selected.                                      |
+| Append Hash        | If you'd like to append a hash at the end of the URL, you can add that hash here.                                                 |
+| Link Target        | Sets the target window behavior for the link. You can set it to either open the link in a new window, or the current one.         |
+| Dropdown Style     | Sets the style of dropdown for sub-menu items that appear under this particular menu item.                                        |
+| Dropdown Direction | Set the direction you'd like the dropdown to lean.                                                                                |
+| Disable Dropdowns  | If checked and the item has dropdowns, they will not be rendered.                                                                 |
+| Dropdown Width     | Set the width of the dropdown. Can be set to `Auto`.                                                                              |
+| CSS Classes        | Enter any CSS class(es) you wish to have apply to the item.                                                                       |
+| Icon               | Powered by FontAwesome, this feature gives you the ability to add a vector icon to your menu item as it is displayed in the menu. |
+| Image              | Insert an Image to the item.                                                                                                      |
+| Icon Only          | If selected, only the icon will render.                                                                                           |
+| Subtitle           | Enables you to enter a subtitle, displayed below the menu item's title.                                                           |
 
 Once you have set the settings as you prefer, simply select **Apply** to save the changes and close the pop-up.
 
 These settings expand on the capabilities of the CMS’ integrated menu system, enhancing them with additional functionality and customization options - but only in cases where the CMS does not already provide this feature and changing these options does not have an adverse affect on the menu's functionality.
 
 In Joomla, for example, the **Menu Item ID**, **Menu Item Type**, and **Link** are provided by the CMS. Images can be as well, but overriding them in the Menu Editor is a visual change rather than a functional one, so you should be able to adjust this setting without issue.
+
+!!! In cases where you want to have multiple columns on a drop-down, you may experience issues where your dropdown only displays a single column. If this happens, you can resolve it by setting the `Dropdown Style` setting to **Extended** or **Default** and the `Dropdown Width` to either **Auto** or to a specified width large enough to accommodate your columns.
 
 ## Menu Item Types
 
