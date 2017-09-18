@@ -69,9 +69,11 @@ As of Gantry 5.3.5, Gantry 5 no longer requires that you separately install the 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-There are three primary ways to install Gantry 5 on Grav.
+There are four primary ways to install Gantry 5 on Grav.
 
-### Grav Administration Panel Method
+### Grav Administration Panel Methods
+
+#### Method A: Themes Panel
 
 The first and easiest method involves installing the Gantry 5 plugin via the Grav Administration Panel. To do this, you will need to have the [Admin plugin](https://github.com/getgrav/grav-plugin-admin) installed and active in Grav. If you do, you can access the plugin installation page by navigating to **Admin > Plugins** and selecting the **<i class="fa fa-plus" aria-hidden="true"></i> Add** button in the upper-right area of the page.
 
@@ -80,6 +82,14 @@ Here, you can either scroll and find the plugin titled **Gantry 5 Framework** or
 Once you have found the **Gantry 5 Framework** plugin, simply select the **<i class="fa fa-plus" aria-hidden="true"></i> Install** button for it and begin the installation process. A popup will ask you if you want to **Cancel** or **Continue** the installation. Just select **<i class="fa fa-check" aria-hidden="true"></i> Continue** to install.
 
 <div align="center"><a href="https://learn.getgrav.org/admin-panel" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Grav Administration Panel</a></div>
+
+#### Method B: Tools Panel
+
+![Gantry 5 Installation](tools.jpg?classes=shadow,border)
+
+The second way to install theme packages (zipped) involves the **Tools** panel. Here, you can load a zipped package using the **Install a zip package by uploading it** option. Alternatively, if you have a remote (direct) URL to the file, you can enter it into the **Install a zip package from a remote location** field and select **Install**.
+
+<div align="center"><a href="https://learn.getgrav.org/admin-panel/tools" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Tools Administration Panel</a></div>
 
 ### File Management Method
 
