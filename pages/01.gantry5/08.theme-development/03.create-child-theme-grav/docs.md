@@ -43,4 +43,6 @@ Clone outlines and configuration to the child theme [Y/n]:
 Success! Child theme new_helium created.
 ```
 
+Once this is done, you should now see your child theme appear in the **Theme** panel in the **Admin**.
+
 ![](test_1.png?classes=shadow,border)
