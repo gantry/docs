@@ -13,11 +13,9 @@ Joomla Requirements
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-**Joomla 2.5, 3.x**
+**Joomla 3.x**
 
 It is strongly recommended that you always use the latest stable version of Joomla to ensure all known bugs and security issues are addressed. At the time this document was written, **3.3** is the latest stable version of Joomla. We encourage you to update your Joomla install if you are running anything less than this version.
-
-Joomla **2.5** is supported in Gantry 4, however it has been deprecated by Joomla and no longer officially supported. We maintain a Joomla 1.5 version of Gantry, but only in a maintenance mode.
 
 [/ui-tab]
 [ui-tab title="WordPress"]

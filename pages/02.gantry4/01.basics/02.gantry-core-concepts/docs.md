@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry4]
 ---
 
-One of the key concepts that make Gantry so powerful is its ability to provide a wealth of power and functionality which can easily be accessed by the Joomla template. This makes it easier for you, the template developer, to write cleaner code. As a side benefit, it provides a level of abstraction that will allow you to go from Joomla 2.5 to 3.0+ without changing anything in your template. The Gantry library handles all the complicated bits for you.
+One of the key concepts that make Gantry so powerful is its ability to provide a wealth of power and functionality which can easily be accessed by the Joomla template. This makes it easier for you, the template developer, to write cleaner code. The Gantry library handles all the complicated bits for you.
 
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
@@ -41,7 +41,7 @@ require_once('lib/gantry/gantry.php');
 $gantry->init();
 ```
 
-This top code block is all you need to get Gantry up and running. By including the **gantry.php** bootstrap file, you are connecting to the Gantry framework and initializing it. A lot of heavy lifting gets processed in here, safely out of sight and mind. 
+This top code block is all you need to get Gantry up and running. By including the **gantry.php** bootstrap file, you are connecting to the Gantry framework and initializing it. A lot of heavy lifting gets processed in here, safely out of sight and mind.
 
 Next, we'll look at the start of the HTML:
 
@@ -98,7 +98,7 @@ defined( 'ABSPATH' ) or die( 'Restricted access' );
 global $gantry;
 ```
 
-This top code block prevents the file from being called directly by typing its URL in the address bar. The `global $gantry` is there to provide extra layer of compatibility for third-party plugins. 
+This top code block prevents the file from being called directly by typing its URL in the address bar. The `global $gantry` is there to provide extra layer of compatibility for third-party plugins.
 
 Next, is the start of the HTML:
 
@@ -231,7 +231,7 @@ Template Parameters
 
 At this point, if you don't touch anything, the default layout will be an equal size for the published modules. However, with Gantry, you can completely control how much room each module position has to work with and this is controlled via the Template Parameters user interface. Below, you see a screenshot of how this **topPosition** parameter element is rendered in the template parameters.
 
-![](layouts-top-position.jpg?classes=shadow,border) 
+![](layouts-top-position.jpg?classes=shadow,border)
 
 Full coverage of the Gantry module layout configurations and how to set up different widths can be found in the [Layouts](../configure/layouts.md) section.
 

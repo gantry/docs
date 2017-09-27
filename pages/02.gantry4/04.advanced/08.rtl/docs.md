@@ -69,7 +69,7 @@ A visual example of how this looks/works can be seen below. The first image is i
 RTL Limitations
 ---------------
 
-Gantry provides a great deal of functionality to support RTL right out of the box. However, RTL is complicated and your specific layout will need extensive RTL support in your CSS files to properly handle the needs of your design when in RTL mode. 
+Gantry provides a great deal of functionality to support RTL right out of the box. However, RTL is complicated and your specific layout will need extensive RTL support in your CSS files to properly handle the needs of your design when in RTL mode.
 
 For example, if you have a module header that is shaped like a ribbon that comes in on the left side of the module in regular LTR mode, then you must create a special version of this ribbon that comes in from the right for RTL mode. Also, you will have to provide the specific changes to the layout in your CSS file to ensure this image is rendered correctly.
 
@@ -81,6 +81,6 @@ body.rtl .module .ribbon { float: right; }
 
 to just target the **.ribbon** class in RTL mode.
 
-Other limitations are entirely based on the browsers. Some browsers support RTL mode very well. Not surprisingly, these are the browsers based on Mozilla and WebKit including: Firefox, Safari, Chrome, etc. 
+Other limitations are entirely based on the browsers. Some browsers support RTL mode very well. Not surprisingly, these are the browsers based on Mozilla and WebKit including: Firefox, Safari, Chrome, etc.
 
 Internet Explorer -- even version 9.0 -- does a very poor job of rendering in RTL mode. You will probably have to spend extensive time doing CSS work-arounds for these browsers. This is far beyond the scope of what Gantry can do for you.

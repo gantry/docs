@@ -13,7 +13,7 @@ Everything written here can be applied to any of the templates provided by Rocke
 
 ## Prerequisites
 
-* Joomla 2.5.7+, Joomla 3.x
+* Joomla 3.x
 * RocketTheme Template
 * RokNavMenu Extension
 
@@ -52,7 +52,7 @@ When you installed all the required languages go to **Language Manager** which c
 [/ui-callout]
 
 You can do this by selecting the **Content** tab and then selecting **New**. This will take you to a page that enables you to set up a new content language for your site.
- 
+
 ![](multilanguage_4.jpeg)
 
 Fill out the required information in this page. This information includes:
@@ -116,15 +116,15 @@ Let us say you have a copy of an article for each language. You can assign these
 
 ![](multilanguage_13.jpeg)
 
-The next thing you may want to do is to navigate to the **Global Configuration** page and access **SEO Settings**. This area of the administrator can be accessed by navigating to **Administrator -> Site -> Global Configuration**. 
+The next thing you may want to do is to navigate to the **Global Configuration** page and access **SEO Settings**. This area of the administrator can be accessed by navigating to **Administrator -> Site -> Global Configuration**.
 
 You will likely want to turn on Unicode URL aliases, especially if you have special characters in one of the selected language, for example letter 'čćšđž' in the Croatian language.
- 
+
 ### Step 6: Create a Menu for Each Language
 
 In order for everything to work and look correctly, you will want to add menus that belongs to each language in **Menu Manager**. This step will enable each user to not only access a menu that is available in their preferred language, but also to filter the site experience itself by content language.
 
-You can add a new menu by navigating to **Administrator -> Menus -> Menu Manager -> Add New Menu**. 
+You can add a new menu by navigating to **Administrator -> Menus -> Menu Manager -> Add New Menu**.
 
 ![](multilanguage_14.jpeg)
 
@@ -140,7 +140,7 @@ When you create the new menu item, you can do so as you would normally. The only
 
 ![](multilanguage_23.jpeg)
 
-One thing that you need to set (if you want specific article for example to change depending on selected language) is Menu Item Associations section's parameters. This needs to be done the same way you did the earlier article associations. 
+One thing that you need to set (if you want specific article for example to change depending on selected language) is Menu Item Associations section's parameters. This needs to be done the same way you did the earlier article associations.
 
 Later on we will be using the **Language Switcher** module to provide language buttons on our front end. To have our site seamlessly transition from one language to another we have to set "Associations".
 
@@ -156,7 +156,7 @@ Here is the menu structure:
     * Maison
 * German Menu
     * Zuhause
-* Italian Menu 
+* Italian Menu
     * Casa
 
 Here are the language articles:
@@ -196,13 +196,13 @@ This will enable you to switch seamlessly between languages on the frontend. Aft
 ### Step 7: Create a Template Override for Each Language
 
 ![](multilanguage_20.jpeg)
- 
-At the end, you have to assign template copy for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Extensions -> Template Manager**, selecting the template you have as default, and selecting **Duplicate**. 
+
+At the end, you have to assign template copy for each language installed. That is necessary so you can load different menus, depending on the selected language. You can do this by going to **Administrator -> Extensions -> Template Manager**, selecting the template you have as default, and selecting **Duplicate**.
 
 ![](multilanguage_21.jpeg)
 
 This will create a duplicate of your template, which you can modify to include the language-specific menu and set assign a language to the override.
- 
+
 To do this, you will want to set the **Default** language to the language you wish to have this style assigned. You can do this in the **Overview** area of the **Template Settings**.
 
 ![](multilanguage_22.jpeg)
@@ -216,7 +216,7 @@ This step is useful if you want to give your visitors the option to switch betwe
 ![](multilanguage_18.jpeg)
 
 You can do this as you would create any other module. By navigating to **Administrator -> Extensions -> Module Manager** and selecting **New**. Choose **Language Switcher** as the **Module Type** and configure it as you prefer.
- 
+
 ![](multilanguage_19.jpeg)
 
 Once this is done, you should see both the language selector module and the language-specific menu appear as expected. Your visitors can switch between languages by clicking its associated flag.
