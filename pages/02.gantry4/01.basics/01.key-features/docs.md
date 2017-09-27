@@ -9,7 +9,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Responsive grid system__
 
-  Based on [Twitter Bootstrap](http://twitter.github.com/bootstrap/) [^1]
+  Based on [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 
 
 * __Joomla and WordPress Support__
@@ -29,7 +29,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Powerful built-in fields__
 
-  Extended fields such as toggles, color-chooser, image-chooser [^1], sliders, Google fonts, textPlus with suffix and prefix labels [^1], and many more!
+  Extended fields such as toggles, color-chooser, image-chooser [^1], sliders, Google fonts, textPlus with suffix and prefix labels, and many more!
 
 
 * __Per menu-item level control over any configuration parameter__
@@ -119,7 +119,7 @@ Gantry is packed full of features created to empower the development of designs 
 
 * __Joomla ACL support__
 
-  Gantry can advantage of the great new ACL support in Joomla 2.5 [^1].
+  Gantry can advantage of the great new ACL support in Joomla.
 
 
 * __Automatic per-browser-level CSS and JS control__
