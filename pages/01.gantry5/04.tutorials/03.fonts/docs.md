@@ -11,7 +11,7 @@ There are two approaches to adding local fonts in a theme. The first adds your n
 
 The second method sets the font active to the theme, globally. This method enables you to use the new local font within the theme, but not in the **Font Picker**. You can combine the two to have your font available to both, by editing the `theme.yaml` file and making the changes to your `custom.scss` file.
 
-! In this guide we will be using **Gaspar** as our new local font. You can pick it up from [FontSquirrel](http://www.dafont.com/boulevard-saint-denis.font). Simply select the **Webfont Kit** button and download `gaspar-fontfacekit.zip`.
+! In this guide we will be using **Gaspar** as our new local font. You can pick it up from [FontSquirrel](https://www.fontsquirrel.com/fonts/gaspar). Simply select the **Webfont Kit** button and download `gaspar-fontfacekit.zip`.
 
 ### Adding a New Font to the Font Picker
 
