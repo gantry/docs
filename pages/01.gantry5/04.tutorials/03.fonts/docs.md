@@ -28,15 +28,15 @@ Here are the steps you will need to take to make this happen.
 
 ![Fonts](files1.png?classes=shadow,border)
 
-The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+1. The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
 
-You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+2. You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
 
 ![Fonts](files.png?classes=shadow,border)
 
-Next, add the local font files to `TEMPLATE_DIR/custom/fonts/`.
+3. Next, add the local font files to `TEMPLATE_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
+4. Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
@@ -99,22 +99,22 @@ fonts:
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
 
-Duplicate the `TEMPLATE_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
+5. Duplicate the `TEMPLATE_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
 ![Fonts](files1.png?classes=shadow,border)
 
-The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+1. The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
 
-You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+2. You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
 
 ![Fonts](files.png?classes=shadow,border)
 
-Add the local font files to `THEME_DIR/custom/fonts/`.
+3. Add the local font files to `THEME_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
+4. Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
@@ -177,22 +177,22 @@ fonts:
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
 
-Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
+5. Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
 ![Fonts](files1.png?classes=shadow,border)
 
-The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
+1. The first thing you will want to do is rename the **Web Fonts** subfolder in the `web fonts` directory to `gaspar`. This will make life easier for you in the next step as organizing multiple uploaded web fonts will be simpler.
 
-You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
+2. You will also want to rename the subdirectories and files so they're web friendly. Eliminating spaces, making everything lowercase, etc. This will further make your life easier as you reference these files in the YAML. For example, you can rename `Gaspar Bold-webfont.woff` to `gaspar-bold-webfont.woff`.
 
 ![Fonts](files.png?classes=shadow,border)
 
-Add the local font files to `THEME_DIR/custom/fonts/`.
+3. Add the local font files to `THEME_DIR/custom/fonts/`.
 
-Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
+4. Once this is done, you can add your new font to the YAML in the `fonts` section. Using the Helium template as an example, this is what the `theme.yaml` file looks like by default.
 
 ```yaml
 fonts:
@@ -255,7 +255,7 @@ fonts:
 
 The numbers listed here are the font weight. In general, `400` is a normal weight, `700` is bold, etc.
 
-Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
+5. Duplicate the `THEME_DIR/gantry/theme.yaml` file and place the copy in a safe place if you haven't done so already. As you will be modifying this file directly, and not through a custom override, you will likely lose these changes during an update.
 
 [/ui-tab]
 [/ui-tabs]
@@ -269,8 +269,8 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ![Fonts](files.png?classes=shadow,border)
 
-* Add the local font files to `TEMPLATE_DIR/custom/fonts/`.
-* Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `TEMPLATE_DIR/custom/scss`.
+1. Add the local font files to `TEMPLATE_DIR/custom/fonts/`.
+2. Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `TEMPLATE_DIR/custom/scss`.
 
 ```css
 @import "dependencies";
@@ -282,8 +282,8 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ![Fonts](files.png?classes=shadow,border)
 
-* Add the local font files to `THEME_DIR/custom/fonts/`.
-* Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `THEME_DIR/custom/scss`.
+1. Add the local font files to `THEME_DIR/custom/fonts/`.
+2. Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `THEME_DIR/custom/scss`.
 
 ```css
 @import "dependencies";
@@ -295,8 +295,8 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ![Fonts](files_grav.png?classes=shadow,border)
 
-* Add the local font files to `user/data/gantry5/themes/THEME_DIR/fonts/`.
-* Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `ROOT/user/data/gantry5/themes/THEME_DIR/scss`.
+1. Add the local font files to `user/data/gantry5/themes/THEME_DIR/fonts/`.
+2. Add your font to your `custom.scss` file. If you haven't already created one, you will need to do so by adding it to `ROOT/user/data/gantry5/themes/THEME_DIR/scss`.
 
 ```css
 @import "dependencies";
