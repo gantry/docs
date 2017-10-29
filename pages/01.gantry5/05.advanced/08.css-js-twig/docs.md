@@ -93,12 +93,12 @@ Add JavaScript file:
 ``` twig
 {% do gantry.document.addScript(url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js'), 10, 'head') %}
 {% do gantry.document.addScript({ 
-    src: url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js', 10, 'head'), 
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js'), 
     type: 'text/javascript',
     defer: 'defer',
     async: 'async',
     handle: 'mootools-code.js' {# WordPress only #}
-}) %}
+}, 10, 'head') %}
 ```
 
 Add inline JavaScript:
