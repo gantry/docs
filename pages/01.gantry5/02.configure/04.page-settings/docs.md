@@ -140,13 +140,13 @@ For all intents and purposes, Atoms such as **Google Analytics**, and **Custom C
 
 ### Google Analytics
 
-![Google Analytics](analytics_settings.png?classes=shadow,border)
+![Google Analytics](atoms-analytics_settings.png?classes=shadow,border)
 
 The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
 
 ### Custom CSS / JS
 
-![Custom CSS / JS](custom_settings.png?classes=shadow,border)
+![Custom CSS / JS](atoms-custom_settings.png?classes=shadow,border)
 
 ### JavaScript Frameworks
 
