@@ -26,5 +26,36 @@ Custom CSS / JS
 
 ![Custom CSS / JS](custom_settings.png?classes=shadow,border)
 
+JavaScript Frameworks
+-----
 
+The **JavaScript Frameworks** Atom gives you the ability to easily add popular JS libraries to your page.
 
+[ui-tabs position="top-left" active="0"]
+[ui-tab title="Joomla"]
+![JavaScript Frameworks](atoms-frameworks_settings.png?classes=shadow,border)
+! In Joomla the default **Bootstrap** library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2.
+[/ui-tab]
+[ui-tab title="WordPress"]
+![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
+[/ui-tab]
+[ui-tab title="Grav"]
+![JavaScript Frameworks](grav_atoms-frameworks_settings.png?classes=shadow,border)
+[/ui-tab]
+[/ui-tabs]
+
+Lightcase
+-----
+
+Lightcase is small, lightweight lightbox atom that gives you the ability to bring your images to life. It works in the background as an atom, being called with simple HTML. Here's an example:
+
+```html
+<a href="path/to/media.jpg"
+   data-rel="lightcase"
+   title="Your title"
+>
+    Your link description or thumb
+</a>
+```
+
+All you need to do to take advantage of Lightcase is to activate it as an atom on the page (or pages) you wish to use it with, and to wrap images in HTML like that seen above.

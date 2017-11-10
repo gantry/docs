@@ -138,31 +138,6 @@ For all intents and purposes, Atoms such as **Google Analytics**, and **Custom C
 
 ! When using an Atom, the path to a local file is relative to the root of the site, and not to template folder. We recommend using a stream link, such as `gantry-theme://custom/thing.css` as an example, which enables the link to work even if you switch between G5 themes or platforms.
 
-### Google Analytics
-
-![Google Analytics](atoms-analytics_settings.png?classes=shadow,border)
-
-The **Google Analytics** Atom gives you the ability to quickly add your **Google Analytics UA code** to a Layout, which runs in the background of your page during page load. It adds the necessary scripting around the code you enter in the Atom's **settings**.
-
-### Custom CSS / JS
-
-![Custom CSS / JS](atoms-custom_settings.png?classes=shadow,border)
-
-### JavaScript Frameworks
-
-The **JavaScript Frameworks** Atom gives you the ability to easily add popular JS libraries to your page.
-
-[ui-tabs position="top-left" active="0"]
-[ui-tab title="Joomla"]
-![JavaScript Frameworks](atoms-frameworks_settings.png?classes=shadow,border)
-! In Joomla the default **Bootstrap** library option will load your Joomla install's current implementation of Bootstrap based on Bootstrap 2.3.2.
-[/ui-tab]
-[ui-tab title="WordPress"]
-![JavaScript Frameworks](wp_atoms-frameworks_settings.png?classes=shadow,border)
-[/ui-tab]
-[ui-tab title="Grav"]
-![JavaScript Frameworks](grav_atoms-frameworks_settings.png?classes=shadow,border)
-[/ui-tab]
-[/ui-tabs]
+Find out more about Gantry 5's core atoms in our [atoms documentation](../../particles/atoms).
 
 
