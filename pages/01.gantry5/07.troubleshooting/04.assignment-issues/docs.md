@@ -9,4 +9,9 @@ In general, assigning an outline to a specific menu item (or page, category, etc
 
 So, if you have assigned an outline to a specific area of your site, and aren't seeing this reflected on the front end, a great place to start troubleshooting is to make sure you aren't running a third-party plugin that could be interfering with how Joomla (and ultimately Gantry) handle page assignments.
 
-One common Joomla system plugin we've seen this issue with is `System - JCK Modal`. If you believe this might be the problem, disable it and refresh your desired page.
+Some common Joomla system plugins we've seen this issue with are:
+
+`System - JCK Modal`
+`Hikashop - Geo Location`
+
+If you believe this might be the problem, disable the plugin and refresh your desired page.
