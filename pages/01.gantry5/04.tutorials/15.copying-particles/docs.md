@@ -46,7 +46,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 2. Copy `THEMENAME/particles/PARTICLENAME.yaml` to `THEMENAME/custom/particles`
 
-3. Copy `THEMENAME/scss/THEMENAME/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
+3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
 
 4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`
 
@@ -88,7 +88,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 2. Copy `THEMENAME/particles/PARTICLENAME.yaml` to `THEMENAME/custom/particles`
 
-3. Copy `THEMENAME/scss/THEMENAME/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
+3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
 
 4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`
 
@@ -130,7 +130,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 2. Copy `THEMENAME/particles/PARTICLENAME.yaml` to `/user/data/gantry5/themes/THEMENAME/particles`
 
-3. Copy `THEMENAME/scss/THEMENAME/_PARTICLENAME.scss` to `/user/data/gantry5/themes/THEMENAME/scss` (note the underscore at the start of the file name).
+3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `/user/data/gantry5/themes/THEMENAME/scss` (note the underscore at the start of the file name).
 
 4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `/user/data/gantry5/themes/THEMENAME/js`
 
