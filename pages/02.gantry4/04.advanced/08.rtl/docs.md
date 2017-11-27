@@ -12,35 +12,33 @@ RTL stands for “right-to-left", a key component when delivering a website in a
 
 The toggle to tell Joomla that a language which should be displayed in RTL format is located in the language's XML file. In the case of the default en-GB language, there is a configuration file located here:
 
-`YOUR_SITE/languages/en-GB/en-GB.xml`
+`YOUR_SITE/language/en-GB/en-GB.xml`
 
 This file looks like this:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="2.5" client="site">
-    <name>English (United Kingdom)</name>
-    <version>2.5.5</version>
-    <creationDate>2008-03-15</creationDate>
-    <author>Joomla! Project</author>
-    <authorEmail>admin\@joomla.org</authorEmail>
-    <authorUrl>www.joomla.org</authorUrl>
-    <copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <description>en-GB site language</description>
-    <files>
-        <filename>en-GB.com_contact.ini</filename>
-        ... snip ...
-        <filename>en-GB.tpl_beez5.sys.ini</filename>
-    </files>
-    <metadata>
-        <name>English (United Kingdom)</name>
-        <tag>en-GB</tag>
-        <rtl>0</rtl>
-        <locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
-        <firstDay>0</firstDay>
-    </metadata>
-    <params />
+<metafile version="3.7" client="site">
+	<name>English (en-GB)</name>
+	<version>3.8.2</version>
+	<creationDate>November 2017</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[en-GB site language]]></description>
+	<metadata>
+		<name>English (en-GB)</name>
+		<nativeName>English (United Kingdom)</nativeName>
+		<tag>en-GB</tag>
+		<rtl>0</rtl>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params />
 </metafile>
 ```
 
