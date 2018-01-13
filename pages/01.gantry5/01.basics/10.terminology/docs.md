@@ -70,3 +70,9 @@ Module instances, however, are very different. A module instance doesn't depend 
 The difference between these two can be summed up as follows:
 
 A module position is a container in which you can assign modules so they appear on the front end. A module instance is a single module, injected directly into a specific place in the page.
+
+### Chrome
+
+You'll find settings for `Chrome` in some particles, as well as in many Joomla-related modules. This is not a specific term to Gantry 5, but the question comes up from time-to-time what a Chrome setting is in a particle's configuration.
+
+Module Chrome is something which is used in Joomla (and WP, though often referred to by another name) as an HTML wrapper around the module. You could use table, divs, lists, etc. to wrap around the modules. You could also remove the HTML altogether. The feature is still there, but it's really not that useful anymore as you can do almost all of it with simple CSS3. Gantry 5 provides a single chrome option out of the box, it's called "gantry" and you can see it in module positions.
