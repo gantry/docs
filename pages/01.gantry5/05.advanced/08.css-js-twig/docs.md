@@ -105,7 +105,7 @@ Add inline JavaScript:
 
 ``` twig
 {% do gantry.document.addInlineScript('alert("test");', 0, 'footer') %}
-{% do gantry.document.addInlineScript({ 'content: alert("test");', type: 'text/javascript' }, 0, 'footer') %}
+{% do gantry.document.addInlineScript({ content: 'alert("test");', type: 'text/javascript' }, 0, 'footer') %}
 ```
 
 All the functions except `addFramework()` accepts 3 parameters where second parameter is `priority` and third parameter `location` (usually `head` or `footer`). 
