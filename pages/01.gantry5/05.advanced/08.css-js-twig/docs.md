@@ -78,7 +78,7 @@ Add CSS file:
 
 ``` twig
 {% do gantry.document.addStyle(url('gantry-assets://css/whoops.css'), 5) %}
-{% do gantry.document.addStyle({ href: url('gantry-assets://css/whoops.css' }, type: 'text/css', media: 'screen'), 5) %}
+{% do gantry.document.addStyle({ href: url('gantry-assets://css/whoops.css') }, type: 'text/css', media: 'screen'), 5) %}
 ```
 
 Add inline CSS:
