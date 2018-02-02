@@ -9,7 +9,7 @@ In some cases using third-party tools such as bbPress, you will find it difficul
 
 ## Modify Template File
 
-For bbPress, open `bbpress.php` in your theme and add `$theme->setLayout(my_layout', true);` after the variable has been set in line 20. Layout name is the name (folder) of the outline in the file system. This changes the template for all the pages unless you add some additional logic to figure out the outline to be used.
+For bbPress, open `bbpress.php` in your theme and add `$theme->setLayout('my_layout', true);` after the variable has been set in line 20. Layout name is the name (folder) of the outline in the file system. This changes the template for all the pages unless you add some additional logic to figure out the outline to be used.
 
 ## Add an Action
 
