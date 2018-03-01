@@ -37,7 +37,7 @@ The **Base Outline** acts as the global default by which all other Outlines are 
 
 ![Creating a Outline](getting_started_3.png?classes=shadow,border)
 
-To create a new Outline, simply navigate to the **Outlines** administrative panel and select the blue **Plus (+)** button, click the blank outline box with a gray **Plus (+)** sign in it, or select **Duplicate** under an outline you would like to base your new outline on.
+There are three ways you can create a new Outline. Simply navigate to the **Outlines** administrative panel and select the blue **Plus (+)** button, click the blank outline box with a gray **Plus (+)** sign in it, or select **Duplicate** under an outline you would like to base your new outline on.
 
 This will create a new outline.
 
