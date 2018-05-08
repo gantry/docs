@@ -33,7 +33,7 @@ Gantry 5 templates include four key breakpoints that are defined by `rem` units.
 [/ui-tab]
 [/ui-tabs]
 
-If you're not familiar with `rem` units. There is an excellent explainer below produced by [Russ Weakley for SitePoint](http://www.sitepoint.com/css3-rem-units/). Additionally, you can read a [detailed guide from W3](http://www.w3.org/TR/2013/CR-css3-values-20130730/#font-relative-lengths).
+If you're not familiar with `rem` units. There is an excellent explainer below produced by [Russ Weakley for SitePoint](http://www.sitepoint.com/css3-rem-units/). Additionally, you can read a [detailed guide from W3](https://www.w3.org/TR/css-values-3/#font-relative-lengths).
 
 [plugin:youtube](https://www.youtube.com/watch?v=XbU-i1SE5JY)
 
