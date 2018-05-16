@@ -12,6 +12,9 @@ So, if you have assigned an outline to a specific area of your site, and aren't 
 Some common Joomla system plugins we've seen this issue with are:
 
 `System - JCK Modal`
+
 `Hikashop - Geo Location`
+
+`Delete My Account`
 
 If you believe this might be the problem, disable the plugin and refresh your desired page.
