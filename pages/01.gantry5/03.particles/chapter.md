@@ -35,7 +35,7 @@ Discover Gantry 5's core Particles, and how they work within the **Layout Manage
     * [Settings](mobile-menu#settings)
 * [Custom HTML](custom-html)
     * [Settings](custom-html#settings)
-* [Module Instance](module-instance)
+* [Module Instance or Widget](module-instance)
     * [Settings](module-instance#settings)
 * [Page Content](page-content)
     * [Settings](page-content#settings)
