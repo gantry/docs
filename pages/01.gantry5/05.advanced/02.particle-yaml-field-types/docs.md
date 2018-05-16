@@ -182,7 +182,7 @@ Gantry Alerts, Notes and Styling
 
 Next to the standard HTML and Gantry inputs there are also a lot of other inputs. These inputs can be used to alert users or to simply add a bit of styling to the Gantry admin. With notes, you can create subsections and add more information directly available for the user. The following types are included:
 
-* seperator.note
+* separator.note
 
 ```yaml
    title:
@@ -191,7 +191,7 @@ Next to the standard HTML and Gantry inputs there are also a lot of other inputs
       content: '<h1>Your HTML GOES HERE</h1><p>Write what you want!</p>'
 ```
 
-Change the class of the `seperator.note` to any class that corresponds with your template. Standard classes are:
+Change the class of the `separator.note` to any class that corresponds with your template. Standard classes are:
 
 ```yaml
       class: alert alert-success
