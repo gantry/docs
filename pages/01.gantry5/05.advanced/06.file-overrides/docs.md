@@ -82,11 +82,12 @@ Here is a quick reference guide to a typical Gantry 5 site's directory structure
 
 As you can see, all custom files would be placed within the theme directory's `custom` folder. How you place them from here depends on their location. For example:
 
-| Original File Path                            | Custom File Path          |
-| :-----                                        | :-----                    |
-| `/wp-content/plugins/gantry5/admin`           | `THEME_DIR/custom/admin`  |
-| `/wp-content/plugins/gantry5/engines/nucleus` | `THEME_DIR/custom/engine` |
-| `/wp-content/themes/THEME_DIR/scss`           | `THEME_DIR/custom/scss`   |
+| Original File Path                             | Custom File Path          |
+| :-----                                         | :-----                    |
+| `/wp-content/plugins/gantry5/admin`            | `THEME_DIR/custom/admin`  |
+| `/wp-content/plugins/gantry5/engines/nucleus`  | `THEME_DIR/custom/engine` |
+| `/wp-content/themes/THEME_DIR/scss`            | `THEME_DIR/custom/scss`   |
+| `/wp-content/themes/THEME_DIR/admin/blueprints`| `THEME_DIR/custom/blueprints`   |
 
 [/ui-tab]
 [ui-tab title="Grav"]
