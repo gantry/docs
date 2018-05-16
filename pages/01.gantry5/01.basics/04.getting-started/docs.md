@@ -100,6 +100,8 @@ The **Assignments** administrative panel only appears on child outlines which ca
 
 7. **Particle Defaults**: The **Particle Defaults** administrative panel offers you the ability to configure the functional settings of the theme. This includes setting defaults for Particles, as well as enabling/disabling individual Particles.
 
+On Joomla, (v5.4.23/g5\_helium) there is no **Particle Defaults**.  The order are 5. Outline Dropdown, 6. Styles, 7. Layout, 8. Page Settings and 9. Assignments.  Sorry, just learning, not comfortable enough to actually write up the correction or even recognize if it's an error or just from another platform, etc.  Hope this is helpful.
+
 8. **Layout**: The **Layout** administrative panel is where you would configure the layout for your theme. Creating and placing module positions, Particles, spacers, and non-rendered scripts such as Google Analytics code is all done in this panel.
 
 9. **Assignments**: The **Assignments** administrative panel only appears on child outlines which can be assigned to specific areas of your site. If you are in the **Base Outline**, you will not see this administrative panel as it can't be assigned.
