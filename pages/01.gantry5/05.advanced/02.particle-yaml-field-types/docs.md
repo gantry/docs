@@ -94,7 +94,8 @@ There are two main types of inputs supported by Gantry. The first are basic HTML
 * input.time           
 * input.url            
 * input.week           
-* textarea.textarea    
+* textarea.textarea
+* enable.enable
 
 Gantry-specific Input Field Types
 -----
