@@ -48,7 +48,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
 
-4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`
+4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`. To determine what JS the particle depends upon you should look in the PARTICLENAME.html.twig file (usually at the bottom).
 
 5. If you don't have a custom.scss file already then you need to create one (plain text file). Your custom.scss file should be put in `THEMENAME/custom/scss`. Your custom SCSS file must have this statement as the first line:
 
@@ -64,7 +64,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
+6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab. In most cases now it's unneccessary to load JS in the **page settings** as most particles will now load the JS they require themselves.
 
 
     ![](copy-particle_1.png)
@@ -73,7 +73,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     ![](copy-particle_2.png)
 
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**.
+8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
@@ -90,7 +90,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `THEMENAME/custom/scss` (note the underscore at the start of the file name).
 
-4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`
+4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `THEMENAME/custom/js`. To determine what JS the particle depends upon you should look in the PARTICLENAME.html.twig file (usually at the bottom).
 
 5. If you don't have a custom.scss file already then you need to create one (plain text file). Your custom.scss file should be put in `THEMENAME/custom/scss`. Your custom SCSS file must have this statement as the first line:
 
@@ -115,7 +115,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     ![](copy-particle_2.png)
 
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**.
+8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
@@ -132,7 +132,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
 3. Copy `THEMENAME/scss/THEMENAME/particles/_PARTICLENAME.scss` to `/user/data/gantry5/themes/THEMENAME/scss` (note the underscore at the start of the file name).
 
-4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `/user/data/gantry5/themes/THEMENAME/js`
+4. For any JS files that you know to be required by the particle, copy `THEMENAME/js/JSFILENAME.js` to `/user/data/gantry5/themes/THEMENAME/js`. To determine what JS the particle depends upon you should look in the PARTICLENAME.html.twig file (usually at the bottom).
 
 5. If you don't have a custom.scss file already then you need to create one (plain text file). Your custom.scss file should be put in `/user/data/gantry5/themes/THEMENAME/scss`. Your custom SCSS file must have this statement as the first line:
 
@@ -157,7 +157,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     ![](copy-particle_2.png)
 
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**.
+8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
