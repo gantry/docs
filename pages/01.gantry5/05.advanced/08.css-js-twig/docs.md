@@ -1,5 +1,5 @@
 ---
-title: How to Load CSS / JS / HTML from Twig
+title: How to Load CSS / SCSS / JS / HTML from Twig
 taxonomy:
     category: docs
     tag: [gantry5]
@@ -77,35 +77,54 @@ Load JavaScript framework (just JavaScript, CSS needs to be loaded manually by y
 Add CSS file:
 
 ``` twig
-{% do gantry.document.addStyle(url('gantry-assets://css/whoops.css'), 5) %}
-{% do gantry.document.addStyle({ href: url('gantry-assets://css/whoops.css') }, type: 'text/css', media: 'screen'), 5) %}
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="gantry-theme://css/whoops.css" /> 
+{% endblock %}
 ```
 
 Add inline CSS:
 
 ``` twig
-{% do gantry.document.addInlineStyle('a { color: red; }', 0) %}
-{% do gantry.document.addInlineStyle({ content: 'a { color: red; }', type: 'text/css' }, 0) %}
+{% set red %}
+body {
+    color: red;
+}
+{% endset %}
+{% do gantry.document.addInlineStyle(red, 0) %}
 ```
 
 Add JavaScript file:
 
 ``` twig
-{% do gantry.document.addScript(url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js'), 10, 'head') %}
-{% do gantry.document.addScript({ 
-    src: url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js'), 
-    type: 'text/javascript',
-    defer: 'defer',
-    async: 'async',
-    handle: 'mootools-code.js' {# WordPress only #}
-}, 10, 'head') %}
+{% block javascript %}
+    <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js') }}"></script>
+{% endblock %}  
+```
+
+Add JavaScript file to the Footer (after </body> HTML tag):
+
+``` twig
+{% block javascript_footer %}
+    <script src="{{ url('https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js') }}"></script>
+{% endblock %}  
 ```
 
 Add inline JavaScript:
 
 ``` twig
-{% do gantry.document.addInlineScript('alert("test");', 0, 'footer') %}
-{% do gantry.document.addInlineScript({ content: 'alert("test");', type: 'text/javascript' }, 0, 'footer') %}
+{% set alert %}
+alert("test");
+{% endset %}
+{% do gantry.document.addInlineScript(alert, 0) %}
+```
+
+Add inline JavaScript to the Footer (after </body> HTML tag):
+
+``` twig
+{% set alert %}
+alert("test");
+{% endset %}
+{% do gantry.document.addInlineScript(alert, 0, 'footer') %}
 ```
 
 All the functions except `addFramework()` accepts 3 parameters where second parameter is `priority` and third parameter `location` (usually `head` or `footer`). 
@@ -114,17 +133,27 @@ First parameter can also be associative array containing the attributes of the g
 
 ## Compiling custom SCSS files
 
-Sometimes there is a need to compile a custom SCSS file to CSS and include it into the page. 
+Sometimes there is a need to compile a custom SCSS file to CSS and include it into the page (like when you want to include it only when a certain particle is present on a page). 
 
-You can do this by adding your SCSS file to the `custom/scss` folder and calling it in Twig like this:
-  
-``` twig
-{% styles with { priority: 0 } %}
-    <link rel="stylesheet" href="{{ url(gantry.theme.css('test')) }}" type="text/css"/>
-{% endstyles -%}
+To do this, it will require you to create two SCSS files. We'll call them `first.scss` and `second.scss` as an example (use any names you'd like). Place both of these files in your `THEME/custom/scss/` directory.
+
+Once you have those in place, add the following code to the `first.scss` file:
+
+``` css
+@import "second";
 ```
 
-In the above example file is `custom/scss/test.scss`. All the variables defined in **Styles** tab are available just like in any SCSS files to be compiled.
+Next, add any CSS/SCSS code to your `second.scss` file. 
+
+Once this is done, add the following to your Twig file (i.e. particle.html.twig):
+  
+``` twig
+{% block stylesheets %}
+    <link rel="stylesheet" href="first.scss" /> 
+{% endblock %}
+```
+
+If the twig file you are using is for a particle, ensure it is being used on your Outline > Layout and you have cleared your Gantry cache. Load the page and you should see your SCSS code compiled into CSS.
 
 ## Advanced Tip
 
