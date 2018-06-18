@@ -9,7 +9,7 @@ taxonomy:
 
 Starting from Gantry 5.3 there is a new, better way to add JavaScript and CSS files. 
 
-Load JavaScript framework (just JavaScript, CSS needs to be loaded manually by you):
+Load JavaScript / CSS framework:
 
 - `jquery` or `jquery.framework`
 - `jquery.ui.core`
