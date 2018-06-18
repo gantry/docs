@@ -105,27 +105,6 @@ Once this is done, add the following to your Twig file (i.e. particle.html.twig)
 
 If the twig file you are using is for a particle, ensure it is being used on your Outline > Layout and you have cleared your Gantry cache. Load the page and you should see your SCSS code compiled into CSS.
 
-## Advanced Tip
-
-You can also add your custom locations where you can output styles and scripts. As an example:
-
-
-``` twig
-{{ gantry.styles('styles')|join("\n    ")|raw }}
-{{ gantry.scripts('scripts')|join("\n    ")|raw }}
-```
-
-
-After defining the locations, you can add stuff into them just like the head and footer:
-
-
-``` twig
-{# Add javascript into your custom location. #}
-{% scripts in 'scripts' %}
-    <script type="text/javascript" src="{{ url('gantry-theme://js/script.js') }}"></script>
-{% endscripts -%}
-```
-
 ## Add HTML into Body in Gantry 5
 
 Sometimes there is a need to add some HTML right after `<body>` or just before `</body>` tag.
