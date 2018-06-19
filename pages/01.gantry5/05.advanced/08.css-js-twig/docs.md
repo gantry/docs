@@ -51,7 +51,7 @@ Add JavaScript file:
 {% endblock %}  
 ```
 
-Add JavaScript file to the Footer (after </body> HTML tag):
+Add JavaScript file to the Footer (before </ body > HTML tag):
 
 ``` twig
 {% block javascript_footer %}
@@ -68,7 +68,7 @@ alert("test");
 {% do gantry.document.addInlineScript(alert, 0) %}
 ```
 
-Add inline JavaScript to the Footer (after </body> HTML tag):
+Add inline JavaScript to the Footer (before </ body > HTML tag):
 
 ``` twig
 {% set alert %}
