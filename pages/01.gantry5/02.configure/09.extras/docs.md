@@ -30,7 +30,7 @@ The **Extras** dropdown gives you quick access to a few options that are handy t
 
 There is a process running in Gantry 5 that enables you to activate **Development** and **Production** modes. The **Development** toggle switch in the **Extras** areas of the Gantry administrator enables you to toggle between these modes as needed.
 
-When in **Development**, any change made to your SCSS (such as `custom.scss`) / Twig / YAML files will be automatically detected by Gantry, triggering an automatic recompilation of the file. This makes it easy to make changes on the fly and have them appear on your site without having to [**Recompile CSS**](../styles#controls) in the Styles tab or [**Clear Cache**](#clear-cache).
+When in **Development**, any change made to your SCSS (such as `custom.scss`) / Twig / YAML files will be automatically detected by Gantry and will only require a quick refresh on the frontend to view your changes. This makes it easy to make changes on the fly and have them appear on your site without having to [**Recompile CSS**](../styles#controls) in the Styles tab or [**Clear Cache**](#clear-cache).
 
 Once you place your site in **Production** mode you will need to [**Clear Cache**](#clear-cache) to view changes to Twig / YAML files and [**Recompile CSS**](../styles#controls) in the Styles tab to view changes to SCSS files. The benefit of putting your site in **Production** mode is that your SCSS files will be minified. This should be done once you're ready to make your website live.
 
