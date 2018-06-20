@@ -7,7 +7,7 @@ taxonomy:
 
 ## Load CSS / JS in Gantry 5
 
-Starting from Gantry 5.3 there is a new, better way to add JavaScript and CSS files. 
+Starting from Gantry 5.3 there is a new, better way to add JavaScript and CSS files via Twig. 
 
 Load JavaScript / CSS framework:
 
