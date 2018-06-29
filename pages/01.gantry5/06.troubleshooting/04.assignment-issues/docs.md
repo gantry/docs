@@ -17,4 +17,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `Delete My Account`
 
+`System - obSocialSubmit`
+
 If you believe this might be the problem, disable the plugin and refresh your desired page.
