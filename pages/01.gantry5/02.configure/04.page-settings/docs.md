@@ -180,4 +180,6 @@ Lightcase is small, lightweight lightbox atom that gives you the ability to brin
 
 All you need to do to take advantage of Lightcase is to activate it as an atom on the page (or pages) you wish to use it with, and to wrap images in HTML like that seen above.
 
+Additional documentation for Lightcase can be found here: [http://cornel.bopp-art.com/lightcase/](http://cornel.bopp-art.com/lightcase/)
+
 
