@@ -206,6 +206,8 @@ preset25:
       mobile-menu-breakpoint: 51rem
 ```
 
+!!! The variables listed in the layout presets are defined entirely by the theme, and are not core to Gantry. If you wish to define a new variable, you need to use it in your own SCSS files in order to them to have any effect.
+
 Here is a quick breakdown of the main settings and what they do:
 
 | Setting       | Description                                                                                                                                                                            |
