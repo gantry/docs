@@ -9,6 +9,8 @@ This section covers the creation of a Chrome custom module layout, and how to li
 
 >>>>> NOTE: The term **Module** in Joomla and **Widget** in WordPress mean essentially the same thing. They are blocks of data which can be placed throughout your site. For the purpose of simplifying this guide, consider the terms interchangeable, except when used to describe specific file names or functions.
 
+>>> NOTE: Back up your custom chrome modifications prior to updating Gantry 4 and/or your template/theme. This will help to to avoid losing your custom chrome as you can re-apply your changes should they be lost after the update.
+
 Step 1: Planning
 ----------------
 
