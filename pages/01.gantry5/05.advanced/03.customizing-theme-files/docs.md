@@ -26,17 +26,17 @@ In **Hydrogen** the first thing we want to do is add the **Image Picker** to the
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-To do this, you will need to create an override of the `section.yaml` found in `ROOT/wp-content/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/wp-content/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `THEME_DIR/custom/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-To do this, you will need to create an override of the `section.yaml` found in `ROOT/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `user/data/gantry5/themes/THEME_DIR/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/user/plugins/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `user/data/gantry5/themes/THEME_DIR/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [/ui-tabs]
@@ -125,17 +125,17 @@ form:
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/templates/layout`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `THEME_DIR/custom/templates/layout`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/wp-content/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `THEME_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/user/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `user/data/gantry5/themes/THEME_DIR/templates/layout`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/user/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `user/data/gantry5/themes/THEME_DIR/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [/ui-tabs]
