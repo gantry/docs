@@ -135,7 +135,7 @@ The next thing we need to do is create an override of our existing `section.html
 [/ui-tab]
 [ui-tab title="Grav"]
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/user/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `THEME_DIR/custom/templates/layout`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/user/plugins/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `user/data/gantry5/themes/THEME_DIR/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [/ui-tabs]
@@ -422,7 +422,7 @@ The Gantry Administrator's component files are located in the `ROOT/user/plugins
 
 !! Overriding these files is an advanced action and should only be done if you are absolutely certain that you need to. The vast majority of users will not need to modify any of these files.
 
-Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `gantry5` directory. For example, `ROOT/user/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `THEME_DIR/custom/admin/templates/pages/about/about.html.twig`.
+Custom copies of these files will be placed in `THEME_DIR/custom/admin` with the same directory paths as found in the main `gantry5` directory. For example, `ROOT/user/plugins/gantry5/admin/templates/pages/about/about.html.twig` would be copied to `user/data/gantry5/themes/THEME_DIR/admin/templates/pages/about/about.html.twig`.
 
 [/ui-tab]
 [/ui-tabs]
