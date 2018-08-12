@@ -156,11 +156,11 @@ To offer a real-world example: Here is a look at the `branding.html.twig` twig f
 
 ## Add HTML into Head in Gantry 5
 
-To support the full customization of a website, it is necessary to provide functionality that allow the placement of HTML direclty within the `<head>` tag. Therefore we include from **Gantry v5.4.24** on new options that give developers direct access on the HTML `<head>`.
+To support the full customization of a website, it is necessary to provide functionality that allows the placement of HTML direclty within the `<head>` tag. Therefore we include from **Gantry v5.4.24** on new options that give developers direct access on the HTML `<head>`.
 
 A similiar mechanism used for resource files can be found under [How to Load CSS / SCSS / JS / HTML from Twig](../../advanced/css-js-twig#add-html-into-body-in-gantry-5).
 
-You can add HTML from a particle or an atom by using the following `pageblock` directives.
+You can easily inject HTML from a particle or an atom by using the following `pageblock` directives.
 
 
 Add HTML after `<head>` tag:
