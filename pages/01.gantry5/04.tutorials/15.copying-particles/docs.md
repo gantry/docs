@@ -64,16 +64,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab. In most cases now it's unneccessary to load JS in the **page settings** as most particles will now load the JS they require themselves.
-
-
-    ![](copy-particle_1.png)
-
-7. The particle that you are copying may also have a dependency on a JS library (e.g. jQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **Page Settings** tab of the base outline by dragging the **JavaScript Frameworks** atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
-
-    ![](copy-particle_2.png)
-
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
+6. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*). Pay close attention to the error messages that you get, it will clearly state the variable or mixin name that is missing. Tackle the error messages one at a time and resolve each one before moving on to the next until you get a successful compile.
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
@@ -106,16 +97,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
-
-
-    ![](copy-particle_1.png)
-
-7. The particle that you are copying may also have a dependency on a JS library (e.g. jQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **Page Settings** tab of the base outline by dragging the **JavaScript Frameworks** atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
-
-    ![](copy-particle_2.png)
-
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
+6. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*). Pay close attention to the error messages that you get, it will clearly state the variable or mixin name that is missing. Tackle the error messages one at a time and resolve each one before moving on to the next until you get a successful compile.
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
@@ -148,16 +130,7 @@ These are the steps to do the copy from the **donor** theme to the **recipient**
 
     !!! You do **not** prefix the *PARTICLENAME* with an underscore.
 
-6. If the particle does use a separate JS file then you may need to load that JS file (check to see if it is being loaded in PARTICLENAME.html.twig. If so, you do not need to load it). You do this in your **recipient** theme in the base outline on the **Page Settings** tab.
-
-
-    ![](copy-particle_1.png)
-
-7. The particle that you are copying may also have a dependency on a JS library (e.g. jQuery, Mootools, etc) so you may also need to ensure the appropriate library is loaded too. You do this again on the **Page Settings** tab of the base outline by dragging the **JavaScript Frameworks** atom onto the Atoms section (if you don't already have one) and then editing the atom settings to toggle on the appropriate framework.
-
-    ![](copy-particle_2.png)
-
-8. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*).
+6. Go to the base outline **Styles** tab and click on **Recompile CSS**. At this point you may get some compilation errors about missing variables, if you do you will need to search the **donor** template to find where those variables were initialised and those statements to your custom.scss file (after the import of "dependencies" but before the import of *PARTICLENAME*). Pay close attention to the error messages that you get, it will clearly state the variable or mixin name that is missing. Tackle the error messages one at a time and resolve each one before moving on to the next until you get a successful compile.
 
 That's it! Now you should be able to use the particle from your **donor** theme in your new **recipient** theme.
 
