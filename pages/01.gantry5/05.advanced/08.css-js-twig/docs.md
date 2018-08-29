@@ -109,6 +109,8 @@ If the twig file you are using is for a particle, ensure it is being used on you
 
 Sometimes there is a need to add some HTML right after `<body>` or just before `</body>` tag.
 
+This approach works analog to the method previously described under [Particle Blocks](../../tutorials/particle-blocks#add-html-into-head-in-gantry-5).
+
 You can add HTML from **Page Settings**, but sometimes you may want to do it from a particle or an atom.
 
 Add HTML after `<body>` tag:
