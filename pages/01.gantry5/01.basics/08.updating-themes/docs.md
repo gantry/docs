@@ -120,7 +120,7 @@ The updated theme should now be available to you.
 
 ![](g5_grav_update_5.jpg?classes=shadow,border)
 
-Navigate to your Grav Admin > Tools and simply install the latest theme package via the Direct ZIP Upload or Remote URL Reference options.
+Navigate to your **Grav Admin > Tools** and simply install the latest theme package via the **Direct ZIP Upload**  or ** Remote URL Reference**  options.
 
 [/ui-tab]
 [/ui-tabs]
