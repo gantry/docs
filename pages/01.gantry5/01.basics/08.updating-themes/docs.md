@@ -49,17 +49,17 @@ In the vast majority of cases where an updated version of a theme is available, 
 
 Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the existing files with the updated version, adding new files and/or directories, and deleting any files deleted in the updated version.
 
-After you have done this, make sure you clear the WordPress cache completely and test your site.
+After you have done this, make sure you clear the WordPress / Gantry cache completely and test your site.
 
 ### Method 2: Install Full Theme Over Existing Theme
 
-If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can copy that directory and place it somewhere safe and upload the new, updated version of the theme.
+If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can simply upload the new, updated version of the theme.
 
 ![Updating](updating_2.png?classes=shadow,border)
 
 To do this, navigate to **Admin > Appearance > Themes**. At the top of the **Themes** page is an **Add New** button. Selecting it takes you to the **Add Themes** page where you can select the **Upload Theme** button which is placed in the same position the Add New button was in the last page.
 
-Now, you simply need to choose the theme's zip package and select **Install Now**. Once your installation is complete you will be given the option to **Activate** it. Do so, and before you go to any other area of the admin, use your FTP program to replace the `custom` directory and its contents that you copied earlier.
+Now, you simply need to choose the theme's zip package and select **Install Now**. Once your installation is complete you will be given the option to **Activate** it. Activate it, clear your Gantry cache, and then test your site.
 
 [/ui-tab]
 [ui-tab title="Grav"]
