@@ -19,4 +19,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - obSocialSubmit`
 
+`System - Nooku Framework`
+
 If you believe this might be the problem, disable the plugin and refresh your desired page.
