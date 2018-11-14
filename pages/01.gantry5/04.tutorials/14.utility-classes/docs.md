@@ -58,7 +58,7 @@ Variations act as friendly preset classes, ready to be deployed wherever you nee
 | :-----       | :-----                                                    |
 | Disabled     | Reduces the opacity of the element.                       |
 | Align Right  | Aligns the element's content to the right.                |
-| Aligh Left   | Aligns the element's content to the left.                 |
+| Align Left   | Aligns the element's content to the left.                 |
 | Center       | Aligns the element's content in the center.               |
 | Equal Height | Sets the element's height equal to the adjoining element. |
 | No Margin    | Sets the element's margins to 0.                          |
