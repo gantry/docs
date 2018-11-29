@@ -21,6 +21,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - Nooku Framework`
 
-`System - JoomlaTools Framework`
+`Ohanah w/ System - JoomlaTools Framework`
 
 If you believe this might be the problem, disable the plugin and refresh your desired page.
