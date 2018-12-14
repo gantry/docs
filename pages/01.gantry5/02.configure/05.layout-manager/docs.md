@@ -105,7 +105,7 @@ Find out more about inheritance in sections in our [Inheritance Guide](../inheri
 | :------        | :----------------------------------                                 |
 | Layout         | Enables you to set a `Fullwidth` or `Boxed` layout for the section. |
 | CSS Classes    | Enables you to add a CSS class for the Section.                     |
-| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the block.| 
+| Variations     | Clicking the field opens a dropdown, enabling you to select variation(s) to apply to the Section.| 
 | Tag Attributes | Enables you to add HTML attributes for the Section.                 |
 
 The **Section** settings give you the ability to change the way a particular section renders and behaves on the front end. You can set the layout type, add **custom CSS classes**, or set **HTML attributes** and do things like change the way the section looks and add properties such as JS and other extras that aren't included in the base theme.
