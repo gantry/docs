@@ -59,7 +59,7 @@ Adding a JavaScript block to your particles is pretty easy. In your particle's t
 
 You can place the block apart from the style sheet or particle block, or have it wrap around these other elements (or parts of them) to apply that JavaScript property to them. If you want a JavaScript asset to load just prior to the `</body>` tag of the page, you would exchange `block javascript` with `block javascript_footer`.
 
-Here's an example of a JavaScript block used a real-world application. In this case, this is the `analytics.html.twig` file used to create Gantry's **Google Analytics** atom.
+Here's an example of a JavaScript block used in a real-world application. In this case, this is the `analytics.html.twig` file used to create Gantry's **Google Analytics** atom.
 
 
 ```twig
@@ -141,7 +141,7 @@ Combining a style sheet block with a JavaScript block is pretty simple to do. We
 
 The particle block is the meat and potatoes of a particle. It's the content, the information that Gantry uses to create the particle on the front end. We use the particle block extensively in our [guide on creating new particles](../../advanced/creating-a-new-particle).
 
-To offer a real-world example: Here is a look at the `branding.html.twig` twig file the makes up the **Branding** particle.
+To offer a real-world example: Here is a look at the `branding.html.twig` twig file that makes up the **Branding** particle.
 
 
 ```twig
