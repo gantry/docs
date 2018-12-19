@@ -49,7 +49,7 @@ In the vast majority of cases where an updated version of a theme is available, 
 
 Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the files within your existing version, adding new files and/or directories, and deleting any files deleted in the updated version while keeping the `custom` directory intact.
 
-Alternatively, you can rename your existing theme folder (for example change it to `g5_hydrogen_old`). And then unpack and upload the new version to the `ROOT/wp-content/themes/`. You'll then want to transfer the `custom` directory (and it's contents) from the old version of the theme to the new updated theme.
+Alternatively, you can rename your existing theme folder (for example change it to `g5_hydrogen_old`). And then unpack and upload the new version to the `ROOT/wp-content/themes/` directory. You'll then want to transfer the `custom` directory (and it's contents) from the old version of the theme to the new updated theme.
 
 After you have done this, make sure you clear the WordPress / Gantry cache completely and test your site.
 
