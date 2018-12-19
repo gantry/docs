@@ -26,6 +26,8 @@ However, there may be cases where you have customized a theme file directly at t
 
 Joomla makes it easy to update your Gantry 5-powered template. Once an update is available, you will be notified in the Joomla administrator just as you would with any other extension.
 
+! If you are using a template that does not utilize Joomla's Update option as described below (this includes any [RocketTheme](http://rockettheme.com/) premium template), then simply upload the latest template package via **Administrator > Extensions > Manage > Install > Upload Package File** to update the template. Please backup your website before updating.
+
 ![Updating](updating_1.png?classes=shadow,border)
 
 You can initiate the update by navigating to **Administrator > Extensions > Manage > Update**, selecting the theme package, and then the **Update** button to initiate the update.
@@ -34,26 +36,10 @@ You can initiate the update by navigating to **Administrator > Extensions > Mana
 
 If the update is successful, you will be notified as such and you can continue to use the theme as you did previously. The update process should not affect your custom directory, though if you have any theme-related files outside of the custom directory modified, we recommend comparing your backed up copy to the new copy of the file and manually moving your customizations from there.
 
-! If you are using a template that does not utilize Joomla's Update option (this includes any [RocketTheme](http://rockettheme.com/) premium template), then simply upload the latest template package via **Administrator > Extensions > Manage > Install > Upload Package File** to update the template.
-
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-There are a few ways to go about manually updating your Gantry-powered WordPress theme.
-
-Because any changes you made in the administrator are stored in the `custom` directory, they should be safe throughout this process as long as you have performed the recommended backup beforehand.
-
-### Method 1: Selective File Replacement / Renaming Theme
-
-In the vast majority of cases where an updated version of a theme is available, there should be a changelog provided by the developer. This changelog should detail any files that were added, removed, or altered during the update. You can use this as a guide to determine which files you need to work with in your theme's directory.
-
-Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the files within your existing version, adding new files and/or directories, and deleting any files deleted in the updated version while keeping the `custom` directory intact.
-
-Alternatively, you can rename your existing theme folder (for example change it to `g5_hydrogen_old`). And then unpack and upload the new version to the `ROOT/wp-content/themes/` directory. You'll then want to transfer the `custom` directory (and it's contents) from the old version of the theme to the new updated theme.
-
-After you have done this, make sure you clear the WordPress / Gantry cache completely and test your site.
-
-### Method 2: Install Full Theme Over Existing Theme
+WordPress makes it easy to update your Gantry 5-powered theme. Because any changes you made in the admin are stored in the `custom` directory of your theme, they should be safe throughout this process as long as you have performed the recommended backup beforehand.
 
 If you are confident that the only changes you have made to your site are stored in the theme's `custom` directory, you can simply upload the new, updated version of the theme.
 
