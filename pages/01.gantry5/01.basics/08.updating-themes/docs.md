@@ -43,7 +43,7 @@ There are a few ways to go about manually updating your Gantry-powered WordPress
 
 Because any changes you made in the administrator are stored in the `custom` directory, they should be safe throughout this process as long as you have performed the recommended backup beforehand.
 
-### Method 1: Selective File Replacement
+### Method 1: Selective File Replacement / Renaming Theme
 
 In the vast majority of cases where an updated version of a theme is available, there should be a changelog provided by the developer. This changelog should detail any files that were added, removed, or altered during the update. You can use this as a guide to determine which files you need to work with in your theme's directory.
 
