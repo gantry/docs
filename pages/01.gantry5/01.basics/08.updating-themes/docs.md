@@ -39,15 +39,17 @@ If the update is successful, you will be notified as such and you can continue t
 [/ui-tab]
 [ui-tab title="WordPress"]
 
-There are a several ways to go about manually updating your Gantry-powered WordPress theme. Each of these methods requires an FTP connection to facilitate replacing the `custom` directory (as well as any customized theme files outside of that directory) as you are essentially deleting the existing theme and installing the updated version from scratch.
+There are a few ways to go about manually updating your Gantry-powered WordPress theme.
 
-Because any changes you made in the administrator are stored in the `custom` directory, they should be safe throughout this process as long as you performed the recommended backup beforehand.
+Because any changes you made in the administrator are stored in the `custom` directory, they should be safe throughout this process as long as you have performed the recommended backup beforehand.
 
 ### Method 1: Selective File Replacement
 
 In the vast majority of cases where an updated version of a theme is available, there should be a changelog provided by the developer. This changelog should detail any files that were added, removed, or altered during the update. You can use this as a guide to determine which files you need to work with in your theme's directory.
 
-Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the existing files with the updated version, adding new files and/or directories, and deleting any files deleted in the updated version.
+Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the existing files with the updated version, adding new files and/or directories, and deleting any files deleted in the updated version while keeping `custom`.
+
+Alternatively, you can rename your existing theme folder (for example change it to `g5_hydrogen_old`). And then unpack and upload the new version to the `ROOT/wp-content/themes/`. You'll then want to transfer the `custom` directory (and it's contents) from the old version of the theme to the new updated theme.
 
 After you have done this, make sure you clear the WordPress / Gantry cache completely and test your site.
 
