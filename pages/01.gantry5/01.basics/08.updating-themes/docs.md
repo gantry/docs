@@ -47,7 +47,7 @@ Because any changes you made in the administrator are stored in the `custom` dir
 
 In the vast majority of cases where an updated version of a theme is available, there should be a changelog provided by the developer. This changelog should detail any files that were added, removed, or altered during the update. You can use this as a guide to determine which files you need to work with in your theme's directory.
 
-Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the existing files with the updated version, adding new files and/or directories, and deleting any files deleted in the updated version while keeping `custom`.
+Your theme's files are contained within the theme's directory. For example, the Hydrogen theme's files can be found in `ROOT/wp-content/themes/g5_hydrogen/`. Once you have downloaded the updated version, you can unpack it and begin replacing the existing files within the updated version, adding new files and/or directories, and deleting any files deleted in the updated version while keeping the `custom` directory intact.
 
 Alternatively, you can rename your existing theme folder (for example change it to `g5_hydrogen_old`). And then unpack and upload the new version to the `ROOT/wp-content/themes/`. You'll then want to transfer the `custom` directory (and it's contents) from the old version of the theme to the new updated theme.
 
