@@ -7,8 +7,6 @@ taxonomy:
 
 Updating Gantry 5 themes is a very similar process to updating any other theme on its respective platform. The process for updating a Gantry 5 theme for Joomla, as an example, is virtually identical.
 
-That said, there are a few notes of caution that you should be aware of prior to starting a manual update. This guide will cover these and go over the update process in greater detail.
-
 ## Common Notes
 
 !! Prior to updating any template or theme, we highly recommend backing up your site from stem to stern. This includes the database (if any), and your theme's directory so that you can quickly restore it to the state it was prior to the update should you come across any issues.
@@ -76,7 +74,15 @@ All you need to do is select the **<i class="fa fa-cloud-download"></i> Update**
 
 <div align="center"><a href="https://learn.getgrav.org/admin-panel/dashboard#maintenance-and-statistics" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More About the Grav Dashboard</a></div>
 
-## Third Method: Command Line
+## Third Method: Tools
+
+! This method is available to you in the event that you are using a theme that isn't listed in the Grav GPM. One common example of this would be a premium theme from a third party, such as [RocketTheme](http://rockettheme.com).
+
+![](g5_grav_update_5.jpg?classes=shadow,border)
+
+Navigate to your **Grav Admin > Tools** and simply install the latest theme package via the **Direct ZIP Upload**  or ** Remote URL Reference**  options.
+
+## Fourth Method: Command Line
 
 Updating your theme using the command line is simple and easy. Technically, it executes the same process as you would access in the Grav Admin, but enables you to do so from the convenience of the command line.
 
@@ -92,9 +98,7 @@ The update will run by itself and the theme will be available to you as soon as 
 
 <div align="center"><a href="https://learn.getgrav.org/cli-console/grav-cli-gpm#update" class="button"><i class="fa fa-fw fa-graduation-cap"></i> Learn More Command Line Updating</a></div>
 
-## Fourth Method: File Manager
-
-! This method is available to you in the event that you are using a theme that isn't listed in the Grav GPM. One common example of this would be a premium theme from a third party, such as [RocketTheme](http://rockettheme.com).
+## Fifth Method: File Manager
 
 You can manually update the theme by doing the following:
 
@@ -103,12 +107,6 @@ You can manually update the theme by doing the following:
 * Unpack and replace the theme's directory with the contents of the package you downloaded in the first step.
 
 The updated theme should now be available to you.
-
-## Fifth Method: Tools
-
-![](g5_grav_update_5.jpg?classes=shadow,border)
-
-Navigate to your **Grav Admin > Tools** and simply install the latest theme package via the **Direct ZIP Upload**  or ** Remote URL Reference**  options.
 
 [/ui-tab]
 [/ui-tabs]
