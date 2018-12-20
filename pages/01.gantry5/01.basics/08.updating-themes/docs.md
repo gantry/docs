@@ -17,7 +17,7 @@ Outside of backing up your site, you should keep track of the file(s) you have a
 
 However, there may be cases where you have customized a theme file directly at the source, rather than editing a duplicate in the `custom` directory. If this is the case for your site, make sure you back up the file(s) and store them in a safe place. You may need them for reference after the update should any of your changes revert.
 
-! The process outlined in this guide may not apply to all Gantry 5 themes. Some third-party theme developers may have different update processes depending on their unique situations. This guide is intended to offer a common use scenario as it applies to the **Hydrogen** theme.
+! The process outlined in this guide may not apply to all Gantry 5 themes. Some third-party theme developers may have different update processes depending on their unique situations.
 
 ## Platform-specific Process
 
