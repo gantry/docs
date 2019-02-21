@@ -13,8 +13,6 @@ The **Custom** folder is the basic concept of Gantry 5 where everything that get
 
 This ensures that it can be easily backed up and never lost after updates. Because we use a flat-file approach for storing the data, it can easily get ported over to other instances, both between templates as well as between platforms.
 
-The contents of the `/config` folder in particular is important when transferring configuration data between themes. This folder contains layout and assignments information for various outlines in your site.
-
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
@@ -41,6 +39,8 @@ In Grav, this directory is located in `user/data/gantry5/themes/THEME_DIR/`.
 
 [/ui-tab]
 [/ui-tabs]
+
+The contents of the `/config` folder in particular are important when transferring configuration data between themes. This folder contains layout and assignments information for various outlines in your site.
 
 ! You may need to do some minor reconfiguration once you have moved the contents of this directory to your new theme's folder. For example, you might have certain particles or other elements that are supported on one theme and not on another.
 
