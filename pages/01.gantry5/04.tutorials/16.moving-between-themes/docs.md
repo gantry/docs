@@ -35,3 +35,5 @@ The contents of the `/config` folder in particular is important when transferrin
 
 ! You may need to do some minor reconfiguration once you have moved the contents of this directory to your new theme's folder. For example, you might have certain particles or other elements that are supported on one theme and not on another.
 
+! In the case of JOOMLA - Joomla keeps track of the templates (outlines) in it's database in a table called xxxx_template_styles so you also have to manually change this database table to reflect all the template IDs you have copied (no more, no less). This can be a complicated procedure and doing it incorrectly may irrepairably damage your site so always take a backup before undertaking such a change.
+
