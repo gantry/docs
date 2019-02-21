@@ -16,6 +16,13 @@ The **Custom** folder is the basic concept of Gantry 5 where everything that get
 
 In Joomla, this directory is located in `/templates/THEME_NAME/custom/`.
 
+In the case of the configuration files - the ID number of each outline (i.e. 235) needs to match the numbers of the directories found in `custom/config`. The ID number can be found via your Joomla Administrator -> Extensions -> Templates (far right hand column (see Image 1 below)). You can match the ID numbers of the outlines by changing the names of the directories (see Image 2). Also, if any of your layouts are inheriting sections / particles from one another, you will need to modify any ID number(s) that are shown in the layout.yaml file(s).
+
+Please backup your website before undertaking such a change.
+
+![Image 1](img01.jpg?classes=shadow,border)
+![Image 2](img02.jpg?classes=shadow,border)
+
 [/ui-tab]
 [ui-tab title="WordPress"]
 
@@ -34,6 +41,4 @@ This ensures that it can be easily backed up and never lost after updates. Becau
 The contents of the `/config` folder in particular is important when transferring configuration data between themes. This folder contains layout and assignments information for various outlines in your site.
 
 ! You may need to do some minor reconfiguration once you have moved the contents of this directory to your new theme's folder. For example, you might have certain particles or other elements that are supported on one theme and not on another.
-
-! In the case of JOOMLA - Joomla keeps track of the templates (outlines) in it's database in a table called xxxx_template_styles so you also have to manually change this database table to reflect all the template IDs you have copied (no more, no less). This can be a complicated procedure and doing it incorrectly may irrepairably damage your site so always take a backup before undertaking such a change.
 
