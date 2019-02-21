@@ -49,7 +49,7 @@ There are several options that you can apply to your particle's YAML file in ord
 
 ### Caching
 
-Particle caching enables the developer to assign particle-level caching to a particle. This is currently a hidden feature and requires the addition of a simple line within the particle's YMAL file. Here is an example:
+Particle caching enables the developer to assign particle-level caching to a particle. This is currently a hidden feature and requires the addition of a simple line within the particle's YAML file. Here is an example:
 
 ```
 configuration:
