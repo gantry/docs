@@ -40,7 +40,7 @@ In Grav, this directory is located in `user/data/gantry5/themes/THEME_DIR/`.
 [/ui-tab]
 [/ui-tabs]
 
-The contents of the `/config` folder in particular are important when transferring configuration data between themes. This folder contains layout and assignments information for various outlines in your site.
+The contents of the `/custom/config` folder in particular are important when transferring configuration data between themes. This folder contains layout and assignments information for various outlines in your site.
 
 ! You may need to do some minor reconfiguration once you have moved the contents of this directory to your new theme's folder. For example, you might have certain particles or other elements that are supported on one theme and not on another.
 
