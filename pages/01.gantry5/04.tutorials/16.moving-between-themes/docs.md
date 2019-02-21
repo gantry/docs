@@ -18,9 +18,9 @@ This ensures that it can be easily backed up and never lost after updates. Becau
 
 In Joomla, this directory is located in `/templates/THEME_NAME/custom/`.
 
-In the case of moving the configuration files from one template to another - the ID number of each outline (i.e. 235) needs to match the corresponding directory number found in `custom/config`. The ID number can be found via your Joomla Administrator -> Extensions -> Templates (far right hand column (see Image 1 below)). You can match the ID numbers of these outlines by renaming the directories (see Image 2) and then moving them over. Also, if any of your layouts are inheriting sections / particles from one another, you will need to modify any ID number(s) that are shown in the layout.yaml file(s).
+In the case of moving the configuration files from one Joomla template to another - the ID number of each outline (i.e. 235) needs to match the corresponding directory number found in `custom/config`. The ID number can be found via your Joomla Administrator -> Extensions -> Templates (far right hand column (see Image 1 below)). You can match the ID numbers of these outlines by renaming the directories (see Image 2) and then moving them over. Also, if any of your layouts are inheriting sections / particles from one another, you will need to modify any ID number(s) that are shown in the layout.yaml file(s).
 
-! If the number of outlines in your Joomla administrator is less than the number of directories you are looking to move over, simply create a new Joomla outline(s) in your Joomla administrator and then match this new ID number(s) with the directory and then move it over.
+! If the number of outlines in your Joomla administrator is less than the number of directories you are looking to move over, simply create a new Joomla outline(s) in your Joomla administrator, match this new ID number(s) with the directory, and then move it over.
 
 Please backup your website before undertaking such a change.
 
