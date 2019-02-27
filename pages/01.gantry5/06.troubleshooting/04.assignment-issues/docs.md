@@ -23,4 +23,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - JoomlaTools Framework (only the version found in Ohanah component)`
 
+`System - Jarvis Framework - plg_system_jarvis`
+
 If you believe this might be the problem, disable the plugin and refresh your desired page.
