@@ -44,7 +44,7 @@ Think about the admin as a requirement, just like WordPress or Joomla's administ
 
 We try to ensure that Gantry templates (and specifically the Gantry Library) will work with any modern and secure server environment. The recommended minimum requirements are:
 
-* PHP 5.5.9+
+* PHP 7.1.3+
     * Curl
     * OpenSSL Libraries
     * Multibyte String Support
@@ -53,12 +53,12 @@ We try to ensure that Gantry templates (and specifically the Gantry Library) wil
 
 ## Browser Requirements
 
-The back-end administration requirements of Gantry in order of preference are as follows:
+The back-end administration requirements of Gantry in order of preference are as follows (with latest version of each browser):
 
-* Google Chrome 41+
-* Firefox 36+
-* Safari 8+
-* Opera 28+
+* Google Chrome
+* Firefox
+* Safari
+* Opera
 * Microsoft Edge
 
 ! Due to the wide range of variances between default browsers on the Android platform, we are unable to accurately test and list all of the possible regional, carrier, and manufacturer software variables. We recommend an updated Chrome browser for Android as it provides a more consistent experience. Support for `flex` is the most likely sign of whether or not a browser will work with Gantry 5.
