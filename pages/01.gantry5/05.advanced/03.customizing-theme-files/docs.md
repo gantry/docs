@@ -280,7 +280,7 @@ The first table of folders is rooted in the `ROOT/templates/TEMPLATE_DIR/` direc
 | layouts           | Contains **YAML** files which make up the settings for the **Layout** presets found in the **Layout Manager**.                    |
 | particles         | Contains custom **Particles** or overriding Particles to add or modify functionality of the theme.                                |
 | scss              | Contains all the non platform specific SCSS files for the theme and is broken into several subdirectories and files.              |
-| html              | Like you would normally do in any template, in the `html` folder you can put any override for the components / modules. For instance `html/com_content/article/default.php`. [more details](https://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core)              |
+| html              | Like you would normally do in any template, in the `html` folder you can put any override for the components / modules. For instance `html/com_content/article/default.php`. [more details](https://docs.joomla.org/How_to_override_the_output_from_the_Joomla!_core)  Please note the this particular folder cannot be overidden in the /custom folder (i.e. it is not possible to override the Joomla html override folder).            |
 
 [/ui-tab]
 [ui-tab title="WordPress"]
