@@ -223,3 +223,28 @@ Here is a quick breakdown of the main settings and what they do:
 | `font`        | This section enables you to set a preset font(s).                                                                                                                                      |
 | Sections      | Each section of a Gantry theme has the ability to have its own style settings. Commonly, these include `background` and `text-color` but may also include images and overlay settings. |
 | `breakpoints` | Set the default breakpoints for the preset.                                                                                                                                            |
+
+
+## Adding Backend Section Styles
+Pleas note it is often quicker and easier to style section backgrounds by using CSS.  To do that you simply include a rule similar to the following rule:
+
+```
+#g-showcase { 
+    background-image: url("upirbackgroundimageurlgoeshere");
+    background: #000000;
+    color: #ffffff;
+}
+```
+
+There are two parts to adding new section styles to your template.  The first is to create the .yaml file to show the background and colour picker in the administraion part of your site.  The second is to ensure those colours are used in the front end of your website.
+
+The location of the backend files and front end files are as so:
+
+| Location      | Front or Back | Description                                                                                                                                                                                   |
+| :-----        | :-----                                                                                                                                                                                 |
+| /TEMPLATE_DIR/blueprint/styles/SECTION-NAME.yaml           | Back | You can copy this to /TEMPLATE_DIR/custom/blueprint/styles to override it.  Or you can create a new one in that directory to avoid being overwritten in future updates. |
+|
+| /TEMPLATE_DIR/scss/TEMPLATE_NAME/\_SECTION-NAME.yaml           | front | You can copy this to /TEMPLATE_DIR/custom/scss to override it.  Or you can create a new one in that directory to avoid being overwritten in future updates. |                                                             
+|
+
+Once you have created these files they will simply override.  If you create new ones you MUST you can import them into your file.  This can be done in cusom.css by using `@import "section-name";`.  You should note that you do NOT need to include the underscore part of the file name. 
