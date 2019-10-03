@@ -200,7 +200,7 @@ Get parent category or null.
 Get list of parent categories.
 
 ```twig
-{% set parents= category.parents() %}
+{% set parents = category.parents() %}
 ```
 
 ### `.compile(string)` Compile category into a string
