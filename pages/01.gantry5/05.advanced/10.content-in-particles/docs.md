@@ -208,7 +208,7 @@ Get list of parent categories.
 Compile category by using given string. Template `context` has variable named `category` which you can use.
 
 ```twig
-{{ category.render('<a href="{{ category.route }}">{{ category.title }}</a>') }}
+{{ category.compile('<a href="{{ category.route }}">{{ category.title }}</a>') }}
 ```
 
 ### `.render(template)` Render category
@@ -288,7 +288,7 @@ Get list of category objects starting from root category.
 Compile article by using given string. Template `context` has variable named `article` which you can use.
 
 ```twig
-{{ article.render('<a href="{{ article.route }}">{{ article.title }}</a>') }}
+{{ article.compile('<a href="{{ article.route }}">{{ article.title }}</a>') }}
 ```
 
 
