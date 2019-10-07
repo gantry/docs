@@ -25,4 +25,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - Jarvis Framework - plg_system_jarvis`
 
+`System - solidres`
+
 If you believe this might be the problem, disable the plugin and refresh your desired page.
