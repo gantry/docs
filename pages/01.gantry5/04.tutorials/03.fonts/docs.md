@@ -274,7 +274,10 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('gaspar');
+@include font-face('gaspar', 'gantry-theme://fonts/gaspar/gaspar_regular/gaspar-regular-webfont, '400');
+@include font-face('gaspar-italic', 'gantry-theme://fonts/gaspar/gaspar_italic/gaspar-italic-webfont, '400');
+@include font-face('gaspar-bold', 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont, '700');
+@include font-face('gaspar-bolditalic', 'gantry-theme://fonts/gaspar/gaspar_bolditalic/gaspar-bolditalic-webfont, '700');
 ```
 
 [/ui-tab]
@@ -287,7 +290,10 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('gaspar');
+@include font-face('gaspar', 'gantry-theme://fonts/gaspar/gaspar_regular/gaspar-regular-webfont, '400');
+@include font-face('gaspar-italic', 'gantry-theme://fonts/gaspar/gaspar_italic/gaspar-italic-webfont, '400');
+@include font-face('gaspar-bold', 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont, '700');
+@include font-face('gaspar-bolditalic', 'gantry-theme://fonts/gaspar/gaspar_bolditalic/gaspar-bolditalic-webfont, '700');
 ```
 
 [/ui-tab]
@@ -300,7 +306,10 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ```css
 @import "dependencies";
-@include import-font('gaspar');
+@include font-face('gaspar', 'gantry-theme://fonts/gaspar/gaspar_regular/gaspar-regular-webfont, '400');
+@include font-face('gaspar-italic', 'gantry-theme://fonts/gaspar/gaspar_italic/gaspar-italic-webfont, '400');
+@include font-face('gaspar-bold', 'gantry-theme://fonts/gaspar/gaspar_bold/gaspar-bold-webfont, '700');
+@include font-face('gaspar-bolditalic', 'gantry-theme://fonts/gaspar/gaspar_bolditalic/gaspar-bolditalic-webfont, '700');
 ```
 
 [/ui-tab]
