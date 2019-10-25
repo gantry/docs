@@ -26,7 +26,7 @@ In **Hydrogen** the first thing we want to do is add the **Image Picker** to the
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-To do this, you will need to create an override of the `section.yaml` found in `/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/engine/admin/blueprints/layout/`.
+To do this, you will need to create an override of the `section.yaml` found in `ROOT/media/gantry5/engines/nucleus/admin/blueprints/layout/`. To create the override, you will need to copy this file and paste it to `/TEMPLATE_DIR/custom/engine/admin/blueprints/layout/`.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
@@ -125,7 +125,7 @@ form:
 [ui-tabs position="top-left" active="0"]
 [ui-tab title="Joomla"]
 
-The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
+The next thing we need to do is create an override of our existing `section.html.twig` file. This file is located in `ROOT/media/gantry5/engines/nucleus/templates/layout`. To create an override for this file which won't be overwritten during a theme update, you will want to copy it and paste it in `/templates/TEMPLATE_DIR/custom/engine/templates/layout`. You will need to create the directory path if it doesn't already exist.
 
 [/ui-tab]
 [ui-tab title="WordPress"]
@@ -332,9 +332,10 @@ The `ROOT/media/gantry5/assets/` directory contains third-party assets used by G
 
 The following directories are rooted in the `ROOT/media/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
 
-When creating custom copies of these files, you will want to put them in `TEMPLATE_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+When creating custom copies of these files, you will want to put them in `TEMPLATE_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data. More information on this topic is outline in the [Creating Custom File Overrides](../file-overrides) chapter.
 
 | Directory          |
+|--------------------|
 | :------            |
 | admin/blueprints   |
 | layouts            |
@@ -355,7 +356,7 @@ The `ROOT/wp-content/plugins/gantry5/assets/` directory contains third-party ass
 
 The following directories are rooted in the `ROOT/wp-content/plugins/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
 
-When creating custom copies of these files, you will want to put them in `THEME_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+When creating custom copies of these files, you will want to put them in `THEME_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data. More information on this topic is outline in the [Creating Custom File Overrides](../file-overrides) chapter.
 
 | Directory          |
 | :------            |
@@ -378,7 +379,7 @@ The `ROOT/user/plugins/gantry5/assets/` directory contains third-party assets us
 
 The following directories are rooted in the `ROOT/user/plugins/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
 
-When creating custom copies of these files, you will want to put them in `user/data/gantry5/themes/THEME_DIR/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+When creating custom copies of these files, you will want to put them in `user/data/gantry5/themes/THEME_DIR/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data. More information on this topic is outline in the [Creating Custom File Overrides](../file-overrides) chapter.
 
 | Directory          |
 | :------            |
