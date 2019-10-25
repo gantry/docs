@@ -378,7 +378,7 @@ The `ROOT/user/plugins/gantry5/assets/` directory contains third-party assets us
 
 The following directories are rooted in the `ROOT/user/plugins/gantry5/engines/nucleus` directory. This directory houses files that belong to the **Nucleus** engine, which is the core of Gantry 5's layout system. It provides core CSS, layout control, core files for theme creation, etc.
 
-When creating custom copies of these files, you will want to put them in `THEME_DIR/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
+When creating custom copies of these files, you will want to put them in `user/data/gantry5/themes/THEME_DIR/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data.
 
 | Directory          |
 | :------            |
