@@ -335,7 +335,6 @@ The following directories are rooted in the `ROOT/media/gantry5/engines/nucleus`
 When creating custom copies of these files, you will want to put them in `TEMPLATE_DIR/custom/engine/` to indicate that these are engine-specific directories and not part of the theme-specific data. More information on this topic is outline in the [Creating Custom File Overrides](../file-overrides) chapter.
 
 | Directory          |
-|--------------------|
 | :------            |
 | admin/blueprints   |
 | layouts            |
