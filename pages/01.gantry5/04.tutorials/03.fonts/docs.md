@@ -68,8 +68,6 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ## Font Weights
 
-![Fonts](fonts.png?classes=shadow,border)
-
 Here's a quick reference guide to the font weight numbers found in the `theme.yaml` file, as well as noted within the **Font Picker**.
 
 | Weight | Description | Italic Variant |
