@@ -68,19 +68,19 @@ If you want to have local fonts load across your site, you can do so by completi
 
 ## Font Weights
 
-Here's a quick reference guide to the font weight numbers found in the `theme.yaml` file, as well as noted within the **Font Picker**.
+Here's a quick reference guide to the font weight numbers that are shown above in the `@font-face`:
 
-| Weight | Description | Italic Variant |
-| :----- | :-----      | :-----         |
-| 100    | Thin        | 100italic      |
-| 200    | Extra Light | 200italic      |
-| 300    | Light       | 300italic      |
-| 400    | Regular     | 400italic      |
-| 500    | Medium      | 500italic      |
-| 600    | Semi-Bold   | 600italic      |
-| 700    | Bold        | 700italic      |
-| 800    | Extra Bold  | 800italic      |
-| 900    | Ultra Bold  | 900italic      |
+| Weight | Description |
+| :----- | :-----      |
+| 100    | Thin        |
+| 200    | Extra Light |
+| 300    | Light       |
+| 400    | Regular     |
+| 500    | Medium      |
+| 600    | Semi-Bold   |
+| 700    | Bold        |
+| 800    | Extra Bold  |
+| 900    | Ultra Bold  |
 
 ## Installing a Custom Font: Example
 
