@@ -1,5 +1,5 @@
 ---
-title: Adding and Using Fonts
+title: Adding Font to Font Picker
 taxonomy:
     category: docs
     tag: [gantry5]
