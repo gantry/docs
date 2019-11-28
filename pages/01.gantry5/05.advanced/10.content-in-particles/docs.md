@@ -168,6 +168,20 @@ Operation is one of: `>`, `>=`, `<`, `<=`, `=`, `BETWEEN`, `NOT BETWEEN`, `IN` a
 {% do finder.category([1,2,3]) %}
 ```
 
+### `.tags(tags, matchAll = false)`
+
+* `tags` Object that can contain tag `ids` as well as tag `titles`
+    * `ids` Either array of tag ids or single id
+    * `titles`Either array of tag titles or a single title
+* `matchAll` Set *True* if you want to match an article against all specified tags, *false* if you want to match an article against any passed tag
+
+```twig
+{% do finder.tags({ids: [1,2,3]}) %}
+{% do finder.tags({titles: ['tag1','tag2','tag3']}) %}
+```
+
+**NOTE:** You can specify both `ids` as well as `titles` when using this routine. Please be aware that the `matchAll` parameter set to `true`will match all tags specified by id or title separately but not collectively.  
+
 # Category Object
 
 Category Object in an category instance with all the fields from the database. You can access the available fields, but there are also some functions to help you.
