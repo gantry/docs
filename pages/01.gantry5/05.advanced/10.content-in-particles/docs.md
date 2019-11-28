@@ -172,7 +172,7 @@ Operation is one of: `>`, `>=`, `<`, `<=`, `=`, `BETWEEN`, `NOT BETWEEN`, `IN` a
 
 * `tags` Object that can contain tag `ids` as well as tag `titles`
     * `ids` Either array of tag ids or single id
-    * `titles`Either array of tag titles or a single title
+    * `titles` Either array of tag titles or a single title
 * `matchAll` Set *True* if you want to match an article against all specified tags, *false* if you want to match an article against any passed tag
 
 ```twig
