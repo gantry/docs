@@ -180,7 +180,7 @@ Operation is one of: `>`, `>=`, `<`, `<=`, `=`, `BETWEEN`, `NOT BETWEEN`, `IN` a
 {% do finder.tags({titles: ['tag1','tag2','tag3']}) %}
 ```
 
-**NOTE:** You can specify both `ids` as well as `titles` when using this routine. Please be aware that the `matchAll` parameter set to `true`will match all tags specified by id or title separately but not collectively.  
+**NOTE:** You can specify both `ids` as well as `titles` when using this routine. Please be aware that the `matchAll` parameter set to `true` will match all tags specified by id or title separately but not collectively.  
 
 # Category Object
 
