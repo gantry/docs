@@ -2,7 +2,7 @@
 title: Creating a Multilingual Site (Joomla)
 taxonomy:
   category: docs
-  tag: [gantry4]
+  tag: [gantry5]
 ---
 
 ## Introduction
