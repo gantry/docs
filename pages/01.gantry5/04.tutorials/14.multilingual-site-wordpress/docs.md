@@ -11,6 +11,10 @@ Multilingual support in websites opens them up to a considerably larger audience
 
 Everything written here can be applied to any Gantry 5 theme. We'll provide instructions for setting up a multilingual site using two popular WordPress plugins: [Polylang](https://wordpress.org/plugins/polylang/) and [WPML](https://wpml.org/). 
 
+## Recommend Approach
+
+When developing a multi-lingual site we recommend that your complete your development and testing for a single language first. Then, add one language at a time and thorougly test that before moving on to the next. Adding many languages all at the same time will lead to confusion and make your site hard to debug and diagnose should anything found to be not working correctly.
+
 ## Prerequisites
 
 Begin by installing the following:
