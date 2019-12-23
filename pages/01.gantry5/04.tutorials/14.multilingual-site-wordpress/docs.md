@@ -9,16 +9,16 @@ taxonomy:
 
 Multilingual support in websites opens them up to a considerably larger audience than a single-language site might be able to. Developing a site with multilingual support takes a little know-how, and we have put together this guide to help you get through it.
 
-Everything written here can be applied to any Gantry 5 theme. We'll provide instructions for setting up a multilingual site using two popular WordPress plugins: [Polylang](https://wordpress.org/plugins/polylang/) and [WPML](https://wpml.org/). 
+Everything written here can be applied to any Gantry 5 theme. We'll provide instructions for setting up a multilingual site using the [Polylang](https://wordpress.org/plugins/polylang/) WordPress plugin (it's free!). 
 
 ## Prerequisites
 
 Begin by installing the following:
 
-* Polylang or WPML
+* Polylang
 * Gantry 5 Plugin and Theme
 
-## Polylang (Free)
+## Polylang
 
 ### Step 1: Install Additional Languages
 
@@ -64,7 +64,7 @@ In your WordPress admin, select Appearance -> Menus. Set the language switcher i
 
 ![](polylang/imgx.jpg)
 
-Go back to your theme settings, and select one of your Base Outlines and click on the Assignments tab. Assign it to Single Page (Assignments -> Page Context -> Single Page) and also the Language associated with this outline. Repeat this step for each of your Base Outlines.
+Go back to your theme settings, and select one of your Base Outlines and click on the Assignments tab. Simply assign it to the Language associated with this outline. Repeat this step for each of your Base Outlines.
 
 ### Step 8: Home Outline
 
@@ -92,7 +92,7 @@ Then assign your subpage outline to your desired language and page.
 
 Visit the frontend of your site and you should now see the language switcher and the associated Menu when selecting each language. 
 
-## WPML (Premium)
+<!--## WPML (Premium)
 
 ### Step 1: Install Additional Languages
 
@@ -164,4 +164,4 @@ Then assign it to your desired language and page.
 
 ![](wpml/img12.jpg)
 
-Visit the frontend of your site and you should now see the language switcher and the associated Menu when selecting each language.
+Visit the frontend of your site and you should now see the language switcher and the associated Menu when selecting each language.-->
