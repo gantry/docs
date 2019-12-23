@@ -9,13 +9,13 @@ taxonomy:
 
 Multilingual support in websites opens them up to a considerably larger audience than a single-language site might be able to. Developing a site with multilingual support takes a little know-how, and we have put together this guide to help you get through it.
 
-Everything written here can be applied to any Gantry 5 theme. We'll provide instructions for setting up a multilingual site using the [Polylang](https://wordpress.org/plugins/polylang/) WordPress plugin (it's free!). 
+Everything written here can be applied to any Gantry 5 theme. We'll provide instructions for setting up a multilingual site using the free WordPress plugin, Polylang. 
 
 ## Prerequisites
 
 Begin by installing the following:
 
-* Polylang
+* [Polylang](https://wordpress.org/plugins/polylang/)
 * Gantry 5 Plugin and Theme
 
 ## Polylang
