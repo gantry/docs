@@ -70,9 +70,9 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 ![Outlines](outlines.jpg?classes=shadow,border)
 
-An "outline" is a configuration that is assigned to a **Page Type**, to give it unique layout, style, assignments, and particle settings. The Outlines panel is where you can manage and create new outlines. There are two types of outlines: **Standard** and **System**.
+An "outline" is a configuration that can be [assigned](../configure/assignments) to specific pages or categories of content, to give it unique layout, style, assignments, and particle settings. The Outlines panel is where you can manage and create new outlines. There are two types of outlines: **Standard** and **System**.
 
-**Standard outlines** can be created by clicking the + button in the Outlines panel. A choice is presented to "Create From" a [Layout Preset](http://docs.gantry.org/gantry5/advanced/creating-layout-presets) or from another Outline. The new outline will inherit all of the properties and settings of the layout preset or outline that is selected from the drop-down menu. All outlines inherit their properties from the **Base** outline, which was called the **Master** outline in Gantry 4.
+**Standard outlines** can be created by clicking the + button in the Outlines panel. A choice is presented to "Create From" a [Layout Preset](../advanced/creating-layout-presets) or from another Outline. The new outline will inherit all of the properties and settings of the layout preset or outline that is selected from the drop-down menu. All outlines inherit their properties from the **Base** outline, which was called the **Master** outline in Gantry 4.
 
 **System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but cannot be created, renamed, or deleted, as they are core to Gantry.
 
