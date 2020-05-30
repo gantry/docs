@@ -27,3 +27,9 @@ Let's say you have multiple menus assigned in the page layout, but you have a sp
 
 All you have to do is open the settings for the **Menu** particle you would like to target for use as the mobile menu, and check the **Mobile Target** option. This will tell Gantry that this menu is the one that you want to have referenced by the mobile menu.
 
+Determining When the Mobile Menu is Shown
+----
+
+The Mobile Menu is shown according on a setting on the **Styles** tab of the Base Outline. Scroll to **Configuration Styles** to locate the **Mobile Menu** field, which is set to 48rem by default. This means the Mobile Menu will appear on displays up to 48rem (768px) wide. To make it visible on larger displays, increase this value.
+
+! To make the mobile menu visible at all times, set this to a very large value (e.g., 4000px, 2000rem).
