@@ -19,6 +19,8 @@ To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and c
 
 To do this, navigate in the directory structure to `THEME_DIR/custom/scss` and create a file called `custom.scss` if one doesn't already exist. If the `/scss/` directory doesn't exist within your custom folder, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file.
 
+For WordPress Multisite installations, navigate in the directory structure to `THEME_DIR/custom/SITENAME-ID/scss/` and create a file called `custom.scss` if one doesn't already exist. If the `/scss/` directory doesn't exist within your custom folder, you will need to create that, too. If it already does, just open it and make your additions/changes directly to the file. The `custom.scss` file will not be shared between sites, if you need to you will need to create another `custom.scss` file under the appropriate `THEME_DIR/custom/SITENAME-ID/scss/` folder.
+
 [/ui-tab]
 [ui-tab title="Grav"]
 
