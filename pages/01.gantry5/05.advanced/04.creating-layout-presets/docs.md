@@ -130,14 +130,14 @@ layout:
         - system-content
 
       - sidebar1 20:
-        - social
+        - social-5876
         - position-sidebar
         - position-right
 
       - sidebar2 20:
-        - social
-        - position-sidebar
-        - position-right
+        - social-8937
+        - position-sidebar2
+        - position-right2
 
   /footer/:
     -
