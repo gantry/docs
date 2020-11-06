@@ -5,7 +5,7 @@ taxonomy:
     tag: [gantry5]
 ---
 
-If you are using a Gantry 5 WordPress theme, and you are having an issue with Comments being displayed on your WordPress Page (or Post), please read the following.
+If you are using a Gantry 5 WordPress theme, and you are having an issue with Comments being displayed on your WordPress Page, please read the following.
 
 1) Ensure your Page has comments enabled.
 
