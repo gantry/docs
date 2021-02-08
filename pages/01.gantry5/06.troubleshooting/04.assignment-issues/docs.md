@@ -37,6 +37,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - Shack Error Notify`
 
-`NS FontAwesome Pro`
+`System - Mega Menu`
 
 If you believe this might be the problem, disable the plugin and refresh your desired page.
