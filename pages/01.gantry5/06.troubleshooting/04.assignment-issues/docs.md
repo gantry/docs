@@ -39,4 +39,6 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `System - Mega Menu`
 
+`System - CMSE Library Tools`
+
 If you believe this might be the problem, disable the plugin and refresh your desired page.
