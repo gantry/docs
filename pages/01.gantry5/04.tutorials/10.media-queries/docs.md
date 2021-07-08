@@ -43,7 +43,7 @@ Using your own media queries can be done very easily within your `custom.scss` f
 
 Below is an example of the code you would add to your `custom.scss` file to enable you to quickly and easily hook in to Gantry 5's breakpoints.
 
-One important line to note is `@import "nucleus/mixins/breakpoints";` which loads the [**_breakpoints.scss**](https://github.com/gantry/gantry5/blob/develop/engines/common/nucleus/scss/nucleus/mixins/_breakpoints.scss) file, making the mixin breakpoint available to use.
+One important line to note is `@import "dependencies";` which loads the `_dependencies.scss` file of the current theme, making the breakpoint mixin defined in [**_breakpoints.scss**](https://github.com/gantry/gantry5/blob/develop/engines/common/nucleus/scss/nucleus/mixins/_breakpoints.scss) available to use. More information on the purpose of the `_dependencies.scss` file is outlined [here](../adding-a-custom-style-sheet#dependenciesscss).
 
 ```scss
 // Gantry 5 custom CSS file
@@ -103,8 +103,6 @@ One important line to note is `@import "nucleus/mixins/breakpoints";` which load
 
 // Mobile Menu Breakpoint
 @media only all and (max-width: $breakpoints-mobile-menu-breakpoint) { ... your css in here ... }
-
-@import "nucleus/mixins/breakpoints";
 ```
 
 Any CSS that you wish to apply to a specific breakpoint can be added inside the appropriate media query above.
