@@ -153,6 +153,7 @@ Just like with Twig Filters - Gantry 5 also has a set of custom Twig functions t
 | colorContrast | Given a color, it returns a fitting light or dark color for better contrast. |                           |
 | get_cookie    | Gets a cookie from the current request.                                      |                           |
 | preg_match    | Searches subject for a match to the regular expression given in pattern.     | `pattern` `subject`       |
+| preg_split    | Splits subject by a regular expression given in pattern and a limit.         | `pattern` `subject` `limit` |
 | url           | Takes a stream and converts it to a real URL.                                |                           |
 | json_decode   | Basically the same as `json_decode()` in PHP.                                | `assoc` `depth` `options` |
 | imagesize     | Grabs the image dimensions and outputs it in HTML tag format.                |                           |
