@@ -58,7 +58,7 @@ Each tab located near the top of the **Gantry Admin** gives the user quick acces
 
 There are two different types of panels. The first, located along the very top of the **Gantry Admin**, are global settings which affect not only your selected outline, but the site as a whole. These include the **Menu** and **About** panels. Additionally, you can use the **Outlines** panel to manage and create new outlines for your site.
 
-The second type of panels are available on the gray tabs bar and they enable you to refine settings for the presently-selected outline. These **Outline-specific** panels make it possible for you to give each page of your site a unique look, visually setting your front page apart from your About page, for example.
+The second type of panels are available on the gray tabs bar and they enable you to refine settings for the presently-selected outline. These **Outline-specific** panels make it possible for you to give each page of your site a unique look, visually setting your Home page apart from your About page, for example.
 
 A quick description of each of these panels can be found below.
 
@@ -70,13 +70,14 @@ The **Global Admin Panels** do not affect a single Outline, but have influence o
 
 ![Outlines](outlines.jpg?classes=shadow,border)
 
-This panel is where you can manage and create new outlines, each with its own set of layout, style, assignments, and particle settings. There are two types of outlines, **Standard** and **System**.
+An "outline" is a configuration that can be [assigned](../configure/assignments) to specific pages or categories of content, to give it unique layout, style, assignments, and particle settings. The Outlines panel is where you can manage and create new outlines. There are two types of outlines: **System** and **Standard**.
 
-**Standard outlines** can be created by the user, based on one of several available **Layout Presets**, and assigned to various page types to give them a unique layout and/or set of settings. Your **Base** outline acts as the **Master** outline did in Gantry 4, with all other outlines being overrides which enable you to change settings to meet the needs of a specific page.
+**System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but cannot be created, renamed, or deleted, as they are core to Gantry.
 
-**System outlines** are core outlines which are linked to specific page types, such as 404 or Offline. These outlines can be edited, but can not be created, renamed, or deleted, as they are core to Gantry.
+**Standard outlines** can be created by clicking the + button in the Outlines panel. A choice is presented to "Create From" a [Layout Preset](../advanced/creating-layout-presets) or from another Outline. The new outline will inherit all of the properties and settings of the layout preset or outline that is selected from the drop-down menu. All outlines inherit their properties from the **Base** outline, which was called the **Master** outline in Gantry 4.
 
-You can switch to an individual Outline in two ways. This panel will enable you to set a specific Outline as active in the Outline-specific panels of the Admin by clicking their associated **edit** buttons. Alternatively, you can switch between them using the drop-down menu located on the left-hand side of the toolbar which hosts the **outline-specific administrative panels**.
+**To edit an outline** in the Outlines panel, click the edit button at the bottom of its tile. You can also select an outline to edit from within in the **Outline Specific** panels (Styles, Layout, Page Settings, and Assignments) by selecting the outline name from the drop-down menu located on the left-hand side of the toolbar.
+
 
 ![Outlines](outlines2.jpg?classes=shadow,border)
 
