@@ -40,3 +40,9 @@ debugger:
   twig: true
   shutdown:
     close_connection: true
+
+errors:
+  display: 0
+
+strict_mode:
+  twig_compat: true   
