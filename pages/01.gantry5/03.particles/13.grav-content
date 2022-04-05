@@ -1,0 +1,20 @@
+---
+title: Grav Content
+taxonomy:
+    category: docs
+    tag: [gantry5]
+---
+
+### How to add content from a grav page to anywhere in your gantry5 layout
+
+1. Create a Grav page /license. Enter content "This is license content to add". In Options tab, set 'Category' to 'licenseinfo'. Save page.
+2. Create another Grav page /test. Enter "This is main test page". Save page.
+3. Create a Gantry 5 outline.
+  3.1 Under Gantry 5 in Admin, click Outlines near top right.
+  3.2 Click [+] in upper left.
+  3.3. Set title to 'Test' and click [Confirm].
+  3.4 Click [Back to Setup]
+  3.5 Select 'Test' outline from drop-down in upper left.
+  3.6 Modify outline by clicking gear on, say, 'Header', click lock symbol to unlock settings, click 'Inheritance' tab, set 'Outline' to 'No Inheritance', and click [Apply and Save]. Now drag a **Grav Content** particle into Header and click gear on particle. Set 'Categories' to "licenseinfo" and click [Apply and Save]. Click [Save Layout].
+4. Click 'Assignments'. With 'Test' outline set in drop-down list, under 'Pages' on left find 'test' Grav page and click switch green to assign 'Test' outline to 'test' page. Click [Save Assignments].
+5. Load test page by visiting yoursiteFQDN/test in your browser. You should see the /license page content showing up.
