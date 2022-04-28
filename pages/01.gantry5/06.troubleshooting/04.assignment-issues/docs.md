@@ -35,7 +35,7 @@ Some common Joomla system plugins we've seen this issue with are:
 
 `CacheControl`
 
-`System - Shack Error Notify`
+`System - Shack Error Notify` (fixed in v1.0.5)
 
 `System - Mega Menu`
 
