@@ -19,9 +19,9 @@ In Gantry, these elements are escaped by default. This is a security precaution 
 
 ## Helpful Resources
 
-The extensive Twig documentation from SensioLabs covers [Filters](http://twig.sensiolabs.org/doc/filters/index.html) extensively. We only covered a couple of the over 30 officially supported in Twig.
+The extensive Twig documentation from SensioLabs covers [Filters](https://twig.symfony.com/doc/2.x/filters/index.html) extensively. We only covered a couple of the over 30 officially supported in Twig.
 
-You will even find more detailed documentation about each filter, including how and when to use it, as well. We recommend starting with reading about [escape](http://twig.sensiolabs.org/doc/filters/escape.html) and [raw](http://twig.sensiolabs.org/doc/filters/raw.html) as these are used frequently in our documentation, as well as in the Hydrogen theme.
+You will even find more detailed documentation about each filter, including how and when to use it, as well. We recommend starting with reading about [escape](https://twig.symfony.com/doc/2.x/filters/escape.html) and [raw](https://twig.symfony.com/doc/2.x/filters/raw.html) as these are used frequently in our documentation, as well as in the Hydrogen theme.
 
 ## Custom Twig Filters
 
